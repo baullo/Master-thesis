@@ -1,10 +1,11 @@
+% !TeX root = main.tex
 \documentclass[12pt, twoside, a4paper]{report}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 \usepackage[english]{babel}
 \usepackage{amsmath, amssymb, amsfonts}
-\usepackage{graphicx, caption, subcaption}
+\usepackage{graphicx, caption, subcaption, float}
 \usepackage{booktabs, multirow}
 \usepackage[top=2.5cm, bottom=2.5cm, inner=3cm, outer=2.5cm]{geometry}
 \usepackage{ circuitikz }
@@ -30,14 +31,14 @@
 
 \begin{document}
 
-\input{Tex_files/titlepage}
+\input{Tex_files/titlepage.tex}
 \tableofcontents
-\input{Tex_files/introduction}
-\input{Tex_files/theory}
-\input{Tex_files/experimental methods}
-\input{Tex_files/results}
+\input{Tex_files/introduction.tex}
+\input{Tex_files/theory.tex}
+\input{Tex_files/experimental methods.tex}
+\input{Tex_files/results.tex}
 
 \bibliographystyle{plain} 
-\bibliography{Tex_files/references}
+\bibliography{Tex_files/references.bib}
 
 \end{document}
