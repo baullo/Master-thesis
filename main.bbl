@@ -1,0 +1,73 @@
+\begin{thebibliography}{10}
+
+\bibitem{cathodic_arcs}
+André Anders.
+\newblock {\em Cathodic arcs: from fractal spots to energetic condensation},
+  volume~50.
+\newblock Springer, 2008.
+
+\bibitem{RN5}
+André Anders and George~Yu Yushkov.
+\newblock Ion flux from vacuum arc cathode spots in the absence and presence of
+  a magnetic field.
+\newblock {\em Journal of Applied Physics}, 91(8):4824--4832, 2002.
+
+\bibitem{bendikt2012}
+J.~Benedikt et~al.
+\newblock Quadrupole mass spectrometry of reactive plasmas.
+\newblock {\em Surface \& Coatings Technology}, 206:579--588, 2012.
+
+\bibitem{chen1984introduction}
+Francis~F. Chen.
+\newblock {\em Introduction to Plasma Physics and Controlled Fusion}, volume~1.
+\newblock Springer, New York, 1984.
+
+\bibitem{dawson_quadrupole_1997}
+P.~H. Dawson.
+\newblock {\em Quadrupole Mass Spectrometry and Its Applications}.
+\newblock IM Publications, Chichester, UK, 1997.
+
+\bibitem{hiden_eqp_manual}
+Hiden Analytical, Warrington, UK.
+\newblock {\em EQP Technical Manual: Energy-Resolving Quadrupole Mass
+  Spectrometer}, 2024.
+
+\bibitem{SQM160_manual}
+INFICON, Bad Ragaz, Switzerland.
+\newblock {\em SQM-160 Multi-Film Rate/Thickness Monitor Operating Manual},
+  2015.
+\newblock PN 074-511-P1E.
+
+\bibitem{Lu1972}
+C.~Lu and O.~Lewis.
+\newblock Investigation of film-thickness determination by oscillating quartz
+  resonators with large mass load.
+\newblock {\em Journal of Applied Physics}, 43(11):4385--4390, 1972.
+
+\bibitem{march_quadrupole_1989}
+R.~E. March and R.~J. Hughes.
+\newblock {\em Quadrupole Storage Mass Spectrometry}.
+\newblock Wiley, 1989.
+
+\bibitem{Miller1968}
+R.~E. Miller and D.~I. Bolef.
+\newblock Shear modulus and internal friction in single-crystal quartz at low
+  temperatures.
+\newblock {\em Journal of Applied Physics}, 39(11):5815--5821, 1968.
+
+\bibitem{Sauerbrey_1959}
+Günter Sauerbrey.
+\newblock Verwendung von schwingquarzen zur wägung dünner schichten und zur
+  mikrowägung.
+\newblock {\em Zeitschrift für Physik}, 155(2):206–222, Apr 1959.
+
+\bibitem{unutulmazsoy}
+Yeliz Unutulmazsoy, Dmitry Kalanov, Kyunghwan Oh, Soheil Karimi~Aghda,
+  Jürgen~W. Gerlach, Nils Braun, Frans Munnik, Andriy Lotnyk, Jochen~M.
+  Schneider, and André Anders.
+\newblock Toward decoupling the effects of kinetic and potential ion energies:
+  Ion flux dependent structural properties of thin (v,al)n films deposited by
+  pulsed filtered cathodic arc.
+\newblock {\em Journal of Vacuum Science \& Technology A}, 41(6), 2023.
+
+\end{thebibliography}

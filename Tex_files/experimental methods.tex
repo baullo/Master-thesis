@@ -1,0 +1,380 @@
+\chapter{Experimental Methodology}
+
+\section{Experimental Apparatus and Setup}
+
+\subsection{Vacuum \& Gas Infrastructure}
+The chamber was evacuated using a two-stage pumping system consisting of a turbo-molecular pump (backed by a rotary vane pump for initial roughing) and a cryogenic pump, achieving a base pressure of $1 \times 10^{-5}$~Pa. Nitrogen gas (N$_2$, 99.999\% purity) was introduced via a mass flow controller (MFC), with chamber pressures ranging from 0.025--0.3~Pa during experiments,\\
+
+Plasma was generated using a water-cooled cathode composed of 75~wt\% Ti--25~wt\% Al (62.8~at\% Ti--37.2~at\% Al) with a diameter of 6.35~mm and 38.1~mm long. The arc power supply operated in pulsed DC mode, delivering up to 400~A at a pulse frequency of 0.2--5~Hz, and also powered the 90$^\circ$ curved macroparticle filter in series. An accelerator coil (EM-coil), capable of currents up to 700~A, was pulsed 200~$\mu$s before arc ignition to stabilize the magnetic field. The QCM and Langmuir probe were mounted on a custom adjustable mechanism screwed to the chamber floor at 10--20~cm from the filter exit, while the energy-resolving mass spectrometer (ERMS) was positioned using a linear feedthrough for external adjustment.\\
+
+The vacuum chamber setup for cathodic arc plasma diagnostics and thin film deposition is shown in Figure~\ref{fig:vacuumchamber}.
+The arc power supply generates and steers the plasma, while the EM-coil power supply enhances the plasma energy and confinement.\\
+
+The green arrow illustrates the trajectory of the plasma plume as it expands from the cathode, passes through the macroparticle filter, and reaches the diagnostics. \\
+An energy-resolving mass spectrometer (ERMS) analyzes the ion energy and mass distribution, with its position adjusted relative to the macroparticle filter, to study spatial variations in the plasma plume. A Langmuir probe measures the ion current, and a quartz crystal microbalance (QCM) monitors the deposited mass in situ. An oscilloscope records time-resolved electrical signals: channels 1 and 2 measure the voltage drop at the cathode, while channels 3 and 4 capture the current supplied to the arc and EM-coil, as well as the ion current collected by the probe on another channel.
+The delay generator acts as a master clock, triggering the arc power supply, EM-coil activation, and diagnostic tools with precise timing to ensure that ion flux, energy, and deposition rate measurements are directly comparable and time-correlated.
+
+
+
+
+\begin{figure}[!ht]
+\centering
+\resizebox{1\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\Large]
+\draw  (4,10) ellipse (0.25cm and 1.5cm);
+\node [font=\LARGE] at (4,9.5) {};
+\node [font=\LARGE] at (4,9.5) {};
+\node [font=\LARGE] at (4,9.5) {};
+\draw [ rotate around={-12:(4.25,10)}] (4.25,10) ellipse (0.25cm and 1.5cm);
+\draw [ rotate around={-25:(4.5,10)}] (4.5,10) ellipse (0.25cm and 1.5cm);
+\draw [ rotate around={-56:(5.25,9.25)}] (5.25,9.25) ellipse (0.25cm and 1.5cm);
+\draw [ rotate around={-37:(4.75,9.75)}] (4.75,9.75) ellipse (0.25cm and 1.5cm);
+\draw [ rotate around={-69:(5.5,9)}] (5.5,9) ellipse (0.25cm and 1.5cm);
+\draw [ rotate around={-88:(5.5,8.5)}] (5.5,8.5) ellipse (0.25cm and 1.5cm);
+\draw [ rotate around={-44:(5,9.5)}] (5,9.5) ellipse (0.25cm and 1.5cm);
+\draw [ color={rgb,255:red,224; green,27; blue,36} ] (5.5,7.75) ellipse (1cm and 0.25cm);
+\draw [short] (7,8.5) -- (7,6.25);
+\draw [short] (4,11.5) -- (4,12.75);
+\draw [short] (4,12.75) -- (11,12.75);
+\draw [short] (5.5,5.25) -- (5.5,4.25);
+\draw [ fill={rgb,255:red,222; green,221; blue,218} , line width=1pt ] (5,6.5) rectangle (6,5.5);
+\draw [ color={rgb,255:red,224; green,27; blue,36}, short] (11,6.75) -- (5.75,6.75);
+\draw [ color={rgb,255:red,224; green,27; blue,36}, short] (11.5,8) -- (5.75,8);
+\draw [ fill={rgb,255:red,119; green,118; blue,123} ] (5.25,4.75) rectangle (5.75,6.75);
+\node [font=\LARGE] at (4.75,5.25) {};
+\draw [short] (7,6.25) -- (6,6.25);
+\draw [ color={rgb,255:red,224; green,27; blue,36} ] (5.5,7) ellipse (1cm and 0.25cm);
+\draw [ color={rgb,255:red,224; green,27; blue,36} ] (5.5,7.25) ellipse (1cm and 0.25cm);
+\draw [ color={rgb,255:red,224; green,27; blue,36} ] (5.5,7.5) ellipse (1cm and 0.25cm);
+\draw [line width=1.5pt, short] (5,6.5) -- (5,7.75);
+\draw [line width=1.5pt, short] (6,6.5) -- (6,7.75);
+\draw [ fill={rgb,255:red,246; green,245; blue,244} ] (-9,7.25) rectangle  node {\Large Ion probe circuit} (-3.75,6);
+\draw [ fill={rgb,255:red,246; green,245; blue,244} ] (-5.75,5.5) rectangle  node {\Large QCM} (-3.25,3.75);
+\node [font=\LARGE] at (-1.5,11.5) {};
+\node [font=\Large] at (-1.5,12) {};
+\node [font=\normalsize] at (-0.75,11.5) {};
+\draw [ fill={rgb,255:red,246; green,245; blue,244} ] (10.25,14.75) rectangle  node {\Large Arc PSU} (15.25,13);
+\draw [ fill={rgb,255:red,246; green,245; blue,244} ] (10.25,6) rectangle  node {\Large EM-coil PSU} (15.25,4.25);
+\draw [ color={rgb,255:red,224; green,27; blue,36}, short] (11.5,8) -- (11.5,6);
+\draw [ color={rgb,255:red,224; green,27; blue,36}, short] (11,6.75) -- (11,6);
+\draw (14.75,6) to[short, -o] (14.75,7) ;
+\draw (14.75,13) to[short, -o] (14.75,12) ;
+\draw (-7.25,6) to[short, -o] (-7.25,5) ;
+\draw [ fill={rgb,255:red,246; green,245; blue,244} ] (-9,3.25) rectangle  node {\Large Oscilloscope} (-3.25,0);
+\draw  (10,8) ellipse (0.25cm and 0.5cm);
+\draw  (7.75,12.75) ellipse (0.25cm and 0.5cm);
+\draw [short] (10,8.5) -- (10,9);
+\draw [short] (7.75,13.25) -- (7.75,13.75);
+\draw (7.75,13.75) to[short, -o] (7.75,14) ;
+\draw (10,9) to[short, -o] (10,9.25) ;
+\draw [ color={rgb,255:red,129; green,61; blue,156}, line width=1pt, ->, >=Stealth, dashed] (13,10.75) -- (11.5,10.75);
+\draw [ color={rgb,255:red,129; green,61; blue,156}, line width=1pt, ->, >=Stealth, dashed] (13,11.5) -- (10.25,12.5);
+\node [font=\large, color={rgb,255:red,229; green,165; blue,10}] at (14,11.75) {};
+\node [font=\Large, color={rgb,255:red,129; green,61; blue,156}] at (13.5,11.5) {(1)};
+\node [font=\Large, color={rgb,255:red,129; green,61; blue,156}] at (13.5,10.75) {(2)};
+\node [font=\Large, color={rgb,255:red,229; green,165; blue,10}] at (7.25,14) {(3)};
+\node [font=\Large, color={rgb,255:red,229; green,165; blue,10}] at (10,9.75) {(4)};
+\node [font=\Large, color={rgb,255:red,224; green,27; blue,36}] at (14.75,11.5) {(a)};
+\node [font=\Large, color={rgb,255:red,224; green,27; blue,36}] at (14.75,7.5) {(b)};
+\node [font=\Large, color={rgb,255:red,224; green,27; blue,36}] at (-7.25,4.5) {(c)};
+\node [font=\Large, color={rgb,255:red,224; green,27; blue,36}] at (-9.75,10.25) {(d)};
+\draw (-8.5,10.25) to[short, -o] (-9.25,10.25) ;
+\draw [ color={rgb,255:red,129; green,61; blue,156}, ->, >=Stealth, dashed] (-3.25,2.75) -- (-1.5,2.75);
+\draw [ color={rgb,255:red,129; green,61; blue,156}, ->, >=Stealth, dashed] (-3.25,2) -- (-1.5,2);
+\draw (-3.25,1.25) to[short, -o] (-1.75,1.25) ;
+\draw (-3.25,0.5) to[short, -o] (-1.75,0.5) ;
+\node [font=\Large, color={rgb,255:red,129; green,61; blue,156}] at (-1,2.75) {(1)};
+\node [font=\Large, color={rgb,255:red,129; green,61; blue,156}] at (-1,2) {(2)};
+\node [font=\Large, color={rgb,255:red,229; green,165; blue,10}] at (-1,1.25) {(3)};
+\node [font=\Large, color={rgb,255:red,229; green,165; blue,10}] at (-1,0.5) {(4)};
+\draw (-9,1) to (-9.25,1) node[ground]{};
+\draw (-5.75,4.25) to (-6.5,4.25) node[ground]{};
+\draw (-9,6.75) to (-9.5,6.75) node[ground]{};
+\draw (10.25,5.25) to (9.5,5.25) node[ground]{};
+\draw (10.25,14) to (9.5,14) node[ground]{};
+\draw (-7.5,9.5) to (-7.5,9.25) node[ground]{};
+\draw [ line width=0.5pt ] (-3.5,9) rectangle (-2.5,8);
+\draw [line width=0.7pt, <->, >=Stealth] (-1.5,9.25) -- (3.5,9.25);
+\draw [ color={rgb,255:red,51; green,209; blue,122}, line width=2pt, ->, >=Stealth] (5.5,6.75) .. controls (5.5,9.75) and (5.25,10.5) .. (-0.5,10.5) ;
+\node [font=\Large, color={rgb,255:red,46; green,194; blue,126}] at (2,10.75) {Plasma};
+\draw [ fill={rgb,255:red,246; green,245; blue,244} ] (9.5,3.25) rectangle  node {\Large Delay generator} (15.25,0);
+\draw (9.5,2.75) to[short, -o] (8.25,2.75) ;
+\draw (9.5,2) to[short, -o] (8.25,2) ;
+\draw (9.5,1.25) to[short, -o] (8.25,1.25) ;
+\draw (9.5,0.5) to[short, -o] (8.25,0.5) ;
+\node [font=\Large, color={rgb,255:red,224; green,27; blue,36}] at (7.5,2.75) {(a)};
+\node [font=\Large, color={rgb,255:red,224; green,27; blue,36}] at (7.5,2) {(b)};
+\node [font=\Large, color={rgb,255:red,224; green,27; blue,36}] at (7.5,1.25) {(c)};
+\node [font=\Large, color={rgb,255:red,224; green,27; blue,36}] at (7.5,0.5) {(d)};
+\draw [ color={rgb,255:red,224; green,27; blue,36}, line width=0.7pt, <->, >=Stealth] (-2.25,10.5) -- (-2.25,8);
+\draw [ color={rgb,255:red,224; green,27; blue,36}, line width=0.7pt, dashed] (-2.25,7.75) -- (-4.5,7.75);
+\draw [ color={rgb,255:red,224; green,27; blue,36}, line width=0.7pt, dashed] (-4.5,10.75) -- (-2.25,10.75);
+\draw  (-6.5,10.5) rectangle (-2.5,10.25);
+\draw [ fill={rgb,255:red,246; green,245; blue,244} ] (-8.5,11.25) rectangle  node {\Large ERMS} (-6.25,9.5);
+\draw [ rotate around={-75:(5.5,8.75)}] (5.5,8.75) ellipse (0.25cm and 1.5cm);
+\draw [short] (11,12.75) -- (11,13);
+\draw [short] (11.25,13) -- (11.25,10.75);
+\draw [short] (11.25,10.75) -- (8.5,10.75);
+\draw [short] (8.5,10.75) -- (8.5,4.25);
+\draw [short] (8.5,4.25) -- (5.5,4.25);
+\draw [short] (-3.25,6.75) -- (-3.75,6.75);
+\draw [short] (-2.75,8) -- (-2.75,4.75);
+\draw [short] (-3.25,4.75) -- (-2.75,4.75);
+\draw [line width=0.7pt, short] (-7.75,6) -- (-7.75,3.25);
+\node [font=\Large] at (1,8.75) {Distance variation};
+\draw [short] (-3.25,6.75) -- (-3.25,8);
+\end{circuitikz}
+}%
+
+\caption{Schematic of the vacuum chamber setup for cathodic arc plasma diagnostics and thin film deposition. (a) Arc power supply, (b) EM-coil power supply, (c) Langmuir probe and QCM, (d) energy-resolving mass spectrometer (ERMS). The delay generator (a–d) synchronizes the arc power supply, EM-coil activation, and diagnostic tools.}
+
+
+\label{fig:vacuumchamber}
+\end{figure}
+
+\subsection{Power \& Triggering}
+The arc power supply operated in pulsed mode at a frequencies between 0.2--5~Hz with a pulse width of 1~ms. The EM-coil was activated 200~$\mu$s before arc ignition and lasts 1.5~ms, to ensure steady-state magnetic field conditions. A delay generator (SRS DG645) served as the master clock, distributing triggers to:
+\begin{itemize}
+    \item the arc power supply (channel~\textbf{a}),
+    \item the EM-coil power supply (channel~\textbf{b}),
+    \item the diagnostics (ERMS, QCM, and Langmuir probe; channels~\textbf{c--d}).
+    \item the oscilloscope is triggered on the rising edge of the arc power supply unit (PSU) voltage (Channel \textcolor{mypurple}{(1)})
+\end{itemize}
+This setup enabled time-resolved measurements of ion flux and energy, fully synchronized with plasma generation.
+
+
+
+
+\section{Diagnostics}
+
+\subsection{Ion-Flux Probe- Langmuir probe}\label{sec:langmuir_probe}
+
+
+The in-house-built ion collector probe (Figure~\ref{fig:langmuir_probe}) was designed to measure the current density of ions (\(J_i\)) in ion saturation mode. The probe consisted of a 5~mm diameter copper stick milled down to resemble a nail, it was then covered with Katpon tape to ensure insulation from the holder assembly \ref{fig:holder assembly}.
+
+
+
+\begin{figure}[!ht]
+\centering
+\resizebox{0.5\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\Huge]
+\draw [ fill={rgb,255:red,255; green,120; blue,0} ] (0,17) rectangle (0.75,12.5);
+\draw [<->, >=Stealth] (-1.25,17) -- (-1.25,12.5)node[pos=0.5, fill=white]{5 mm};
+\draw [<->, >=Stealth] (0,11.75) -- (25.5,11.75)node[pos=0.5, fill=white]{60 mm};
+\draw [ fill={rgb,255:red,255; green,120; blue,0} ] (22.5,15) rectangle (25,14.5);
+\draw [ fill={rgb,255:red,255; green,120; blue,0} ] (0.75,16.5) rectangle (22.75,13);
+\draw [ fill={rgb,255:red,255; green,190; blue,111} ] (0.75,16.75) rectangle (22,12.75);
+\end{circuitikz}
+}%
+\caption{In-house built ion collector probe wrapped in Kapton tape for electrical insulation from the aluminum assembly holder. The probe includes an attachment point for a screw terminal connector, enabling connection to the ion probe circuit (Figure \ref{fig:probe_circuit})}
+\label{fig:langmuir_probe}
+\end{figure}
+
+To guarantee full ion collection, the probe was negatively biased at \(V_b = -80\)~V. The measured voltage (\(V_m\)) was corrected for the voltage divider effect introduced by the 1~k\(\Omega\) bias resistor, using the following relationship:
+
+\begin{equation}
+    V_{\text{true}} = \frac{1000 + 400\ \Omega}{1000\ \Omega}\cdot V_m = 1.4 \cdot V_m.
+\end{equation}
+
+
+\begin{figure}[!ht]
+\centering
+\resizebox{0.8\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\LARGE]
+\draw [ line width=0.5pt](5.75,13.25) to[short] (7.25,13.25);
+\node at (7.25,13.25) [circ] {};
+\draw [ line width=0.5pt](7.25,13.25) to[short] (7.75,13.25);
+\node at (7.75,13.25) [circ] {};
+\draw [ line width=0.5pt](7.75,14.25) to[short] (7.75,13.25);
+\draw [ line width=0.5pt](7.75,13.25) to[short] (7.75,12.5);
+\draw [line width=0.5pt](7.75,14.25) to[C,l={ \normalsize 22nF}] (9.75,14.25);
+\draw [line width=0.5pt](7.75,12.5) to[C,l={ \normalsize 0.5$\mu$F}] (9.75,12.5);
+\draw [ line width=0.5pt](9.75,14.25) to[short] (9.75,12.5);
+\draw [ line width=0.5pt](9.75,13.25) to[short] (10.25,13.25);
+\draw [ line width=0.5pt](10.25,13.25) to[short] (12.25,13.25);
+\node at (10.25,13.25) [circ] {};
+\node at (9.75,13.25) [circ] {};
+\draw [ line width=0.5pt](7.25,13.25) to[short] (7.25,12.25);
+\draw [ line width=0.5pt](10.25,13.25) to[short] (10.25,12.25);
+\draw [ line width=0.5pt](7.25,12.25) to[european resistor,l={ \normalsize 1k$\Omega$}] (7.25,11);
+\draw [ line width=0.5pt](10.25,12.25) to[european resistor,l={ \normalsize 10k$\Omega$}] (10.25,11);
+\draw [ line width=0.5pt](7.25,11) to[D] (7.25,10.25);
+\draw [ line width=0.5pt](10.25,10.25) to[D] (10.25,11);
+\draw [ line width=0.5pt](7.75,9.75) to[american controlled voltage source,l={ \normalsize 80 V}] (9.75,9.75);
+\draw [ line width=0.5pt](10.25,10.25) to[short] (10.25,9.75);
+\draw [ line width=0.5pt](10.25,9.75) to[short] (9.75,9.75);
+\draw [ line width=0.5pt](7.25,10.25) to[short] (7.25,9.75);
+\draw [ line width=0.5pt](7.25,9.75) to[short] (7.75,9.75);
+\node at (12.25,13.25) [circ] {};
+\draw [ line width=0.5pt](12.25,13.25) to[european resistor,l={ \normalsize 400$\Omega$}] (12.25,10.25);
+\draw [ line width=0.5pt ] (14.5,12.5) rectangle  node {\large Oscilloscope} (17.5,11.25);
+\draw [ line width=0.5pt](12.25,13.25) to[short] (14.75,13.25);
+\draw [ line width=0.5pt](14.75,13.25) to[short] (14.75,12.5);
+\draw [ line width=0.5pt](14.75,11.25) to[short] (14.75,10.25);
+\draw [ line width=0.5pt](14.75,10.25) to[short] (13.25,10.25);
+\draw [line width=0.5pt](13,10.25) to (13,9.75) node[ground]{};
+\draw [ line width=0.5pt](12.25,10.25) to[short] (13.25,10.25);
+\draw [ line width=0.6pt ] (5.75,14.25) circle (0.75cm) node {\normalsize Probe} ;
+\draw [line width=0.5pt, short] (5.75,13.25) -- (5.75,13.5);
+
+
+\end{circuitikz}
+}%
+\caption{Schematic of the ion-flux probe circuit. The $\SI{400}{\ohm}$ resistor converts ion current to voltage, while the $\SI{0.5}{\micro F}$ capacitor and $\SI{400}{\ohm}$ resistor form a high-pass filter with a $\SI{795}{Hz}$ cutoff.}
+\label{fig:probe_circuit}
+\end{figure}
+
+
+The circuit incorporates a $\SI{0.5}{\micro F}$ capacitor in series with the $\SI{400}{\ohm}$ resistor, forming a high-pass filter with a cutoff frequency of $\SI{795}{Hz}$. This configuration effectively blocks DC and low-frequency noise, ensuring that only plasma fluctuations above $\SI{795}{Hz}$ are recorded. The high-pass characteristic is essential for isolating the dynamic ion current signal from any static offsets or drift.\\
+
+To maintain a stable bias voltage, a $\SI{22}{nF}$ capacitor and $\SI{1}{k\ohm}$ resistor are included in the bias supply line. This combination acts as a low-pass filter, smoothing the bias voltage and minimizing high-frequency ripple.
+
+The processed voltage signal is recorded using a 20~MHz bandwidth oscilloscope. The ion flux $\Gamma_i$ is then calculated from the corrected voltage $V_{\text{true}}$ as:
+\begin{equation}
+    \Gamma_i = \frac{V_{\text{true}}}{e A R},
+\end{equation}
+
+where $A = \SI{19.63}{mm^2}$ is the probe area, $e$ is the elementary charge, and $R = \SI{400}{\ohm}$. This setup ensures accurate measurement of the ion flux while minimizing the impact of noise and DC offsets.
+
+
+
+
+\subsection{Quartz Crystal Microbalance}\label{section:QCM}
+
+A quartz crystal microbalance (QCM) was employed to measure the amount of material deposited during cathodic arc sputtering. The configuration used in this work was the INFICON Cool Drawer\texttrademark\ with a single drawer in standard orientation. The sensor is water-cooled to ensure thermal stability, and a 14 mm diameter, 6 MHz AT-cut quartz crystal was operated with a SQM-160 controller for electronic readout. \\
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Figures/experimental methods/QCM_head.png}
+    \caption{Sensor head of the INFICON Cool Drawer\texttrademark{} Quartz Crystal Microbalance (QCM) used for in-situ mass deposition monitoring during cathodic arc sputtering. The assembly includes a water-cooled housing, a 14~mm diameter AT-cut quartz crystal (6~MHz), and electrode leads for connection to the SQM-160 controller. (Schematic adapted from INFICON STP file, available at \url{https://www.inficon.com/en/products/thin-film-technology/cool-drawer-single-sensor}).}
+    \label{fig:QCM_sensor_head}
+\end{figure}
+
+
+The measurement principle follows the Sauerbrey equation \cite{Sauerbrey_1959}, which relates the change in resonance frequency of the quartz crystal to the deposited mass:  
+
+\begin{equation}\label{eq.sauerbrey}
+    m = \frac{N_{\text{AT}}\cdot d_q \cdot \pi r^2}{F_q^2} \cdot \Delta F_c 
+    = 18.8146023 \cdot 10^{-9} \frac{g}{Hz} \cdot \Delta F .
+\end{equation}
+
+Here $d_q = \SI{2.649}{\frac{g}{cm^3}}$ is the quartz density, $N_{\text{AT}} = \SI{166100}{Hz\ cm}$ the frequency constant of the AT-cut, $F_q = \SI{6}{MHz}$ the uncoated resonance frequency, and $\Delta F$ the measured frequency shift.\\
+
+The Sauerbrey relation is accurate as long as $\Delta F \lesssim 0.05 F_q$ (about \SI{0.3}{MHz} for a 6 MHz crystal). For larger mass loadings, the linear approximation fails and the Z-match\texttrademark\ technique is used. This method, introduced by Lu and Lewis in 1972 on the basis of Miller and Bolef’s theoretical treatment \cite{Miller1968,Lu1972}, incorporates the acoustic properties of both the quartz and the deposited film via the acoustic impedance ratio  
+
+\begin{equation}
+    Z = \left(\frac{d_q \, \mu_q}{d_f \, \mu_f}\right)^{1/2},
+\end{equation}
+
+with $d$ and $\mu$ denoting the density and shear modulus of quartz ($q$) and film ($f$), respectively \cite{SQM160_manual}. In practice, the controller applies a correction function $f(Z)$ to the Sauerbrey relation,  
+
+\begin{equation}
+    m_f = \frac{N_{\text{AT}} \, d_q \, \pi r^2}{F_q^2} \cdot \Delta F \cdot f(Z),
+\end{equation}
+
+
+which compensates for the acoustic mismatch and extends the validity of thickness determination up to $\sim 0.4 F_q$.\\ 
+
+In the present experiments, the observed frequency shifts ranged from about \SI{1}{Hz} to \SI{50}{Hz}. With the SQM-160 resolution of approximately \SI{0.03}{Hz} at \SI{6}{MHz}, even the smallest shifts were well above the noise floor, yet orders of magnitude below the Sauerbrey breakdown limit. The Sauerbrey approximation was therefore fully sufficient, and Z-match corrections were not required.
+
+\subsection{Comparability with QCM Measurements}
+
+The ion collector probe, with its 5 mm diameter, was mounted through a precision-milled pass-through hole in the aluminum mounting block, while the QCM was secured in a dedicated cutout and fixed via screws.
+
+\begin{figure}[ht]
+  \centering
+  \includemedia[
+    width=0.8\linewidth,
+    activate=pageopen,
+    passcontext,
+    3Dmenu,
+    3Dcoo=4.639472961425781 -21.05224609375 27.223785400390625,
+    3Dc2c=92.426 9.840 -436.780,
+    3Droo=200,
+  ]{
+    \includegraphics[width=0.8\linewidth]{Figures/experimental methods/mounting assembly thingy.png}
+  }{Figures/experimental methods/fun try out(1).u3d}
+    \caption{Holder Assembly for In-Situ Plasma Diagnostics: Integrated QCMs and Langmuir Ion Collector Probe (interactive 3D model; static preview shown in non-Adobe viewers).}
+    \label{fig:holder assembly}
+\end{figure}
+
+This configuration ensured rigid mechanical alignment between the two diagnostics. The exposed area of the quartz crystal (8 mm diameter) was selected to encompass the probe’s collection area, enabling spatially resolved comparisons of ion current density and deposited mass.\\
+
+This design accounts for the radial gradients in plasma density and ion charge state distribution, which are inherent to expanding cathodic arc plasmas \cite[Chap. 6.2]{cathodic_arcs}. By positioning the probe right next to the QCM, the ion flux measurements directly reflect the plasma conditions governing deposition on the crystal surface.
+
+
+
+
+\subsection{Quadrupole Mass Spectrometer}\label{sec:QMS}
+
+A quadrupole mass spectrometer (QMS, Hiden EQP 1000) was used to measure the ion energy distribution functions (IEDFs) and charge-state-resolved fluxes of plasma species generated during pulsed cathodic arc deposition. The system combines an electrostatic energy analyzer with a quadrupole mass filter to separate ions by their kinetic energy and mass-to-charge ratio (\(m/q\)).\\
+
+Ions enter the QMS through a \SI{50}{\micro\meter} sampling orifice and are first transported to the energy analyzer, where their kinetic energy \(E_i\) is selected according to the relationship:
+%
+\begin{equation}\label{eq:ion_energy}
+    E_i = \left(V_{\text{ENERGY}} + \frac{R}{d} V_{\text{PLATES}} - V_{\text{AXIS}}\right) n \times e.
+\end{equation}
+%
+
+Here, \(V_{\text{ENERGY}}\) and \(V_{\text{AXIS}}\) are opposing potentials applied to the analyzer, \(R\) is the mean radius of the cylindrical sector, \(d\) is the plate separation, \(V_{\text{PLATES}}\) is the potential difference across the sector plates, and \(n \times e\) is the total charge of the ion \cite{hiden_eqp_manual}. The selected ions are then injected into the quadrupole mass filter, where a combination of AC and DC electric fields creates a stability region dependent on \(m/q\), described by the Mathieu equations \cite{dawson_quadrupole_1997}. Only ions with trajectories stable in both radial and axial directions reach the detector. The potential in the quadrupole is described by:
+%
+\begin{equation}
+    V(x,y,t) = \frac{U_0 \cos(\omega t)}{r_0^2} (x^2 - y^2),
+\end{equation}
+%
+where \(U_0\) is the amplitude of the AC voltage, \(\omega\) is the angular frequency, and \(r_0\) is the field radius. The stability of ion motion is determined by the dimensionless parameters:
+%
+\begin{equation}
+    a = \frac{8 e U_{\text{DC}}}{m r_0^2 \omega^2}, \quad q = \frac{4 e U_0}{m r_0^2 \omega^2},
+\end{equation}
+%
+with \(U_{\text{DC}}\) as the superimposed DC voltage. For a given \(m/q\), stable transmission occurs only within specific \((a,q)\) regions, enabling mass separation \cite{dawson_quadrupole_1997, march_quadrupole_1989}.\\
+
+To obtain the ion energy distribution functions (IEDFs), the energy-to-charge (E/Q) distributions were measured for different mass-to-charge ratios (M/Q). The energy distributions for ions of different charge states were derived by multiplying the E/Q values by the corresponding charge state number \(Q\). This correction accounts for the charge-dependent scaling of ion energies.\\
+
+To reduce interference from the arc's magnetic field, the QMS was equipped with a grounded, mu-metal shield \cite{RN5}. 
+%The \(m/q\) range was calibrated using N\(_2^+\) as reference ions, with typical operating parameters set to \(U_0 = \SI{100}{V}\), \(U_{\text{DC}} = \SI{5}{V}\), and \(\omega/2\pi = \SI{1.2}{MHz}\). Under these settings, the system provided a mass resolution of \(\Delta m/m \approx 0.5\) (FWHM) for ions in the \(\SI{0}{--}\SI{150}{eV}\) energy range \cite{hiden_eqp_manual}. The energy resolution was adjusted to \(\Delta E/E \approx 0.02\) by tuning \(V_{\text{PLATES}}\) and optimizing the alignment of the orifice and detector.
+\\
+
+
+IEDFs were measured using a double trigger acquisition scheme synchronized with the arc pulses, which had a \(\SI{1}{ms}\) duration and a \(\SI{5}{Hz}\) repetition rate. For each \(m/q\) value, two \(\SI{20}{ms}\) acquisition windows were recorded, activated \(\SI{10}{ms}\) before the onset of the pulse. The combined \(\SI{40}{ms}\) of data for each point were averaged to obtain the final IEDF. Measurements were performed for charge states \(1^+\), \(2^+\), and \(3^+\) of aluminum ions, and for charge states \(1^+\), \(2^+\), \(3^+\), and \(4^+\) of titanium ions. For nitrogen ion species (N and N\(_2\)), only the \(1^+\) ionization level was measured. This was achieved by scanning \(V_{\text{ENERGY}}\) while fixing the quadrupole mass filter to the corresponding \(m/q\) values.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{c|cccc|}
+\cline{2-5}
+                                 & \multicolumn{4}{c|}{Molar mass over charge ratio of:}                                     \\ \hline
+\multicolumn{1}{|c|}{Ionization} & \multicolumn{1}{c|}{Al}   & \multicolumn{1}{c|}{Ti}     & \multicolumn{1}{c|}{N}  & N$_2$ \\ \hline
+\multicolumn{1}{|c|}{1+}         & \multicolumn{1}{c|}{27}   & \multicolumn{1}{c|}{47.867} & \multicolumn{1}{c|}{14} & 28    \\ \hline
+\multicolumn{1}{|c|}{2+}         & \multicolumn{1}{c|}{13.5} & \multicolumn{1}{c|}{23.933} & \multicolumn{1}{c|}{-}  & -     \\ \hline
+\multicolumn{1}{|c|}{3+}         & \multicolumn{1}{c|}{9}    & \multicolumn{1}{c|}{15.955} & \multicolumn{1}{c|}{-}  & -     \\ \hline
+\multicolumn{1}{|c|}{4+}         & \multicolumn{1}{c|}{-}    & \multicolumn{1}{c|}{11.966} & \multicolumn{1}{c|}{-}  & -     \\ \hline
+\end{tabular}
+\end{table}
+
+%The integrated ion flux \(\Gamma_i\) was determined by normalizing the IEDFs to the plasma density, as measured by a Langmuir probe (\ref{sec:langmuir_probe}). The observed charge-state distributions of Ti\(^+\) and Al\(^+\) ions aligned with earlier findings for cathodic arc plasmas \cite{RN6,unutulmazsoy}.
+
+\section{Data Processing}
+
+All experimental data were processed using custom Python scripts to ensure consistency and reproducibility. An Excel spreadsheet served as a central logbook, with each experiment identified by a unique suffix. The logbook recorded experimental conditions such as date, distances, folder name, base pressure, working pressure, MFC flow rate, cryopump slider position, power supply voltages, pulse count, pulse length, and off time between pulses. 
+
+Additionally, it included initial and final frequencies from the quartz crystal microbalance (QCM) to calculate the deposited mass and referenced the corresponding raw data files, such as oscilloscope waveforms saved as CSV files for ion current measurements.\\
+
+A custom Python script was developed to streamline the data processing pipeline. This script matched each experiment in the logbook to its associated raw data files, averaged the ion current waveforms over multiple pulses to reduce noise, when this wasn't done by the oscilloscope beforehand.
+
+Then it compiled the experimental parameters, calculated deposited mass, and processed ion current data into a unified dataset. This automated approach ensured that all data were processed uniformly and efficiently, facilitating subsequent analysis and interpretation.\\
+
+For the analysis of quadrupole mass spectrometer (QMS) data, another custom Python script was employed. This script processed the ion energy distribution functions (IEDFs) by integrating raw data files from the QMS, applying a mass transmission correction to account for detection biases, and calculating key metrics such as average ion energy, mean charge state, and potential and kinetic energies for each element and charge state. 
+
+The script also generated plots for each element and compiled detailed results into a structured CSV file, enabling comprehensive analysis of the ion energy distributions.\\
+
+
+
+
+\begin{itemize}
+    \item errorhandling if at all???
+    \item let s see if anyting else
+\end{itemize}

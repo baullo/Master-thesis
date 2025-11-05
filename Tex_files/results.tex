@@ -1,0 +1,47 @@
+\chapter{Results}
+\section{Langmuir Probe Bias Voltage Characterization}
+\subsection{Validation of Langmuir Probe Operation}
+
+Before plasma diagnostics were performed, the functionality of the custom-built Langmuir probe was verified by determining the appropriate negative bias voltage for ion saturation measurements. The goal was to ensure that the probe operates in a regime where the collected current is dominated by ions, excluding contributions from electrons.\\
+
+The bias voltage tests were performed without nitrogen in the chamber, at a fixed distance of 10 cm from the macroparticle filter, and with an EM coil strength of 0.25 T. Figure \ref{fig:bias_current} displays the measured ion current as a function of bias voltage. The blue data points represent the experimental results, while the green line shows the exponential saturation fit.\\
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.9\linewidth]{Figures/results 1/bias_current_voltage_Saturation_thesis_version.png}
+    \caption{Measured ion current vs. bias voltage for the Langmuir probe, showing exponential saturation fit $I=6.17(1-e^{-V/1.8})+0.023V$. Conditions: no nitrogen, 10 cm from the macroparticle filter, 0.25 T EM-coil strength.}
+    \label{fig:bias_current}
+\end{figure}
+
+The relationship between the collected current $I$ and the bias voltage $V$ was analyzed using the modified Langmuir equation \cite{chen1984introduction}:
+
+\begin{align}
+    I = I_{\text{sat}} \left( 1 - e^{\frac{-V}{V_0}}\right) + m \cdot V
+\end{align}
+
+where $I_{\text{sat}}$ is the saturation current and $V_0$ is a characteristic voltage. The term $k$ in the equation accounts for plasma sheath expansion and collisional effects at higher bias voltages. 
+
+\subsection{Analysis of the Ion Saturation Curve}
+
+As the bias voltage increases, the sheath around the probe grows, which can lead to a non-saturating component in the collected current, this is a common effect seen in small probes. Additionally, collisions within the sheath or presheath region can modify the ion trajectory, resulting in a small linear increase in the collected current with voltage. This correction ensures the model accurately describes the probe’s behavior across the full range of applied voltages \cite[Chap. 7]{chen1984introduction}.\\
+
+The experimental data were fitted to this equation using a nonlinear least-squares method in Python, yielding the following parameters:
+\[ I_{sat} = 6.17 \, \text{mA}, \hspace{2cm} V_0 = 1.8 \, \text{V}, \hspace{2cm} k = 0.023. \]
+
+The bias voltage test results (Figure \ref{fig:bias_current}) show two distinct regimes:
+
+\begin{enumerate}
+    \item \textbf{Transition Regime (0 -- 40 V):} \\
+    At low bias voltages, the probe collects both ions and electrons. As the negative bias increases, more electrons are repelled, reducing their contribution to the measured current. This results in a rapid rise in net current as the ion flux begins to dominate. The transition regime is characterized by a balance between the decreasing electron flux and the increasing ion flux.
+    \item \textbf{Saturation Regime (40 -- 130V):} \\
+    Beyond approximately 40V, the current plateaus, indicating that the probe has entered the ion saturation regime. At this point, the negative bias effectively repels all electrons, and the collected current is dominated by ions. However, the current increases slightly with voltage, which is captured by the linear correction term $k$ = 0.023 in the modified Langmuir equation. 
+\end{enumerate}
+
+\subsection{Selection of Operating Bias Voltage}
+
+A bias voltage of -80 V was selected for subsequent measurements to ensure the probe operates well within the ion saturation regime. While the curve begins to saturate around ~40 V, choosing a higher voltage provides confidence that the probe is fully repelling electrons and measuring ion flux reliably.
+
+\section{}
+
+
+%3D scatter plots?? ask dima
