@@ -6,6 +6,14 @@ André Anders.
   volume~50.
 \newblock Springer, 2008.
 
+\bibitem{evolution_pulse}
+André Anders.
+\newblock The evolution of ion charge states in cathodic vacuum arc plasmas: a
+  review.
+\newblock {\em Plasma Sources Science and Technology}, 2012.
+\newblock A review article that discusses various factors influencing ion
+  charge states in cathodic vacuum arc plasmas.
+
 \bibitem{RN5}
 André Anders and George~Yu Yushkov.
 \newblock Ion flux from vacuum arc cathode spots in the absence and presence of
@@ -16,6 +24,14 @@ André Anders and George~Yu Yushkov.
 J.~Benedikt et~al.
 \newblock Quadrupole mass spectrometry of reactive plasmas.
 \newblock {\em Surface \& Coatings Technology}, 206:579--588, 2012.
+
+\bibitem{basic_massspec}
+R.~L. Boxman, S.~Goldsmith, and D.~M. Sanders.
+\newblock Cathodic arc plasmas and their applications.
+\newblock {\em IEEE Transactions on Plasma Science}, 23(6):939--956, 1995.
+\newblock Includes quantitative plasma diagnostics where standard deviation is
+  used to characterize measurement scatter and reproducibility of arc plasma
+  parameters.
 
 \bibitem{chen1984introduction}
 Francis~F. Chen.
@@ -31,6 +47,11 @@ P.~H. Dawson.
 Hiden Analytical, Warrington, UK.
 \newblock {\em EQP Technical Manual: Energy-Resolving Quadrupole Mass
   Spectrometer}, 2024.
+
+\bibitem{massspec_err}
+A.~Hubaux and G.~Vos.
+\newblock Quantitative mass spectrometry: Part ii.
+\newblock {\em Anal. Chem.}, 42(8):849, 1970.
 
 \bibitem{SQM160_manual}
 INFICON, Bad Ragaz, Switzerland.

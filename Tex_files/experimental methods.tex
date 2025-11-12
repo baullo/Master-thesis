@@ -5,7 +5,7 @@
 \subsection{Vacuum \& Gas Infrastructure}
 The chamber was evacuated using a two-stage pumping system consisting of a turbo-molecular pump (backed by a rotary vane pump for initial roughing) and a cryogenic pump, achieving a base pressure of $1 \times 10^{-5}$~Pa. Nitrogen gas (N$_2$, 99.999\% purity) was introduced via a mass flow controller (MFC), with chamber pressures ranging from 0.025--0.3~Pa during experiments,\\
 
-Plasma was generated using a water-cooled cathode composed of 75~wt\% Ti--25~wt\% Al (62.8~at\% Ti--37.2~at\% Al) with a diameter of 6.35~mm and 38.1~mm long. The arc power supply operated in pulsed DC mode, delivering up to 400~A at a pulse frequency of 0.2--5~Hz, and also powered the 90$^\circ$ curved macroparticle filter in series. An accelerator coil (EM-coil), capable of currents up to 700~A, was pulsed 200~$\mu$s before arc ignition to stabilize the magnetic field. The QCM and Langmuir probe were mounted on a custom adjustable mechanism screwed to the chamber floor at 10--20~cm from the filter exit, while the energy-resolving mass spectrometer (ERMS) was positioned using a linear feedthrough for external adjustment.\\
+Plasma was generated using a water-cooled cathode composed of 75~wt\% Ti--25~wt\% Al (62.8~at\% Ti--37.2~at\% Al) with a diameter of 6.35~mm and 38.1~mm long. The arc power supply operated in pulsed DC mode, delivering up to 450~A at a pulse frequency of 0.2--5~Hz, and also powered the 90$^\circ$ curved macroparticle filter in series. An accelerator coil (EM-coil), capable of currents up to 850~A, was pulsed 200~$\mu$s before arc ignition to stabilize the magnetic field. The QCM and Langmuir probe were mounted on a custom adjustable mechanism screwed to the chamber floor at 10--20~cm from the filter exit, while the energy-resolving mass spectrometer (ERMS) was positioned using a linear feedthrough for external adjustment.\\
 
 The vacuum chamber setup for cathodic arc plasma diagnostics and thin film deposition is shown in Figure~\ref{fig:vacuumchamber}.
 The arc power supply generates and steers the plasma, while the EM-coil power supply enhances the plasma energy and confinement.\\
@@ -135,7 +135,7 @@ The delay generator acts as a master clock, triggering the arc power supply, EM-
 
 \subsection{Power \& Triggering}
 The arc power supply operated in pulsed mode at a frequencies between 0.2--5~Hz with a pulse width of 1~ms. The EM-coil was activated 200~$\mu$s before arc ignition and lasts 1.5~ms, to ensure steady-state magnetic field conditions. A delay generator (SRS DG645) served as the master clock, distributing triggers to:
-\begin{itemize}
+\begin{itemize}[noitemsep]
     \item the arc power supply (channel~\textbf{a}),
     \item the EM-coil power supply (channel~\textbf{b}),
     \item the diagnostics (ERMS, QCM, and Langmuir probe; channels~\textbf{c--d}).
@@ -143,12 +143,24 @@ The arc power supply operated in pulsed mode at a frequencies between 0.2--5~Hz 
 \end{itemize}
 This setup enabled time-resolved measurements of ion flux and energy, fully synchronized with plasma generation.
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.85\textwidth]{"Figures/experimental methods/Pulse waveform"}
+	\caption{Example Pulse waveform with the triggering timings (a) and (b) for the Arc-PSU and the EM-coil PSU marked with the orange dashed line}
+	\label{fig:pulse-waveform}
+\end{figure}
 
+To approximate the magnetic field generated within the EM-coil solenoid, the following equation was utilized:
+
+\begin{align}
+	B = \frac{\mu_0 N I}{L}
+\end{align}
+with the length of the solenoid $L = 0.02 m$, the number of turns in the solenoid $N = 5$ and the vacuum permeability $\mu_0 = 1.256 \cdot 10^{-6} \frac{T\cdot m}{A}$. The electrical current value was determined by the peak current recorded with the oscilloscope, typically observed around the 0 ms point, as illustrated in Fig. \ref{fig:pulse-waveform}. This approach was adopted because the shape of the current curve varies significantly depending on the input voltage and the resulting current. Figure \ref{fig:pulse-waveform} depicts the current curve achieved for a 250V input. Additionally the current curve for a 100V input is provided in the Appendix (Fig. \ref{fig:pulse-waveform-appendix}).
 
 
 \section{Diagnostics}
 
-\subsection{Ion-Flux Probe- Langmuir probe}\label{sec:langmuir_probe}
+\subsection{Ion-current Probe- Langmuir probe}\label{sec:langmuir_probe}
 
 
 The in-house-built ion collector probe (Figure~\ref{fig:langmuir_probe}) was designed to measure the current density of ions (\(J_i\)) in ion saturation mode. The probe consisted of a 5~mm diameter copper stick milled down to resemble a nail, it was then covered with Katpon tape to ensure insulation from the holder assembly \ref{fig:holder assembly}.
@@ -336,9 +348,9 @@ with \(U_{\text{DC}}\) as the superimposed DC voltage. For a given \(m/q\), stab
 To obtain the ion energy distribution functions (IEDFs), the energy-to-charge (E/Q) distributions were measured for different mass-to-charge ratios (M/Q). The energy distributions for ions of different charge states were derived by multiplying the E/Q values by the corresponding charge state number \(Q\). This correction accounts for the charge-dependent scaling of ion energies.\\
 
 To reduce interference from the arc's magnetic field, the QMS was equipped with a grounded, mu-metal shield \cite{RN5}. 
-%The \(m/q\) range was calibrated using N\(_2^+\) as reference ions, with typical operating parameters set to \(U_0 = \SI{100}{V}\), \(U_{\text{DC}} = \SI{5}{V}\), and \(\omega/2\pi = \SI{1.2}{MHz}\). Under these settings, the system provided a mass resolution of \(\Delta m/m \approx 0.5\) (FWHM) for ions in the \(\SI{0}{--}\SI{150}{eV}\) energy range \cite{hiden_eqp_manual}. The energy resolution was adjusted to \(\Delta E/E \approx 0.02\) by tuning \(V_{\text{PLATES}}\) and optimizing the alignment of the orifice and detector.
-\\
 
+%The \(m/q\) range was calibrated using N\(_2^+\) as reference ions, with typical operating parameters set to \(U_0 = \SI{100}{V}\), \(U_{\text{DC}} = \SI{5}{V}\), and \(\omega/2\pi = \SI{1.2}{MHz}\). Under these settings, the system provided a mass resolution of \(\Delta m/m \approx 0.5\) (FWHM) for ions in the \(\SI{0}{--}\SI{150}{eV}\) energy range \cite{hiden_eqp_manual}. The energy resolution was adjusted to \(\Delta E/E \approx 0.02\) by tuning \(V_{\text{PLATES}}\) and optimizing the alignment of the orifice and detector.
+%%%
 
 IEDFs were measured using a double trigger acquisition scheme synchronized with the arc pulses, which had a \(\SI{1}{ms}\) duration and a \(\SI{5}{Hz}\) repetition rate. For each \(m/q\) value, two \(\SI{20}{ms}\) acquisition windows were recorded, activated \(\SI{10}{ms}\) before the onset of the pulse. The combined \(\SI{40}{ms}\) of data for each point were averaged to obtain the final IEDF. Measurements were performed for charge states \(1^+\), \(2^+\), and \(3^+\) of aluminum ions, and for charge states \(1^+\), \(2^+\), \(3^+\), and \(4^+\) of titanium ions. For nitrogen ion species (N and N\(_2\)), only the \(1^+\) ionization level was measured. This was achieved by scanning \(V_{\text{ENERGY}}\) while fixing the quadrupole mass filter to the corresponding \(m/q\) values.
 
@@ -357,24 +369,73 @@ IEDFs were measured using a double trigger acquisition scheme synchronized with 
 
 %The integrated ion flux \(\Gamma_i\) was determined by normalizing the IEDFs to the plasma density, as measured by a Langmuir probe (\ref{sec:langmuir_probe}). The observed charge-state distributions of Ti\(^+\) and Al\(^+\) ions aligned with earlier findings for cathodic arc plasmas \cite{RN6,unutulmazsoy}.
 
+
+\iffalse
+
+\subsection{X-ray Diffraction (XRD)}\label{sec:xrd}
+X-ray diffraction (XRD) was employed to analyze the crystallographic structure of the thin films deposited during the experiments. XRD is a non-destructive technique that provides detailed information about the crystalline phases present in the material, as well as their lattice parameters, crystallite size, and strain.
+
+The XRD measurements were performed using a [specific model, e.g., Bruker D8 Advance] diffractometer equipped with a Cu Kα radiation source ($\lambda = 1.5406$ Å). The diffractometer was configured with a [specific type of detector, e.g., scintillation counter] and a goniometer for precise angle measurements. The samples were mounted on a [specific type of sample holder, if applicable] and scanned over a 2θ range of [specific range, e.g., 20° to 80°] with a scan speed of [specific speed, e.g., 0.02° per second].
+
+The crystallographic structure of the films was determined by analyzing the diffraction patterns obtained. The Bragg equation was used to identify the crystalline phases:
+\begin{equation}
+    2d \sin(\theta) = n\lambda
+\end{equation}
+where \( d \) is the spacing between atomic planes, \( \theta \) is the angle of incidence, \( n \) is an integer, and \( \lambda \) is the wavelength of the X-rays.
+
+The XRD data were processed using [specific software, e.g., Bruker DIFFRAC.SUITE] to identify the crystalline phases and determine their lattice parameters. The crystallite size was estimated using the Scherrer equation:
+\begin{equation}
+    \tau = \frac{K\lambda}{\beta \cos(\theta)}
+\end{equation}
+where \( \tau \) is the mean size of the crystalline domains, \( K \) is a dimensionless shape factor (typically 0.9), \( \lambda \) is the X-ray wavelength, \( \beta \) is the line broadening at half the maximum intensity (FWHM), and \( \theta \) is the Bragg angle.
+
+The XRD measurements were calibrated using a standard reference material (e.g., silicon powder) to ensure accuracy and reproducibility. The samples were prepared by [specific preparation method, e.g., cutting and polishing] to ensure a flat and representative surface for analysis.
+
+
+\fi
+
+
 \section{Data Processing}
 
-All experimental data were processed using custom Python scripts to ensure consistency and reproducibility. An Excel spreadsheet served as a central logbook, with each experiment identified by a unique suffix. The logbook recorded experimental conditions such as date, distances, folder name, base pressure, working pressure, MFC flow rate, cryopump slider position, power supply voltages, pulse count, pulse length, and off time between pulses. 
+Experimental data were processed using custom Python scripts to ensure consistency and reproducibility. A central Excel logbook served as the reference for all measurements, each identified by a unique suffix and linked to its corresponding data files. The logbook recorded experimental parameters such as date, distance, pressures, MFC flow rate, cryopump position, power supply settings, and pulse characteristics, as well as initial and final QCM frequencies for deposited mass determination. Associated oscilloscope waveforms were stored as CSV files for ion current analysis.\\
 
-Additionally, it included initial and final frequencies from the quartz crystal microbalance (QCM) to calculate the deposited mass and referenced the corresponding raw data files, such as oscilloscope waveforms saved as CSV files for ion current measurements.\\
 
-A custom Python script was developed to streamline the data processing pipeline. This script matched each experiment in the logbook to its associated raw data files, averaged the ion current waveforms over multiple pulses to reduce noise, when this wasn't done by the oscilloscope beforehand.
+A Python script automated data handling by matching logbook entries to raw data, averaging ion current waveforms over multiple pulses to reduce noise when possible, and compiling all parameters into a unified dataset. This ensured uniform processing and efficient preparation for subsequent analysis.\\
 
-Then it compiled the experimental parameters, calculated deposited mass, and processed ion current data into a unified dataset. This automated approach ensured that all data were processed uniformly and efficiently, facilitating subsequent analysis and interpretation.\\
 
-For the analysis of quadrupole mass spectrometer (QMS) data, another custom Python script was employed. This script processed the ion energy distribution functions (IEDFs) by integrating raw data files from the QMS, applying a mass transmission correction to account for detection biases, and calculating key metrics such as average ion energy, mean charge state, and potential and kinetic energies for each element and charge state. 
-
-The script also generated plots for each element and compiled detailed results into a structured CSV file, enabling comprehensive analysis of the ion energy distributions.\\
+QMS data were evaluated with a separate Python script that integrated raw spectra, applied mass transmission corrections to account for detection biases, and extracted parameters such as mean ion energy, charge state distribution, and potential and kinetic energy components for each species (different ionization levels of the four atoms measured). The processed results were visualized and exported into a structured CSV file for detailed examination of the ion energy distributions.
 
 
 
+\section{Error Handling}
+\subsection{Mass Spectrometry Measurements}
 
-\begin{itemize}
-    \item errorhandling if at all???
-    \item let s see if anyting else
-\end{itemize}
+In mass spectrometry measurements, particularly in the context of cathodic arc processes, the standard deviation is crucial for characterizing data variability. The non-stationary nature of cathode spots in cathodic arcs leads to significant fluctuations in ion flux and charge composition from pulse to pulse \cite{cathodic_arcs}. Calibrating mass spectrometry measurements can be challenging due to these fluctuations, as random errors at each standard point used to determine the calibration curve can lead to a distribution of values for the same observed response for the unknown \cite{massspec_err}. As a result, achieving optimal calibration in such conditions may not be straightforward, and the accuracy of the calibration could be affected. \\
+
+In this study, while efforts were made to calibrate the mass spectrometer accurately, the inherent difficulties associated with the calibration process in cathodic arc environments suggest that the calibration might not have been optimal. To account for this potential source of error, the impact of truncating the measurement artifact (e.g., signal noise or background interference) at different points was evaluated, and its effect on the data was analyzed in detail. This analysis will be further discussed in Section \ref{massspec_results}. \\
+
+As detailed in Appendix \ref{appendix:code}, the standard deviation of energy measurements is calculated using the \verb|calculate_energy_stats| function, providing both average energy and standard deviation. This statistical approach offers a visual representation of measurement variability through error bars.\\
+
+The use of standard deviation in mass spectrometry is well-documented in scientific literature. For instance, standard deviation is commonly used to represent uncertainties in measurements and to describe the scatter among measured data points \cite{basic_massspec}. This statistical approach is crucial for characterizing data variability and ensuring the accuracy of the measurements.
+
+
+\subsection{QCM and Ion Current Probe Measurements}
+
+
+
+For the ion current probe measurements, the standard deviation of the averaged measurements is calculated to characterize the variability in the data. This variability within a pulse can be attributed to several factors, including fluctuations in the plasma potential at the beginning of the pulse, charge exchange reactions between ions and neutrals, and variations in the arc current and pulse parameters. These factors can cause fluctuations in the ion current during the pulse, leading to the observed variability \cite{evolution_pulse}. This kind of instability within the pulse will be henceforth be shown with the help of error-bars.\\
+
+
+However, certain sources of error specific to the ion probe must be considered. The design of the ion probe can influence the measurements due to sheath effects, where the sheath around the probe can expand based on the probe's size and the biasing applied \cite[Appendix. A.2]{cathodic_arcs}. Additionally, secondary electron emissions from the probe surface can affect the ion current measurements \cite[Chap. 8.2]{cathodic_arcs}. These emissions can be caused by interactions between the ions and the probe surface, leading to inaccuracies in the measurements.
+
+All these variation between pulses are investigated in Sec \ref{sec:errorbar}.\\
+ 
+
+%%% qcm and below needs to be redone
+
+For the QCM measurements, the error in the resonance frequency measurements is based on the manufacturer's specifications. By propagating the error in the frequency measurements through the Sauerbrey equation, we can estimate the uncertainty in the mass measurements. However, the relative position of the QCM sensor with respect to the ion flux can affect the accuracy of the measurements.\\
+
+
+By considering these sources of error and employing statistical methods to characterize measurement variability, the study aims to provide a comprehensive analysis of the data obtained from the QCM and ion current probe measurements.
+
+

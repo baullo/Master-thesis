@@ -1,8 +1,9 @@
+% !TeX root = main.tex
 \chapter{Results}
 \section{Langmuir Probe Bias Voltage Characterization}
 \subsection{Validation of Langmuir Probe Operation}
 
-Before plasma diagnostics were performed, the functionality of the custom-built Langmuir probe was verified by determining the appropriate negative bias voltage for ion saturation measurements. The goal was to ensure that the probe operates in a regime where the collected current is dominated by ions, excluding contributions from electrons.\\
+Before plasma diagnostics were performed, the functionality of the custom-built Langmuir probe was verified by checking the characteristic voltage current curve (I-V curve) and fitting it against the theoretical relationship \ref{eq:langmuir}. Additionally the appropriate negative bias voltage for ion saturation measurements was determined . The goal was to ensure that the probe operates in a regime where the collected current is dominated by ions, excluding contributions from electrons.\\
 
 The bias voltage tests were performed without nitrogen in the chamber, at a fixed distance of 10 cm from the macroparticle filter, and with an EM coil strength of 0.25 T. Figure \ref{fig:bias_current} displays the measured ion current as a function of bias voltage. The blue data points represent the experimental results, while the green line shows the exponential saturation fit.\\
 
@@ -15,7 +16,7 @@ The bias voltage tests were performed without nitrogen in the chamber, at a fixe
 
 The relationship between the collected current $I$ and the bias voltage $V$ was analyzed using the modified Langmuir equation \cite{chen1984introduction}:
 
-\begin{align}
+\begin{align}\label{eq:langmuir}
     I = I_{\text{sat}} \left( 1 - e^{\frac{-V}{V_0}}\right) + m \cdot V
 \end{align}
 
@@ -40,38 +41,82 @@ The bias voltage test results (Figure \ref{fig:bias_current}) show two distinct 
 \subsection{Selection of Operating Bias Voltage}
 
 A bias voltage of -80 V was selected for subsequent measurements to ensure the probe operates well within the ion saturation regime. While the curve begins to saturate around ~40 V, choosing a higher voltage provides confidence that the probe is fully repelling electrons and measuring ion flux reliably.
-
-\newpage
+\subsection{Ion current probe Errors}\label{sec:errorbar}
 
 \section{Quartz crystal Microbalance and Ion current Probe}
 
-Although the measurements were taken at the same time and location, the results will be presented in two subsections for clarity: first, the Quartz Crystal Microbalance (QCM) data, followed by the Ion Current Probe results. This structure is intended to improve the readability and understanding of the trends.
+Although the measurements were taken at the same time and location, the results will be presented in two subsections for clarity: first, the Quartz Crystal Microbalance (QCM) data, followed by the Ion Current Probe results. This structure is intended to improve the readability and understanding of the trends.\\
 
-\subsection{QCM measurements}
+\begin{table}[h]
+\centering
+\begin{tabular}{l|l|l}
+\hline
+\multicolumn{1}{|l|}{Distance (cm)} & Pressure (Pa) & \multicolumn{1}{l|}{Magnetic Field (T)} \\ \hline
+\multicolumn{1}{|l|}{10}            & 0             & \multicolumn{1}{l|}{0}                  \\ \hline
+\multicolumn{1}{|l|}{12}            & 0.025         & \multicolumn{1}{l|}{0.05}               \\ \hline
+\multicolumn{1}{|l|}{14}            & 0.05          & \multicolumn{1}{l|}{0.1}                \\ \hline
+\multicolumn{1}{|l|}{16}            & 0.075         & \multicolumn{1}{l|}{0.15}               \\ \hline
+\multicolumn{1}{|l|}{18}            & 0.1           & \multicolumn{1}{l|}{0.2}                \\ \hline
+\multicolumn{1}{|l|}{20}            & 0.2           & \multicolumn{1}{l|}{0.25}               \\ \hline
+                                    & 0.3           &                                         \\ \cline{2-2}
+\end{tabular}
+\caption{Parameters used for the QCM/ Ion current probe}
+\end{table}
 
-The Quartz Crystal Microbalance (QCM) was used to measure the deposited mass during cathodic arc sputtering. In Figure \ref{fig:3dmass}, a complete overview of the dataset created depending on three parameters. These are the distance to the macroparticle filter, the magnetic field strength and the nitrogen background pressure in the chamber. Datapoints for 0 Pa are in reality more in the order of $1.5 \cdot 10^{-5}$ Pa.\\
+
+In Figures \ref{fig:3Dmass} and \ref{fig:3Dion}, a complete overview of the dataset of the measured ion currents and the deposited masses depending on three parameters are shown. These are the distance to the macroparticle filter, the magnetic field strength and the nitrogen background pressure in the chamber. Data points for 0 Pa are in reality more in the order of $1.5 \cdot 10^{-5}$ Pa.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=\textwidth]{Figures/results 1/3Dmass.png}
-\caption{The deposited mass vs. distance, magnetic field strength, and nitrogen background pressure over 64 pulses. Conditions: nitrogen background pressure from 0 Pa to 0.3 Pa, distance from 10 cm to 20 cm from the macroparticle filter, and magnetic field strength from 0 T to 0.25 T.}
-\label{fig:3dmass}
+
+\begin{subfigure}[b]{\textwidth}
+  \includegraphics[width=1\linewidth]{Figures/results 1/3Dmass.png}
+  \caption{}
+  \label{fig:3Dmass} 
+\end{subfigure}
+
+\begin{subfigure}[b]{\textwidth}
+  \includegraphics[width=1\linewidth]{Figures/results 1/3Dion.png}
+  \caption{}
+  \label{fig:3Dion}
+\end{subfigure}
+
+\caption[Two numerical solutions]{%
+(a) The deposited mass
+(b) The ion current vs. distance, magnetic field strength, and nitrogen background pressure over 64 pulses. Conditions: nitrogen background pressure from 0 Pa to 0.3 Pa, distance from 10 cm to 20 cm from the macroparticle filter, and magnetic field strength from 0 T to 0.25 T.}
 \end{figure}
 
 
-General trends that can be seen already in this figure include:
+General trends that can be seen already in these figure include:
 \begin{itemize}
-    \item The deposited mass decreases as the distance from the macroparticle filter increases (see Section \ref{subsec:distance}).
-    \item Higher magnetic field strengths tend to increase the deposited mass (see Section \ref{subsec:mag_field}).
-    \item The deposited mass shows a complex dependence on nitrogen background pressure (see Section \ref{subsec:nitrogen_pressure}).
+    \item The deposited mass and ion current decreases as the distance from the macroparticle filter increases (see Section \ref{subsec:distance}).
+    \item Higher magnetic field strengths tend to increase the deposited mass and the ion current (see Section \ref{subsec:mag_field}).
+    \item The deposited mass shows a complex dependence on nitrogen background pressure. Whereas the ion current seems to be decreasing with increasing nitrogen contents(see Section \ref{subsec:nitrogen_pressure}).
 \end{itemize}
 
 
-This overview sets the stage for a more detailed analysis of each variable's impact on the deposited mass. In the following subchapters, we will first examine the metallic case (no nitrogen) with respect to distance and magnetic field strength. Then, we will focus on the specific effects of distance (10 cm, 14 cm, and 20 cm), magnetic field strength (0 T, 0.15 T, and 0.25 T), and nitrogen background pressure (0.1 Pa, and 0.3 Pa) on the deposition process.
+This overview sets the stage for a more detailed analysis of each variable's impact on the deposited mass and ion current. In the following subchapters, we will first examine the metallic case (no nitrogen) with respect to distance and magnetic field strength. Then, we will focus on the specific effects of distance (10 cm, 14 cm, and 20 cm), magnetic field strength (0 T, 0.15 T, and 0.25 T), and nitrogen background pressure (0.1 Pa, and 0.3 Pa) as these are the parameters, which are looked at in more detail with the help of 
 
 \subsection{Metallic Case (No Nitrogen)}
 In this section, we analyze the deposited mass as a function of distance and magnetic field strength in the absence of nitrogen.
 
+\begin{figure}
+	\centering
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{Figures/results 1/mass_vs_magfield_0Pa.png}
+		\caption{}
+		\label{fig:metallic_mass}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{Figures/results 1/ions_vs_magfield_0Pa.png}
+		\caption{}
+		\label{fig:metallic_ion}
+	\end{subfigure}
+	\caption{yeah dunno (a) mass and (b) ion current}
+	\label{fig:test}
+\end{figure}
 
 \subsection{Distance as a variable}\label{subsec:distance}
 \subsection{Magnetic field as a variable}\label{subsec:mag_field}
