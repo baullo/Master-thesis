@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.10.30)  12 NOV 2025 15:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.10.30)  12 NOV 2025 16:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1235,56 +1235,63 @@ Underfull \hbox (badness 10000) in paragraph at lines 344--347
 
  []
 
+<Figures/experimental methods/hiden eqp.png, id=411, 700.86844pt x 464.4853pt>
+File: Figures/experimental methods/hiden eqp.png Graphic file (type png)
+<use Figures/experimental methods/hiden eqp.png>
+Package pdftex.def Info: Figures/experimental methods/hiden eqp.png  used on in
+put line 350.
+(pdftex.def)             Requested size: 396.91325pt x 263.0513pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 348--349
+Underfull \hbox (badness 10000) in paragraph at lines 356--357
+
+ []
+
+[19 <./Figures/experimental methods/hiden eqp.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 408--409
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--401
-
- []
-
-[19]
-Underfull \hbox (badness 10000) in paragraph at lines 403--404
+Underfull \hbox (badness 10000) in paragraph at lines 411--412
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 413--414
-
- []
-
-
-LaTeX Warning: Reference `massspec_results' on page 20 undefined on input line 
-415.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 415--416
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 417--418
+Underfull \hbox (badness 10000) in paragraph at lines 421--422
 
  []
 
 [20]
-Underfull \hbox (badness 10000) in paragraph at lines 426--427
+
+LaTeX Warning: Reference `massspec_results' on page 21 undefined on input line 
+423.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 423--424
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 431--432
+Underfull \hbox (badness 10000) in paragraph at lines 425--426
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 436--437
+Underfull \hbox (badness 10000) in paragraph at lines 434--435
 
  []
 
-) (./Tex_files/results.tex [21]
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 439--440
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 444--445
+
+ []
+
+) (./Tex_files/results.tex [22]
 Chapter 4.
 
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
@@ -1296,7 +1303,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
-<Figures/results 1/bias_current_voltage_Saturation_thesis_version.png, id=446, 
+<Figures/results 1/bias_current_voltage_Saturation_thesis_version.png, id=455, 
 578.16pt x 361.35pt>
 File: Figures/results 1/bias_current_voltage_Saturation_thesis_version.png Grap
 hic file (type png)
@@ -1307,25 +1314,25 @@ is_version.png  used on input line 12.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[22
+[23
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
-[23 <./Figures/results 1/bias_current_voltage_Saturation_thesis_version.png>]
+[24 <./Figures/results 1/bias_current_voltage_Saturation_thesis_version.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 48--49
 
  []
 
-[24]
-<Figures/results 1/3Dmass.png, id=477, 4948.4875pt x 3369.58875pt>
+[25]
+<Figures/results 1/3Dmass.png, id=486, 4948.4875pt x 3369.58875pt>
 File: Figures/results 1/3Dmass.png Graphic file (type png)
 <use Figures/results 1/3Dmass.png>
 Package pdftex.def Info: Figures/results 1/3Dmass.png  used on input line 73.
 (pdftex.def)             Requested size: 441.01773pt x 300.26779pt.
-<Figures/results 1/3Dion.png, id=478, 5099.05pt x 3477.99374pt>
+<Figures/results 1/3Dion.png, id=487, 5099.05pt x 3477.99374pt>
 File: Figures/results 1/3Dion.png Graphic file (type png)
 <use Figures/results 1/3Dion.png>
 Package pdftex.def Info: Figures/results 1/3Dion.png  used on input line 79.
@@ -1333,25 +1340,25 @@ Package pdftex.def Info: Figures/results 1/3Dion.png  used on input line 79.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25]
+ [26]
 Overfull \vbox (6.48454pt too high) has occurred while \output is active []
 
 
-[26 <./Figures/results 1/3Dmass.png> <./Figures/results 1/3Dion.png>]
-<Figures/results 1/mass_vs_magfield_0Pa.png, id=496, 650.43pt x 433.62pt>
+[27 <./Figures/results 1/3Dmass.png> <./Figures/results 1/3Dion.png>]
+<Figures/results 1/mass_vs_magfield_0Pa.png, id=504, 650.43pt x 433.62pt>
 File: Figures/results 1/mass_vs_magfield_0Pa.png Graphic file (type png)
 <use Figures/results 1/mass_vs_magfield_0Pa.png>
 Package pdftex.def Info: Figures/results 1/mass_vs_magfield_0Pa.png  used on in
 put line 107.
 (pdftex.def)             Requested size: 220.50887pt x 147.00539pt.
-<Figures/results 1/ions_vs_magfield_0Pa.png, id=497, 650.43pt x 433.62pt>
+<Figures/results 1/ions_vs_magfield_0Pa.png, id=505, 650.43pt x 433.62pt>
 File: Figures/results 1/ions_vs_magfield_0Pa.png Graphic file (type png)
 <use Figures/results 1/ions_vs_magfield_0Pa.png>
 Package pdftex.def Info: Figures/results 1/ions_vs_magfield_0Pa.png  used on in
 put line 113.
 (pdftex.def)             Requested size: 220.50887pt x 147.00539pt.
 )
-(./Tex_files/appendix.tex [27 <./Figures/results 1/mass_vs_magfield_0Pa.png> <.
+(./Tex_files/appendix.tex [28 <./Figures/results 1/mass_vs_magfield_0Pa.png> <.
 /Figures/results 1/ions_vs_magfield_0Pa.png>]
 pdfTeX warning (ext4): destination with the same identifier (name{chapter.1}) h
 as been already used, duplicate ignored
@@ -1360,7 +1367,7 @@ as been already used, duplicate ignored
 l.2 \chapter{Additional Plots}
                               
 Appendix A.
-<Figures/appendix/Pulse waveform appendix (0.1T).png, id=506, 774.7344pt x 426.
+<Figures/appendix/Pulse waveform appendix (0.1T).png, id=514, 774.7344pt x 426.
 8748pt>
 File: Figures/appendix/Pulse waveform appendix (0.1T).png Graphic file (type pn
 g)
@@ -1368,7 +1375,7 @@ g)
 Package pdftex.def Info: Figures/appendix/Pulse waveform appendix (0.1T).png  u
 sed on input line 6.
 (pdftex.def)             Requested size: 441.01773pt x 243.00198pt.
-[28
+[29
 
  <./Figures/appendix/Pulse waveform appendix (0.1T).png (PNG copy)>]
 pdfTeX warning (ext4): destination with the same identifier (name{chapter.2}) h
@@ -1378,11 +1385,11 @@ as been already used, duplicate ignored
 l.11 \chapter{Python code used}
                                \label{appendix:code}
 Appendix B.
-) (./main.bbl [29
+) (./main.bbl [30
 
-] [30
+] [31
 
-]) [31] (./main.aux)
+]) [32] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -1395,10 +1402,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 1E056A06452E1656362359941C595BC9;7989.
  ) 
 Here is how much of TeX's memory you used:
- 47819 strings out of 476064
- 1149686 string characters out of 5792852
+ 47834 strings out of 476064
+ 1150303 string characters out of 5792852
  1959975 words of memory out of 5000000
- 69174 multiletter control sequences out of 15000+600000
+ 69187 multiletter control sequences out of 15000+600000
  618670 words of font info for 73 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
  99i,13n,107p,992b,1052s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1414,10 +1421,10 @@ e1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr
 /share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/publ
 ic/lm/lmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/sym
 bols/msam10.pfb>
-Output written on main.pdf (31 pages, 3627566 bytes).
+Output written on main.pdf (32 pages, 4152336 bytes).
 PDF statistics:
- 643 PDF objects out of 1000 (max. 8388607)
- 545 compressed objects within 6 object streams
- 113 named destinations out of 1000 (max. 500000)
- 452 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 652 PDF objects out of 1000 (max. 8388607)
+ 551 compressed objects within 6 object streams
+ 115 named destinations out of 1000 (max. 500000)
+ 457 words of extra memory for PDF output out of 10000 (max. 10000000)
 
