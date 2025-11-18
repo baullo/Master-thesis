@@ -158,7 +158,7 @@ To approximate the magnetic field generated within the EM-coil solenoid, the fol
 with the length of the solenoid $L = 0.02 m$, the number of turns in the solenoid $N = 5$ and the vacuum permeability $\mu_0 = 1.256 \cdot 10^{-6} \frac{T\cdot m}{A}$. The electrical current value was determined by the peak current recorded with the oscilloscope, typically observed around the 0 ms point, as illustrated in Fig. \ref{fig:pulse-waveform}. This approach was adopted because the shape of the current curve varies significantly depending on the input voltage and the resulting current. Figure \ref{fig:pulse-waveform} depicts the current curve achieved for a 250V input. Additionally the current curve for a 100V input is provided in the Appendix (Fig. \ref{fig:pulse-waveform-appendix}).
 
 
-\section{Diagnostics}
+\section{In situ Diagnostics}
 
 \subsection{Ion-current Probe- Langmuir probe}\label{sec:langmuir_probe}
 
@@ -348,7 +348,7 @@ with \(U_{\text{DC}}\) as the superimposed DC voltage. For a given \(m/q\), stab
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.9\linewidth]{"Figures/experimental methods/hiden eqp"}
-	\caption{ERMS, Hiden EQP HE 1000: (1) Sampling Orifice, (2) Electron Impact Ion Source, (3) Transfer Ion Optics, (4) Quadrupole Lens, (5) Energy Filter, (6) Decelerating Lens, (7) Quadrupole Mass Filter, (8) Detector, (9) Differential Pump Port}
+	\caption{ERMS, Hiden EQP HE 1000: (1) Sampling Orifice, (2) Electron Impact Ion Source, (3) Transfer Ion Optics, (4) Quadrupole Lens, (5) Energy Filter, (6) Decelerating Lens, (7) Quadrupole Mass Filter, (8) Detector, (9) Differential Pump Port \cite{hidenanalytical}}
 	\label{fig:hiden-eqp}
 \end{figure}
 
@@ -378,9 +378,11 @@ IEDFs were measured using a double trigger acquisition scheme synchronized with 
 %The integrated ion flux \(\Gamma_i\) was determined by normalizing the IEDFs to the plasma density, as measured by a Langmuir probe (\ref{sec:langmuir_probe}). The observed charge-state distributions of Ti\(^+\) and Al\(^+\) ions aligned with earlier findings for cathodic arc plasmas \cite{RN6,unutulmazsoy}.
 
 
-\iffalse
+\section{Ex situ Measurements}
 
-\subsection{X-ray Diffraction (XRD)}\label{sec:xrd}
+\subsection{X-ray Diffraction (XRD)}\label{sec:XRD}
+
+\iffalse
 X-ray diffraction (XRD) was employed to analyze the crystallographic structure of the thin films deposited during the experiments. XRD is a non-destructive technique that provides detailed information about the crystalline phases present in the material, as well as their lattice parameters, crystallite size, and strain.
 
 The XRD measurements were performed using a [specific model, e.g., Bruker D8 Advance] diffractometer equipped with a Cu Kα radiation source ($\lambda = 1.5406$ Å). The diffractometer was configured with a [specific type of detector, e.g., scintillation counter] and a goniometer for precise angle measurements. The samples were mounted on a [specific type of sample holder, if applicable] and scanned over a 2θ range of [specific range, e.g., 20° to 80°] with a scan speed of [specific speed, e.g., 0.02° per second].
@@ -399,8 +401,16 @@ where \( \tau \) is the mean size of the crystalline domains, \( K \) is a dimen
 
 The XRD measurements were calibrated using a standard reference material (e.g., silicon powder) to ensure accuracy and reproducibility. The samples were prepared by [specific preparation method, e.g., cutting and polishing] to ensure a flat and representative surface for analysis.
 
-
 \fi
+
+\subsection{X-ray Reflectometry (XRD)}\label{sec:XRR}
+
+\subsection{Scanning Electron Microscopy (SEM)}\label{sec:SEM}
+
+\subsection{Profilometry}\label{sec:profil}
+
+
+
 
 
 \section{Data Processing}
@@ -438,14 +448,7 @@ However, certain sources of error specific to the ion probe must be considered. 
 
 As stated before each pulse varies in terms of energies and amount of particles, these variations are investigated briefly in Sec \ref{sec:errorbar}, but cannot be considered for every data point.\\
  
+The QCM measurements are subject to inaccuracies in terms of the error in the resonance frequency measurements, which is based on the manufacturer's specifications. The given measurement inaccuracy is 0.03~Hz, which will be taken for error propagation. Additionally, the relative position of the QCM sensor with respect to the ion flux can affect the accuracy of the measurements.\\
 
-%%% qcm and below needs to be redone
-%% hherer i continue
-
-
-The QCM measurements are subject to inaccuracies in terms of the error in the resonance frequency measurements, which is based on the manufacturer's specifications. The given measurement inaccuracy is 0.03~Hz, which is an inaccuracy of 0.01--0.2~\% depending on the parameters  . However, the relative position of the QCM sensor with respect to the ion flux can affect the accuracy of the measurements.\\
-
-
-By considering these sources of error and employing statistical methods to characterize measurement variability, the study aims to provide a comprehensive analysis of the data obtained from the QCM and ion current probe measurements.
 
 

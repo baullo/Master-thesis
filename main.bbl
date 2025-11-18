@@ -1,5 +1,13 @@
 \begin{thebibliography}{10}
 
+\bibitem{hidenanalytical}
+Hiden Analytical.
+\newblock {EQP: Mass and Energy Analyser for plasma diagnostics}.
+\newblock
+  \url{https://www.hidenanalytical.com/wp-content/uploads/2016/08/EQP-poster\_A1\_print.pdf},
+  2016.
+\newblock [Accessed 18-11-2025].
+
 \bibitem{cathodic_arcs}
 André Anders.
 \newblock {\em Cathodic arcs: from fractal spots to energetic condensation},

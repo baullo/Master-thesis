@@ -16,15 +16,20 @@
 \contentsline {section}{\numberline {3.1}Experimental Apparatus and Setup}{12}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Vacuum \& Gas Infrastructure}{12}{subsection.3.1.1}%
 \contentsline {subsection}{\numberline {3.1.2}Power \& Triggering}{13}{subsection.3.1.2}%
-\contentsline {section}{\numberline {3.2}Diagnostics}{15}{section.3.2}%
+\contentsline {section}{\numberline {3.2}In situ Diagnostics}{15}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Ion-current Probe- Langmuir probe}{15}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Quartz Crystal Microbalance}{16}{subsection.3.2.2}%
 \contentsline {subsection}{\numberline {3.2.3}Comparability with QCM Measurements}{17}{subsection.3.2.3}%
 \contentsline {subsection}{\numberline {3.2.4}Quadrupole Mass Spectrometer}{18}{subsection.3.2.4}%
-\contentsline {section}{\numberline {3.3}Data Processing}{20}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Error Handling}{20}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Mass Spectrometry Measurements}{20}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}QCM and Ion Current Probe Measurements}{21}{subsection.3.4.2}%
+\contentsline {section}{\numberline {3.3}Ex situ Measurements}{20}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}X-ray Diffraction (XRD)}{20}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}X-ray Reflectometry (XRD)}{20}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Scanning Electron Microscopy (SEM)}{20}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Profilometry}{20}{subsection.3.3.4}%
+\contentsline {section}{\numberline {3.4}Data Processing}{20}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Error Handling}{21}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Mass Spectrometry Measurements}{21}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}QCM and Ion Current Probe Measurements}{22}{subsection.3.5.2}%
 \contentsline {chapter}{\numberline {4}Results}{23}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Langmuir Probe Bias Voltage Characterization}{23}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Validation of Langmuir Probe Operation}{23}{subsection.4.1.1}%
