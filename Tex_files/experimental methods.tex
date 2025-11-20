@@ -382,10 +382,10 @@ IEDFs were measured using a double trigger acquisition scheme synchronized with 
 
 \subsection{X-ray Diffraction (XRD)}\label{sec:XRD}
 
-\iffalse
+
 X-ray diffraction (XRD) was employed to analyze the crystallographic structure of the thin films deposited during the experiments. XRD is a non-destructive technique that provides detailed information about the crystalline phases present in the material, as well as their lattice parameters, crystallite size, and strain.
 
-The XRD measurements were performed using a [specific model, e.g., Bruker D8 Advance] diffractometer equipped with a Cu Kα radiation source ($\lambda = 1.5406$ Å). The diffractometer was configured with a [specific type of detector, e.g., scintillation counter] and a goniometer for precise angle measurements. The samples were mounted on a [specific type of sample holder, if applicable] and scanned over a 2θ range of [specific range, e.g., 20° to 80°] with a scan speed of [specific speed, e.g., 0.02° per second].
+The XRD measurements were performed using a [specific model, e.g., Bruker D8 Advance] diffractometer equipped with a Cu K$_{\alpha}$ radiation source ($\lambda = 1.5406$ Å). The diffractometer was configured with a [specific type of detector, e.g., scintillation counter] and a goniometer for precise angle measurements. The samples were mounted on a [specific type of sample holder, if applicable] and scanned over a 2$\theta$ range of [specific range, e.g., 20° to 80°] with a scan speed of [specific speed, e.g., 0.02° per second].
 
 The crystallographic structure of the films was determined by analyzing the diffraction patterns obtained. The Bragg equation was used to identify the crystalline phases:
 \begin{equation}
@@ -401,13 +401,60 @@ where \( \tau \) is the mean size of the crystalline domains, \( K \) is a dimen
 
 The XRD measurements were calibrated using a standard reference material (e.g., silicon powder) to ensure accuracy and reproducibility. The samples were prepared by [specific preparation method, e.g., cutting and polishing] to ensure a flat and representative surface for analysis.
 
+
+
+\subsection{X-ray Reflectometry (XRR)}\label{sec:XRR}
+
+\iffalse
+X-ray reflectometry (XRR) is a non-destructive technique used to determine the thickness, density, and interfacial roughness of thin films and multilayer structures \cite{tolan1999,holy1999}. The method works by measuring the intensity of X-rays reflected from a sample surface as a function of the incident angle, typically in the range of grazing incidence (0.1--5$^\circ$). 
+
+When X-rays strike a flat surface at shallow angles, total external reflection occurs below a critical angle $\theta_c$, which is related to the electron density of the material. Above the critical angle, X-rays penetrate the film and reflect from interfaces, creating interference patterns (Kiessig fringes) whose period is directly related to the film thickness \cite{kiessig1931}. For a single-layer film, the thickness $d$ can be estimated from the angular spacing $\Delta\theta$ between interference fringes using:
+\begin{equation}
+	d = \frac{\lambda}{2\Delta\theta}
+	\label{eq:xrr_thickness}
+\end{equation}
+where $\lambda$ is the X-ray wavelength.
+
+XRR is particularly well-suited for films in the range of 1--150~nm, with thickness accuracy on the order of 0.1--0.2~nm and roughness sensitivity down to a few angstroms \cite{daillant2009}. Unlike optical methods, XRR is a first-principles technique requiring no calibration and is applicable to crystalline, polycrystalline, and amorphous materials. The measured reflectivity curves are typically analyzed using recursive Parratt formalism combined with roughness corrections, with fitting parameters including layer thicknesses, densities (determining refractive index), and interfacial roughnesses \cite{parratt1954}.
+
+In this work, XRR measurements were performed to verify film thicknesses determined by QCM and profilometry, as well as to characterize the density and surface roughness of deposited TiAlN films under various deposition conditions.
 \fi
 
-\subsection{X-ray Reflectometry (XRD)}\label{sec:XRR}
+
 
 \subsection{Scanning Electron Microscopy (SEM)}\label{sec:SEM}
 
+\iffalse
+
+Scanning electron microscopy (SEM) was employed to characterize the surface morphology, cross-sectional structure, and microstructural features of the deposited films. SEM uses a focused electron beam (typically 1--30~keV) that is raster-scanned across the sample surface, generating various signals through electron-specimen interactions \cite{goldstein2017}. The primary signals detected include secondary electrons (SE) for high-resolution topographic imaging and backscattered electrons (BSE) for compositional contrast.
+
+Secondary electrons, emitted from the near-surface region ($\sim$5--50~nm depth), provide information about surface texture and topography with typical resolutions of 1--10~nm depending on the instrument and operating conditions \cite{reimer1998}. Backscattered electrons, which retain most of their incident energy, are sensitive to atomic number ($Z$-contrast), allowing different phases or compositional variations to be distinguished. The intensity of BSE signal increases with increasing atomic number, making heavier elements appear brighter.
+
+For this study, samples were prepared by cleaving or cutting silicon wafer substrates to expose cross-sections of the deposited films. Conductive coatings were not required for the metallic TiAlN films. SEM imaging was performed to:
+\begin{itemize}[noitemsep]
+	\item Characterize surface morphology and the presence of macroparticles typical of cathodic arc deposition
+	\item Measure film thickness from cross-sectional views to validate QCM measurements
+	\item Examine film uniformity and interface quality with the substrate
+	\item Identify columnar growth structures and grain morphology
+\end{itemize}
+
+Additionally, energy-dispersive X-ray spectroscopy (EDS) was used in conjunction with SEM to perform elemental analysis, confirming the Ti:Al ratio and nitrogen incorporation in the films \cite{williams2009}.
+\fi
+
+
 \subsection{Profilometry}\label{sec:profil}
+
+Stylus profilometry was used to measure film thickness by mechanically tracing the surface topography using a diamond-tipped stylus. The technique provides direct measurement of step heights between masked and deposited regions, making it particularly useful for verifying film thickness values obtained by QCM \cite{poon1995}.\\
+
+
+In profilometry, a stylus with a small tip radius (typically 2--12~$\mu$m) is dragged across the sample surface with a controlled force (here 3~mg) while its vertical displacement is monitored electromagnetically. The resulting trace provides a profile of the surface from which the step height (film thickness) with vertical resolution down to $\sim$1~nm can be extracted.\\
+
+
+The Dektak stylus profilometer used in this study has a measurement range from 6.5~nm to 800~$\mu$m with repeatability of 0.4~nm. For thickness measurements, silicon substrates were partially masked with a marker line, which created a well-defined step edge during deposition. This marker line was subsequently removed with Isopropanol in a ultrasonic bath. Multiple scans across each step were performed to ensure reproducibility, and the average thickness was calculated from at least three different positions on each sample.\\
+
+
+One limitation of contact profilometry is the potential for stylus-induced damage on very soft films, though this was not a concern for the hard TiAlN coatings investigated here. The technique is complementary to XRR, with profilometry providing rapid, direct thickness measurements while XRR offers higher accuracy for very thin films and additional information on density and roughness \cite{windover1999}.
+
 
 
 
@@ -428,27 +475,68 @@ QMS data were evaluated with a separate Python script that integrated raw spectr
 \section{Error Handling}
 \subsection{Mass Spectrometry Measurements}
 
-In mass spectrometry measurements, particularly in the context of cathodic arc processes, the standard deviation is crucial for characterizing data variability. The non-stationary nature of cathode spots in cathodic arcs leads to significant fluctuations in ion flux and charge composition from pulse to pulse \cite{cathodic_arcs}. Calibrating mass spectrometry measurements can be challenging due to these fluctuations, as random errors at each standard point used to determine the calibration curve can lead to a distribution of values for the same observed response for the unknown \cite{massspec_err}. As a result, achieving optimal calibration in such conditions may not be straightforward, and the accuracy of the calibration could be affected. \\
+In mass spectrometry measurements, particularly in the context of cathodic arc processes, the standard deviation is crucial for characterizing data variability. The non-stationary nature of cathode spots in cathodic arcs leads to significant fluctuations in ion flux and charge composition from pulse to pulse \cite{cathodic_arcs}. Calibrating mass spectrometry measurements can be challenging due to these fluctuations, as random errors at each standard point used to determine the calibration curve can lead to a distribution of values for the same observed response for the unknown \cite{massspec_err}. As a result, achieving optimal calibration in such conditions may not be straightforward, and the accuracy of the calibration could be affected.
 
-In this study, while efforts were made to calibrate the mass spectrometer accurately, the inherent difficulties associated with the calibration process in cathodic arc environments suggest that the calibration might not have been optimal. To account for this potential source of error, the impact of truncating the measurement artifact (e.g., signal noise or background interference) at different points was evaluated, and its effect on the data was analyzed in detail. This analysis will be further discussed in Section \ref{massspec_results}. \\
+In this study, while efforts were made to calibrate the mass spectrometer accurately, the inherent difficulties associated with the calibration process in cathodic arc environments suggest that the calibration might not have been optimal. To account for this potential source of error, the impact of truncating the measurement artifact (e.g., signal noise or background interference) at different points was evaluated, and its effect on the data was analyzed in detail. This analysis will be further discussed in Section \ref{massspec_results}.
 
-As detailed in Appendix \ref{appendix:code}, the standard deviation of energy measurements is calculated using the \verb|calculate_energy_stats| function, providing both average energy and standard deviation. This statistical approach offers a visual representation of measurement variability through error bars.\\
-
-The use of standard deviation in mass spectrometry is well-documented in scientific literature. For instance, standard deviation is commonly used to represent uncertainties in measurements and to describe the scatter among measured data points \cite{basic_massspec}. This statistical approach is crucial for characterizing data variability and ensuring the accuracy of the measurements.
-
+As detailed in Appendix \ref{appendix:code}, the standard deviation of energy measurements is calculated using the \verb|calculate_energy_stats| function, providing both average energy and standard deviation. This statistical approach offers a visual representation of measurement variability through error bars. The use of standard deviation in mass spectrometry is well-documented in scientific literature. For instance, standard deviation is commonly used to represent uncertainties in measurements and to describe the scatter among measured data points \cite{basic_massspec}. This statistical approach is crucial for characterizing data variability and ensuring the accuracy of the measurements.
 
 \subsection{QCM and Ion Current Probe Measurements}
 
+For the ion current probe measurements, the standard deviation of the averaged measurements is calculated to characterize the variability in the data. This variability within a pulse can be attributed to several factors, including fluctuations in the plasma potential at the beginning of the pulse, charge exchange reactions between ions and neutrals, and variations in the arc current and pulse parameters. These factors can cause fluctuations in the ion current during the pulse, leading to the observed variability \cite{evolution_pulse}. This kind of instability within the pulse will be henceforth shown with the help of error bars.
 
+However, certain sources of error specific to the ion probe must be considered. The design of the ion probe can influence the measurements due to sheath effects, where the sheath around the probe can expand based on the probe's size and the biasing applied \cite[Appendix A.2]{cathodic_arcs}. Additionally, secondary electron emissions from the probe surface can affect the ion current measurements \cite[Chap. 8.2]{cathodic_arcs}. These emissions can be caused by interactions between the ions and the probe surface, leading to inaccuracies in the measurements. As stated before, each pulse varies in terms of energies and amount of particles; these variations are investigated briefly in Sec.~\ref{sec:errorbar}, but cannot be considered for every data point.
 
-For the ion current probe measurements, the standard deviation of the averaged measurements is calculated to characterize the variability in the data. This variability within a pulse can be attributed to several factors, including fluctuations in the plasma potential at the beginning of the pulse, charge exchange reactions between ions and neutrals, and variations in the arc current and pulse parameters. These factors can cause fluctuations in the ion current during the pulse, leading to the observed variability \cite{evolution_pulse}. This kind of instability within the pulse will be henceforth be shown with the help of error-bars.\\
+The QCM measurements are subject to inaccuracies in terms of the error in the resonance frequency measurements, which is based on the manufacturer's specifications. The given measurement inaccuracy is $\Delta f = 0.03$~Hz, which will be taken for error propagation \cite{SQM160_manual}. Additionally, the relative position of the QCM sensor with respect to the ion flux can affect the accuracy of the measurements. The mass deposition rate is determined from the frequency shift according to the Sauerbrey equation \cite{Sauerbrey_1959}, and subsequent calculations of mass flux depend on the measurement duration and sensor area.
 
+\subsection{Error Propagation Analysis}\label{sec:error_propagation}
 
-However, certain sources of error specific to the ion probe must be considered. The design of the ion probe can influence the measurements due to sheath effects, where the sheath around the probe can expand based on the probe's size and the biasing applied \cite[Appendix. A.2]{cathodic_arcs}. Additionally, secondary electron emissions from the probe surface can affect the ion current measurements \cite[Chap. 8.2]{cathodic_arcs}. These emissions can be caused by interactions between the ions and the probe surface, leading to inaccuracies in the measurements.
+To properly characterize the uncertainties in the derived quantities, a comprehensive error propagation analysis was performed. The primary measured quantities with associated uncertainties are: the ion current $I_{\text{ion}}$ with standard deviation $\sigma_{I}$, the deposited mass $m$ measured by QCM with uncertainty $\sigma_m$, and the mean charge state $\bar{Q}$ with standard deviation $\sigma_Q$ determined from mass spectrometry measurements. These independent measurements are combined to calculate particle fluxes, necessitating careful propagation of uncertainties through the calculation chain.
 
-As stated before each pulse varies in terms of energies and amount of particles, these variations are investigated briefly in Sec \ref{sec:errorbar}, but cannot be considered for every data point.\\
- 
-The QCM measurements are subject to inaccuracies in terms of the error in the resonance frequency measurements, which is based on the manufacturer's specifications. The given measurement inaccuracy is 0.03~Hz, which will be taken for error propagation. Additionally, the relative position of the QCM sensor with respect to the ion flux can affect the accuracy of the measurements.\\
+\subsubsection{Ion Flux from Current Measurements}
+The ion flux in mass units $\Phi_{\text{ion}}$ (in $\mu$g/cm$^2$/s) is calculated from the measured ion current according to:
+\begin{equation}
+	\Phi_{\text{ion}} = \frac{I_{\text{ion}} \cdot M_{\text{eff}}}{\bar{Q} \cdot e \cdot A}
+	\label{eq:ion_flux_mass}
+\end{equation}
+where $M_{\text{eff}} = \sum_i f_i \cdot M_i$ is the effective molar mass determined from the species composition measured by mass spectrometry, with $f_i$ being the relative fraction of species $i$ (Al, Ti, N, N$_2$) and $M_i$ the corresponding atomic or molecular mass. Here $e = 1.602 \times 10^{-19}$~C is the elementary charge and $A$ is the collection area of the ion probe.
+
+For error propagation, considering the independent uncertainties in $I_{\text{ion}}$, $\bar{Q}$, and $M_{\text{eff}}$, the standard Gaussian error propagation formula gives \cite{taylor1997}:
+\begin{equation}
+	\left(\frac{\sigma_{\Phi_{\text{ion}}}}{\Phi_{\text{ion}}}\right)^2 = \left(\frac{\sigma_I}{I_{\text{ion}}}\right)^2 + \left(\frac{\sigma_Q}{\bar{Q}}\right)^2 + \left(\frac{\sigma_{M_{\text{eff}}}}{M_{\text{eff}}}\right)^2
+	\label{eq:rel_error_ion_flux}
+\end{equation}
+
+This shows that the relative uncertainties add in quadrature, which is typical for multiplicative error propagation. The uncertainty in $M_{\text{eff}}$ arises from the variability in species fractions and individual charge states measured by mass spectrometry.
+
+\subsubsection{Atomic Flux from QCM Measurements}
+The atomic flux $\Phi_{\text{atom}}$ (in atoms/cm$^2$/s) is determined from the mass flux measured by the QCM:
+\begin{equation}
+	\Phi_{\text{atom}} = \frac{\Phi_{\text{mass}} \cdot N_A}{M_{\text{eff}}}
+	\label{eq:atomic_flux}
+\end{equation}
+where $\Phi_{\text{mass}} = m/(A_{\text{QCM}} \cdot t)$ is the mass flux and $N_A = 6.022 \times 10^{23}$~mol$^{-1}$ is Avogadro's constant. Following the same approach:
+\begin{equation}
+	\left(\frac{\sigma_{\Phi_{\text{atom}}}}{\Phi_{\text{atom}}}\right)^2 = \left(\frac{\sigma_m}{m}\right)^2 + \left(\frac{\sigma_{M_{\text{eff}}}}{M_{\text{eff}}}\right)^2
+	\label{eq:rel_error_atomic_flux}
+\end{equation}
+
+The QCM mass uncertainty $\sigma_m$ is calculated from the frequency measurement uncertainty $\Delta f = 0.03$~Hz using the Sauerbrey relation.
+
+\subsubsection{Ion Flux in Atomic Units}
+To enable direct comparison between ion current and QCM measurements, the ion flux is also expressed in atomic units:
+\begin{equation}
+	\Phi_{\text{ion,atoms}} = \frac{\Phi_{\text{ion}} \cdot N_A}{M_{\text{eff}}}
+	\label{eq:ion_flux_atoms}
+\end{equation}
+
+The relative uncertainty follows from combining Eqs.~\eqref{eq:rel_error_ion_flux} and the transformation:
+\begin{equation}
+	\left(\frac{\sigma_{\Phi_{\text{ion,atoms}}}}{\Phi_{\text{ion,atoms}}}\right)^2 = \left(\frac{\sigma_I}{I_{\text{ion}}}\right)^2 + \left(\frac{\sigma_Q}{\bar{Q}}\right)^2 + 2\left(\frac{\sigma_{M_{\text{eff}}}}{M_{\text{eff}}}\right)^2
+	\label{eq:rel_error_ion_flux_atoms}
+\end{equation}
+
+Note the factor of 2 for the effective molar mass uncertainty, since $M_{\text{eff}}$ appears in both the ion flux calculation and the unit conversion.
 
 
 

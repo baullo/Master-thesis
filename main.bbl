@@ -46,15 +46,33 @@ Francis~F. Chen.
 \newblock {\em Introduction to Plasma Physics and Controlled Fusion}, volume~1.
 \newblock Springer, New York, 1984.
 
+\bibitem{daillant2009}
+Jean Daillant and Alain Gibaud.
+\newblock {\em X-ray and Neutron Reflectivity: Principles and Applications},
+  volume 770 of {\em Lecture Notes in Physics}.
+\newblock Springer, Berlin, 2009.
+
 \bibitem{dawson_quadrupole_1997}
 P.~H. Dawson.
 \newblock {\em Quadrupole Mass Spectrometry and Its Applications}.
 \newblock IM Publications, Chichester, UK, 1997.
 
+\bibitem{goldstein2017}
+Joseph~I. Goldstein, Dale~E. Newbury, Joseph~R. Michael, Nicholas W.~M.
+  Ritchie, John Henry~J. Scott, and David~C. Joy.
+\newblock {\em Scanning Electron Microscopy and X-Ray Microanalysis}.
+\newblock Springer, New York, 4th edition, 2017.
+
 \bibitem{hiden_eqp_manual}
 Hiden Analytical, Warrington, UK.
 \newblock {\em EQP Technical Manual: Energy-Resolving Quadrupole Mass
   Spectrometer}, 2024.
+
+\bibitem{holy1999}
+V.~Hol{\'y}, U.~Pietsch, and T.~Baumbach.
+\newblock {\em High-Resolution X-Ray Scattering from Thin Films and
+  Multilayers}, volume 149 of {\em Springer Tracts in Modern Physics}.
+\newblock Springer, Berlin, 1999.
 
 \bibitem{massspec_err}
 A.~Hubaux and G.~Vos.
@@ -66,6 +84,11 @@ INFICON, Bad Ragaz, Switzerland.
 \newblock {\em SQM-160 Multi-Film Rate/Thickness Monitor Operating Manual},
   2015.
 \newblock PN 074-511-P1E.
+
+\bibitem{kiessig1931}
+H.~Kiessig.
+\newblock {Interferenz von R{\"o}ntgenstrahlen an d{\"u}nnen Schichten}.
+\newblock {\em Annalen der Physik}, 402(7):769--788, 1931.
 
 \bibitem{Lu1972}
 C.~Lu and O.~Lewis.
@@ -84,11 +107,40 @@ R.~E. Miller and D.~I. Bolef.
   temperatures.
 \newblock {\em Journal of Applied Physics}, 39(11):5815--5821, 1968.
 
+\bibitem{parratt1954}
+L.~G. Parratt.
+\newblock Surface studies of solids by total reflection of x-rays.
+\newblock {\em Physical Review}, 95(2):359--369, 1954.
+
+\bibitem{poon1995}
+C.~Y. Poon and B.~Bhushan.
+\newblock {\em Comparison of surface roughness measurements by stylus profiler,
+  AFM and non-contact optical profiler}, volume 190.
+\newblock 1995.
+
+\bibitem{reimer1998}
+Ludwig Reimer.
+\newblock {\em Scanning Electron Microscopy: Physics of Image Formation and
+  Microanalysis}, volume~45 of {\em Springer Series in Optical Sciences}.
+\newblock Springer, Berlin, 2nd edition, 1998.
+
 \bibitem{Sauerbrey_1959}
 Günter Sauerbrey.
 \newblock Verwendung von schwingquarzen zur wägung dünner schichten und zur
   mikrowägung.
 \newblock {\em Zeitschrift für Physik}, 155(2):206–222, Apr 1959.
+
+\bibitem{taylor1997}
+John~R. Taylor.
+\newblock {\em An Introduction to Error Analysis: The Study of Uncertainties in
+  Physical Measurements}.
+\newblock University Science Books, Sausalito, CA, 2nd edition, 1997.
+
+\bibitem{tolan1999}
+Metin Tolan.
+\newblock {\em X-Ray Scattering from Soft-Matter Thin Films: Materials Science
+  and Basic Research}, volume 148 of {\em Springer Tracts in Modern Physics}.
+\newblock Springer, Berlin, 1999.
 
 \bibitem{unutulmazsoy}
 Yeliz Unutulmazsoy, Dmitry Kalanov, Kyunghwan Oh, Soheil Karimi~Aghda,
@@ -98,5 +150,17 @@ Yeliz Unutulmazsoy, Dmitry Kalanov, Kyunghwan Oh, Soheil Karimi~Aghda,
   Ion flux dependent structural properties of thin (v,al)n films deposited by
   pulsed filtered cathodic arc.
 \newblock {\em Journal of Vacuum Science \& Technology A}, 41(6), 2023.
+
+\bibitem{williams2009}
+David~B. Williams and C.~Barry Carter.
+\newblock {\em Transmission Electron Microscopy: A Textbook for Materials
+  Science}.
+\newblock Springer, New York, 2nd edition, 2009.
+
+\bibitem{windover1999}
+D.~Windover, K.~M. Gaff, D.~Lee, and M.~J. Dalberth.
+\newblock Profilometry and atomic force microscopy for surface
+  characterization.
+\newblock {\em Materials Characterization}, 43(5):347--355, 1999.
 
 \end{thebibliography}
