@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.10.30)  24 NOV 2025 11:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.10.30)  25 NOV 2025 15:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1075,85 +1075,89 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvip
 s/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/
 texmf/fonts/enc/dvips/lm/lm-mathit.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 60.
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--29
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
+Underfull \hbox (badness 10000) in paragraph at lines 85--87
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--113
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 130--131
+Underfull \hbox (badness 10000) in paragraph at lines 127--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--133
+Underfull \hbox (badness 10000) in paragraph at lines 133--135
 
  []
 
-[9]
 
-LaTeX Warning: Reference `' on page 10 undefined on input line 160.
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
 
-
-LaTeX Warning: Reference `' on page 10 undefined on input line 160.
+ []
 
 
-LaTeX Warning: Reference `' on page 10 undefined on input line 160.
+Underfull \hbox (badness 10000) in paragraph at lines 141--143
+
+ []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
+
+ []
+
+[10]
 Underfull \hbox (badness 10000) in paragraph at lines 167--168
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--170
+Underfull \hbox (badness 10000) in paragraph at lines 184--185
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--172
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
 
  []
 
-[10]
+[11]
+<Figures/theory/anders_szm.png, id=372, 337.89395pt x 224.41737pt>
+File: Figures/theory/anders_szm.png Graphic file (type png)
+<use Figures/theory/anders_szm.png>
+Package pdftex.def Info: Figures/theory/anders_szm.png  used on input line 190.
 
-LaTeX Warning: Reference `' on page 11 undefined on input line 184.
+(pdftex.def)             Requested size: 352.81552pt x 234.33708pt.
+ [12 <./Figures/theory/anders_szm.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
 
-) (./Tex_files/experimental methods.tex [11]
+ []
+
+) (./Tex_files/experimental methods.tex [13]
 Chapter 3.
 
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
@@ -1170,10 +1174,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--12
 
  []
 
-[12
+[14
 
-] [13]
-<Figures/experimental methods/Pulse waveform.png, id=350, 774.7344pt x 426.8748
+] [15]
+<Figures/experimental methods/Pulse waveform.png, id=408, 774.7344pt x 426.8748
 pt>
 File: Figures/experimental methods/Pulse waveform.png Graphic file (type png)
 <use Figures/experimental methods/Pulse waveform.png>
@@ -1183,17 +1187,17 @@ on input line 148.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14 <./Figures/experimental methods/Pulse waveform.png (PNG copy)>]
+ [16 <./Figures/experimental methods/Pulse waveform.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 243--244
 
  []
 
-[15]
+[17]
 Underfull \hbox (badness 10000) in paragraph at lines 259--260
 
  []
 
-<Figures/experimental methods/QCM_head.png, id=375, 702.625pt x 351.3125pt>
+<Figures/experimental methods/QCM_head.png, id=434, 702.625pt x 351.3125pt>
 File: Figures/experimental methods/QCM_head.png Graphic file (type png)
 <use Figures/experimental methods/QCM_head.png>
 Package pdftex.def Info: Figures/experimental methods/QCM_head.png  used on inp
@@ -1203,7 +1207,7 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
 64.
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [16 <./Figures/experimental methods/QCM_head.png>]
+) [18 <./Figures/experimental methods/QCM_head.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 276--277
 
  []
@@ -1213,7 +1217,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 291--292
 
  []
 
-<Figures/experimental methods/mounting assembly thingy.png, id=394, 1081.03876p
+<Figures/experimental methods/mounting assembly thingy.png, id=454, 1081.03876p
 t x 489.83pt>
 File: Figures/experimental methods/mounting assembly thingy.png Graphic file (t
 ype png)
@@ -1226,17 +1230,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 316--317
 
  []
 
-[17{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}]
+[19{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}]
 Underfull \hbox (badness 10000) in paragraph at lines 325--326
 
  []
 
-[18 <./Figures/experimental methods/mounting assembly thingy.png>]
+[20 <./Figures/experimental methods/mounting assembly thingy.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 344--347
 
  []
 
-<Figures/experimental methods/hiden eqp.png, id=442, 700.86844pt x 464.4853pt>
+<Figures/experimental methods/hiden eqp.png, id=501, 700.86844pt x 464.4853pt>
 File: Figures/experimental methods/hiden eqp.png Graphic file (type png)
 <use Figures/experimental methods/hiden eqp.png>
 Package pdftex.def Info: Figures/experimental methods/hiden eqp.png  used on in
@@ -1247,18 +1251,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 356--357
 
  []
 
-[19 <./Figures/experimental methods/hiden eqp.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 386--387
-
- []
-
-
-Overfull \hbox (9.87978pt too wide) in paragraph at lines 397--398
-[]\T1/lmr/m/n/12 The XRD data were pro-cessed us-ing [spe-cific soft-ware, e.g.
-, Bruker DIFFRAC.SUITE]
- []
-
-[20]
+[21 <./Figures/experimental methods/hiden eqp.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 448--449
 
  []
@@ -1269,25 +1262,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 451--452
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 454--455
-
- []
-
-[21]
 Underfull \hbox (badness 10000) in paragraph at lines 466--467
 
  []
 
-
+[22]
 Underfull \hbox (badness 10000) in paragraph at lines 469--470
 
  []
 
 
-LaTeX Warning: Reference `massspec_results' on page 22 undefined on input line 
+LaTeX Warning: Reference `massspec_results' on page 23 undefined on input line 
 481.
 
-[22] [23] [24]) (./Tex_files/results.tex [25]
+[23] [24] [25]) (./Tex_files/results.tex [26]
 Chapter 4.
 
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
@@ -1299,7 +1287,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
-<Figures/results 1/bias_current_voltage_Saturation_thesis_version.png, id=525, 
+<Figures/results 1/bias_current_voltage_Saturation_thesis_version.png, id=576, 
 578.16pt x 361.35pt>
 File: Figures/results 1/bias_current_voltage_Saturation_thesis_version.png Grap
 hic file (type png)
@@ -1310,25 +1298,25 @@ is_version.png  used on input line 12.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[26
+[27
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
-[27 <./Figures/results 1/bias_current_voltage_Saturation_thesis_version.png>]
+[28 <./Figures/results 1/bias_current_voltage_Saturation_thesis_version.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 48--49
 
  []
 
-[28]
-<Figures/results 1/3Dmass.png, id=556, 4948.4875pt x 3369.58875pt>
+[29]
+<Figures/results 1/3Dmass.png, id=607, 4948.4875pt x 3369.58875pt>
 File: Figures/results 1/3Dmass.png Graphic file (type png)
 <use Figures/results 1/3Dmass.png>
 Package pdftex.def Info: Figures/results 1/3Dmass.png  used on input line 73.
 (pdftex.def)             Requested size: 441.01773pt x 300.26779pt.
-<Figures/results 1/3Dion.png, id=557, 5099.05pt x 3477.99374pt>
+<Figures/results 1/3Dion.png, id=608, 5099.05pt x 3477.99374pt>
 File: Figures/results 1/3Dion.png Graphic file (type png)
 <use Figures/results 1/3Dion.png>
 Package pdftex.def Info: Figures/results 1/3Dion.png  used on input line 79.
@@ -1336,26 +1324,37 @@ Package pdftex.def Info: Figures/results 1/3Dion.png  used on input line 79.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29]
+ [30]
 Overfull \vbox (6.48454pt too high) has occurred while \output is active []
 
 
-[30 <./Figures/results 1/3Dmass.png> <./Figures/results 1/3Dion.png>]
-<Figures/results 1/mass_vs_magfield_0Pa.png, id=574, 650.43pt x 433.62pt>
+[31 <./Figures/results 1/3Dmass.png> <./Figures/results 1/3Dion.png>]
+<Figures/results 1/mass_vs_magfield_0Pa.png, id=625, 650.43pt x 433.62pt>
 File: Figures/results 1/mass_vs_magfield_0Pa.png Graphic file (type png)
 <use Figures/results 1/mass_vs_magfield_0Pa.png>
 Package pdftex.def Info: Figures/results 1/mass_vs_magfield_0Pa.png  used on in
 put line 107.
 (pdftex.def)             Requested size: 220.50887pt x 147.00539pt.
-<Figures/results 1/ions_vs_magfield_0Pa.png, id=575, 650.43pt x 433.62pt>
+<Figures/results 1/ions_vs_magfield_0Pa.png, id=626, 650.43pt x 433.62pt>
 File: Figures/results 1/ions_vs_magfield_0Pa.png Graphic file (type png)
 <use Figures/results 1/ions_vs_magfield_0Pa.png>
 Package pdftex.def Info: Figures/results 1/ions_vs_magfield_0Pa.png  used on in
 put line 113.
 (pdftex.def)             Requested size: 220.50887pt x 147.00539pt.
 )
-(./Tex_files/appendix.tex [31 <./Figures/results 1/mass_vs_magfield_0Pa.png> <.
-/Figures/results 1/ions_vs_magfield_0Pa.png>]
+(./Tex_files/discussion.tex
+Underfull \vbox (badness 4181) has occurred while \output is active []
+
+ [32 <./Figures/results 1/mass_vs_magfield_0Pa.png> <./Figures/results 1/ions_v
+s_magfield_0Pa.png>] [33]
+Chapter 5.
+) (./Tex_files/final_words.tex [34
+
+]
+Chapter 6.
+) (./Tex_files/appendix.tex [35
+
+]
 pdfTeX warning (ext4): destination with the same identifier (name{chapter.1}) h
 as been already used, duplicate ignored
 <to be read again> 
@@ -1363,7 +1362,7 @@ as been already used, duplicate ignored
 l.2 \chapter{Additional Plots}
                               
 Appendix A.
-<Figures/appendix/Pulse waveform appendix (0.1T).png, id=585, 774.7344pt x 426.
+<Figures/appendix/Pulse waveform appendix (0.1T).png, id=650, 774.7344pt x 426.
 8748pt>
 File: Figures/appendix/Pulse waveform appendix (0.1T).png Graphic file (type pn
 g)
@@ -1371,7 +1370,7 @@ g)
 Package pdftex.def Info: Figures/appendix/Pulse waveform appendix (0.1T).png  u
 sed on input line 6.
 (pdftex.def)             Requested size: 441.01773pt x 243.00198pt.
-[32
+[36
 
  <./Figures/appendix/Pulse waveform appendix (0.1T).png (PNG copy)>]
 pdfTeX warning (ext4): destination with the same identifier (name{chapter.2}) h
@@ -1381,7 +1380,7 @@ as been already used, duplicate ignored
 l.11 \chapter{Python code used}
                                \label{appendix:code}
 Appendix B.
-) (./main.bbl [33
+) (./main.bbl [37
 
 ]
 Underfull \hbox (badness 2591) in paragraph at lines 4--10
@@ -1389,9 +1388,9 @@ Underfull \hbox (badness 2591) in paragraph at lines 4--10
 sma di-ag-
  []
 
-[34
+[38
 
-] [35]) [36] (./main.aux)
+] [39]) [40] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -1401,32 +1400,32 @@ L3 programming layer <2024-01-22>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D0D293AE6F0D1FBD5B4A0760566E4179;9151.
+(rerunfilecheck)             Checksum: CF9BAD0DCE137179FF30194A6942299B;10040.
  ) 
 Here is how much of TeX's memory you used:
- 47901 strings out of 476064
- 1151386 string characters out of 5792852
- 1959975 words of memory out of 5000000
- 69221 multiletter control sequences out of 15000+600000
- 618670 words of font info for 73 fonts, out of 8000000 for 9000
+ 47993 strings out of 476064
+ 1153284 string characters out of 5792852
+ 1958975 words of memory out of 5000000
+ 69296 multiletter control sequences out of 15000+600000
+ 623048 words of font info for 79 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
- 99i,13n,101p,992b,1050s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,13n,101p,979b,1050s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/ty
-pe1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></u
-sr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/pu
-blic/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share
-/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/
-lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fo
-nts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb
-></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/typ
-e1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr
-/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/publ
-ic/lm/lmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/sym
-bols/msam10.pfb>
-Output written on main.pdf (36 pages, 4184113 bytes).
+pe1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></u
+sr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/p
+ublic/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/shar
+e/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm
+/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/
+fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb
+></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/typ
+e1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></us
+r/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/pub
+lic/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on main.pdf (40 pages, 4394073 bytes).
 PDF statistics:
- 745 PDF objects out of 1000 (max. 8388607)
- 637 compressed objects within 7 object streams
- 148 named destinations out of 1000 (max. 500000)
- 505 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 812 PDF objects out of 1000 (max. 8388607)
+ 693 compressed objects within 7 object streams
+ 156 named destinations out of 1000 (max. 500000)
+ 550 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -5,45 +5,45 @@ The style file: plain.bst
 Database file #1: Tex_files/references.bib
 Warning--can't use both volume and number fields in poon1995
 Warning--empty publisher in poon1995
-You've used 27 entries,
+You've used 25 entries,
             2118 wiz_defined-function locations,
-            669 strings with 8279 characters,
-and the built_in function-call counts, 7714 in all, are:
-= -- 741
-> -- 341
-< -- 7
-+ -- 139
-- -- 110
-* -- 543
-:= -- 1323
-add.period$ -- 83
-call.type$ -- 27
-change.case$ -- 127
+            669 strings with 8044 characters,
+and the built_in function-call counts, 7422 in all, are:
+= -- 728
+> -- 316
+< -- 3
++ -- 130
+- -- 102
+* -- 536
+:= -- 1266
+add.period$ -- 77
+call.type$ -- 25
+change.case$ -- 121
 chr.to.int$ -- 0
-cite$ -- 29
-duplicate$ -- 301
-empty$ -- 633
-format.name$ -- 110
-if$ -- 1586
+cite$ -- 27
+duplicate$ -- 269
+empty$ -- 607
+format.name$ -- 102
+if$ -- 1518
 int.to.chr$ -- 0
-int.to.str$ -- 27
-missing$ -- 36
-newline$ -- 140
-num.names$ -- 50
-pop$ -- 140
+int.to.str$ -- 25
+missing$ -- 28
+newline$ -- 130
+num.names$ -- 46
+pop$ -- 112
 preamble$ -- 1
-purify$ -- 110
+purify$ -- 103
 quote$ -- 0
-skip$ -- 185
+skip$ -- 175
 stack$ -- 0
-substring$ -- 389
-swap$ -- 39
-text.length$ -- 7
+substring$ -- 478
+swap$ -- 29
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 84
+type$ -- 88
 warning$ -- 2
-while$ -- 67
-width$ -- 29
-write$ -- 308
+while$ -- 69
+width$ -- 27
+write$ -- 279
 (There were 2 warnings)

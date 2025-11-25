@@ -1,11 +1,11 @@
-\chapter{Experimental Methodology}
+\chapter{Experimental Methodology}\label{chap:methods}
 
 \section{Experimental Apparatus and Setup}
 
 \subsection{Vacuum \& Gas Infrastructure}
 The chamber was evacuated using a two-stage pumping system consisting of a turbo-molecular pump (backed by a rotary vane pump for initial roughing) and a cryogenic pump, achieving a base pressure of $1 \times 10^{-5}$~Pa. Nitrogen gas (N$_2$, 99.999\% purity) was introduced via a mass flow controller (MFC), with chamber pressures ranging from 0.025--0.3~Pa during experiments,\\
 
-Plasma was generated using a water-cooled cathode composed of 75~wt\% Ti--25~wt\% Al (62.8~at\% Ti--37.2~at\% Al) with a diameter of 6.35~mm and 38.1~mm long. The arc power supply operated in pulsed DC mode, delivering up to 450~A at a pulse frequency of 0.2--5~Hz, and also powered the 90$^\circ$ curved macroparticle filter in series. An accelerator coil (EM-coil), capable of currents up to 850~A, was pulsed 200~$\mu$s before arc ignition to stabilize the magnetic field. The QCM and Langmuir probe were mounted on a custom adjustable mechanism screwed to the chamber floor at 10--20~cm from the filter exit, while the energy-resolving mass spectrometer (ERMS) was positioned using a linear feedthrough for external adjustment.\\
+Plasma was generated using a water-cooled anode and a cathode with the aforementioned composition of 75~wt\% Ti--25~wt\% Al (62.8~at\% Ti--37.2~at\% Al) with a diameter of 6.35~mm and 38.1~mm long. The arc power supply operated in pulsed DC mode, delivering up to 450~A at a pulse frequency of 0.2--5~Hz, and also powered the 90$^\circ$ curved macroparticle filter in series. An accelerator coil (EM-coil), capable of currents up to 850~A, was pulsed 200~$\mu$s before arc ignition to stabilize the magnetic field. The QCM and Langmuir probe were mounted on a custom adjustable mechanism screwed to the chamber floor at 10--20~cm from the filter exit, while the energy-resolving mass spectrometer (ERMS) was positioned using a linear feedthrough for external adjustment.\\
 
 The vacuum chamber setup for cathodic arc plasma diagnostics and thin film deposition is shown in Figure~\ref{fig:vacuumchamber}.
 The arc power supply generates and steers the plasma, while the EM-coil power supply enhances the plasma energy and confinement.\\
@@ -378,11 +378,11 @@ IEDFs were measured using a double trigger acquisition scheme synchronized with 
 %The integrated ion flux \(\Gamma_i\) was determined by normalizing the IEDFs to the plasma density, as measured by a Langmuir probe (\ref{sec:langmuir_probe}). The observed charge-state distributions of Ti\(^+\) and Al\(^+\) ions aligned with earlier findings for cathodic arc plasmas \cite{RN6,unutulmazsoy}.
 
 
-\section{Ex situ Measurements}
+\section{Ex situ Measurements}\label{sec:film_characterization}
 
 \subsection{X-ray Diffraction (XRD)}\label{sec:XRD}
 
-
+\iffalse
 X-ray diffraction (XRD) was employed to analyze the crystallographic structure of the thin films deposited during the experiments. XRD is a non-destructive technique that provides detailed information about the crystalline phases present in the material, as well as their lattice parameters, crystallite size, and strain.\\
 
 
@@ -401,7 +401,7 @@ The XRD data were processed using [specific software, e.g., Bruker DIFFRAC.SUITE
 where \( \tau \) is the mean size of the crystalline domains, \( K \) is a dimensionless shape factor (typically 0.9), \( \lambda \) is the X-ray wavelength, \( \beta \) is the line broadening at half the maximum intensity (FWHM), and \( \theta \) is the Bragg angle.
 
 The XRD measurements were calibrated using a standard reference material (e.g., silicon powder) to ensure accuracy and reproducibility. The samples were prepared by [specific preparation method, e.g., cutting and polishing] to ensure a flat and representative surface for analysis.
-
+\fi
 
 
 \subsection{X-ray Reflectometry (XRR)}\label{sec:XRR}
@@ -448,10 +448,10 @@ Additionally, energy-dispersive X-ray spectroscopy (EDS) was used in conjunction
 Stylus profilometry was used to measure film thickness by mechanically tracing the surface topography using a diamond-tipped stylus. The technique provides direct measurement of step heights between masked and deposited regions, making it particularly useful for verifying film thickness values obtained by QCM \cite{poon1995}.\\
 
 
-In profilometry, a stylus with a small tip radius (typically 2--12~$\mu$m) is dragged across the sample surface with a controlled force (here 3~mg) while its vertical displacement is monitored electromagnetically. The resulting trace provides a profile of the surface from which the step height (film thickness) with vertical resolution down to $\sim$1~nm can be extracted.\\
+In profilometry, a stylus with a small tip radius is dragged across the sample surface with a controlled force of 3~mg while its vertical displacement is monitored electromagnetically. The resulting trace provides a profile of the surface from which the step height (film thickness) with vertical resolution down to $\sim$ 1~nm can be extracted.\\
 
 
-The Dektak stylus profilometer used in this study has a measurement range from 6.5~nm to 800~$\mu$m with repeatability of 0.4~nm. For thickness measurements, silicon substrates were partially masked with a marker line, which created a well-defined step edge during deposition. This marker line was subsequently removed with Isopropanol in a ultrasonic bath. Multiple scans across each step were performed to ensure reproducibility, and the average thickness was calculated from at least three different positions on each sample.\\
+%The Dektak stylus profilometer used in this study has a measurement range from 6.5~nm to 800~$\mu$m with repeatability of 0.4~nm. For thickness measurements, silicon substrates were partially masked with a marker line, which created a well-defined step edge during deposition. This marker line was subsequently removed with Isopropanol in a ultrasonic bath. Multiple scans across each step were performed to ensure reproducibility, and the average thickness was calculated from at least three different positions on each sample.\\
 
 
 One limitation of contact profilometry is the potential for stylus-induced damage on very soft films, though this was not a concern for the hard TiAlN coatings investigated here. The technique is complementary to XRR, with profilometry providing rapid, direct thickness measurements while XRR offers higher accuracy for very thin films and additional information on density and roughness \cite{windover1999}.

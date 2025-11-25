@@ -4,7 +4,7 @@
 
 \subsection{Cathode Spot Plasma Generation}
 
-Cathodic‐arc plasmas are born in microscopic emission centers, so‐called cathode spots, on an otherwise cold metal electrode under vacuum. A spot is ignited when the local cathode surface, often via a breakdown of adsorbates or field-enhanced thermionic emission, undergoes a rapid, explosive release of electrons and vaporized metal. During a single spot pulse, a few nanograms of the cathode material rapidly heat up, vaporize, and ionize, producing a dense, quasineutral plasma plume composed mostly of metal ions and electrons. The peak spot current densities reach \(10^{10}\)–\(10^{12}\)\,A\,m\(^{-2}\), far above steady-state thermionic or field emission limits. These microexplosions, known as ectons (explosive electron emission centers), are characterized by localized, nanosecond-scale bursts of plasma and are sustained by repetitive ecton events at the same nominal location \cite[Chap.~3.3--3.4]{cathodic_arcs}.\\
+Cathodic‐arc plasmas form at microscopic emission centers, known as cathode spots, on an otherwise cold metal electrode under vacuum. Spot ignition occurs when the local cathode surface, through breakdown of adsorbates or field-enhanced thermionic emission, undergoes a rapid, explosive release of electrons and vaporized metal. During a single spot pulse, a few nanograms of the cathode material rapidly heat up, vaporize, and ionize, producing a dense, quasineutral plasma plume composed mostly of metal ions and electrons. The peak spot current densities reach \(10^{10}\)–\(10^{12}\)\,A\,m\(^{-2}\), far above steady-state thermionic or field emission limits. These microexplosions, termed ectons (explosive electron emission centers), produce localized nanosecond-scale plasma bursts. The arc is sustained by repetitive ecton events occurring at or near the same location \cite[Chap.~3.3--3.4]{cathodic_arcs}.\\
 
 
 
@@ -16,16 +16,74 @@ Key Characteristics of Spot-Generated Plasma:
     \item Transient, localized heating: the sub-µm, sub-100 ns pulse produces “atomic‐scale heating”, where the energy of individual ions is deposited in a highly localized region upon impact, influencing film growth and microstructure \cite[Chap.~3.6]{cathodic_arcs}.
 \end{itemize}
 
-Spot ignition and quenching occur on the order of 10–100 ns, with each pulse launching a fully ionized slug of metal vapour. The sustained arc discharge therefore comprises a continual overlap of these microplasma bursts, producing a metal-rich, high-flux ion stream ideal for energetic thin-film growth.\\
+\begin{figure}[h]
+	\centering
+	\begin{tikzpicture}[scale=1.25]
+		% Cathode block
+		\fill[gray!60] (-3,-1.1) rectangle (3,0);
+		\draw[thick] (-3,0) -- (3,0);
+		\node[below] at (-1.5,0) {Cathode};
+		
+		% Molten crater
+		\fill[orange!70] (-0.22,0) arc (180:360:0.22) -- cycle;
+		\fill[red!80] (-0.15,0) arc (180:360:0.15 and 0.1) -- (0.15,0) -- (0.05,0.15) -- (0,0.45) -- (-0.05,0.15) -- (-0.15,0) -- cycle;
+		\node[below right, font=\small] at (0.4,0) {Molten crater};
+		
+		% Plasma plume (expanding cone)
+		\fill[blue!20, opacity=0.6] (0,0) -- (-1.5,3.5) -- (1.5,3.5) -- cycle;
+		\draw[blue!60, thick, dashed] (0,0) -- (-1.5,3.5);
+		\draw[blue!60, thick, dashed] (0,0) -- (1.5,3.5);
+		\node[blue!70, font=\small] at (0,3) {Plasma plume};
+		
+		% Ions (circles with + signs)
+		\foreach \x/\y in {-0.4/1.2, 0.3/1.5, -0.2/2.0, 0.5/2.3, -0.6/2.5, 0.1/2.8, 0.7/1.8, -0.5/1.7} {
+			\fill[red!70] (\x,\y) circle (0.08);
+			\node[white, font=\tiny] at (\x,\y) {+};
+		}
+		\node[red!70, right, font=\small] at (-2.6,2.0) {Metal ions};
+		
+		% Electrons (small dots)
+		\foreach \x/\y in {-0.3/1.0, 0.4/1.3, -0.1/1.8, 0.6/2.1, -0.7/2.3, 0.2/2.6, -0.4/2.2, 0.3/1.1} {
+			\fill[black] (\x,\y) circle (0.03);
+		}
+		\node[right, font=\small] at (-2.1,1.3) {Electrons};
+		
+		% Macroparticle (larger droplet trajectory)
+		\fill[orange!80] (0.5,0.3) circle (0.12);
+		\draw[->, thick, orange!80] (0.5,0.3) -- (1.8,1.5);
+		\fill[orange!80] (1,1.2) circle (0.08);
+		\draw[->, thick, orange!80] (1,1.2) -- (2,3.2);
+		\node[orange!80, right, font=\small] at (2.0,1.0) {Macroparticles};
+		
+		% Current flow arrow
+		\draw[->, very thick] (-2.5,0.5) -- (-2.5,-0.3);
+		\node[left, font=\small] at (-2.5,0.2) {$I_{\rm arc}$};
+		
+		% Spot diameter indicator
+		\draw[<->, thick] (-0.3,-0.5) -- (0.3,-0.5);
+		\node[below, font=\small] at (0,-0.6) {$\sim$1--10\,\textmu m};
+		
+		% Expansion arrows
+		\draw[->, thick, blue!60] (0,3.0) -- (0,3.8);
+		\draw[->, thick, blue!60] (-0.9,2.8) -- (-1.2,3.5);
+		\draw[->, thick, blue!60] (0.9,2.8) -- (1.2,3.5);
+		
+	\end{tikzpicture}
+	\caption{Schematic of cathode spot operation. The arc current $I_{\rm arc}$ concentrates at a microscopic spot (1--10\,\textmu m diameter), creating a molten crater from which a plasma plume of metal ions and electrons expands. Macroparticles (molten droplets) are ejected at oblique angles. Adapted from \cite{juttner2001}}.
+	\label{fig:cathode_spot}
+\end{figure}
+
+
+Spot ignition and quenching occur on timescales of 10–100 ns, with each pulse ejecting a fully ionized burst of metal vapour. The sustained arc discharge thus consists of continuously overlapping microplasma pulses, producing a metal-rich, high-flux ion stream well-suited for energetic thin-film deposition.\\
 
 
 \subsection{Plasma Composition and Expansion}
 
-Once generated at the cathode spots, the metal-rich plasma expands into the chamber or through the magnetic macroparticle filter. In the region near the cathode (within a few centimeters of the spot), plasma densities are on the order of \(10^{18}\) cm$^{-3}$ and electron temperatures \(T_e\approx5\ \text{–}\ 10\) eV. As the plume propagates, its density decreases according to
+After generation at the cathode spots, the metal-rich plasma expands into the vacuum chamber, typically passing through a magnetic macroparticle filter that removes molten droplets while guiding ions along curved field lines. In the region near the cathode (within a few centimeters of the spot), plasma densities are on the order of \(10^{18}\) cm$^{-3}$ and electron temperatures \(T_e\approx5\ \text{–}\ 10\) eV. As the plume propagates, its density decreases according to
 \begin{equation}
     n(r) = \frac{C\,I_{\rm arc}}{r^2}
 \end{equation}
-where \(I_{\rm arc}\) is the arc current $r$ the distance, and $C$ a constant related to the ion‐erosion rate of the cathode material. This $\frac{1}{r^2}$ scaling assumes free expansion, but deviations can occur due to magnetic fields, collisions, or reactive gases, which may alter the plasma trajectory or cause recombination \cite[Chap.~4.3; Eq.~4.3, p.~178]{cathodic_arcs}.\\
+where \(I_{\rm arc}\) is the arc current, $r$ the distance, and $C$ a constant related to the ion‐erosion rate of the cathode material. This $\frac{1}{r^2}$ scaling assumes free expansion, but deviations can occur due to magnetic fields, collisions, or reactive gases, which may alter the plasma trajectory or cause recombination \cite[Chap.~4.3; Eq.~4.3, p.~178]{cathodic_arcs}.\\
 
 In cathodic‐arc discharges from titanium cathodes, whether pure Ti or Ti–Al compounds, ions generally carry an average charge state \(\langle Q\rangle\approx2.1\text{–}2.2\) \cite[Chap.~4.1; App.~B.8]{cathodic_arcs}. This high degree of ionization reflects the extreme power density of the spot and follows the cohesive energy rule, which links \(\langle Q\rangle\) to the cohesive energy of the cathode material (Table B.8) \cite[App.~B.8]{cathodic_arcs}.
 
@@ -36,66 +94,26 @@ In cathodic‐arc discharges from titanium cathodes, whether pure Ti or Ti–Al 
 
 \subsection{Ion Energies: Origins and Implications}
 \label{section:ion_energies}
+Ion energies in cathodic-arc plasmas have been extensively characterized through time-of-flight measurements. For the materials relevant to this work, Ti$^{2+}$ ions carry kinetic energies of approximately 59\,eV and Al$^{2+}$ ions approximately 28\,eV \cite[Chap.~4.4; Table~B.8]{cathodic_arcs}. Combined with the potential energy from ionization, these ions reach total energies of approximately 80\,eV (Ti$^{2+}$) and 52\,eV (Al$^{2+}$), both exceeding the $\approx 30$\,eV threshold for subplantation. This enables densification and improved crystallinity in Ti–Al–N films without requiring external substrate heating \cite[Chap.~8.1--8.2]{cathodic_arcs}.\\
 
-Ion energies in cathodic arc plasmas are well-documented, with Ti$^{2+}$ and Al$^{2+}$ ions carrying kinetic energies of $E_{kin}^{\text{Ti}^{2+}} \approx 58.9\ \text{eV}$ and $E_{kin}^{\text{Al}^{2+}} \approx 27.5\ \text{eV}$, respectively \cite[Chap.~4.4; Table B.8]{cathodic_arcs}. Combined with potential energy from ionization, these ions reach total energies ($E_{tot}^{\text{Ti}^{2+}} \approx 79.5\ \text{eV}$, $E_{tot}^{\text{Al}^{2+}} \approx 52.0\ \text{eV}$) that exceed the $\approx 30\ \text{eV}$ threshold for subplantation, enabling densification and crystallinity in Ti--Al--N films \cite[Chap.~8.1--8.2]{cathodic_arcs}.\\
-
-While ion energies contribute to film properties, this work prioritizes quantifying the flux of excited nitrogen species alongside metal ions to understand their combined role in film growth and densification.\\
-
-In metallic mode, the narrow ion energy distribution simplifies flux measurements, allowing direct correlation with deposition outcomes.
-
-In reactive mode, collisions with N$_2$ not only broaden the energy distribution but also generate excited nitrogen (e.g., N$^+$, N$_2^+$, and metastable neutrals), which must be resolved in QMS spectra \cite{bendikt2012}.\\
-
-To isolate the effects of ion flux ($\Gamma$) and excited nitrogen, we systematically vary the N$_2$ pressure over a wide range and adjust the field strength of the EM coil, ensuring that changes in film properties reflect controlled variations in plasma composition and flux rather than incidental energy shifts.
-
-
-
-%i dont htink this below is needed
-\iffalse
-
-\subsection{Ion Energies in Cathodic Arcs}\label{section:ion energies}
-
-Time‐of‐flight measurements in vacuum arcs \cite[Chap.~4.4; Table B.8]{cathodic_arcs} report most likely drift velocities of:
-\begin{align*}
-    v_{mp}^{\text{Ti}} \approx 1.54 \times 10^4\ \text{m/s}\ &; E_{kin}^{\text{Ti}^{2+}} \approx 58.9\ \text{eV}\\
-    v_{mp}^{\text{Al}} \approx 1.39  \times 10^4\ \text{m/s}\ &; E_{kin}^{\text{Al}} \approx 27.5\ \text{eV}
-\end{align*}
-
-These values reflect the directed kinetic energy of ions in the plasma plume. However, charge-exchange collisions (for example, with the background gas in reactive mode) can reduce the drift velocity and broaden the ion energy distribution \cite[Chap.~9.4]{cathodic_arcs}.\\
-
-The potential energy component follows from the cumulative ionization enthalpies \cite[Chap.~4.2; Table B.4]{cathodic_arcs}, and therefore the total energy carried by each ion upon impact is:
-\begin{align*}
-     E_{pot}^{\text{Ti}^{2+}} \approx E_{0 \rightarrow 2} = 20.6\ \text{eV},&\qquad  
-     E_{pot}^{\text{Al}^{2+}} \approx E_{0 \rightarrow 2} = 24.5\ \text{eV}\\
-     E_{tot}^{\text{Ti}^{2+}} \approx 58.9 + 20.6 \approx 79.5\ \text{eV},&\qquad  
-     E_{tot}^{\text{Al}^{2+}} \approx 27.5 + 24.5 \approx 52.0\ \text{eV}
-\end{align*}
-
-Since both Ti$^{2+}$ ($\approx$ 80 eV) and Al$^{2+}$ ions ($\approx$ 50 eV) carry energies well above the $\approx$ 30 eV threshold for subplantation in transition metal nitrides, these ions will implant beneath the growing surface and generate localized 'atomic scale heating'.  That process is what drives densification and improved crystallinity without global substrate heating \cite[Chap.~8.1–8.2]{cathodic_arcs}.\\ 
+\begin{table}[htbp]
+	\centering
+	\caption{Characteristic ion properties for Ti and Al cathodic-arc plasmas in vacuum \cite[App.~B; Table~B.8]{cathodic_arcs}.}
+	\label{tab:ion_properties}
+	\begin{tabular}{lcccc}
+		\hline
+		Species & $\langle Q \rangle$ & $E_{\rm kin}$ (eV) & $E_{\rm pot}$ (eV) & $E_{\rm tot}$ (eV) \\
+		\hline
+		Ti$^{2+}$ & 2.1 & 59 & 21 & 80 \\
+		Al$^{2+}$ & 1.7 & 28 & 24 & 52 \\
+		\hline
+	\end{tabular}
+\end{table}
 
 
-The ion‐energy distribution function (IEDF) can additionally be modeled as a shifted Maxwellian:
-\begin{equation}
-    f(E) = \frac{E}{(kT_i)^{3/2}} \exp\!\Big(-\frac{(\sqrt{E}-\sqrt{E_{dir}})^2}{kT_i}\Big)
-\end{equation}
+While ion energy influences film properties, this work focuses on quantifying the flux of both metal ions and reactive nitrogen species to understand their combined role in film growth. In metallic mode, the narrow energy distribution simplifies flux measurements and enables direct correlation with deposition rate. In reactive mode, collisions with N$_2$ broaden the energy distribution and generate additional species, N$^+$, N$_2^+$, and metastable N$_2$, that must be distinguished in mass spectrometer measurements \cite{bendikt2012}.\\
 
-Here, \(T_i\) represents the \textit{ion temperature}, characterizing the random thermal motion superimposed on the directed drift velocity \(v_{i,\text{drift}}\).\\
-
-In this model, \(E_{dir} = \tfrac12\,m_i\,v_{i,\rm drift}^2\) represents the kinetic energy obtained from acceleration away from the cathode spot, while \(T_i\) reflects the random thermal motion of the ions. \cite[Chap.~4.4; Eq.~4.27]{cathodic_arcs}. In metallic mode, the IEDF is dominated by $E_{dir}$, with a typical width (FWHM) of 10 – 20 eV due to thermal broadening and spot-to-spot fluctuations.\\
-
-However, in reactive mode, collisions with the background gas (e.g. N$_2$) introduce additional scattering, which broadens the IEDF and may reduce the average ion energy \cite[Chap.~9.4]{cathodic_arcs}. This effect is particularly important in our experiments, where N$_2$ is introduced to study the growth of the TiAlN film.\\
-
-N$_2$ not only reduces \(E_{\text{dir}}\) but also introduces low-energy nitrogen ions (N$_2^+$, N$^+$), which contribute to film nitridation but complicate energy distribution measurements due to overlapping peaks in QMS spectra \cite{bendikt2012}. By fitting the measured IEDFs to the shifted Maxwellian model, we can quantify how $E_{dir}$ and $T_i$ vary with magnetic field strength and gas pressure, providing insight into the energy deposition mechanisms during film growth.\\
-
-
-Modern source modifications allow selective tuning of these energy channels:
-\begin{itemize}
-    \item DC biasing increases \(E_{\rm kin}\) via an additional sheath acceleration without appreciably changing Q or total flux.
-    \item An external EM coil increases Q (and therefore \(E_{\rm pot}\)) by 10-30 \% while leaving \(v_{mp}\) essentially constant \cite{decoupling_kalanov_2025,unutulmazsoy}.
-\end{itemize}
-
-This ability to decouple kinetic and potential contributions is central to our strategy of correlating ion‐probe currents (flux × charge) with QCM‐measured deposition rates under rigorously controlled energy conditions.
-
-\fi
+To isolate the effects of ion flux and reactive nitrogen, we systematically vary the N$_2$ pressure and adjust the magnetic field strength, ensuring that changes in film properties reflect controlled variations in plasma composition rather than incidental energy shifts.
 
 
 
@@ -103,86 +121,93 @@ This ability to decouple kinetic and potential contributions is central to our s
 \subsection{Ion Flux and Diagnostics}
 \label{section:ion_flux}
 
-The ion flux, \(\Gamma\) (ions\(\cdot\)cm$^{-2} \cdot$s$^{-1}$), represents the number of ions impinging per unit area per unit time. In a multiply charged plasma, the total measured ion current density \(J_i\) (A\(\cdot\)cm$^{-2}$) relates to \(\Gamma\) via:
-
+The ion flux $\Gamma$ represents the number of ions arriving per unit area per unit time, expressed in ions\,cm$^{-2}$\,s$^{-1}$. In a multiply charged plasma, the total measured ion current density $J_i$ (A\,cm$^{-2}$) relates to $\Gamma$ via
 \begin{equation}
-    \Gamma = \frac{J_i}{e\,\langle Q\rangle}.
+	\Gamma = \frac{J_i}{e\,\langle Q \rangle},
 \end{equation}
+where $e$ is the elementary charge and $\langle Q \rangle$ the average ion charge state. This relationship is central to correlating time-averaged ion flux with deposited mass.\\
 
-This relationship is central to our experiments, as the time-averaged ion flux \(\Gamma\) is expected to correlate with the total deposited mass measured by the QCM (Section~\ref{section:QCM}).\\
-
-To compare ion fluxes across different materials and arc currents, we use the particle system coefficient:
-
+To compare ion fluxes across different materials and arc currents, the particle system coefficient
 \begin{equation}
-    k_{\rm part} = \frac{I_i}{\langle Q\rangle\,I_{\rm arc}},
+	k_{\rm part} = \frac{I_i}{\langle Q \rangle\,I_{\rm arc}}
 \end{equation}
+normalizes the measured probe current $I_i$ by the arc current $I_{\rm arc}$ and accounts for variations in $\langle Q \rangle$ \cite[Chap.~6.5]{cathodic_arcs}. This normalization is necessary because the probe measures electrical current rather than particle flux, and multiply charged ions contribute proportionally more current per particle.\\
 
-which normalizes the probe current \(I_i\) by the arc current $I_{\rm arc}$ and accounts for variations in the average charge state \(\langle Q\rangle\) \cite[Chap.~6.5]{cathodic_arcs}. An external magnetic field can increase \(\Gamma\) by up to an order of magnitude by confining the plasma and prolonging the ion residence time near the cathode \cite[Chap.~6.5]{cathodic_arcs}. This enhancement is particularly relevant for our study, where magnetic fields are used to tune plasma properties and investigate their influence on the deposited mass.\\
+In vacuum cathodic arcs, the burning voltage remains nearly constant at 30–35\,V for arc currents up to 1\,kA, so the plasma generation rate—and thus $\Gamma$—increases approximately linearly with $I_{\rm arc}$ \cite[Chap.~6.5]{cathodic_arcs}. External magnetic fields can increase $\Gamma$ by up to an order of magnitude by confining the plasma and prolonging ion residence time near the cathode.\\
 
-In vacuum cathodic arcs, the burning voltage remains nearly constant at 20--30 V for arc currents up to 1 kA, so the plasma generation rate - and thus \(\Gamma\) - increases almost linearly with \(I_{\rm arc}\) \cite[Chap.~6.5]{cathodic_arcs}. Introducing source modifications, such as an external magnetic coil, increases the spot power density and prolongs the plasma residence time at the cathode, further increasing the total ion flux by up to an order of magnitude.\\
-
-To link ion arrival with film growth, we mounted a QCM adjacent to the ion probe. Each ion that sticks to the crystal shifts its resonance frequency by \(\Delta f\). Using the Sauerbrey equation, we convert \(\Delta f\) into a mass flux \(\dot{m}\) and then divide by the density of the film \(\rho_{\rm film}\) to obtain the thickness growth rate:
-
+The relationship between ion flux and film growth rate is given by
 \begin{equation}
-    R = \frac{\dot{m}}{\rho_{\rm film}} = \frac{m_{\rm ion}\,\Gamma\,S}{\rho_{\rm film}},
+	R = \frac{m_{\rm ion}\,\Gamma\,S}{\rho_{\rm film}},
 \end{equation}
+where $m_{\rm ion}$ is the average ion mass, $S$ the sticking coefficient, and $\rho_{\rm film}$ the film density. The sticking coefficient $S$ represents the probability that an arriving ion incorporates into the growing film rather than being reflected or resputtered; for metal ions at moderate energies (below the resputter threshold of $\sim$100–200\,eV), $S \approx 1$ is typically assumed. For constant ion energy and unity sticking coefficient, the deposition rate scales linearly with ion flux. Deviations from linearity indicate that additional processes (such as densification, resputtering, or adatom crowding) influence film growth. Unutulmazsoy et al.\ observed this linear scaling in (V,Al)N films deposited by pulsed filtered cathodic arc, with deviations emerging at high flux densities where ion-induced densification becomes significant \cite{unutulmazsoy}.\\
 
-where \(m_{\rm ion}\) is the mass of an ion, \(\Gamma\) the ion flux measured by the probe, \(S\) the sticking coefficient (\(\approx 1\)), and \(\rho_{\rm film}\) the density of the film.\\
-
-In previous research by Unutulmazsoy et al.\ (2023), when ion energy is fixed, \(R\) rises almost linearly with \(\Gamma\). Any deviation from this linear behavior signals that other processes, such as densification or adatom crowding, are beginning to influence film growth \cite{unutulmazsoy}.\\
-
+Experimentally, ion flux is determined from biased probe measurements operating in ion saturation mode, while charge-state and energy distributions are obtained via energy-resolved mass spectrometry. The diagnostic methods used in this work are described in Chapter~\ref{chap:methods}.
 To connect the theory of ion flux and energy to experimental data, we employ two primary diagnostics:
 
-\begin{itemize}
-    \item A current-density probe to record the time-resolved ion current $I_i(t)$, from which we compute the flux $\Gamma(t)=\frac{I_i(t)}{(e\langle Q\rangle )}$.
-    \item A quadrupole mass spectrometer (QMS) to resolve the ion-energy distribution (IEDF) and charge-state spectrum, yielding $E_{kin}$ and $\langle Q\rangle $.
-\end{itemize}
-
-
-Together, these tools let us map how variations in $\Gamma$, $E_{kin}$ and $\langle Q\rangle$ translate into film growth. The detailed design of the probe, the geometry of the QMS orifice, the calibration procedures, and the data acquisition settings are described in Chapter \ref{sec:QMS}.
-
-\section{Plasma-Surface Interactions and Film Growth}
+\section{Plasma--Surface Interactions and Film Growth}
 \subsection{Energetic Condensation and Subplantation}
 
-When energetic metal ions strike the growing film, they can penetrate the surface and deposit their energy in a shallow 'collision cascade'.  This subplantation process leads to two key effects:
+When metal ions with sufficient energy strike the growing film, they penetrate below the surface and deposit energy through a shallow collision cascade. This subplantation process produces two key effects:
 
 \begin{itemize}
-    \item \textbf{Localized densification}:\\
-    Ions with kinetic energies above the $\approx$ 20–30 eV threshold implant beneath the growing surface, filling interstitial sites and displacing adatoms via knock-on collisions. This process reduces porosity and increases the density of the film, which is particularly critical for Ti–Al–N coatings \cite[Chap.~8.1]{cathodic_arcs}.
-    
-    \item \textbf{Atomic‐scale heating}:\\
-    The deposition of kinetic energy and the release of potential energy (ionization enthalpy) generate localized, nanosecond-scale temperature spikes, enhancing adatom mobility and promoting crystallite coalescence without global substrate heating \cite[Chap.~8.2]{cathodic_arcs}.
+	\item \textbf{Localized densification:} Ions with energies above approximately 20–30\,eV implant beneath the surface, occupying interstitial sites and displacing near-surface atoms through knock-on collisions. This reduces porosity and increases film density, which is particularly important for transition-metal nitride coatings such as Ti--Al--N \cite[Chap.~8.1]{cathodic_arcs}.
+	
+	\item \textbf{Atomic-scale heating:} The deposition of kinetic energy and release of potential energy (ionization enthalpy) generate localized, nanosecond-scale temperature spikes. These enhance adatom mobility and promote crystallite coalescence without requiring global substrate heating \cite[Chap.~8.2]{cathodic_arcs}.
 \end{itemize}
 
+As $E_{\rm kin}$ and $E_{\rm pot}$ increase, films transition from porous, amorphous structures to dense, crystalline coatings. This densification introduces compressive stresses of several GPa through atomic peening \cite[Chap.~8.1--8.4]{cathodic_arcs}. For example, TiN films grown with total ion energies of approximately 60\,eV develop a preferred cubic (111) texture and hardness exceeding 30\,GPa.\\
 
-As \(E_{\rm kin}\) and \(E_{\rm pot}\) increase, transition from porous, amorphous structures to dense, crystalline coatings with compressive stresses of several GPa, driven by atomic peening \cite[Chap.~8.1–8.4]{cathodic_arcs}.  For example, TiN films grown with \(E_{\rm kin}\approx40\) eV and \(E_{\rm pot}\approx20\) eV develop a preferred cubic (111) texture and hardness > 30 GPa.
-
-In this work, we systematically investigate how controlling $E_{\rm kin}$, $E_{\rm pot}$ (Section~\ref{}), and tuning the ion flux $\Gamma$ (Section~\ref{}) influence densification, texture evolution, and stress development in Ti–Al–N coatings. The results are presented in Chapter~\ref{}.
-
-%add reference to which chapter
+In cathodic-arc deposition, the ion energies are primarily determined by the cathode material and plasma expansion conditions rather than external bias. The present work therefore focuses on characterizing the correlation between ion flux $\Gamma$ (measured by a biased collector probe) and deposition rate (measured by QCM), rather than systematic variation of ion energy. The results of these measurements are presented in Chapter~\ref{chap:results}.
 
 
 \subsection{Reactive vs Metallic Mode}
 
-Cathodic-arc deposition can operate in two distinct regimes: metallic mode and reactive mode. In metallic mode, the cathode surface remains uncovered, and the plasma consists exclusively of metal ions. This regime is characterized by a stable burning voltage, minimal macroparticle emission, and a high metal ion flux. In reactive mode, a background gas (e.g., N$_2$) adsorbs onto the cathode surface, forming a compound layer that 'poisons' the cathode. This alters both the behaviour of the cathode spot and the composition of the plasma \cite[Chap.~9.2]{cathodic_arcs}.\\
+Cathodic-arc deposition operates in two distinct regimes. In metallic mode, the cathode surface remains uncovered and the plasma consists exclusively of metal ions, characterized by stable burning voltage and high metal ion flux. In reactive mode, a background gas such as N$_2$ adsorbs onto the cathode surface, forming a compound layer that poisons the cathode and alters both spot behaviour and plasma composition \cite[Chap.~9.2]{cathodic_arcs}.\\
 
-When N$_2$ is introduced, a dynamic equilibrium forms between compound formation (adsorption and reaction at the cathode, which suppresses metal emission) and compound removal (via explosive ecton events that clean the spot and eject both metal and compound fragments) \cite[Chap.~9.3]{cathodic_arcs}.\\
-
-The equilibrium position depends on gas pressure, arc current, and cathode composition. At low N$_2$ pressures or high power densities, type-2 (metal-rich) spots prevail, maintaining a predominantly metal ion flux. At higher pressures or for larger cathode areas, type-1 (poisoned) spots dominate, producing a mixed plasma of metal and N$_x$ ions while suppressing macroparticle emission \cite[Chap.~9.4]{cathodic_arcs}. This poisoning effect is reversible and depends on the balance between compound formation and ecton-induced cleaning \cite[Chap.~9.3]{cathodic_arcs}.\\
+When N$_2$ is introduced, a dynamic equilibrium develops between compound formation, through adsorption and reaction at the cathode surface and compound removal via explosive ecton events that eject both metal and nitride fragments \cite[Chap.~9.3]{cathodic_arcs}. The equilibrium position depends on gas pressure, arc current, and cathode composition. At low N$_2$ pressures or high power densities, type-2 (metal-rich) spots prevail, maintaining predominantly metal ion flux. At higher pressures, type-1 (poisoned) spots dominate, producing a mixed plasma of metal and nitrogen ions \cite[Chap.~9.4]{cathodic_arcs}.\\
 
 Reactive mode affects both plasma diagnostics and film growth:
-
 \begin{itemize}
-    \item The probe current includes contributions from N$^+$ and N$_2^+$ ions in addition to metal ions, necessitating mass-resolved QMS analysis to distinguish between species \cite{bendikt2012}.
-
-    \item Charge exchange with N$_2$ reduces the average charge state of metal ions (Q) and introduces additional gas ion charge states, altering the overall potential energy budget \cite[Chap.~9.4]{cathodic_arcs}.
-
-    \item Collisions between ions and N$_2$ molecules during plasma expansion lower ion drift velocities, thereby reducing their kinetic energy before substrate impact \cite[Chap.~9.4]{cathodic_arcs}.
+	\item The measured probe current includes contributions from N$^+$ and N$_2^+$ in addition to metal ions, requiring mass-resolved analysis to separate species.
+	
+	\item Charge exchange with N$_2$ reduces the average charge state of metal ions and introduces gas-ion species, altering the potential energy budget \cite[Chap.~9.4]{cathodic_arcs}.
+	
+	\item Collisions during plasma expansion reduce ion drift velocities, lowering kinetic energy before substrate impact \cite[Chap.~9.4]{cathodic_arcs}.
 \end{itemize}
 
-
-In our Pi-PVD system, N$_2$ is introduced via a ring-manifold inlet located downstream of the magnetic filter, minimizing pressure gradients and enabling reproducible reactive mode operation. By comparing depositions in vacuum and under varying N$_2$ concentrations, we investigate how reactive mode influences $\Gamma$, $E_{\rm kin}$, and Q, and how these parameters affect the deposited mass (measured by QCM) and the resulting film microstructure (Chapter~\ref{}).
+In the present experimental setup, N$_2$ is introduced via a ring-manifold inlet downstream of the magnetic filter, minimizing pressure gradients and enabling reproducible reactive-mode operation. By comparing measurements in vacuum and under varying N$_2$ pressures, this work investigates how reactive mode influences $\Gamma$ and $\langle Q \rangle$, and how these parameters correlate with deposited mass and film composition.
 
 \section{Crystal Structure and Densification}
 
-\subsection{Nucleation and Growth Modes}
+\subsection{Structure-Zone Models}
+
+The microstructure of thin films deposited by physical vapour deposition depends strongly on the energy and flux of incident species. Thornton's structure-zone model, originally developed for magnetron sputtering, relates film morphology to the homologous temperature $T/T_m$ (substrate temperature normalized to the melting point) and working gas pressure \cite{thornton1977}. At low $T/T_m$ and high pressures, films exhibit porous, columnar structures (Zone~1) due to limited adatom mobility. As $T/T_m$ increases, denser columnar (Zone~T) and eventually equiaxed crystalline structures (Zone~2 and Zone~3) develop.\\
+
+Anders extended this framework to account for the energetic ion bombardment characteristic of cathodic-arc deposition \cite{anders2010szm}. In the revised model, ion energy $E^*$ (normalized to a displacement energy) replaces gas pressure as the second axis, reflecting the dominant role of ion bombardment in densification. High-energy ions can induce subplantation and atomic peening even at low substrate temperatures, enabling dense, crystalline films without external heating—a key advantage of cathodic-arc processes. However, excessive ion energy leads to lattice damage, defect accumulation, and eventually amorphization or resputtering, defining an optimal energy window for film growth \cite[Chap.~8.3]{cathodic_arcs}.\\
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Figures/theory/anders_szm.png}
+	\caption{Structure-zone diagram for plasma-based thin film deposition, showing film microstructure as a function of generalized temperature $T^*$ and normalized ion energy $E^*$. Adapted from Anders \cite{anders2010szm}.}
+	\label{fig:anders_szm}
+\end{figure}
+
+
+For the Ti--Al--N system, the Anders structure-zone model predicts that the multiply charged ions typical of cathodic arcs (with total energies of 50–80\,eV) promote Zone~T or Zone~2 microstructures even at modest substrate temperatures, provided the ion flux is sufficient to maintain a high ion-to-neutral arrival ratio.
+
+\subsection{TiAlN Crystal Structures}
+
+Titanium aluminium nitride (Ti$_{1-x}$Al$_x$N) coatings are widely used for wear protection and cutting tools due to their high hardness, oxidation resistance, and thermal stability. The crystal structure depends primarily on the aluminium content $x$:
+
+\begin{itemize}
+	\item For $x \lesssim 0.6$ – 0.7, Ti$_{1-x}$Al$_x$N crystallizes in the metastable cubic B1 (NaCl-type) structure, where Al atoms substitute for Ti on the metal sublattice. This cubic phase exhibits hardness values of 25–35\,GPa and is the preferred structure for most industrial applications \cite{paldey2003}.
+	
+	\item For $x \gtrsim 0.7$, the thermodynamically stable wurtzite (B4) structure becomes dominant. The wurtzite phase has lower hardness (typically 15–20\,GPa) and is generally undesirable for hard coating applications \cite{mayrhofer2006}.
+	
+	\item At intermediate compositions, mixed cubic-wurtzite structures or nanocomposite arrangements may form, depending on deposition conditions.
+\end{itemize}
+
+The metastable cubic phase is retained at high Al contents through kinetic limitations during low-temperature deposition. Energetic ion bombardment in cathodic-arc processes can extend the solubility limit of Al in the cubic phase by providing additional energy for atomic rearrangement without the diffusion lengths associated with thermal equilibration \cite{rachbauer2011}.\\
+
+The cathode composition used in this work (75\,wt.\% Ti – 25\,wt.\% Al, corresponding to approximately 63\,at.\% Ti – 37\,at.\% Al) is expected to produce cubic-phase Ti$_{1-x}$Al$_x$N films under typical cathodic-arc conditions. Film structure will be verified by X-ray diffraction, with microstructure examined by scanning electron microscopy, as described in Chapter~\ref{sec:film_characterization}.
+

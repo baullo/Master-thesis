@@ -4,46 +4,51 @@
 \contentsline {section}{\numberline {2.1}Plasma Generation and Composition}{6}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Cathode Spot Plasma Generation}{6}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}Plasma Composition and Expansion}{7}{subsection.2.1.2}%
-\contentsline {section}{\numberline {2.2}Ion Energy and Flux}{7}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Ion Energies: Origins and Implications}{7}{subsection.2.2.1}%
+\contentsline {section}{\numberline {2.2}Ion Energy and Flux}{8}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Ion Energies: Origins and Implications}{8}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Ion Flux and Diagnostics}{8}{subsection.2.2.2}%
-\contentsline {section}{\numberline {2.3}Plasma-Surface Interactions and Film Growth}{9}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Energetic Condensation and Subplantation}{9}{subsection.2.3.1}%
+\contentsline {section}{\numberline {2.3}Plasma--Surface Interactions and Film Growth}{10}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Energetic Condensation and Subplantation}{10}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Reactive vs Metallic Mode}{10}{subsection.2.3.2}%
 \contentsline {section}{\numberline {2.4}Crystal Structure and Densification}{11}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Nucleation and Growth Modes}{11}{subsection.2.4.1}%
-\contentsline {chapter}{\numberline {3}Experimental Methodology}{12}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Experimental Apparatus and Setup}{12}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Vacuum \& Gas Infrastructure}{12}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Power \& Triggering}{13}{subsection.3.1.2}%
-\contentsline {section}{\numberline {3.2}In situ Diagnostics}{15}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Ion-current Probe- Langmuir probe}{15}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Quartz Crystal Microbalance}{16}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Comparability with QCM Measurements}{17}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Quadrupole Mass Spectrometer}{18}{subsection.3.2.4}%
-\contentsline {section}{\numberline {3.3}Ex situ Measurements}{20}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}X-ray Diffraction (XRD)}{20}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}X-ray Reflectometry (XRR)}{21}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Scanning Electron Microscopy (SEM)}{21}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Profilometry}{21}{subsection.3.3.4}%
-\contentsline {section}{\numberline {3.4}Data Processing}{22}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Error Handling}{22}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Mass Spectrometry Measurements}{22}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}QCM and Ion Current Probe Measurements}{23}{subsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.5.3}Error Propagation Analysis}{24}{subsection.3.5.3}%
-\contentsline {subsubsection}{Ion Flux from Current Measurements}{24}{section*.10}%
-\contentsline {subsubsection}{Atomic Flux from QCM Measurements}{24}{section*.11}%
-\contentsline {subsubsection}{Ion Flux in Atomic Units}{25}{section*.12}%
-\contentsline {chapter}{\numberline {4}Results}{26}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Langmuir Probe Bias Voltage Characterization}{26}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Validation of Langmuir Probe Operation}{26}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Analysis of the Ion Saturation Curve}{27}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Selection of Operating Bias Voltage}{28}{subsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.1.4}Ion current probe Errors}{28}{subsection.4.1.4}%
-\contentsline {section}{\numberline {4.2}Quartz crystal Microbalance and Ion current Probe}{28}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Metallic Case (No Nitrogen)}{31}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Distance as a variable}{31}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Magnetic field as a variable}{31}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Nitrogen pressure as a variable}{31}{subsection.4.2.4}%
-\contentsline {chapter}{\numberline {A}Additional Plots}{32}{chapter.1}%
-\contentsline {chapter}{\numberline {B}Python code used}{33}{chapter.2}%
+\contentsline {subsection}{\numberline {2.4.1}Structure-Zone Models}{11}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}TiAlN Crystal Structures}{12}{subsection.2.4.2}%
+\contentsline {chapter}{\numberline {3}Experimental Methodology}{14}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Experimental Apparatus and Setup}{14}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Vacuum \& Gas Infrastructure}{14}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Power \& Triggering}{15}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}In situ Diagnostics}{17}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Ion-current Probe- Langmuir probe}{17}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Quartz Crystal Microbalance}{18}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Comparability with QCM Measurements}{19}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Quadrupole Mass Spectrometer}{20}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}Ex situ Measurements}{22}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}X-ray Diffraction (XRD)}{22}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}X-ray Reflectometry (XRR)}{22}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Scanning Electron Microscopy (SEM)}{22}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Profilometry}{22}{subsection.3.3.4}%
+\contentsline {section}{\numberline {3.4}Data Processing}{23}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Error Handling}{23}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Mass Spectrometry Measurements}{23}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}QCM and Ion Current Probe Measurements}{24}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Error Propagation Analysis}{25}{subsection.3.5.3}%
+\contentsline {subsubsection}{Ion Flux from Current Measurements}{25}{section*.13}%
+\contentsline {subsubsection}{Atomic Flux from QCM Measurements}{25}{section*.14}%
+\contentsline {subsubsection}{Ion Flux in Atomic Units}{26}{section*.15}%
+\contentsline {chapter}{\numberline {4}Results}{27}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Langmuir Probe Bias Voltage Characterization}{27}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Validation of Langmuir Probe Operation}{27}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Analysis of the Ion Saturation Curve}{28}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Selection of Operating Bias Voltage}{29}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}Ion current probe Errors}{29}{subsection.4.1.4}%
+\contentsline {section}{\numberline {4.2}Quartz crystal Microbalance and Ion current Probe}{29}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Metallic Case (No Nitrogen)}{32}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Distance as a variable}{33}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Magnetic field as a variable}{33}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Nitrogen pressure as a variable}{33}{subsection.4.2.4}%
+\contentsline {section}{\numberline {4.3}Mass spectroscopy Results}{33}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Ex situ Results}{33}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Discussion of Results}{34}{chapter.5}%
+\contentsline {chapter}{\numberline {6}final words or smt like thanks everyone}{35}{chapter.6}%
+\contentsline {chapter}{\numberline {A}Additional Plots}{36}{chapter.1}%
+\contentsline {chapter}{\numberline {B}Python code used}{37}{chapter.2}%
