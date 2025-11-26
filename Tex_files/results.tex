@@ -41,28 +41,54 @@ The bias voltage test results (Figure \ref{fig:bias_current}) show two distinct 
 \subsection{Selection of Operating Bias Voltage}
 
 A bias voltage of -80 V was selected for subsequent measurements to ensure the probe operates well within the ion saturation regime. While the curve begins to saturate around ~40 V, choosing a higher voltage provides confidence that the probe is fully repelling electrons and measuring ion flux reliably.
-\subsection{Ion current probe Errors}\label{sec:errorbar}
+\subsection{Ion current Variation over different pulses}\label{sec:errorbar}
+
+To analyze the pulse-to-pulse variation, approximately 30 single pulses were recorded for each magnetic field strength. The average ion current of each pulse was calculated over the 0--1~ms pulse interval. The final mean and standard deviation were then determined by combining these averages, allowing for an assessment of the differences between pulses. Notably, the 0.05~T data point in Fig.~\ref{fig:pulsevariabilityplotmean} includes a significant outlier, with a recorded ion current of approximately 4.8~mA, as detailed in Table~\ref{tab:pulse_measurements}.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.75\textwidth]{"Figures/results 1/pulse_variability_plot_mean"}
+	\caption{Pulse-to-Pulse Variation in Mean Ion Current at Varying Magnetic Fields (0.1 Pa N$_2$, 10 cm distance)}
+	\label{fig:pulsevariabilityplotmean}
+\end{figure}
+
+\begin{table}[h]
+	\centering
+	\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|}
+		\hline
+		\textbf{EM-coil field (T)} & \textbf{Mean $I_{\text{ion}}$ (mA)} & \textbf{Std (mA)} & \textbf{Std (\%)} & \textbf{Range (mA)} & \textbf{\# Pulses} \\ \hline
+		0.00 & 1.931 & 0.266 & 13.8 & [1.13, 2.26] & 30 \\ \hline
+		0.05 & 1.622 & 0.602 & 37.1 & [1.16, 4.85] & 32 \\ \hline
+		0.10 & 4.279 & 0.542 & 12.7 & [2.72, 4.88] & 31 \\ \hline
+		0.15 & 6.323 & 0.414 & 6.6 & [4.99, 6.92] & 27 \\ \hline
+		0.20 & 7.996 & 0.399 & 5.0 & [7.26, 8.78] & 22 \\ \hline
+		0.25 & 9.460 & 0.363 & 3.8 & [8.61, 10.02] & 30 \\ \hline
+	\end{tabularx}
+	\caption{Summary of pulse measurement statistics for varying magnetic field strengths.}
+	\label{tab:pulse_measurements}
+\end{table}
+
+In all other measurements, the oscilloscope averaged the voltage drop of the ion current over multiple pulses to produce smoother curves. Therefore, the error reported in subsequent sections primarily reflects variations in ion current within individual pulses, rather than differences between distinct pulses, as previously discussed in Section~\ref{sec:ion/qcm_error}.
 
 \section{Quartz crystal Microbalance and Ion current Probe}
 
 Although the measurements were taken at the same time and location, the results will be presented in two subsections for clarity: first, the Quartz Crystal Microbalance (QCM) data, followed by the Ion Current Probe results. This structure is intended to improve the readability and understanding of the trends.\\
 
 \begin{table}[h]
-\centering
-\begin{tabular}{l|l|l}
-\hline
-\multicolumn{1}{|l|}{Distance (cm)} & Pressure (Pa) & \multicolumn{1}{l|}{Magnetic Field (T)} \\ \hline
-\multicolumn{1}{|l|}{10}            & 0             & \multicolumn{1}{l|}{0}                  \\ \hline
-\multicolumn{1}{|l|}{12}            & 0.025         & \multicolumn{1}{l|}{0.05}               \\ \hline
-\multicolumn{1}{|l|}{14}            & 0.05          & \multicolumn{1}{l|}{0.1}                \\ \hline
-\multicolumn{1}{|l|}{16}            & 0.075         & \multicolumn{1}{l|}{0.15}               \\ \hline
-\multicolumn{1}{|l|}{18}            & 0.1           & \multicolumn{1}{l|}{0.2}                \\ \hline
-\multicolumn{1}{|l|}{20}            & 0.2           & \multicolumn{1}{l|}{0.25}               \\ \hline
-                                    & 0.3           &                                         \\ \cline{2-2}
-\end{tabular}
-\caption{Parameters used for the QCM/ Ion current probe}
+	\centering
+	\begin{tabularx}{0.85\textwidth}{|X|X|X|}
+		\hline
+		\textbf{Distance (cm)} & \textbf{Pressure (Pa)} & \textbf{Magnetic Field (T)} \\ \hline
+		10 & 0 & 0 \\ \hline
+		12 & 0.025 & 0.05 \\ \hline
+		14 & 0.05 & 0.1 \\ \hline
+		16 & 0.075 & 0.15 \\ \hline
+		18 & 0.1 & 0.2 \\ \hline
+		20 & 0.2 & 0.25 \\ \hline
+		& 0.3 & \\ \hline
+	\end{tabularx}
+	\caption{Parameters used for the QCM/Ion current probe}
 \end{table}
-
 
 In Figures \ref{fig:3Dmass} and \ref{fig:3Dion}, a complete overview of the dataset of the measured ion currents and the deposited masses depending on three parameters are shown. These are the distance to the macroparticle filter, the magnetic field strength and the nitrogen background pressure in the chamber. Data points for 0 Pa are in reality more in the order of $1.5 \cdot 10^{-5}$ Pa.
 
@@ -88,37 +114,45 @@ In Figures \ref{fig:3Dmass} and \ref{fig:3Dion}, a complete overview of the data
 
 
 General trends that can be seen already in these figure include:
-\begin{itemize}
+\begin{compactitem}
     \item The deposited mass and ion current decreases as the distance from the macroparticle filter increases (see Section \ref{subsec:distance}).
     \item Higher magnetic field strengths tend to increase the deposited mass and the ion current (see Section \ref{subsec:mag_field}).
     \item The deposited mass shows a complex dependence on nitrogen background pressure. Whereas the ion current seems to be decreasing with increasing nitrogen contents(see Section \ref{subsec:nitrogen_pressure}).
-\end{itemize}
+\end{compactitem}
 
 
-This overview sets the stage for a more detailed analysis of each variable's impact on the deposited mass and ion current. In the following subchapters, we will first examine the metallic case (no nitrogen) with respect to distance and magnetic field strength. Then, we will focus on the specific effects of distance (10 cm, 14 cm, and 20 cm), magnetic field strength (0 T, 0.15 T, and 0.25 T), and nitrogen background pressure (0.1 Pa, and 0.3 Pa) as these are the parameters, which are looked at in more detail with the help of 
+This overview sets the stage for a more detailed analysis of each variable's impact on the deposited mass and ion current. In the following subchapters, we will first examine the metallic case (no nitrogen) with respect to distance and magnetic field strength. Then, we will focus on the specific effects of distance (10 cm, 14 cm, and 20 cm), magnetic field strength (0 T, 0.15 T, and 0.25 T), and nitrogen background pressure (0.1 Pa, and 0.3 Pa) as these are the parameters.\\
+
+The above stated parameters represent a subset, which as can be seen in Table \ref{tab:comprehensive_measurements} include the parameters used in further investigations with ERMS and with deposited films.
 
 \subsection{Metallic Case (No Nitrogen)}
 In this section, we analyze the deposited mass as a function of distance and magnetic field strength in the absence of nitrogen.
 
-\begin{figure}
+\begin{figure}[h]
 	\centering
 	\begin{subfigure}{.5\textwidth}
 		\centering
-		\includegraphics[width=\linewidth]{Figures/results 1/mass_vs_magfield_0Pa.png}
+		\includegraphics[width=\linewidth]{Figures/results 1/MagField_vs_Distance_P0.0Pa_Mass.png}
 		\caption{}
 		\label{fig:metallic_mass}
 	\end{subfigure}%
 	\begin{subfigure}{.5\textwidth}
 		\centering
-		\includegraphics[width=\linewidth]{Figures/results 1/ions_vs_magfield_0Pa.png}
+		\includegraphics[width=\linewidth]{Figures/results 1/MagField_vs_Distance_P0.0Pa_IonCurrent.png}
 		\caption{}
 		\label{fig:metallic_ion}
 	\end{subfigure}
-	\caption{yeah dunno (a) mass and (b) ion current}
-	\label{fig:test}
+	\caption{Metallic case measurements showing (a) the deposited mass after 64 pulses and (b) the ion current averaged over a single pulse, each plotted as a function of magnetic field strength. Data shown for three representative distances (10 cm, 14 cm, and 20 cm), with error bars representing variation within pulses.}
+	\label{fig:metallic_mass/ion}
 \end{figure}
 
+As shown in Figure \ref{fig:metallic_mass/ion}, both the deposited mass (after 64 pulses) and the pulse-averaged ion current increase with applied magnetic field. The enhancement is strongest at the shortest distance, indicating that the magnetic field improves plasma focusing and increases the fraction of energetic, highly ionized species reaching the substrate.\\
+
+At 0.05 T both the ion current and deposited mass fall below the values measured at 0 T. This unexpected drop is likely due to a magnetic mirror effect happening at the coil entrance. As plasma moves from a weak magnetic field into a stronger, the conservation of the particles’ magnetic moment causes electrons (which have a lot of perpendicular gyroenergy) to either bounce back or speed up along the field’s gradient. This creates localized space-charge and potential structures that can cut down the overall ion flow further downstream. As a result, you might see a lower ion current and less deposited mass at moderate field strengths, before the effects of focusing and ionization take over at higher fields \cite[Chap. 7.6]{cathodic_arcs} \cite{magnetic_mirror}. This effect is noticeable, in different intensities, in all measurements.
+
 \subsection{Distance as a variable}\label{subsec:distance}
+
+
 \subsection{Magnetic field as a variable}\label{subsec:mag_field}
 \subsection{Nitrogen pressure as a variable}\label{subsec:nitrogen_pressure}
 

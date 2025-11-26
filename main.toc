@@ -40,8 +40,8 @@
 \contentsline {subsection}{\numberline {4.1.1}Validation of Langmuir Probe Operation}{27}{subsection.4.1.1}%
 \contentsline {subsection}{\numberline {4.1.2}Analysis of the Ion Saturation Curve}{28}{subsection.4.1.2}%
 \contentsline {subsection}{\numberline {4.1.3}Selection of Operating Bias Voltage}{29}{subsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.1.4}Ion current probe Errors}{29}{subsection.4.1.4}%
-\contentsline {section}{\numberline {4.2}Quartz crystal Microbalance and Ion current Probe}{29}{section.4.2}%
+\contentsline {subsection}{\numberline {4.1.4}Ion current Variation over different pulses}{29}{subsection.4.1.4}%
+\contentsline {section}{\numberline {4.2}Quartz crystal Microbalance and Ion current Probe}{30}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Metallic Case (No Nitrogen)}{32}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Distance as a variable}{33}{subsection.4.2.2}%
 \contentsline {subsection}{\numberline {4.2.3}Magnetic field as a variable}{33}{subsection.4.2.3}%
