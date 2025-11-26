@@ -1,7 +1,48 @@
 \newpage
 \section*{\centering{Abstract}}
 
+Pulsed filtered cathodic arc deposition generates highly ionized metal plasmas capable of producing dense, crystalline thin films without substrate heating. However, the process involves multiple coupled parameters: external magnetic fields simultaneously increase both ion charge states (potential energy) and ion flux, while reactive gases alter plasma composition through charge-exchange collisions. This thesis investigates the individual roles of ion flux and ion energy in Ti--Al--N thin film growth by systematically varying magnetic field strength (0--0.25~T), nitrogen pressure (0--0.3~Pa), and spatial position (10--20~cm from the plasma source).\\
 
 
-\chapter{Introduction}
+Two diagnostics were operated simultaneously: a Langmuir probe measured ion current density, a quartz crystal microbalance tracked deposited mass in real time. Additionally an energy-resolving mass spectrometer determined charge-state-resolved ion energy distributions. Measurements were performed in both metallic mode (vacuum) and reactive mode (nitrogen background) to characterize the transition between regimes.\\
+
+%need to check this and change bruh
+%Results show that magnetic field strength increases ion flux by up to a factor of 8. In reactive mode, nitrogen pressure above 0.1~Pa reduces ion current by 50\% due to charge-exchange collisions while maintaining film stoichiometry. Direct correlation between ion current and deposited mass reveals a complex relation ship \textbf{need to write what it correlates if anything lol}. Energy-resolved mass spectrometry confirms that total ion energy (kinetic plus potential) remains in the 50--80~eV range suitable for room-temperature crystallization, though charge-state distributions shift toward lower ionization in reactive mode.\\
+
+
+This work extends the energy-flux decoupling framework established for (V,Al)N coatings to the industrially relevant TiAlN system and demonstrates that ion flux control via magnetic field strength provides a viable route to tailoring film microstructure independently of substrate temperature.
+
+
+\chapter{Introduction and Literature Review}\label{chap:intro}
+
+\section{Motivation and Industrial Context}
+
+Titanium aluminum nitride (Ti$_{1-x}$Al$_x$N) coatings are widely used in cutting tools and wear-resistant applications because of their high hardness (25--35~GPa), thermal stability, and oxidation resistance \cite{paldey2003}. These properties depend on maintaining the metastable cubic B1 crystal structure, which provides superior mechanical performance compared to the thermodynamically stable wurtzite phase \cite{mayrhofer2006}. Traditional deposition methods require substantial substrate heating to achieve dense, crystalline coatings. Cathodic arc deposition offers a key advantage: highly ionized metal plasmas with intrinsic ion energies of 50--100~eV enable room-temperature crystallization through energetic condensation \cite{cathodic_arcs}.
+
+The challenge is that cathodic arc processes involve multiple coupled parameters. Ion energy has two components: kinetic energy from plasma expansion and potential energy released upon neutralization. The ion flux determines how rapidly this energy is delivered to the growing film. External magnetic fields can enhance both ion charge states and flux by up to an order of magnitude \cite{RN5}, while adding reactive gases such as nitrogen introduces charge-exchange collisions that alter plasma composition \cite{cathodic_arcs}. Understanding how these parameters individually influence film properties remains a fundamental challenge for predictive process control.
+
+\section{State of the Art and Research Gap}
+
+Recent systematic studies have made progress in understanding ion energy effects in cathodic arc deposition. Unutulmazsoy et al.\ showed that applying an external magnetic field to the cathode increases ion charge states (and thus potential energy), while applying a DC bias to the arc source adjusts kinetic energy \cite{unutulmazsoy}. Their work on (V,Al)N films demonstrated that crystalline coatings can be achieved at room temperature when the total ion energy exceeds a threshold value. Kalanov et al.\ refined this approach using detailed energy-resolved mass spectrometry, confirming that film crystallinity correlates more strongly with total ion energy ($E_{\text{kin}} + E_{\text{pot}}$) than with either component alone \cite{decoupling_kalanov_2025}.
+
+Both studies identified a critical limitation: the magnetic field not only modifies ion energy but also increases ion flux by a factor of up to 10. As Unutulmazsoy et al.\ noted, "application of an external magnetic field also leads to an enhancement of the ion flux and hence the desired complete decoupling of the potential and kinetic energy effects will require further steps" \cite{unutulmazsoy}. The role of ion flux as an independent variable affecting energy delivery rate, adatom mobility, and nucleation kinetics has not been systematically investigated.
+
+These studies also focused primarily on metallic mode (vacuum deposition), leaving the transition to reactive mode largely unexplored. Adding nitrogen fundamentally alters plasma composition through cathode poisoning, charge-exchange collisions, and generation of nitrogen ion species (N$^+$, N$_2^+$) \cite{cathodic_arcs,bendikt2012}. For TiAlN specifically, while comparative studies between cathodic arc and magnetron sputtering have shown that ion energy flux significantly affects texture and mechanical properties \cite{karimi_aghda_2023}, the flux-energy decoupling framework established for (V,Al)N has not been applied to this industrially important system. No systematic study has correlated ion current density (Langmuir probe), deposited mass (QCM), and film structure across the parameter space of magnetic field strength, nitrogen pressure, and spatial position.
+
+\section{Objectives and Approach}
+
+This thesis addresses these gaps by systematically investigating the role of ion flux in Ti--Al--N thin film growth via pulsed filtered cathodic arc deposition. The specific objectives are:
+
+\begin{enumerate}
+	\item Characterize ion flux as a function of external magnetic field strength (0--0.25~T) using Langmuir probe measurements while simultaneously measuring mass deposition via QCM. Separately measure the ion energy distributions via energy-resolved mass spectrometry (ERMS).
+	
+	\item Investigate the transition from metallic to reactive mode by varying nitrogen pressure (0--0.3~Pa) and quantify how this affects the ion to neutral arrival ratio and charge-state distributions.
+	
+	\item Establish quantitative correlations between ion current, deposited mass (via QCM) across the experimental parameter space of magnetic field, nitrogen pressure, and distance from the macroparticle filter.
+	
+	\item Characterize the crystal structure (XRD), the film thickness (Profilometry), the film composition (EDX) and microstructure (SEM) of deposited TiAlN films to correlate plasma parameters with film properties.
+\end{enumerate}
+
+The experimental approach combines three diagnostics operated simultaneously: a biased Langmuir probe measures ion current density, a quartz crystal microbalance tracks mass deposition in real time, and an energy-resolving quadrupole mass spectrometer determines charge-state-resolved ion energy distributions. This multi-diagnostic strategy, applied across a systematic parameter space, enables separation of ion flux effects from ion energy effects while extending the Unutulmazsoy/Kalanov framework to reactive mode operation and the industrially relevant TiAlN system.
+
 

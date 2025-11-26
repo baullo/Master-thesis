@@ -1,49 +1,49 @@
-This is BibTeX, Version 0.99d (TeX Live 2023/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2023)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: plain.bst
 Database file #1: Tex_files/references.bib
 Warning--can't use both volume and number fields in poon1995
 Warning--empty publisher in poon1995
-You've used 26 entries,
+You've used 28 entries,
             2118 wiz_defined-function locations,
-            675 strings with 8220 characters,
-and the built_in function-call counts, 7730 in all, are:
-= -- 756
-> -- 339
+            687 strings with 8837 characters,
+and the built_in function-call counts, 8528 in all, are:
+= -- 826
+> -- 405
 < -- 3
-+ -- 139
-- -- 110
-* -- 560
-:= -- 1324
-add.period$ -- 80
-call.type$ -- 26
-change.case$ -- 128
++ -- 165
+- -- 134
+* -- 628
+:= -- 1471
+add.period$ -- 86
+call.type$ -- 28
+change.case$ -- 146
 chr.to.int$ -- 0
-cite$ -- 28
-duplicate$ -- 279
-empty$ -- 624
-format.name$ -- 110
-if$ -- 1577
+cite$ -- 30
+duplicate$ -- 300
+empty$ -- 666
+format.name$ -- 134
+if$ -- 1729
 int.to.chr$ -- 0
-int.to.str$ -- 26
-missing$ -- 29
-newline$ -- 135
-num.names$ -- 48
-pop$ -- 117
+int.to.str$ -- 28
+missing$ -- 31
+newline$ -- 145
+num.names$ -- 52
+pop$ -- 131
 preamble$ -- 1
-purify$ -- 109
+purify$ -- 125
 quote$ -- 0
-skip$ -- 183
+skip$ -- 198
 stack$ -- 0
-substring$ -- 483
-swap$ -- 30
+substring$ -- 511
+swap$ -- 32
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 92
+type$ -- 100
 warning$ -- 2
-while$ -- 71
-width$ -- 28
-write$ -- 290
+while$ -- 76
+width$ -- 30
+write$ -- 312
 (There were 2 warnings)
