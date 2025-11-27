@@ -5,13 +5,14 @@
 \subsection{Vacuum \& Gas Infrastructure}
 The chamber was evacuated using a two-stage pumping system consisting of a turbo-molecular pump (backed by a rotary vane pump for initial roughing) and a cryogenic pump, achieving a base pressure of $1 \times 10^{-5}$~Pa. Nitrogen gas (N$_2$, 99.999\% purity) was introduced via a mass flow controller (MFC), with chamber pressures ranging from 0.025--0.3~Pa during experiments,\\
 
-Plasma was generated using a water-cooled anode and a cathode with the aforementioned composition of 75~wt\% Ti--25~wt\% Al (62.8~at\% Ti--37.2~at\% Al) with a diameter of 6.35~mm and 38.1~mm long. The arc power supply operated in pulsed DC mode, delivering up to 450~A at a pulse frequency of 0.2--5~Hz, and also powered the 90$^\circ$ curved macroparticle filter in series. An accelerator coil (EM-coil), capable of currents up to 850~A, was pulsed 200~$\mu$s before arc ignition to stabilize the magnetic field. The QCM and Langmuir probe were mounted on a custom adjustable mechanism screwed to the chamber floor at 10--20~cm from the filter exit, while the energy-resolving mass spectrometer (ERMS) was positioned using a linear feedthrough for external adjustment.\\
+Plasma was generated using a water-cooled anode and a cathode with the aforementioned composition of 75~wt\% Ti; 25~wt\% Al (62.8~at\%; Ti 37.2~at\% Al) with a diameter of 6.35~mm and 38.1~mm long. The arc power supply operated in pulsed DC mode, delivering up to 450~A at a pulse frequency of 0.2--5~Hz, and also powered the 90$^\circ$ curved macroparticle filter in series. An accelerator coil (EM-coil), capable of currents up to 850~A, was pulsed 200~$\mu$s before arc ignition to stabilize the magnetic field. The QCM and Langmuir probe were mounted on a custom adjustable mechanism screwed to the chamber floor at 10--20~cm from the filter exit, while the energy-resolving mass spectrometer (ERMS) was positioned using a linear feedthrough for external adjustment.\\
 
 The vacuum chamber setup for cathodic arc plasma diagnostics and thin film deposition is shown in Figure~\ref{fig:vacuumchamber}.
 The arc power supply generates and steers the plasma, while the EM-coil power supply enhances the plasma energy and confinement.\\
 
-The green arrow illustrates the trajectory of the plasma plume as it expands from the cathode, passes through the macroparticle filter, and reaches the diagnostics. \\
-An energy-resolving mass spectrometer (ERMS) analyzes the ion energy and mass distribution, with its position adjusted relative to the macroparticle filter, to study spatial variations in the plasma plume. A Langmuir probe measures the ion current, and a quartz crystal microbalance (QCM) monitors the deposited mass in situ. An oscilloscope records time-resolved electrical signals: channels 1 and 2 measure the voltage drop at the cathode, while channels 3 and 4 capture the current supplied to the arc and EM-coil, as well as the ion current collected by the probe on another channel.
+The green arrow illustrates the trajectory of the plasma plume as it is expanding from the cathode, passing through the macroparticle filter, and reaching the diagnostics.
+
+An energy-resolving mass spectrometer (ERMS) analyzes the ion energy and mass distribution, with its position adjusted relative to the macroparticle filter, to study spatial variations in the plasma plume. A Langmuir probe measures the ion current and a quartz crystal microbalance (QCM) monitors the deposited mass. An oscilloscope records time-resolved electrical signals: channels 1 and 2 measure the voltage drop at the cathode, while channels 3 and 4 capture the current supplied to the arc and EM-coil, as well as the ion current collected by the probe on another channel.
 The delay generator acts as a master clock, triggering the arc power supply, EM-coil activation, and diagnostic tools with precise timing to ensure that ion flux, energy, and deposition rate measurements are directly comparable and time-correlated.
 
 
@@ -269,11 +270,11 @@ A quartz crystal microbalance (QCM) was employed to measure the amount of materi
 The measurement principle follows the Sauerbrey equation \cite{Sauerbrey_1959}, which relates the change in resonance frequency of the quartz crystal to the deposited mass:  
 
 \begin{equation}\label{eq.sauerbrey}
-    m = \frac{N_{\text{AT}}\cdot d_q \cdot \pi r^2}{F_q^2} \cdot \Delta F_c 
+    \Delta m = \frac{N_{\text{AT}}\cdot d_q \cdot \pi r^2}{F_q^2} \cdot \Delta F_c 
     = 18.8146023 \cdot 10^{-9} \frac{g}{Hz} \cdot \Delta F .
 \end{equation}
 
-Here $d_q = \SI{2.649}{\frac{g}{cm^3}}$ is the quartz density, the exposed area of the QCM is $r = 7 cm$, $N_{\text{AT}} = \SI{166100}{Hz\ cm}$ the frequency constant of the AT-cut, $F_q = \SI{6}{MHz}$ the uncoated resonance frequency, and $\Delta F$ the measured frequency shift.\\
+Here $d_q = \SI{2.649}{\frac{g}{cm^3}}$ is the quartz density, the exposed area of the QCM is $r = 0.7 cm$, $N_{\text{AT}} = \SI{166100}{Hz\ cm}$ the frequency constant of the AT-cut, $F_q = \SI{6}{MHz}$ the uncoated resonance frequency, and $\Delta F$ the measured frequency shift.\\
 
 The Sauerbrey relation is accurate as long as $\Delta F \lesssim 0.05 F_q$ (about \SI{0.3}{MHz} for a 6 MHz crystal). For larger mass loadings, the linear approximation fails and the Z-match\texttrademark\ technique is used. This method, introduced by Lu and Lewis in 1972 on the basis of Miller and Bolef’s theoretical treatment \cite{Miller1968,Lu1972}, incorporates the acoustic properties of both the quartz and the deposited film via the acoustic impedance ratio  
 
@@ -322,7 +323,7 @@ This design accounts for the radial gradients in plasma density and ion charge s
 
 \subsection{Quadrupole Mass Spectrometer}\label{sec:QMS}
 
-A quadrupole mass spectrometer (QMS, Hiden EQP 1000) was used to measure the ion energy distribution functions (IEDFs) and charge-state-resolved fluxes of plasma species generated during pulsed cathodic arc deposition. The system combines an electrostatic energy analyzer with a quadrupole mass filter to separate ions by their kinetic energy and mass-to-charge ratio (\(m/q\)).\\
+A quadrupole mass spectrometer (QMS, Hiden EQP 1000) was used to measure the ion energy distribution functions (IEDFs) and charge-state-resolved fluxes of plasma species generated during pulsed cathodic arc deposition. The system utilizes an electrostatic energy analyzer with a quadrupole mass filter to separate ions by their kinetic energy and mass-to-charge ratio (\(m/q\)).\\
 
 Ions enter the QMS through a \SI{50}{\micro\meter} sampling orifice and are first transported to the energy analyzer, where their kinetic energy \(E_i\) is selected according to the relationship:
 %
@@ -381,7 +382,7 @@ IEDFs were measured using a double trigger acquisition scheme synchronized with 
 \section{Ex situ Measurements}\label{sec:film_characterization}
 
 \subsection{X-ray Diffraction (XRD)}\label{sec:XRD}
-
+\textcolor{red}{need to look into before writing about it, more precisely about the specs of the device}
 \iffalse
 X-ray diffraction (XRD) was employed to analyze the crystallographic structure of the thin films deposited during the experiments. XRD is a non-destructive technique that provides detailed information about the crystalline phases present in the material, as well as their lattice parameters, crystallite size, and strain.\\
 
@@ -405,7 +406,7 @@ The XRD measurements were calibrated using a standard reference material (e.g., 
 
 
 \subsection{X-ray Reflectometry (XRR)}\label{sec:XRR}
-
+\textcolor{red}{need to look into before writing about it, more precisely about the specs of the device}
 \iffalse
 X-ray reflectometry (XRR) is a non-destructive technique used to determine the thickness, density, and interfacial roughness of thin films and multilayer structures \cite{tolan1999,holy1999}. The method works by measuring the intensity of X-rays reflected from a sample surface as a function of the incident angle, typically in the range of grazing incidence (0.1--5$^\circ$). 
 
@@ -424,7 +425,7 @@ In this work, XRR measurements were performed to verify film thicknesses determi
 
 
 \subsection{Scanning Electron Microscopy (SEM)}\label{sec:SEM}
-
+\textcolor{red}{need to look into before writing about it, more precisely about the specs of the device}
 \iffalse
 
 Scanning electron microscopy (SEM) was employed to characterize the surface morphology, cross-sectional structure, and microstructural features of the deposited films. SEM uses a focused electron beam (typically 1--30~keV) that is raster-scanned across the sample surface, generating various signals through electron-specimen interactions \cite{goldstein2017}. The primary signals detected include secondary electrons (SE) for high-resolution topographic imaging and backscattered electrons (BSE) for compositional contrast.
@@ -441,8 +442,8 @@ For this study, samples were prepared by cleaving or cutting silicon wafer subst
 
 Additionally, energy-dispersive X-ray spectroscopy (EDS) was used in conjunction with SEM to perform elemental analysis, confirming the Ti:Al ratio and nitrogen incorporation in the films \cite{williams2009}.
 \fi
-
-
+\subsection{Energy-dispersive X-ray spectroscopy (EDX)}\label{sec:EDX}
+\textcolor{red}{need to look into before writing about it, more precisely about the specs of the device}
 \subsection{Profilometry}\label{sec:profil}
 
 Stylus profilometry was used to measure film thickness by mechanically tracing the surface topography using a diamond-tipped stylus. The technique provides direct measurement of step heights between masked and deposited regions, making it particularly useful for verifying film thickness values obtained by QCM \cite{poon1995}.\\
@@ -484,11 +485,11 @@ As detailed in Appendix \ref{appendix:code}, the standard deviation of energy me
 
 \subsection{QCM and Ion Current Probe Measurements}\label{sec:ion/qcm_error}
 
-For the ion current probe measurements, the standard deviation of the averaged measurements is calculated to characterize the variability in the data. This variability within a pulse can be attributed to several factors, including fluctuations in the plasma potential at the beginning of the pulse, charge exchange reactions between ions and neutrals, and variations in the arc current and pulse parameters. These factors can cause fluctuations in the ion current during the pulse, leading to the observed variability \cite{evolution_pulse}. This kind of instability within the pulse will be henceforth shown with the help of error bars.
+For the ion current probe measurements, the standard deviation of the averaged measurements is calculated to characterize the variability in the data. This variability within a pulse can be attributed to several factors: the fluctuations in the plasma potential at the beginning of the pulse, charge exchange reactions between ions and neutrals and variations in the arc current and pulse parameters. These factors can cause fluctuations in the ion current during the pulse, leading to the observed variability \cite{evolution_pulse}. This kind of instability within the pulse will be henceforth shown with the help of error bars.
 
-However, certain sources of error specific to the ion probe must be considered. The design of the ion probe can influence the measurements due to sheath effects, where the sheath around the probe can expand based on the probe's size and the biasing applied \cite[Appendix A.2]{cathodic_arcs}. Additionally, secondary electron emissions from the probe surface can affect the ion current measurements \cite[Chap. 8.2]{cathodic_arcs}. These emissions can be caused by interactions between the ions and the probe surface, leading to inaccuracies in the measurements. As stated before, each pulse varies in terms of energies and amount of particles; these variations are investigated briefly in Sec.~\ref{sec:errorbar}, but cannot be considered for every data point.
+However, certain sources of error specific to the ion probe must be considered. The design of the ion probe can influence the measurements due to sheath effects, where the sheath around the probe can expand based on the probe's size and the biasing applied \cite[Appendix A.2]{cathodic_arcs}. Additionally, secondary electron emissions from the probe surface can affect the ion current measurements \cite[Chap. 8.2]{cathodic_arcs}. These emissions can be caused by interactions between the ions and the probe surface leading to inaccuracies in the measurements. As stated before, each pulse varies in terms of energies and amount of particles; these variations are investigated briefly in Sec.~\ref{sec:errorbar}, but cannot be considered for every data point.
 
-The QCM measurements are subject to inaccuracies in terms of the error in the resonance frequency measurements, which is based on the manufacturer's specifications. The given measurement inaccuracy is $\Delta f = 0.03$~Hz, which will be taken for error propagation \cite{SQM160_manual}. Additionally, the relative position of the QCM sensor with respect to the ion flux can affect the accuracy of the measurements. The mass deposition rate is determined from the frequency shift according to the Sauerbrey equation \cite{Sauerbrey_1959}, and subsequent calculations of mass flux depend on the measurement duration and sensor area.
+The QCM measurements are subject to inaccuracies in terms of the error in the resonance frequency measurements, which is based on the manufacturer's specifications. The given measurement inaccuracy is $\Delta f = 0.03$~Hz, which will be taken for error propagation \cite{SQM160_manual}. Additionally, the relative position of the QCM sensor with respect to the ion flux affects the accuracy of the measurements especially at close distances.
 
 \subsection{Error Propagation Analysis}\label{sec:error_propagation}
 
@@ -497,18 +498,18 @@ To properly characterize the uncertainties in the derived quantities, a comprehe
 \subsubsection{Ion Flux from Current Measurements}
 The ion flux in mass units $\Phi_{\text{ion}}$ (in $\mu$g/cm$^2$/s) is calculated from the measured ion current according to:
 \begin{equation}
-	\Phi_{\text{ion}} = \frac{I_{\text{ion}} \cdot M_{\text{eff}}}{\bar{Q} \cdot e \cdot A}
+	\Phi_{\text{ion}} = \frac{I_{\text{ion}} \cdot N_A}{A \cdot \bar{Q} \cdot F}
 	\label{eq:ion_flux_mass}
 \end{equation}
-where $M_{\text{eff}} = \sum_i f_i \cdot M_i$ is the effective molar mass determined from the species composition measured by mass spectrometry, with $f_i$ being the relative fraction of species $i$ (Al, Ti, N, N$_2$) and $M_i$ the corresponding atomic or molecular mass. Here $e = 1.602 \times 10^{-19}$~C is the elementary charge and $A$ is the collection area of the ion probe.
+where $N_A$ is the Avogadro number, $A$ is the collection area of the ion probe, $\bar{Q}$ is the mean charge state and $F$ is Faraday's constant ($96 485 \frac{A}{mol}$).\\
 
-For error propagation, considering the independent uncertainties in $I_{\text{ion}}$, $\bar{Q}$, and $M_{\text{eff}}$, the standard Gaussian error propagation formula gives \cite{taylor1997}:
+
+For error propagation, considering the independent uncertainties in $I_{\text{ion}}$, $\bar{Q}$, the standard Gaussian error propagation formula gives \cite{taylor1997}:
 \begin{equation}
-	\left(\frac{\sigma_{\Phi_{\text{ion}}}}{\Phi_{\text{ion}}}\right)^2 = \left(\frac{\sigma_I}{I_{\text{ion}}}\right)^2 + \left(\frac{\sigma_Q}{\bar{Q}}\right)^2 + \left(\frac{\sigma_{M_{\text{eff}}}}{M_{\text{eff}}}\right)^2
-	\label{eq:rel_error_ion_flux}
+	\left(\frac{\sigma_{\Phi_{\text{ion}}}}{\Phi_{\text{ion}}}\right)^2 = \left(\frac{\sigma_I}{I_{\text{ion}}}\right)^2 + \left(\frac{\sigma_Q}{\bar{Q}}\right)^2
 \end{equation}
 
-This shows that the relative uncertainties add in quadrature, which is typical for multiplicative error propagation. The uncertainty in $M_{\text{eff}}$ arises from the variability in species fractions and individual charge states measured by mass spectrometry.
+This shows that the relative uncertainties add in quadrature, which is typical for multiplicative error propagation.
 
 \subsubsection{Atomic Flux from QCM Measurements}
 The atomic flux $\Phi_{\text{atom}}$ (in atoms/cm$^2$/s) is determined from the mass flux measured by the QCM:
@@ -516,7 +517,7 @@ The atomic flux $\Phi_{\text{atom}}$ (in atoms/cm$^2$/s) is determined from the 
 	\Phi_{\text{atom}} = \frac{\Phi_{\text{mass}} \cdot N_A}{M_{\text{eff}}}
 	\label{eq:atomic_flux}
 \end{equation}
-where $\Phi_{\text{mass}} = m/(A_{\text{QCM}} \cdot t)$ is the mass flux and $N_A = 6.022 \times 10^{23}$~mol$^{-1}$ is Avogadro's constant. Following the same approach:
+where $\Phi_{\text{mass}} = m/(A_{\text{QCM}} \cdot t)$ is the mass flux and $N_A = 6.022 \times 10^{23}$~mol$^{-1}$ is Avogadro's constant. Following the same approach: \textcolor{red}{this depends what kind of data i get from EDX, else just standard error}
 \begin{equation}
 	\left(\frac{\sigma_{\Phi_{\text{atom}}}}{\Phi_{\text{atom}}}\right)^2 = \left(\frac{\sigma_m}{m}\right)^2 + \left(\frac{\sigma_{M_{\text{eff}}}}{M_{\text{eff}}}\right)^2
 	\label{eq:rel_error_atomic_flux}
@@ -524,20 +525,6 @@ where $\Phi_{\text{mass}} = m/(A_{\text{QCM}} \cdot t)$ is the mass flux and $N_
 
 The QCM mass uncertainty $\sigma_m$ is calculated from the frequency measurement uncertainty $\Delta f = 0.03$~Hz using the Sauerbrey relation.
 
-\subsubsection{Ion Flux in Atomic Units}
-To enable direct comparison between ion current and QCM measurements, the ion flux is also expressed in atomic units:
-\begin{equation}
-	\Phi_{\text{ion,atoms}} = \frac{\Phi_{\text{ion}} \cdot N_A}{M_{\text{eff}}}
-	\label{eq:ion_flux_atoms}
-\end{equation}
-
-The relative uncertainty follows from combining Eqs.~\eqref{eq:rel_error_ion_flux} and the transformation:
-\begin{equation}
-	\left(\frac{\sigma_{\Phi_{\text{ion,atoms}}}}{\Phi_{\text{ion,atoms}}}\right)^2 = \left(\frac{\sigma_I}{I_{\text{ion}}}\right)^2 + \left(\frac{\sigma_Q}{\bar{Q}}\right)^2 + 2\left(\frac{\sigma_{M_{\text{eff}}}}{M_{\text{eff}}}\right)^2
-	\label{eq:rel_error_ion_flux_atoms}
-\end{equation}
-
-Note the factor of 2 for the effective molar mass uncertainty, since $M_{\text{eff}}$ appears in both the ion flux calculation and the unit conversion.
 
 
 

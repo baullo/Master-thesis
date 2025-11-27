@@ -139,7 +139,7 @@ The relationship between ion flux and film growth rate is given by
 \begin{equation}
 	R = \frac{m_{\rm ion}\,\Gamma\,S}{\rho_{\rm film}},
 \end{equation}
-where $m_{\rm ion}$ is the average ion mass, $S$ the sticking coefficient, and $\rho_{\rm film}$ the film density. The sticking coefficient $S$ represents the probability that an arriving ion incorporates into the growing film rather than being reflected or resputtered; for metal ions at moderate energies (below the resputter threshold of $\sim$100–200\,eV), $S \approx 1$ is typically assumed. For constant ion energy and unity sticking coefficient, the deposition rate scales linearly with ion flux. Deviations from linearity indicate that additional processes (such as densification, resputtering, or adatom crowding) influence film growth. Unutulmazsoy et al.\ observed this linear scaling in (V,Al)N films deposited by pulsed filtered cathodic arc, with deviations emerging at high flux densities where ion-induced densification becomes significant \cite{unutulmazsoy}.\\
+where $m_{\rm ion}$ is the average ion mass, $S$ the sticking coefficient, and $\rho_{\rm film}$ the film density. The sticking coefficient $S$ represents the probability that an arriving ion incorporates into the growing film rather than being reflected or resputtered; for metal ions at moderate energies (below the resputter threshold of $\sim$100–200\,eV), $S \approx 1$ is typically assumed. For constant ion energy and a sticking coefficient equal to one, the deposition rate scales linearly with ion flux. Deviations from linearity indicate that additional processes (such as densification, resputtering, or adatom crowding) influence film growth. Unutulmazsoy et al.\ observed this linear scaling in (V,Al)N films deposited by pulsed filtered cathodic arc, with deviations emerging at high flux densities where ion-induced densification becomes significant \cite{unutulmazsoy}.\\
 
 Experimentally, ion flux is determined from biased probe measurements operating in ion saturation mode, while charge-state and energy distributions are obtained via energy-resolved mass spectrometry. The diagnostic methods used in this work are described in Chapter~\ref{chap:methods}.
 To connect the theory of ion flux and energy to experimental data, we employ two primary diagnostics:
@@ -167,13 +167,13 @@ Cathodic-arc deposition operates in two distinct regimes. In metallic mode, the 
 When N$_2$ is introduced, a dynamic equilibrium develops between compound formation, through adsorption and reaction at the cathode surface and compound removal via explosive ecton events that eject both metal and nitride fragments \cite[Chap.~9.3]{cathodic_arcs}. The equilibrium position depends on gas pressure, arc current, and cathode composition. At low N$_2$ pressures or high power densities, type-2 (metal-rich) spots prevail, maintaining predominantly metal ion flux. At higher pressures, type-1 (poisoned) spots dominate, producing a mixed plasma of metal and nitrogen ions \cite[Chap.~9.4]{cathodic_arcs}.\\
 
 Reactive mode affects both plasma diagnostics and film growth:
-\begin{itemize}
+\begin{compactitem}
 	\item The measured probe current includes contributions from N$^+$ and N$_2^+$ in addition to metal ions, requiring mass-resolved analysis to separate species.
 	
 	\item Charge exchange with N$_2$ reduces the average charge state of metal ions and introduces gas-ion species, altering the potential energy budget \cite[Chap.~9.4]{cathodic_arcs}.
 	
 	\item Collisions during plasma expansion reduce ion drift velocities, lowering kinetic energy before substrate impact \cite[Chap.~9.4]{cathodic_arcs}.
-\end{itemize}
+\end{compactitem}
 
 In the present experimental setup, N$_2$ is introduced via a ring-manifold inlet downstream of the magnetic filter, minimizing pressure gradients and enabling reproducible reactive-mode operation. By comparing measurements in vacuum and under varying N$_2$ pressures, this work investigates how reactive mode influences $\Gamma$ and $\langle Q \rangle$, and how these parameters correlate with deposited mass and film composition.
 
@@ -183,31 +183,35 @@ In the present experimental setup, N$_2$ is introduced via a ring-manifold inlet
 
 The microstructure of thin films deposited by physical vapour deposition depends strongly on the energy and flux of incident species. Thornton's structure-zone model, originally developed for magnetron sputtering, relates film morphology to the homologous temperature $T/T_m$ (substrate temperature normalized to the melting point) and working gas pressure \cite{thornton1977}. At low $T/T_m$ and high pressures, films exhibit porous, columnar structures (Zone~1) due to limited adatom mobility. As $T/T_m$ increases, denser columnar (Zone~T) and eventually equiaxed crystalline structures (Zone~2 and Zone~3) develop.\\
 
-Anders extended this framework to account for the energetic ion bombardment characteristic of cathodic-arc deposition \cite{anders2010szm}. In the revised model, ion energy $E^*$ (normalized to a displacement energy) replaces gas pressure as the second axis, reflecting the dominant role of ion bombardment in densification. High-energy ions can induce subplantation and atomic peening even at low substrate temperatures, enabling dense, crystalline films without external heating—a key advantage of cathodic-arc processes. However, excessive ion energy leads to lattice damage, defect accumulation, and eventually amorphization or resputtering, defining an optimal energy window for film growth \cite[Chap.~8.3]{cathodic_arcs}.\\
+Anders extended this framework to account for the energetic ion bombardment characteristic of cathodic-arc deposition \cite{anders2010szm}. In the revised model, ion energy $E^*$ (normalized to a displacement energy) replaces gas pressure as the second axis, reflecting the dominant role of ion bombardment in densification. High-energy ions can induce subplantation and atomic peening even at low substrate temperatures, enabling dense, crystalline films without external heating, which is a key advantage of cathodic-arc processes. However, excessive ion energy leads to lattice damage, defect accumulation, and eventually amorphization or resputtering, defining an optimal energy window for film growth \cite[Chap.~8.3]{cathodic_arcs}.\\
 
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.8\textwidth]{Figures/theory/anders_szm.png}
-	\caption{Structure-zone diagram for plasma-based thin film deposition, showing film microstructure as a function of generalized temperature $T^*$ and normalized ion energy $E^*$. Adapted from Anders \cite{anders2010szm}.}
+	\caption{Structure-zone diagram for plasma-based thin film deposition, showing film microstructure as a function of generalized temperature $T^*$ and normalized ion energy $E^*$. From Anders \cite{anders2010szm}.}
 	\label{fig:anders_szm}
 \end{figure}
 
 
-For the Ti--Al--N system, the Anders structure-zone model predicts that the multiply charged ions typical of cathodic arcs (with total energies of 50–80\,eV) promote Zone~T or Zone~2 microstructures even at modest substrate temperatures, provided the ion flux is sufficient to maintain a high ion-to-neutral arrival ratio.
+For the Ti--Al--N system, the Anders structure-zone model predicts that the multiply charged ions typical of cathodic arcs promote Zone~T or Zone~2 microstructures even at modest substrate temperatures, provided the ion flux is sufficient to maintain a high ion-to-neutral arrival ratio.
+
 
 \subsection{TiAlN Crystal Structures}
 
-Titanium aluminium nitride (Ti$_{1-x}$Al$_x$N) coatings are widely used for wear protection and cutting tools due to their high hardness, oxidation resistance, and thermal stability. The crystal structure depends primarily on the aluminium content $x$:
+Titanium aluminium nitride (Ti$_{1-x}$Al$_x$N) coatings are widely used for wear protection and cutting tools due to their high hardness, oxidation resistance, and thermal stability. The crystal structure depends primarily on the aluminium content $x$:\\
 
-\begin{itemize}
-	\item For $x \lesssim 0.6$ – 0.7, Ti$_{1-x}$Al$_x$N crystallizes in the metastable cubic B1 (NaCl-type) structure, where Al atoms substitute for Ti on the metal sublattice. This cubic phase exhibits hardness values of 25–35\,GPa and is the preferred structure for most industrial applications \cite{paldey2003}.
+
+\begin{compactitem}
+	\item For $x \lesssim 0.6$ – 0.7, Ti$_{1-x}$Al$_x$N crystallizes in the metastable cubic B1 structure, where Al atoms substitute for Ti on the metal sublattice. This cubic phase exhibits hardness values of 25–35\,GPa and is the preferred structure for most industrial applications \cite{paldey2003}.
 	
 	\item For $x \gtrsim 0.7$, the thermodynamically stable wurtzite (B4) structure becomes dominant. The wurtzite phase has lower hardness (typically 15–20\,GPa) and is generally undesirable for hard coating applications \cite{mayrhofer2006}.
 	
 	\item At intermediate compositions, mixed cubic-wurtzite structures or nanocomposite arrangements may form, depending on deposition conditions.
-\end{itemize}
+\end{compactitem}
+\vspace{12pt}
+
 
 The metastable cubic phase is retained at high Al contents through kinetic limitations during low-temperature deposition. Energetic ion bombardment in cathodic-arc processes can extend the solubility limit of Al in the cubic phase by providing additional energy for atomic rearrangement without the diffusion lengths associated with thermal equilibration \cite{rachbauer2011}.\\
 
-The cathode composition used in this work (75\,wt.\% Ti – 25\,wt.\% Al, corresponding to approximately 63\,at.\% Ti – 37\,at.\% Al) is expected to produce cubic-phase Ti$_{1-x}$Al$_x$N films under typical cathodic-arc conditions. Film structure will be verified by X-ray diffraction, with microstructure examined by scanning electron microscopy, as described in Chapter~\ref{sec:film_characterization}.
+The cathode composition used in this work (75\,wt.\% Ti – 25\,wt.\% Al is expected to produce cubic-phase Ti$_{1-x}$Al$_x$N films under typical cathodic-arc conditions. Film structure will be verified by X-ray diffraction, with microstructure examined by scanning electron microscopy, as described in Chapter~\ref{sec:film_characterization}.
 

@@ -3,14 +3,14 @@
 \section{Langmuir Probe Bias Voltage Characterization}
 \subsection{Validation of Langmuir Probe Operation}
 
-Before plasma diagnostics were performed, the functionality of the custom-built Langmuir probe was verified by checking the characteristic voltage current curve (I-V curve) and fitting it against the theoretical relationship \ref{eq:langmuir}. Additionally the appropriate negative bias voltage for ion saturation measurements was determined . The goal was to ensure that the probe operates in a regime where the collected current is dominated by ions, excluding contributions from electrons.\\
+Before plasma diagnostics were performed, the functionality of the custom-built Langmuir probe was verified by checking the characteristic voltage current curve (I-V curve) and fitting it against the theoretical relationship \ref{eq:langmuir}. Additionally the appropriate negative bias voltage for ion saturation measurements was determined . The aim of this test was to ensure that the probe operates in a regime where the collected current is dominated by ions, excluding contributions from electrons.\\
 
-The bias voltage tests were performed without nitrogen in the chamber, at a fixed distance of 10 cm from the macroparticle filter, and with an EM coil strength of 0.25 T. Figure \ref{fig:bias_current} displays the measured ion current as a function of bias voltage. The blue data points represent the experimental results, while the green line shows the exponential saturation fit.\\
+The bias voltage tests were performed without nitrogen in the chamber, at a fixed distance of 10 cm from the macroparticle filter, and with an EM coil strength of 0.25 T. Figure \ref{fig:bias_current} displays the measured ion current as a function of bias voltage. The blue data points are the experimental results, with the green line shows the exponential saturation fit.\\
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.9\linewidth]{Figures/results 1/bias_current_voltage_Saturation_thesis_version.png}
-    \caption{Measured ion current vs. bias voltage for the Langmuir probe, showing exponential saturation fit $I=6.17(1-e^{-V/1.8})+0.023V$. Conditions: no nitrogen, 10 cm from the macroparticle filter, 0.25 T EM-coil strength.}
+    \caption{Measured ion current vs. bias voltage for the Langmuir probe, showing exponential saturation fit $I=6.17\cdot (1-e^{-V/1.8})+0.023 \cdot V$. Conditions: no nitrogen, 10 cm from the macroparticle filter, 0.25 T EM-coil strength.}
     \label{fig:bias_current}
 \end{figure}
 
@@ -33,7 +33,7 @@ The bias voltage test results (Figure \ref{fig:bias_current}) show two distinct 
 
 \begin{enumerate}
     \item \textbf{Transition Regime (0 -- 40 V):} \\
-    At low bias voltages, the probe collects both ions and electrons. As the negative bias increases, more electrons are repelled, reducing their contribution to the measured current. This results in a rapid rise in net current as the ion flux begins to dominate. The transition regime is characterized by a balance between the decreasing electron flux and the increasing ion flux.
+    At low bias voltages the probe collects both ions and electrons. As the negative bias increases, more electrons are repelled, reducing their contribution to the measured current. This results in a rapid rise in net current as the ion flux begins to dominate. The transition regime is characterized by the decreasing electron flux and the increasing ion flux.
     \item \textbf{Saturation Regime (40 -- 130V):} \\
     Beyond approximately 40V, the current plateaus, indicating that the probe has entered the ion saturation regime. At this point, the negative bias effectively repels all electrons, and the collected current is dominated by ions. However, the current increases slightly with voltage, which is captured by the linear correction term $k$ = 0.023 in the modified Langmuir equation. 
 \end{enumerate}
@@ -72,7 +72,7 @@ In all other measurements, the oscilloscope averaged the voltage drop of the ion
 
 \section{Quartz crystal Microbalance and Ion current Probe}
 
-Although the measurements were taken at the same time and location, the results will be presented in two subsections for clarity: first, the Quartz Crystal Microbalance (QCM) data, followed by the Ion Current Probe results. This structure is intended to improve the readability and understanding of the trends.\\
+Results will be presented in two subsections for clarity: first, the Quartz Crystal Microbalance (QCM) data, followed by the Ion Current Probe results. This structure is intended to improve the readability and understanding of the trends. At this juncture the quantities of Mass (ng) and Ion current (mA) are not comparable. Overall every permutation of the three parameters in the Table \ref{tab:parameters} were recorded.\\
 
 \begin{table}[h]
 	\centering
@@ -88,9 +88,10 @@ Although the measurements were taken at the same time and location, the results 
 		& 0.3 & \\ \hline
 	\end{tabularx}
 	\caption{Parameters used for the QCM/Ion current probe}
+	\label{tab:parameters}
 \end{table}
 
-In Figures \ref{fig:3Dmass} and \ref{fig:3Dion}, a complete overview of the dataset of the measured ion currents and the deposited masses depending on three parameters are shown. These are the distance to the macroparticle filter, the magnetic field strength and the nitrogen background pressure in the chamber. Data points for 0 Pa are in reality more in the order of $1.5 \cdot 10^{-5}$ Pa.
+In Figures \ref{fig:3Dmass} and \ref{fig:3Dion}, a complete overview of the dataset of the deposited masses and the measured ion currents depending on three parameters are shown. These are the distance to the macroparticle filter, the magnetic field strength and the nitrogen background pressure in the chamber. Data points for 0 Pa are in reality more in the order of $1.5 \cdot 10^{-5}$ Pa.
 
 \begin{figure}[H]
 \centering
@@ -134,15 +135,13 @@ In this section, we analyze the deposited mass as a function of distance and mag
 		\centering
 		\includegraphics[width=\linewidth]{Figures/results 1/MagField_vs_Distance_P0.0Pa_Mass.png}
 		\caption{}
-		\label{fig:metallic_mass}
 	\end{subfigure}%
 	\begin{subfigure}{.5\textwidth}
 		\centering
 		\includegraphics[width=\linewidth]{Figures/results 1/MagField_vs_Distance_P0.0Pa_IonCurrent.png}
 		\caption{}
-		\label{fig:metallic_ion}
 	\end{subfigure}
-	\caption{Metallic case measurements showing (a) the deposited mass after 64 pulses and (b) the ion current averaged over a single pulse, each plotted as a function of magnetic field strength. Data shown for three representative distances (10 cm, 14 cm, and 20 cm), with error bars representing variation within pulses.}
+	\caption{Metallic case measurements showing (a) the deposited mass after 64 pulses and (b) the ion current averaged over a single pulse, each plotted as a function of magnetic field strength. Data selected for three distances (10, 14, 20 cm), with error bars representing variation within pulses.}
 	\label{fig:metallic_mass/ion}
 \end{figure}
 
@@ -152,12 +151,108 @@ At 0.05 T both the ion current and deposited mass fall below the values measured
 
 \subsection{Distance as a variable}\label{subsec:distance}
 
+\begin{figure}[ht]
+	\centering
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{Figures/results 1/Distance_vs_Pressure_B0.25T_Mass.png}
+		\caption{}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{Figures/results 1/Distance_vs_Pressure_B0.25T_IonCurrent.png}
+		\caption{}
+	\end{subfigure}
+	\caption{QCM and Ion Probe measurements showing (a) the deposited mass after 64 pulses and (b) the ion current averaged over a single pulse, each plotted as a function of distance. Data shown for representative pressures, with error bars representing variation within pulses.}
+	\label{fig:distance_0.25T_mass/ion}
+\end{figure}
 
-\subsection{Magnetic field as a variable}\label{subsec:mag_field}
+Additional plot for this can be seen in Appendix \ref{fig:distance_0T_mass/ion}
+
+\subsection{Magnetic Field as a variable}\label{subsec:mag_field}
+
+\begin{figure}[ht]
+	\centering
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{Figures/results 1/MagField_vs_Pressure_D14cm_Mass.png}
+		\caption{}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{Figures/results 1/MagField_vs_Pressure_D14cm_IonCurrent.png}
+		\caption{}
+	\end{subfigure}
+	\caption{QCM and Ion Probe measurements showing (a) the deposited mass after 64 pulses and (b) the ion current averaged over a single pulse, each plotted as a function of Magnetic Field. Data shown for representative pressures, with error bars representing variation within pulses.}
+	\label{fig:mag_field_0.25T_mass/ion}
+\end{figure}
+
+
+\newpage
 \subsection{Nitrogen pressure as a variable}\label{subsec:nitrogen_pressure}
 
+\begin{figure}[ht]
+	\centering
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{Figures/results 1/Pressure_vs_Distance_B0.25T_Mass.png}
+		\caption{}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{Figures/results 1/Pressure_vs_Distance_B0.25T_IonCurrent.png}
+		\caption{}
+	\end{subfigure}
+	\caption{QCM and Ion Probe measurements showing (a) the deposited mass after 64 pulses and (b) the ion current averaged over a single pulse, each plotted as a function of Pressure. Data shown for representative pressures, with error bars representing variation within pulses.}
+	\label{fig:pressure_0.25T_mass/ion}
+\end{figure}
 
 \section{Mass spectroscopy Results}
+\begin{itemize}
+	\item shortly about mean charge state and energies not a focus tho
+	\item maybe a table and a picture
+\end{itemize}
 
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{"Figures/results 2/Distance_0.25T_0.0Pa"}
+	\caption{0Pa 0.25T}
+	\label{fig:ERMS_distance0Pa}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{"Figures/results 2/Distance_0.25T_0.3Pa"}
+	\caption{0.3Pa 0.25T}
+	\label{fig:ERMS_distance0.3Pa}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{"Figures/results 2/Pressure_10cm_0.25T"}
+	\caption{10cm 0.25T}
+	\label{fig:ERMS_pressure10cm0}
+\end{figure}
+Missing 14cm 0.25T
 
 \section{Ex situ Results}
+
+A total of [insert number of films once i ve done all of them, proabably like 6-8] were taking into account for further measurements and looked at in the following sections. Blablabla
+\subsection{Profilometry}
+
+Samples were prepared by placing a straight marker line near the edge of each substrate prior to deposition. This marker could be cleanly removed by ultrasonic washing after film growth, revealing the deposition step for thickness analysis. Profilometry measurements were performed at three positions on each sample, one near the center and one near each edge. The three measurements were averaged to obtain the mean film thickness. All resulting values are summarized in Table \ref{tab:profilometry_results}.
+
+\begin{table}[h]
+	\centering
+	\begin{tabularx}{0.85\textwidth}{|X|X|X|}
+		\hline
+	\end{tabularx}
+	\caption{Profilometry thickness measurements for the deposited films}
+	\label{tab:profilometry_results}
+\end{table}
+
+\subsection{XRD}
+\subsection{XRR}
+\subsection{EDX}
+
+
+\section{Fluxes}\label{sec:flux}
