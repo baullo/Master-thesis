@@ -47,17 +47,17 @@
 \contentsline {section}{\numberline {4.2}Quartz crystal Microbalance and Ion current Probe}{33}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Metallic Case (No Nitrogen)}{35}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Distance as a variable}{36}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Magnetic Field as a variable}{36}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Nitrogen pressure as a variable}{37}{subsection.4.2.4}%
-\contentsline {section}{\numberline {4.3}Mass spectroscopy Results}{37}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Ex situ Results}{39}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Profilometry}{39}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}XRD}{39}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}XRR}{39}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}EDX}{39}{subsection.4.4.4}%
-\contentsline {section}{\numberline {4.5}Fluxes}{39}{section.4.5}%
-\contentsline {chapter}{\numberline {5}Discussion of Results}{40}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Conclusion}{41}{chapter.6}%
-\contentsline {chapter}{\numberline {7}final words or smt like thanks everyone}{42}{chapter.7}%
-\contentsline {chapter}{\numberline {A}Additional Plots}{43}{chapter.1}%
-\contentsline {chapter}{\numberline {B}Python code used}{45}{chapter.2}%
+\contentsline {subsection}{\numberline {4.2.3}Magnetic Field as a variable}{37}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Nitrogen pressure as a variable}{38}{subsection.4.2.4}%
+\contentsline {section}{\numberline {4.3}Mass spectroscopy Results}{38}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Ex situ Results}{40}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Profilometry}{40}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}XRD}{40}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}XRR}{40}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}EDX}{40}{subsection.4.4.4}%
+\contentsline {section}{\numberline {4.5}Fluxes}{40}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Discussion of Results}{41}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Conclusion}{42}{chapter.6}%
+\contentsline {chapter}{\numberline {7}final words or smt like thanks everyone}{43}{chapter.7}%
+\contentsline {chapter}{\numberline {A}Additional Plots}{44}{chapter.1}%
+\contentsline {chapter}{\numberline {B}Python code used}{46}{chapter.2}%

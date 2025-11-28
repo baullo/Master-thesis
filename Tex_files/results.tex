@@ -113,8 +113,11 @@ In Figures \ref{fig:3Dmass} and \ref{fig:3Dion}, a complete overview of the data
 (b) The ion current vs. distance, magnetic field strength, and nitrogen background pressure over 64 pulses. Conditions: nitrogen background pressure from 0 Pa to 0.3 Pa, distance from 10 cm to 20 cm from the macroparticle filter, and magnetic field strength from 0 T to 0.25 T.}
 \end{figure}
 
+\textit{Note}: The mass data presented here are based on 64 pulses. This number was chosen because it provides a sufficient mass difference even in the weakest deposition conditions, and it also reduces pulse-to-pulse variability in both the QCM and ion-current probe measurements.\\
 
-General trends that can be seen already in these figure include:
+
+General trends that can be seen already in these figure include:\\
+
 \begin{compactitem}
     \item The deposited mass and ion current decreases as the distance from the macroparticle filter increases (see Section \ref{subsec:distance}).
     \item Higher magnetic field strengths tend to increase the deposited mass and the ion current (see Section \ref{subsec:mag_field}).
@@ -126,7 +129,7 @@ This overview sets the stage for a more detailed analysis of each variable's imp
 
 The above stated parameters represent a subset, which as can be seen in Table \ref{tab:comprehensive_measurements} include the parameters used in further investigations with ERMS and with deposited films.
 
-\subsection{Metallic Case (No Nitrogen)}
+\subsection{Metallic Case (No Nitrogen)}\label{subsec:metal}
 In this section, we analyze the deposited mass as a function of distance and magnetic field strength in the absence of nitrogen.
 
 \begin{figure}[h]
@@ -150,7 +153,9 @@ As shown in Figure \ref{fig:metallic_mass/ion}, both the deposited mass (after 6
 At 0.05 T both the ion current and deposited mass fall below the values measured at 0 T. This unexpected drop is likely due to a magnetic mirror effect happening at the coil entrance. As plasma moves from a weak magnetic field into a stronger, the conservation of the particles’ magnetic moment causes electrons (which have a lot of perpendicular gyroenergy) to either bounce back or speed up along the field’s gradient. This creates localized space-charge and potential structures that can cut down the overall ion flow further downstream. As a result, you might see a lower ion current and less deposited mass at moderate field strengths, before the effects of focusing and ionization take over at higher fields \cite[Chap. 7.6]{cathodic_arcs} \cite{magnetic_mirror}. This effect is noticeable, in different intensities, in all measurements.
 
 \subsection{Distance as a variable}\label{subsec:distance}
-\textcolor{red}{this is where i am currently at writing wise}
+
+In this section, we look at another slice of our dataset looking at the change in mass and ion current vs distance, while taking multiple representable nitrogen pressures (0.1, 0.2, 0.3 Pa) and the metallic case into account at a magnetic field strength of 0.25T. 
+
 \begin{figure}[ht]
 	\centering
 	\begin{subfigure}{.5\textwidth}
@@ -167,9 +172,18 @@ At 0.05 T both the ion current and deposited mass fall below the values measured
 	\label{fig:distance_0.25T_mass/ion}
 \end{figure}
 
-Additional plot for this can be seen in Appendix \ref{fig:distance_0T_mass/ion}
+The deposited mass and the ion current both decrease with increasing distance, consistent with the expansion of the plasma. The mass shows a decline with higher chamber pressure resulting in a reduced deposition. In contrast, the ion current exhibits a much steeper drop at short distances, less than 16cm, when the nitrogen content in the chamber is increased.\\
+
+This significant change is only present when enhancing the plasma with a magnetic field. In the case like in Fig. \ref{fig:distance_0T_mass/ion}, the drop off between metallic and reactive depositions for the ion current is less pronounced, with the ion current being seemingly the same for all pressures at a given distance.\\
+
+\textcolor{red}{This is in contrast to the measurements done in kalanov paper where reactive had a higher yield, while I get seemingly less or the same mass}
+
 
 \subsection{Magnetic Field as a variable}\label{subsec:mag_field}
+
+\textcolor{red}{here for 14 cm the result is contradictory to the previous statement where added nitrogen leads to higher deposited mass.. funny enough this is the only distance where this is the case as can be seen in fig. \ref{fig:mag_field_14cm_mass/ion}}
+
+The next slice of the dataset we take a closer look at is the magnetic field as a variable like in sec. \ref{subsec:metal}, with the difference being that here the distance is fixed at 14 cm and the nitrogen pressures (0.1, 0.2, 0.3 Pa) and the metallic case are plotted.
 
 \begin{figure}[ht]
 	\centering
@@ -184,11 +198,11 @@ Additional plot for this can be seen in Appendix \ref{fig:distance_0T_mass/ion}
 		\caption{}
 	\end{subfigure}
 	\caption{QCM and Ion Probe measurements showing (a) the deposited mass after 64 pulses and (b) the ion current averaged over a single pulse, each plotted as a function of Magnetic Field. Data shown for representative pressures, with error bars representing variation within pulses.}
-	\label{fig:mag_field_0.25T_mass/ion}
+	\label{fig:mag_field_14cm_mass/ion}
 \end{figure}
 
+In Fig. \ref{fig:mag_field_14cm_mass/ion}, the magnetic-mirror effect is still present, but weaker than in the 10 cm case. At 14 cm, both the deposited mass and the ion current remain essentially constant, whereas at 10 cm a clear decrease was observed, as discussed in subsec. \ref{subsec:metal}. The trends observed here suggest that additional nitrogen pressure atmosphere has the smallest influence on the deposited mass compared to distance or the magnetic field. Only for the ion current does the metallic configuration exhibit a slight increase at higher magnetic-field strengths compared to the reactive cases.
 
-\newpage
 \subsection{Nitrogen pressure as a variable}\label{subsec:nitrogen_pressure}
 
 \begin{figure}[ht]
@@ -234,6 +248,7 @@ Additional plot for this can be seen in Appendix \ref{fig:distance_0T_mass/ion}
 \end{figure}
 Missing 14cm 0.25T
 
+\newpage
 \section{Ex situ Results}
 \begin{figure}[ht]
 	\centering
