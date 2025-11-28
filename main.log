@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.10.30)  27 NOV 2025 16:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.10.30)  28 NOV 2025 13:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1166,12 +1166,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
  []
 
-[11]
+
 Underfull \hbox (badness 10000) in paragraph at lines 127--129
 
  []
 
-
+[11]
 Underfull \hbox (badness 10000) in paragraph at lines 133--135
 
  []
@@ -1182,7 +1182,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 136--137
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--143
+Underfull \hbox (badness 10000) in paragraph at lines 141--144
 
  []
 
@@ -1199,18 +1199,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 165--166
 
  []
 
-[13]
+
 Underfull \hbox (badness 10000) in paragraph at lines 167--168
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 184--185
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--187
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
 
  []
 
@@ -1218,16 +1218,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 186--187
 <Figures/theory/anders_szm.png, id=461, 337.89395pt x 224.41737pt>
 File: Figures/theory/anders_szm.png Graphic file (type png)
 <use Figures/theory/anders_szm.png>
-Package pdftex.def Info: Figures/theory/anders_szm.png  used on input line 190.
+Package pdftex.def Info: Figures/theory/anders_szm.png  used on input line 191.
 
 (pdftex.def)             Requested size: 352.81552pt x 234.33708pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--202
+Underfull \hbox (badness 10000) in paragraph at lines 202--203
 
  []
 
 [15 <./Figures/theory/anders_szm.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 214--215
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
 
  []
 
@@ -1528,17 +1528,32 @@ File: Figures/results 2/Pressure_10cm_0.25T.png Graphic file (type png)
 Package pdftex.def Info: Figures/results 2/Pressure_10cm_0.25T.png  used on inp
 ut line 231.
 (pdftex.def)             Requested size: 441.01773pt x 189.00693pt.
+<Figures/results 2/PXL_20251114_084343196.jpg, id=747, 1752.5475pt x 1314.9125p
+t>
+File: Figures/results 2/PXL_20251114_084343196.jpg Graphic file (type jpg)
+<use Figures/results 2/PXL_20251114_084343196.jpg>
+Package pdftex.def Info: Figures/results 2/PXL_20251114_084343196.jpg  used on 
+input line 242.
+(pdftex.def)             Requested size: 220.50887pt x 165.42705pt.
+<Figures/results 2/PXL_20251117_130844177.jpg, id=748, 1569.865pt x 1177.39874p
+t>
+File: Figures/results 2/PXL_20251117_130844177.jpg Graphic file (type jpg)
+<use Figures/results 2/PXL_20251117_130844177.jpg>
+Package pdftex.def Info: Figures/results 2/PXL_20251117_130844177.jpg  used on 
+input line 247.
+(pdftex.def)             Requested size: 220.50887pt x 165.37367pt.
  [37 <./Figures/results 1/MagField_vs_Pressure_D14cm_Mass.png> <./Figures/resul
 ts 1/MagField_vs_Pressure_D14cm_IonCurrent.png> <./Figures/results 1/Pressure_v
 s_Distance_B0.25T_Mass.png> <./Figures/results 1/Pressure_vs_Distance_B0.25T_Io
 nCurrent.png>] [38 <./Figures/results 2/Distance_0.25T_0.0Pa.png> <./Figures/re
 sults 2/Distance_0.25T_0.3Pa.png> <./Figures/results 2/Pressure_10cm_0.25T.png>
 ]
-Underfull \hbox (badness 10000) in alignment at lines 248--248
+Underfull \hbox (badness 10000) in alignment at lines 263--263
 [][][]
  []
 
-) (./Tex_files/discussion.tex [39]
+) (./Tex_files/discussion.tex [39 <./Figures/results 2/PXL_20251114_084343196.j
+pg> <./Figures/results 2/PXL_20251117_130844177.jpg>]
 Chapter 5.
 [40
 
@@ -1558,7 +1573,7 @@ as been already used, duplicate ignored
 l.2 \chapter{Additional Plots}
                               
 Appendix A.
-<Figures/appendix/Pulse waveform appendix (0.1T).png, id=792, 774.7344pt x 426.
+<Figures/appendix/Pulse waveform appendix (0.1T).png, id=795, 774.7344pt x 426.
 8748pt>
 File: Figures/appendix/Pulse waveform appendix (0.1T).png Graphic file (type pn
 g)
@@ -1566,7 +1581,7 @@ g)
 Package pdftex.def Info: Figures/appendix/Pulse waveform appendix (0.1T).png  u
 sed on input line 6.
 (pdftex.def)             Requested size: 441.01773pt x 243.00198pt.
-<Figures/appendix/Distance_vs_Pressure_B0.00T_Mass.png, id=793, 618.3903pt x 41
+<Figures/appendix/Distance_vs_Pressure_B0.00T_Mass.png, id=796, 618.3903pt x 41
 1.939pt>
 File: Figures/appendix/Distance_vs_Pressure_B0.00T_Mass.png Graphic file (type 
 png)
@@ -1574,7 +1589,7 @@ png)
 Package pdftex.def Info: Figures/appendix/Distance_vs_Pressure_B0.00T_Mass.png 
  used on input line 15.
 (pdftex.def)             Requested size: 220.50887pt x 146.88992pt.
-<Figures/appendix/Distance_vs_Pressure_B0.00T_IonCurrent.png, id=794, 605.6226p
+<Figures/appendix/Distance_vs_Pressure_B0.00T_IonCurrent.png, id=797, 605.6226p
 t x 411.939pt>
 File: Figures/appendix/Distance_vs_Pressure_B0.00T_IonCurrent.png Graphic file 
 (type png)
@@ -1635,10 +1650,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: ED0F74A9CE31D43A7A9C5BE3048E7C54;11628.
  ) 
 Here is how much of TeX's memory you used:
- 48660 strings out of 476064
- 1167725 string characters out of 5792852
+ 48676 strings out of 476064
+ 1168466 string characters out of 5792852
  1959975 words of memory out of 5000000
- 69902 multiletter control sequences out of 15000+600000
+ 69917 multiletter control sequences out of 15000+600000
  652589 words of font info for 99 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
  99i,17n,101p,979b,1070s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1656,10 +1671,10 @@ blic/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/shar
 e/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm
 /lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (49 pages, 6327459 bytes).
+Output written on main.pdf (49 pages, 6609994 bytes).
 PDF statistics:
- 993 PDF objects out of 1000 (max. 8388607)
- 832 compressed objects within 9 object streams
- 190 named destinations out of 1000 (max. 500000)
- 690 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 996 PDF objects out of 1000 (max. 8388607)
+ 833 compressed objects within 9 object streams
+ 191 named destinations out of 1000 (max. 500000)
+ 700 words of extra memory for PDF output out of 10000 (max. 10000000)
 
