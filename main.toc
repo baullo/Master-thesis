@@ -49,7 +49,7 @@
 \contentsline {subsection}{\numberline {4.2.2}Distance as a variable}{37}{subsection.4.2.2}%
 \contentsline {subsection}{\numberline {4.2.3}Magnetic Field as a variable}{38}{subsection.4.2.3}%
 \contentsline {subsection}{\numberline {4.2.4}Nitrogen pressure as a variable}{39}{subsection.4.2.4}%
-\contentsline {section}{\numberline {4.3}Mass spectroscopy Results}{39}{section.4.3}%
+\contentsline {section}{\numberline {4.3}Mass spectrometry Results}{39}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Ex situ Results}{41}{section.4.4}%
 \contentsline {subsection}{\numberline {4.4.1}Profilometry}{41}{subsection.4.4.1}%
 \contentsline {subsection}{\numberline {4.4.2}XRD}{41}{subsection.4.4.2}%
