@@ -27,37 +27,37 @@
 \contentsline {subsection}{\numberline {3.2.4}Quadrupole Mass Spectrometer}{23}{subsection.3.2.4}%
 \contentsline {section}{\numberline {3.3}Ex situ Measurements}{25}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}X-ray Diffraction (XRD)}{25}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}X-ray Reflectometry (XRR)}{25}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Scanning Electron Microscopy (SEM)}{25}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Energy-dispersive X-ray spectroscopy (EDX)}{25}{subsection.3.3.4}%
-\contentsline {subsection}{\numberline {3.3.5}Profilometry}{25}{subsection.3.3.5}%
-\contentsline {section}{\numberline {3.4}Data Processing}{26}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Error Handling}{26}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Mass Spectrometry Measurements}{26}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}QCM and Ion Current Probe Measurements}{27}{subsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.5.3}Error Propagation Analysis}{28}{subsection.3.5.3}%
-\contentsline {subsubsection}{Ion Flux from Current Measurements}{28}{section*.13}%
-\contentsline {subsubsection}{Atomic Flux from QCM Measurements}{28}{section*.14}%
-\contentsline {chapter}{\numberline {4}Results}{30}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Langmuir Probe Bias Voltage Characterization}{30}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Validation of Langmuir Probe Operation}{30}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Analysis of the Ion Saturation Curve}{31}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Selection of Operating Bias Voltage}{32}{subsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.1.4}Ion current Variation over different pulses}{32}{subsection.4.1.4}%
-\contentsline {section}{\numberline {4.2}Quartz crystal Microbalance and Ion current Probe}{33}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Metallic Case (No Nitrogen)}{35}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Distance as a variable}{36}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Magnetic Field as a variable}{37}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Nitrogen pressure as a variable}{38}{subsection.4.2.4}%
-\contentsline {section}{\numberline {4.3}Mass spectroscopy Results}{38}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Ex situ Results}{40}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Profilometry}{40}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}XRD}{40}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}XRR}{40}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}EDX}{40}{subsection.4.4.4}%
-\contentsline {section}{\numberline {4.5}Fluxes}{40}{section.4.5}%
-\contentsline {chapter}{\numberline {5}Discussion of Results}{41}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Conclusion}{42}{chapter.6}%
-\contentsline {chapter}{\numberline {7}final words or smt like thanks everyone}{43}{chapter.7}%
-\contentsline {chapter}{\numberline {A}Additional Plots}{44}{chapter.1}%
-\contentsline {chapter}{\numberline {B}Python code used}{46}{chapter.2}%
+\contentsline {subsection}{\numberline {3.3.2}X-ray Reflectometry (XRR)}{26}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Scanning Electron Microscopy (SEM)}{26}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Energy-dispersive X-ray spectroscopy (EDX)}{26}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}Profilometry}{26}{subsection.3.3.5}%
+\contentsline {section}{\numberline {3.4}Data Processing}{27}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Error Handling}{27}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Mass Spectrometry Measurements}{27}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}QCM and Ion Current Probe Measurements}{28}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Error Propagation Analysis}{29}{subsection.3.5.3}%
+\contentsline {subsubsection}{Ion Flux from Current Measurements}{29}{section*.14}%
+\contentsline {subsubsection}{Atomic Flux from QCM Measurements}{29}{section*.15}%
+\contentsline {chapter}{\numberline {4}Results}{31}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Langmuir Probe Bias Voltage Characterization}{31}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Validation of Langmuir Probe Operation}{31}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Analysis of the Ion Saturation Curve}{32}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Selection of Operating Bias Voltage}{33}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}Ion current Variation over different pulses}{33}{subsection.4.1.4}%
+\contentsline {section}{\numberline {4.2}Quartz crystal Microbalance and Ion current Probe}{34}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Metallic Case (No Nitrogen)}{36}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Distance as a variable}{37}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Magnetic Field as a variable}{38}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Nitrogen pressure as a variable}{39}{subsection.4.2.4}%
+\contentsline {section}{\numberline {4.3}Mass spectroscopy Results}{39}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Ex situ Results}{41}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Profilometry}{41}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}XRD}{41}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}XRR}{41}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}EDX}{41}{subsection.4.4.4}%
+\contentsline {section}{\numberline {4.5}Fluxes}{41}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Discussion of Results}{42}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Conclusion}{43}{chapter.6}%
+\contentsline {chapter}{\numberline {7}final words or smt like thanks everyone}{44}{chapter.7}%
+\contentsline {chapter}{\numberline {A}Additional Plots}{45}{chapter.1}%
+\contentsline {chapter}{\numberline {B}Python code used}{47}{chapter.2}%

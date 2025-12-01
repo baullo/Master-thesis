@@ -185,11 +185,7 @@ The in-house-built ion collector probe (Figure~\ref{fig:langmuir_probe}) was des
 \label{fig:langmuir_probe}
 \end{figure}
 
-To guarantee full ion collection, the probe was negatively biased at \(V_b = -80\)~V. The measured voltage (\(V_m\)) was corrected for the voltage divider effect introduced by the 1~k\(\Omega\) bias resistor, using the following relationship:
-
-\begin{equation}
-    V_{\text{true}} = \frac{1000 + 400\ \Omega}{1000\ \Omega}\cdot V_m = 1.4 \cdot V_m.
-\end{equation}
+To guarantee full ion collection, the probe was negatively biased at \(V_b = -80\)~V, as determined in sec. \ref{sec:ionprobe80V}.
 
 
 \begin{figure}[!ht]
@@ -243,11 +239,11 @@ To guarantee full ion collection, the probe was negatively biased at \(V_b = -80
 
 The circuit incorporates a $\SI{0.5}{\micro F}$ capacitor in series with the $\SI{400}{\ohm}$ resistor, forming a high-pass filter with a cutoff frequency of $\SI{795}{Hz}$. This configuration effectively blocks DC and low-frequency noise, ensuring that only plasma fluctuations above $\SI{795}{Hz}$ are recorded. The high-pass characteristic is essential for isolating the dynamic ion current signal from any static offsets or drift.\\
 
-To maintain a stable bias voltage, a $\SI{22}{nF}$ capacitor and $\SI{1}{k\ohm}$ resistor are included in the bias supply line. This combination acts as a low-pass filter, smoothing the bias voltage and minimizing high-frequency ripple.
+To maintain a stable bias voltage, a $\SI{22}{nF}$ capacitor and $\SI{1}{k\ohm}$ resistor are included in the bias supply line. This combination acts as a low-pass filter, smoothing the bias voltage and minimizing high-frequency ripple.\\
 
-The processed voltage signal is recorded using a 20~MHz bandwidth oscilloscope. The ion flux $\Gamma_i$ is then calculated from the corrected voltage $V_{\text{true}}$ as:
+The processed voltage signal is recorded using a 20~MHz bandwidth oscilloscope. The ion flux $\Gamma_i$ is then calculated from the recorded voltage $V$ as:
 \begin{equation}
-    \Gamma_i = \frac{V_{\text{true}}}{e A R},
+    \Gamma_i = \frac{V}{e A R},
 \end{equation}
 
 where $A = \SI{19.63}{mm^2}$ is the probe area, $e$ is the elementary charge, and $R = \SI{400}{\ohm}$. This setup ensures accurate measurement of the ion flux while minimizing the impact of noise and DC offsets.
@@ -382,27 +378,32 @@ IEDFs were measured using a double trigger acquisition scheme synchronized with 
 \section{Ex situ Measurements}\label{sec:film_characterization}
 
 \subsection{X-ray Diffraction (XRD)}\label{sec:XRD}
-\textcolor{red}{need to look into before writing about it, more precisely about the specs of the device}
-\iffalse
+
 X-ray diffraction (XRD) was employed to analyze the crystallographic structure of the thin films deposited during the experiments. XRD is a non-destructive technique that provides detailed information about the crystalline phases present in the material, as well as their lattice parameters, crystallite size, and strain.\\
 
+Due to the small film thickness, out-of-plane diffraction techniques were used to enhance the film signal relative to the substrate. Two measurement geometries are employed \cite{mitsunaga2009}:
 
-The XRD measurements were performed using a [specific model, e.g., Bruker D8 Advance] diffractometer equipped with a Cu K$_{\alpha}$ radiation source ($\lambda = 1.5406$ Å). The diffractometer was configured with a [specific type of detector, e.g., scintillation counter] and a goniometer for precise angle measurements. The samples were mounted on a [specific type of sample holder, if applicable] and scanned over a 2$\theta$ range of [specific range, e.g., 20° to 80°] with a scan speed of [specific speed, e.g., 0.02° per second].
+\begin{itemize}
+	\item \textbf{Symmetrical reflection ($2\theta/\theta$ scan):} Both incident and diffracted beams make equal angles with the sample surface. This geometry probes lattice planes parallel to the substrate and is suitable for textured films, but substrate peaks can obscure weak film signals.
+	
+	\item \textbf{Asymmetrical reflection (thin-film method):} The incident beam is fixed at a small grazing angle $\alpha$, while the detector scans in $2\theta$. This reduces the X-ray penetration depth from tens of micrometers to a few micrometers, greatly enhancing sensitivity to thin films \cite{mitsunaga2009}.
+\end{itemize}
 
-The crystallographic structure of the films was determined by analyzing the diffraction patterns obtained. The Bragg equation was used to identify the crystalline phases:
+\begin{figure}
+	\centering
+	\includegraphics[width=0.75\linewidth]{"Figures/experimental methods/xrd_in+outofplae"}
+	\caption{Schematic of out-of-plane diffraction geometries: symmetrical reflection (left) and asymmetrical reflection (right) for thin film analysis. Taken from \cite{mitsunaga2009}.}
+	\label{fig:xrdinoutofplane}
+\end{figure}
+
+The XRD measurements were performed using a \textcolor{red}{model name of xrd machine} diffractometer equipped with \textcolor{red}{non monochromatic $Cu_{alpha}$ source with smt smt wavelength-} The asymmetrical reflection scans were performed with an \textcolor{red}{add incidence angle and speed and step size used}\\
+
+The crystallographic structure was determined by analyzing the diffraction patterns. The Bragg equation was used to identify the crystalline phases:
 \begin{equation}
-    2d \sin(\theta) = n\lambda
+	2d \sin(\theta) = n\lambda,
 \end{equation}
-where \( d \) is the spacing between atomic planes, \( \theta \) is the angle of incidence, \( n \) is an integer, and \( \lambda \) is the wavelength of the X-rays.
+where $d$ is the spacing between atomic planes, $\theta$ is the diffraction angle, $n$ is an integer, and $\lambda$ is the X-ray wavelength.\\
 
-The XRD data were processed using [specific software, e.g., Bruker DIFFRAC.SUITE] to identify the crystalline phases and determine their lattice parameters. The crystallite size was estimated using the Scherrer equation:
-\begin{equation}
-    \tau = \frac{K\lambda}{\beta \cos(\theta)}
-\end{equation}
-where \( \tau \) is the mean size of the crystalline domains, \( K \) is a dimensionless shape factor (typically 0.9), \( \lambda \) is the X-ray wavelength, \( \beta \) is the line broadening at half the maximum intensity (FWHM), and \( \theta \) is the Bragg angle.
-
-The XRD measurements were calibrated using a standard reference material (e.g., silicon powder) to ensure accuracy and reproducibility. The samples were prepared by [specific preparation method, e.g., cutting and polishing] to ensure a flat and representative surface for analysis.
-\fi
 
 
 \subsection{X-ray Reflectometry (XRR)}\label{sec:XRR}
