@@ -499,10 +499,10 @@ To properly characterize the uncertainties in the derived quantities, a comprehe
 \subsubsection{Ion Flux from Current Measurements}
 The ion flux in mass units $\Phi_{\text{ion}}$ (in $\mu$g/cm$^2$/s) is calculated from the measured ion current according to:
 \begin{equation}
-	\Phi_{\text{ion}} = \frac{I_{\text{ion}} \cdot N_A}{A \cdot \bar{Q} \cdot F}
+	\Phi_{\text{ion}} = \frac{I_{\text{ion}}}{A \cdot \bar{Q} \cdot e}
 	\label{eq:ion_flux_mass}
 \end{equation}
-where $N_A$ is the Avogadro number, $A$ is the collection area of the ion probe, $\bar{Q}$ is the mean charge state and $F$ is Faraday's constant ($96 485 \frac{A}{mol}$).\\
+where $e$ is the elementary charge, $A$ is the collection area of the ion probe and $\bar{Q}$ is the mean charge state.\\
 
 
 For error propagation, considering the independent uncertainties in $I_{\text{ion}}$, $\bar{Q}$, the standard Gaussian error propagation formula gives \cite{taylor1997}:
