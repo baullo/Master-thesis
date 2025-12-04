@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.10.30)  3 DEC 2025 16:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.10.30)  4 DEC 2025 15:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -763,6 +763,7 @@ File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
+Package hyperref Info: Option `draft' set `true' on input line 4062.
 Package hyperref Info: Option `colorlinks' set `true' on input line 4062.
 Package hyperref Info: Hyper figures OFF on input line 4179.
 Package hyperref Info: Link nesting OFF on input line 4184.
@@ -1017,11 +1018,10 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 32.
-(./main.out) (./main.out)
-\@outlinefile=\write4
-\openout4 = `main.out'.
 
+Package hyperref Warning: Draft mode on.
+
+Package hyperref Info: Link coloring ON on input line 32.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
 nary-english.trsl
@@ -1082,8 +1082,8 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [2
 
 ] [3])
-\tf@toc=\write5
-\openout5 = `main.toc'.
+\tf@toc=\write4
+\openout4 = `main.toc'.
 
 
 (./Tex_files/introduction.tex [4]
@@ -1127,7 +1127,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
 [7]
 Overfull \hbox (4.65962pt too wide) in paragraph at lines 43--44
 []\T1/lmr/m/n/12 Establish quan-ti-ta-tive cor-re-la-tions be-tween ion cur-ren
-t, de-posited mass (via QCM)
+t, de-posited mass (via QCM)|
  []
 
 ) (./Tex_files/theory.tex [8]
@@ -1215,18 +1215,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 187--188
  []
 
 [14]
-<Figures/theory/anders_szm.png, id=461, 337.89395pt x 224.41737pt>
-File: Figures/theory/anders_szm.png Graphic file (type png)
-<use Figures/theory/anders_szm.png>
-Package pdftex.def Info: Figures/theory/anders_szm.png  used on input line 191.
-
-(pdftex.def)             Requested size: 352.81552pt x 234.33708pt.
-
+<Figures/theory/anders_szm.png, id=81, 337.89395pt x 224.41737pt>
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
+91.
+ (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
 Underfull \hbox (badness 10000) in paragraph at lines 202--203
 
  []
 
-[15 <./Figures/theory/anders_szm.png (PNG copy)>]
+[15]
 Underfull \hbox (badness 10000) in paragraph at lines 215--216
 
  []
@@ -1251,17 +1250,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--12
 [17
 
 ] [18]
-<Figures/experimental methods/Pulse waveform.png, id=493, 774.7344pt x 426.8748
+<Figures/experimental methods/Pulse waveform.png, id=100, 774.7344pt x 426.8748
 pt>
-File: Figures/experimental methods/Pulse waveform.png Graphic file (type png)
-<use Figures/experimental methods/Pulse waveform.png>
-Package pdftex.def Info: Figures/experimental methods/Pulse waveform.png  used 
-on input line 149.
-(pdftex.def)             Requested size: 374.86775pt x 206.55202pt.
 
 Underfull \vbox (badness 1199) has occurred while \output is active []
 
- [19 <./Figures/experimental methods/Pulse waveform.png (PNG copy)>]
+ [19]
 
 LaTeX Warning: Reference `sec:ionprobe80V' on page 20 undefined on input line 1
 88.
@@ -1281,35 +1275,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 256--257
 
  []
 
-<Figures/experimental methods/QCM_head.png, id=518, 702.625pt x 351.3125pt>
-File: Figures/experimental methods/QCM_head.png Graphic file (type png)
-<use Figures/experimental methods/QCM_head.png>
-Package pdftex.def Info: Figures/experimental methods/QCM_head.png  used on inp
-ut line 260.
-(pdftex.def)             Requested size: 308.71106pt x 154.35818pt.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
-61.
-(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
+<Figures/experimental methods/QCM_head.png, id=110, 702.625pt x 351.3125pt>
+
 Underfull \hbox (badness 10000) in paragraph at lines 273--274
 
  []
 
-[21 <./Figures/experimental methods/QCM_head.png>]
+[21]
 Underfull \hbox (badness 10000) in paragraph at lines 288--289
 
  []
 
-<Figures/experimental methods/mounting assembly thingy.png, id=538, 1081.03876p
+<Figures/experimental methods/mounting assembly thingy.png, id=117, 1081.03876p
 t x 489.83pt>
-File: Figures/experimental methods/mounting assembly thingy.png Graphic file (t
-ype png)
-<use Figures/experimental methods/mounting assembly thingy.png>
-Package pdftex.def Info: Figures/experimental methods/mounting assembly thingy.
-png  used on input line 308.
-(pdftex.def)             Requested size: 352.81552pt x 159.85806pt.
-<<Figures/experimental methods/fun try out(1).u3d>><<3Dmenu.js>>
+
 Underfull \hbox (badness 10000) in paragraph at lines 313--314
 
  []
@@ -1319,35 +1298,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 322--323
 
  []
 
-[23 <./Figures/experimental methods/mounting assembly thingy.png>]
+[23]
 Underfull \hbox (badness 10000) in paragraph at lines 341--344
 
  []
 
-<Figures/experimental methods/hiden eqp.png, id=583, 700.86844pt x 464.4853pt>
-File: Figures/experimental methods/hiden eqp.png Graphic file (type png)
-<use Figures/experimental methods/hiden eqp.png>
-Package pdftex.def Info: Figures/experimental methods/hiden eqp.png  used on in
-put line 347.
-(pdftex.def)             Requested size: 396.91325pt x 263.0513pt.
+<Figures/experimental methods/hiden eqp.png, id=127, 700.86844pt x 464.4853pt>
 
 Underfull \hbox (badness 10000) in paragraph at lines 353--354
 
  []
 
-[24 <./Figures/experimental methods/hiden eqp.png>]
+[24]
 Underfull \hbox (badness 10000) in paragraph at lines 382--383
 
  []
 
-<Figures/experimental methods/xrd_in+outofplae.png, id=601, 1068.99374pt x 466.
+<Figures/experimental methods/xrd_in+outofplae.png, id=133, 1068.99374pt x 466.
 74374pt>
-File: Figures/experimental methods/xrd_in+outofplae.png Graphic file (type png)
-
-<use Figures/experimental methods/xrd_in+outofplae.png>
-Package pdftex.def Info: Figures/experimental methods/xrd_in+outofplae.png  use
-d on input line 394.
-(pdftex.def)             Requested size: 330.76329pt x 144.41843pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 399--400
 
@@ -1368,7 +1336,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 453--454
 
  []
 
-[26 <./Figures/experimental methods/xrd_in+outofplae.png>]
+[26]
 Underfull \hbox (badness 10000) in paragraph at lines 468--469
 
  []
@@ -1400,14 +1368,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
-<Figures/results 1/bias_current_voltage_Saturation_thesis_version.png, id=665, 
+<Figures/results 1/bias_current_voltage_Saturation_thesis_version.png, id=159, 
 578.16pt x 361.35pt>
-File: Figures/results 1/bias_current_voltage_Saturation_thesis_version.png Grap
-hic file (type png)
-<use Figures/results 1/bias_current_voltage_Saturation_thesis_version.png>
-Package pdftex.def Info: Figures/results 1/bias_current_voltage_Saturation_thes
-is_version.png  used on input line 12.
-(pdftex.def)             Requested size: 396.91325pt x 248.06912pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1418,252 +1380,144 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
-[32 <./Figures/results 1/bias_current_voltage_Saturation_thesis_version.png>]
-<Figures/results 1/pulse_variability_plot_mean.png, id=689, 713.7867pt x 423.02
+[32]
+<Figures/results 1/pulse_variability_plot_mean.png, id=171, 713.7867pt x 423.02
 04pt>
-File: Figures/results 1/pulse_variability_plot_mean.png Graphic file (type png)
 
-<use Figures/results 1/pulse_variability_plot_mean.png>
-Package pdftex.def Info: Figures/results 1/pulse_variability_plot_mean.png  use
-d on input line 50.
-(pdftex.def)             Requested size: 330.76329pt x 196.0247pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
 []|\T1/lmr/bx/n/12 EM-coil
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
 []|\T1/lmr/bx/n/12 Range
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[33 <./Figures/results 1/pulse_variability_plot_mean.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
+[33]
 
- []
+LaTeX Warning: Reference `sec:flux_comparison' on page 34 undefined on input li
+ne 77.
 
-<Figures/results 1/3Dmass.png, id=703, 4948.4875pt x 3369.58875pt>
-File: Figures/results 1/3Dmass.png Graphic file (type png)
-<use Figures/results 1/3Dmass.png>
-Package pdftex.def Info: Figures/results 1/3Dmass.png  used on input line 99.
-(pdftex.def)             Requested size: 441.01773pt x 300.26779pt.
-<Figures/results 1/3Dion.png, id=704, 5104.06876pt x 3407.73125pt>
-File: Figures/results 1/3Dion.png Graphic file (type png)
-<use Figures/results 1/3Dion.png>
-Package pdftex.def Info: Figures/results 1/3Dion.png  used on input line 105.
-(pdftex.def)             Requested size: 441.01773pt x 294.41112pt.
-[34] [35 <./Figures/results 1/3Dmass.png> <./Figures/results 1/3Dion.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 115--116
+[34]
+<Figures/results 1/3Dmass.png, id=182, 5038.825pt x 3362.5625pt>
+<Figures/results 1/3Dion.png, id=183, 5104.06876pt x 3407.73125pt>
 
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [35]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 127--128
-
- []
-
-<Figures/results 1/MagField_vs_Distance_P0.0Pa_Mass.png, id=725, 624.6537pt x 4
-11.939pt>
-File: Figures/results 1/MagField_vs_Distance_P0.0Pa_Mass.png Graphic file (type
- png)
-<use Figures/results 1/MagField_vs_Distance_P0.0Pa_Mass.png>
-Package pdftex.def Info: Figures/results 1/MagField_vs_Distance_P0.0Pa_Mass.png
-  used on input line 138.
-(pdftex.def)             Requested size: 220.50887pt x 145.41908pt.
-<Figures/results 1/MagField_vs_Distance_P0.0Pa_IonCurrent.png, id=726, 611.886p
+ [36]
+<Figures/results 1/MagField_vs_Distance_P0.0Pa_Mass.png, id=192, 611.886pt x 41
+1.939pt>
+<Figures/results 1/MagField_vs_Distance_P0.0Pa_IonCurrent.png, id=193, 611.886p
 t x 411.939pt>
-File: Figures/results 1/MagField_vs_Distance_P0.0Pa_IonCurrent.png Graphic file
- (type png)
-<use Figures/results 1/MagField_vs_Distance_P0.0Pa_IonCurrent.png>
-Package pdftex.def Info: Figures/results 1/MagField_vs_Distance_P0.0Pa_IonCurre
-nt.png  used on input line 143.
-(pdftex.def)             Requested size: 220.50887pt x 148.45506pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+
+ []
+
+[37]
+<Figures/results 1/Distance_vs_Pressure_B0.25T_Mass.png, id=199, 611.886pt x 41
+1.939pt>
+<Figures/results 1/Distance_vs_Pressure_B0.25T_IonCurrent.png, id=200, 611.886p
+t x 411.939pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
+
+ []
+
+[38]
+
+LaTeX Warning: Reference `sec:erms_results' on page 39 undefined on input line 
+169.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--170
+
+ []
+
+<Figures/results 1/MagField_vs_Pressure_D14cm_Mass.png, id=205, 605.6226pt x 41
+1.939pt>
+<Figures/results 1/MagField_vs_Pressure_D14cm_IonCurrent.png, id=206, 614.0541p
+t x 411.939pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--199
+
+ []
+
+[39]
+<Figures/results 1/Pressure_vs_Distance_B0.25T_Mass.png, id=211, 611.886pt x 41
+1.939pt>
+<Figures/results 1/Pressure_vs_Distance_B0.25T_IonCurrent.png, id=212, 611.886p
+t x 411.939pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
+
+ []
+
+[40]
+<Figures/results 2/Distance_0.25T_0.0Pa.png, id=217, 1011.78pt x 433.62pt>
+<Figures/results 2/Distance_0.25T_0.3Pa.png, id=218, 1011.78pt x 433.62pt>
+<Figures/results 2/Pressure_10cm_0.25T.png, id=219, 1011.78pt x 433.62pt>
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Overfull \hbox (0.41142pt too wide) in paragraph at lines 150--151
-\T1/lmr/m/n/12 averaged ion cur-rent in-crease with ap-plied mag-netic field. T
-he en-hance-ment is strongest
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 150--151
-
- []
-
-[36]
-<Figures/results 1/Distance_vs_Pressure_B0.25T_Mass.png, id=738, 624.6537pt x 4
-11.939pt>
-File: Figures/results 1/Distance_vs_Pressure_B0.25T_Mass.png Graphic file (type
- png)
-<use Figures/results 1/Distance_vs_Pressure_B0.25T_Mass.png>
-Package pdftex.def Info: Figures/results 1/Distance_vs_Pressure_B0.25T_Mass.png
-  used on input line 162.
-(pdftex.def)             Requested size: 220.50887pt x 145.41908pt.
-<Figures/results 1/Distance_vs_Pressure_B0.25T_IonCurrent.png, id=739, 611.886p
-t x 411.939pt>
-File: Figures/results 1/Distance_vs_Pressure_B0.25T_IonCurrent.png Graphic file
- (type png)
-<use Figures/results 1/Distance_vs_Pressure_B0.25T_IonCurrent.png>
-Package pdftex.def Info: Figures/results 1/Distance_vs_Pressure_B0.25T_IonCurre
-nt.png  used on input line 167.
-(pdftex.def)             Requested size: 220.50887pt x 148.45506pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 174--175
-
- []
-
-[37 <./Figures/results 1/MagField_vs_Distance_P0.0Pa_Mass.png> <./Figures/resul
-ts 1/MagField_vs_Distance_P0.0Pa_IonCurrent.png> <./Figures/results 1/Distance_
-vs_Pressure_B0.25T_Mass.png> <./Figures/results 1/Distance_vs_Pressure_B0.25T_I
-onCurrent.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 176--177
-
- []
-
-<Figures/results 1/MagField_vs_Pressure_D14cm_Mass.png, id=755, 618.3903pt x 41
-1.939pt>
-File: Figures/results 1/MagField_vs_Pressure_D14cm_Mass.png Graphic file (type 
-png)
-<use Figures/results 1/MagField_vs_Pressure_D14cm_Mass.png>
-Package pdftex.def Info: Figures/results 1/MagField_vs_Pressure_D14cm_Mass.png 
- used on input line 191.
-(pdftex.def)             Requested size: 220.50887pt x 146.88992pt.
-<Figures/results 1/MagField_vs_Pressure_D14cm_IonCurrent.png, id=756, 614.0541p
-t x 411.939pt>
-File: Figures/results 1/MagField_vs_Pressure_D14cm_IonCurrent.png Graphic file 
-(type png)
-<use Figures/results 1/MagField_vs_Pressure_D14cm_IonCurrent.png>
-Package pdftex.def Info: Figures/results 1/MagField_vs_Pressure_D14cm_IonCurren
-t.png  used on input line 196.
-(pdftex.def)             Requested size: 220.50887pt x 147.92706pt.
-[38 <./Figures/results 1/MagField_vs_Pressure_D14cm_Mass.png> <./Figures/result
-s 1/MagField_vs_Pressure_D14cm_IonCurrent.png>]
-<Figures/results 1/Pressure_vs_Distance_B0.25T_Mass.png, id=768, 624.6537pt x 4
-11.939pt>
-File: Figures/results 1/Pressure_vs_Distance_B0.25T_Mass.png Graphic file (type
- png)
-<use Figures/results 1/Pressure_vs_Distance_B0.25T_Mass.png>
-Package pdftex.def Info: Figures/results 1/Pressure_vs_Distance_B0.25T_Mass.png
-  used on input line 211.
-(pdftex.def)             Requested size: 220.50887pt x 145.41908pt.
-<Figures/results 1/Pressure_vs_Distance_B0.25T_IonCurrent.png, id=769, 611.886p
-t x 411.939pt>
-File: Figures/results 1/Pressure_vs_Distance_B0.25T_IonCurrent.png Graphic file
- (type png)
-<use Figures/results 1/Pressure_vs_Distance_B0.25T_IonCurrent.png>
-Package pdftex.def Info: Figures/results 1/Pressure_vs_Distance_B0.25T_IonCurre
-nt.png  used on input line 216.
-(pdftex.def)             Requested size: 220.50887pt x 148.45506pt.
-<Figures/results 2/Distance_0.25T_0.0Pa.png, id=770, 1011.78pt x 433.62pt>
-File: Figures/results 2/Distance_0.25T_0.0Pa.png Graphic file (type png)
-<use Figures/results 2/Distance_0.25T_0.0Pa.png>
-Package pdftex.def Info: Figures/results 2/Distance_0.25T_0.0Pa.png  used on in
-put line 232.
-(pdftex.def)             Requested size: 441.01773pt x 189.00693pt.
-<Figures/results 2/Distance_0.25T_0.3Pa.png, id=771, 1011.78pt x 433.62pt>
-File: Figures/results 2/Distance_0.25T_0.3Pa.png Graphic file (type png)
-<use Figures/results 2/Distance_0.25T_0.3Pa.png>
-Package pdftex.def Info: Figures/results 2/Distance_0.25T_0.3Pa.png  used on in
-put line 238.
-(pdftex.def)             Requested size: 441.01773pt x 189.00693pt.
-<Figures/results 2/Pressure_10cm_0.25T.png, id=772, 1011.78pt x 433.62pt>
-File: Figures/results 2/Pressure_10cm_0.25T.png Graphic file (type png)
-<use Figures/results 2/Pressure_10cm_0.25T.png>
-Package pdftex.def Info: Figures/results 2/Pressure_10cm_0.25T.png  used on inp
-ut line 244.
-(pdftex.def)             Requested size: 441.01773pt x 189.00693pt.
- [39 <./Figures/results 1/Pressure_vs_Distance_B0.25T_Mass.png> <./Figures/resu
-lts 1/Pressure_vs_Distance_B0.25T_IonCurrent.png>] [40 <./Figures/results 2/Dis
-tance_0.25T_0.0Pa.png> <./Figures/results 2/Distance_0.25T_0.3Pa.png> <./Figure
-s/results 2/Pressure_10cm_0.25T.png>]
-<Figures/results 2/PXL_20251114_084343196.jpg, id=792, 1752.5475pt x 1314.9125p
+[41]
+<Figures/results 2/PXL_20251114_084343196.jpg, id=224, 1752.5475pt x 1314.9125p
 t>
-File: Figures/results 2/PXL_20251114_084343196.jpg Graphic file (type jpg)
-<use Figures/results 2/PXL_20251114_084343196.jpg>
-Package pdftex.def Info: Figures/results 2/PXL_20251114_084343196.jpg  used on 
-input line 256.
-(pdftex.def)             Requested size: 220.50887pt x 165.42705pt.
-<Figures/results 2/PXL_20251117_130844177.jpg, id=793, 1569.865pt x 1177.39874p
+<Figures/results 2/PXL_20251117_130844177.jpg, id=225, 1569.865pt x 1177.39874p
 t>
-File: Figures/results 2/PXL_20251117_130844177.jpg Graphic file (type jpg)
-<use Figures/results 2/PXL_20251117_130844177.jpg>
-Package pdftex.def Info: Figures/results 2/PXL_20251117_130844177.jpg  used on 
-input line 261.
-(pdftex.def)             Requested size: 220.50887pt x 165.37367pt.
 
-Underfull \hbox (badness 10000) in alignment at lines 277--277
+Underfull \hbox (badness 10000) in alignment at lines 282--282
 [][][]
  []
 
-) (./Tex_files/discussion.tex [41 <./Figures/results 2/PXL_20251114_084343196.j
-pg> <./Figures/results 2/PXL_20251117_130844177.jpg>]
+[42]) (./Tex_files/discussion.tex [43]
 Chapter 5.
-[42
+[44
 
 ]
 Chapter 6.
-) (./Tex_files/final_words.tex [43
+) (./Tex_files/final_words.tex [45
 
 ]
 Chapter 7.
-) (./Tex_files/appendix.tex [44
+) (./Tex_files/appendix.tex [46
 
 ]
-pdfTeX warning (ext4): destination with the same identifier (name{chapter.1}) h
-as been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.2 \chapter{Additional Plots}
-                              
 Appendix A.
-<Figures/appendix/Pulse waveform appendix (0.1T).png, id=818, 774.7344pt x 426.
+<Figures/appendix/Pulse waveform appendix (0.1T).png, id=247, 774.7344pt x 426.
 8748pt>
-File: Figures/appendix/Pulse waveform appendix (0.1T).png Graphic file (type pn
-g)
-<use Figures/appendix/Pulse waveform appendix (0.1T).png>
-Package pdftex.def Info: Figures/appendix/Pulse waveform appendix (0.1T).png  u
-sed on input line 6.
-(pdftex.def)             Requested size: 441.01773pt x 243.00198pt.
-<Figures/appendix/Distance_vs_Pressure_B0.00T_Mass.png, id=819, 618.3903pt x 41
+<Figures/appendix/Distance_vs_Pressure_B0.00T_Mass.png, id=248, 618.3903pt x 41
 1.939pt>
-File: Figures/appendix/Distance_vs_Pressure_B0.00T_Mass.png Graphic file (type 
-png)
-<use Figures/appendix/Distance_vs_Pressure_B0.00T_Mass.png>
-Package pdftex.def Info: Figures/appendix/Distance_vs_Pressure_B0.00T_Mass.png 
- used on input line 15.
-(pdftex.def)             Requested size: 220.50887pt x 146.88992pt.
-<Figures/appendix/Distance_vs_Pressure_B0.00T_IonCurrent.png, id=820, 605.6226p
+<Figures/appendix/Distance_vs_Pressure_B0.00T_IonCurrent.png, id=249, 605.6226p
 t x 411.939pt>
-File: Figures/appendix/Distance_vs_Pressure_B0.00T_IonCurrent.png Graphic file 
-(type png)
-<use Figures/appendix/Distance_vs_Pressure_B0.00T_IonCurrent.png>
-Package pdftex.def Info: Figures/appendix/Distance_vs_Pressure_B0.00T_IonCurren
-t.png  used on input line 20.
-(pdftex.def)             Requested size: 220.50887pt x 149.98875pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[45
+[47
 
- <./Figures/appendix/Pulse waveform appendix (0.1T).png (PNG copy)>]
-[46 <./Figures/appendix/Distance_vs_Pressure_B0.00T_Mass.png> <./Figures/append
-ix/Distance_vs_Pressure_B0.00T_IonCurrent.png>]
-pdfTeX warning (ext4): destination with the same identifier (name{chapter.2}) h
-as been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.28 \chapter{Python code used}
-                               \label{appendix:code}
+] [48]
 Appendix B.
 
 Underfull \hbox (badness 5050) in paragraph at lines 33--33
@@ -1678,19 +1532,19 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 84.
 
-LaTeX Warning: Float too large for page by 3.09087pt on input line 85.
+LaTeX Warning: Float too large for page by 7.19113pt on input line 85.
 
-) (./main.bbl [47
+) (./main.bbl [49
 
-] [48]
+] [50]
 Underfull \hbox (badness 2591) in paragraph at lines 4--10
 []\T1/lmr/m/n/12 Hiden An-a-lyt-i-cal.  EQP: Mass and En-ergy Anal-yser for pla
 sma di-ag-
  []
 
-[49
+[51
 
-] [50]) [51] (./main.aux)
+] [52]) [53] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -1699,17 +1553,15 @@ L3 programming layer <2024-01-22>
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 1EFFF7BA182A63EF53320DCCDBB731E0;11628.
  ) 
 Here is how much of TeX's memory you used:
- 48696 strings out of 476064
- 1169243 string characters out of 5792852
+ 48358 strings out of 476064
+ 1162932 string characters out of 5792852
  1958975 words of memory out of 5000000
- 69933 multiletter control sequences out of 15000+600000
+ 69795 multiletter control sequences out of 15000+600000
  652589 words of font info for 99 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
- 99i,17n,101p,979b,1070s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,17n,101p,979b,1065s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/ty
 pe1/public/lm/lmbx8.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></u
 sr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/p
@@ -1724,10 +1576,10 @@ blic/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/shar
 e/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm
 /lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (51 pages, 6747221 bytes).
+Output written on main.pdf (53 pages, 474570 bytes).
 PDF statistics:
- 1018 PDF objects out of 1200 (max. 8388607)
- 851 compressed objects within 9 object streams
- 195 named destinations out of 1000 (max. 500000)
- 705 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 388 PDF objects out of 1000 (max. 8388607)
+ 255 compressed objects within 3 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 149 words of extra memory for PDF output out of 10000 (max. 10000000)
 

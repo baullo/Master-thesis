@@ -8,6 +8,11 @@ Hiden Analytical.
   2016.
 \newblock [Accessed 18-11-2025].
 
+\bibitem{anders2008}
+Andr{\'e} Anders.
+\newblock Cathodic arcs: a fractal approach.
+\newblock {\em IEEE Transactions on Plasma Science}, 33(5):1456--1464, 2005.
+
 \bibitem{anders2010szm}
 Andr{\'e} Anders.
 \newblock A structure zone diagram including plasma-based deposition and ion
@@ -46,6 +51,11 @@ R.~L. Boxman, S.~Goldsmith, and D.~M. Sanders.
 \newblock Includes quantitative plasma diagnostics where standard deviation is
   used to characterize measurement scatter and reproducibility of arc plasma
   parameters.
+
+\bibitem{boxman1995}
+R.~L. Boxman, S.~Goldsmith, and D.~M. Sanders.
+\newblock Cathodic arc plasmas and their applications.
+\newblock {\em IEEE Transactions on Plasma Science}, 23(6):939--956, 1995.
 
 \bibitem{chen1984introduction}
 Francis~F. Chen.

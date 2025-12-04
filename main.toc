@@ -45,19 +45,19 @@
 \contentsline {subsection}{\numberline {4.1.3}Selection of Operating Bias Voltage}{33}{subsection.4.1.3}%
 \contentsline {subsection}{\numberline {4.1.4}Ion current Variation over different pulses}{33}{subsection.4.1.4}%
 \contentsline {section}{\numberline {4.2}Quartz crystal Microbalance and Ion current Probe}{34}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Metallic Case (No Nitrogen)}{36}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Distance as a variable}{37}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Magnetic Field as a variable}{38}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Nitrogen pressure as a variable}{39}{subsection.4.2.4}%
-\contentsline {section}{\numberline {4.3}Mass spectrometry Results}{39}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Ex situ Results}{41}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Profilometry}{41}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}XRD}{41}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}XRR}{41}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}EDX}{41}{subsection.4.4.4}%
-\contentsline {section}{\numberline {4.5}Fluxes}{41}{section.4.5}%
-\contentsline {chapter}{\numberline {5}Discussion of Results}{42}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Conclusion}{43}{chapter.6}%
-\contentsline {chapter}{\numberline {7}final words or smt like thanks everyone}{44}{chapter.7}%
-\contentsline {chapter}{\numberline {A}Additional Plots}{45}{chapter.1}%
-\contentsline {chapter}{\numberline {B}Python code used}{47}{chapter.2}%
+\contentsline {subsection}{\numberline {4.2.1}Metallic Case (No Nitrogen)}{37}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Distance as a variable}{38}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Magnetic Field as a variable}{39}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Nitrogen pressure as a variable}{40}{subsection.4.2.4}%
+\contentsline {section}{\numberline {4.3}Mass spectrometry Results}{41}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Ex situ Results}{42}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Profilometry}{42}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}XRD}{43}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}XRR}{43}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}EDX}{43}{subsection.4.4.4}%
+\contentsline {section}{\numberline {4.5}Fluxes}{43}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Discussion of Results}{44}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Conclusion}{45}{chapter.6}%
+\contentsline {chapter}{\numberline {7}final words or smt like thanks everyone}{46}{chapter.7}%
+\contentsline {chapter}{\numberline {A}Additional Plots}{47}{chapter.1}%
+\contentsline {chapter}{\numberline {B}Python code used}{49}{chapter.2}%
