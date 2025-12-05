@@ -108,6 +108,11 @@ Soheil Karimi~Aghda, Alireza Alyani, Frans Munnik, Maren Keunecke, Marcus Hans,
   thermal stability of (ti,al)n thin films.
 \newblock {\em Acta Materialia}, 251:118897, 2023.
 
+\bibitem{kiessig1931}
+H.~Kiessig.
+\newblock {Interferenz von R{\"o}ntgenstrahlen an d{\"u}nnen Schichten}.
+\newblock {\em Annalen der Physik}, 402(7):769--788, 1931.
+
 \bibitem{Lu1972}
 C.~Lu and O.~Lewis.
 \newblock Investigation of film-thickness determination by oscillating quartz
@@ -141,6 +146,11 @@ S.~Paldey and S.~C. Deevi.
 \newblock Single layer and multilayer wear resistant coatings of (ti,al)n: a
   review.
 \newblock {\em Materials Science and Engineering: A}, 342(1--2):58--79, 2003.
+
+\bibitem{parratt1954}
+L.~G. Parratt.
+\newblock Surface studies of solids by total reflection of x-rays.
+\newblock {\em Physical Review}, 95(2):359--369, 1954.
 
 \bibitem{poon1995}
 C.~Y. Poon and B.~Bhushan.
@@ -184,5 +194,11 @@ D.~Windover, K.~M. Gaff, D.~Lee, and M.~J. Dalberth.
 \newblock Profilometry and atomic force microscopy for surface
   characterization.
 \newblock {\em Materials Characterization}, 43(5):347--355, 1999.
+
+\bibitem{yasaka2010}
+Miho Yasaka.
+\newblock X-ray thin-film measurement techniques: V. x-ray reflectivity
+  measurement.
+\newblock {\em The Rigaku Journal}, 26(2):1--9, 2010.
 
 \end{thebibliography}

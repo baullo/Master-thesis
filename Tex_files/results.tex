@@ -22,7 +22,7 @@ The relationship between the collected current $I$ and the bias voltage $V$ was 
 
 where $I_{\text{sat}}$ is the saturation current and $V_0$ is a characteristic voltage. The term $k$ in the equation accounts for plasma sheath expansion and collisional effects at higher bias voltages. 
 
-\subsection{Analysis of the Ion Saturation Curve}
+\subsection{Analysis of the Ion Saturation Curve}\label{sec:ionprobe80V}
 
 As the bias voltage increases, the sheath around the probe grows, which can lead to a non-saturating component in the collected current, this is a common effect seen in small probes. Additionally, collisions within the sheath or presheath region can modify the ion trajectory, resulting in a small linear increase in the collected current with voltage. This correction ensures the model accurately describes the probe’s behavior across the full range of applied voltages \cite[Chap. 7]{chen1984introduction}.\\
 
@@ -74,8 +74,9 @@ In all other measurements, the oscilloscope averaged the voltage drop of the ion
 \section{Quartz crystal Microbalance and Ion current Probe}
 To systematically characterize the plasma dynamics and deposition behavior, measurements were conducted using both a quartz crystal microbalance (QCM) for mass deposition and a biased ion collector probe for ion current density.
 
-The experimental parameter space spanned three variables: distance from the macroparticle filter (10--20~cm), applied magnetic field strength (0--0.25~T), and nitrogen background pressure (0--0.3~Pa), with all permutations measured as listed in Table~\ref{tab:parameters}. At this stage, the raw quantities (deposited mass in nanograms/cm$^2$s and ion current in milliamperes) are not directly comparable and only trends will be observed. Their relationship will be established through flux calculations in Section~\ref{sec:flux_comparison}.
+The experimental parameter space spanned three variables: distance from the macroparticle filter (10--20~cm), applied magnetic field strength (0--0.25~T), and nitrogen background pressure (0--0.3~Pa), with all permutations measured as listed in Table~\ref{tab:comprehensive_measurements}. At this stage, the raw quantities (mass flux in nanograms/cm$^2$s and ion current in milliamperes) are not directly comparable and only trends will be observed. Their relationship will be established through flux calculations in Section~\ref{sec:flux}.
 
+\iffalse
 \begin{table}[h]
 	\centering
 	\begin{tabularx}{0.85\textwidth}{|X|X|X|}
@@ -92,8 +93,9 @@ The experimental parameter space spanned three variables: distance from the macr
 	\caption{Parameters used for the QCM/Ion current probe}
 	\label{tab:parameters}
 \end{table}
+\fi
 
-Figure~\ref{fig:3D overview} provides a three-dimensional visualization of the complete dataset, illustrating how deposited mass per pulse and ion current vary simultaneously with all three control parameters. Several global trends are immediately apparent: both quantities decrease with increasing distance due to plasma expansion, increase with applied magnetic field due to enhanced plasma confinement and ionization, and exhibit complex pressure dependence that warrants detailed investigation.
+Figure~\ref{fig:3D overview} provides a three-dimensional visualization of the complete dataset, illustrating how the mass flux and ion current vary simultaneously with all three control parameters. Several global trends are immediately apparent: both quantities decrease with increasing distance due to plasma expansion, increase with applied magnetic field due to enhanced plasma confinement and ionization, and exhibit complex pressure dependence that warrants detailed investigation.
 
 
 \begin{figure}[H]
@@ -109,7 +111,7 @@ Figure~\ref{fig:3D overview} provides a three-dimensional visualization of the c
   \caption{}
   \label{fig:3Dion}
 \end{subfigure}
-\caption{Three-dimensional visualization of (a) deposited mass per pulse normalized by collection area and (b) pulse-averaged ion current as functions of distance (10--20~cm), magnetic field strength (0--0.25~T), and nitrogen pressure (0--0.3~Pa).}
+\caption{Three-dimensional visualization of (a) mass flux and (b) pulse-averaged ion current as functions of distance (10--20~cm), magnetic field strength (0--0.25~T), and nitrogen pressure (0--0.3~Pa).}
 \label{fig:3D overview}
 \end{figure}
 
@@ -120,7 +122,7 @@ The parameter combinations analyzed in detail: distances of 10, 14, and 20~cm; m
 
 
 \subsection{Metallic Case (No Nitrogen)}\label{subsec:metal}
-In the absence of reactive gas, the plasma expansion and deposition dynamics are governed solely by geometric dilution and magnetic confinement. Figure~\ref{fig:metallic_mass/ion} presents deposited mass and ion current as functions of magnetic field strength for three representative distances.
+In the absence of reactive gas, the plasma expansion and deposition dynamics are governed solely by geometric dilution and magnetic confinement. Figure~\ref{fig:metallic_mass/ion} presents mass flux and ion current as functions of magnetic field strength for three representative distances.
 \begin{figure}[h]
 	\centering
 	\begin{subfigure}{.5\textwidth}
@@ -133,7 +135,7 @@ In the absence of reactive gas, the plasma expansion and deposition dynamics are
 		\includegraphics[width=\linewidth]{Figures/results 1/MagField_vs_Distance_P0.0Pa_IonCurrent.png}
 		\caption{}
 	\end{subfigure}
-	\caption{Metallic case measurements showing (a) the deposited mass per pulse and area, and (b) the ion current, each plotted as a function of magnetic field strength. Data selected for three distances (10, 14, 20 cm), with error bars representing variation within pulses.}
+	\caption{Metallic case measurements showing (a) mass flux and (b) the ion current, each plotted as a function of magnetic field strength. Data selected for three distances (10, 14, 20 cm), with error bars representing variation within pulses.}
 	\label{fig:metallic_mass/ion}
 \end{figure}
 
@@ -158,11 +160,11 @@ Figure~\ref{fig:distance_0.25T_mass/ion} examines the effect of source-to-substr
 		\includegraphics[width=\linewidth]{Figures/results 1/Distance_vs_Pressure_B0.25T_IonCurrent.png}
 		\caption{}
 	\end{subfigure}
-	\caption{QCM and Ion Probe measurements showing (a) the deposited mass per pulse and area, and (b) the ion current, each plotted as a function of distance. Data shown for representative pressures, with error bars representing variation within pulses.}
+	\caption{QCM and Ion Probe measurements showing (a) mass flux and (b) the ion current, each plotted as a function of distance. Data shown for representative pressures, with error bars representing variation within pulses.}
 	\label{fig:distance_0.25T_mass/ion}
 \end{figure}
 
-Both deposited mass and ion current decrease with distance, reflecting the natural expansion and dilution of the plasma plume. In the case for the mass, this decay is relatively gradual and follows an approximate $1/r^2$ dependence expected for free expansion \cite[Chap.~4.3]{cathodic_arcs}.\\
+Both mass flux and ion current decrease with distance, reflecting the natural expansion and dilution of the plasma plume. In the case for the mass, this decay is relatively gradual and follows an approximate $1/r^2$ dependence expected for free expansion \cite[Chap.~4.3]{cathodic_arcs}.\\
 
 In contrast, the ion current exhibits a far more dramatic pressure dependence. The steep drop in measured current when nitrogen is introduced primarily reflects charge-exchange collisions, in which fast metal ions transfer charge to slow nitrogen molecules, producing fast neutral metal atoms and slow N$^+$/N$_2^+$ ions \cite[Chap.~9.4]{cathodic_arcs}. The resulting neutral flux is invisible to the biased probe, leading to an apparent reduction in "ion" current even though the total metal flux (ions plus neutrals) may remain comparable. Additionally, nitrogen ions contribute less to the measured current due to their lower charge states ($Q \approx 1$) compared to multiply charged metal ions ($Q \approx 2$) \cite{bendikt2012}.\\
 
@@ -174,7 +176,7 @@ To isolate the effect of magnetic confinement in reactive mode, we next examine 
 
 \subsection{Magnetic Field as a variable}\label{subsec:mag_field}
 
-Figure~\ref{fig:mag_field_14cm_mass/ion} presents deposited mass and ion current as functions of magnetic field strength at a fixed intermediate distance (14~cm) for the same set of pressures.
+Figure~\ref{fig:mag_field_14cm_mass/ion} presents mass flux and ion current as functions of magnetic field strength at a fixed intermediate distance (14~cm) for the same set of pressures.
 
 \begin{figure}[ht]
 	\centering
@@ -188,7 +190,7 @@ Figure~\ref{fig:mag_field_14cm_mass/ion} presents deposited mass and ion current
 		\includegraphics[width=\linewidth]{Figures/results 1/MagField_vs_Pressure_D14cm_IonCurrent.png}
 		\caption{}
 	\end{subfigure}
-	\caption{QCM and Ion Probe measurements showing (a) the deposited mass per pulse and area, and (b) the ion current, each plotted as a function of Magnetic Field. Data shown for representative pressures, with error bars representing variation within pulses.}
+	\caption{QCM and Ion Probe measurements showing (a) mass flux and (b) the ion current, each plotted as a function of Magnetic Field. Data shown for representative pressures, with error bars representing variation within pulses.}
 	\label{fig:mag_field_14cm_mass/ion}
 \end{figure}
 
@@ -197,10 +199,10 @@ The magnetic mirror anomaly at 0.05~T, clearly visible in the 10~cm metallic dat
 Above 0.1~T the trends shows a clear constant increase in both quantities, confirming that magnetic confinement enhances plasma density and ion flux at the substrate.
 In the case of the ion current, there exists a pronounced divergence between metallic and reactive conditions at high fields. This behavior is consistent with enhanced charge-exchange rates under strong confinement: tighter magnetic focusing increases the ion path length through the background gas, providing more opportunities for neutralization before reaching the substrate \cite[Chap.~9.4]{cathodic_arcs}. The result is that, although the magnetic field successfully generates more plasma at the source, a larger fraction arrives as less ionized ions or neutrals in reactive mode.\\
 
-These observations demonstrate that background gas pressure has a relatively minor influence on total deposited mass compared to distance or magnetic field, but significantly affects the charge-state composition of the arriving flux. This distinction motivates the final cross-section through the parameter space: examining pressure as the primary variable.
+These observations demonstrate that background gas pressure has a relatively minor influence on total mass flux compared to distance or magnetic field, but significantly affects the charge-state composition of the arriving flux. This distinction motivates the final cross-section through the parameter space: examining pressure as the primary variable.
 
 \subsection{Nitrogen pressure as a variable}\label{subsec:nitrogen_pressure}
-Figure~\ref{fig:pressure_0.25T_mass/ion} presents deposited mass and ion current as functions of nitrogen pressure at maximum magnetic confinement (0.25~T) for three distances (10, 14, and 20~cm).
+Figure~\ref{fig:pressure_0.25T_mass/ion} presents mass flux and ion current as functions of nitrogen pressure at maximum magnetic confinement (0.25~T) for three distances (10, 14, and 20~cm).
 
 \begin{figure}[ht]
 	\centering
@@ -214,7 +216,7 @@ Figure~\ref{fig:pressure_0.25T_mass/ion} presents deposited mass and ion current
 		\includegraphics[width=\linewidth]{Figures/results 1/Pressure_vs_Distance_B0.25T_IonCurrent.png}
 		\caption{}
 	\end{subfigure}
-	\caption{QCM and Ion Probe measurements showing (a) the deposited mass per pulse and area, and (b) the ion current, each plotted as a function of Pressure. Data shown for representative pressures, with error bars representing variation within pulses.}
+	\caption{QCM and Ion Probe measurements showing (a) mass flux and (b) the ion current, each plotted as a function of Pressure. Data shown for representative pressures, with error bars representing variation within pulses.}
 	\label{fig:pressure_0.25T_mass/ion}
 \end{figure}
 
@@ -271,7 +273,7 @@ Missing 14cm 0.25T
 \end{figure}
 
 A total of [insert number of films once i ve done all of them, proabably like 6-8] were taking into account for further measurements and looked at in the following sections. Blablabla
-\subsection{Profilometry}
+\subsection{Profilometry}\label{sec:profilometry}
 
 Samples were prepared by placing a straight marker line near the edge of each substrate prior to deposition. This marker could be cleanly removed by ultrasonic washing after film growth, revealing the deposition step for thickness analysis. Profilometry measurements were performed at three positions on each sample, one near the center and one near each edge. The three measurements were averaged to obtain the mean film thickness. All resulting values are summarized in Table \ref{tab:profilometry_results}.
 

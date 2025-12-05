@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.10.30)  4 DEC 2025 15:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.12.5)  5 DEC 2025 15:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -71,7 +71,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 Package: babel 2024/01/07 v24.1 The Babel package
 \babel@savecnt=\count196
 \U@D=\dimen141
-\l@unhyphenated=\language11
+\l@unhyphenated=\language9
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
@@ -79,12 +79,16 @@ Package: babel 2024/01/07 v24.1 The Babel package
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'british' set to \l@english
+(babel)             (\language0). Reported on input line 82.
+Package babel Info: Hyphen rules for 'UKenglish' set to \l@english
+(babel)             (\language0). Reported on input line 83.
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
-Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
-(babel)             (\language5). Reported on input line 105.
-Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
-(babel)             (\language5). Reported on input line 108.
+Package babel Info: Hyphen rules for 'australian' set to \l@english
+(babel)             (\language0). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@english
+(babel)             (\language0). Reported on input line 108.
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
 Package babel Info: Importing font and identification data for english
@@ -1230,6 +1234,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 215--216
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--218
+
+ []
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 224.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 224.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 224.
 ) (./Tex_files/experimental methods.tex [16]
 Chapter 3.
 
@@ -1250,113 +1265,117 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--12
 [17
 
 ] [18]
-<Figures/experimental methods/Pulse waveform.png, id=100, 774.7344pt x 426.8748
-pt>
+<Figures/experimental methods/Pulse waveform.png, id=100, 3222.0375pt x 1623.06
+375pt>
 
-Underfull \vbox (badness 1199) has occurred while \output is active []
+Underfull \vbox (badness 3343) has occurred while \output is active []
 
  [19]
+<Figures/experimental methods/langmuirprobe.jpg, id=107, 1859.94875pt x 444.661
+25pt>
 
-LaTeX Warning: Reference `sec:ionprobe80V' on page 20 undefined on input line 1
-88.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 240--241
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--243
+Underfull \hbox (badness 10000) in paragraph at lines 229--230
 
  []
 
 [20]
-Underfull \hbox (badness 10000) in paragraph at lines 256--257
+Underfull \hbox (badness 10000) in paragraph at lines 243--244
 
  []
 
-<Figures/experimental methods/QCM_head.png, id=110, 702.625pt x 351.3125pt>
-
-Underfull \hbox (badness 10000) in paragraph at lines 273--274
-
- []
-
+<Figures/experimental methods/QCM_head.png, id=112, 702.625pt x 351.3125pt>
 [21]
-Underfull \hbox (badness 10000) in paragraph at lines 288--289
+Underfull \hbox (badness 10000) in paragraph at lines 260--261
 
  []
 
-<Figures/experimental methods/mounting assembly thingy.png, id=117, 1081.03876p
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
+
+ []
+
+<Figures/experimental methods/mounting assembly thingy.png, id=119, 1081.03876p
 t x 489.83pt>
 
-Underfull \hbox (badness 10000) in paragraph at lines 313--314
+Underfull \hbox (badness 10000) in paragraph at lines 300--301
 
  []
 
 [22{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 322--323
+Underfull \hbox (badness 10000) in paragraph at lines 309--310
 
  []
 
 [23]
-Underfull \hbox (badness 10000) in paragraph at lines 341--344
+Underfull \hbox (badness 10000) in paragraph at lines 328--331
 
  []
 
-<Figures/experimental methods/hiden eqp.png, id=127, 700.86844pt x 464.4853pt>
+<Figures/experimental methods/hiden eqp.png, id=129, 700.86844pt x 464.4853pt>
 
-Underfull \hbox (badness 10000) in paragraph at lines 353--354
+Underfull \hbox (badness 10000) in paragraph at lines 340--341
 
  []
 
 [24]
-Underfull \hbox (badness 10000) in paragraph at lines 382--383
+Underfull \hbox (badness 10000) in paragraph at lines 369--370
 
  []
 
-<Figures/experimental methods/xrd_in+outofplae.png, id=133, 1068.99374pt x 466.
-74374pt>
 
-Underfull \hbox (badness 10000) in paragraph at lines 399--400
+Underfull \hbox (badness 10000) in paragraph at lines 372--373
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 383--384
 
  []
 
 [25]
-Underfull \hbox (badness 10000) in paragraph at lines 404--406
+<Figures/experimental methods/xrd_in+outofplae.png, id=139, 1068.99374pt x 466.
+74374pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--401
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 450--451
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 453--454
+Underfull \hbox (badness 10000) in paragraph at lines 405--407
 
  []
 
 [26]
-Underfull \hbox (badness 10000) in paragraph at lines 468--469
+<Figures/experimental methods/XRR SAMPLE.png, id=144, 796.6563pt x 426.8748pt>
+ [27]
+Underfull \hbox (badness 10000) in paragraph at lines 490--491
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 471--472
+Underfull \hbox (badness 10000) in paragraph at lines 493--494
 
  []
 
-[27]
 
-LaTeX Warning: Reference `massspec_results' on page 28 undefined on input line 
-483.
+Underfull \vbox (badness 3849) has occurred while \output is active []
 
-[28]
-Underfull \hbox (badness 10000) in paragraph at lines 504--506
+ [28]
+
+LaTeX Warning: Reference `massspec_results' on page 29 undefined on input line 
+505.
+
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 526--528
 
  []
 
-[29]) (./Tex_files/results.tex [30]
+[30]) (./Tex_files/results.tex [31]
 Chapter 4.
 
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
@@ -1368,20 +1387,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
-<Figures/results 1/bias_current_voltage_Saturation_thesis_version.png, id=159, 
+<Figures/results 1/bias_current_voltage_Saturation_thesis_version.png, id=166, 
 578.16pt x 361.35pt>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[31
+[32
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
-[32]
-<Figures/results 1/pulse_variability_plot_mean.png, id=171, 713.7867pt x 423.02
+[33]
+<Figures/results 1/pulse_variability_plot_mean.png, id=177, 713.7867pt x 423.02
 04pt>
 
 Underfull \hbox (badness 10000) in paragraph at lines 67--67
@@ -1396,14 +1415,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--67
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[33]
-
-LaTeX Warning: Reference `sec:flux_comparison' on page 34 undefined on input li
-ne 77.
-
 [34]
-<Figures/results 1/3Dmass.png, id=182, 5038.825pt x 3362.5625pt>
-<Figures/results 1/3Dion.png, id=183, 5104.06876pt x 3407.73125pt>
+<Figures/results 1/3Dmass.png, id=183, 5038.825pt x 3362.5625pt>
+<Figures/results 1/3Dion.png, id=184, 5104.06876pt x 3407.73125pt>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1411,84 +1425,84 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [36]
-<Figures/results 1/MagField_vs_Distance_P0.0Pa_Mass.png, id=192, 611.886pt x 41
+<Figures/results 1/MagField_vs_Distance_P0.0Pa_Mass.png, id=194, 611.886pt x 41
 1.939pt>
-<Figures/results 1/MagField_vs_Distance_P0.0Pa_IonCurrent.png, id=193, 611.886p
+<Figures/results 1/MagField_vs_Distance_P0.0Pa_IonCurrent.png, id=195, 611.886p
 t x 411.939pt>
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
 
  []
 
 [37]
-<Figures/results 1/Distance_vs_Pressure_B0.25T_Mass.png, id=199, 611.886pt x 41
+<Figures/results 1/Distance_vs_Pressure_B0.25T_Mass.png, id=201, 611.886pt x 41
 1.939pt>
-<Figures/results 1/Distance_vs_Pressure_B0.25T_IonCurrent.png, id=200, 611.886p
+<Figures/results 1/Distance_vs_Pressure_B0.25T_IonCurrent.png, id=202, 611.886p
 t x 411.939pt>
-
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
-
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 167--168
 
  []
-
-[38]
-
-LaTeX Warning: Reference `sec:erms_results' on page 39 undefined on input line 
-169.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 169--170
 
  []
 
-<Figures/results 1/MagField_vs_Pressure_D14cm_Mass.png, id=205, 605.6226pt x 41
+[38]
+
+LaTeX Warning: Reference `sec:erms_results' on page 39 undefined on input line 
+171.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
+
+ []
+
+<Figures/results 1/MagField_vs_Pressure_D14cm_Mass.png, id=207, 605.6226pt x 41
 1.939pt>
-<Figures/results 1/MagField_vs_Pressure_D14cm_IonCurrent.png, id=206, 614.0541p
+<Figures/results 1/MagField_vs_Pressure_D14cm_IonCurrent.png, id=208, 614.0541p
 t x 411.939pt>
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--199
+Underfull \hbox (badness 10000) in paragraph at lines 199--201
 
  []
 
 [39]
-<Figures/results 1/Pressure_vs_Distance_B0.25T_Mass.png, id=211, 611.886pt x 41
+<Figures/results 1/Pressure_vs_Distance_B0.25T_Mass.png, id=213, 611.886pt x 41
 1.939pt>
-<Figures/results 1/Pressure_vs_Distance_B0.25T_IonCurrent.png, id=212, 611.886p
+<Figures/results 1/Pressure_vs_Distance_B0.25T_IonCurrent.png, id=214, 611.886p
 t x 411.939pt>
-
-Underfull \hbox (badness 10000) in paragraph at lines 221--222
-
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 223--224
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
+
+ []
+
 [40]
-<Figures/results 2/Distance_0.25T_0.0Pa.png, id=217, 1011.78pt x 433.62pt>
-<Figures/results 2/Distance_0.25T_0.3Pa.png, id=218, 1011.78pt x 433.62pt>
-<Figures/results 2/Pressure_10cm_0.25T.png, id=219, 1011.78pt x 433.62pt>
+<Figures/results 2/Distance_0.25T_0.0Pa.png, id=219, 1011.78pt x 433.62pt>
+<Figures/results 2/Distance_0.25T_0.3Pa.png, id=220, 1011.78pt x 433.62pt>
+<Figures/results 2/Pressure_10cm_0.25T.png, id=221, 1011.78pt x 433.62pt>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [41]
-<Figures/results 2/PXL_20251114_084343196.jpg, id=224, 1752.5475pt x 1314.9125p
+<Figures/results 2/PXL_20251114_084343196.jpg, id=226, 1752.5475pt x 1314.9125p
 t>
-<Figures/results 2/PXL_20251117_130844177.jpg, id=225, 1569.865pt x 1177.39874p
+<Figures/results 2/PXL_20251117_130844177.jpg, id=227, 1569.865pt x 1177.39874p
 t>
 
-Underfull \hbox (badness 10000) in alignment at lines 282--282
+Underfull \hbox (badness 10000) in alignment at lines 284--284
 [][][]
  []
 
@@ -1506,11 +1520,11 @@ Chapter 7.
 
 ]
 Appendix A.
-<Figures/appendix/Pulse waveform appendix (0.1T).png, id=247, 774.7344pt x 426.
+<Figures/appendix/Pulse waveform appendix (0.1T).png, id=249, 774.7344pt x 426.
 8748pt>
-<Figures/appendix/Distance_vs_Pressure_B0.00T_Mass.png, id=248, 618.3903pt x 41
+<Figures/appendix/Distance_vs_Pressure_B0.00T_Mass.png, id=250, 618.3903pt x 41
 1.939pt>
-<Figures/appendix/Distance_vs_Pressure_B0.00T_IonCurrent.png, id=249, 605.6226p
+<Figures/appendix/Distance_vs_Pressure_B0.00T_IonCurrent.png, id=251, 605.6226p
 t x 411.939pt>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1525,10 +1539,6 @@ Underfull \hbox (badness 5050) in paragraph at lines 33--33
 nts. All dis-
  []
 
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 84.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 84.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 84.
 
@@ -1555,12 +1565,12 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 48358 strings out of 476064
- 1162932 string characters out of 5792852
- 1958975 words of memory out of 5000000
- 69795 multiletter control sequences out of 15000+600000
- 652589 words of font info for 99 fonts, out of 8000000 for 9000
- 81 hyphenation exceptions out of 8191
+ 48387 strings out of 476106
+ 1163946 string characters out of 5793933
+ 1957975 words of memory out of 5000000
+ 69817 multiletter control sequences out of 15000+600000
+ 656981 words of font info for 105 fonts, out of 8000000 for 9000
+ 59 hyphenation exceptions out of 8191
  99i,17n,101p,979b,1065s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/ty
 pe1/public/lm/lmbx8.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></u
@@ -1576,10 +1586,10 @@ blic/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/shar
 e/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm
 /lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (53 pages, 474570 bytes).
+Output written on main.pdf (53 pages, 476501 bytes).
 PDF statistics:
- 388 PDF objects out of 1000 (max. 8388607)
+ 390 PDF objects out of 1000 (max. 8388607)
  255 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 149 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 159 words of extra memory for PDF output out of 10000 (max. 10000000)
 

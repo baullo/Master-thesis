@@ -163,29 +163,16 @@ with the length of the solenoid $L = 0.02 m$, the number of turns in the solenoi
 
 \subsection{Ion-current Probe- Langmuir probe}\label{sec:langmuir_probe}
 
+The in-house-built ion collector probe (Figure~\ref{fig:langmuirprobe}) was designed to measure the current density of ions (\(J_i\)) in ion saturation mode. The probe consisted of a 5~mm diameter copper stick milled down to resemble a nail, it was then covered with Katpon tape to ensure insulation from the holder assembly: Fig. \ref{fig:holder assembly}.
 
-The in-house-built ion collector probe (Figure~\ref{fig:langmuir_probe}) was designed to measure the current density of ions (\(J_i\)) in ion saturation mode. The probe consisted of a 5~mm diameter copper stick milled down to resemble a nail, it was then covered with Katpon tape to ensure insulation from the holder assembly \ref{fig:holder assembly}.
-
-
-
-\begin{figure}[!ht]
-\centering
-\resizebox{0.5\textwidth}{!}{%
-\begin{circuitikz}
-\tikzstyle{every node}=[font=\Huge]
-\draw [ fill={rgb,255:red,255; green,120; blue,0} ] (0,17) rectangle (0.75,12.5);
-\draw [<->, >=Stealth] (-1.25,17) -- (-1.25,12.5)node[pos=0.5, fill=white]{5 mm};
-\draw [<->, >=Stealth] (0,11.75) -- (25.5,11.75)node[pos=0.5, fill=white]{60 mm};
-\draw [ fill={rgb,255:red,255; green,120; blue,0} ] (22.5,15) rectangle (25,14.5);
-\draw [ fill={rgb,255:red,255; green,120; blue,0} ] (0.75,16.5) rectangle (22.75,13);
-\draw [ fill={rgb,255:red,255; green,190; blue,111} ] (0.75,16.75) rectangle (22,12.75);
-\end{circuitikz}
-}%
-\caption{In-house built ion collector probe wrapped in Kapton tape for electrical insulation from the aluminum assembly holder. The probe includes an attachment point for a screw terminal connector, enabling connection to the ion probe circuit (Figure \ref{fig:probe_circuit})}
-\label{fig:langmuir_probe}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.7\textwidth]{"Figures/experimental methods/langmuirprobe"}
+	\caption{In-house built ion collector probe wrapped in Kapton tape for electrical insulation from the aluminum assembly holder. The probe includes an attachment point for a screw terminal connector, enabling connection to the ion probe circuit.}
+	\label{fig:langmuirprobe}
 \end{figure}
 
-To guarantee full ion collection, the probe was negatively biased at \(V_b = -80\)~V, as determined in sec. \ref{sec:ionprobe80V}.
+To guarantee full ion collection, the probe was negatively biased at \(V_b = -80\)~V, as determined in Sec. \ref{sec:ionprobe80V}.
 
 
 \begin{figure}[!ht]
@@ -377,6 +364,20 @@ IEDFs were measured using a double trigger acquisition scheme synchronized with 
 
 \section{Ex situ Measurements}\label{sec:film_characterization}
 
+\subsection{Profilometry}\label{sec:profil}
+
+Stylus profilometry was used to measure film thickness by mechanically tracing the surface topography using a diamond-tipped stylus. The technique provides direct measurement of step heights between masked and deposited regions, making it particularly useful for verifying film thickness values obtained by QCM \cite{poon1995}.\\
+
+
+In profilometry, a stylus with a small tip radius is dragged across the sample surface with a controlled force of 3~mg while its vertical displacement is monitored electromagnetically. The resulting trace provides a profile of the surface from which the step height (film thickness) with vertical resolution down to $\sim$ 1~nm can be extracted.\\
+
+
+%The Dektak stylus profilometer used in this study has a measurement range from 6.5~nm to 800~$\mu$m with repeatability of 0.4~nm. For thickness measurements, silicon substrates were partially masked with a marker line, which created a well-defined step edge during deposition. This marker line was subsequently removed with Isopropanol in a ultrasonic bath. Multiple scans across each step were performed to ensure reproducibility, and the average thickness was calculated from at least three different positions on each sample.\\
+
+
+%One limitation of contact profilometry is the potential for stylus-induced damage on very soft films, though this was not a concern for the hard TiAlN coatings investigated here. The technique is complementary to XRR, with profilometry providing rapid, direct thickness measurements while XRR offers higher accuracy for very thin films and additional information on density and roughness \cite{windover1999}.
+
+
 \subsection{X-ray Diffraction (XRD)}\label{sec:XRD}
 
 X-ray diffraction (XRD) was employed to analyze the crystallographic structure of the thin films deposited during the experiments. XRD is a non-destructive technique that provides detailed information about the crystalline phases present in the material, as well as their lattice parameters, crystallite size, and strain.\\
@@ -396,7 +397,7 @@ Due to the small film thickness, out-of-plane diffraction techniques were used t
 	\label{fig:xrdinoutofplane}
 \end{figure}
 
-The XRD measurements were performed using a \textcolor{red}{model name of xrd machine} diffractometer equipped with \textcolor{red}{non monochromatic $Cu_{alpha}$ source with smt smt wavelength-} The asymmetrical reflection scans were performed with an \textcolor{red}{add incidence angle and speed and step size used}\\
+The XRD measurements were performed using a \textcolor{red}{model name of xrd machine} diffractometer equipped with \textcolor{red}{non monochromatic $Cu_{\alpha}$ source with smt smt wavelength-} The asymmetrical reflection scans were performed with an \textcolor{red}{add incidence angle and speed and step size used}\\
 
 The crystallographic structure was determined by analyzing the diffraction patterns. The Bragg equation was used to identify the crystalline phases:
 \begin{equation}
@@ -407,7 +408,42 @@ where $d$ is the spacing between atomic planes, $\theta$ is the diffraction angl
 
 
 \subsection{X-ray Reflectometry (XRR)}\label{sec:XRR}
-\textcolor{red}{need to look into before writing about it, more precisely about the specs of the device}
+
+X-ray reflectometry (XRR) is a non-destructive technique used to determine film thickness, density, and surface or interface roughness by measuring the intensity of X-rays reflected at grazing incidence angles (0.01--5°) \cite{yasaka2010}.
+
+When X-rays strike a flat surface at shallow angles below the critical angle $\theta_c$, total external reflection occurs. The critical angle is related to the electron density of the material through:
+\begin{equation}
+	\theta_c = \sqrt{2\delta},
+\end{equation}
+where $\delta$ depends on the material density and composition \cite{yasaka2010}. Above $\theta_c$, X-rays penetrate the film and reflect from interfaces, creating interference patterns known as Kiessig fringes. The period of these oscillations is directly related to film thickness \cite{kiessig1931}:
+\begin{equation}
+	d \approx \frac{\lambda}{2\Delta\theta},
+	\label{eq:xrr_thickness}
+\end{equation}
+where $\lambda$ is the X-ray wavelength and $\Delta\theta$ is the angular spacing between fringes.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\linewidth]{Figures/experimental methods/XRR SAMPLE.png}
+	\caption{Example XRR measurement and fit for a TiAlN thin film deposited on Si substrate. The oscillations (Kiessig fringes) arise from interference between reflections from the film surface and the film-substrate interface.}
+	\label{fig:xrr_fit}
+\end{figure}
+
+The XRR technique provides three key parameters \cite{yasaka2010}:
+\begin{itemize}
+	\item \textbf{Film thickness:} Determined from the oscillation period, with accuracy of 0.1--0.2~nm for films in the 1--150~nm range.
+	
+	\item \textbf{Density:} Extracted from the critical angle position and oscillation amplitude. Larger density contrast between film and substrate produces higher amplitude oscillations.
+	
+	\item \textbf{Surface and interface roughness:} Surface roughness causes faster decay of reflectivity at higher angles, while interface roughness reduces oscillation amplitude.
+\end{itemize}
+
+%The XRR measurements were performed using a \textcolor{red}{model name} diffractometer equipped with a Cu $K_\alpha$ X-ray source ($\lambda = 1.5406$~Å). Sample alignment was performed using the total reflection phenomenon to ensure proper angular positioning. Scans were performed in $2\theta/\theta$ geometry from \textcolor{red}{add range, e.g., 0.2° to 6°} with a step size of \textcolor{red}{add step size, e.g., 0.01°} and a scan speed of \textcolor{red}{add speed, e.g., 0.5°/min}.
+
+The measured reflectivity curves were analyzed using the Parratt recursive formalism \cite{parratt1954}, which accounts for multiple reflections at each interface. Film thickness, density, and roughness parameters were refined by fitting the calculated reflectivity curve to the experimental data. Initial thickness estimates from Profilometry measurements (Section~\ref{sec:profilometry}) were used as starting values for the fitting procedure. XRR is particularly suited for verifying thicknesses and characterizing film density and surface quality for the deposited TiAl/TiAlN films.
+
+
+
 \iffalse
 X-ray reflectometry (XRR) is a non-destructive technique used to determine the thickness, density, and interfacial roughness of thin films and multilayer structures \cite{tolan1999,holy1999}. The method works by measuring the intensity of X-rays reflected from a sample surface as a function of the incident angle, typically in the range of grazing incidence (0.1--5$^\circ$). 
 
@@ -445,20 +481,6 @@ Additionally, energy-dispersive X-ray spectroscopy (EDS) was used in conjunction
 \fi
 \subsection{Energy-dispersive X-ray spectroscopy (EDX)}\label{sec:EDX}
 \textcolor{red}{need to look into before writing about it, more precisely about the specs of the device}
-\subsection{Profilometry}\label{sec:profil}
-
-Stylus profilometry was used to measure film thickness by mechanically tracing the surface topography using a diamond-tipped stylus. The technique provides direct measurement of step heights between masked and deposited regions, making it particularly useful for verifying film thickness values obtained by QCM \cite{poon1995}.\\
-
-
-In profilometry, a stylus with a small tip radius is dragged across the sample surface with a controlled force of 3~mg while its vertical displacement is monitored electromagnetically. The resulting trace provides a profile of the surface from which the step height (film thickness) with vertical resolution down to $\sim$ 1~nm can be extracted.\\
-
-
-%The Dektak stylus profilometer used in this study has a measurement range from 6.5~nm to 800~$\mu$m with repeatability of 0.4~nm. For thickness measurements, silicon substrates were partially masked with a marker line, which created a well-defined step edge during deposition. This marker line was subsequently removed with Isopropanol in a ultrasonic bath. Multiple scans across each step were performed to ensure reproducibility, and the average thickness was calculated from at least three different positions on each sample.\\
-
-
-One limitation of contact profilometry is the potential for stylus-induced damage on very soft films, though this was not a concern for the hard TiAlN coatings investigated here. The technique is complementary to XRR, with profilometry providing rapid, direct thickness measurements while XRR offers higher accuracy for very thin films and additional information on density and roughness \cite{windover1999}.
-
-
 
 
 
