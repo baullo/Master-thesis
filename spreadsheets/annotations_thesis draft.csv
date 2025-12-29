@@ -1,0 +1,755 @@
+Page,Subtype,Rectangle,,,,Contents
+1,Widget,"1,0","837,9","4,0","840,9", 
+1,Text,"380,6","374,1","404,6","398,1",check who is in the official document Should be me and the professor
+1,Popup,"595,3","284,1","799,3","398,1", 
+1,Highlight,"78,6","541,6","530,9","685,6",What is actually the title here? Make it more consistent and up-to-date. Something like Study of correlations between the total particle flux and ion flux in cathodic arc deposition of TiAl and TiAlN thin films 
+1,Popup,"595,3","570,9","799,3","684,9", 
+2,Widget,"1,0","837,9","4,0","840,9", 
+2,Link,"69,9","511,4","300,8","521,5", 
+2,Link,"87,4","493,2","293,6","503,4", 
+2,Link,"87,4","475,0","198,3","485,3", 
+2,Link,"87,4","454,5","245,8","467,1", 
+2,Link,"69,9","424,5","230,6","437,0", 
+2,Link,"87,4","406,4","305,6","418,9", 
+2,Link,"114,4","388,2","326,4","400,7", 
+2,Link,"114,4","370,0","339,7","382,6", 
+2,Link,"87,4","351,9","223,3","364,4", 
+2,Link,"114,4","333,7","352,5","346,3", 
+2,Link,"114,4","315,5","283,0","328,1", 
+2,Link,"87,4","299,7","354,6","309,9", 
+2,Link,"114,4","279,2","374,2","291,8", 
+2,Link,"114,4","263,4","289,9","273,6", 
+2,Link,"87,4","242,9","298,7","255,4", 
+2,Link,"114,4","227,0","270,9","237,3", 
+2,Link,"114,4","206,6","284,3","219,1", 
+2,Link,"69,9","176,5","250,2","189,0", 
+2,Link,"87,4","158,4","298,7","170,9", 
+2,Link,"114,4","142,5","306,8","152,8", 
+2,Link,"114,4","122,0","254,1","134,6", 
+2,Link,"87,4","103,9","212,3","116,4", 
+2,Link,"114,4","85,7","335,2","98,3", 
+2,Link,"114,4","67,5","302,8","80,1", 
+3,Widget,"1,0","837,9","4,0","840,9", 
+3,Link,"128,5","755,7","377,2","768,3", 
+3,Link,"128,5","737,3","329,7","749,8", 
+3,Link,"101,6","721,1","244,4","731,4", 
+3,Link,"128,5","699,7","294,9","713,6", 
+3,Link,"128,5","681,2","311,2","695,2", 
+3,Link,"128,5","662,7","360,9","676,7", 
+3,Link,"128,5","644,3","398,0","658,2", 
+3,Link,"128,5","626,5","232,2","639,0", 
+3,Link,"101,6","608,0","213,6","620,6", 
+3,Link,"101,6","589,5","208,4","602,1", 
+3,Link,"128,5","571,1","343,5","583,6", 
+3,Link,"128,5","552,6","394,6","565,2", 
+3,Link,"128,5","534,1","308,9","546,7", 
+3,Link,"84,0","505,9","146,8","516,1", 
+3,Link,"101,6","485,1","371,4","497,7", 
+3,Link,"128,5","466,7","377,1","479,2", 
+3,Link,"128,5","448,2","357,3","460,8", 
+3,Link,"128,5","429,7","350,6","442,3", 
+3,Link,"128,5","411,3","382,4","423,8", 
+3,Link,"101,6","392,8","394,4","405,4", 
+3,Link,"128,5","373,7","313,4","387,6", 
+3,Link,"128,5","358,2","280,1","368,4", 
+3,Link,"128,5","337,4","312,9","350,0", 
+3,Link,"128,5","318,9","326,2","331,5", 
+3,Link,"101,6","300,5","266,3","313,0", 
+3,Link,"101,6","284,3","208,8","294,6", 
+3,Link,"128,5","263,5","232,2","276,1", 
+3,Link,"128,5","247,4","194,3","257,6", 
+3,Link,"128,5","228,9","194,0","239,2", 
+3,Link,"128,5","210,5","193,3","220,7", 
+3,Link,"101,6","192,0","163,9","202,2", 
+3,Link,"84,0","161,5","228,0","171,6", 
+3,Link,"84,0","130,9","167,9","141,1", 
+3,Link,"84,0","98,1","334,6","110,6", 
+3,Link,"84,0","69,9","200,2","80,0", 
+4,Widget,"1,0","837,9","4,0","840,9", 
+4,Link,"69,9","755,7","194,6","768,2", 
+5,Widget,"1,0","837,9","4,0","840,9", 
+6,Widget,"1,0","837,9","4,0","840,9", 
+6,Link,"252,2","347,9","265,9","357,4", 
+6,Link,"373,1","312,0","386,8","321,6", 
+6,Link,"181,1","240,3","189,0","249,9", 
+6,Link,"324,4","123,7","332,3","133,2", 
+6,Link,"496,9","105,7","504,7","115,2", 
+6,StrikeOut,"207,0","426,6","416,2","454,2", 
+6,Popup,"595,3","338,6","799,3","452,6", 
+6,Caret,"87,4","362,5","101,1","373,7",other 
+6,Popup,"595,3","258,8","799,3","372,8", 
+6,Highlight,"245,5","345,0","272,7","362,9",Configure your bibliography to generate references in the order of their appearance in the text. This is how it is always done in the scientific literature. This one should be [1].
+6,Popup,"595,3","248,4","799,3","362,4", 
+6,Highlight,"187,9","255,4","242,9","273,3","too specific. what about ions that have 20 eV? 15 eV? 30 eV? ""intrinsic high energy carried by ions enables room-temp..."""
+6,Popup,"595,3","158,7","799,3","272,7", 
+6,Caret,"195,6","192,3","208,9","203,1",the energetic input from ions
+6,Popup,"595,3","88,2","799,3","202,2", 
+6,StrikeOut,"315,7","192,0","365,6","210,9", 
+6,Popup,"595,3","95,8","799,3","209,8", 
+6,Caret,"353,8","192,1","367,4","203,2",is dependent on
+6,Popup,"595,3","88,3","799,3","202,3", 
+6,Caret,"230,7","138,0","244,5","149,2",Applying
+6,Popup,"595,3","34,3","799,3","148,3", 
+6,Caret,"354,4","138,0","368,2","149,2",at the arc source
+6,Popup,"570,1","34,2","763,9","148,1", 
+6,StrikeOut,"65,8","120,2","515,3","157,1", 
+6,Popup,"595,3","42,0","799,3","156,0", 
+6,Caret,"315,4","120,4","329,0","131,5","ion potential energy, but also simultaneously increases the ion kinetic energy and ion flux,"
+6,Popup,"570,1","16,5","774,3","130,4", 
+7,Widget,"1,0","837,9","4,0","840,9", 
+7,Link,"357,3","674,5","371,0","684,0", 
+7,Link,"505,2","602,8","518,9","612,3", 
+7,Link,"258,2","495,3","271,9","504,8", 
+7,Link,"316,3","369,8","324,2","379,3", 
+7,Link,"329,6","369,8","337,5","379,3", 
+7,Link,"425,1","333,9","438,8","343,4", 
+7,Caret,"378,6","635,4","392,4","646,7",move the citatation from the end of the sentence here
+7,Popup,"595,3","531,7","799,3","645,7", 
+7,Caret,"295,5","706,8","309,3","718,0",move the citation from the end of the sentence here
+7,Popup,"595,3","603,1","799,3","717,1", 
+7,Caret,"345,5","671,5","358,8","682,3",delivered by ion to the growing film
+7,Popup,"595,3","567,4","799,3","681,4", 
+7,Highlight,"165,8","635,8","308,0","653,7",We did not specify any threshold value there.
+7,Popup,"595,3","539,1","799,3","653,1", 
+7,Highlight,"251,5","492,4","278,7","510,2",Same here
+7,Popup,"595,3","395,7","799,3","509,7", 
+7,Highlight,"80,5","599,9","528,9","653,7","No - quite the opposite. We show there, that the enhancement of RT crystallinity correlates with the increase in the potential energy input. Bias also means increase of total energy (by like 30 eV!) but does not result in the same effect. What is different between two papers is that in the first one we managed to decouple Epot from Ekin, but didn't decouple Epot from the ion flux. In the second paper, we did the distance variation and also performed a more elaborate mass spec data analysis. "
+7,Popup,"595,3","539,1","799,3","653,1", 
+7,Highlight,"80,5","546,2","528,9","582,0",It is not really a limitation - this is just another parameter to decouple
+7,Popup,"595,3","467,4","799,3","581,4", 
+7,Highlight,"238,4","474,4","462,5","492,3",we didn't really dive deep into nucleation kinetics in our works at all
+7,Popup,"595,3","377,8","799,3","491,8", 
+7,Highlight,"80,5","456,5","528,9","492,3","but this is wrong, that's what we actually did in the 2025 paper! More precisely, it was a total deposited flux (judged by deposition rate vs distance)"
+7,Popup,"595,3","377,8","799,3","491,8", 
+7,Highlight,"80,5","402,7","528,9","438,5","also wrong. In the first work, there was no metallic deposition at all, and in the second work, it was 50/50. You should instead say that we saw the impact of activated nitrogen, which consists of ionized, as well as neutral (but excited) nitrogen particles. However, we do not really know how much of these particles are neutrals - and then you can go from there to motivate your work with probe techniques."
+7,Popup,"595,3","324,0","799,3","438,0", 
+7,Highlight,"80,5","366,9","261,8","384,8","generalize - not only ionic nitrogen species, but also atomic (neutral). We used the term ""activated"" in the papers, look the formulations up."
+7,Popup,"595,3","253,4","799,3","367,4", 
+7,Caret,"133,5","294,8","147,1","305,9",material
+7,Popup,"595,3","191,0","799,3","305,0", 
+7,Highlight,"80,5","259,3","528,9","313,0","no need to specify langmuir probe and qcm here yet. In this sentence we want to highlight - what is novel but hasnt been done yet (but before clearly stating this as an objective). The decoupling of Ekin, Epot, and the deposited flux is not novel anymore. Novel things are: 1. TiAlN material system 2. Measuring ion flux vs total deposited flux in a combined fashion to try to see the fraction of non-ionized nitrogen particles, and correlate this with the particle properties."
+7,Popup,"595,3","198,5","799,3","312,5", 
+7,Highlight,"272,3","184,7","528,9","202,6","as said above, it is not about ""just"" the ion flux, but the ion flux vs total flux of deposited particles (which is especially important to distinguish when we have a reactive process)"
+7,Popup,"595,3","88,0","799,3","202,0", 
+7,Highlight,"109,8","67,0","528,9","138,6","To keep the objectives cleaner, I would not expand on different characterization techniques here yet. Leave it for the ""experimental techniques"" chapter. Better say that this objective is to characterize the ion flux and the total deposited flux as functions of external magnetic field strength and distance. Furthermore, analyze the ion energy distributions of individual ion species. "
+7,Popup,"595,3","24,1","799,3","138,1", 
+7,Text,"109,8","114,6","133,8","138,6","Moreover, you introduced an abbreviation here - QCM - without writing what this means. The rule of thumb in academic writing is to elaborate first. "
+7,Popup,"595,3","24,6","799,3","138,6", 
+7,StrikeOut,"216,6","211,8","350,6","239,4", 
+7,Popup,"595,3","123,9","799,3","237,9", 
+8,Widget,"1,0","837,9","4,0","840,9", 
+8,Highlight,"315,5","691,5","519,4","709,3",maybe ion flux and deposited flux sounds better?
+8,Popup,"595,3","594,8","799,3","708,8", 
+8,Highlight,"80,7","591,9","514,7","645,6","Similar to Objective 1, I'd not bombard the reader with the abbreviations yet."
+8,Popup,"595,3","531,1","799,3","645,1", 
+8,Highlight,"66,4","489,3","514,7","578,8","Same suggestion. It is better to describe the experimental approach in the dedicated section, where you elaborate on each used technique, and how they are interconnected. Here it reads a bit convoluted."
+8,Popup,"595,3","464,3","799,3","578,3", 
+9,Widget,"1,0","837,9","4,0","840,9", 
+9,Link,"131,8","232,6","139,7","242,1", 
+9,Link,"438,7","159,5","446,5","169,0", 
+9,Link,"256,3","105,7","264,1","115,2", 
+9,Caret,"293,5","265,0","307,3","276,2","by Mesyats [Mesyats, G.A., Ecton mechanism of the vacuum arc cathode spot, IEEE Trans. Plasma Sci. 23, 879–883, (1995)] reference this work, this is also only one of the approaches (although the dominant one) to describe the spot creation. Not 100% ppl in the arc community follow that, there are alternative POVs, but you don't need to dive there :) Just acknowledge who suggested the ecton model."
+9,Popup,"595,3","161,2","799,3","275,2", 
+9,Highlight,"109,8","67,0","528,9","102,8","I think, you mixed things up here. In that paragraph, Andre talks about the arc mode classification. Also, introducing atomic scale heating is too early here - it is from plasma far away from cathodic spot, after plasma expansion. Here, just remove this point."
+9,Popup,"595,3","-11,7","799,3","102,3", 
+10,Widget,"1,0","837,9","4,0","840,9", 
+10,Link,"432,8","758,1","440,7","767,6", 
+10,Link,"451,5","516,3","465,2","525,8", 
+10,Link,"289,2","142,0","297,0","151,6", 
+10,Link,"500,1","87,8","508,0","97,3", 
+10,Highlight,"143,8","310,2","242,1","328,1","Write ""sometimes being guided"" instead. Typically, people use cathodic arcs without macroparticle filters at all (e.g. in the industry)."
+10,Popup,"595,3","213,5","799,3","327,5", 
+10,Highlight,"228,2","292,3","257,4","310,1","plasma, not only ions"
+10,Popup,"595,3","195,6","799,3","309,6", 
+10,Highlight,"66,4","292,3","156,8","310,1","say ""macroparticles"" instead"
+10,Popup,"595,3","195,6","799,3","309,6", 
+10,StrikeOut,"337,2","309,7","416,8","328,6", 
+10,Popup,"595,3","213,5","799,3","327,5", 
+11,Widget,"1,0","837,9","4,0","840,9", 
+11,Link,"210,9","740,1","218,7","749,7", 
+11,Link,"210,7","569,2","227,7","581,8", 
+11,Link,"394,4","553,6","402,3","563,1", 
+11,Link,"177,4","493,3","185,2","502,9", 
+11,Link,"121,5","291,2","129,3","300,7", 
+11,Text,"306,1","727,1","330,1","751,1","Here, the transition from plasma expansion theory to the ion energies with already implications for thin film deposition feels a liiitle bit too abrupt. Write a bit more here about the transport of plasma further, say a few words about the filtering, and add some connector sentences to guide the reader to talk about energies and fluxes of ions in plasma after the macroparticle filter and near the substrate. Make it clear that in this work you are focusing on plasma far away from the cathode spot, basically."
+11,Popup,"595,3","600,5","799,3","714,5", 
+11,Highlight,"78,5","684,2","312,3","710,3","Rethink this chapter. At this point in the text, you 1. Identified the goals of the work. 2. Wrote some theory on plasma generation in the cathodic spot. 3. Wrote a transition paragraph with plasma expansion and filtering. Now you are talking about energies of ions, that are in the plasma far away from the cathode spot and, essentially, reach the substrate and form the film. Instead of in-mixing information from the later parts of the work, focus here on the 1. definitions of ion flux, ion kinetic energy, ion potential energy, burning voltage, 2. the influence of the magnetic field (i.e. ""magnetic insulation"" and how it affects the flux, Ekin, Epot. 3. Only then - adding reactive gas - nitrogen, what do we know from literature, how it affects this plasma flux and ion energies 4. Activation of nitrogen, that we have ions and neutrals - the latter part is an essential leitmotif of your work and you need to emphasize it here (because your diagnostics are focused on trying to see that contribution of neutrals). P.S. Also somewhere write a paragraph about the pulsed plasma."
+11,Popup,"595,3","595,6","799,3","709,6", 
+11,StrikeOut,"247,0","124,7","398,4","143,6", 
+11,Popup,"595,3","28,6","799,3","142,6", 
+11,Caret,"386,5","124,8","400,2","135,9",plasma with multiply charged ions
+11,Popup,"595,3","21,0","799,3","135,0", 
+11,StrikeOut,"449,8","124,7","508,0","143,6", 
+11,Popup,"595,3","28,6","799,3","142,6", 
+11,StrikeOut,"194,2","169,2","318,0","192,2",diagnostics should go in the experimental methodology section
+11,Popup,"595,3","76,9","799,3","190,9", 
+11,Highlight,"80,5","215,7","528,9","413,8","As discussed, this is too early and injecting a lot of the concepts from the later part of the work"
+11,Popup,"595,3","299,3","799,3","413,3", 
+11,Highlight,"80,5","550,7","528,9","640,3","Change as discussed (rewrite that whole part), rn is convoluted"
+11,Popup,"595,3","525,8","799,3","639,8", 
+11,Highlight,"80,5","490,5","175,7","508,3","you could leave such a table as the nice reference, but keep in mind and make it clear that we are talking about a different plasma "
+11,Popup,"595,3","393,8","799,3","507,8", 
+12,Widget,"1,0","837,9","4,0","840,9", 
+12,Link,"135,5","608,9","143,3","618,4", 
+12,Link,"203,4","488,1","211,3","497,6", 
+12,Link,"243,1","172,7","256,8","182,2", 
+12,Link,"180,8","67,5","188,7","80,1", 
+12,StrikeOut,"65,8","736,7","515,3","773,6",This is confusing here
+12,Popup,"595,3","658,5","799,3","772,5", 
+12,Highlight,"66,4","570,1","514,7","706,1",this belongs in the methodology chapter
+12,Popup,"595,3","591,6","799,3","705,6", 
+12,Caret,"394,3","484,9","408,1","496,1",applied at the arc source
+12,Popup,"595,3","381,2","799,3","495,2", 
+12,Highlight,"66,4","484,6","514,7","539,0","As discussed, more info about the burning voltage a bit and its link to kinetic energy and mean velocity of ions"
+12,Popup,"595,3","424,4","799,3","538,4", 
+12,Highlight,"66,4","449,4","514,7","503,1",Separate small paragraph on the effect of external magnetic fields.
+12,Popup,"595,3","388,6","799,3","502,6", 
+12,Highlight,"66,4","169,8","514,7","418,2",This would fit better in the next chapter (on film growth)
+12,Popup,"595,3","303,7","799,3","417,7", 
+12,Highlight,"66,4","84,9","514,7","138,6","This you should elaborate on in Methodology chapter, not here"
+12,Popup,"595,3","24,1","799,3","138,1", 
+13,Widget,"1,0","837,9","4,0","840,9", 
+13,Link,"514,3","575,1","522,2","584,7", 
+13,Link,"336,8","474,3","344,7","483,8", 
+13,Link,"242,1","405,9","250,0","415,4", 
+13,Link,"395,6","259,9","403,5","272,5", 
+13,Link,"441,7","123,9","449,5","133,4", 
+13,Highlight,"98,1","438,2","240,7","456,7","This should be introduced in 2.2, as we already discussed"
+13,Popup,"595,3","342,2","799,3","456,2", 
+13,StrikeOut,"101,6","276,7","186,9","295,7", 
+13,Popup,"595,3","180,6","799,3","294,6", 
+13,Caret,"175,1","276,9","188,7","288,0",total deposited flux
+13,Popup,"595,3","173,1","799,3","287,1", 
+13,StrikeOut,"184,1","276,7","296,1","295,7", 
+13,Popup,"595,3","180,6","799,3","294,6", 
+13,StrikeOut,"325,7","294,7","529,4","313,6", 
+13,Popup,"595,3","198,5","799,3","312,5", 
+13,Caret,"226,1","294,6","240,0","305,9",s
+13,Popup,"595,3","191,0","799,3","305,0", 
+13,Highlight,"80,5","313,1","528,9","348,9","not only - and you should describe the different things, that affect the ion energies, in 2.2."
+13,Popup,"595,3","234,4","799,3","348,4", 
+13,Highlight,"79,6","156,9","528,9","239,7","This you should introduce earlier. ACTUALLY in several places. About the cathode - where you describe the cathode and spots, then the charge exchange comes when you talk about expanding plasma further down the path"
+13,Popup,"595,3","125,1","799,3","239,1", 
+13,Text,"79,6","215,7","103,6","239,7","Here, you should leave only the parts relevant to the plasma-surface interactions and film growth."
+13,Popup,"595,3","125,7","799,3","239,7", 
+13,Highlight,"80,5","37,1","528,9","174,7",Should go to 2.1
+13,Popup,"595,3","60,2","799,3","174,2", 
+14,Widget,"1,0","837,9","4,0","840,9", 
+14,Link,"439,7","758,1","447,5","767,6", 
+14,Link,"405,9","686,4","413,7","695,9", 
+14,Link,"441,1","576,5","448,9","586,0", 
+14,Link,"264,8","540,6","272,6","550,1", 
+14,Link,"188,4","250,3","202,1","259,8", 
+14,Link,"280,5","141,6","288,3","151,1", 
+14,Highlight,"66,4","683,5","514,7","773,1",Definitely 2.1
+14,Popup,"595,3","658,5","799,3","772,5", 
+14,Highlight,"80,7","609,5","514,7","664,3",The place for this is in the proper experimental methodology paragraph
+14,Popup,"595,3","530,7","799,3","644,7", 
+14,Highlight,"80,7","537,7","514,7","609,4",Fits 2.2
+14,Popup,"595,3","494,9","799,3","608,9", 
+14,Highlight,"66,2","436,0","514,7","525,6",This belongs to the experimental methodolgy section
+14,Popup,"595,3","411,0","799,3","525,0", 
+14,Highlight,"64,3","381,7","424,1","407,8","I suggest to merge 2.3 and 2.4 together, since 2.3 is short and not super informative"
+14,Popup,"595,3","293,1","799,3","407,1", 
+14,Caret,"503,2","156,1","517,0","167,4",","
+14,Popup,"595,3","52,4","799,3","166,4", 
+14,StrikeOut,"123,8","120,2","143,9","139,2", 
+14,Popup,"595,3","24,1","799,3","138,1", 
+15,Widget,"1,0","837,9","4,0","840,9", 
+15,Link,"150,1","722,2","157,9","731,7", 
+15,Link,"180,6","407,0","188,5","416,5", 
+15,Link,"234,4","123,7","248,1","133,2", 
+15,Link,"379,4","69,9","393,1","79,4", 
+15,StrikeOut,"302,9","271,1","321,5","294,1", 
+15,Popup,"595,3","178,8","799,3","292,8", 
+15,StrikeOut,"514,8","348,4","529,4","367,4", 
+15,Popup,"595,3","252,3","799,3","366,3", 
+15,Highlight,"80,5","313,1","528,9","384,8",Did you estimate that with calculations of E* and T*?
+15,Popup,"595,3","270,2","799,3","384,2", 
+16,Widget,"1,0","837,9","4,0","840,9", 
+16,Link,"185,3","638,6","199,0","648,1", 
+16,Link,"302,2","546,6","319,2","559,1", 
+16,Caret,"414,7","599,6","428,3","610,6",)
+16,Popup,"595,3","495,7","799,3","609,7", 
+16,Highlight,"66,4","546,0","514,7","617,7",This fits into the experimental methodology
+16,Popup,"595,3","503,2","799,3","617,2", 
+17,Widget,"1,0","837,9","4,0","840,9", 
+17,Link,"223,6","85,5","240,5","98,0", 
+17,Caret,"183,4","434,4","199,9","447,9",system
+17,Popup,"595,3","332,8","799,3","446,8", 
+17,StrikeOut,"241,1","434,4","352,2","457,4", 
+17,Popup,"595,3","342,2","799,3","456,2", 
+17,Caret,"337,8","434,6","354,4","448,1",supply
+17,Popup,"595,3","333,0","799,3","447,0", 
+17,StrikeOut,"242,2","468,8","389,5","496,4", 
+17,Popup,"595,3","380,9","799,3","494,9", 
+17,Caret,"102,7","408,4","116,2","419,5",vacuum
+17,Popup,"595,3","304,6","799,3","418,6", 
+17,Highlight,"80,5","391,0","528,9","426,8",Wrong - we do not use a turbomolecular pump in the main line of this chamber. It is just a dry rotor vacuum pump (Leybold ECODRY+) for roughing and a cryopump (Leybold COOLVAC). Also specify the models of pumps. https://www.leybold.com/en/products/vacuum-pumps/small-dry-pumps/ecodry-plus-multistage-roots-vacuum-pump https://www.leybold.com/en/products/vacuum-pumps/cryogenic-systems 
+17,Popup,"595,3","312,3","799,3","426,3", 
+17,Highlight,"80,5","337,2","528,9","373,0","Here, expand a bit. Specify the model of the MFC, then also say that to reach specific pressures, we used an inline valve (MODEL) to conttrol the pumping speed, which also increase the real base pressure, and then what were the pressures (and the gauge used to read out the pressures). Make a small table with pump positions + real base pressures + sccms + final partial pressures of the gas And better to call it not the ""chamber pressure"" but ""working pressure"" "
+17,Popup,"595,3","258,5","799,3","372,5", 
+17,StrikeOut,"166,2","372,6","182,0","391,5", 
+17,Popup,"595,3","276,5","799,3","390,5", 
+17,Caret,"170,2","372,7","183,8","383,8",an ultimate
+17,Popup,"595,3","268,9","799,3","382,9", 
+17,Caret,"241,9","300,6","255,5","311,6","a cathodic arc source of the ""minigun"" [cite Andre, check where he introduced that] type with "
+17,Popup,"595,3","196,7","799,3","310,7", 
+17,StrikeOut,"259,8","264,3","291,3","283,3", 
+17,Popup,"595,3","168,2","799,3","282,2", 
+17,Caret,"206,3","264,4","219,9","275,5",a length of
+17,Popup,"595,3","160,6","799,3","274,6", 
+17,Highlight,"79,6","435,1","351,6","456,8","I think you can drop the sub-sections here, because you split the info between 3.1.1 and 3.1.2 in a confusing way"
+17,Popup,"595,3","342,2","799,3","456,2", 
+17,Highlight,"80,5","193,2","528,9","246,9",This should go after you calculated the field and explained the coil later on.
+17,Popup,"595,3","132,4","799,3","246,4", 
+17,Highlight,"116,5","246,9","422,7","264,8","this can go a bit later, beginning of the current ""power"" section"
+17,Popup,"595,3","150,3","799,3","264,3", 
+17,Highlight,"311,2","229,0","472,9","246,9","What does it mean ""accelerator""? Here, you should utilize the knowledge you specified about ""enhancing with magnetic field"" from the theory background that you will elaborate on, and say a coil to enhance the ion charge states leaving the source has been wound around the cylindrical anode and connected to a separate pulsing unit "
+17,Popup,"595,3","132,4","799,3","246,4", 
+17,Highlight,"290,1","264,9","409,8","282,7",Specify the model. Also for the coil
+17,Popup,"595,3","168,2","799,3","282,2", 
+17,Highlight,"80,5","139,4","528,9","211,0","This should go to the end of 3.1, as a transition to diagnostics part. First, you describe the vacuum + gas things Second, you describe power circuits, arc currents, coil B-field and currents. Third, you mention the diagnostics and deposition + sync triggering of everything. Then starts 3.2."
+17,Popup,"595,3","96,5","799,3","210,5", 
+17,Highlight,"80,5","67,0","528,9","102,8",Correct accordingly with the modified theory and previous comments
+17,Popup,"595,3","-11,7","799,3","102,3", 
+17,Caret,"238,8","102,6","252,4","113,7",used in this work
+17,Popup,"595,3","-1,2","799,3","112,8", 
+18,Widget,"1,0","837,9","4,0","840,9", 
+18,StrikeOut,"65,8","700,5","515,3","737,4", 
+18,Popup,"595,3","622,3","799,3","736,3", 
+18,Caret,"84,9","700,7","98,6","711,8",measurement plane
+18,Popup,"595,3","596,8","799,3","710,8", 
+18,StrikeOut,"334,3","682,2","387,0","701,2", 
+18,Popup,"595,3","586,1","799,3","700,1", 
+18,Caret,"375,2","682,4","388,8","693,5",is used to analyze
+18,Popup,"595,3","578,5","799,3","692,5", 
+18,Caret,"124,1","664,5","137,7","675,6",s of ion species
+18,Popup,"595,3","560,6","799,3","674,6", 
+18,StrikeOut,"400,9","682,2","430,4","701,2", 
+18,Popup,"595,3","586,1","799,3","700,1", 
+18,Highlight,"66,4","646,9","514,7","682,7",are you talking about the experiments where you moved the source in the radial direction? or are you talking about changing the distance along the axis? We didn't do the former.
+18,Popup,"595,3","568,2","799,3","682,2", 
+18,Highlight,"66,4","629,0","514,7","664,8","Think about where you introduce it. If at the end of 3.1 and very shortly to guide into 3.2, then it would flow better."
+18,Popup,"595,3","550,3","799,3","664,3", 
+18,Highlight,"446,8","629,0","514,7","646,9","model, how many samples (resolution)?"
+18,Popup,"595,3","532,3","799,3","646,3", 
+18,Highlight,"66,4","593,1","514,7","628,9","one of the channels is (V_cathode - ground), another is (V_anode - ground)"
+18,Popup,"595,3","514,4","799,3","628,4", 
+18,Highlight,"66,4","575,2","514,7","611,0","Here you need to specify what probes we use to monitor the voltage and the current. Overall, to describe the experimental setup, do not be shy and adapt information from our published papers, when the exp details are the same."
+18,Popup,"595,3","496,5","799,3","610,5", 
+18,Highlight,"66,4","557,3","123,5","575,2",model
+18,Popup,"595,3","460,6","799,3","574,6", 
+18,StrikeOut,"332,8","556,8","413,1","575,7", 
+18,Popup,"595,3","460,6","799,3","574,6", 
+18,StrikeOut,"451,6","556,8","512,0","575,7", 
+18,Popup,"595,3","460,6","799,3","574,6", 
+18,Caret,"500,2","556,9","513,8","568,0", 
+18,Popup,"595,3","453,1","799,3","567,1", 
+18,Caret,"405,1","556,6","419,1","568,0",the 
+18,Popup,"595,3","453,1","799,3","567,1", 
+18,StrikeOut,"143,0","538,8","278,2","557,8", 
+18,Popup,"595,3","442,7","799,3","556,7", 
+18,StrikeOut,"64,8","127,7","265,5","150,7", 
+18,Popup,"595,3","35,4","799,3","149,4", 
+18,Highlight,"66,4","521,4","514,7","557,2","Here is a catch - we don't ""trigger"" the ion probe and QCM, do we? We only trigger arc, coil, and mass spec The rest is just monitoring at the same time"
+18,Popup,"595,3","442,7","799,3","556,7", 
+18,Highlight,"66,4","84,9","514,7","120,7","info about arc and pulse currents should go to this part of the text (but this part of the text after describing your circuits, before diagnostics)"
+18,Popup,"595,3","6,2","799,3","120,2", 
+19,Widget,"1,0","837,9","4,0","840,9", 
+19,Link,"315,6","121,3","332,6","133,9", 
+19,Link,"235,6","85,5","252,5","98,0", 
+19,Link,"497,7","66,9","517,6","80,8", 
+19,Highlight,"285,8","662,1","322,8","680,0",falling edge of cathode voltage (it is negative)
+19,Popup,"595,3","565,5","799,3","679,5", 
+19,Highlight,"194,5","680,0","391,9","697,9",I think only ERMS should be here
+19,Popup,"595,3","583,4","799,3","697,4", 
+19,Caret,"131,5","586,5","145,0","597,5",pulsed
+19,Popup,"595,3","482,6","799,3","596,6", 
+19,Caret,"425,2","321,0","438,8","332,1",.
+19,Popup,"595,3","217,1","799,3","331,1", 
+19,Highlight,"332,7","321,2","436,7","339,1",use different color or dash pattern for one of the pulses
+19,Popup,"595,3","224,6","799,3","338,6", 
+19,Highlight,"289,9","174,6","312,4","192,4",italic?
+19,Popup,"595,3","77,9","799,3","191,9", 
+19,Text,"289,9","168,4","313,9","192,4",add space before
+19,Popup,"595,3","78,4","799,3","192,4", 
+19,Highlight,"347,7","163,0","367,9","171,4","Units better in \text{} mode, non-italic, to distinguish from math symbols"
+19,Popup,"595,3","57,2","799,3","171,2", 
+19,Highlight,"80,5","120,8","528,9","174,5","this holds true for both emcoil current and arc current, make it clear"
+19,Popup,"595,3","60,0","799,3","174,0", 
+19,Caret,"232,5","102,6","246,1","113,7",pulse
+19,Popup,"595,3","-1,2","799,3","112,8", 
+19,Highlight,"80,5","84,9","528,9","120,7",did you do a systematic check to claim that? I'd just say that it drops within a pulse due to the design of the pulsing unit in the power supplies
+19,Popup,"595,3","6,2","799,3","120,2", 
+19,Highlight,"311,4","84,9","528,9","102,8","averaged over how many pulses? Fig 3.2 shows two current curves, explain each. Also, if you are going to use and show the electrical data later on, you should specify whatever you do with it here (e.g. averaging and stuff)."
+19,Popup,"595,3","-11,7","799,3","102,3", 
+20,Widget,"1,0","837,9","4,0","840,9", 
+20,Link,"303,9","693,9","320,8","707,9", 
+20,Link,"293,5","640,8","310,5","653,3", 
+20,Link,"111,3","513,3","128,3","528,6", 
+20,Highlight,"64,3","753,3","280,3","779,4","As discussed, make a smoother transition to this block Also, somewhere the paragraph describing film deposition should be. I suggest to rename ""insitu"" and ""exsitu"" chapters to ""plasma diagnostics"" and ""thin film deposition and characterization"""
+20,Popup,"595,3","664,6","799,3","778,6", 
+20,StrikeOut,"65,9","398,6","515,3","479,9",We discussed and checked this. Delet.
+20,Popup,"595,3","364,8","799,3","478,8", 
+20,Caret,"243,5","479,1","257,1","490,2",and repelling of electrons
+20,Popup,"595,3","375,3","799,3","489,3", 
+20,StrikeOut,"114,1","718,8","378,2","741,8", 
+20,Popup,"595,3","626,6","799,3","740,6", 
+20,Caret,"363,8","719,0","380,4","732,5","ion current probe (keep titles simple, you can elaborate in text)"
+20,Popup,"595,3","617,4","799,3","731,4", 
+20,Text,"414,0","590,8","438,0","614,8",How about a photo instead?
+20,Popup,"595,3","500,8","799,3","614,8", 
+20,Text,"64,3","755,4","88,3","779,4","In the beginning of this section, would be nice to remind the reader of the main goal - ion flux vs total deposited flux, can we see the increase in neutrals?"
+20,Popup,"595,3","665,4","799,3","779,4", 
+20,StrikeOut,"425,7","657,6","474,5","676,6", 
+20,Popup,"595,3","561,5","799,3","675,5", 
+20,Caret,"462,6","657,8","476,3","668,9",Kapton
+20,Popup,"595,3","553,9","799,3","667,9", 
+20,Highlight,"198,1","658,2","301,4","676,0","""nail head"" or smth like that, and explain the design choice - why would you do that"
+20,Popup,"595,3","561,5","799,3","675,5", 
+20,Highlight,"121,8","543,6","323,8","561,5","there is no specific holder introduced yet, you do it nicely in 3.2.3. Just say ""from electrically grounded surrounding parts"""
+20,Popup,"595,3","447,0","799,3","561,0", 
+20,Highlight,"66,4","529,2","514,7","561,5",Show that on a photo
+20,Popup,"595,3","447,0","799,3","561,0", 
+20,Highlight,"66,4","150,2","514,7","197,0","Write a couple of sentences about the protection circuit for the DC bias supply (what diodes, resistors, and why)"
+20,Popup,"595,3","82,4","799,3","196,4", 
+20,Highlight,"66,4","67,0","514,7","138,6","Rewrite this whole paragraph. AFAIK, we filter out the high-frequency noise from the arc. At the same time, please introduce the RC constant and speak about importance of waiting between the pulses in this experiment (remember we had to wait enough to let the capacitors discharge)"
+20,Popup,"595,3","24,1","799,3","138,1", 
+21,Widget,"1,0","837,9","4,0","840,9", 
+21,Link,"375,8","137,4","525,4","151,3", 
+21,Link,"84,0","121,6","445,3","136,9", 
+21,Link,"412,9","87,8","426,6","97,3", 
+21,Text,"244,8","605,7","268,8","629,7","You forgot mean charge state in the denominator. As is, the formula is correct only if all ions are 1+."
+21,Popup,"595,3","515,7","799,3","629,7", 
+21,StrikeOut,"302,8","646,2","359,6","665,1", 
+21,Popup,"595,3","550,0","799,3","664,0", 
+21,Caret,"347,8","646,3","361,4","657,4",measured
+21,Popup,"595,3","542,5","799,3","656,5", 
+21,Highlight,"395,4","646,0","424,2","659,9","correct accordingly (no ""divider"" effect)"
+21,Popup,"595,3","545,5","799,3","659,5", 
+21,Highlight,"457,7","664,6","528,9","682,5",model?
+21,Popup,"595,3","568,0","799,3","682,0", 
+21,Highlight,"146,0","543,2","211,2","561,0",what DC offsets are you talking about here?
+21,Popup,"595,3","446,5","799,3","560,5", 
+21,Highlight,"98,1","664,6","315,8","682,5","Show the exemplary graph with this voltage waveform. Tell how you average the signal and over how many pulses, and what repetition rate is used to ensure that the capacitors are discharged"
+21,Popup,"595,3","568,0","799,3","682,0", 
+21,Text,"244,8","605,7","268,8","629,7","I think, the formulas for the fluxes should go after you introduced different diagnostics. Here you can just say about the ion current."
+21,Popup,"595,3","515,7","799,3","629,7", 
+21,Highlight,"232,0","456,7","296,8","474,6",operation it is not sputtering!
+21,Popup,"595,3","360,0","799,3","474,0", 
+21,Highlight,"80,5","166,4","528,9","198,7",!!!
+21,Popup,"595,3","84,2","799,3","198,2", 
+22,Widget,"1,0","837,9","4,0","840,9", 
+22,Link,"341,1","583,2","354,8","592,7", 
+22,Link,"359,8","583,2","373,5","592,7", 
+22,Link,"137,3","476,5","151,0","486,0", 
+22,Highlight,"210,8","745,0","227,5","758,6",I would prefer using \rho as the mass density
+22,Popup,"595,3","644,2","799,3","758,2", 
+22,Highlight,"487,2","706,4","511,5","724,2","non italic, space inbetween"
+22,Popup,"595,3","609,7","799,3","723,7", 
+22,Highlight,"311,1","706,4","363,2","724,2","or ""active area"""
+22,Popup,"595,3","609,7","799,3","723,7", 
+22,Highlight,"276,7","616,1","306,0","634,0",loads
+22,Popup,"595,3","519,5","799,3","633,5", 
+22,Highlight,"66,4","388,7","514,7","634,0","Is this really necessary? We don't use it in this work, you could just say that it requires a more sofisticated approach, but we operate in linear regime because dadada"
+22,Popup,"595,3","519,5","799,3","633,5", 
+22,Highlight,"66,4","262,6","514,7","298,4","As an output of this paragraph, I would formulate the ""mass deposition rate"" [g/cm^2 s] as a parameter, akin to ion current from the probe paragraph."
+22,Popup,"595,3","183,9","799,3","297,9", 
+22,Text,"66,4","274,4","90,4","298,4",The particle fluxes will be calculated later then.
+22,Popup,"595,3","184,4","799,3","298,4", 
+22,Highlight,"114,7","219,0","415,2","240,8","""Synchronizing ion probe and QCM measurements"" or ""Simultaneous ..."" In this paragraph, you should describe your approach to the measurement - how many pulses, with what repetition rate, describe and reason their mounting and positioning relative to each other."
+22,Popup,"595,3","126,1","799,3","240,1", 
+22,Highlight,"66,4","102,8","514,7","138,6","I dont understand this. Just write again the area of quartz crystal and the probe, say they are slightly different but not hugely"
+22,Popup,"595,3","24,1","799,3","138,1", 
+22,Highlight,"408,6","102,8","514,7","120,7",decide what is your parameter to show at the end of 3.2.1 - current or current density
+22,Popup,"595,3","6,2","799,3","120,2", 
+22,Highlight,"89,1","84,9","175,4","102,8",should be mass deposition rate
+22,Popup,"595,3","-11,7","799,3","102,3", 
+23,Widget,"1,0","837,9","4,0","840,9", 
+23,RichMedia,"129,0","615,2","480,5","771,0",media embedded by media9 [1.25(2022/08/04)]
+23,Widget,"129,0","615,2","129,0","615,2", 
+23,Link,"433,7","511,0","441,5","520,6", 
+23,Link,"478,1","181,6","491,8","191,1", 
+23,Link,"207,0","127,8","214,8","137,4", 
+23,Highlight,"80,5","508,2","528,9","544,0","It is meant to mitigate the gradients, but even then is not a ""cure"", as is now evident from your measurements! Correct accordingly."
+23,Popup,"595,3","429,4","799,3","543,4", 
+23,Highlight,"80,5","472,3","528,9","508,1","rephrase that more to ""bring the flux and plasma conditions as close as possible"""
+23,Popup,"595,3","393,6","799,3","507,6", 
+23,StrikeOut,"80,0","576,3","144,6","595,2", 
+23,Popup,"595,3","480,2","799,3","594,2", 
+23,Text,"99,8","671,4","123,8","695,4","In principle, this image can do to an appendix."
+23,Popup,"595,3","581,4","799,3","695,4", 
+23,Highlight,"128,9","432,2","364,2","453,9",Keep the naming of the device consistent throughout the thesis. And this device is more than jut a quadrupole mass spec either Energy-resolved mass spectrometer (ERMS) or Mass and energy analyzer (MEA)
+23,Popup,"595,3","339,3","799,3","453,3", 
+23,Highlight,"260,5","407,4","295,8","425,2", 
+23,Popup,"595,3","310,7","799,3","424,7", 
+23,Highlight,"80,5","335,6","528,9","371,4",write it like we (and others) do in papers - it can measure distributions of energy-to-charge (E/q) ratios at fixed mass-to-charge ratios (M/q) and vice versa
+23,Popup,"595,3","256,9","799,3","370,9", 
+23,Highlight,"169,6","299,7","205,0","317,6", 
+23,Popup,"595,3","203,1","799,3","317,1", 
+23,Highlight,"426,7","142,9","459,4","160,8","also, be consistent with math symbols - if you use small m or large M as mass, use it everywhere throughout the thesis. Same for charge - I remember you used large Q for mean charge state - and I'd advise to use it also here."
+23,Popup,"595,3","46,2","799,3","160,2", 
+24,Widget,"1,0","837,9","4,0","840,9", 
+24,Link,"381,2","652,2","389,0","661,7", 
+24,Link,"394,2","652,2","407,9","661,7", 
+24,Link,"73,1","291,0","81,0","300,6", 
+24,Link,"223,1","124,6","230,9","134,1", 
+24,Highlight,"128,7","331,5","171,5","349,4", 
+24,Popup,"595,3","234,8","799,3","348,8", 
+24,Highlight,"66,4","121,7","514,7","157,5",this goes before explaining what you measured
+24,Popup,"595,3","43,0","799,3","157,0", 
+24,Highlight,"66,4","176,5","514,7","248,1","maybe you talk about corrections later, after describing the measurement itself. You also must talk about the corrections for the mass transmission function. And in this paragraph, you can also show an exemplary measurement and all the averaging that leads to Qmean, Ekin, Epot."
+24,Popup,"595,3","133,6","799,3","247,6", 
+24,Text,"66,4","224,1","90,4","248,1","At the end of this paragraph, you can make a transition to calculation of the fluxes."
+24,Popup,"595,3","134,1","799,3","248,1", 
+25,Widget,"1,0","837,9","4,0","840,9", 
+25,Link,"391,9","141,8","405,6","151,3", 
+25,Text,"77,8","542,6","101,8","566,6","The last in 3.2, you make a paragraph on calculating the ion flux and the total deposited flux. In the ion flux, you make clear how you combine ion probe and the mass spec In the total deposited flux, you also derive a formula and identify that you to deposit films to know the composition of total flux and also mass density."
+25,Popup,"595,3","452,6","799,3","566,6", 
+25,Highlight,"122,6","516,7","325,0","542,8","As mentioned earlier, rename it to ""thin film deposition and characterization"" First paragraph should be about the deposition. Mention how you position the substrates - Si (100), and the other relevant process parameters. No need to mention sapphire xD"
+25,Popup,"595,3","428,0","799,3","542,0", 
+25,Highlight,"79,6","416,8","338,9","438,6","Here, make clear that you will use mass density in your flux calculation."
+25,Popup,"595,3","323,9","799,3","437,9", 
+25,Highlight,"79,6","284,2","458,1","305,9","Also, make clear that you will use the composition in your flux calculation."
+25,Popup,"595,3","191,3","799,3","305,3", 
+25,Highlight,"80,5","192,7","188,7","210,6",Specify the device name
+25,Popup,"595,3","96,0","799,3","210,0", 
+25,Highlight,"203,5","138,9","390,2","156,8",qcm gives you mass deposition rate! for thickness you also need mass density from XRR.
+25,Popup,"595,3","42,3","799,3","156,3", 
+26,Widget,"1,0","837,9","4,0","840,9", 
+26,Link,"348,1","650,2","361,8","659,7", 
+26,Link,"335,8","87,8","343,7","97,3", 
+26,StrikeOut,"65,9","682,7","97,3","701,6", 
+26,Popup,"595,3","586,5","799,3","700,5", 
+26,Caret,"85,5","682,8","99,1","693,9",in this work
+26,Popup,"595,3","579,0","799,3","693,0", 
+26,Highlight,"64,3","598,4","259,1","624,5",This should go to appendix (wth source codes)
+26,Popup,"595,3","509,8","799,3","623,8", 
+26,Highlight,"66,4","408,3","514,7","426,2","this you should mention in the measurements section, i.e. number of pulses and averaging."
+26,Popup,"595,3","311,7","799,3","425,7", 
+26,Highlight,"108,4","197,8","251,4","223,9","This should also go to appendix, but you should reference the paragraphs from corresponding diagnostics chapters"
+26,Popup,"595,3","109,1","799,3","223,1", 
+26,Highlight,"81,6","138,7","266,6","156,6",again - pick your style - ERMS/MEA
+26,Popup,"595,3","42,0","799,3","156,0", 
+26,StrikeOut,"65,9","646,8","515,3","683,7","Yes you can use XRR for very thin films, but it's too bold to state it gives higher accuracy. Only if the surface quality is great - then yes"
+26,Popup,"595,3","568,6","799,3","682,6", 
+26,Caret,"217,6","646,7","231,6","658,1",mass
+26,Popup,"595,3","543,1","799,3","657,1", 
+26,Caret,"284,7","646,7","298,7","658,1",surface
+26,Popup,"595,3","543,1","799,3","657,1", 
+26,Highlight,"83,9","336,3","119,3","354,2",ERMS/MEA (discussed above)
+26,Popup,"595,3","239,7","799,3","353,7", 
+26,Highlight,"66,4","264,6","514,7","336,2",This should be explained with formulas in the methodology/measurements section
+26,Popup,"595,3","221,7","799,3","335,7", 
+26,StrikeOut,"65,9","371,9","515,3","408,8", 
+26,Popup,"595,3","293,7","799,3","407,7", 
+26,StrikeOut,"107,7","197,0","252,2","224,6", 
+26,Popup,"595,3","109,1","799,3","223,1", 
+26,Caret,"234,9","197,2","254,8","213,4",Uncertainty analysis
+26,Popup,"595,3","98,0","799,3","212,0", 
+26,StrikeOut,"114,1","163,4","269,0","186,4", 
+26,Popup,"595,3","71,1","799,3","185,1", 
+26,Caret,"254,6","163,6","271,2","177,1",ERMS (or MEA)
+26,Popup,"595,3","61,9","799,3","175,9", 
+26,Highlight,"66,4","67,0","514,7","102,8","What you imply here, is called ""tuning the mass-energy analyzer"". "
+26,Popup,"595,3","-11,7","799,3","102,3", 
+27,Widget,"1,0","837,9","4,0","840,9", 
+27,Link,"382,9","740,1","396,6","749,7", 
+27,Link,"230,7","556,0","241,0","568,6", 
+27,Link,"303,7","450,8","311,5","460,3", 
+27,Link,"104,4","250,4","112,2","259,9", 
+27,Link,"128,5","159,5","136,3","169,0", 
+27,Link,"331,7","141,6","339,6","151,1", 
+27,Link,"435,5","85,5","461,6","98,0", 
+27,Highlight,"80,5","592,6","528,9","664,3",You mean that instrumental thing that always appeared at the same voltage?
+27,Popup,"595,3","549,7","799,3","663,7", 
+27,Highlight,"80,5","430,0","528,9","573,4","Overall, rewrite 3.5.1 after you introduce the formulas for averaging in the methodology section add error propagation here"
+27,Popup,"595,3","458,8","799,3","572,8", 
+27,Highlight,"80,5","229,6","528,9","265,4",accounted for in the uncertainty for the averaged value
+27,Popup,"595,3","150,9","799,3","264,9", 
+27,Highlight,"161,6","755,2","381,2","773,1","Careful! Again, one thing is ""tuning"" that we did to get the stable ion signal flying through the sequence of electrodes inside the device, and completely another thing is ""correction for mass transmission function"" which has been done by a colleague. And the second is not done with arc plasma at all. "
+27,Popup,"595,3","658,5","799,3","772,5", 
+27,Highlight,"80,5","701,4","528,9","755,1",calibration -> tuning
+27,Popup,"595,3","640,6","799,3","754,6", 
+27,StrikeOut,"301,3","681,7","355,5","700,6", 
+27,Popup,"595,3","585,6","799,3","699,6", 
+27,Caret,"343,7","681,8","357,3","692,9",tune
+27,Popup,"595,3","578,0","799,3","692,0", 
+27,StrikeOut,"310,3","663,8","375,0","682,7", 
+27,Popup,"595,3","567,7","799,3","681,7", 
+27,Caret,"363,1","663,9","376,7","675,0",tune
+27,Popup,"595,3","560,1","799,3","674,1", 
+27,StrikeOut,"367,8","681,7","471,8","700,6", 
+27,Popup,"595,3","585,6","799,3","699,6", 
+27,Caret,"459,9","681,8","473,6","692,9",ERMS/MEA
+27,Popup,"595,3","578,0","799,3","692,0", 
+27,StrikeOut,"221,3","645,9","285,9","664,8", 
+27,Popup,"595,3","549,7","799,3","663,7", 
+27,Caret,"274,1","646,0","287,7","657,1",tuning
+27,Popup,"595,3","542,2","799,3","656,2", 
+27,Text,"80,5","640,3","104,5","664,3","Yeah, if you mention it, then there should be a paragraph in the appendix with the data on it."
+27,Popup,"595,3","550,3","799,3","664,3", 
+27,Highlight,"80,5","283,4","528,9","373,0",A plot with the current waveform would be great here as a visual assist (and its appendix anyway).
+27,Popup,"595,3","258,4","799,3","372,4", 
+27,Highlight,"98,1","210,4","503,7","228,3","this flows well into 4.1, so both parts should be in the same appendix."
+27,Popup,"595,3","113,8","799,3","227,8", 
+27,Highlight,"80,5","174,6","528,9","210,4",A question about a criterion for negligibility of sheath effects can arise. Do we have an estimation?
+27,Popup,"595,3","95,8","799,3","209,8", 
+27,Highlight,"80,5","102,8","528,9","156,6","We cannot just say ""it leads to inaccuracies"". If you mention a source of inaccuracies, you should evaluate/estimate it."
+27,Popup,"595,3","42,0","799,3","156,0", 
+28,Widget,"1,0","837,9","4,0","840,9", 
+28,Link,"138,8","704,3","152,5","713,8", 
+28,Link,"337,5","309,3","351,2","318,9", 
+28,Highlight,"65,4","642,0","320,3","663,7",merge with 3.5.2
+28,Popup,"595,3","549,1","799,3","663,1", 
+28,StrikeOut,"115,9","683,0","149,0","701,9", 
+28,Popup,"595,3","586,8","799,3","700,8", 
+28,Caret,"137,2","683,1","150,8","694,2",probe
+28,Popup,"595,3","579,3","799,3","693,3", 
+28,Text,"66,4","695,3","90,4","719,3","And it does not ""affect the accuracy o"
+28,Popup,"595,3","605,3","799,3","719,3", 
+28,Highlight,"66,4","683,5","514,7","719,3",Incorrect. It does not affect the accuracy of QCM measurement itself. It means different fluxes because of the gradients.
+28,Popup,"595,3","604,8","799,3","718,8", 
+28,Highlight,"66,4","544,7","514,7","616,7","As I wrote above, add error propagation for each technique in a separate paragraph. Instead of having ""Paragraph with sources of errors - method 1,2,3"" and """"Paragraph with error propagation - method 1,2,3"" do ""Paragraph with uncertainty analysis - method 1, including blabla + propagation + extra experiments if there are any"", etc"
+28,Popup,"595,3","502,2","799,3","616,2", 
+28,Highlight,"66,3","358,0","514,7","491,0",Introduction of the flux equations should be done in the methodology chapter in its separate section.
+28,Popup,"595,3","376,4","799,3","490,4", 
+28,Highlight,"66,4","306,5","514,7","342,3","For this, make sure you use the variance formula (see ""Non-linear combinations/Simplification"") https://en.wikipedia.org/wiki/Propagation_of_uncertainty"
+28,Popup,"595,3","209,8","799,3","323,8", 
+28,Highlight,"66,4","67,0","514,7","169,0","Same here, goes to a separate section in methodology chapter"
+28,Popup,"595,3","54,5","799,3","168,5", 
+29,Widget,"1,0","837,9","4,0","840,9", 
+30,Widget,"1,0","837,9","4,0","840,9", 
+30,Link,"316,4","370,3","333,3","382,9", 
+30,Link,"121,5","243,8","138,4","256,3", 
+30,Link,"302,9","155,4","310,8","164,9", 
+30,Highlight,"64,3","467,7","516,8","493,8","This whole chapter better fits in the appendix with the uncertainty analysis, because here you take a deep dive and perform all these extra measurements."
+30,Popup,"595,3","379,0","799,3","493,0", 
+30,Highlight,"66,4","369,7","514,7","423,5","This phrase is unspecific. What do you mean by functionality? Remove, just state directly that series of tests have been performed for the probe to check the I/V-curent + ion saturation regime,"
+30,Popup,"595,3","309,0","799,3","423,0", 
+30,Highlight,"66,4","207,4","514,7","243,2","normally you would first introduce the equation, and then say that it was used to fit the data and represented with a green line."
+30,Popup,"595,3","128,6","799,3","242,6", 
+31,Widget,"1,0","837,9","4,0","840,9", 
+31,Link,"293,6","260,4","301,5","269,9", 
+31,Link,"291,6","137,1","308,5","151,1", 
+31,Highlight,"79,6","372,9","401,5","394,7","Merge with 4.1.1 (and actually name it Analysis of the I-V curve, or smth like ""ensuring probe operation in saturation regime"") Some intro text you can put in 4.1 before 4.1.1"
+31,Popup,"595,3","280,0","799,3","394,0", 
+31,Text,"503,6","546,8","527,6","570,8","It's not a ""saturation fit"" but the I-V fit."
+31,Popup,"595,3","456,8","799,3","570,8", 
+31,Highlight,"80,5","485,5","528,9","517,8","No need to repeat the formula in the title, you already have this in the legend. Just rename ""saturation fit"" to I-V fit"
+31,Popup,"595,3","403,3","799,3","517,3", 
+31,Highlight,"80,5","329,2","235,2","347,1","By this, do you mean actually that the sheath is not flat anymore and you attract ions also ""from the side""?"
+31,Popup,"595,3","232,6","799,3","346,6", 
+31,StrikeOut,"509,6","328,7","529,4","347,6", 
+31,Popup,"595,3","232,6","799,3","346,6", 
+31,Caret,"517,6","328,8","531,2","339,9",for
+31,Popup,"595,3","225,0","799,3","339,0", 
+32,Widget,"1,0","837,9","4,0","840,9", 
+32,Link,"346,6","348,4","363,5","360,9", 
+32,Link,"453,3","330,4","470,3","343,0", 
+32,StrikeOut,"162,5","483,4","334,2","502,4", 
+32,Popup,"595,3","387,3","799,3","501,3", 
+32,StrikeOut,"199,4","443,6","223,8","466,6", 
+32,Popup,"595,3","351,4","799,3","465,4", 
+32,Caret,"209,4","443,8","225,9","457,3",v
+32,Popup,"595,3","342,1","799,3","456,1", 
+32,Caret,"104,2","401,1","117,8","412,2",value of
+32,Popup,"595,3","297,3","799,3","411,3", 
+32,Caret,"225,7","401,1","239,3","412,2",generated by EM-coil
+32,Popup,"595,3","297,3","799,3","411,3", 
+32,Highlight,"66,4","329,9","350,4","347,8",doesn't agree with what I see in the gifure.
+32,Popup,"595,3","233,2","799,3","347,2", 
+32,Highlight,"269,2","99,0","514,7","116,9",small first letters
+32,Popup,"595,3","2,3","799,3","116,3", 
+33,Widget,"1,0","837,9","4,0","840,9", 
+33,Link,"496,1","524,0","522,2","536,5", 
+33,Link,"341,0","348,3","357,9","360,9", 
+33,Link,"155,9","139,3","178,7","151,8", 
+33,Link,"201,5","139,3","225,0","151,8", 
+33,Highlight,"80,5","559,3","528,9","595,1","""To produce smoother curves"" is not a valid reason. ""To improve the signal-to-noise ratio"" is. Also, I don't understand this statement by you here. There is a ""voltage drop"" in the very beginning of the pulse, which is reflective of the ignition and much less of ""burning voltage""."
+33,Popup,"595,3","480,6","799,3","594,6", 
+33,Text,"80,5","571,1","104,5","595,1",reference a figure with voltage wavelengths to explain your point here
+33,Popup,"595,3","481,1","799,3","595,1", 
+33,Highlight,"78,5","447,8","531,0","501,1","This is what should be in the beginning of the ""Results"" section. And it's better to name the title ""mass deposition rate and ion current"", not by diagnostics, but by plasma properties."
+33,Popup,"595,3","386,3","799,3","500,3", 
+33,Highlight,"101,1","365,7","454,1","383,6",should be mass deposition rate and ion current.
+33,Popup,"595,3","269,0","799,3","383,0", 
+33,Highlight,"420,3","419,5","465,0","437,3", 
+33,Popup,"595,3","322,8","799,3","436,8", 
+33,Caret,"376,5","365,5","390,1","376,6",directly
+33,Popup,"595,3","261,6","799,3","375,6", 
+33,StrikeOut,"80,0","84,4","149,2","103,3", 
+33,Popup,"595,3","-11,7","799,3","102,3", 
+33,Caret,"137,4","84,5","151,0","95,6",partial
+33,Popup,"595,3","-19,3","799,3","94,7", 
+33,StrikeOut,"80,0","66,5","529,4","103,3","no need to repeat, it is clear that we have residual gas."
+33,Popup,"595,3","-11,7","799,3","102,3", 
+34,Widget,"1,0","837,9","4,0","840,9", 
+34,Text,"414,0","760,5","438,0","784,5",N2
+34,Popup,"595,3","670,5","799,3","784,5", 
+34,Text,"99,8","769,4","123,8","793,4",mass dep rate
+34,Popup,"595,3","679,4","799,3","793,4", 
+34,Highlight,"226,3","108,2","260,1","126,1",should be mass dep rate
+34,Popup,"595,3","11,6","799,3","125,6", 
+34,Highlight,"315,3","93,8","370,0","111,6","If you avg over 64 everywhere in the results, then just specify this earlier in the methodology chapter."
+34,Popup,"595,3","-2,9","799,3","111,1", 
+35,Widget,"1,0","837,9","4,0","840,9", 
+35,Link,"280,0","719,0","306,0","733,0", 
+35,Link,"218,4","683,2","244,5","697,1", 
+35,Link,"220,1","629,4","246,1","643,3", 
+35,Link,"506,0","486,2","525,4","498,7", 
+35,Link,"207,1","84,8","224,0","98,8", 
+35,Caret,"376,8","754,5","390,8","765,9",s
+35,Popup,"595,3","651,0","799,3","765,0", 
+35,StrikeOut,"335,3","736,5","350,0","755,4", 
+35,Popup,"595,3","640,4","799,3","754,4", 
+35,StrikeOut,"230,1","521,2","384,0","540,1", 
+35,Popup,"595,3","425,0","799,3","539,0", 
+35,Highlight,"80,5","521,7","528,9","611,3","Rephrase that. If you say ""first we will look at metallic"" then you should say ""then second we will look at reactive"" Or combine them and just state the parameter variations (distance, magnetic field, nitrogen pressure)"
+35,Popup,"595,3","496,8","799,3","610,8", 
+35,Highlight,"347,1","163,0","528,9","180,9",should be mass dep rate
+35,Popup,"595,3","66,4","799,3","180,4", 
+35,Highlight,"125,7","148,6","366,8","166,5",is it? or also over 64 pulses? can raise questions why you use different statistics here
+35,Popup,"595,3","51,9","799,3","165,9", 
+35,Highlight,"172,0","119,7","297,3","137,6",uncertainty analyzed in Appendix XXX
+35,Popup,"595,3","23,0","799,3","137,0", 
+36,Widget,"1,0","837,9","4,0","840,9", 
+36,Link,"262,9","560,9","270,7","570,4", 
+36,Link,"341,7","560,9","355,4","570,4", 
+36,Link,"340,2","195,0","360,1","207,5", 
+36,Highlight,"66,4","737,3","514,7","773,1","This is true for all distances. To claim that the ""enhancement is strongest"" you have to normalize these 3 graphs to some point and see the tilts."
+36,Popup,"595,3","658,5","799,3","772,5", 
+36,Highlight,"66,4","629,7","514,7","665,5",Gyroenergy?!
+36,Popup,"595,3","551,0","799,3","665,0", 
+36,StrikeOut,"328,7","593,3","356,9","612,2", 
+36,Popup,"595,3","497,2","799,3","611,2", 
+36,Caret,"345,1","593,5","358,7","604,6",one
+36,Popup,"595,3","489,6","799,3","603,6", 
+37,Widget,"1,0","837,9","4,0","840,9", 
+37,Text,"148,0","769,9","172,0","793,9","yeah, maybe its not necessary to have a separate paragraph for metallic case"
+37,Popup,"595,3","679,9","799,3","793,9", 
+37,Text,"311,9","74,5","335,9","98,5","Definitely some IEDFs (or at least show some exemplary IEDFs in Methodology, and/or in Appendix)"
+37,Popup,"595,3","-15,5","799,3","98,5", 
+38,Widget,"1,0","837,9","4,0","840,9", 
+39,Widget,"1,0","837,9","4,0","840,9", 
+39,Link,"394,9","284,8","411,9","297,3", 
+39,Highlight,"78,5","753,3","265,1","779,4","As discussed above, abandon ""in-situ-ex-situ"" naming. This is about film deposition and characterization"
+39,Popup,"595,3","664,6","799,3","778,6", 
+39,Highlight,"80,5","284,2","528,9","391,7",This belongs to the methodology section
+39,Popup,"595,3","277,2","799,3","391,2", 
+39,Highlight,"146,1","525,0","352,6","542,9","Just ""Photographs"" :D"
+39,Popup,"595,3","428,3","799,3","542,3", 
+40,Widget,"1,0","837,9","4,0","840,9", 
+41,Widget,"1,0","837,9","4,0","840,9", 
+42,Widget,"1,0","837,9","4,0","840,9", 
+43,Widget,"1,0","837,9","4,0","840,9", 
+44,Widget,"1,0","837,9","4,0","840,9", 
+44,Link,"284,5","346,9","310,5","361,4", 
+45,Widget,"1,0","837,9","4,0","840,9", 
+46,Widget,"1,0","837,9","4,0","840,9", 
+47,Widget,"1,0","837,9","4,0","840,9", 
+47,Link,"160,0","502,6","525,4","515,5", 
+47,Link,"108,1","484,4","252,1","498,3", 
+48,Widget,"1,0","837,9","4,0","840,9", 
+49,Widget,"1,0","837,9","4,0","840,9", 
