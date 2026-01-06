@@ -1,5 +1,5 @@
 % !TeX root = main.tex
-\documentclass[12pt, twoside, a4paper, draft]{report}
+\documentclass[12pt, twoside, a4paper]{report}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
@@ -11,6 +11,8 @@
 \usepackage[dvipsnames, table]{xcolor}
 \usepackage{ circuitikz }
 \usepackage{fancyhdr}
+\usepackage[backend=biber, style=numeric, sorting=none]{biblatex}
+\addbibresource{references.bib}
 \fancyhf{}
 \fancyhead[L]{\nouppercase{\leftmark}}
 \fancyhead[R]{\thepage}
@@ -23,7 +25,6 @@
 \usepackage[Sonny]{fncychap}
 \usepackage{appendix}
 \usepackage{media9}
-\usepackage{booktabs}
 \definecolor{mypurple}{RGB}{129, 61, 156}
 
 
@@ -43,8 +44,6 @@
 
 \appendix
 \input{Tex_files/appendix.tex}
-
-\bibliographystyle{plain} 
-\bibliography{Tex_files/references.bib}
+\printbibliography
 
 \end{document}

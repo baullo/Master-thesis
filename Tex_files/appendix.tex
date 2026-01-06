@@ -1,4 +1,21 @@
 % !TeX root = main.tex
+\chapter{Experimental Methods supplementary}
+\section{Longer QCM depositions}\label{long_qcm}
+For larger mass loadings of the QCM, the linear approximation fails and the Z-match\texttrademark\ technique is used. This method, introduced by Lu and Lewis in 1972 on the basis of Miller and Bolef’s theoretical treatment \cite{Miller1968,Lu1972}, incorporates the acoustic properties of both the quartz and the deposited film via the acoustic impedance ratio  
+
+\begin{equation}
+	Z = \left(\frac{d_q \, \mu_q}{d_f \, \mu_f}\right)^{1/2},
+\end{equation}
+
+with $d$ and $\mu$ denoting the density and shear modulus of quartz ($q$) and film ($f$), respectively \cite{SQM160_manual}. In practice, the controller applies a correction function $f(Z)$ to the Sauerbrey relation,  
+
+\begin{equation}
+	m_f = \frac{N_{\text{AT}} \, d_q \, \pi r^2}{F_q^2} \cdot \Delta F \cdot f(Z),
+\end{equation}
+
+
+which compensates for the acoustic mismatch and extends the validity of thickness determination up to $\sim 0.4 F_q$.\\ 
+
 \chapter{Additional Plots}
 
 \begin{figure}[h]

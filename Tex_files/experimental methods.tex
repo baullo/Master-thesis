@@ -1,20 +1,54 @@
+% !TeX root = main.tex
 \chapter{Experimental Methodology}\label{chap:methods}
 
-\section{Experimental Apparatus and Setup}
+This chapter describes the experimental apparatus, diagnostic techniques, and data processing methods used to investigate the correlation between ion flux and mass deposition rate in pulsed filtered cathodic arc deposition of Ti--Al--N thin films. The approach combines three complementary diagnostics: a Langmuir probe for ion current measurements, a quartz crystal microbalance (QCM) for real-time mass deposition monitoring, and an energy-resolving mass spectrometer (ERMS) for charge-state-resolved ion energy distributions.
+
+
+\section{Experimental  Setup}
 
 \subsection{Vacuum \& Gas Infrastructure}
-The chamber was evacuated using a two-stage pumping system consisting of a turbo-molecular pump (backed by a rotary vane pump for initial roughing) and a cryogenic pump, achieving a base pressure on the order of $ 1 \times 10^{-5}$~Pa. Nitrogen gas (N$_2$, 99.999\% purity) was introduced via a mass flow controller (MFC), with chamber pressures ranging from 0.025--0.3~Pa during experiments,\\
 
-Plasma was generated using a water-cooled anode and a cathode with the aforementioned composition of 75~wt\% Ti; 25~wt\% Al (62.8~at\%; Ti 37.2~at\% Al) with a diameter of 6.35~mm and 38.1~mm long. The arc power supply operated in pulsed DC mode, delivering up to 450~A at a pulse frequency of 0.2--5~Hz, as well as powering the 90$^\circ$ curved macroparticle filter in series. An accelerator coil (EM-coil), capable of currents up to 850~A, was pulsed 200~$\mu$s before arc ignition, to stabilize the magnetic field. The QCM and Langmuir probe were mounted on a custom movable block at 10--20~cm from the filter exit, while the energy-resolving mass spectrometer (ERMS) was positioned using a linear feedthrough for external adjustment. Depositions were done with another movable mount and positioned at the necessary distances to the filter exit.\\
+The vacuum chamber was evacuated using a two-stage pumping system consisting of a dry rotor vacuum pump (Leybold ECODRY+) for roughing and a cryogenic pump (Leybold COOLVAC) for the main pumping line, achieving a base pressure on the order of $1 \times 10^{-5}$~Pa with the cryopump fully open. To control the working pressure during reactive deposition, the cryopump gate valve was partially closed to position 345 (approximately 34.5\% open), which reduced the effective pumping speed and increased the base pressure to approximately $1 \times 10^{-4}$~Pa. This configuration allowed finer control of the nitrogen partial pressure.\\
+Nitrogen gas (N$_2$, 99.999\% purity) was introduced via a mass flow controller \textcolor{red}{(MKS [MODEL NUMBER]}), with chamber pressures monitored using a \textcolor{red}{[GAUGE MODEL]}. The nitrogen flow rate of 1 to 12.8 ccms leads to chamber pressure ranges between 0.025 and 0.3 Pa.
 
-The vacuum chamber setup for cathodic arc plasma diagnostics and thin film deposition is shown in Figure~\ref{fig:vacuumchamber}.
-The arc power supply generates and steers the plasma, while the EM-coil power supply enhances the plasma energy and confinement.\\
+Plasma was generated using a water-cooled cylindrical anode and a rod cathode with composition 75~wt.\% Ti; 25~wt.\% Al (corresponding to 62.8~at.\% Ti; 37.2~at.\% Al). The cathode had a diameter of 6.35~mm and length of 38.1~mm. The expanding plasma was guided through a 90$^\circ$ curved magnetic macroparticle filter connected in series with the arc power supply, which simultaneously powered both the arc and the filter coils.
 
-The green arrow illustrates the trajectory of the plasma plume as it is expanding from the cathode, passing through the macroparticle filter, and reaching the diagnostics.
+\subsection{Power Circuits and Arc Operation}
 
-An energy-resolving mass spectrometer (ERMS) analyzes the ion energy and mass distribution, with its position adjusted relative to the macroparticle filter, to study spatial variations in the plasma plume. A Langmuir probe measures the ion current and a quartz crystal microbalance (QCM) monitors the deposited mass. An oscilloscope records time-resolved electrical signals: channels 1 and 2 measure the voltage drop at the cathode, while channels 3 and 4 capture the current supplied to the arc and EM-coil, as well as the ion current collected by the probe on another channel.
-The delay generator acts as a master clock, triggering the arc power supply, EM-coil activation, and diagnostic tools with precise timing to ensure that ion flux, energy, and deposition rate measurements are directly comparable and time-correlated.
+The arc power supply \textcolor{red}{([MODEL])} operated in pulsed DC mode, delivering arc currents up to 450~A at pulse frequencies ranging from 0.2 to 5~Hz, with a typical pulse width of 1~ms. The arc current was monitored using a \textcolor{red}{[CURRENT PROBE MODEL]} connected to an oscilloscope \textcolor{red}{(Tektronix [MODEL], [sampling rate], [resolution])}. The cathode voltage relative to ground and anode voltage relative to ground were measured on additional channels to determine the burning voltage during the pulse.\\
 
+A coil wound around the cylindrical anode (EM-coil) was used to enhance the ion charge states leaving the source through magnetic confinement. This coil was connected to a separate pulsing unit ([MODEL]) capable of delivering currents up to 850~A. The EM-coil was triggered 200~$\mu$s before arc ignition to ensure the magnetic field reached steady-state conditions before plasma generation. The coil current was monitored using a \textcolor{red}{[CURRENT PROBE MODEL]}, and the pulse duration was offset with 200~$\mu$s to stabilize the magnetic field before and during the arc pulse.\\
+
+The magnetic field strength within the EM-coil solenoid was estimated using:
+\begin{equation}
+	B = \frac{\mu_0 N I}{L}
+\end{equation}
+where $L = 0.02$~m is the solenoid length, $N = 5$ is the number of turns, $\mu_0 = 1.256 \times 10^{-6}$~T\,m\,A$^{-1}$ is the vacuum permeability, and $I$ is the peak coil current. The peak current was determined from oscilloscope measurements at the beginning of the pulse, as this represents the maximum field strength before resistive losses cause the current to decay. The current waveform drops within a pulse due to the design of the pulsing unit in the power supplies. Figure~\ref{fig:pulse-waveform} shows example current waveforms for both the arc and EM-coil for a 250~V input to the coil power supply. An additional example for 100~V input is provided in Appendix~\ref{fig:pulse-waveform-appendix}.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.85\textwidth]{"Figures/experimental methods/Pulse waveform"}
+	\caption{Example pulse waveforms showing the arc current (red) and EM-coil current (black) as functions of time. The orange dashed lines indicate the trigger timing: (a) EM-coil trigger at $t = -0.2$~ms, (b) arc trigger at $t = 0$~ms. The waveforms shown are pulses at 250~V EM-coil input voltage. Distance: 10~cm, pressure: 0~Pa, magnetic field: 0.25~T.}
+		\label{fig:pulse-waveform}
+\end{figure}
+
+\subsection{Diagnostic Positioning and Synchronization}
+
+A delay generator (Stanford Research Systems DG645) served as the master clock for the experimental system, providing precisely timed trigger signals to:
+\begin{itemize}[noitemsep]
+	\item the arc power supply (channel~\textbf{a}),
+	\item the EM-coil power supply (channel~\textbf{b}),
+	\item the energy-resolving mass spectrometer (channel~\textbf{c}).
+\end{itemize}
+
+
+The oscilloscope was triggered on the \textcolor{red}{is it actually} falling edge of the cathode voltage (channel 1), which marks the onset of the arc pulse. Channels 1 and 2 of the oscilloscope measured the cathode-to-ground voltage and anode-to-ground voltage, respectively. Channels 3 and 4 recorded the arc current and EM-coil current via current probes. The ion current was recorded separately, more on that in Section~\ref{sec:langmuir_probe}.\\
+
+The ion current probe and quartz crystal microbalance (QCM) were not triggered by the delay generator. The ion probe signal was recorded directly by the oscilloscope (triggered on the cathode voltage), automatically synchronizing ion current measurements with the arc pulses. The QCM operated continuously, with frequency measurements recorded before and after each deposition run to determine the accumulated mass change over a fixed number of pulses.
+
+For in situ plasma diagnostics, the Langmuir probe and QCM were mounted on a custom movable assembly positioned at distances ranging from 10 to 20~cm from the macroparticle filter exit. The energy-resolving mass spectrometer (ERMS) was mounted on a separate linear feedthrough, allowing independent adjustment of its axial position (distance from the filter exit) for spatial characterization of the plasma. Film depositions were performed using silicon substrates (Si (100)) mounted on a third movable holder, also positioned at controlled distances from the filter exit.\\
+
+The vacuum chamber setup for cathodic arc plasma diagnostics and thin film deposition is shown in Figure~\ref{fig:vacuumchamber}. The green arrow illustrates the trajectory of the plasma plume as it expands from the cathode, passes through the 90$^\circ$ macroparticle filter, and reaches the diagnostics and substrate region. This experimental configuration enabled systematic investigation of plasma properties and film growth as functions of distance, magnetic field strength, and nitrogen pressure, as detailed in the following sections.
 
 
 
@@ -24,9 +58,6 @@ The delay generator acts as a master clock, triggering the arc power supply, EM-
 \begin{circuitikz}
 \tikzstyle{every node}=[font=\Large]
 \draw  (4,10) ellipse (0.25cm and 1.5cm);
-\node [font=\LARGE] at (4,9.5) {};
-\node [font=\LARGE] at (4,9.5) {};
-\node [font=\LARGE] at (4,9.5) {};
 \draw [ rotate around={-12:(4.25,10)}] (4.25,10) ellipse (0.25cm and 1.5cm);
 \draw [ rotate around={-25:(4.5,10)}] (4.5,10) ellipse (0.25cm and 1.5cm);
 \draw [ rotate around={-56:(5.25,9.25)}] (5.25,9.25) ellipse (0.25cm and 1.5cm);
@@ -134,36 +165,15 @@ The delay generator acts as a master clock, triggering the arc power supply, EM-
 \label{fig:vacuumchamber}
 \end{figure}
 
-\subsection{Power \& Triggering}
-The arc power supply operated in pulsed mode at a frequencies between 0.2--5~Hz with a pulse width of 1~ms. The EM-coil was activated 200~$\mu$s before arc ignition and lasts 1.5~ms, to ensure steady-state magnetic field conditions. A delay generator (SRS DG645) served as the master clock, distributing triggers to:
-\begin{itemize}[noitemsep]
-    \item the arc power supply (channel~\textbf{a}),
-    \item the EM-coil power supply (channel~\textbf{b}),
-    \item the diagnostics (ERMS, QCM, and Langmuir probe; channels~\textbf{c--d}).
-    \item the oscilloscope is triggered on the rising edge of the arc power supply unit (PSU) voltage (Channel \textcolor{mypurple}{(1)})
-\end{itemize}
-This setup enabled time-resolved measurements of ion flux and energy, fully synchronized with plasma generation.
 
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=0.85\textwidth]{"Figures/experimental methods/Pulse waveform"}
-	\caption{Example Pulse waveform with the triggering timings (a) and (b) for the Arc-PSU and the EM-coil PSU marked with the orange dashed line}
-	\label{fig:pulse-waveform}
-\end{figure}
+\section{Plasma Diagnostics}
 
-To approximate the magnetic field generated within the EM-coil solenoid, the following equation was utilized:
+\subsection{Ion Current Probe (Langmuir Probe)}\label{sec:langmuir_probe}
 
-\begin{align}
-	B = \frac{\mu_0 N I}{L}
-\end{align}
-with the length of the solenoid $L = 0.02 m$, the number of turns in the solenoid $N = 5$ and the vacuum permeability $\mu_0 = 1.256 \cdot 10^{-6} \frac{T\cdot m}{A}$. The electrical current value was determined by the peak current recorded with the oscilloscope, typically observed around the 0 ms point, as illustrated in Fig. \ref{fig:pulse-waveform}. This approach was adopted because the shape of the current curve varies significantly depending on the input voltage and the resulting current. Figure \ref{fig:pulse-waveform} depicts the current curve achieved for a 250V input. Additionally the current curve for a 100V input is provided in the Appendix (Fig. \ref{fig:pulse-waveform-appendix}).
+An in-house-built ion collector probe was designed to measure the ion current density in ion saturation mode. The probe consisted of a 5~mm diameter copper rod machined to form a cylindrical collection surface with a nail-head geometry. This design ensured a well-defined collection area while minimizing perturbation of the plasma flow. The probe body was wrapped in Kapton tape for electrical insulation from the electrically grounded surrounding aluminum mounting assembly (Figure~\ref{fig:holder assembly}).\\
 
+To ensure full ion collection and suppress electron current, the probe was negatively biased at $V_b = -80$~V, as determined through bias voltage characterization measurements (Section~\ref{sec:bias_characterization}). The bias voltage was supplied through a protection circuit consisting of a 22~nF capacitor and 1~k$\Omega$ resistor, which acted as a low-pass filter to smooth the bias voltage and minimize high-frequency ripple. Two Zener diodes (1~k$\Omega$ and 10~k$\Omega$) provided overvoltage protection for the 80~V bias supply against transient voltage spikes during arc ignition.
 
-\section{In situ Diagnostics}
-
-\subsection{Ion-current Probe- Langmuir probe}\label{sec:langmuir_probe}
-
-The in-house-built ion collector probe (Figure~\ref{fig:langmuirprobe}) was designed to measure the current density of ions (\(J_i\)) in ion saturation mode. The probe consisted of a 5~mm diameter copper stick milled down to resemble a nail, it was then covered with Katpon tape to ensure insulation from the holder assembly: Fig. \ref{fig:holder assembly}.
 
 \begin{figure}[h!]
 	\centering
@@ -172,7 +182,17 @@ The in-house-built ion collector probe (Figure~\ref{fig:langmuirprobe}) was desi
 	\label{fig:langmuirprobe}
 \end{figure}
 
-To guarantee full ion collection, the probe was negatively biased at \(V_b = -80\)~V, as determined in Sec. \ref{sec:ionprobe80V}.
+The probe circuit (Figure~\ref{fig:probe_circuit}) converts the collected ion current to a voltage signal suitable for oscilloscope measurement. The ion current flows through a 400~$\Omega$ measurement resistor, producing a voltage drop $V_{\text{measured}}$ that is directly proportional to the ion current. A 0.5~$\mu$F capacitor in series with the measurement resistor acts as a high-pass filter with a cutoff frequency of:
+\begin{equation}
+	f_c = \frac{1}{2\pi RC} = \frac{1}{2\pi \cdot 400\,\Omega \cdot 0.5 \times 10^{-6}\,\text{F}} \approx 795\,\text{Hz}
+\end{equation}
+
+This filter blocks DC offsets and low-frequency noise while passing the plasma fluctuations associated with the 1~ms arc pulses (equivalent to 1~kHz). The RC time constant of this circuit is:
+\begin{equation}
+	\tau = RC = 400\,\Omega \cdot 0.5 \times 10^{-6}\,\text{F} = 200\,\mu\text{s}
+\end{equation}
+
+This time constant is significantly shorter than the pulse period (200~ms to 2~s), ensuring that the capacitor fully discharges between consecutive pulses. 
 
 
 \begin{figure}[!ht]
@@ -223,24 +243,26 @@ To guarantee full ion collection, the probe was negatively biased at \(V_b = -80
 \label{fig:probe_circuit}
 \end{figure}
 
+The processed voltage signal was recorded using a 20~MHz bandwidth oscilloscope \textcolor{red}{(Tektronix [MODEL], [sampling rate], [resolution])}. Figure~\ref{fig:ion_current_waveform} shows an example ion current waveform averaged over [NUMBER] pulses at a repetition rate of [X]~Hz. The time-averaged ion current during the pulse (0 to 1~ms) was calculated by integrating the voltage signal and dividing by the pulse duration.\\
+%maybe picture of ion current waveform in appendix
+
+The ion current density $J_i$ (A\,cm$^{-2}$) is calculated from the measured voltage as:
+\begin{equation}
+	J_i = \frac{V_{\text{measured}}}{A R}
+\end{equation}
+where $A = 0.1963$~cm$^2$ is the probe collection area (5~mm diameter) and $R = 400$~$\Omega$. The ion flux $\Gamma_i$ (ions\,cm$^{-2}$\,s$^{-1}$) is then determined by accounting for the average ion charge state $\langle Q \rangle$:
+\begin{equation}
+	\Gamma_i = \frac{J_i}{e \langle Q \rangle} = \frac{V_{\text{measured}}}{e \langle Q \rangle A R}
+\end{equation}
+where $e = 1.602 \times 10^{-19}$~C is the elementary charge. The average charge state $\langle Q \rangle$ was determined from energy-resolved mass spectrometry measurements (Section~\ref{sec:QMS}) for each experimental configuration.
 
 The circuit incorporates a $\SI{0.5}{\micro F}$ capacitor in series with the $\SI{400}{\ohm}$ resistor, forming a high-pass filter with a cutoff frequency of $\SI{795}{Hz}$. This configuration effectively blocks DC and low-frequency noise, ensuring that only plasma fluctuations above $\SI{795}{Hz}$ are recorded. The high-pass characteristic is essential for isolating the dynamic ion current signal from any static offsets or drift.\\
-
-To maintain a stable bias voltage, a $\SI{22}{nF}$ capacitor and $\SI{1}{k\ohm}$ resistor are included in the bias supply line. This combination acts as a low-pass filter, smoothing the bias voltage and minimizing high-frequency ripple.\\
-
-The processed voltage signal is recorded using a 20~MHz bandwidth oscilloscope. The ion flux $\Gamma_i$ is then calculated from the recorded voltage $V$ as:
-\begin{equation}
-    \Gamma_i = \frac{V}{e A R},
-\end{equation}
-
-where $A = \SI{19.63}{mm^2}$ is the probe area, $e$ is the elementary charge, and $R = \SI{400}{\ohm}$. This setup ensures accurate measurement of the ion flux while minimizing the impact of noise and DC offsets.
-
 
 
 
 \subsection{Quartz Crystal Microbalance}\label{section:QCM}
+A quartz crystal microbalance (QCM) was used to measure the deposited mass during pulsed cathodic arc deposition. The system consisted of an INFICON Cool Drawer\texttrademark\  with a single sensor in standard orientation, water-cooled to ensure thermal stability. A 14~mm diameter, 6~MHz AT-cut quartz crystal was operated with an SQM-160 controller for electronic readout.
 
-A quartz crystal microbalance (QCM) was employed to measure the amount of material deposited during cathodic arc sputtering. The configuration used in this work was the INFICON Cool Drawer\texttrademark\ with a single drawer in standard orientation. The sensor is water-cooled to ensure thermal stability, and a 14 mm diameter, 6 MHz AT-cut quartz crystal was operated with a SQM-160 controller for electronic readout. \\
 
 \begin{figure}[h]
     \centering
@@ -249,36 +271,26 @@ A quartz crystal microbalance (QCM) was employed to measure the amount of materi
     \label{fig:QCM_sensor_head}
 \end{figure}
 
-
 The measurement principle follows the Sauerbrey equation \cite{Sauerbrey_1959}, which relates the change in resonance frequency of the quartz crystal to the deposited mass:  
 
-\begin{equation}\label{eq.sauerbrey}
-    \Delta m = \frac{N_{\text{AT}}\cdot d_q \cdot \pi r^2}{F_q^2} \cdot \Delta F_c 
-    = 18.8146023 \cdot 10^{-9} \frac{g}{Hz} \cdot \Delta F .
+
+\begin{equation}\label{eq:sauerbrey}
+	\Delta m = \frac{N_{\text{AT}} \rho_q \pi r^2}{F_q^2} \Delta F 
+	= 18.8146023 \times 10^{-9}\,\frac{\text{g}}{\text{Hz}} \cdot \Delta F
 \end{equation}
 
-Here $d_q = \SI{2.649}{\frac{g}{cm^3}}$ is the quartz density, the exposed area of the QCM is $r = 0.7 cm$, $N_{\text{AT}} = \SI{166100}{Hz\ cm}$ the frequency constant of the AT-cut, $F_q = \SI{6}{MHz}$ the uncoated resonance frequency, and $\Delta F$ the measured frequency shift.\\
+Here $\rho_q = 2.649$~g\,cm$^{-3}$ is the quartz density, $r = 0.7$~cm is the radius of the exposed crystal area, $N_{\text{AT}} = 166\,100$~Hz\,cm is the frequency constant of the AT-cut quartz, $F_q = 6$~MHz is the uncoated resonance frequency, and $\Delta F$ is the measured frequency shift.\\
 
-The Sauerbrey relation is accurate as long as $\Delta F \lesssim 0.05 F_q$ (about \SI{0.3}{MHz} for a 6 MHz crystal). For larger mass loadings, the linear approximation fails and the Z-match\texttrademark\ technique is used. This method, introduced by Lu and Lewis in 1972 on the basis of Miller and Bolef’s theoretical treatment \cite{Miller1968,Lu1972}, incorporates the acoustic properties of both the quartz and the deposited film via the acoustic impedance ratio  
-
-\begin{equation}
-    Z = \left(\frac{d_q \, \mu_q}{d_f \, \mu_f}\right)^{1/2},
-\end{equation}
-
-with $d$ and $\mu$ denoting the density and shear modulus of quartz ($q$) and film ($f$), respectively \cite{SQM160_manual}. In practice, the controller applies a correction function $f(Z)$ to the Sauerbrey relation,  
-
-\begin{equation}
-    m_f = \frac{N_{\text{AT}} \, d_q \, \pi r^2}{F_q^2} \cdot \Delta F \cdot f(Z),
-\end{equation}
+The Sauerbrey relation is accurate as long as $\Delta F \lesssim 0.05 F_q$ (approximately 0.3~MHz for a 6~MHz crystal), for more details on the correction above this limit look in Appendix \ref{long_qcm}. 
+In the present experiments, the observed frequency shifts ranged from approximately 1~Hz to 50~Hz over 64 pulses. These shifts are well above the SQM-160 resolution of approximately 0.03~Hz at 6~MHz, yet orders of magnitude below the Sauerbrey breakdown limit. The Sauerbrey approximation was therefore fully sufficient for all measurements in this work.\\
 
 
-which compensates for the acoustic mismatch and extends the validity of thickness determination up to $\sim 0.4 F_q$.\\ 
+\subsection{Simultaneous Ion Probe and QCM Measurements}
 
-In the present experiments, the observed frequency shifts ranged from about \SI{1}{Hz} to \SI{50}{Hz}. With the SQM-160 resolution of approximately \SI{0.03}{Hz} at \SI{6}{MHz}, even the smallest shifts were well above the noise floor, yet orders of magnitude below the Sauerbrey breakdown limit. The Sauerbrey approximation was therefore fully sufficient, and Z-match corrections were not required.
+To enable direct comparison between ion current and deposited mass, the Langmuir probe and QCM were mounted on the same movable aluminum assembly (Figure~\ref{fig:holder assembly}). The probe was positioned through a precision-milled pass-through hole, while the QCM was secured in a dedicated cutout and fixed via screws. This configuration ensured rigid mechanical alignment between the two diagnostics throughout all measurements.\\
 
-\subsection{Comparability with QCM Measurements}
+The probe collection area ($A_{\text{probe}} = 0.196$~cm$^2$, diameter 5~mm) was smaller than but contained within the QCM active area ($A_{\text{QCM}} = 0.5027$~cm$^2$, diameter 8~mm). Both diagnostics were positioned as close as possible to each other to minimize spatial gradients between measurement locations. However, this design does not completely eliminate the effect of radial plasma density gradients, which are inherent to expanding cathodic arc plasmas \cite[Chap.~6.2]{cathodic_arcs}. The close proximity brings the measured flux and plasma conditions as close as possible, though small differences due to the radial gradient remained and were evident in the experimental results.\\
 
-The ion collector probe, with its 5 mm diameter, was mounted through a precision-milled pass-through hole in the aluminum mounting block, while the QCM was secured in a dedicated cutout and fixed via screws.
 
 \begin{figure}[ht]
   \centering
@@ -297,37 +309,30 @@ The ion collector probe, with its 5 mm diameter, was mounted through a precision
     \label{fig:holder assembly}
 \end{figure}
 
-This configuration ensured rigid mechanical alignment between the two diagnostics. The exposed area of the quartz crystal (8 mm diameter) was selected to encompass the probe’s collection area, enabling spatially resolved comparisons of ion current density and deposited mass.\\
 
-This design accounts for the radial gradients in plasma density and ion charge state distribution, which are inherent to expanding cathodic arc plasmas \cite[Chap. 6.2]{cathodic_arcs}. By positioning the probe right next to the QCM, the ion flux measurements directly reflect the plasma conditions governing deposition on the crystal surface.
-
+\subsection{Energy-Resolving Mass Spectrometer (ERMS)}\label{sec:QMS}
 
 
+An energy-resolving mass spectrometer (ERMS, Hiden EQP 1000) was used to measure ion energy distribution functions (IEDFs) and charge-state-resolved fluxes of plasma species. The system combines an electrostatic energy analyzer with a quadrupole mass filter to measure distributions of energy-to-charge ratios (E/Q) at fixed mass-to-charge ratios (M/Q), and vice versa.\\
 
-\subsection{Quadrupole Mass Spectrometer}\label{sec:QMS}
-
-A quadrupole mass spectrometer (QMS, Hiden EQP 1000) was used to measure the ion energy distribution functions (IEDFs) and charge-state-resolved fluxes of plasma species generated during pulsed cathodic arc deposition. The system utilizes an electrostatic energy analyzer with a quadrupole mass filter to separate ions by their kinetic energy and mass-to-charge ratio (\(m/q\)).\\
-
-Ions enter the QMS through a \SI{50}{\micro\meter} sampling orifice and are first transported to the energy analyzer, where their kinetic energy \(E_i\) is selected according to the relationship:
-%
+Ions enter the ERMS through a 50~$\mu$m sampling orifice and are transported to the energy analyzer, where their kinetic energy $E_i$ is selected according to:
 \begin{equation}\label{eq:ion_energy}
-    E_i = \left(V_{\text{ENERGY}} + \frac{R}{d} V_{\text{PLATES}} - V_{\text{AXIS}}\right) n \times e.
+	E_i = \left(V_{\text{ENERGY}} + \frac{R}{d} V_{\text{PLATES}} - V_{\text{AXIS}}\right) Q \cdot e
 \end{equation}
-%
 
-Here, \(V_{\text{ENERGY}}\) and \(V_{\text{AXIS}}\) are opposing potentials applied to the analyzer, \(R\) is the mean radius of the cylindrical sector, \(d\) is the plate separation, \(V_{\text{PLATES}}\) is the potential difference across the sector plates, and \(n \times e\) is the total charge of the ion \cite{hiden_eqp_manual}. The selected ions are then injected into the quadrupole mass filter, where a combination of AC and DC electric fields creates a stability region dependent on \(m/q\), described by the Mathieu equations \cite{dawson_quadrupole_1997}. Only ions with trajectories stable in both radial and axial directions reach the detector. The potential in the quadrupole is described by:
-%
+Here, $V_{\text{ENERGY}}$ and $V_{\text{AXIS}}$ are opposing potentials applied to the analyzer, $R$ is the mean radius of the cylindrical sector, $d$ is the plate separation, $V_{\text{PLATES}}$ is the potential difference across the sector plates, $Q$ is the ion charge state, and $e$ is the elementary charge \cite{hiden_eqp_manual}. \\
+
+The energy-selected ions are then injected into the quadrupole mass filter, where a combination of AC and DC electric fields creates a stability region dependent on M/Q, described by the Mathieu equations \cite{dawson_quadrupole_1997}. The potential in the quadrupole is:
 \begin{equation}
-    V(x,y,t) = \frac{U_0 \cos(\omega t)}{r_0^2} (x^2 - y^2),
+	V(x,y,t) = \frac{U_0 \cos(\omega t)}{r_0^2} (x^2 - y^2)
 \end{equation}
-%
-where \(U_0\) is the amplitude of the AC voltage, \(\omega\) is the angular frequency, and \(r_0\) is the field radius. The stability of ion motion is determined by the dimensionless parameters:
-%
+where $U_0$ is the amplitude of the AC voltage, $\omega$ is the angular frequency, and $r_0$ is the field radius. The stability of ion motion is determined by the dimensionless parameters:
 \begin{equation}
-    a = \frac{8 e U_{\text{DC}}}{m r_0^2 \omega^2}, \quad q = \frac{4 e U_0}{m r_0^2 \omega^2},
+	a = \frac{8 e U_{\text{DC}}}{M r_0^2 \omega^2}, \quad q = \frac{4 e U_0}{M r_0^2 \omega^2}
 \end{equation}
-%
-with \(U_{\text{DC}}\) as the superimposed DC voltage. For a given \(m/q\), stable transmission occurs only within specific \((a,q)\) regions, enabling mass separation \cite{dawson_quadrupole_1997, march_quadrupole_1989}.\\
+with $U_{\text{DC}}$ as the superimposed DC voltage and $M$ the ion mass. For a given M/Q, stable transmission occurs only within specific $(a,q)$ regions, enabling mass separation \cite{dawson_quadrupole_1997, march_quadrupole_1989}. Only ions with trajectories stable in both radial and axial directions reach the detector.\\
+
+To reduce interference from the arc's magnetic field, the ERMS was equipped with a grounded mu-metal shield \cite{RN5}. IEDFs were measured using a double-trigger acquisition scheme synchronized with the arc pulses (1~ms duration, 5~Hz repetition rate). For each M/Q value, two 20~ms acquisition windows were recorded, activated 10~ms before the onset of the pulse. The combined 40~ms of data for each point were averaged to obtain the final IEDF.\\
 
 \begin{figure}[h]
 	\centering
@@ -336,28 +341,48 @@ with \(U_{\text{DC}}\) as the superimposed DC voltage. For a given \(m/q\), stab
 	\label{fig:hiden-eqp}
 \end{figure}
 
+\begin{table}[h]
+	\centering
+	\begin{tabular}{c|cccc|}
+		\cline{2-5}
+		& \multicolumn{4}{c|}{Molar mass over charge ratio of:}                                     \\ \hline
+		\multicolumn{1}{|c|}{Ionization} & \multicolumn{1}{c|}{Al}   & \multicolumn{1}{c|}{Ti}     & \multicolumn{1}{c|}{N}  & N$_2$ \\ \hline
+		\multicolumn{1}{|c|}{1+}         & \multicolumn{1}{c|}{27}   & \multicolumn{1}{c|}{47.867} & \multicolumn{1}{c|}{14} & 28    \\ \hline
+		\multicolumn{1}{|c|}{2+}         & \multicolumn{1}{c|}{13.5} & \multicolumn{1}{c|}{23.933} & \multicolumn{1}{c|}{-}  & -     \\ \hline
+		\multicolumn{1}{|c|}{3+}         & \multicolumn{1}{c|}{9}    & \multicolumn{1}{c|}{15.955} & \multicolumn{1}{c|}{-}  & -     \\ \hline
+		\multicolumn{1}{|c|}{4+}         & \multicolumn{1}{c|}{-}    & \multicolumn{1}{c|}{11.966} & \multicolumn{1}{c|}{-}  & -     \\ \hline
+	\end{tabular}
+\end{table}
 
 To obtain the ion energy distribution functions (IEDFs), the energy-to-charge (E/Q) distributions were measured for different mass-to-charge ratios (M/Q). The energy distributions for ions of different charge states were derived by multiplying the E/Q values by the corresponding charge state number \(Q\). This correction accounts for the charge-dependent scaling of ion energies.\\
-
-To reduce interference from the arc's magnetic field, the QMS was equipped with a grounded, mu-metal shield \cite{RN5}. 
 
 %The \(m/q\) range was calibrated using N\(_2^+\) as reference ions, with typical operating parameters set to \(U_0 = \SI{100}{V}\), \(U_{\text{DC}} = \SI{5}{V}\), and \(\omega/2\pi = \SI{1.2}{MHz}\). Under these settings, the system provided a mass resolution of \(\Delta m/m \approx 0.5\) (FWHM) for ions in the \(\SI{0}{--}\SI{150}{eV}\) energy range \cite{hiden_eqp_manual}. The energy resolution was adjusted to \(\Delta E/E \approx 0.02\) by tuning \(V_{\text{PLATES}}\) and optimizing the alignment of the orifice and detector.
 %%%
 
 IEDFs were measured using a double trigger acquisition scheme synchronized with the arc pulses, which had a \(\SI{1}{ms}\) duration and a \(\SI{5}{Hz}\) repetition rate. For each \(m/q\) value, two \(\SI{20}{ms}\) acquisition windows were recorded, activated \(\SI{10}{ms}\) before the onset of the pulse. The combined \(\SI{40}{ms}\) of data for each point were averaged to obtain the final IEDF. Measurements were performed for charge states \(1^+\), \(2^+\), and \(3^+\) of aluminum ions, and for charge states \(1^+\), \(2^+\), \(3^+\), and \(4^+\) of titanium ions. For nitrogen ion species (N and N\(_2\)), only the \(1^+\) ionization level was measured. This was achieved by scanning \(V_{\text{ENERGY}}\) while fixing the quadrupole mass filter to the corresponding \(m/q\) values.
 
-\begin{table}[h]
-\centering
-\begin{tabular}{c|cccc|}
-\cline{2-5}
-                                 & \multicolumn{4}{c|}{Molar mass over charge ratio of:}                                     \\ \hline
-\multicolumn{1}{|c|}{Ionization} & \multicolumn{1}{c|}{Al}   & \multicolumn{1}{c|}{Ti}     & \multicolumn{1}{c|}{N}  & N$_2$ \\ \hline
-\multicolumn{1}{|c|}{1+}         & \multicolumn{1}{c|}{27}   & \multicolumn{1}{c|}{47.867} & \multicolumn{1}{c|}{14} & 28    \\ \hline
-\multicolumn{1}{|c|}{2+}         & \multicolumn{1}{c|}{13.5} & \multicolumn{1}{c|}{23.933} & \multicolumn{1}{c|}{-}  & -     \\ \hline
-\multicolumn{1}{|c|}{3+}         & \multicolumn{1}{c|}{9}    & \multicolumn{1}{c|}{15.955} & \multicolumn{1}{c|}{-}  & -     \\ \hline
-\multicolumn{1}{|c|}{4+}         & \multicolumn{1}{c|}{-}    & \multicolumn{1}{c|}{11.966} & \multicolumn{1}{c|}{-}  & -     \\ \hline
-\end{tabular}
-\end{table}
+\subsection{Calculation of Ion Flux and Total Deposited Flux}
+The ion flux and total deposited flux are key parameters for understanding the correlation between plasma properties and film growth. These quantities are derived from the combined measurements of the Langmuir probe, QCM,  ERMS and film composition.
+
+\subsubsection{Ion Flux from Probe and ERMS Measurements}
+
+The ion flux $\Gamma_{\text{ion}}$ (ions\,cm$^{-2}$\,s$^{-1}$) is calculated from the ion current density measured by the Langmuir probe:
+\begin{equation}
+	\Gamma_{\text{ion}} = \frac{J_i}{e \langle Q \rangle} = \frac{V_{\text{measured}}}{e \langle Q \rangle A_{\text{probe}} R}
+\end{equation}
+where $\langle Q \rangle$ is the average charge state determined from ERMS measurements. This combination of probe and mass spectrometer data accounts for the multiply charged nature of the cathodic arc plasma and enables accurate determination of the particle flux from the electrical current measurement.
+
+\subsubsection{Total Deposited Flux from QCM and Film Characterization}
+
+The total deposited flux $\Phi_{\text{total}}$ (atoms\,cm$^{-2}$\,pulse$^{-1}$) includes contributions from both ions and neutrals (in reactive mode). This quantity is derived from the QCM mass deposition rate:
+\begin{equation}
+	\Phi_{\text{total}} = \frac{\Phi_{\text{mass}} N_A}{M_{\text{eff}}} = \frac{\Delta m \cdot N_A}{A_{\text{QCM}} \cdot N_{\text{pulses}} \cdot M_{\text{eff}}}
+\end{equation}
+where $N_A = 6.022 \times 10^{23}$~mol$^{-1}$ is Avogadro's constant and $M_{\text{eff}}$ is the effective molar mass of the deposited material.\\
+
+The effective molar mass depends on the film composition, which was determined by energy-dispersive X-ray spectroscopy (EDX, Section~\ref{sec:EDX}). $M_{\text{eff}}$ reflects the TiAlN stoichiometry determined by EDX analysis of the deposited films. The film density $\rho_{\text{film}}$ required to relate mass deposition rate to film thickness was determined by X-ray reflectometry (XRR, Section~\ref{sec:XRR}).\\
+
+The ratio $\Phi_{\text{total}} / \Gamma_{\text{ion}}$ provides insight into the fraction of deposited material arriving as ions versus neutrals, which is particularly important for understanding reactive mode deposition where activated nitrogen species contribute significantly to film growth.
 
 %The integrated ion flux \(\Gamma_i\) was determined by normalizing the IEDFs to the plasma density, as measured by a Langmuir probe (\ref{sec:langmuir_probe}). The observed charge-state distributions of Ti\(^+\) and Al\(^+\) ions aligned with earlier findings for cathodic arc plasmas \cite{RN6,unutulmazsoy}.
 

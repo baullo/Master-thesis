@@ -1,204 +1,1249 @@
-\begin{thebibliography}{10}
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
 
-\bibitem{hidenanalytical}
-Hiden Analytical.
-\newblock {EQP: Mass and Energy Analyser for plasma diagnostics}.
-\newblock
-  \url{https://www.hidenanalytical.com/wp-content/uploads/2016/08/EQP-poster\_A1\_print.pdf},
-  2016.
-\newblock [Accessed 18-11-2025].
 
-\bibitem{anders2008}
-Andr{\'e} Anders.
-\newblock Cathodic arcs: a fractal approach.
-\newblock {\em IEEE Transactions on Plasma Science}, 33(5):1456--1464, 2005.
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{paldey2003}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=6f5cf67457fba54151a0423dd04ab8aa}{%
+           family={Paldey},
+           familyi={P\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=414dc85fe3ff67122d21fe9651abd7ef}{%
+           family={Deevi},
+           familyi={D\bibinitperiod},
+           given={S.\bibnamedelimi C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{a0a620a6924c3ca0d01c7143f485850a}
+      \strng{fullhash}{a0a620a6924c3ca0d01c7143f485850a}
+      \strng{fullhashraw}{a0a620a6924c3ca0d01c7143f485850a}
+      \strng{bibnamehash}{a0a620a6924c3ca0d01c7143f485850a}
+      \strng{authorbibnamehash}{a0a620a6924c3ca0d01c7143f485850a}
+      \strng{authornamehash}{a0a620a6924c3ca0d01c7143f485850a}
+      \strng{authorfullhash}{a0a620a6924c3ca0d01c7143f485850a}
+      \strng{authorfullhashraw}{a0a620a6924c3ca0d01c7143f485850a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Materials Science and Engineering: A}
+      \field{number}{1--2}
+      \field{title}{Single layer and multilayer wear resistant coatings of (Ti,Al)N: a review}
+      \field{volume}{342}
+      \field{year}{2003}
+      \field{pages}{58\bibrangedash 79}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1016/S0921-5093(02)00259-9
+      \endverb
+    \endentry
+    \entry{mayrhofer2006}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=3f7e8f197023a6067a32dbe4e527d17b}{%
+           family={Mayrhofer},
+           familyi={M\bibinitperiod},
+           given={P.\bibnamedelimi H.},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=db95968b38d41729d094d6b25951d082}{%
+           family={Music},
+           familyi={M\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=946bef20dc193653cb47179b775d2f12}{%
+           family={Schneider},
+           familyi={S\bibinitperiod},
+           given={J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{0de86f2e787414bcef533867169cc299}
+      \strng{fullhash}{0de86f2e787414bcef533867169cc299}
+      \strng{fullhashraw}{0de86f2e787414bcef533867169cc299}
+      \strng{bibnamehash}{0de86f2e787414bcef533867169cc299}
+      \strng{authorbibnamehash}{0de86f2e787414bcef533867169cc299}
+      \strng{authornamehash}{0de86f2e787414bcef533867169cc299}
+      \strng{authorfullhash}{0de86f2e787414bcef533867169cc299}
+      \strng{authorfullhashraw}{0de86f2e787414bcef533867169cc299}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Physics Letters}
+      \field{number}{7}
+      \field{title}{Ab initio calculated binodal and spinodal of cubic Ti$_{1-x}$Al$_x$N}
+      \field{volume}{88}
+      \field{year}{2006}
+      \field{pages}{071922}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.2177360
+      \endverb
+    \endentry
+    \entry{cathodic_arcs}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=a4b1e4facf3bdb78db2e6cdb779f4968}{%
+           family={Anders},
+           familyi={A\bibinitperiod},
+           given={André},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{a4b1e4facf3bdb78db2e6cdb779f4968}
+      \strng{fullhash}{a4b1e4facf3bdb78db2e6cdb779f4968}
+      \strng{fullhashraw}{a4b1e4facf3bdb78db2e6cdb779f4968}
+      \strng{bibnamehash}{a4b1e4facf3bdb78db2e6cdb779f4968}
+      \strng{authorbibnamehash}{a4b1e4facf3bdb78db2e6cdb779f4968}
+      \strng{authornamehash}{a4b1e4facf3bdb78db2e6cdb779f4968}
+      \strng{authorfullhash}{a4b1e4facf3bdb78db2e6cdb779f4968}
+      \strng{authorfullhashraw}{a4b1e4facf3bdb78db2e6cdb779f4968}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Cathodic arcs: from fractal spots to energetic condensation}
+      \field{type}{Book}
+      \field{volume}{50}
+      \field{year}{2008}
+    \endentry
+    \entry{RN5}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=a4b1e4facf3bdb78db2e6cdb779f4968}{%
+           family={Anders},
+           familyi={A\bibinitperiod},
+           given={André},
+           giveni={A\bibinitperiod}}}%
+        {{hash=17019d27f686c95a40455ee8255fd5ab}{%
+           family={Yushkov},
+           familyi={Y\bibinitperiod},
+           given={George\bibnamedelima Yu},
+           giveni={G\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{7831bd388e63e0444029998fa5288c07}
+      \strng{fullhash}{7831bd388e63e0444029998fa5288c07}
+      \strng{fullhashraw}{7831bd388e63e0444029998fa5288c07}
+      \strng{bibnamehash}{7831bd388e63e0444029998fa5288c07}
+      \strng{authorbibnamehash}{7831bd388e63e0444029998fa5288c07}
+      \strng{authornamehash}{7831bd388e63e0444029998fa5288c07}
+      \strng{authorfullhash}{7831bd388e63e0444029998fa5288c07}
+      \strng{authorfullhashraw}{7831bd388e63e0444029998fa5288c07}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0021-8979}
+      \field{journaltitle}{Journal of Applied Physics}
+      \field{number}{8}
+      \field{title}{Ion flux from vacuum arc cathode spots in the absence and presence of a magnetic field}
+      \field{type}{Journal Article}
+      \field{volume}{91}
+      \field{year}{2002}
+      \field{pages}{4824\bibrangedash 4832}
+      \range{pages}{9}
+    \endentry
+    \entry{unutulmazsoy}{article}{}{}
+      \name{author}{10}{}{%
+        {{hash=35e1aca38f8648fdac2e574932a76b11}{%
+           family={Unutulmazsoy},
+           familyi={U\bibinitperiod},
+           given={Yeliz},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=095c02bba9fc612c170bc6584913df1d}{%
+           family={Kalanov},
+           familyi={K\bibinitperiod},
+           given={Dmitry},
+           giveni={D\bibinitperiod}}}%
+        {{hash=b26224861a52acfadfcc0a9ac8991761}{%
+           family={Oh},
+           familyi={O\bibinitperiod},
+           given={Kyunghwan},
+           giveni={K\bibinitperiod}}}%
+        {{hash=dc5a697dd66bc58942914396390075f6}{%
+           family={Karimi\bibnamedelima Aghda},
+           familyi={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Soheil},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0825da69dbbda673bef302a4ee9e3a58}{%
+           family={Gerlach},
+           familyi={G\bibinitperiod},
+           given={Jürgen\bibnamedelima W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=c4ac9a57d338da7b37083970c777c199}{%
+           family={Braun},
+           familyi={B\bibinitperiod},
+           given={Nils},
+           giveni={N\bibinitperiod}}}%
+        {{hash=e1c9144e4a1ed4da5388be9c11a40462}{%
+           family={Munnik},
+           familyi={M\bibinitperiod},
+           given={Frans},
+           giveni={F\bibinitperiod}}}%
+        {{hash=2399085d680836057791db985c17a844}{%
+           family={Lotnyk},
+           familyi={L\bibinitperiod},
+           given={Andriy},
+           giveni={A\bibinitperiod}}}%
+        {{hash=20c4a751261f296735c9daf92a4071ae}{%
+           family={Schneider},
+           familyi={S\bibinitperiod},
+           given={Jochen\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=a4b1e4facf3bdb78db2e6cdb779f4968}{%
+           family={Anders},
+           familyi={A\bibinitperiod},
+           given={André},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{fb23c5fcd26b3ecde86cc8271757cc4e}
+      \strng{fullhash}{26f17ad0a0756a57e6b42eb035cb8b83}
+      \strng{fullhashraw}{26f17ad0a0756a57e6b42eb035cb8b83}
+      \strng{bibnamehash}{fb23c5fcd26b3ecde86cc8271757cc4e}
+      \strng{authorbibnamehash}{fb23c5fcd26b3ecde86cc8271757cc4e}
+      \strng{authornamehash}{fb23c5fcd26b3ecde86cc8271757cc4e}
+      \strng{authorfullhash}{26f17ad0a0756a57e6b42eb035cb8b83}
+      \strng{authorfullhashraw}{26f17ad0a0756a57e6b42eb035cb8b83}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Pulsed filtered cathodic arc deposition involves formation of energetic multiply charged metal ions, which help to form dense, adherent, and macroparticle-free thin films. Ions possess not only significant kinetic energy, but also potential energy primarily due to their charge, which for cathodic arc plasmas is usually greater than one. While the effects of kinetic ion energy on the growing film are well investigated, the effects of the ions’ potential energy are less known. In the present work, we make a step toward decoupling the contributions of kinetic and potential energies of ions on thin film formation. The potential energy is changed by enhancing the ion charge states via using an external magnetic field at the plasma source. The kinetic energy is adjusted by biasing the arc source (“plasma bias”), which allows us to approximately compensate the differences in kinetic energy, while the substrate and ion energy detector remain at ground. However, application of an external magnetic field also leads to an enhancement of the ion flux and hence the desired complete decoupling of the potential and kinetic energy effects will require further steps. Charge-state-resolved energy distribution functions of ions are measured at the substrate position for different arc source configurations, and thin films are deposited using exactly those configurations. Detailed characterization of the deposited thin films is performed to reveal the correlations of changes in structure with kinetic and potential energies of multiply charged ions. It is observed that the cathode composition (Al:V ratio) strongly affects the formation of the thermodynamically stable wurtzite or the metastable cubic phase. The external magnetic field applied at the arc source is found to greatly alter the plasma and, therefore, to be the primary, easily accessible “tuning knob” to enhance film crystallinity. The effect of “atomic scale heating” provided by the ions’ kinetic and potential energies on the film crystallinity is investigated, and the possibility to deposit crystalline (V,Al)N films without substrate heating is demonstrated. This study shows an approach toward distinguishing the contributions stemming from kinetic and potential energies of ions on the film growth, however, further research is needed to assess and distinguish the additional effect of ion flux intensity (current).}
+      \field{issn}{0734-2101}
+      \field{journaltitle}{Journal of Vacuum Science \& Technology A}
+      \field{number}{6}
+      \field{title}{Toward decoupling the effects of kinetic and potential ion energies: Ion flux dependent structural properties of thin (V,Al)N films deposited by pulsed filtered cathodic arc}
+      \field{type}{Journal Article}
+      \field{volume}{41}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.1116/6.0002927
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1116/6.0002927
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1116/6.0002927
+      \endverb
+    \endentry
+    \entry{decoupling_kalanov_2025}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=095c02bba9fc612c170bc6584913df1d}{%
+           family={Kalanov},
+           familyi={K\bibinitperiod},
+           given={Dmitry},
+           giveni={D\bibinitperiod}}}%
+        {{hash=fa81847410a532b8ccd16aacea21bc9f}{%
+           family={Mandazhiev},
+           familyi={M\bibinitperiod},
+           given={Slavi},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4dbe2b5e974ded9c257f75973f516811}{%
+           family={Franze},
+           familyi={F\bibinitperiod},
+           given={Julius},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a4b1e4facf3bdb78db2e6cdb779f4968}{%
+           family={Anders},
+           familyi={A\bibinitperiod},
+           given={André},
+           giveni={A\bibinitperiod}}}%
+        {{hash=35e1aca38f8648fdac2e574932a76b11}{%
+           family={Unutulmazsoy},
+           familyi={U\bibinitperiod},
+           given={Yeliz},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{5e18749613ea22ab1a083b74092a1926}
+      \strng{fullhash}{7bd45b75d7e9720db65dcc976ba116d2}
+      \strng{fullhashraw}{7bd45b75d7e9720db65dcc976ba116d2}
+      \strng{bibnamehash}{5e18749613ea22ab1a083b74092a1926}
+      \strng{authorbibnamehash}{5e18749613ea22ab1a083b74092a1926}
+      \strng{authornamehash}{5e18749613ea22ab1a083b74092a1926}
+      \strng{authorfullhash}{7bd45b75d7e9720db65dcc976ba116d2}
+      \strng{authorfullhashraw}{7bd45b75d7e9720db65dcc976ba116d2}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{02578972}
+      \field{journaltitle}{Surface and Coatings Technology}
+      \field{title}{Decoupling the effects of potential energy, kinetic energy, and ion flux on crystallinity of V-Al and V-Al-N thin films in pulsed filtered cathodic arc deposition}
+      \field{type}{Journal Article}
+      \field{volume}{497}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.1016/j.surfcoat.2024.131720
+      \endverb
+    \endentry
+    \entry{bendikt2012}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=0b6a7800a0e270f33aaf67bceff8be9f}{%
+           family={Benedikt},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=35bd09ec282fc9aac6214dca5e287994}{%
+           family={Kersten},
+           familyi={K\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           suffix={H.\bibnamedelimi andHenning},
+           suffixi={H\bibinitperiod\bibinitdelim a\bibinitperiod}}}%
+      }
+      \strng{namehash}{2b12fda9f4caf9c2a9c89481bf072c0d}
+      \strng{fullhash}{2b12fda9f4caf9c2a9c89481bf072c0d}
+      \strng{fullhashraw}{2b12fda9f4caf9c2a9c89481bf072c0d}
+      \strng{bibnamehash}{2b12fda9f4caf9c2a9c89481bf072c0d}
+      \strng{authorbibnamehash}{2b12fda9f4caf9c2a9c89481bf072c0d}
+      \strng{authornamehash}{2b12fda9f4caf9c2a9c89481bf072c0d}
+      \strng{authorfullhash}{2b12fda9f4caf9c2a9c89481bf072c0d}
+      \strng{authorfullhashraw}{2b12fda9f4caf9c2a9c89481bf072c0d}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Physics D: Applied Physics}
+      \field{number}{20}
+      \field{title}{Quadrupole mass spectrometry of reactive plasmas}
+      \field{volume}{40}
+      \field{year}{2007}
+      \field{pages}{6300\bibrangedash 6316}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1088/0022-3727/40/20/S13
+      \endverb
+    \endentry
+    \entry{karimi_aghda_2023}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=dc5a697dd66bc58942914396390075f6}{%
+           family={Karimi\bibnamedelima Aghda},
+           familyi={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Soheil},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ab9239cc32ddb7ccbd9373c6b98437db}{%
+           family={Alyani},
+           familyi={A\bibinitperiod},
+           given={Alireza},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e1c9144e4a1ed4da5388be9c11a40462}{%
+           family={Munnik},
+           familyi={M\bibinitperiod},
+           given={Frans},
+           giveni={F\bibinitperiod}}}%
+        {{hash=a7ca23fffb7cd955bf35f9478504c111}{%
+           family={Keunecke},
+           familyi={K\bibinitperiod},
+           given={Maren},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9c6fabc1d8db25796ddd0cd010152c05}{%
+           family={Hans},
+           familyi={H\bibinitperiod},
+           given={Marcus},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f4b7ab3ac02e006be56fe9ffc3172595}{%
+           family={Primetzhofer},
+           familyi={P\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=20c4a751261f296735c9daf92a4071ae}{%
+           family={Schneider},
+           familyi={S\bibinitperiod},
+           given={Jochen\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{094811dd42d91e01ef15a2c1113b1616}
+      \strng{fullhash}{61e13b38a8b305d0c413c77ce1ad38d2}
+      \strng{fullhashraw}{61e13b38a8b305d0c413c77ce1ad38d2}
+      \strng{bibnamehash}{094811dd42d91e01ef15a2c1113b1616}
+      \strng{authorbibnamehash}{094811dd42d91e01ef15a2c1113b1616}
+      \strng{authornamehash}{094811dd42d91e01ef15a2c1113b1616}
+      \strng{authorfullhash}{61e13b38a8b305d0c413c77ce1ad38d2}
+      \strng{authorfullhashraw}{61e13b38a8b305d0c413c77ce1ad38d2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Acta Materialia}
+      \field{title}{Ion kinetic energy- and ion flux-dependent mechanical properties and thermal stability of (Ti,Al)N thin films}
+      \field{volume}{251}
+      \field{year}{2023}
+      \field{pages}{118897}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.actamat.2023.118897
+      \endverb
+    \endentry
+    \entry{mesyats1995}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=5f1da98784ed3162afe73d7169deb40c}{%
+           family={Mesyats},
+           familyi={M\bibinitperiod},
+           given={G.\bibnamedelimi A.},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{5f1da98784ed3162afe73d7169deb40c}
+      \strng{fullhash}{5f1da98784ed3162afe73d7169deb40c}
+      \strng{fullhashraw}{5f1da98784ed3162afe73d7169deb40c}
+      \strng{bibnamehash}{5f1da98784ed3162afe73d7169deb40c}
+      \strng{authorbibnamehash}{5f1da98784ed3162afe73d7169deb40c}
+      \strng{authornamehash}{5f1da98784ed3162afe73d7169deb40c}
+      \strng{authorfullhash}{5f1da98784ed3162afe73d7169deb40c}
+      \strng{authorfullhashraw}{5f1da98784ed3162afe73d7169deb40c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Plasma Science}
+      \field{number}{6}
+      \field{title}{Ecton mechanism of the vacuum arc cathode spot}
+      \field{volume}{23}
+      \field{year}{1995}
+      \field{pages}{879\bibrangedash 883}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/27.476469
+      \endverb
+    \endentry
+    \entry{juttner2001}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=5110d516d4a414e7ec8cb07ed44fe17e}{%
+           family={Jüttner},
+           familyi={J\bibinitperiod},
+           given={Burkhard},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{5110d516d4a414e7ec8cb07ed44fe17e}
+      \strng{fullhash}{5110d516d4a414e7ec8cb07ed44fe17e}
+      \strng{fullhashraw}{5110d516d4a414e7ec8cb07ed44fe17e}
+      \strng{bibnamehash}{5110d516d4a414e7ec8cb07ed44fe17e}
+      \strng{authorbibnamehash}{5110d516d4a414e7ec8cb07ed44fe17e}
+      \strng{authornamehash}{5110d516d4a414e7ec8cb07ed44fe17e}
+      \strng{authorfullhash}{5110d516d4a414e7ec8cb07ed44fe17e}
+      \strng{authorfullhashraw}{5110d516d4a414e7ec8cb07ed44fe17e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Physics D: Applied Physics}
+      \field{number}{17}
+      \field{title}{Cathode spots of electric arcs}
+      \field{volume}{34}
+      \field{year}{2001}
+      \field{pages}{R103\bibrangedash R123}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/0022-3727/34/17/202
+      \endverb
+    \endentry
+    \entry{thornton1977}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=4615ebb2f57af975197987eb38f0b20d}{%
+           family={Thornton},
+           familyi={T\bibinitperiod},
+           given={John\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{4615ebb2f57af975197987eb38f0b20d}
+      \strng{fullhash}{4615ebb2f57af975197987eb38f0b20d}
+      \strng{fullhashraw}{4615ebb2f57af975197987eb38f0b20d}
+      \strng{bibnamehash}{4615ebb2f57af975197987eb38f0b20d}
+      \strng{authorbibnamehash}{4615ebb2f57af975197987eb38f0b20d}
+      \strng{authornamehash}{4615ebb2f57af975197987eb38f0b20d}
+      \strng{authorfullhash}{4615ebb2f57af975197987eb38f0b20d}
+      \strng{authorfullhashraw}{4615ebb2f57af975197987eb38f0b20d}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annual Review of Materials Science}
+      \field{title}{High rate thick film growth}
+      \field{volume}{7}
+      \field{year}{1977}
+      \field{pages}{239\bibrangedash 260}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1146/annurev.ms.07.080177.001323
+      \endverb
+    \endentry
+    \entry{anders2010szm}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=a4b1e4facf3bdb78db2e6cdb779f4968}{%
+           family={Anders},
+           familyi={A\bibinitperiod},
+           given={André},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{a4b1e4facf3bdb78db2e6cdb779f4968}
+      \strng{fullhash}{a4b1e4facf3bdb78db2e6cdb779f4968}
+      \strng{fullhashraw}{a4b1e4facf3bdb78db2e6cdb779f4968}
+      \strng{bibnamehash}{a4b1e4facf3bdb78db2e6cdb779f4968}
+      \strng{authorbibnamehash}{a4b1e4facf3bdb78db2e6cdb779f4968}
+      \strng{authornamehash}{a4b1e4facf3bdb78db2e6cdb779f4968}
+      \strng{authorfullhash}{a4b1e4facf3bdb78db2e6cdb779f4968}
+      \strng{authorfullhashraw}{a4b1e4facf3bdb78db2e6cdb779f4968}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Thin Solid Films}
+      \field{number}{15}
+      \field{title}{A structure zone diagram including plasma-based deposition and ion etching}
+      \field{volume}{518}
+      \field{year}{2010}
+      \field{pages}{4087\bibrangedash 4090}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1016/j.tsf.2009.10.145
+      \endverb
+    \endentry
+    \entry{rachbauer2011}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=6cf5077436303b0da74334a33c7a088e}{%
+           family={Rachbauer},
+           familyi={R\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=8f26ecb0b58593b2cf53c59bbf64d9ca}{%
+           family={Massl},
+           familyi={M\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5bffe5cfa4701f1fc8e34291be5f51a8}{%
+           family={Pogatscher},
+           familyi={P\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=bd7df7bcbdcabb8d7456528487fe0c6a}{%
+           family={Strunk},
+           familyi={S\bibinitperiod},
+           given={H.-P.},
+           giveni={H\bibinithyphendelim P\bibinitperiod}}}%
+        {{hash=3f7e8f197023a6067a32dbe4e527d17b}{%
+           family={Mayrhofer},
+           familyi={M\bibinitperiod},
+           given={P.\bibnamedelimi H.},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{2d5d45ebd37d2e9f06af50ac64a6347e}
+      \strng{fullhash}{85c60392490dec313dea26d27bf26925}
+      \strng{fullhashraw}{85c60392490dec313dea26d27bf26925}
+      \strng{bibnamehash}{2d5d45ebd37d2e9f06af50ac64a6347e}
+      \strng{authorbibnamehash}{2d5d45ebd37d2e9f06af50ac64a6347e}
+      \strng{authornamehash}{2d5d45ebd37d2e9f06af50ac64a6347e}
+      \strng{authorfullhash}{85c60392490dec313dea26d27bf26925}
+      \strng{authorfullhashraw}{85c60392490dec313dea26d27bf26925}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Applied Physics}
+      \field{number}{2}
+      \field{title}{Decomposition pathways in age hardening of Ti-Al-N films}
+      \field{volume}{110}
+      \field{year}{2011}
+      \field{pages}{023515}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.3610451
+      \endverb
+    \endentry
+    \entry{Sauerbrey_1959}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=2e5eafcdb0689955205dcd9a2baa8e74}{%
+           family={Sauerbrey},
+           familyi={S\bibinitperiod},
+           given={Günter},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{2e5eafcdb0689955205dcd9a2baa8e74}
+      \strng{fullhash}{2e5eafcdb0689955205dcd9a2baa8e74}
+      \strng{fullhashraw}{2e5eafcdb0689955205dcd9a2baa8e74}
+      \strng{bibnamehash}{2e5eafcdb0689955205dcd9a2baa8e74}
+      \strng{authorbibnamehash}{2e5eafcdb0689955205dcd9a2baa8e74}
+      \strng{authornamehash}{2e5eafcdb0689955205dcd9a2baa8e74}
+      \strng{authorfullhash}{2e5eafcdb0689955205dcd9a2baa8e74}
+      \strng{authorfullhashraw}{2e5eafcdb0689955205dcd9a2baa8e74}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Zeitschrift für Physik}
+      \field{month}{4}
+      \field{number}{2}
+      \field{title}{Verwendung von Schwingquarzen zur Wägung dünner Schichten und zur Mikrowägung}
+      \field{volume}{155}
+      \field{year}{1959}
+      \field{pages}{206\bibrangedash 222}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1007/bf01337937
+      \endverb
+    \endentry
+    \entry{hiden_eqp_manual}{manual}{}{}
+      \list{location}{1}{%
+        {Warrington, UK}%
+      }
+      \list{organization}{1}{%
+        {Hiden Analytical}%
+      }
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labeltitlesource}{title}
+      \field{title}{EQP Technical Manual: Energy-Resolving Quadrupole Mass Spectrometer}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.hidenanalytical.com
+      \endverb
+      \verb{url}
+      \verb https://www.hidenanalytical.com
+      \endverb
+    \endentry
+    \entry{dawson_quadrupole_1997}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=5915416668e2007abc350f3f5c241d1a}{%
+           family={Dawson},
+           familyi={D\bibinitperiod},
+           given={P.\bibnamedelimi H.},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Chichester, UK}%
+      }
+      \list{publisher}{1}{%
+        {IM Publications}%
+      }
+      \strng{namehash}{5915416668e2007abc350f3f5c241d1a}
+      \strng{fullhash}{5915416668e2007abc350f3f5c241d1a}
+      \strng{fullhashraw}{5915416668e2007abc350f3f5c241d1a}
+      \strng{bibnamehash}{5915416668e2007abc350f3f5c241d1a}
+      \strng{authorbibnamehash}{5915416668e2007abc350f3f5c241d1a}
+      \strng{authornamehash}{5915416668e2007abc350f3f5c241d1a}
+      \strng{authorfullhash}{5915416668e2007abc350f3f5c241d1a}
+      \strng{authorfullhashraw}{5915416668e2007abc350f3f5c241d1a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-901019-01-4}
+      \field{title}{Quadrupole Mass Spectrometry and Its Applications}
+      \field{year}{1997}
+    \endentry
+    \entry{march_quadrupole_1989}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=8651e598e1ccda7a51b245979c0128ce}{%
+           family={March},
+           familyi={M\bibinitperiod},
+           given={R.\bibnamedelimi E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=470d0abab70285d0ac0af34c6f19c001}{%
+           family={Hughes},
+           familyi={H\bibinitperiod},
+           given={R.\bibnamedelimi J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{0bada9094e03047f9c800b6da3bc5df3}
+      \strng{fullhash}{0bada9094e03047f9c800b6da3bc5df3}
+      \strng{fullhashraw}{0bada9094e03047f9c800b6da3bc5df3}
+      \strng{bibnamehash}{0bada9094e03047f9c800b6da3bc5df3}
+      \strng{authorbibnamehash}{0bada9094e03047f9c800b6da3bc5df3}
+      \strng{authornamehash}{0bada9094e03047f9c800b6da3bc5df3}
+      \strng{authorfullhash}{0bada9094e03047f9c800b6da3bc5df3}
+      \strng{authorfullhashraw}{0bada9094e03047f9c800b6da3bc5df3}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-471-85841-0}
+      \field{title}{Quadrupole Storage Mass Spectrometry}
+      \field{year}{1989}
+    \endentry
+    \entry{hidenanalytical}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=4f17c41e53d63c6d39c9cd8b67bd42da}{%
+           family={Analytical},
+           familyi={A\bibinitperiod},
+           given={Hiden},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{4f17c41e53d63c6d39c9cd8b67bd42da}
+      \strng{fullhash}{4f17c41e53d63c6d39c9cd8b67bd42da}
+      \strng{fullhashraw}{4f17c41e53d63c6d39c9cd8b67bd42da}
+      \strng{bibnamehash}{4f17c41e53d63c6d39c9cd8b67bd42da}
+      \strng{authorbibnamehash}{4f17c41e53d63c6d39c9cd8b67bd42da}
+      \strng{authornamehash}{4f17c41e53d63c6d39c9cd8b67bd42da}
+      \strng{authorfullhash}{4f17c41e53d63c6d39c9cd8b67bd42da}
+      \strng{authorfullhashraw}{4f17c41e53d63c6d39c9cd8b67bd42da}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.hidenanalytical.com/wp-content/uploads/2016/08/EQP-poster\_A1\_print.pdf}}
+      \field{note}{[Accessed 18-11-2025]}
+      \field{title}{{EQP: Mass and Energy Analyser for plasma diagnostics}}
+      \field{year}{2016}
+    \endentry
+    \entry{poon1995}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=1a2bfa762bd38b2c15f02e6a1ad265f7}{%
+           family={Poon},
+           familyi={P\bibinitperiod},
+           given={C.\bibnamedelimi Y.},
+           giveni={C\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=b6cf0dcc27d88582895a5c27322f49c1}{%
+           family={Bhushan},
+           familyi={B\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{eb68fe52534149d2a2d4602de6c3d73e}
+      \strng{fullhash}{eb68fe52534149d2a2d4602de6c3d73e}
+      \strng{fullhashraw}{eb68fe52534149d2a2d4602de6c3d73e}
+      \strng{bibnamehash}{eb68fe52534149d2a2d4602de6c3d73e}
+      \strng{authorbibnamehash}{eb68fe52534149d2a2d4602de6c3d73e}
+      \strng{authornamehash}{eb68fe52534149d2a2d4602de6c3d73e}
+      \strng{authorfullhash}{eb68fe52534149d2a2d4602de6c3d73e}
+      \strng{authorfullhashraw}{eb68fe52534149d2a2d4602de6c3d73e}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Wear}
+      \field{number}{1}
+      \field{title}{Comparison of surface roughness measurements by stylus profiler, AFM and non-contact optical profiler}
+      \field{volume}{190}
+      \field{year}{1995}
+      \field{pages}{76\bibrangedash 88}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/0043-1648(95)06697-7
+      \endverb
+    \endentry
+    \entry{mitsunaga2009}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=340c1aba3001fbdbf5ee1a80d3585d78}{%
+           family={Mitsunaga},
+           familyi={M\bibinitperiod},
+           given={Toru},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{340c1aba3001fbdbf5ee1a80d3585d78}
+      \strng{fullhash}{340c1aba3001fbdbf5ee1a80d3585d78}
+      \strng{fullhashraw}{340c1aba3001fbdbf5ee1a80d3585d78}
+      \strng{bibnamehash}{340c1aba3001fbdbf5ee1a80d3585d78}
+      \strng{authorbibnamehash}{340c1aba3001fbdbf5ee1a80d3585d78}
+      \strng{authornamehash}{340c1aba3001fbdbf5ee1a80d3585d78}
+      \strng{authorfullhash}{340c1aba3001fbdbf5ee1a80d3585d78}
+      \strng{authorfullhashraw}{340c1aba3001fbdbf5ee1a80d3585d78}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Rigaku Journal}
+      \field{number}{1}
+      \field{title}{X-ray thin-film measurement techniques II. Out-of-plane diffraction measurements}
+      \field{volume}{25}
+      \field{year}{2009}
+      \field{pages}{7\bibrangedash 12}
+      \range{pages}{6}
+    \endentry
+    \entry{yasaka2010}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=cde05632b13c7094faba9a89042c6834}{%
+           family={Yasaka},
+           familyi={Y\bibinitperiod},
+           given={Miho},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{cde05632b13c7094faba9a89042c6834}
+      \strng{fullhash}{cde05632b13c7094faba9a89042c6834}
+      \strng{fullhashraw}{cde05632b13c7094faba9a89042c6834}
+      \strng{bibnamehash}{cde05632b13c7094faba9a89042c6834}
+      \strng{authorbibnamehash}{cde05632b13c7094faba9a89042c6834}
+      \strng{authornamehash}{cde05632b13c7094faba9a89042c6834}
+      \strng{authorfullhash}{cde05632b13c7094faba9a89042c6834}
+      \strng{authorfullhashraw}{cde05632b13c7094faba9a89042c6834}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Rigaku Journal}
+      \field{number}{2}
+      \field{title}{X-ray thin-film measurement techniques: V. X-ray reflectivity measurement}
+      \field{volume}{26}
+      \field{year}{2010}
+      \field{pages}{1\bibrangedash 9}
+      \range{pages}{9}
+    \endentry
+    \entry{kiessig1931}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=cd7d0c8d0137f462e2f367fdb8dd8f88}{%
+           family={Kiessig},
+           familyi={K\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{cd7d0c8d0137f462e2f367fdb8dd8f88}
+      \strng{fullhash}{cd7d0c8d0137f462e2f367fdb8dd8f88}
+      \strng{fullhashraw}{cd7d0c8d0137f462e2f367fdb8dd8f88}
+      \strng{bibnamehash}{cd7d0c8d0137f462e2f367fdb8dd8f88}
+      \strng{authorbibnamehash}{cd7d0c8d0137f462e2f367fdb8dd8f88}
+      \strng{authornamehash}{cd7d0c8d0137f462e2f367fdb8dd8f88}
+      \strng{authorfullhash}{cd7d0c8d0137f462e2f367fdb8dd8f88}
+      \strng{authorfullhashraw}{cd7d0c8d0137f462e2f367fdb8dd8f88}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annalen der Physik}
+      \field{number}{7}
+      \field{title}{{Interferenz von Röntgenstrahlen an dünnen Schichten}}
+      \field{volume}{402}
+      \field{year}{1931}
+      \field{pages}{769\bibrangedash 788}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1002/andp.19314020702
+      \endverb
+    \endentry
+    \entry{parratt1954}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=e973073a26887dad5a61d2c8e3ef3bb2}{%
+           family={Parratt},
+           familyi={P\bibinitperiod},
+           given={L.\bibnamedelimi G.},
+           giveni={L\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{e973073a26887dad5a61d2c8e3ef3bb2}
+      \strng{fullhash}{e973073a26887dad5a61d2c8e3ef3bb2}
+      \strng{fullhashraw}{e973073a26887dad5a61d2c8e3ef3bb2}
+      \strng{bibnamehash}{e973073a26887dad5a61d2c8e3ef3bb2}
+      \strng{authorbibnamehash}{e973073a26887dad5a61d2c8e3ef3bb2}
+      \strng{authornamehash}{e973073a26887dad5a61d2c8e3ef3bb2}
+      \strng{authorfullhash}{e973073a26887dad5a61d2c8e3ef3bb2}
+      \strng{authorfullhashraw}{e973073a26887dad5a61d2c8e3ef3bb2}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review}
+      \field{number}{2}
+      \field{title}{Surface Studies of Solids by Total Reflection of X-Rays}
+      \field{volume}{95}
+      \field{year}{1954}
+      \field{pages}{359\bibrangedash 369}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1103/PhysRev.95.359
+      \endverb
+    \endentry
+    \entry{massspec_err}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=fce5fdb0064a7c993bacd3f3c008b5f1}{%
+           family={Hubaux},
+           familyi={H\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=83830e4de709b68912f4a654a4d50fd1}{%
+           family={Vos},
+           familyi={V\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{fcfb62beb16feeb0c0f28701e148b442}
+      \strng{fullhash}{fcfb62beb16feeb0c0f28701e148b442}
+      \strng{fullhashraw}{fcfb62beb16feeb0c0f28701e148b442}
+      \strng{bibnamehash}{fcfb62beb16feeb0c0f28701e148b442}
+      \strng{authorbibnamehash}{fcfb62beb16feeb0c0f28701e148b442}
+      \strng{authornamehash}{fcfb62beb16feeb0c0f28701e148b442}
+      \strng{authorfullhash}{fcfb62beb16feeb0c0f28701e148b442}
+      \strng{authorfullhashraw}{fcfb62beb16feeb0c0f28701e148b442}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Anal. Chem.}
+      \field{number}{8}
+      \field{title}{Quantitative Mass Spectrometry: Part II}
+      \field{volume}{42}
+      \field{year}{1970}
+      \field{pages}{849}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://www.spectroscopyonline.com/view/quantitative-mass-spectrometry-part-ii
+      \endverb
+      \verb{url}
+      \verb https://www.spectroscopyonline.com/view/quantitative-mass-spectrometry-part-ii
+      \endverb
+    \endentry
+    \entry{basic_massspec}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=e202fbbf92cd2d1c983f8da30a48bf76}{%
+           family={Boxman},
+           familyi={B\bibinitperiod},
+           given={R.\bibnamedelimi L.},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=8fb6d772ae75a0996e67525b92420875}{%
+           family={Goldsmith},
+           familyi={G\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a30bf90e34714c98e36535cb0c727418}{%
+           family={Sanders},
+           familyi={S\bibinitperiod},
+           given={D.\bibnamedelimi M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{d6c71609db31ee6039e7fe34b4a0e88d}
+      \strng{fullhash}{d6c71609db31ee6039e7fe34b4a0e88d}
+      \strng{fullhashraw}{d6c71609db31ee6039e7fe34b4a0e88d}
+      \strng{bibnamehash}{d6c71609db31ee6039e7fe34b4a0e88d}
+      \strng{authorbibnamehash}{d6c71609db31ee6039e7fe34b4a0e88d}
+      \strng{authornamehash}{d6c71609db31ee6039e7fe34b4a0e88d}
+      \strng{authorfullhash}{d6c71609db31ee6039e7fe34b4a0e88d}
+      \strng{authorfullhashraw}{d6c71609db31ee6039e7fe34b4a0e88d}
+      \field{extraname}{1}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Plasma Science}
+      \field{note}{Includes quantitative plasma diagnostics where standard deviation is used to characterize measurement scatter and reproducibility of arc plasma parameters.}
+      \field{number}{6}
+      \field{title}{Cathodic arc plasmas and their applications}
+      \field{volume}{23}
+      \field{year}{1995}
+      \field{pages}{939\bibrangedash 956}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1109/27.475210
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1109/27.475210
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1109/27.475210
+      \endverb
+    \endentry
+    \entry{evolution_pulse}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=a4b1e4facf3bdb78db2e6cdb779f4968}{%
+           family={Anders},
+           familyi={A\bibinitperiod},
+           given={André},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{a4b1e4facf3bdb78db2e6cdb779f4968}
+      \strng{fullhash}{a4b1e4facf3bdb78db2e6cdb779f4968}
+      \strng{fullhashraw}{a4b1e4facf3bdb78db2e6cdb779f4968}
+      \strng{bibnamehash}{a4b1e4facf3bdb78db2e6cdb779f4968}
+      \strng{authorbibnamehash}{a4b1e4facf3bdb78db2e6cdb779f4968}
+      \strng{authornamehash}{a4b1e4facf3bdb78db2e6cdb779f4968}
+      \strng{authorfullhash}{a4b1e4facf3bdb78db2e6cdb779f4968}
+      \strng{authorfullhashraw}{a4b1e4facf3bdb78db2e6cdb779f4968}
+      \field{extraname}{3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Plasma Sources Science and Technology}
+      \field{note}{A review article that discusses various factors influencing ion charge states in cathodic vacuum arc plasmas}
+      \field{title}{The evolution of ion charge states in cathodic vacuum arc plasmas: a review}
+      \field{year}{2012}
+    \endentry
+    \entry{SQM160_manual}{manual}{}{}
+      \list{location}{1}{%
+        {Bad Ragaz, Switzerland}%
+      }
+      \list{organization}{1}{%
+        {INFICON}%
+      }
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labeltitlesource}{title}
+      \field{note}{PN 074-511-P1E}
+      \field{title}{SQM-160 Multi-Film Rate/Thickness Monitor Operating Manual}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://www.inficon.com
+      \endverb
+      \verb{url}
+      \verb https://www.inficon.com
+      \endverb
+    \endentry
+    \entry{taylor1997}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=13cd2b5c9128bffc38d1f40b64e3f67c}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={John\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Sausalito, CA}%
+      }
+      \list{publisher}{1}{%
+        {University Science Books}%
+      }
+      \strng{namehash}{13cd2b5c9128bffc38d1f40b64e3f67c}
+      \strng{fullhash}{13cd2b5c9128bffc38d1f40b64e3f67c}
+      \strng{fullhashraw}{13cd2b5c9128bffc38d1f40b64e3f67c}
+      \strng{bibnamehash}{13cd2b5c9128bffc38d1f40b64e3f67c}
+      \strng{authorbibnamehash}{13cd2b5c9128bffc38d1f40b64e3f67c}
+      \strng{authornamehash}{13cd2b5c9128bffc38d1f40b64e3f67c}
+      \strng{authorfullhash}{13cd2b5c9128bffc38d1f40b64e3f67c}
+      \strng{authorfullhashraw}{13cd2b5c9128bffc38d1f40b64e3f67c}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2nd}
+      \field{title}{An Introduction to Error Analysis: The Study of Uncertainties in Physical Measurements}
+      \field{year}{1997}
+    \endentry
+    \entry{chen1984introduction}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=a5b8b2e287cbcd596b1a245e40c69dd9}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Francis\bibnamedelima F.},
+           giveni={F\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{a5b8b2e287cbcd596b1a245e40c69dd9}
+      \strng{fullhash}{a5b8b2e287cbcd596b1a245e40c69dd9}
+      \strng{fullhashraw}{a5b8b2e287cbcd596b1a245e40c69dd9}
+      \strng{bibnamehash}{a5b8b2e287cbcd596b1a245e40c69dd9}
+      \strng{authorbibnamehash}{a5b8b2e287cbcd596b1a245e40c69dd9}
+      \strng{authornamehash}{a5b8b2e287cbcd596b1a245e40c69dd9}
+      \strng{authorfullhash}{a5b8b2e287cbcd596b1a245e40c69dd9}
+      \strng{authorfullhashraw}{a5b8b2e287cbcd596b1a245e40c69dd9}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-306-41332-2}
+      \field{title}{Introduction to Plasma Physics and Controlled Fusion}
+      \field{volume}{1}
+      \field{year}{1984}
+    \endentry
+    \entry{magnetic_mirror}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=a6629c6cd2f6515618898f9215d821c7}{%
+           family={Fernández},
+           familyi={F\bibinitperiod},
+           given={Luis},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0d6bead0d349dec950c15696e41b51f5}{%
+           family={Torres},
+           familyi={T\bibinitperiod},
+           given={José},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3edd34201805bb80f04c7aa0d1f44771}{%
+           family={Gómez},
+           familyi={G\bibinitperiod},
+           given={Octavio},
+           giveni={O\bibinitperiod}}}%
+        {{hash=d4480d7d00c634c2ba7115634e2721f7}{%
+           family={Tirado\bibnamedelima Bueno},
+           familyi={T\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Eduardo},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{5a26d14e84c254d2627a9e146cc5e213}
+      \strng{fullhash}{7ffb7b350d2771e7d98ad2c90bd107da}
+      \strng{fullhashraw}{7ffb7b350d2771e7d98ad2c90bd107da}
+      \strng{bibnamehash}{5a26d14e84c254d2627a9e146cc5e213}
+      \strng{authorbibnamehash}{5a26d14e84c254d2627a9e146cc5e213}
+      \strng{authornamehash}{5a26d14e84c254d2627a9e146cc5e213}
+      \strng{authorfullhash}{7ffb7b350d2771e7d98ad2c90bd107da}
+      \strng{authorfullhashraw}{7ffb7b350d2771e7d98ad2c90bd107da}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista Mexicana de Física E}
+      \field{month}{07}
+      \field{title}{Charged particle reflection in a magnetic mirror}
+      \field{volume}{21}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.31349/RevMexFisE.21.020211
+      \endverb
+    \endentry
+    \entry{anders2008}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=a4b1e4facf3bdb78db2e6cdb779f4968}{%
+           family={Anders},
+           familyi={A\bibinitperiod},
+           given={André},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{a4b1e4facf3bdb78db2e6cdb779f4968}
+      \strng{fullhash}{a4b1e4facf3bdb78db2e6cdb779f4968}
+      \strng{fullhashraw}{a4b1e4facf3bdb78db2e6cdb779f4968}
+      \strng{bibnamehash}{a4b1e4facf3bdb78db2e6cdb779f4968}
+      \strng{authorbibnamehash}{a4b1e4facf3bdb78db2e6cdb779f4968}
+      \strng{authornamehash}{a4b1e4facf3bdb78db2e6cdb779f4968}
+      \strng{authorfullhash}{a4b1e4facf3bdb78db2e6cdb779f4968}
+      \strng{authorfullhashraw}{a4b1e4facf3bdb78db2e6cdb779f4968}
+      \field{extraname}{4}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Plasma Science}
+      \field{number}{5}
+      \field{title}{Cathodic arcs: a fractal approach}
+      \field{volume}{33}
+      \field{year}{2005}
+      \field{pages}{1456\bibrangedash 1464}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/TPS.2005.856488
+      \endverb
+    \endentry
+    \entry{boxman1995}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=e202fbbf92cd2d1c983f8da30a48bf76}{%
+           family={Boxman},
+           familyi={B\bibinitperiod},
+           given={R.\bibnamedelimi L.},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=8fb6d772ae75a0996e67525b92420875}{%
+           family={Goldsmith},
+           familyi={G\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a30bf90e34714c98e36535cb0c727418}{%
+           family={Sanders},
+           familyi={S\bibinitperiod},
+           given={D.\bibnamedelimi M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{d6c71609db31ee6039e7fe34b4a0e88d}
+      \strng{fullhash}{d6c71609db31ee6039e7fe34b4a0e88d}
+      \strng{fullhashraw}{d6c71609db31ee6039e7fe34b4a0e88d}
+      \strng{bibnamehash}{d6c71609db31ee6039e7fe34b4a0e88d}
+      \strng{authorbibnamehash}{d6c71609db31ee6039e7fe34b4a0e88d}
+      \strng{authornamehash}{d6c71609db31ee6039e7fe34b4a0e88d}
+      \strng{authorfullhash}{d6c71609db31ee6039e7fe34b4a0e88d}
+      \strng{authorfullhashraw}{d6c71609db31ee6039e7fe34b4a0e88d}
+      \field{extraname}{2}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Plasma Science}
+      \field{number}{6}
+      \field{title}{Cathodic arc plasmas and their applications}
+      \field{volume}{23}
+      \field{year}{1995}
+      \field{pages}{939\bibrangedash 956}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1109/27.475210
+      \endverb
+    \endentry
+    \entry{Miller1968}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=56111ef74ef8258c79e4f0e6e8b25631}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={R.\bibnamedelimi E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=a4f86a1eef632d0d3a53483f5fd12f0d}{%
+           family={Bolef},
+           familyi={B\bibinitperiod},
+           given={D.\bibnamedelimi I.},
+           giveni={D\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \strng{namehash}{5bcc974f5c0a6cded7a8f4bf22f4a922}
+      \strng{fullhash}{5bcc974f5c0a6cded7a8f4bf22f4a922}
+      \strng{fullhashraw}{5bcc974f5c0a6cded7a8f4bf22f4a922}
+      \strng{bibnamehash}{5bcc974f5c0a6cded7a8f4bf22f4a922}
+      \strng{authorbibnamehash}{5bcc974f5c0a6cded7a8f4bf22f4a922}
+      \strng{authornamehash}{5bcc974f5c0a6cded7a8f4bf22f4a922}
+      \strng{authorfullhash}{5bcc974f5c0a6cded7a8f4bf22f4a922}
+      \strng{authorfullhashraw}{5bcc974f5c0a6cded7a8f4bf22f4a922}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Applied Physics}
+      \field{number}{11}
+      \field{title}{Shear modulus and internal friction in single-crystal quartz at low temperatures}
+      \field{volume}{39}
+      \field{year}{1968}
+      \field{pages}{5815\bibrangedash 5821}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1063/1.1656042
+      \endverb
+    \endentry
+    \entry{Lu1972}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=400f79835333866b70a0bd741c9bb174}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=2740abf7bcdce31461e2e2b2eca5bc3e}{%
+           family={Lewis},
+           familyi={L\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{416bcf4dfa70cf62bfd4a835153e48b0}
+      \strng{fullhash}{416bcf4dfa70cf62bfd4a835153e48b0}
+      \strng{fullhashraw}{416bcf4dfa70cf62bfd4a835153e48b0}
+      \strng{bibnamehash}{416bcf4dfa70cf62bfd4a835153e48b0}
+      \strng{authorbibnamehash}{416bcf4dfa70cf62bfd4a835153e48b0}
+      \strng{authornamehash}{416bcf4dfa70cf62bfd4a835153e48b0}
+      \strng{authorfullhash}{416bcf4dfa70cf62bfd4a835153e48b0}
+      \strng{authorfullhashraw}{416bcf4dfa70cf62bfd4a835153e48b0}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Applied Physics}
+      \field{number}{11}
+      \field{title}{Investigation of film-thickness determination by oscillating quartz resonators with large mass load}
+      \field{volume}{43}
+      \field{year}{1972}
+      \field{pages}{4385\bibrangedash 4390}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1063/1.1660985
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
 
-\bibitem{anders2010szm}
-Andr{\'e} Anders.
-\newblock A structure zone diagram including plasma-based deposition and ion
-  etching.
-\newblock {\em Thin Solid Films}, 518(15):4087--4090, 2010.
-
-\bibitem{cathodic_arcs}
-André Anders.
-\newblock {\em Cathodic arcs: from fractal spots to energetic condensation},
-  volume~50.
-\newblock Springer, 2008.
-
-\bibitem{evolution_pulse}
-André Anders.
-\newblock The evolution of ion charge states in cathodic vacuum arc plasmas: a
-  review.
-\newblock {\em Plasma Sources Science and Technology}, 2012.
-\newblock A review article that discusses various factors influencing ion
-  charge states in cathodic vacuum arc plasmas.
-
-\bibitem{RN5}
-André Anders and George~Yu Yushkov.
-\newblock Ion flux from vacuum arc cathode spots in the absence and presence of
-  a magnetic field.
-\newblock {\em Journal of Applied Physics}, 91(8):4824--4832, 2002.
-
-\bibitem{bendikt2012}
-J.~Benedikt and A.~Kersten, H.~andHenning.
-\newblock Quadrupole mass spectrometry of reactive plasmas.
-\newblock {\em Journal of Physics D: Applied Physics}, 40(20):6300--6316, 2007.
-
-\bibitem{basic_massspec}
-R.~L. Boxman, S.~Goldsmith, and D.~M. Sanders.
-\newblock Cathodic arc plasmas and their applications.
-\newblock {\em IEEE Transactions on Plasma Science}, 23(6):939--956, 1995.
-\newblock Includes quantitative plasma diagnostics where standard deviation is
-  used to characterize measurement scatter and reproducibility of arc plasma
-  parameters.
-
-\bibitem{boxman1995}
-R.~L. Boxman, S.~Goldsmith, and D.~M. Sanders.
-\newblock Cathodic arc plasmas and their applications.
-\newblock {\em IEEE Transactions on Plasma Science}, 23(6):939--956, 1995.
-
-\bibitem{chen1984introduction}
-Francis~F. Chen.
-\newblock {\em Introduction to Plasma Physics and Controlled Fusion}, volume~1.
-\newblock Springer, New York, 1984.
-
-\bibitem{dawson_quadrupole_1997}
-P.~H. Dawson.
-\newblock {\em Quadrupole Mass Spectrometry and Its Applications}.
-\newblock IM Publications, Chichester, UK, 1997.
-
-\bibitem{magnetic_mirror}
-Luis Fernández, José Torres, Octavio Gómez, and Eduardo Tirado~Bueno.
-\newblock Charged particle reflection in a magnetic mirror.
-\newblock {\em Revista Mexicana de Física E}, 21, 07 2024.
-
-\bibitem{hiden_eqp_manual}
-Hiden Analytical, Warrington, UK.
-\newblock {\em EQP Technical Manual: Energy-Resolving Quadrupole Mass
-  Spectrometer}, 2024.
-
-\bibitem{massspec_err}
-A.~Hubaux and G.~Vos.
-\newblock Quantitative mass spectrometry: Part ii.
-\newblock {\em Anal. Chem.}, 42(8):849, 1970.
-
-\bibitem{SQM160_manual}
-INFICON, Bad Ragaz, Switzerland.
-\newblock {\em SQM-160 Multi-Film Rate/Thickness Monitor Operating Manual},
-  2015.
-\newblock PN 074-511-P1E.
-
-\bibitem{juttner2001}
-Burkhard J{\"u}ttner.
-\newblock Cathode spots of electric arcs.
-\newblock {\em Journal of Physics D: Applied Physics}, 34(17):R103--R123, 2001.
-
-\bibitem{decoupling_kalanov_2025}
-Dmitry Kalanov, Slavi Mandazhiev, Julius Franze, André Anders, and Yeliz
-  Unutulmazsoy.
-\newblock Decoupling the effects of potential energy, kinetic energy, and ion
-  flux on crystallinity of v-al and v-al-n thin films in pulsed filtered
-  cathodic arc deposition.
-\newblock {\em Surface and Coatings Technology}, 497, 2025.
-
-\bibitem{karimi_aghda_2023}
-Soheil Karimi~Aghda, Alireza Alyani, Frans Munnik, Maren Keunecke, Marcus Hans,
-  Daniel Primetzhofer, and Jochen~M. Schneider.
-\newblock Ion kinetic energy- and ion flux-dependent mechanical properties and
-  thermal stability of (ti,al)n thin films.
-\newblock {\em Acta Materialia}, 251:118897, 2023.
-
-\bibitem{kiessig1931}
-H.~Kiessig.
-\newblock {Interferenz von R{\"o}ntgenstrahlen an d{\"u}nnen Schichten}.
-\newblock {\em Annalen der Physik}, 402(7):769--788, 1931.
-
-\bibitem{Lu1972}
-C.~Lu and O.~Lewis.
-\newblock Investigation of film-thickness determination by oscillating quartz
-  resonators with large mass load.
-\newblock {\em Journal of Applied Physics}, 43(11):4385--4390, 1972.
-
-\bibitem{march_quadrupole_1989}
-R.~E. March and R.~J. Hughes.
-\newblock {\em Quadrupole Storage Mass Spectrometry}.
-\newblock Wiley, 1989.
-
-\bibitem{mayrhofer2006}
-P.~H. Mayrhofer, D.~Music, and J.~M. Schneider.
-\newblock Ab initio calculated binodal and spinodal of cubic ti$_{1-x}$al$_x$n.
-\newblock {\em Applied Physics Letters}, 88(7):071922, 2006.
-
-\bibitem{Miller1968}
-R.~E. Miller and D.~I. Bolef.
-\newblock Shear modulus and internal friction in single-crystal quartz at low
-  temperatures.
-\newblock {\em Journal of Applied Physics}, 39(11):5815--5821, 1968.
-
-\bibitem{mitsunaga2009}
-Toru Mitsunaga.
-\newblock X-ray thin-film measurement techniques ii. out-of-plane diffraction
-  measurements.
-\newblock {\em The Rigaku Journal}, 25(1):7--12, 2009.
-
-\bibitem{paldey2003}
-S.~Paldey and S.~C. Deevi.
-\newblock Single layer and multilayer wear resistant coatings of (ti,al)n: a
-  review.
-\newblock {\em Materials Science and Engineering: A}, 342(1--2):58--79, 2003.
-
-\bibitem{parratt1954}
-L.~G. Parratt.
-\newblock Surface studies of solids by total reflection of x-rays.
-\newblock {\em Physical Review}, 95(2):359--369, 1954.
-
-\bibitem{poon1995}
-C.~Y. Poon and B.~Bhushan.
-\newblock {\em Comparison of surface roughness measurements by stylus profiler,
-  AFM and non-contact optical profiler}, volume 190.
-\newblock 1995.
-
-\bibitem{rachbauer2011}
-R.~Rachbauer, S.~Massl, E.~Pogatscher, H.-P. Strunk, and P.~H. Mayrhofer.
-\newblock Decomposition pathways in age hardening of ti-al-n films.
-\newblock {\em Journal of Applied Physics}, 110(2):023515, 2011.
-
-\bibitem{Sauerbrey_1959}
-Günter Sauerbrey.
-\newblock Verwendung von schwingquarzen zur wägung dünner schichten und zur
-  mikrowägung.
-\newblock {\em Zeitschrift für Physik}, 155(2):206–222, Apr 1959.
-
-\bibitem{taylor1997}
-John~R. Taylor.
-\newblock {\em An Introduction to Error Analysis: The Study of Uncertainties in
-  Physical Measurements}.
-\newblock University Science Books, Sausalito, CA, 2nd edition, 1997.
-
-\bibitem{thornton1977}
-John~A. Thornton.
-\newblock High rate thick film growth.
-\newblock {\em Annual Review of Materials Science}, 7:239--260, 1977.
-
-\bibitem{unutulmazsoy}
-Yeliz Unutulmazsoy, Dmitry Kalanov, Kyunghwan Oh, Soheil Karimi~Aghda,
-  Jürgen~W. Gerlach, Nils Braun, Frans Munnik, Andriy Lotnyk, Jochen~M.
-  Schneider, and André Anders.
-\newblock Toward decoupling the effects of kinetic and potential ion energies:
-  Ion flux dependent structural properties of thin (v,al)n films deposited by
-  pulsed filtered cathodic arc.
-\newblock {\em Journal of Vacuum Science \& Technology A}, 41(6), 2023.
-
-\bibitem{windover1999}
-D.~Windover, K.~M. Gaff, D.~Lee, and M.~J. Dalberth.
-\newblock Profilometry and atomic force microscopy for surface
-  characterization.
-\newblock {\em Materials Characterization}, 43(5):347--355, 1999.
-
-\bibitem{yasaka2010}
-Miho Yasaka.
-\newblock X-ray thin-film measurement techniques: V. x-ray reflectivity
-  measurement.
-\newblock {\em The Rigaku Journal}, 26(2):1--9, 2010.
-
-\end{thebibliography}

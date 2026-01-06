@@ -1,49 +1,19 @@
-This is BibTeX, Version 0.99d (TeX Live 2023/Debian)
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: main.aux
-The style file: plain.bst
-Database file #1: Tex_files/references.bib
-Warning--can't use both volume and number fields in poon1995
-Warning--empty publisher in poon1995
-You've used 34 entries,
-            2118 wiz_defined-function locations,
-            720 strings with 9419 characters,
-and the built_in function-call counts, 10332 in all, are:
-= -- 1018
-> -- 458
-< -- 3
-+ -- 187
-- -- 150
-* -- 764
-:= -- 1772
-add.period$ -- 104
-call.type$ -- 34
-change.case$ -- 172
-chr.to.int$ -- 0
-cite$ -- 36
-duplicate$ -- 366
-empty$ -- 823
-format.name$ -- 150
-if$ -- 2097
-int.to.chr$ -- 0
-int.to.str$ -- 34
-missing$ -- 37
-newline$ -- 175
-num.names$ -- 64
-pop$ -- 145
-preamble$ -- 1
-purify$ -- 145
-quote$ -- 0
-skip$ -- 240
-stack$ -- 0
-substring$ -- 676
-swap$ -- 38
-text.length$ -- 3
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 124
-warning$ -- 2
-while$ -- 100
-width$ -- 36
-write$ -- 378
-(There were 2 warnings)
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'main.blg'
+[64] biber:340> INFO - === Fri Jan  2, 2026, 11:36:00
+[76] Biber.pm:420> INFO - Reading 'main.bcf'
+[135] Biber.pm:994> INFO - Found 34 citekeys in bib section 0
+[144] Biber.pm:4463> INFO - Processing section 0
+[152] Biber.pm:4654> INFO - Looking for bibtex file 'references.bib' for section 0
+[154] bibtex.pm:1713> INFO - LaTeX decoding ...
+[184] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[395] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[395] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[395] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[395] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[412] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[422] bbl.pm:779> INFO - Output to main.bbl
+[422] Biber.pm:131> WARN - legacy month field 'Apr' in entry 'Sauerbrey_1959' is not an integer - this will probably not sort properly.
+[422] Biber.pm:131> WARN - ISBN '978-1-901019-01-4' in entry 'dawson_quadrupole_1997' is invalid - run biber with '--validate_datamodel' for details.
+[422] Biber.pm:131> WARN - ISBN '978-0-471-85841-0' in entry 'march_quadrupole_1989' is invalid - run biber with '--validate_datamodel' for details.
+[422] Biber.pm:133> INFO - WARNINGS: 3
