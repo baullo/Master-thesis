@@ -31,43 +31,48 @@
 \contentsline {subsection}{\numberline {3.2.3}Simultaneous Ion Probe and QCM Measurements}{24}{subsection.3.2.3}%
 \contentsline {subsection}{\numberline {3.2.4}Energy-Resolving Mass Spectrometer (ERMS)}{25}{subsection.3.2.4}%
 \contentsline {subsection}{\numberline {3.2.5}Calculation of Ion Flux and Total Deposited Flux}{27}{subsection.3.2.5}%
-\contentsline {subsubsection}{Ion Flux from Probe and ERMS Measurements}{28}{section*.13}%
-\contentsline {subsubsection}{Total Deposited Flux from QCM and Film Characterization}{28}{section*.14}%
-\contentsline {section}{\numberline {3.3}Ex situ Measurements}{28}{section.3.3}%
+\contentsline {subsubsection}{Ion Flux from Probe and ERMS Measurements}{27}{section*.13}%
+\contentsline {subsubsection}{Total Deposited Flux from QCM and Film Characterization}{27}{section*.14}%
+\contentsline {section}{\numberline {3.3}Thin Film Deposition and Characterization}{28}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Profilometry}{28}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}X-ray Diffraction (XRD)}{29}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.2}X-ray Diffraction (XRD)}{28}{subsection.3.3.2}%
 \contentsline {subsection}{\numberline {3.3.3}X-ray Reflectometry (XRR)}{30}{subsection.3.3.3}%
 \contentsline {subsection}{\numberline {3.3.4}Scanning Electron Microscopy (SEM)}{31}{subsection.3.3.4}%
 \contentsline {subsection}{\numberline {3.3.5}Energy-dispersive X-ray spectroscopy (EDX)}{31}{subsection.3.3.5}%
-\contentsline {section}{\numberline {3.4}Data Processing}{31}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Error Handling}{32}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Mass Spectrometry Measurements}{32}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}QCM and Ion Current Probe Measurements}{33}{subsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.5.3}Error Propagation Analysis}{33}{subsection.3.5.3}%
-\contentsline {subsubsection}{Ion Flux from Current Measurements}{34}{section*.17}%
-\contentsline {subsubsection}{Atomic Flux from QCM Measurements}{34}{section*.18}%
-\contentsline {chapter}{\numberline {4}Results}{35}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Langmuir Probe Bias Voltage Characterization}{35}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Validation of Langmuir Probe Operation}{35}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Analysis of the Ion Saturation Curve}{36}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Selection of Operating Bias Voltage}{37}{subsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.1.4}Ion current Variation over different pulses}{37}{subsection.4.1.4}%
-\contentsline {section}{\numberline {4.2}Quartz crystal Microbalance and Ion current Probe}{38}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Metallic Case (No Nitrogen)}{40}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Distance as a variable}{41}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Magnetic Field as a variable}{42}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Nitrogen pressure as a variable}{43}{subsection.4.2.4}%
-\contentsline {section}{\numberline {4.3}Mass spectrometry Results}{44}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Ex situ Results}{45}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Profilometry}{45}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}XRD}{46}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}XRR}{46}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}EDX}{46}{subsection.4.4.4}%
-\contentsline {section}{\numberline {4.5}Fluxes}{46}{section.4.5}%
-\contentsline {chapter}{\numberline {5}Discussion of Results}{47}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Conclusion}{48}{chapter.6}%
-\contentsline {chapter}{\numberline {7}final words or smt like thanks everyone}{49}{chapter.7}%
-\contentsline {chapter}{\numberline {A}Experimental Methods supplementary}{50}{chapter.1}%
-\contentsline {section}{\numberline {A.1}Longer QCM depositions}{50}{section.1.1}%
-\contentsline {chapter}{\numberline {B}Additional Plots}{51}{chapter.2}%
-\contentsline {chapter}{\numberline {C}Python code used}{53}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Results}{32}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Quartz crystal Microbalance and Ion current Probe}{32}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Metallic Case (No Nitrogen)}{34}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Distance as a variable}{35}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Magnetic Field as a variable}{36}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}Nitrogen pressure as a variable}{37}{subsection.4.1.4}%
+\contentsline {section}{\numberline {4.2}Mass spectrometry Results}{38}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Ex situ Results}{39}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Profilometry}{39}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}XRD}{40}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}XRR}{40}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}EDX}{40}{subsection.4.3.4}%
+\contentsline {section}{\numberline {4.4}Fluxes}{40}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Discussion of Results}{41}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Conclusion}{42}{chapter.6}%
+\contentsline {chapter}{\numberline {7}final words or smt like thanks everyone}{43}{chapter.7}%
+\contentsline {chapter}{\numberline {A}Experimental Methods supplementary}{44}{chapter.1}%
+\contentsline {section}{\numberline {A.1}Longer QCM depositions}{44}{section.1.1}%
+\contentsline {section}{\numberline {A.2}Holder Assembly Design}{44}{section.1.2}%
+\contentsline {section}{\numberline {A.3}Data Processing Workflow}{45}{section.1.3}%
+\contentsline {subsection}{\numberline {A.3.1}Data Organization and Logbook System}{45}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {A.3.2}Ion Current Data Processing}{46}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {A.3.3}ERMS Data Processing}{46}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {A.3.4}QCM Data Processing}{47}{subsection.1.3.4}%
+\contentsline {section}{\numberline {A.4}Uncertainty Analysis}{47}{section.1.4}%
+\contentsline {subsection}{\numberline {A.4.1}ERMS Measurements}{47}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {A.4.2}Ion Probe Measurements}{48}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {A.4.3}QCM Measurements}{49}{subsection.1.4.3}%
+\contentsline {subsection}{\numberline {A.4.4}Error Propagation in Derived Quantities}{49}{subsection.1.4.4}%
+\contentsline {chapter}{\numberline {B}Langmuir Probe Bias Voltage Characterization}{51}{chapter.2}%
+\contentsline {section}{\numberline {B.1}Validation of Langmuir Probe Operation}{51}{section.2.1}%
+\contentsline {section}{\numberline {B.2}Analysis of the Ion Saturation Curve}{52}{section.2.2}%
+\contentsline {section}{\numberline {B.3}Selection of Operating Bias Voltage}{53}{section.2.3}%
+\contentsline {section}{\numberline {B.4}Ion Current Variation over Different Pulses}{53}{section.2.4}%
+\contentsline {chapter}{\numberline {C}Additional Plots}{55}{chapter.3}%
+\contentsline {chapter}{\numberline {D}Python Code and Data Overview}{57}{chapter.4}%
+\contentsline {section}{\numberline {D.1}Data Availability}{57}{section.4.1}%
