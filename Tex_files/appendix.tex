@@ -63,7 +63,7 @@ Associated oscilloscope waveforms were stored as CSV files for ion current analy
 Ion current waveforms were recorded using a Tektronix MSO64 oscilloscope. For each measurement condition, multiple pulses were recorded and processed as follows:
 
 \begin{enumerate}
-	\item \textbf{Pulse averaging}: Individual pulse waveforms were averaged to obtain the mean ion current waveform. The standard deviation at each time point was calculated to quantify pulse-to-pulse variability.
+	\item \textbf{Pulse averaging}: Individual pulse waveforms were averaged to obtain the mean ion current waveform.
 	\item \textbf{Time-integrated current}: The mean ion current over the pulse duration (0--1~ms) was calculated by integrating the averaged waveform and dividing by the pulse width.
 \end{enumerate}
 
@@ -74,7 +74,7 @@ The Python script automatically matched logbook entries to oscilloscope CSV file
 Energy-resolved mass spectrometry data were evaluated with a Python script that performed the following operations:
 
 \begin{enumerate}
-	\item \textbf{Spectral integration}: Raw energy distribution functions (EDFs) for each $M/Q$ value were integrated over the measurement window (40~ms per point, averaged from two 20~ms acquisition windows).
+	\item \textbf{Spectral integration}: Raw energy distribution functions (EDFs) for each $M/Q$ value were averaged over the two measurement window of 20 ms.
 	
 	\item \textbf{Mass transmission correction}: Applied correction factors to account for mass-dependent detection efficiency of the quadrupole mass filter and detector.
 	
@@ -96,7 +96,7 @@ The processed results were visualized and exported to CSV files for correlation 
 
 \subsection{QCM Data Processing}
 
-QCM frequency measurements were recorded before and after each deposition run. The deposited mass was calculated using the Sauerbrey equation (Equation~\ref{eq:sauerbrey}). The mass deposition rate was obtained by dividing by the number of pulses and the active crystal area.
+QCM frequency measurements were recorded before and after each set of pulses. The deposited mass was calculated using the Sauerbrey equation (Equation~\ref{eq:sauerbrey}). The mass deposition rate was obtained by dividing by the number of pulses and the active crystal area.
 
 \section{Uncertainty Analysis}\label{appendix:uncertainty}
 
@@ -104,11 +104,12 @@ This section provides detailed uncertainty analysis for each diagnostic techniqu
 
 \subsection{ERMS Measurements}
 
-The non-stationary nature of cathode spots in cathodic arcs leads to significant fluctuations in ion flux and charge composition from pulse to pulse \cite{cathodic_arcs}. For ERMS measurements, the standard deviation $\sigma_E$ characterizes the pulse-to-pulse variability and is displayed as error bars in energy distribution plots. This statistical approach is well-documented in mass spectrometry literature \cite{basic_massspec}.
+The non-stationary nature of cathode spots in cathodic arcs leads to significant fluctuations in ion flux and charge composition from pulse to pulse \cite{cathodic_arcs}. For ERMS measurements, the standard deviation $\sigma_E$ characterizes the pulse-to-pulse variability and is displayed as error bars in energy distribution plots. This statistical approach is well-documented in mass spectrometry literature \cite{basic_massspec}.\\
 
-The ERMS requires optimization of electrode voltages to ensure stable ion transmission through the analyzer. This tuning process was performed using the cathodic arc plasma itself, which introduces some uncertainty due to the time-varying nature of the plasma. The tuning was optimized for Ti$^{2+}$ ions at their peak energy and verified periodically throughout the measurement campaign.
+The ERMS requires optimization of electrode voltages to ensure stable ion transmission through the analyzer. This tuning process was performed using the cathodic arc plasma itself and optimized for N$_2^{+}$ ions at their peak energy.\\
 
-The detection efficiency varies with $M/Q$ due to the transmission characteristics of the quadrupole mass filter and the detector response. Mass transmission correction factors were applied to account for these effects. The uncertainty in these correction factors is estimated at $\pm$10\%. The energy analyzer has a finite resolution $\Delta E/E \approx 2\%$, which limits the ability to resolve closely spaced peaks in the energy distribution but does not significantly affect the determination of mean energies.
+The detection efficiency varies with $M/Q$ due to the transmission characteristics of the quadrupole mass filter and the detector response. Mass transmission correction factors were applied to account for these effects. The uncertainty in these correction factors is estimated at $\pm$10\%. The energy analyzer has a finite resolution $\Delta E/E \approx 2\%$ \cite{hiden_eqp_manual}, which limits the ability to resolve closely spaced peaks in the energy distribution but does not significantly affect the determination of mean energies.
+
 
 \subsection{Ion Probe Measurements}
 
@@ -164,22 +165,34 @@ The total deposited flux $\Phi_{\text{total}}$ (atoms\,cm$^{-2}$\,pulse$^{-1}$) 
 	\label{eq:total_flux_appendix}
 \end{equation}
 
-The primary sources of uncertainty are: mass measurement ($\sigma_m/m \approx 0.5\%$), QCM area ($\sigma_{A_{\text{QCM}}}/A_{\text{QCM}} \approx 1\%$), and effective molar mass ($\sigma_{M_{\text{eff}}}/M_{\text{eff}} \approx 2$--5\% from EDX composition measurement). The error propagation gives:
+The primary sources of uncertainty are:
+\begin{itemize}[noitemsep]
+	\item \textbf{Mass measurement} ($\sigma_m/m \approx 0.5\%$): For typical deposited masses of 100--1500~ng over 64 pulses, the frequency shift ranges from 1--50~Hz. With the instrument uncertainty of $\Delta f = 0.03$~Hz \cite{SQM160_manual}, this gives a relative uncertainty of 0.06--3\%. However, temperature drift and baseline fluctuations typically add an additional 0.3--0.5\%, giving a combined uncertainty of approximately 0.5\% for most measurements. This is supported by repeated measurements at identical conditions showing mass reproducibility within 0.4--0.6\%.
+	
+	\item \textbf{QCM area} ($\sigma_{A_{\text{QCM}}}/A_{\text{QCM}} \approx 1\%$): The active crystal area is defined by the electrode diameter (8~mm). Manufacturer specifications for AT-cut crystals indicate electrode diameter tolerances of $\pm$0.05~mm \cite{SQM160_manual}, corresponding to 0.6\% uncertainty in diameter or approximately 1.2\% in area. Conservative estimate of 1\% is used.
+	
+	\item \textbf{Effective molar mass} ($M_{\text{eff}}$): The effective molar mass depends on film composition determined by EDX. For metallic films (no nitrogen), the Ti:Al ratio was measured by EDX as approximately 4:1 (80~at.\% Ti, 20~at.\% Al), giving $M_{\text{eff}} = 46.2$~g\,mol$^{-1}$. This differs from the cathode composition (62.8~at.\% Ti, 37.2~at.\% Al, $M_{\text{eff}} = 44.2$~g\,mol$^{-1}$) due to differences in ionization efficiency and transport through the magnetic filter \cite{cathodic_arcs}. For reactive films, nitrogen content from EDX is added to determine $M_{\text{eff}}$ for the TiAlN compound.
+	
+	EDX quantification typically achieves 2--3\% relative accuracy for major elements (>10~at.\%) and 5--10\% for minor elements under optimal conditions \cite{goldstein2017}. However, quantitative uncertainty estimates (error bars) were not provided by the EDX analysis software for this work. Therefore, the uncertainty in $M_{\text{eff}}$ is not included in the error propagation calculations below, and the total flux uncertainties represent lower bounds. Given the exploratory nature of the measurements and the measurement variability from other sources, this simplified approach is considered adequate.
+\end{itemize}
+
+The error propagation for total deposited flux, excluding the unmeasured composition uncertainty, is:
 \begin{equation}
-	\left(\frac{\sigma_{\Phi_{\text{total}}}}{\Phi_{\text{total}}}\right)^2 = \left(\frac{\sigma_m}{m}\right)^2 + \left(\frac{\sigma_{A_{\text{QCM}}}}{A_{\text{QCM}}}\right)^2 + \left(\frac{\sigma_{M_{\text{eff}}}}{M_{\text{eff}}}\right)^2
+	\left(\frac{\sigma_{\Phi_{\text{total}}}}{\Phi_{\text{total}}}\right)^2 = \left(\frac{\sigma_m}{m}\right)^2 + \left(\frac{\sigma_{A_{\text{QCM}}}}{A_{\text{QCM}}}\right)^2 \approx (0.005)^2 + (0.01)^2
 	\label{eq:total_flux_error}
 \end{equation}
-The dominant contribution is from the composition measurement, giving a total relative uncertainty of approximately 2--5\%.
+yielding a total relative uncertainty of approximately 1.1\%. This represents a \textbf{lower bound} on the true uncertainty, as it does not include the contribution from composition measurement uncertainty (typically 2--5\% based on literature values for EDX). The actual uncertainty in $\Phi_{\text{total}}$ is likely in the range of 2--6\%, but cannot be precisely quantified without EDX uncertainty data.
 
-The ratio $\Gamma_{\text{ion}}/\Phi_{\text{total}}$ provides insight into the fraction of deposited material arriving as ions versus neutrals. The relative uncertainty in this ratio is:
+
+
+The ratio $\Gamma_{\text{ion}}/\Phi_{\text{total}}$ provides insight into the fraction of deposited material arriving as ions versus neutrals, which is particularly important for distinguishing between metallic and reactive deposition modes. The relative uncertainty in this ratio, excluding composition uncertainty, is:
 \begin{equation}
-	\left(\frac{\sigma_{\text{ratio}}}{\text{ratio}}\right)^2 = \left(\frac{\sigma_{\Gamma_{\text{ion}}}}{\Gamma_{\text{ion}}}\right)^2 + \left(\frac{\sigma_{\Phi_{\text{total}}}}{\Phi_{\text{total}}}\right)^2
+	\left(\frac{\sigma_{\text{ratio}}}{\text{ratio}}\right)^2 = \left(\frac{\sigma_{\Gamma_{\text{ion}}}}{\Gamma_{\text{ion}}}\right)^2 + \left(\frac{\sigma_{\Phi_{\text{total}}}}{\Phi_{\text{total}}}\right)^2 
 	\label{eq:ratio_error}
 \end{equation}
-giving a total uncertainty of approximately 7--19\% dominated by the ion flux measurement.
+giving a total uncertainty of approximately 35--44\%, completely dominated by the ion flux measurement. The total deposited flux contributes negligibly to the overall uncertainty (<0.3\% additional uncertainty). 
 
-
-
+This large uncertainty in the ion-to-total flux ratio is unavoidable given the fluctuating nature of cathodic arc plasmas. 
 
 
 
@@ -189,28 +202,28 @@ Before plasma diagnostics were performed, the functionality of the custom-built 
 
 \section{Validation of Langmuir Probe Operation}
 
-The bias voltage tests were performed without nitrogen in the chamber, at a fixed distance of 10~cm from the macroparticle filter, and with an EM-coil strength of 0.25~T. Figure~\ref{fig:bias_current_appendix} displays the measured ion current as a function of bias voltage. The blue data points represent the experimental results, while the green line shows the exponential saturation fit.
+The bias voltage tests were performed without nitrogen in the chamber, at a fixed distance of 10~cm from the macroparticle filter, and with an EM-coil strength of 0.25~T. 
+
+The relationship between the collected current $I$ and the bias voltage $V$ was analyzed using the modified Langmuir equation \cite{chen1984introduction}:
+\begin{align}\label{eq:langmuir_appendix}
+	I = I_{\text{sat}} \left( 1 - e^{\frac{-V}{V_0}}\right) + m \cdot V
+\end{align}
+where $I_{\text{sat}}$ is the saturation current and $V_0$ is a characteristic voltage. The term $m$ accounts for plasma sheath expansion and collisional effects at higher bias voltages.
+
+Figure~\ref{fig:bias_current_appendix} displays the measured ion current as a function of bias voltage. The blue data points represent the experimental results, while the green line shows the I-V fit to Equation~\ref{eq:langmuir_appendix}.
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.9\linewidth]{Figures/results 1/bias_current_voltage_Saturation_thesis_version.png}
-	\caption{Measured ion current vs. bias voltage for the Langmuir probe, showing exponential saturation fit $I=6.17(1-e^{-V/1.8})+0.023V$. Conditions: no nitrogen, 10~cm from the macroparticle filter, 0.25~T EM-coil strength.}
+	\caption{Measured ion current vs. bias voltage for the Langmuir probe, showing I-V fit $I=6.17(1-e^{-V/1.8})+0.023V$. Conditions: no nitrogen, 10~cm from the macroparticle filter, 0.25~T EM-coil strength.}
 	\label{fig:bias_current_appendix}
 \end{figure}
 
-The relationship between the collected current $I$ and the bias voltage $V$ was analyzed using the modified Langmuir equation \cite{chen1984introduction}:
-
-\begin{align}\label{eq:langmuir_appendix}
-	I = I_{\text{sat}} \left( 1 - e^{\frac{-V}{V_0}}\right) + m \cdot V
-\end{align}
-
-where $I_{\text{sat}}$ is the saturation current and $V_0$ is a characteristic voltage. The term $m$ in the equation accounts for plasma sheath expansion and collisional effects at higher bias voltages.
-
 \section{Analysis of the Ion Saturation Curve}
 
-As the bias voltage increases, the sheath around the probe grows, which can lead to a non-saturating component in the collected current. This is a common effect seen in small probes. Additionally, collisions within the sheath or presheath region can modify the ion trajectory, resulting in a small linear increase in the collected current with voltage. This correction ensures the model accurately describes the probe's behavior across the full range of applied voltages \cite[Chap.~7]{chen1984introduction}.
+As the bias voltage increases, the sheath around the probe grows. At higher voltages, the sheath becomes non-planar, and the probe begins to attract ions not only from directly in front but also from the sides, leading to a non-saturating component in the collected current. This is a common effect seen in small probes. Additionally, collisions within the sheath or presheath region can modify the ion trajectory, resulting in a small linear increase in the collected current with voltage. The linear term $m \cdot V$ in Equation~\ref{eq:langmuir_appendix} accounts for these effects and ensures the model accurately describes the probe's behavior across the full range of applied voltages \cite[Chap.~7]{chen1984introduction}.
 
-The experimental data were fitted to this equation using a nonlinear least-squares method in Python, yielding the following parameters:
+The experimental data were fitted to Equation~\ref{eq:langmuir_appendix} using a nonlinear least-squares method in Python, yielding the following parameters:
 \[ I_{\text{sat}} = 6.17 \, \text{mA}, \hspace{2cm} V_0 = 1.8 \, \text{V}, \hspace{2cm} m = 0.023. \]
 
 The bias voltage test results (Figure~\ref{fig:bias_current_appendix}) show two distinct regimes:
@@ -229,12 +242,12 @@ A bias voltage of $-80$~V was selected for subsequent measurements to ensure the
 
 \section{Ion Current Variation over Different Pulses}\label{sec:errorbar}
 
-To analyze the pulse-to-pulse variation, approximately 30 single pulses were recorded for each magnetic field strength. The average ion current of each pulse was calculated over the 0--1~ms pulse interval. The final mean and standard deviation were then determined by combining these averages, allowing for an assessment of the differences between pulses. Notably, the 0.05~T data point in Fig.~\ref{fig:pulsevariabilityplotmean} includes a significant outlier, with a recorded ion current of approximately 4.8~mA, as detailed in Table~\ref{tab:pulse_measurements_appendix}.
+To analyze the pulse-to-pulse variation, approximately 30 single pulses were recorded for each magnetic field strength. The average ion current of each pulse was calculated over the 0--1~ms pulse interval. The final mean and standard deviation were then determined by combining these averages, allowing for an assessment of the differences between pulses. 
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.75\textwidth]{"Figures/results 1/pulse_variability_plot_mean"}
-	\caption{Pulse-to-Pulse Variation in Mean Ion Current at Varying Magnetic Fields (0.1~Pa N$_2$, 10~cm distance)}
+	\caption{Pulse-to-pulse variation in mean ion current at varying magnetic fields (0.1~Pa N$_2$, 10~cm distance)}
 	\label{fig:pulsevariabilityplotmean}
 \end{figure}
 
@@ -250,13 +263,11 @@ To analyze the pulse-to-pulse variation, approximately 30 single pulses were rec
 		0.20 & 7.996 & 0.399 & 5.0 & [7.26, 8.78] & 22 \\ \hline
 		0.25 & 9.460 & 0.363 & 3.8 & [8.61, 10.02] & 30 \\ \hline
 	\end{tabularx}
-	\caption{Summary of pulse measurement statistics for varying magnetic field strengths.}
+	\caption{Summary of pulse measurement statistics for varying magnetic field strengths. Note: The 0.05~T data includes variability from unstable arc behavior at this field strength.}
 	\label{tab:pulse_measurements_appendix}
 \end{table}
 
 In all other measurements, the oscilloscope averaged the voltage signal over multiple pulses to improve signal-to-noise ratio. Therefore, the error reported in subsequent sections primarily reflects variations in ion current within individual pulses, rather than differences between distinct pulses.
-
-
 
 
 \chapter{Additional Plots}
