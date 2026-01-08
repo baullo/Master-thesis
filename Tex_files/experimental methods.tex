@@ -489,40 +489,38 @@ The measured reflectivity curves were analyzed using the Parratt recursive forma
 
 
 
-
-
 \subsection{Scanning Electron Microscopy (SEM)}\label{sec:SEM}
-\textcolor{red}{need to look into before writing about it, more precisely about the specs of the device}
-\iffalse
 
-Scanning electron microscopy (SEM) was employed to characterize the surface morphology, cross-sectional structure, and microstructural features of the deposited films. SEM uses a focused electron beam (typically 1--30~keV) that is raster-scanned across the sample surface, generating various signals through electron-specimen interactions \cite{goldstein2017}. The primary signals detected include secondary electrons (SE) for high-resolution topographic imaging and backscattered electrons (BSE) for compositional contrast.
+Scanning electron microscopy (SEM) was employed to characterize the surface morphology and microstructure of the deposited films. SEM uses a focused electron beam to scan the sample surface, generating secondary electrons (SE) and backscattered electrons (BSE) that provide information about surface topography and compositional contrast, respectively \cite{goldstein2017,reimer1998}.\\
 
-Secondary electrons, emitted from the near-surface region ($\sim$5--50~nm depth), provide information about surface texture and topography with typical resolutions of 1--10~nm depending on the instrument and operating conditions \cite{reimer1998}. Backscattered electrons, which retain most of their incident energy, are sensitive to atomic number ($Z$-contrast), allowing different phases or compositional variations to be distinguished. The intensity of BSE signal increases with increasing atomic number, making heavier elements appear brighter.
+SEM imaging was performed using a \textcolor{red}{[MODEL - Zeiss Gemini/Sigma]} field emission scanning electron microscope equipped with an in-lens detector for high-resolution secondary electron imaging. Samples were imaged at an accelerating voltage of 15~kV with magnifications ranging from 30,000$\times$ to 100,000$\times$. The conductive TiAlN films required no additional coating preparation. \\
 
-For this study, samples were prepared by cleaving or cutting silicon wafer substrates to expose cross-sections of the deposited films. Conductive coatings were not required for the metallic TiAlN films. SEM imaging was performed to:
+The primary objectives of SEM characterization were to:
 \begin{itemize}[noitemsep]
-	\item Characterize surface morphology and the presence of macroparticles typical of cathodic arc deposition
-	\item Measure film thickness from cross-sectional views to validate QCM measurements
-	\item Examine film uniformity and interface quality with the substrate
-	\item Identify columnar growth structures and grain morphology
+	\item Examine surface morphology and the presence of any macroparticles typical of cathodic arc deposition
+	\item Assess film uniformity across the substrate
+	\item Identify microstructural features resulting from different deposition conditions\\
 \end{itemize}
 
-Additionally, energy-dispersive X-ray spectroscopy (EDS) was used in conjunction with SEM to perform elemental analysis, confirming the Ti:Al ratio and nitrogen incorporation in the films \cite{williams2009}.
-\fi
-\subsection{Energy-dispersive X-ray spectroscopy (EDX)}\label{sec:EDX}
-\textcolor{red}{need to look into before writing about it, more precisely about the specs of the device}
+Representative SEM micrographs and analysis of surface features are presented in Section~\ref{sec:SEM_results}.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.6\linewidth]{Figures/experimental methods/SEM_chamber.jpg}
+	\caption{Interior view of the SEM sample chamber showing the sample holder stage and detector configuration used for imaging and EDX analysis.}
+	\label{fig:SEM_chamber}
+\end{figure}
 
 
+\subsection{Energy-Dispersive X-ray Spectroscopy (EDX)}\label{sec:EDX}
 
+Energy-dispersive X-ray spectroscopy (EDX) relies on the ionization of inner-shell electrons by the incident electron beam. When an inner-shell electron is ejected, an electron from a higher energy level fills the vacancy, releasing energy in the form of a characteristic X-ray. The energy of this X-ray is unique to each element, allowing identification and quantification of the sample composition. The intensity of the characteristic X-ray peaks is proportional to the concentration of each element, enabling quantitative analysis through comparison with standards or standardless quantification algorithms \cite{goldstein2017}.\\
 
+EDX measurements were performed using a silicon drift detector (SDD) integrated with the SEM system, operating at an accelerating voltage of 10~kV. To minimize substrate contribution from the thin films, samples were tilted to 55° relative to the electron beam increasing the effective path length by $\approx$ 1.74.
 
+Prior to analysis, samples were cleaned ultrasonically in isopropanol to remove loose particles. However, organic solvent residues and hydrocarbon contamination from the vacuum system can lead to carbon deposition under electron beam irradiation \cite{goldstein2017,reimer1998}. A small carbon peak was therefore typically observed in EDX spectra and was excluded from compositional quantification of the TiAlN films. Multiple area measurements were taken on each sample to verify that all surface features, including any macroparticles or morphological structures, had the same metal-nitride composition as the underlying thin film and to identify potential impurities beyond the surface carbon layer.
 
-
-
-
-
-
-
+The primary elements analyzed were titanium (Ti), aluminum (Al), and nitrogen (N). Oxygen (O) and silicon (Si) were also monitored to assess surface oxidation and to detect any contribution from the Si substrate. The measured film compositions are used to calculate the effective molar mass $M_{\text{eff}}$ required for determining total deposited flux from QCM measurements (Section~\ref{sec:QMS}). Compositional results and representative EDX spectra are presented in Section~\ref{sec:EDX_results}.
 
 
 

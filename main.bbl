@@ -889,6 +889,99 @@
       \verb 10.1103/PhysRev.95.359
       \endverb
     \endentry
+    \entry{goldstein2017}{book}{}{}
+      \name{author}{6}{}{%
+        {{hash=7315fa1e765f53b7e571bf838f63ae89}{%
+           family={Goldstein},
+           familyi={G\bibinitperiod},
+           given={Joseph\bibnamedelima I.},
+           giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=ccbbd763c3a650282bb7f2df3587f4b0}{%
+           family={Newbury},
+           familyi={N\bibinitperiod},
+           given={Dale\bibnamedelima E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=6dab7bdde36af33bc4a298e1bbb1486d}{%
+           family={Michael},
+           familyi={M\bibinitperiod},
+           given={Joseph\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=4781d8b1e655077dccd4ad472ca3a78f}{%
+           family={Ritchie},
+           familyi={R\bibinitperiod},
+           given={Nicholas\bibnamedelimb W.\bibnamedelimi M.},
+           giveni={N\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=cca5e51c62077ae98666f53f2071474c}{%
+           family={Scott},
+           familyi={S\bibinitperiod},
+           given={John\bibnamedelimb Henry\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=51f488b1ec88e76dc5ed103d26fbdd47}{%
+           family={Joy},
+           familyi={J\bibinitperiod},
+           given={David\bibnamedelima C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{0a7ec5233dcd189777865d8c3971ea13}
+      \strng{fullhash}{a8840ff00f158595cd14670818e6af11}
+      \strng{fullhashraw}{a8840ff00f158595cd14670818e6af11}
+      \strng{bibnamehash}{0a7ec5233dcd189777865d8c3971ea13}
+      \strng{authorbibnamehash}{0a7ec5233dcd189777865d8c3971ea13}
+      \strng{authornamehash}{0a7ec5233dcd189777865d8c3971ea13}
+      \strng{authorfullhash}{a8840ff00f158595cd14670818e6af11}
+      \strng{authorfullhashraw}{a8840ff00f158595cd14670818e6af11}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{4th}
+      \field{title}{Scanning Electron Microscopy and X-Ray Microanalysis}
+      \field{year}{2017}
+      \verb{doi}
+      \verb 10.1007/978-1-4939-6676-9
+      \endverb
+    \endentry
+    \entry{reimer1998}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=98c6de20c3e8e748c73897b01fda0956}{%
+           family={Reimer},
+           familyi={R\bibinitperiod},
+           given={Ludwig},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{98c6de20c3e8e748c73897b01fda0956}
+      \strng{fullhash}{98c6de20c3e8e748c73897b01fda0956}
+      \strng{fullhashraw}{98c6de20c3e8e748c73897b01fda0956}
+      \strng{bibnamehash}{98c6de20c3e8e748c73897b01fda0956}
+      \strng{authorbibnamehash}{98c6de20c3e8e748c73897b01fda0956}
+      \strng{authornamehash}{98c6de20c3e8e748c73897b01fda0956}
+      \strng{authorfullhash}{98c6de20c3e8e748c73897b01fda0956}
+      \strng{authorfullhashraw}{98c6de20c3e8e748c73897b01fda0956}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2nd}
+      \field{series}{Springer Series in Optical Sciences}
+      \field{title}{Scanning Electron Microscopy: Physics of Image Formation and Microanalysis}
+      \field{volume}{45}
+      \field{year}{1998}
+      \verb{doi}
+      \verb 10.1007/978-3-540-38967-5
+      \endverb
+    \endentry
     \entry{magnetic_mirror}{article}{}{}
       \name{author}{4}{}{%
         {{hash=a6629c6cd2f6515618898f9215d821c7}{%
@@ -1177,64 +1270,6 @@
       \field{edition}{2nd}
       \field{title}{An Introduction to Error Analysis: The Study of Uncertainties in Physical Measurements}
       \field{year}{1997}
-    \endentry
-    \entry{goldstein2017}{book}{}{}
-      \name{author}{6}{}{%
-        {{hash=7315fa1e765f53b7e571bf838f63ae89}{%
-           family={Goldstein},
-           familyi={G\bibinitperiod},
-           given={Joseph\bibnamedelima I.},
-           giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
-        {{hash=ccbbd763c3a650282bb7f2df3587f4b0}{%
-           family={Newbury},
-           familyi={N\bibinitperiod},
-           given={Dale\bibnamedelima E.},
-           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-        {{hash=6dab7bdde36af33bc4a298e1bbb1486d}{%
-           family={Michael},
-           familyi={M\bibinitperiod},
-           given={Joseph\bibnamedelima R.},
-           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-        {{hash=4781d8b1e655077dccd4ad472ca3a78f}{%
-           family={Ritchie},
-           familyi={R\bibinitperiod},
-           given={Nicholas\bibnamedelimb W.\bibnamedelimi M.},
-           giveni={N\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=cca5e51c62077ae98666f53f2071474c}{%
-           family={Scott},
-           familyi={S\bibinitperiod},
-           given={John\bibnamedelimb Henry\bibnamedelima J.},
-           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=51f488b1ec88e76dc5ed103d26fbdd47}{%
-           family={Joy},
-           familyi={J\bibinitperiod},
-           given={David\bibnamedelima C.},
-           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {New York}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{0a7ec5233dcd189777865d8c3971ea13}
-      \strng{fullhash}{a8840ff00f158595cd14670818e6af11}
-      \strng{fullhashraw}{a8840ff00f158595cd14670818e6af11}
-      \strng{bibnamehash}{0a7ec5233dcd189777865d8c3971ea13}
-      \strng{authorbibnamehash}{0a7ec5233dcd189777865d8c3971ea13}
-      \strng{authornamehash}{0a7ec5233dcd189777865d8c3971ea13}
-      \strng{authorfullhash}{a8840ff00f158595cd14670818e6af11}
-      \strng{authorfullhashraw}{a8840ff00f158595cd14670818e6af11}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{4th}
-      \field{title}{Scanning Electron Microscopy and X-Ray Microanalysis}
-      \field{year}{2017}
-      \verb{doi}
-      \verb 10.1007/978-1-4939-6676-9
-      \endverb
     \endentry
   \enddatalist
 \endrefsection
