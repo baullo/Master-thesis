@@ -2449,26 +2449,28 @@
     <bcf:citekey order="69" intorder="1">cathodic_arcs</bcf:citekey>
     <bcf:citekey order="70" intorder="1">cathodic_arcs</bcf:citekey>
     <bcf:citekey order="71" intorder="1">bendikt2012</bcf:citekey>
-    <bcf:citekey order="72" intorder="1">cathodic_arcs</bcf:citekey>
-    <bcf:citekey order="73" intorder="1">anders2008</bcf:citekey>
-    <bcf:citekey order="73" intorder="2">boxman1995</bcf:citekey>
-    <bcf:citekey order="74" intorder="1">Miller1968</bcf:citekey>
-    <bcf:citekey order="74" intorder="2">Lu1972</bcf:citekey>
-    <bcf:citekey order="75" intorder="1">SQM160_manual</bcf:citekey>
-    <bcf:citekey order="76" intorder="1">decoupling_kalanov_2025</bcf:citekey>
-    <bcf:citekey order="77" intorder="1">cathodic_arcs</bcf:citekey>
-    <bcf:citekey order="78" intorder="1">basic_massspec</bcf:citekey>
-    <bcf:citekey order="79" intorder="1">hiden_eqp_manual</bcf:citekey>
-    <bcf:citekey order="80" intorder="1">cathodic_arcs</bcf:citekey>
-    <bcf:citekey order="81" intorder="1">cathodic_arcs</bcf:citekey>
-    <bcf:citekey order="82" intorder="1">SQM160_manual</bcf:citekey>
-    <bcf:citekey order="83" intorder="1">taylor1997</bcf:citekey>
+    <bcf:citekey order="72" intorder="1">anders2008</bcf:citekey>
+    <bcf:citekey order="72" intorder="2">boxman1995</bcf:citekey>
+    <bcf:citekey order="73" intorder="1">cathodic_arcs</bcf:citekey>
+    <bcf:citekey order="74" intorder="1">bendikt2012</bcf:citekey>
+    <bcf:citekey order="75" intorder="1">cathodic_arcs</bcf:citekey>
+    <bcf:citekey order="76" intorder="1">Miller1968</bcf:citekey>
+    <bcf:citekey order="76" intorder="2">Lu1972</bcf:citekey>
+    <bcf:citekey order="77" intorder="1">SQM160_manual</bcf:citekey>
+    <bcf:citekey order="78" intorder="1">decoupling_kalanov_2025</bcf:citekey>
+    <bcf:citekey order="79" intorder="1">cathodic_arcs</bcf:citekey>
+    <bcf:citekey order="80" intorder="1">basic_massspec</bcf:citekey>
+    <bcf:citekey order="81" intorder="1">hiden_eqp_manual</bcf:citekey>
+    <bcf:citekey order="82" intorder="1">cathodic_arcs</bcf:citekey>
+    <bcf:citekey order="83" intorder="1">cathodic_arcs</bcf:citekey>
     <bcf:citekey order="84" intorder="1">SQM160_manual</bcf:citekey>
-    <bcf:citekey order="85" intorder="1">SQM160_manual</bcf:citekey>
-    <bcf:citekey order="86" intorder="1">cathodic_arcs</bcf:citekey>
-    <bcf:citekey order="87" intorder="1">goldstein2017</bcf:citekey>
-    <bcf:citekey order="88" intorder="1">chen1984introduction</bcf:citekey>
-    <bcf:citekey order="89" intorder="1">chen1984introduction</bcf:citekey>
+    <bcf:citekey order="85" intorder="1">taylor1997</bcf:citekey>
+    <bcf:citekey order="86" intorder="1">SQM160_manual</bcf:citekey>
+    <bcf:citekey order="87" intorder="1">SQM160_manual</bcf:citekey>
+    <bcf:citekey order="88" intorder="1">cathodic_arcs</bcf:citekey>
+    <bcf:citekey order="89" intorder="1">goldstein2017</bcf:citekey>
+    <bcf:citekey order="90" intorder="1">chen1984introduction</bcf:citekey>
+    <bcf:citekey order="91" intorder="1">chen1984introduction</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

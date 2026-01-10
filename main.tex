@@ -1,35 +1,86 @@
 % !TeX root = main.tex
 \documentclass[12pt, twoside, a4paper]{report}
+
+%==============================================================================
+% ENCODING & FONTS
+%==============================================================================
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 \usepackage[english]{babel}
+
+%==============================================================================
+% MATH PACKAGES
+%==============================================================================
 \usepackage{amsmath, amssymb, amsfonts}
-\usepackage{graphicx, caption, subcaption, float}
-\usepackage{booktabs, multirow, tabularx, paralist, makecell, array}
-\usepackage[top=2.5cm, bottom=2.5cm, inner=3cm, outer=2.5cm]{geometry}
+\usepackage{siunitx}
+
+%==============================================================================
+% GRAPHICS & FIGURES
+%==============================================================================
+\usepackage{graphicx}
+\usepackage{caption, subcaption}
+\usepackage{float}
 \usepackage[dvipsnames, table]{xcolor}
-\usepackage{ circuitikz }
+\usepackage{circuitikz}
+\usepackage{media9}
+
+%==============================================================================
+% TABLES
+%==============================================================================
+\usepackage{booktabs, multirow, tabularx, makecell, array}
+
+%==============================================================================
+% PAGE LAYOUT & SPACING
+%==============================================================================
+\usepackage[top=2.5cm, bottom=2.5cm, inner=3cm, outer=2.5cm]{geometry}
+\usepackage{setspace}
+\onehalfspacing
+
+%==============================================================================
+% LISTS & ENUMERATION
+%==============================================================================
+\usepackage{paralist, enumitem}
+
+%==============================================================================
+% HEADERS & CHAPTER STYLES
+%==============================================================================
 \usepackage{fancyhdr}
-\usepackage[backend=biber, style=numeric, sorting=none]{biblatex}
-\addbibresource{references.bib}
 \fancyhf{}
 \fancyhead[L]{\nouppercase{\leftmark}}
 \fancyhead[R]{\thepage}
-\usepackage[colorlinks=true, citecolor=Plum, linkcolor=MidnightBlue]{hyperref}
-\usepackage{setspace}
-\onehalfspacing
-\usepackage{textcomp}
-\usepackage{enumitem}
-\usepackage{siunitx}
+
 \usepackage[Sonny]{fncychap}
+
+%==============================================================================
+% BIBLIOGRAPHY
+%==============================================================================
+\usepackage[backend=biber, style=numeric, sorting=none]{biblatex}
+\addbibresource{references.bib}
+
+%==============================================================================
+% HYPERLINKS (load near the end!)
+%==============================================================================
+\usepackage[colorlinks=true, citecolor=Plum, linkcolor=MidnightBlue]{hyperref}
+
+%==============================================================================
+% APPENDIX
+%==============================================================================
 \usepackage{appendix}
-\usepackage{media9}
+
+%==============================================================================
+% MISCELLANEOUS
+%==============================================================================
+\usepackage{textcomp}
+
+%==============================================================================
+% CUSTOM COLORS
+%==============================================================================
 \definecolor{mypurple}{RGB}{129, 61, 156}
 
-
-
-
+%==============================================================================
+% DOCUMENT
+%==============================================================================
 \begin{document}
 
 \input{Tex_files/titlepage.tex}

@@ -1,32 +1,13 @@
 % !TeX root = main.tex
 \chapter{Results}\label{chap:results}
 
+\section{Mass Deposition Rate and Ion Current Measurements}
 
-\section{Quartz crystal Microbalance and Ion current Probe}
-To systematically characterize the plasma dynamics and deposition behavior, measurements were conducted using both a quartz crystal microbalance (QCM) for mass deposition and a biased ion collector probe for ion current density.
+To systematically characterize the plasma dynamics and deposition behavior, measurements were conducted using a quartz crystal microbalance (QCM) for mass deposition rate and a biased ion collector probe for ion current density. 
 
-The experimental parameter space spanned three variables: distance from the macroparticle filter (10--20~cm), applied magnetic field strength (0--0.25~T), and nitrogen background pressure (0--0.3~Pa), with all permutations measured as listed in Table~\ref{tab:comprehensive_measurements}. At this stage, the raw quantities (mass flux in nanograms/cm$^2$s and ion current in milliamperes) are not directly comparable and only trends will be observed. Their relationship will be established through flux calculations in Section~\ref{sec:flux}.
+The experimental parameter space spanned three variables: distance from the macroparticle filter (10--20~cm), applied magnetic field strength (0--0.25~T), and nitrogen background pressure (0--0.3~Pa), with all permutations measured as listed in Table~\ref{tab:comprehensive_measurements}. At this stage, the raw quantities mass deposition rate (in ng~cm$^{-2}$~s$^{-1}$) and ion current (in mA) are presented to establish trends before flux calculations in Section~\ref{sec:flux_calculations}.
 
-\iffalse
-\begin{table}[h]
-	\centering
-	\begin{tabularx}{0.85\textwidth}{|X|X|X|}
-		\hline
-		\textbf{Distance (cm)} & \textbf{Pressure (Pa)} & \textbf{Magnetic Field (T)} \\ \hline
-		10 & 0 & 0 \\ \hline
-		12 & 0.025 & 0.05 \\ \hline
-		14 & 0.05 & 0.1 \\ \hline
-		16 & 0.075 & 0.15 \\ \hline
-		18 & 0.1 & 0.2 \\ \hline
-		20 & 0.2 & 0.25 \\ \hline
-		& 0.3 & \\ \hline
-	\end{tabularx}
-	\caption{Parameters used for the QCM/Ion current probe}
-	\label{tab:parameters}
-\end{table}
-\fi
-
-Figure~\ref{fig:3D overview} provides a three-dimensional visualization of the complete dataset, illustrating how the mass flux and ion current vary simultaneously with all three control parameters. Several global trends are immediately apparent: both quantities decrease with increasing distance due to plasma expansion, increase with applied magnetic field due to enhanced plasma confinement and ionization, and exhibit complex pressure dependence that warrants detailed investigation.
+Figure~\ref{fig:3D overview} provides a three-dimensional visualization of the complete dataset, illustrating how mass deposition rate and ion current vary simultaneously with all three control parameters. Several global trends are immediately apparent: both quantities decrease with increasing distance due to plasma expansion, increase with applied magnetic field due to enhanced plasma confinement and ionization, and exhibit complex pressure dependence that warrants detailed investigation.
 
 
 \begin{figure}[H]
@@ -42,18 +23,15 @@ Figure~\ref{fig:3D overview} provides a three-dimensional visualization of the c
   \caption{}
   \label{fig:3Dion}
 \end{subfigure}
-\caption{Three-dimensional visualization of (a) mass flux and (b) pulse-averaged ion current as functions of distance (10--20~cm), magnetic field strength (0--0.25~T), and nitrogen pressure (0--0.3~Pa).}
+\caption{Three-dimensional visualization of (a) mass deposition rate (ng~cm$^{-2}$~s$^{-1}$) and (b) ion current (mA) as functions of distance (10--20~cm), magnetic field strength (0--0.25~T), and nitrogen pressure (0--0.3~Pa). Measurements performed over 64 arc pulses at 5~Hz repetition rate.}
 \label{fig:3D overview}
 \end{figure}
 
-To systematically dissect these multidimensional trends, the following subsections examine cross-sections through the parameter space in order of increasing complexity.\\
-We begin with the metallic case (vacuum conditions, no reactive gas) to establish baseline behavior as functions of distance and magnetic field. 
-Subsequently, we introduce nitrogen pressure as an additional variable and examine its interplay with geometry and magnetic confinement. 
-The parameter combinations analyzed in detail: distances of 10, 14, and 20~cm; magnetic fields of 0, 0.15, and 0.25~T; and pressures of 0.1 and 0.3~Pa. These parameters were selected because they correspond to the conditions used for energy-resolved mass spectrometry (ERMS) measurements and thin film deposition, enabling an introduction.
+To systematically dissect these multidimensional trends, the following subsections examine cross-sections through the parameter space in order of increasing complexity. We begin with the metallic case (no nitrogen, Section~\ref{subsec:metallic}) to establish baseline behavior without reactive gas complications. Sections~\ref{subsec:distance}--\ref{subsec:nitrogen_pressure} then isolate the effects of distance, magnetic field, and nitrogen pressure. The parameter combinations analyzed in detail---distances of 10, 14, and 20~cm; magnetic fields of 0, 0.15, and 0.25~T; and nitrogen pressures of 0.1 and 0.3~Pa---were selected because they correspond to conditions used for energy-resolved mass spectrometry (ERMS) measurements and thin film deposition, enabling direct correlation between plasma diagnostics and film properties in later sections.
 
+\subsection{Metallic Case (No Nitrogen)}\label{subsec:metallic}
+In the absence of reactive gas, plasma expansion and deposition dynamics are governed solely by geometric dilution and magnetic confinement. Figure~\ref{fig:metallic_mass/ion} presents mass deposition rate and ion current as functions of magnetic field strength for three representative distances.
 
-\subsection{Metallic Case (No Nitrogen)}\label{subsec:metal}
-In the absence of reactive gas, the plasma expansion and deposition dynamics are governed solely by geometric dilution and magnetic confinement. Figure~\ref{fig:metallic_mass/ion} presents mass flux and ion current as functions of magnetic field strength for three representative distances.
 \begin{figure}[h]
 	\centering
 	\begin{subfigure}{.5\textwidth}
@@ -70,10 +48,9 @@ In the absence of reactive gas, the plasma expansion and deposition dynamics are
 	\label{fig:metallic_mass/ion}
 \end{figure}
 
-As shown in Figure \ref{fig:metallic_mass/ion}, both the mass and the ion current increase with applied magnetic field. The enhancement is most pronounced at the shortest distance (10~cm), where the magnetic field can effectively guide ions before significant radial expansion occurs. At 20~cm, the plasma has already expanded substantially, reducing the relative impact of magnetic confinement on the collected flux.\\
+As shown in Figure~\ref{fig:metallic_mass/ion}, both mass deposition rate and ion current increase with applied magnetic field. The enhancement is most pronounced at the shortest distance (10~cm), where the magnetic field can effectively guide ions before significant radial expansion occurs. At 20~cm, the plasma has already expanded substantially, reducing the relative impact of magnetic confinement on the collected flux.
 
-A notable anomaly appears at 0.05~T, where both quantities drop below their zero-field values. This counterintuitive behavior is attributed to a magnetic mirror effect at the entrance of the EM coil. When plasma transitions from the weak fringing field ($\sim 0.01$~T) into the stronger coil field (0.05~T), conservation of the magnetic moment causes electrons with significant perpendicular velocity components to be reflected \cite{magnetic_mirror,cathodic_arcs}. This creates a localized space-charge layer that retards ion flow, temporarily reducing both the ion flux and deposition rate. At higher fields (0.1~T and above), the beneficial effects of plasma compression and enhanced ionization \cite{decoupling_kalanov_2025} overcome this mirror loss. Similar behavior is observed across all experimental conditions involving increasing magnetic field.
-
+A notable anomaly appears at 0.05~T, where both quantities drop below their zero-field values. This counterintuitive behavior is attributed to a magnetic mirror effect at the entrance of the EM-coil. When plasma transitions from the weak fringing field ($\sim$0.01~T) into the stronger coil field (0.05~T), conservation of the magnetic moment causes electrons with significant perpendicular velocity components to be reflected \cite{magnetic_mirror,cathodic_arcs}. This creates a localized space-charge layer that retards ion flow, temporarily reducing both ion flux and deposition rate. At higher fields (0.1~T and above), the beneficial effects of plasma compression and enhanced ionization \cite{decoupling_kalanov_2025} overcome this mirror loss. Similar behavior is observed across all experimental conditions involving increasing magnetic field strength.
 
 \subsection{Distance as a variable}\label{subsec:distance}
 
@@ -91,19 +68,20 @@ Figure~\ref{fig:distance_0.25T_mass/ion} examines the effect of source-to-substr
 		\includegraphics[width=\linewidth]{Figures/results 1/Distance_vs_Pressure_B0.25T_IonCurrent.png}
 		\caption{}
 	\end{subfigure}
-	\caption{QCM and Ion Probe measurements showing (a) mass flux and (b) the ion current, each plotted as a function of distance. Data shown for representative pressures, with error bars representing variation within pulses.}
+	\caption{Mass deposition rate and ion current as functions of distance at 0.25~T magnetic field for four nitrogen pressures. (a) Mass deposition rate shows moderate pressure dependence. (b) Ion current exhibits much stronger pressure dependence, particularly at short distances. Error bars represent intra-pulse variability.}
 	\label{fig:distance_0.25T_mass/ion}
 \end{figure}
 
-Both mass flux and ion current decrease with distance, reflecting the natural expansion and dilution of the plasma plume. In the case for the mass, this decay is relatively gradual and follows an approximate $1/r^2$ dependence expected for free expansion \cite[Chap.~4.3]{cathodic_arcs}.\\
 
-In contrast, the ion current exhibits a far more dramatic pressure dependence. The steep drop in measured current when nitrogen is introduced primarily reflects charge-exchange collisions, in which fast metal ions transfer charge to slow nitrogen molecules, producing fast neutral metal atoms and slow N$^+$/N$_2^+$ ions \cite[Chap.~9.4]{cathodic_arcs}. The resulting neutral flux is invisible to the biased probe, leading to an apparent reduction in "ion" current even though the total metal flux (ions plus neutrals) may remain comparable. Additionally, nitrogen ions contribute less to the measured current due to their lower charge states ($Q \approx 1$) compared to multiply charged metal ions ($Q \approx 2$) \cite{bendikt2012}.\\
-
-The contrast between mass with a moderate pressure effect and current with a noticeably stronger pressure effect confirms that charge-exchange neutralization, rather than simple scattering loss, is the dominant process at short distances in reactive mode. This interpretation will be further validated through ERMS charge-state measurements in Section~\ref{sec:erms_results}.\\
-
-To isolate the effect of magnetic confinement in reactive mode, we next examine field strength as an independent variable.
+Both mass deposition rate and ion current decrease with distance, reflecting the natural expansion and dilution of the plasma plume. In metallic mode (0~Pa), mass deposition rate follows an approximate $1/r^2$ dependence expected for free expansion \cite[Chap.~4.3]{cathodic_arcs}. The decay is relatively gradual, with the 20~cm values approximately 25--30\% of those measured at 10~cm.\\
 
 
+In contrast, the ion current exhibits a far more dramatic pressure dependence. The steep drop in measured current when nitrogen is introduced primarily reflects charge-exchange collisions, in which fast metal ions transfer charge to slow nitrogen molecules, producing fast neutral metal atoms and slow N$^+$/N$_2^+$ ions \cite[Chap.~9.4]{cathodic_arcs}. The resulting neutral flux is invisible to the biased probe, leading to an apparent reduction in ``ion'' current even though the total metal flux (ions plus neutrals) may remain comparable, as evidenced by the QCM measurements. Additionally, nitrogen ions contribute less to the measured current due to their lower charge states ($Q \approx 1$) compared to multiply charged metal ions ($Q \approx 2$) \cite{bendikt2012}.\\
+
+
+This contrast between mass deposition rate (moderate pressure effect) and ion current (strong pressure effect) confirms that charge-exchange neutralization, rather than simple scattering loss, is the dominant process at short distances in reactive mode. The pressure effect diminishes with distance as the plasma becomes more diffuse and collision probabilities decrease. This interpretation will be further validated through charge-state-resolved ERMS measurements in Section~\ref{sec:erms_results}.\\
+
+Additional measurements at constant magnetic field (0~T) and varying distance show similar trends and are presented in Appendix~\ref{fig:distance_0T_mass/ion}.
 
 \subsection{Magnetic Field as a variable}\label{subsec:mag_field}
 
@@ -121,16 +99,19 @@ Figure~\ref{fig:mag_field_14cm_mass/ion} presents mass flux and ion current as f
 		\includegraphics[width=\linewidth]{Figures/results 1/MagField_vs_Pressure_D14cm_IonCurrent.png}
 		\caption{}
 	\end{subfigure}
-	\caption{QCM and Ion Probe measurements showing (a) mass flux and (b) the ion current, each plotted as a function of Magnetic Field. Data shown for representative pressures, with error bars representing variation within pulses.}
+	\caption{Mass deposition rate and ion current as functions of magnetic field strength at 14~cm distance for four nitrogen pressures. (a) Mass deposition rate increases monotonically above 0.1~T. (b) Ion current shows pronounced divergence between metallic and reactive conditions at high fields. Error bars represent intra-pulse variability.}
 	\label{fig:mag_field_14cm_mass/ion}
 \end{figure}
 
-The magnetic mirror anomaly at 0.05~T, clearly visible in the 10~cm metallic data (Figure~\ref{fig:metallic_mass/ion}), is significantly attenuated at 14~cm. Both mass and current remain approximately constant between 0 and 0.05~T, suggesting that the adverse mirror effect is either weaker after 4~cm of additional expansion or is masked by increased statistical noise at this intermediate distance.\\
+The magnetic mirror anomaly at 0.05~T, clearly visible in the 10~cm metallic data (Figure~\ref{fig:metallic_mass/ion}), is significantly attenuated at 14~cm. Both mass deposition rate and ion current remain approximately constant between 0 and 0.05~T, suggesting that the adverse mirror effect is either weaker after 4~cm of additional expansion or is masked by increased statistical noise at this intermediate distance.\\
 
-Above 0.1~T the trends shows a clear constant increase in both quantities, confirming that magnetic confinement enhances plasma density and ion flux at the substrate.
-In the case of the ion current, there exists a pronounced divergence between metallic and reactive conditions at high fields. This behavior is consistent with enhanced charge-exchange rates under strong confinement: tighter magnetic focusing increases the ion path length through the background gas, providing more opportunities for neutralization before reaching the substrate \cite[Chap.~9.4]{cathodic_arcs}. The result is that, although the magnetic field successfully generates more plasma at the source, a larger fraction arrives as less ionized ions or neutrals in reactive mode.\\
+Above 0.1~T, both quantities show a clear, consistent increase for all conditions, confirming that magnetic confinement enhances plasma density and flux at the substrate. The enhancement is approximately linear with field strength in the 0.1--0.25~T range. Mass deposition rate (Figure~\ref{fig:mag_field_14cm_mass/ion}a) increases by a factor of approximately 5--6$\times$ from zero field to 0.25~T, with all pressure conditions following similar trajectories. This similarity indicates that the magnetic field effect on total mass flux is largely independent of nitrogen pressure at this distance.\\
 
-These observations demonstrate that background gas pressure has a relatively minor influence on total mass flux compared to distance or magnetic field, but significantly affects the charge-state composition of the arriving flux. This distinction motivates the final cross-section through the parameter space: examining pressure as the primary variable.
+Ion current (Figure~\ref{fig:mag_field_14cm_mass/ion}b) also increases with magnetic field, but exhibits greater variability, particularly in reactive mode. At 0.25~T, the ion current in metallic mode (0~Pa) reaches approximately 5~mA, while reactive mode conditions (0.1--0.3~Pa show currents in the range of 4~mA with substantial error bars. The overlap between metallic and reactive conditions at high fields, combined with the large variation of ion current during a pulse, makes it difficult to draw definitive conclusions about pressure effects on ion current at 14~cm distance. \\
+
+The similar behavior of mass deposition rate across all pressures, combined with the more variable ion current measurements, suggests that at 14~cm the magnetic field primarily affects the total particle flux rather than selectively enhancing ionization. The reduced contrast between metallic and reactive mode compared to the 10~cm measurements (Section~\ref{subsec:distance}) is consistent with the plasma having undergone substantial expansion and equilibration by this distance.\\
+
+To isolate the effect of nitrogen pressure more clearly, the next section examines pressure as the primary variable under fixed magnetic field conditions.
 
 \subsection{Nitrogen pressure as a variable}\label{subsec:nitrogen_pressure}
 Figure~\ref{fig:pressure_0.25T_mass/ion} presents mass flux and ion current as functions of nitrogen pressure at maximum magnetic confinement (0.25~T) for three distances (10, 14, and 20~cm).
@@ -151,42 +132,87 @@ Figure~\ref{fig:pressure_0.25T_mass/ion} presents mass flux and ion current as f
 	\label{fig:pressure_0.25T_mass/ion}
 \end{figure}
 
-At 10~cm, both mass and ion current exhibit complex, pressure dependence with substantial variability. This behavior reflects collisional deflection of the plasma plume: nitrogen molecules scatter metal ions through momentum transfer broadening the spatial distribution \cite{anders2008,boxman1995}.\\
+At 10~cm, the mass deposition rate exhibits clear non-monotonic pressure dependence, with a local maximum near 0.05--0.1~Pa before decreasing at higher pressures. This behavior likely reflects competing effects: at low pressures, nitrogen incorporation may enhance deposition through reactive film growth, while at higher pressures, collisional deflection of the plasma plume begins to dominate. Nitrogen molecules scatter metal ions through momentum transfer, broadening the spatial distribution and reducing flux at the measurement position \cite{anders2008,boxman1995}.\\
 
-At 14~cm and 20~cm, the pressure dependence becomes negligible. Both mass and ion current remain essentially constant across the entire pressure range. After sufficient expansion, the plasma has already undergone extensive collisional scattering regardless of absolute pressure, resulting in a broad, diffuse distribution.\\
+The ion current at 10~cm shows substantial scatter across the pressure range, with large error bars that overlap significantly between different pressure conditions. While a general decreasing trend might be inferred, the high variability makes quantitative interpretation difficult. This scatter likely reflects a combination of factors: pressure measurement uncertainties (particularly the 0.025 and 0.075 Pa as they were recorded last), arc stability variations between measurement runs, and the inherently larger relative uncertainty in ion current measurements compared to QCM mass measurements.\\
 
-The non-monotonic behavior observed at 10~cm, particularly the apparent increase in both quantities at low pressures (0.025--0.075~Pa), suggests complex interactions between unequal plasma expansion dynamics and collisional deflection at short standoff distances. The mechanisms underlying this local maximum warrant further investigation but remain beyond the scope of the present work.
+At 14~cm and 20~cm, both mass deposition rate and ion current become largely independent of nitrogen pressure. Within experimental uncertainty, both quantities remain essentially constant across the 0--0.3~Pa range investigated. This pressure-independent behavior indicates that after sufficient plasma expansion (beyond $\sim$14~cm), geometric dilution dominates over collisional effects. The plasma has already undergone extensive scattering and thermalization, such that further increases in background pressure produce no additional measurable effect on flux at the substrate position.\\
+
+The transition from pressure-sensitive behavior at 10~cm to pressure-independent behavior at 14--20~cm demonstrates that reactive gas effects are confined to the near-source region where the plasma remains relatively collimated and collision probabilities are highest. Beyond this region, the $1/r^2$ expansion geometry becomes the limiting factor for plasma transport.
+
+The measurements presented in this section establish the macroscopic trends in mass deposition rate and ion current across the experimental parameter space. However, these raw quantities do not directly reveal the underlying plasma composition. To address these questions, energy-resolved mass spectrometry was performed under selected conditions to characterize the ion energy distributions and mean charge states, as presented in the following section.
 
 
-\section{Mass spectrometry Results}
-\begin{itemize}
-	\item shortly about mean charge state and energies not a focus tho
-	\item maybe a table and a picture
-\end{itemize}
 
+\section{Energy-Resolved Mass Spectrometry Results}\label{sec:erms_results}
+
+Energy-resolved mass spectrometry (ERMS) measurements were performed to characterize charge-state distributions and ion energies under selected conditions corresponding to film depositions. The measurements provide charge-state-resolved ion energy distribution functions (IEDFs) for Al$^{1+,2+,3+}$, Ti$^{1+,2+,3+,4+}$ and N/N$_2^{1+}$, from which mean charge states $\langle Q \rangle$, kinetic energies $E_{\rm kin}$, and potential energies $E_{\rm pot}$ are derived. All measurements were performed at 0.25~T magnetic field strength, with particular emphasis on the 14~cm distance selected for systematic film depositions.
+
+\subsection{Distance Dependence}\label{subsec:erms_distance}
+
+Figures~\ref{fig:ERMS_distance0Pa} and \ref{fig:ERMS_distance0.3Pa} present mean charge states, potential energies, and kinetic energies as functions of distance for metallic mode (0~Pa) and reactive mode (0.3~Pa N$_2$), respectively.
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\linewidth]{"Figures/results 2/Distance_0.25T_0.0Pa"}
-	\caption{0Pa 0.25T}
+	\caption{Mean charge state, potential energy, and kinetic energy as functions of distance in metallic mode (0~Pa, 0.25~T). Al and Ti show mean charge states of $\langle Q \rangle \approx 2.0$ and 2.7, respectively, with minimal variation across 10--20~cm. Total ion energies remain above 40~eV at all distances.}
 	\label{fig:ERMS_distance0Pa}
 \end{figure}
+
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\linewidth]{"Figures/results 2/Distance_0.25T_0.3Pa"}
-	\caption{0.3Pa 0.25T}
+	\caption{Mean charge state, potential energy, and kinetic energy as functions of distance in reactive mode (0.3~Pa N$_2$, 0.25~T). Only metal ion (Al, Ti) charge states are shown. Metal ion charge states decrease by 20--30\% compared to metallic mode due to charge-exchange collisions. Kinetic energies show increased scatter due to collisional thermalization.}
 	\label{fig:ERMS_distance0.3Pa}
 \end{figure}
+
+In metallic mode (Figure~\ref{fig:ERMS_distance0Pa}), titanium ions exhibit $\langle Q \rangle \approx 2.7$ and aluminum ions $\langle Q \rangle \approx 2.0$ across all distances. These charge states reflect the high electron temperatures ($T_e \approx 5$--10~eV) characteristic of cathode spot plasmas. The mean charge states remain remarkably constant with distance, varying by less than 5\% between 10 and 20~cm, indicating that recombination is negligible during the transit time through this region on the order of $\sim$100~$\mu$s scale.\\
+
+
+Potential energies scale directly with charge state, with Ti showing $E_{\rm pot} \approx 38$~eV and Al $E_{\rm pot} \approx 26$~eV, remaining nearly constant across the measurement range. Kinetic energies are in the range of 20--30~eV for both species, with a slight decreasing trend with distance due to minor collisional thermalization. Importantly, total ion energies ($E_{\rm kin} + E_{\rm pot}$) exceed 40~eV at all distances, well above the $\approx$30~eV threshold for subplantation-driven densification \cite[Chap.~8.1]{cathodic_arcs}. This confirms that energetic condensation should remains accessible across the entire 10--20~cm range without substrate heating.\\
+
+Introducing nitrogen at 0.3~Pa substantially alters the plasma composition (Figure~\ref{fig:ERMS_distance0.3Pa}). Metal ion charge states decrease by approximately 40\%. This reduction is attributed to charge-exchange collisions, in which fast, multiply charged metal ions transfer electrons to slow nitrogen molecules \cite{bendikt2012} for example:
+\begin{equation*}
+	\text{Ti}^{3+} + \text{N}_2 \rightarrow \text{Ti}^{2+} + \text{N}_2^{+} \quad \text{(or lower charge states)}
+\end{equation*}
+
+The charge-exchange process produces both lower charge-state metal ions and singly charged nitrogen ions (measured as described in Section~\ref{sec:QMS}). Since nitrogen ions carry lower charge ($Q = 1$) than the multiply charged metal ions ($Q \approx 2$--3), they contribute equally tot he  electrical current per particle to the biased probe. This explains the only slight correlation in decreasing ion current and increasing nitrogen pressure (factor of 2--3, Section~\ref{subsec:distance}).\\
+
+
+\subsection{Pressure Dependence}\label{subsec:erms_pressure}
+
+Figures~\ref{fig:ERMS_10cm_pressure} and \ref{fig:ERMS_14cm_pressure} present the pressure dependence of charge states and ion energies at 10~cm and 14~cm, respectively. The 14~cm measurements are emphasized as this distance was selected for film depositions.
+
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\linewidth]{"Figures/results 2/Pressure_10cm_0.25T"}
-	\caption{10cm 0.25T}
-	\label{fig:ERMS_pressure10cm0}
+	\caption{Mean charge state, potential energy, and kinetic energy as functions of nitrogen pressure at 10~cm distance (0.25~T). Only metal ion (Al, Ti) charge states are shown. Metal ion charge states decrease systematically with increasing pressure due to charge-exchange collisions. Kinetic energies exhibit non-monotonic behavior, with a local maximum near 0.1~Pa.}
+	\label{fig:ERMS_10cm_pressure}
 \end{figure}
-Missing 14cm 0.25T
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\linewidth]{"Figures/results 2/Pressure_14cm_0.25T"}
+	\caption{Mean charge state, potential energy, and kinetic energy as functions of nitrogen pressure at 14~cm distance (0.25~T). Only metal ion (Al, Ti) charge states are shown. Trends are similar to 10~cm but with reduced absolute values due to plasma expansion. This distance was selected for film depositions (Section~\ref{sec:film_char}).}
+	\label{fig:ERMS_14cm_pressure}
+\end{figure}
+
+At both distances, metal ion charge states decrease systematically with increasing nitrogen pressure as charge-exchange collisions accumulate progressively. At 14~cm, Ti decreases from $\langle Q \rangle \approx 2.7$ (0~Pa) to $\approx 1.7$ (0.3~Pa), and Al from $\approx 2.0$ to $\approx 1.3$. The monotonic decrease confirms that each incremental increase in nitrogen pressure provides additional opportunities for electron transfer from metal ions to nitrogen molecules. The charge-state reduction is qualitatively similar at both distances, though absolute values at 14~cm are slightly lower than at 10~cm for equivalent pressures, reflecting the additional propagation distance and correspondingly higher cumulative collision probability.\\
+
+Kinetic energies show more complex behavior. At both 10~cm and 14~cm, Ti and Al exhibit non-monotonic trends with a local maximum near 0.1~Pa. This behavior may reflect competing effects: at low pressures, nitrogen collisions reduce forward momentum through elastic scattering, while at intermediate pressures, reactive processes at the cathode surface (type-1 vs.\ type-2 spot transitions \cite[Chap.~9.3]{cathodic_arcs}) may alter the initial ion velocity distribution. The kinetic energy measurements also show increased scatter at higher pressures, consistent with collisional thermalization. Despite this complexity, the general trend toward reduced kinetic energy with increasing nitrogen pressure is evident at both distances.\\
+
+The similarity in pressure-dependent trends between 10~cm and 14~cm and especially the increased kinetic energy around 0.1~Pa nitrogen pressure, makes these configurations especially interesting. 
 
 \newpage
-\section{Ex situ Results}
+
+\section{Thin Film Characterization}\label{sec:film_char}
+
+Thin films were deposited on Si(100) substrates positioned at 14~cm from the macroparticle filter exit under conditions listed in Table~\ref{tab:film_deposition_conditions}. The substrate holder was mounted on the same movable assembly used for QCM and ion probe measurements to ensure identical positioning. Films were deposited under six representative conditions spanning the parameter space: metallic mode (0~Pa) and reactive mode (0.1, 0.3~Pa) at two magnetic field strengths (0, 0.25~T). All depositions used 850~A arc current, 1~ms pulse width, and 5~Hz repetition rate.
+
+[Table showing: Film ID, Distance, Pressure, Magnetic Field, Number of Pulses, Expected Thickness from QCM]
+
+The following subsections present structural, compositional, and morphological characterization of these films.
+
 \begin{figure}[ht]
 	\centering
 	\begin{subfigure}{.5\textwidth}
