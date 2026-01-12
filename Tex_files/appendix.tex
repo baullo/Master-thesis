@@ -91,6 +91,12 @@ Energy-resolved mass spectrometry data were evaluated with a Python script that 
 	
 	\item \textbf{Energy decomposition}: Total ion energy was separated into kinetic and potential components following the procedure described in \cite{decoupling_kalanov_2025}.
 \end{enumerate}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{Figures/appendix/14cm-0.25t-n-0.1pa_Ti}
+	\caption{Charge-state-resolved ion energy distribution functions for Ti$^+$ through Ti${4+}$ measured at 14~cm distance with 0.25~T magnetic field and 0.1~Pa N$_2$ pressure. Mean kinetic energies and standard deviations are shown in the legend.}
+	\label{fig:ERMS-appendix}
+\end{figure}
 
 The processed results were visualized and exported to CSV files for correlation with ion probe and QCM measurements.
 
@@ -303,7 +309,7 @@ In all other measurements, the oscilloscope averaged the voltage signal over mul
 
 \begin{table}[htbp]
 	\centering
-	\caption{Complete overview of experimental measurements. All distance/field/pressure combinations not explicitly listed were measured with ion current probe and QCM only. In total: 252 Ion+QCM measurements, 17 ERMS measurements, 6 deposited films}
+	\caption{Complete overview of experimental measurements. All distance/field/pressure combinations not explicitly listed were measured with ion current probe and QCM only. In total: 252 Ion+QCM measurements, 17 ERMS measurements, 4 deposited films}
 	\label{tab:comprehensive_measurements}
 	\small
 	\renewcommand{\arraystretch}{1.3}
@@ -337,10 +343,10 @@ In all other measurements, the oscilloscope averaged the voltage signal over mul
 		\midrule
 		\multicolumn{7}{l}{\textit{\textbf{Distance 14 cm — with mass spectrometry:}}} \\
 		14 & 0.15 & 0.1 & \checkmark & \checkmark & -- & -- \\
-		14 & 0.25 & 0 & \checkmark & \checkmark & \checkmark & 008 \\
-		14 & 0.25 & 0.1 & \checkmark & (\checkmark) & (\checkmark) & -- \\
-		14 & 0.25 & 0.2 & \checkmark & (\checkmark) & (\checkmark) & -- \\
-		14 & 0.25 & 0.3 & \checkmark & \checkmark & \checkmark & 009 \\
+		14 & 0.25 & 0 & \checkmark & \checkmark & \checkmark & 010 \\
+		14 & 0.25 & 0.1 & \checkmark & \checkmark & \checkmark & 013 \\
+		14 & 0.25 & 0.2 & \checkmark & \checkmark & \checkmark & 014 \\
+		14 & 0.25 & 0.3 & \checkmark & \checkmark & \checkmark & 012 \\
 		\midrule
 		\multicolumn{7}{l}{\textit{\textbf{Distance 20 cm — standard conditions:}}} \\
 		20 & \makecell[c]{0, 0.05, 0.1,\\0.15, 0.2} & all pressures$^{\dagger}$ & \checkmark & -- & -- & -- \\
@@ -350,9 +356,9 @@ In all other measurements, the oscilloscope averaged the voltage signal over mul
 		20 & 0.25 & 0, 0.3 & \checkmark & \checkmark & -- & -- \\
 		\bottomrule
 		\multicolumn{7}{l}{\footnotesize $^{\dagger}$all pressures = 0, 0.025, 0.05, 0.075, 0.1, 0.2, 0.3~Pa} \\
-		\multicolumn{7}{l}{\footnotesize Ion/QCM: Ion current probe and quartz crystal microbalance measured at the same time (in situ)} \\
+		\multicolumn{7}{l}{\footnotesize Ion/QCM: Ion current probe and quartz crystal microbalance measured at the same time} \\
 		\multicolumn{7}{l}{\footnotesize Mass Spec: Energy-resolved mass spectrometry (ERMS)} \\
-		\multicolumn{7}{l}{\footnotesize Ex-situ: XRD, SEM, profilometry characterization of deposited films} \\
+		\multicolumn{7}{l}{\footnotesize Ex-situ: XRD, SEM, EDX, profilometry characterization of deposited films} \\
 	\end{tabular}
 	}
 \end{table}

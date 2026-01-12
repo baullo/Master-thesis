@@ -146,7 +146,7 @@ The measurements presented in this section establish the macroscopic trends in m
 
 \section{Energy-Resolved Mass Spectrometry Results}\label{sec:erms_results}
 
-Energy-resolved mass spectrometry (ERMS) measurements were performed to characterize charge-state distributions and ion energies under selected conditions corresponding to film depositions. The measurements provide charge-state-resolved ion energy distribution functions (IEDFs) for Al$^{1+,2+,3+}$, Ti$^{1+,2+,3+,4+}$ and N/N$_2^{1+}$, from which mean charge states $\langle Q \rangle$, kinetic energies $E_{\rm kin}$, and potential energies $E_{\rm pot}$ are derived. All measurements were performed at 0.25~T magnetic field strength, with particular emphasis on the 14~cm distance selected for systematic film depositions.
+Energy-resolved mass spectrometry (ERMS) measurements were performed to characterize charge-state distributions and ion energies under selected conditions corresponding to film depositions. The measurements provide charge-state-resolved ion energy distribution functions (IEDFs) for Al$^{1+,2+,3+}$, Ti$^{1+,2+,3+,4+}$ and N/N$_2^{1+}$, from which mean charge states $\langle Q \rangle$, kinetic energies $E_{\rm kin}$, and potential energies $E_{\rm pot}$ are derived. All measurements were performed at 0.25~T magnetic field strength, with particular emphasis on the 14~cm distance selected for systematic film depositions, as well as for all the above mentioned species, even if nitrogen should not be present in metallic plasmas.  
 
 \subsection{Distance Dependence}\label{subsec:erms_distance}
 
@@ -155,30 +155,30 @@ Figures~\ref{fig:ERMS_distance0Pa} and \ref{fig:ERMS_distance0.3Pa} present mean
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\linewidth]{"Figures/results 2/Distance_0.25T_0.0Pa"}
-	\caption{Mean charge state, potential energy, and kinetic energy as functions of distance in metallic mode (0~Pa, 0.25~T). Al and Ti show mean charge states of $\langle Q \rangle \approx 2.0$ and 2.7, respectively, with minimal variation across 10--20~cm. Total ion energies remain above 40~eV at all distances.}
+	\caption{Mean charge state, potential energy, and kinetic energy as functions of distance in metallic mode (0~Pa, 0.25~T). Al and Ti show mean charge states of $\langle Q \rangle \approx 2.0$ and 2.7 respectively, with minimal variation across 10--20~cm. Total ion energies remain above 40~eV at all distances.}
 	\label{fig:ERMS_distance0Pa}
 \end{figure}
 
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=\linewidth]{"Figures/results 2/Distance_0.25T_0.3Pa"}
-	\caption{Mean charge state, potential energy, and kinetic energy as functions of distance in reactive mode (0.3~Pa N$_2$, 0.25~T). Only metal ion (Al, Ti) charge states are shown. Metal ion charge states decrease by 20--30\% compared to metallic mode due to charge-exchange collisions. Kinetic energies show increased scatter due to collisional thermalization.}
-	\label{fig:ERMS_distance0.3Pa}
-\end{figure}
 
-In metallic mode (Figure~\ref{fig:ERMS_distance0Pa}), titanium ions exhibit $\langle Q \rangle \approx 2.7$ and aluminum ions $\langle Q \rangle \approx 2.0$ across all distances. These charge states reflect the high electron temperatures ($T_e \approx 5$--10~eV) characteristic of cathode spot plasmas. The mean charge states remain remarkably constant with distance, varying by less than 5\% between 10 and 20~cm, indicating that recombination is negligible during the transit time through this region on the order of $\sim$100~$\mu$s scale.\\
+In metallic mode (Figure~\ref{fig:ERMS_distance0Pa}), titanium ions exhibit $\langle Q \rangle \approx 2.6$ and aluminum ions $\langle Q \rangle \approx 2.0$ across all distances. These charge states reflect the high electron temperatures ($T_e \approx 5$--10~eV) characteristic of cathode spot plasmas. The mean charge states remain remarkably constant with distance, varying by less than 10\% between 10 and 20~cm, indicating that recombination is negligible during the transit time through this region on the order of $\sim$100~$\mu$s scale.\\
 
 
 Potential energies scale directly with charge state, with Ti showing $E_{\rm pot} \approx 38$~eV and Al $E_{\rm pot} \approx 26$~eV, remaining nearly constant across the measurement range. Kinetic energies are in the range of 20--30~eV for both species, with a slight decreasing trend with distance due to minor collisional thermalization. Importantly, total ion energies ($E_{\rm kin} + E_{\rm pot}$) exceed 40~eV at all distances, well above the $\approx$30~eV threshold for subplantation-driven densification \cite[Chap.~8.1]{cathodic_arcs}. This confirms that energetic condensation should remains accessible across the entire 10--20~cm range without substrate heating.\\
 
-Introducing nitrogen at 0.3~Pa substantially alters the plasma composition (Figure~\ref{fig:ERMS_distance0.3Pa}). Metal ion charge states decrease by approximately 40\%. This reduction is attributed to charge-exchange collisions, in which fast, multiply charged metal ions transfer electrons to slow nitrogen molecules \cite{bendikt2012} for example:
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\linewidth]{"Figures/results 2/Distance_0.25T_0.3Pa"}
+	\caption{Mean charge state, potential energy, and kinetic energy as functions of distance in reactive mode (0.3~Pa N$_2$, 0.25~T). Metal ion charge states decrease by 20--30\% compared to metallic mode due to charge-exchange collisions. Kinetic energies show increased scatter due to collisional thermalization.}
+	\label{fig:ERMS_distance0.3Pa}
+\end{figure}
+
+
+Introducing nitrogen at 0.3~Pa substantially alters the plasma composition (Figure~\ref{fig:ERMS_distance0.3Pa}). Metal ion charge states decrease by up to 50\%. This reduction is attributed to charge-exchange collisions, in which fast, multiply charged metal ions transfer electrons to slow nitrogen molecules \cite{bendikt2012} for example:
 \begin{equation*}
 	\text{Ti}^{3+} + \text{N}_2 \rightarrow \text{Ti}^{2+} + \text{N}_2^{+} \quad \text{(or lower charge states)}
 \end{equation*}
 
-The charge-exchange process produces both lower charge-state metal ions and singly charged nitrogen ions (measured as described in Section~\ref{sec:QMS}). Since nitrogen ions carry lower charge ($Q = 1$) than the multiply charged metal ions ($Q \approx 2$--3), they contribute equally tot he  electrical current per particle to the biased probe. This explains the only slight correlation in decreasing ion current and increasing nitrogen pressure (factor of 2--3, Section~\ref{subsec:distance}).\\
-
-
+Potential energies decrease proportionally with the reduced charge states, falling from $\approx$35--40~eV (metallic) to $\approx$20--30~eV in reactive mode, as expected from the direct coupling between potential energy and ionization level. Kinetic energies show a slight increase in reactive mode. Despite these changes, total ion energies remain in the range of 30~eV at 10~cm and 35~eV at 20~cm. At the 14~cm deposition distance, energies are approximately 25--35~eV, still sufficient for ion-assisted densification.
 \subsection{Pressure Dependence}\label{subsec:erms_pressure}
 
 Figures~\ref{fig:ERMS_10cm_pressure} and \ref{fig:ERMS_14cm_pressure} present the pressure dependence of charge states and ion energies at 10~cm and 14~cm, respectively. The 14~cm measurements are emphasized as this distance was selected for film depositions.
@@ -197,9 +197,9 @@ Figures~\ref{fig:ERMS_10cm_pressure} and \ref{fig:ERMS_14cm_pressure} present th
 	\label{fig:ERMS_14cm_pressure}
 \end{figure}
 
-At both distances, metal ion charge states decrease systematically with increasing nitrogen pressure as charge-exchange collisions accumulate progressively. At 14~cm, Ti decreases from $\langle Q \rangle \approx 2.7$ (0~Pa) to $\approx 1.7$ (0.3~Pa), and Al from $\approx 2.0$ to $\approx 1.3$. The monotonic decrease confirms that each incremental increase in nitrogen pressure provides additional opportunities for electron transfer from metal ions to nitrogen molecules. The charge-state reduction is qualitatively similar at both distances, though absolute values at 14~cm are slightly lower than at 10~cm for equivalent pressures, reflecting the additional propagation distance and correspondingly higher cumulative collision probability.\\
+At both distances, metal ion charge states generally decrease with increasing nitrogen pressure as charge-exchange collisions accumulate. At 14~cm, Ti decreases from $\langle Q \rangle \approx 2.7$ (0~Pa) to $\approx 1.7$ (0.3~Pa), and Al from $\approx 1.9$ to $\approx 1.3$. This trend is non-monotonic, with a slight increase observed between 0.2 and 0.3~Pa at 14~cm. This deviation from systematic reduction suggests that charge-exchange collisions are not the sole process affecting charge-state distributions. The overall charge-state reduction is qualitatively similar at both distances.\\
 
-Kinetic energies show more complex behavior. At both 10~cm and 14~cm, Ti and Al exhibit non-monotonic trends with a local maximum near 0.1~Pa. This behavior may reflect competing effects: at low pressures, nitrogen collisions reduce forward momentum through elastic scattering, while at intermediate pressures, reactive processes at the cathode surface (type-1 vs.\ type-2 spot transitions \cite[Chap.~9.3]{cathodic_arcs}) may alter the initial ion velocity distribution. The kinetic energy measurements also show increased scatter at higher pressures, consistent with collisional thermalization. Despite this complexity, the general trend toward reduced kinetic energy with increasing nitrogen pressure is evident at both distances.\\
+Kinetic energies show more complex behavior. At both 10~cm and 14~cm, Ti and Al exhibit non-monotonic trends with a local maximum near 0.1~Pa. This behavior may reflect competing effects: at low pressures, nitrogen collisions reduce forward momentum through elastic scattering, while at intermediate pressures, reactive processes at the cathode surface (type-1 vs.\ type-2 spot transitions \cite[Chap.~9.3]{cathodic_arcs}) may alter the initial ion velocity distribution. The kinetic energy measurements also show increased scatter at higher pressures, consistent with collisional thermalization. Despite this complexity, the general trend toward slightly reduced kinetic energy with increasing nitrogen pressure is evident at both distances.\\
 
 The similarity in pressure-dependent trends between 10~cm and 14~cm and especially the increased kinetic energy around 0.1~Pa nitrogen pressure, makes these configurations especially interesting. 
 
@@ -207,40 +207,42 @@ The similarity in pressure-dependent trends between 10~cm and 14~cm and especial
 
 \section{Thin Film Characterization}\label{sec:film_char}
 
-Thin films were deposited on Si(100) substrates positioned at 14~cm from the macroparticle filter exit under conditions listed in Table~\ref{tab:film_deposition_conditions}. The substrate holder was mounted on the same movable assembly used for QCM and ion probe measurements to ensure identical positioning. Films were deposited under six representative conditions spanning the parameter space: metallic mode (0~Pa) and reactive mode (0.1, 0.3~Pa) at two magnetic field strengths (0, 0.25~T). All depositions used 850~A arc current, 1~ms pulse width, and 5~Hz repetition rate.
-
-[Table showing: Film ID, Distance, Pressure, Magnetic Field, Number of Pulses, Expected Thickness from QCM]
-
-The following subsections present structural, compositional, and morphological characterization of these films.
+Thin films were deposited on Si(100) substrates positioned at 14~cm from the macroparticle filter exit under conditions listed in Table~\ref{tab:comprehensive_measurements}. The substrates were mounted on the substrate holder with the same positions in space used for QCM and ion probe measurements to ensure identical positioning. Films were deposited under four representative conditions spanning the parameter space: metallic mode (0~Pa) and reactive mode (0.1, 0.2, 0.3~Pa) and at high magnetic field strength (0.25~T). All depositions used 850~A arc current, 1~ms pulse width, and 5~Hz repetition rate.
 
 \begin{figure}[ht]
 	\centering
 	\begin{subfigure}{.5\textwidth}
 		\centering
 		\includegraphics[width=\linewidth]{Figures/results 2/PXL_20251114_084343196.jpg}
-		\caption{}
+		\caption{Reactive mode (0.3\,Pa N$_2$)}
 	\end{subfigure}%
 	\begin{subfigure}{.5\textwidth}
 		\centering
 		\includegraphics[width=\linewidth]{Figures/results 2/PXL_20251117_130844177.jpg}
-		\caption{}
+		\caption{Metallic mode (vacuum)}
 	\end{subfigure}
-	\caption{\textcolor{red}{to be written picture taken with phone a) with nitrogen and b) metallic... colors are wrong need to change it haha}}
+	\caption{Visual comparison of cathodic arc plasma plumes exiting the macroparticle filter. (a) Reactive mode operation with 0.3\,Pa N$_2$ background pressure shows broader, more diffuse plasma emission with characteristic orange-red glow from nitrogen excitation. (b) Metallic mode in vacuum shows tighter confinement of the ionized metal plasma plume with blue-white emission characteristic of highly ionized Ti and Al species. (Camera settings: f/1.7, 1/100\,s, ISO 90.)}
 	\label{fig:plasma}
 \end{figure}
 
-A total of [insert number of films once i ve done all of them, proabably like 6-8] were taking into account for further measurements and looked at in the following sections. Blablabla
 \subsection{Profilometry}\label{sec:profilometry}
 
 Samples were prepared by placing a straight marker line near the edge of each substrate prior to deposition. This marker could be cleanly removed by ultrasonic washing after film growth, revealing the deposition step for thickness analysis. Profilometry measurements were performed at three positions on each sample, one near the center and one near each edge. The three measurements were averaged to obtain the mean film thickness. All resulting values are summarized in Table \ref{tab:profilometry_results}.
 
 \begin{table}[h]
 	\centering
-	\begin{tabularx}{0.85\textwidth}{|X|X|X|}
-		\hline
-	\end{tabularx}
 	\caption{Profilometry thickness measurements for the deposited films}
 	\label{tab:profilometry_results}
+	\begin{tabularx}{\textwidth}{|c|c|c|c|X|X|}
+		\hline
+	Film ID & Distance (cm) & Pressure (Pa) & Pulses & Thickness QCM (nm) & Thickness Ion probe (nm) \\ \hline
+	8		& 14					& 	0	&	6000	 &   73.3             & 68 				     \\ \hline
+	9		& 14				 & 	0.3		&	6000	 &  42.13             & 34.63				 \\ \hline
+	10	&	14                     & 0       &  6000       & 65.23            & 56.53                \\ \hline
+	11	&	14                     & 0.3     &  8000      & 60.1              & 42.03                \\ \hline
+	13	&	14                     & 0.1     &  8000      & 58.52             & 41            		 \\ \hline
+	14	&	14                     & 0.2      & 8000      & 45.97             & 37.77                \\ \hline
+	\end{tabularx}	
 \end{table}
 
 \subsection{XRD}
