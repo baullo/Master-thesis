@@ -303,7 +303,7 @@ The measurement principle follows the Sauerbrey equation \cite{Sauerbrey_1959}, 
 	= 18.8146023 \times 10^{-9}\,\frac{\text{g}}{\text{Hz}} \cdot \Delta F
 \end{equation}
 
-Here $\rho_q = 2.649$~g\,cm$^{-3}$ is the quartz density, $r = 0.7$~cm is the radius of the exposed crystal area, $N_{\text{AT}} = 166\,100$~Hz\,cm is the frequency constant of the AT-cut quartz, $F_q = 6$~MHz is the uncoated resonance frequency, and $\Delta F$ is the measured frequency shift.\\
+Here $\rho_q = 2.649$~g\,cm$^{-3}$ is the quartz density, $r = 0.375$~cm is the radius of the exposed crystal area, $N_{\text{AT}} = 166\,100$~Hz\,cm is the frequency constant of the AT-cut quartz, $F_q = 6$~MHz is the uncoated resonance frequency, and $\Delta F$ is the measured frequency shift.\\
 
 The Sauerbrey relation is accurate as long as $\Delta F \lesssim 0.05 F_q$ (approximately 0.3~MHz for a 6~MHz crystal), for more details on the correction above this limit look in Appendix \ref{long_qcm}. 
 In the present experiments, the observed frequency shifts ranged from approximately 1~Hz to 50~Hz over 64 pulses. These shifts are well above the SQM-160 resolution of approximately 0.03~Hz at 6~MHz, yet orders of magnitude below the Sauerbrey breakdown limit. The Sauerbrey approximation was therefore fully sufficient for all measurements in this work.\\
@@ -314,7 +314,7 @@ In the present experiments, the observed frequency shifts ranged from approximat
 To enable direct comparison between ion current and deposited mass, the Langmuir probe and QCM were mounted on the same movable aluminum assembly. The probe was positioned through a precision-milled pass-through hole, while the QCM was secured in a dedicated cutout and fixed via screws (see Appendix~\ref{sec:holder_assembly_figure} for assembly details). This configuration ensured rigid mechanical alignment between the two diagnostics throughout all measurements.
 
 
-The probe collection area ($A_{\text{probe}} = 0.196$~cm$^2$, diameter 5~mm) was smaller than but contained within the QCM active area ($A_{\text{QCM}} = 0.5027$~cm$^2$, diameter 8~mm). Both diagnostics were positioned as close as possible to each other to minimize spatial gradients between measurement locations. This design is meant to mitigate radial plasma density gradients inherent to expanding cathodic arc plasmas \cite[Chap.~6.2]{cathodic_arcs}, though even with close proximity, gradients cannot be completely eliminated and remained evident in the experimental results.
+The probe collection area ($A_{\text{probe}} = 0.196$~cm$^2$, diameter 5~mm) was smaller than but contained within the QCM active area ($A_{\text{QCM}} = 0.442$~cm$^2$, diameter 7.5~mm). Both diagnostics were positioned as close as possible to each other to minimize spatial gradients between measurement locations. This design is meant to mitigate radial plasma density gradients inherent to expanding cathodic arc plasmas \cite[Chap.~6.2]{cathodic_arcs}, though even with close proximity, gradients cannot be completely eliminated and remained evident in the experimental results.
 
 
 
@@ -393,7 +393,7 @@ The total deposited flux $\Phi_{\text{total}}$ (atoms\,cm$^{-2}$\,pulse$^{-1}$) 
 	\Phi_{\text{total}} = \frac{\Delta m \cdot N_A}{A_{\text{QCM}} \cdot N_{\text{pulses}} \cdot M_{\text{eff}}}
 \end{equation}
 
-where $\Delta m$ is the mass change measured by QCM over $N_{\text{pulses}}$ pulses, $A_{\text{QCM}} = 0.5027$~cm$^2$ is the active crystal area, $N_A = 6.022 \times 10^{23}$~mol$^{-1}$ is Avogadro's constant, and $M_{\text{eff}}$ is the effective molar mass of the deposited material.
+where $\Delta m$ is the mass change measured by QCM over $N_{\text{pulses}}$ pulses, $A_{\text{QCM}} = 0.442$~cm$^2$ is the active crystal area, $N_A = 6.022 \times 10^{23}$~mol$^{-1}$ is Avogadro's constant, and $M_{\text{eff}}$ is the effective molar mass of the deposited material.
 
 
 The effective molar mass $M_{\text{eff}}$ depends on the film composition, which was determined by energy-dispersive X-ray spectroscopy (EDX, Section~\ref{sec:EDX}). For films deposited in metallic mode, $M_{\text{eff}}$ reflects the Ti:Al ratio of the cathode composition. For reactive mode deposition, $M_{\text{eff}}$ accounts for nitrogen incorporation according to the measured TiAlN stoichiometry. The film density $\rho_{\text{film}}$ required to relate mass deposition rate to film thickness was determined by X-ray reflectometry (XRR, Section~\ref{sec:XRR}).
@@ -443,9 +443,7 @@ Due to the small film thickness, out-of-plane diffraction techniques were used t
 	\label{fig:xrdinoutofplane}
 \end{figure}
 
-The XRD measurements were performed using a \textcolor{red}{model name of xrd machine} diffractometer equipped with \textcolor{red}{non monochromatic $Cu_{\alpha}$ source with smt smt wavelength-} The asymmetrical reflection scans were performed with an \textcolor{red}{add incidence angle and speed and step size used}\\
-
-The crystallographic structure was determined by analyzing the diffraction patterns. The Bragg equation was used to identify the crystalline phases:
+The XRD measurements were performed using a Rigaku Ultima IV system equipped with a non monochromatic $Cu_{\alpha}$ source. The crystallographic structure was determined by analyzing the diffraction patterns. The Bragg equation was used to identify the crystalline phases:
 \begin{equation}
 	2d \sin(\theta) = n\lambda,
 \end{equation}

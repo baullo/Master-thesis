@@ -227,7 +227,10 @@ Thin films were deposited on Si(100) substrates positioned at 14~cm from the mac
 
 \subsection{Profilometry}\label{sec:profilometry}
 
-Samples were prepared by placing a straight marker line near the edge of each substrate prior to deposition. This marker could be cleanly removed by ultrasonic washing after film growth, revealing the deposition step for thickness analysis. Profilometry measurements were performed at three positions on each sample, one near the center and one near each edge. The three measurements were averaged to obtain the mean film thickness. All resulting values are summarized in Table \ref{tab:profilometry_results}.
+Samples were prepared by placing a straight marker line near the edge of each substrate prior to deposition. This marker could be cleanly removed by ultrasonic washing after film growth, revealing the deposition step for thickness analysis. Profilometry measurements were performed at three positions on each sample: one near the center and one near each edge. The three measurements were averaged to obtain the mean film thickness.\\
+
+To compensate for the reduced deposition rate observed in reactive mode, the number of pulses for nitrogen-containing depositions was increased from 6000 (metallic mode) to 8000 pulses. This adjustment aimed to achieve film thicknesses sufficient for reliable characterization while maintaining comparable total deposition times. All resulting thickness values are summarized in Table~\ref{tab:profilometry_results}.
+
 
 \begin{table}[h]
 	\centering
@@ -244,6 +247,16 @@ Samples were prepared by placing a straight marker line near the edge of each su
 	14	&	14                     & 0.2      & 8000      & 46             & 38                \\ \hline
 	\end{tabularx}	
 \end{table}
+
+The measured thicknesses show good agreement between QCM-derived values and profilometry, with differences on the order of 10~\%, which is within the combined measurement uncertainties of both techniques. Films deposited in metallic mode (films 8 and 10, 6000 pulses) show thicknesses of 57--68~nm by profilometry, while films deposited in reactive mode show lower values despite the increased pulse count to 8000. This reduction reflects the lower mass deposition rate in reactive mode observed in Figure~\ref{fig:pressure_0.25T_mass/ion}a, which is not fully compensated by the increased pulse count.\\
+
+Several competing effects influence the thickness trends. Films 8 and 10 (metallic mode, 6000 pulses) show thicknesses of 65--73~nm by profilometry, while films deposited in reactive mode show lower values despite the increased pulse count. Film 11 (0.3~Pa, 8000 pulses) achieved 60~nm. This reduction reflects the lower mass deposition rate in reactive mode (Figure~\ref{fig:pressure_0.25T_mass/ion}a), which is not fully compensated by the increased pulse count.\\
+
+An apparent inconsistency emerges when comparing films 9 (0.3~Pa, 6000 pulses, 35~nm) and 11 (0.3~Pa, 8000 pulses, 42~nm). The thickness increase from 35 to 42~nm represents only a 20~\% gain for a 33~\% increase in pulses, suggesting either non-linear deposition behavior or position-dependent variations. Additionally, Figure~\ref{fig:pressure_0.25T_mass/ion}a shows that at 14~cm, the mass flux should remain relatively constant across the pressure range (0--0.3~Pa), yet film 9 shows substantially lower thickness than predicted by this trend.\\
+
+\textcolor{red}{[NOTE: Add discussion of apparent inconsistency at 14~cm between Figure~\ref{fig:pressure_0.25T_mass/ion}a trend (constant mass flux vs pressure) and observed film thicknesses. Potential explanations: spatial gradients between QCM/substrate positions, pulse-to-pulse variability (Table~4.1), cathode conditioning effects between runs, nitrogen incorporation affecting $M_{\text{eff}}$.]}
+
+
 
 \subsection{XRD}
 \subsection{XRR}
