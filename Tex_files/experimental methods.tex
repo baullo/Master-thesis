@@ -375,28 +375,6 @@ To derive ion energy distributions for different charge states, the measured $E/
 %The \(m/q\) range was calibrated using N\(_2^+\) as reference ions, with typical operating parameters set to \(U_0 = \SI{100}{V}\), \(U_{\text{DC}} = \SI{5}{V}\), and \(\omega/2\pi = \SI{1.2}{MHz}\). Under these settings, the system provided a mass resolution of \(\Delta m/m \approx 0.5\) (FWHM) for ions in the \(\SI{0}{--}\SI{150}{eV}\) energy range \cite{hiden_eqp_manual}. The energy resolution was adjusted to \(\Delta E/E \approx 0.02\) by tuning \(V_{\text{PLATES}}\) and optimizing the alignment of the orifice and detector.
 %%%
 
-\subsection{Calculation of Ion Flux and Total Deposited Flux}
-The ion flux and total deposited flux are key parameters for understanding the correlation between plasma properties and film growth. These quantities are derived from combined measurements of the Langmuir probe, QCM, ERMS, and film composition analysis.
-
-\subsubsection{Ion Flux from Probe and ERMS Measurements}
-The ion flux $\Gamma_{\text{ion}}$ (ions\,cm$^{-2}$\,s$^{-1}$) is calculated from the ion current density measured by the Langmuir probe:
-\begin{equation}
-	\Gamma_{\text{ion}} = \frac{J_i}{e \langle Q \rangle} = \frac{V_{\text{measured}}}{e \langle Q \rangle A_{\text{probe}} R}
-\end{equation}
-
-where $\langle Q \rangle$ is the average charge state determined from ERMS measurements (Section~\ref{sec:QMS}), $e = 1.602 \times 10^{-19}$~C is the elementary charge, $A_{\text{probe}} = 0.196$~cm$^2$ is the probe collection area, and $R = 400$~$\Omega$ is the measurement resistor. This combination of probe and mass spectrometer data accounts for the multiply charged nature of the cathodic arc plasma and enables accurate determination of the particle flux from the electrical current measurement.
-
-\subsubsection{Total Deposited Flux from QCM and Film Characterization}
-
-The total deposited flux $\Phi_{\text{total}}$ (atoms\,cm$^{-2}$\,pulse$^{-1}$) includes contributions from both ions and neutrals (in reactive mode). This quantity is derived from the QCM mass deposition measurements:
-\begin{equation}
-	\Phi_{\text{total}} = \frac{\Delta m \cdot N_A}{A_{\text{QCM}} \cdot N_{\text{pulses}} \cdot M_{\text{eff}}}
-\end{equation}
-
-where $\Delta m$ is the mass change measured by QCM over $N_{\text{pulses}}$ pulses, $A_{\text{QCM}} = 0.442$~cm$^2$ is the active crystal area, $N_A = 6.022 \times 10^{23}$~mol$^{-1}$ is Avogadro's constant, and $M_{\text{eff}}$ is the effective molar mass of the deposited material.
-
-
-The effective molar mass $M_{\text{eff}}$ depends on the film composition, which was determined by energy-dispersive X-ray spectroscopy (EDX, Section~\ref{sec:EDX}). For films deposited in metallic mode, $M_{\text{eff}}$ reflects the Ti:Al ratio of the cathode composition. For reactive mode deposition, $M_{\text{eff}}$ accounts for nitrogen incorporation according to the measured TiAlN stoichiometry. The film density $\rho_{\text{film}}$ required to relate mass deposition rate to film thickness was determined by X-ray reflectometry (XRR, Section~\ref{sec:XRR}).
 
 %The ratio $\Phi_{\text{total}} / \Gamma_{\text{ion}}$ provides insight into the fraction of deposited material arriving as ions versus neutrals, which is particularly important for understanding reactive mode deposition where activated nitrogen species contribute significantly to film growth. In metallic mode (vacuum deposition), this ratio approaches unity if all deposited material arrives as ions. In reactive mode, values greater than unity indicate significant neutral nitrogen incorporation.
 
@@ -519,6 +497,40 @@ EDX measurements were performed using a silicon drift detector (SDD) integrated 
 Prior to analysis, samples were cleaned ultrasonically in isopropanol to remove loose particles. However, organic solvent residues and hydrocarbon contamination from the vacuum system can lead to carbon deposition under electron beam irradiation \cite{goldstein2017,reimer1998}. A small carbon peak was therefore typically observed in EDX spectra and was excluded from compositional quantification of the TiAlN films. Multiple area measurements were taken on each sample to verify that all surface features, including any macroparticles or morphological structures, had the same metal-nitride composition as the underlying thin film and to identify potential impurities beyond the surface carbon layer.
 
 The primary elements analyzed were titanium (Ti), aluminum (Al), and nitrogen (N). Oxygen (O) and silicon (Si) were also monitored to assess surface oxidation and to detect any contribution from the Si substrate. The measured film compositions are used to calculate the effective molar mass $M_{\text{eff}}$ required for determining total deposited flux from QCM measurements (Section~\ref{sec:QMS}). Compositional results and representative EDX spectra are presented in Section~\ref{sec:EDX_results}.
+
+\section{Calculation of Ion Flux and Total Deposited Flux}
+The plasma diagnostic measurements described in Section~\ref{sec:langmuir_probe}--\ref{sec:QMS} provide electrical currents, deposited masses, and ion energy distributions. To quantify the actual particle arrival rates and relate these to film growth, these raw measurements must be converted to particle fluxes. This section describes the calculation procedures that combine multiple diagnostic techniques to derive ion flux and total deposited flux.
+
+
+\subsection{Ion Flux from Probe and ERMS Measurements}
+
+The ion flux $\Gamma_{\text{ion}}$ (ions\,cm$^{-2}$\,s$^{-1}$) represents the number of charged metal ions arriving per unit area per unit time. It is calculated from the ion current measured by the Langmuir probe (Section~\ref{sec:langmuir_probe}) combined with the mean charge state determined from ERMS measurements (Section~\ref{sec:QMS}):
+\begin{equation}
+	\Gamma_{\text{ion}} = \frac{I_{\text{ion}}}{e \langle Q \rangle A_{\text{probe}}}
+	\label{eq:ion_flux}
+\end{equation}
+
+
+where $\langle Q \rangle$ is the average charge state determined from ERMS measurements (Section~\ref{sec:QMS}), $e = 1.602 \times 10^{-19}$~C is the elementary charge, $A_{\text{probe}} = 0.196$~cm$^2$ is the probe collection area, and $R = 400$~$\Omega$ is the measurement resistor. This combination of probe and mass spectrometer data accounts for the multiply charged nature of the cathodic arc plasma and enables accurate determination of the particle flux from the electrical current measurement.
+
+\subsection{Total Deposited Flux from QCM and Film Characterization}
+The total deposited flux $\Phi_{\text{total}}$ (atoms\,cm$^{-2}$\,s$^{-1}$) quantifies the arrival rate of all species contributing to film growth, including both ions and neutrals. It is calculated from QCM mass measurements (Section~\ref{section:QCM}) combined with film composition from EDX (Section~\ref{sec:EDX}):
+\begin{equation}
+	\Phi_{\text{total}} = \frac{\Delta m \cdot N_A}{A_{\text{QCM}} \cdot \Delta t \cdot M_{\text{eff}}}
+	\label{eq:total_flux}
+\end{equation}
+
+where $\Delta m$ is the mass change measured by QCM over time interval $\Delta t$, $A_{\text{QCM}} = 0.5027$~cm$^2$ is the active crystal area (8~mm diameter), $N_A = 6.022 \times 10^{23}$~mol$^{-1}$ is Avogadro's constant, and $M_{\text{eff}}$ is the effective molar mass calculated from film composition:
+
+\begin{equation}
+	M_{\text{eff}} = \sum_i x_i M_i = x_{\text{Ti}} \cdot 47.867 + x_{\text{Al}} \cdot 26.982 + x_{\text{N}} \cdot 14.007
+	\label{eq:meff}
+\end{equation}
+
+where $x_i$ are the atomic fractions from EDX measurements (Table~\ref{tab:edx}) and $M_i$ are the atomic masses.
+
+The effective molar mass varies significantly between metallic and reactive mode: $M_{\text{eff}} \approx 43.5$~g$\cdot$mol$^{-1}$ for Ti--Al films versus $M_{\text{eff}} \approx 31.8$--33.2~g$\cdot$mol$^{-1}$ for TiAlN films. This ~25\% reduction reflects the incorporation of light nitrogen atoms (14.0~g$\cdot$mol$^{-1}$) displacing heavier metal atoms.
+
 
 
 
