@@ -50,31 +50,36 @@
 \contentsline {subsection}{\numberline {4.2.2}Pressure Dependence}{42}{subsection.4.2.2}%
 \contentsline {section}{\numberline {4.3}Thin Film Characterization}{44}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Profilometry}{44}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}XRD}{46}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}XRR}{46}{subsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.3.4}EDX}{46}{subsection.4.3.4}%
-\contentsline {section}{\numberline {4.4}Fluxes}{46}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Discussion of Results}{47}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Conclusion}{48}{chapter.6}%
-\contentsline {chapter}{\numberline {7}final words or smt like thanks everyone}{49}{chapter.7}%
-\contentsline {chapter}{\numberline {A}Experimental Methods supplementary}{53}{appendix.1.A}%
-\contentsline {section}{\numberline {A.1}Longer QCM depositions}{53}{section.1.A.1}%
-\contentsline {section}{\numberline {A.2}Holder Assembly Design}{53}{section.1.A.2}%
-\contentsline {section}{\numberline {A.3}Data Processing Workflow}{54}{section.1.A.3}%
-\contentsline {subsection}{\numberline {A.3.1}Data Organization and Logbook System}{54}{subsection.1.A.3.1}%
-\contentsline {subsection}{\numberline {A.3.2}Ion Current Data Processing}{55}{subsection.1.A.3.2}%
-\contentsline {subsection}{\numberline {A.3.3}ERMS Data Processing}{55}{subsection.1.A.3.3}%
-\contentsline {subsection}{\numberline {A.3.4}QCM Data Processing}{56}{subsection.1.A.3.4}%
-\contentsline {section}{\numberline {A.4}Uncertainty Analysis}{56}{section.1.A.4}%
-\contentsline {subsection}{\numberline {A.4.1}ERMS Measurements}{56}{subsection.1.A.4.1}%
-\contentsline {subsection}{\numberline {A.4.2}Ion Probe Measurements}{57}{subsection.1.A.4.2}%
-\contentsline {subsection}{\numberline {A.4.3}QCM Measurements}{58}{subsection.1.A.4.3}%
-\contentsline {subsection}{\numberline {A.4.4}Error Propagation in Derived Quantities}{59}{subsection.1.A.4.4}%
-\contentsline {chapter}{\numberline {B}Langmuir Probe Bias Voltage Characterization}{61}{appendix.1.B}%
-\contentsline {section}{\numberline {B.1}Validation of Langmuir Probe Operation}{61}{section.1.B.1}%
-\contentsline {section}{\numberline {B.2}Analysis of the Ion Saturation Curve}{62}{section.1.B.2}%
-\contentsline {section}{\numberline {B.3}Selection of Operating Bias Voltage}{63}{section.1.B.3}%
-\contentsline {section}{\numberline {B.4}Ion Current Variation over Different Pulses}{63}{section.1.B.4}%
-\contentsline {chapter}{\numberline {C}Additional Plots}{65}{appendix.1.C}%
-\contentsline {chapter}{\numberline {D}Python Code and Data Overview}{67}{appendix.1.D}%
-\contentsline {section}{\numberline {D.1}Data Availability}{67}{section.1.D.1}%
+\contentsline {subsection}{\numberline {4.3.2}X-ray Diffraction (XRD)}{46}{subsection.4.3.2}%
+\contentsline {subsubsection}{Phase Identification}{46}{section*.31}%
+\contentsline {paragraph}{Metallic mode (0~Pa N$_2$):}{46}{section*.32}%
+\contentsline {paragraph}{Reactive mode (0.1--0.3~Pa N$_2$):}{47}{section*.33}%
+\contentsline {subsubsection}{Comparison with Structure-Zone Model}{47}{section*.34}%
+\contentsline {subsection}{\numberline {4.3.3}XRR}{48}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Energy dispersive X-ray spectroscopy (EDX)}{48}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}Scanning Electron Microscopy (SEM)}{49}{subsection.4.3.5}%
+\contentsline {section}{\numberline {4.4}Fluxes}{50}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Discussion of Results}{51}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Conclusion}{52}{chapter.6}%
+\contentsline {chapter}{\numberline {7}final words or smt like thanks everyone}{53}{chapter.7}%
+\contentsline {chapter}{\numberline {A}Experimental Methods supplementary}{58}{appendix.1.A}%
+\contentsline {section}{\numberline {A.1}Longer QCM depositions}{58}{section.1.A.1}%
+\contentsline {section}{\numberline {A.2}Holder Assembly Design}{58}{section.1.A.2}%
+\contentsline {section}{\numberline {A.3}Data Processing Workflow}{59}{section.1.A.3}%
+\contentsline {subsection}{\numberline {A.3.1}Data Organization and Logbook System}{59}{subsection.1.A.3.1}%
+\contentsline {subsection}{\numberline {A.3.2}Ion Current Data Processing}{60}{subsection.1.A.3.2}%
+\contentsline {subsection}{\numberline {A.3.3}ERMS Data Processing}{60}{subsection.1.A.3.3}%
+\contentsline {subsection}{\numberline {A.3.4}QCM Data Processing}{61}{subsection.1.A.3.4}%
+\contentsline {section}{\numberline {A.4}Uncertainty Analysis}{61}{section.1.A.4}%
+\contentsline {subsection}{\numberline {A.4.1}ERMS Measurements}{61}{subsection.1.A.4.1}%
+\contentsline {subsection}{\numberline {A.4.2}Ion Probe Measurements}{62}{subsection.1.A.4.2}%
+\contentsline {subsection}{\numberline {A.4.3}QCM Measurements}{63}{subsection.1.A.4.3}%
+\contentsline {subsection}{\numberline {A.4.4}Error Propagation in Derived Quantities}{64}{subsection.1.A.4.4}%
+\contentsline {chapter}{\numberline {B}Langmuir Probe Bias Voltage Characterization}{66}{appendix.1.B}%
+\contentsline {section}{\numberline {B.1}Validation of Langmuir Probe Operation}{66}{section.1.B.1}%
+\contentsline {section}{\numberline {B.2}Analysis of the Ion Saturation Curve}{67}{section.1.B.2}%
+\contentsline {section}{\numberline {B.3}Selection of Operating Bias Voltage}{68}{section.1.B.3}%
+\contentsline {section}{\numberline {B.4}Ion Current Variation over Different Pulses}{68}{section.1.B.4}%
+\contentsline {chapter}{\numberline {C}Additional Plots}{70}{appendix.1.C}%
+\contentsline {chapter}{\numberline {D}Python Code and Data Overview}{72}{appendix.1.D}%
+\contentsline {section}{\numberline {D.1}Data Availability}{72}{section.1.D.1}%

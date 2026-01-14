@@ -1044,6 +1044,63 @@
       \verb 10.1109/27.475210
       \endverb
     \endentry
+    \entry{clark1962tial}{article}{}
+      \name{author}{3}{}{%
+        {{hash=13279b34aeb747aeedf893eed9358d59}{%
+           family={Clark},
+           familyi={C\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=be827f0d247dddd1044c66584257982a}{%
+           family={Jepson},
+           familyi={J\bibinitperiod},
+           given={K.\bibnamedelimi S.},
+           giveni={K\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=f94923c47725db388ab97311032eae60}{%
+           family={Lewis},
+           familyi={L\bibinitperiod},
+           given={G.\bibnamedelimi I.},
+           giveni={G\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \strng{namehash}{69a13d3bb456c035023e22ba255a5fec}
+      \strng{fullhash}{69a13d3bb456c035023e22ba255a5fec}
+      \strng{bibnamehash}{69a13d3bb456c035023e22ba255a5fec}
+      \strng{authorbibnamehash}{69a13d3bb456c035023e22ba255a5fec}
+      \strng{authornamehash}{69a13d3bb456c035023e22ba255a5fec}
+      \strng{authorfullhash}{69a13d3bb456c035023e22ba255a5fec}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Institute of Metals}
+      \field{note}{Crystallographic data: ICDD PDF 04-004-9157}
+      \field{title}{A Study of the Titanium-Aluminium System up to 40 At.-\% Aluminium}
+      \field{volume}{91}
+      \field{year}{1962}
+      \field{pages}{197}
+      \range{pages}{1}
+    \endentry
+    \entry{ICDD_TiAlN}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=7f6b3961c7afb83c57a140fa99541a81}{%
+           family={{International Centre for Diffraction Data}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{7f6b3961c7afb83c57a140fa99541a81}
+      \strng{fullhash}{7f6b3961c7afb83c57a140fa99541a81}
+      \strng{bibnamehash}{7f6b3961c7afb83c57a140fa99541a81}
+      \strng{authorbibnamehash}{7f6b3961c7afb83c57a140fa99541a81}
+      \strng{authornamehash}{7f6b3961c7afb83c57a140fa99541a81}
+      \strng{authorfullhash}{7f6b3961c7afb83c57a140fa99541a81}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{PDF Card No. 04-017-5094, ICDD Database}
+      \field{note}{Crystal structure data: Space group Fm$\bar{3}$m (225), $a = 4.202(9)$~Å, calculated density 4.885~g/cm$^3$. Based on X-ray absorption study by Gago et al., J. Appl. Phys. 105 (2009)}
+      \field{title}{Aluminum Titanium Nitride, Ti$_{0.65}$Al$_{0.35}$N}
+      \field{year}{2013}
+    \endentry
     \entry{Miller1968}{article}{}
       \name{author}{2}{}{%
         {{hash=56111ef74ef8258c79e4f0e6e8b25631}{%
@@ -1063,8 +1120,8 @@
       \strng{authorbibnamehash}{5bcc974f5c0a6cded7a8f4bf22f4a922}
       \strng{authornamehash}{5bcc974f5c0a6cded7a8f4bf22f4a922}
       \strng{authorfullhash}{5bcc974f5c0a6cded7a8f4bf22f4a922}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Applied Physics}
@@ -1097,8 +1154,8 @@
       \strng{authorbibnamehash}{416bcf4dfa70cf62bfd4a835153e48b0}
       \strng{authornamehash}{416bcf4dfa70cf62bfd4a835153e48b0}
       \strng{authorfullhash}{416bcf4dfa70cf62bfd4a835153e48b0}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Applied Physics}
@@ -1119,8 +1176,8 @@
       \list{organization}{1}{%
         {INFICON}%
       }
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labeltitlesource}{title}
       \field{note}{PN 074-511-P1E}
       \field{title}{SQM-160 Multi-Film Rate/Thickness Monitor Operating Manual}
@@ -1199,8 +1256,8 @@
       \strng{authorbibnamehash}{13cd2b5c9128bffc38d1f40b64e3f67c}
       \strng{authornamehash}{13cd2b5c9128bffc38d1f40b64e3f67c}
       \strng{authorfullhash}{13cd2b5c9128bffc38d1f40b64e3f67c}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{2nd}

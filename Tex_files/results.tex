@@ -254,13 +254,114 @@ Several competing effects influence the thickness trends. Films 8 and 10 (metall
 
 An apparent inconsistency emerges when comparing films 9 (0.3~Pa, 6000 pulses, 35~nm) and 11 (0.3~Pa, 8000 pulses, 42~nm). The thickness increase from 35 to 42~nm represents only a 20~\% gain for a 33~\% increase in pulses, suggesting either non-linear deposition behavior or position-dependent variations. Additionally, Figure~\ref{fig:pressure_0.25T_mass/ion}a shows that at 14~cm, the mass flux should remain relatively constant across the pressure range (0--0.3~Pa), yet film 9 shows substantially lower thickness than predicted by this trend.\\
 
-\textcolor{red}{[NOTE: Add discussion of apparent inconsistency at 14~cm between Figure~\ref{fig:pressure_0.25T_mass/ion}a trend (constant mass flux vs pressure) and observed film thicknesses. Potential explanations: spatial gradients between QCM/substrate positions, pulse-to-pulse variability (Table~4.1), cathode conditioning effects between runs, nitrogen incorporation affecting $M_{\text{eff}}$.]}
+\textcolor{red}{[NOTE: Add discussion of apparent inconsistency at 14~cm between Figure~\ref{fig:pressure_0.25T_mass/ion}a trend (constant mass flux vs pressure) and observed film thicknesses. Potential explanations: spatial gradients between QCM/substrate positions, pulse-to-pulse variability (Table~4.1).]}
+
+
+\subsection{X-ray Diffraction (XRD)}
+
+X-ray diffraction measurements were performed to characterize the crystallographic structure and phase composition of the deposited films as a function of nitrogen pressure. Figure~\ref{fig:xrd_stacked} shows the stacked diffraction patterns for films deposited at 14~cm distance with 0.25~T magnetic field under varying N$_2$ pressures from 0~Pa (metallic mode) to 0.3~Pa (reactive mode).
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.95\linewidth]{Figures/results 2/XRD_stacked_qcm.png}
+	\caption{Grazing incidence XRD patterns for Ti--Al and Ti--Al--N films deposited at different nitrogen pressures. Films were deposited at 14~cm distance with 0.25~T magnetic field. The intense peaks between 52$^\circ$ and 57$^\circ$ originate from the Si substrate. Vertical dashed lines indicate reference positions for cubic (Ti$_{0.65}$Al$_{0.35}$)N (111), (200), and (220) reflections at 37.0$^\circ$, 43.0$^\circ$, and 62.5$^\circ$ respectively (ICDD PDF 04-017-5094), as well as hexagonal Ti$_{0.7}$Al$_{0.3}$ (002) at 38.8$^\circ$ (ICDD PDF 04-004-9157).}
+	\label{fig:xrd_stacked}
+\end{figure}
+
+
+\subsubsection{Phase Identification}
+
+The diffraction patterns reveal a clear transition from metallic to nitride phases with increasing nitrogen pressure:
 
 
 
-\subsection{XRD}
+\paragraph{Metallic mode (0~Pa N$_2$):}
+At zero nitrogen pressure, the film exhibits a weak, broad peak at approximately 38.8$^\circ$, consistent with the (002) reflection of hexagonal Ti$_{0.7}$Al$_{0.3}$ (space group P6$_3$/mmc, PDF 04-004-9157). This phase forms as a solid solution with the hexagonal close-packed (hcp) structure, characteristic of Ti-rich Ti--Al alloys in the composition range below 40~at.\% Al \cite{clark1962tial}. The low intensity and broad character suggest limited crystallinity or small crystallite size in the metallic film, typical of vapor-deposited alloys without substrate heating. The absence of the stronger (101) reflection expected at 40.9$^\circ$ (I/I$_{\text{max}} = 100\%$ in the reference pattern) further indicates either preferred orientation with the basal (002) planes parallel to the substrate or incomplete crystallization.
+
+\paragraph{Reactive mode (0.1--0.3~Pa N$_2$):}
+Introduction of nitrogen fundamentally alters the film structure. At 0.1~Pa N$_2$, three distinct peaks emerge at approximately 37$^\circ$, 43$^\circ$, and 62$^\circ$, corresponding to the (111), (200), and (220) reflections of the cubic B1 (NaCl-type) (Ti$_{0.65}$Al$_{0.35}$)N phase (space group Fm$\bar{3}$m, PDF 04-017-5094). The appearance of these nitride peaks confirms successful nitrogen incorporation and formation of the metastable cubic structure. Notably, the hexagonal TiAl peak disappears completely, indicating full conversion to the nitride phase rather than coexistence of metallic and nitride domains.\\
+
+As the nitrogen pressure increases to 0.2~Pa and 0.3~Pa, the position precision of all three nitride reflections increases dramatically, indicating improved crystallinity. The (200) peak at 43$^\circ$ is the most prominent reflection, matching the highest relative intensity in the reference pattern (I/I$_{\text{max}} = 1000$) \cite{ICDD_TiAlN}. This suggests that the films develop a random or weakly textured polycrystalline structure as nitrogen pressure increases, approaching the powder diffraction pattern expected for unstressed, randomly oriented crystallites.\\
+
+
+The close agreement between measured and reference peak positions at higher pressures indicates minimal systematic lattice strain. Small deviations in peak position for 0.1 and 0.2~Pa, arise from compositional variations notably less nitrogen incorporation. The reference cubic nitride exhibits a lattice parameter of $a = 4.202$~\AA\ and a calculated density of 4.8~g\,cm$^{-3}$ \cite{ICDD_TiAlN}, which will be compared with the film densities determined by XRR (Section~\ref{sec:XRR}).
+
+\subsubsection{Comparison with Structure-Zone Model}
+
+The XRD results support the predictions of the Anders structure-zone model \cite{anders2010szm} for plasma-based deposition. In metallic mode, the weak and broad (002) reflection places the film in Zone~1, characterized by limited crystallinity and insufficient adatom mobility for well-ordered growth.\\
+
+Upon nitrogen addition, the combination of chemical driving force (nitride formation enthalpy), energetic ion bombardment (Section~\ref{section:ion_energies}), and enhanced flux (Section~\ref{subsec:mag_field}) collectively promote both complete nitridation and crystallization to the thermodynamically stable cubic structure. This shifts the microstructure from Zone~1 (poorly crystalline) to Zone~T or Zone~2 (dense, well-crystallized) even without external substrate heating.
+
+
 \subsection{XRR}
-\subsection{EDX}
 
+
+
+
+
+
+\subsection{Energy dispersive X-ray spectroscopy (EDX)}\label{sec:results_EDX}
+
+Energy dispersive X-ray spectroscopy was performed to determine the elemental composition of the deposited films as a function of nitrogen pressure. All films were deposited at 14~cm distance with a magnetic field of 0.25~T. Three measurement points were taken on each sample and averaged to obtain representative composition values.
+
+
+\begin{table}[h]
+	\centering
+	\caption{EDX film composition (atomic \%) as a function of nitrogen pressure and the resulting effective molar mass of the films (deposited at 14~cm, 0.25~T)}
+	\label{tab:edx}
+	\begin{tabular}{|c|c c c|c|}
+		\hline
+		Nitrogen (Pa) & N (at.\%) & Al (at.\%) & Ti (at.\%) & $M_{\text{eff}}$ (g $\cdot$ mol$^{-1}$) \\ \hline
+		0.0 & 0 & 21 & 79 & 43.5\\ 
+		0.1 & 33 & 17 & 50 & 33.2\\ 
+		0.2 & 38 & 15 & 47 & 31.9\\ 
+		0.3 & 39 & 14 & 47 &31.8\\ \hline
+	\end{tabular}
+\end{table}
+
+The results in Table~\ref{tab:edx} reveal several key trends:
+
+\textbf{Metallic mode (0~Pa):} In vacuum deposition, the film composition reflects the cathode stoichiometry with a Ti:Al ratio of approximately 79:21, which corresponds roughly to the cathode composition (62.8~at.\% Ti; 37.2~at.\% Al). The slight deviation likely arises from differences in erosion rates, ionization efficiencies and transport through the macroparticle filter, between titanium and aluminum. The effective molar mass of 43.5~g$\cdot$mol$^{-1}$ lies between that of pure aluminum (27.0~g$\cdot$mol$^{-1}$) and pure titanium (47.9~g$\cdot$mol$^{-1}$), weighted toward the titanium rich composition.\\
+
+
+\textbf{Reactive mode (0.1--0.3~Pa N$_2$):} Upon nitrogen introduction, substantial nitrogen incorporation occurs, reaching approximately 33~at.\% at 0.1~Pa and saturating near 39~at.\% at higher pressures. This rapid nitrogen uptake at relatively low pressures indicates efficient reactive deposition, consistent with the formation of TiAlN compound films.\\
+
+
+The nitrogen saturation above 0.2~Pa suggests that the arrival rate of activated nitrogen species (N$^+$, N$_2^+$, and neutral radicals) exceeds the available metal flux, leading to approximately stoichiometric nitride formation. The final composition at 0.3~Pa (Ti$_{0.47}$Al$_{0.14}$N$_{0.39}$) is close to the composition of the reference material sheet used for XRD analysis \cite{ICDD_TiAlN} with slight nitrogen deficiency.\\
+
+
+Notably, the Ti:Al ratio decreases from approximately 3.75:1 in metallic mode to approximately 3.4:1 in reactive mode. This shift may reflect preferential sputtering or differential incorporation rates during nitride formation, though the effect is modest compared to the dominant nitrogen incorporation.\\
+
+
+\textbf{Effective molar mass trends:} The incorporation of nitrogen dramatically reduces the effective molar mass from 43.5~g$\cdot$mol$^{-1}$ (metallic mode) to approximately 32~g$\cdot$mol$^{-1}$ (reactive mode). This $\approx$25\% reduction reflects the displacement of heavy metal atoms (Ti: 47.9~g$\cdot$mol$^{-1}$, Al: 27.0~g$\cdot$mol$^{-1}$) by light nitrogen atoms (14.0~g$\cdot$mol$^{-1}$) in the film composition. The molar mass effectively saturates above 0.2~Pa at $M_{\text{eff}} \approx 31.8$~g$\cdot$mol$^{-1}$, consistent with the compositional saturation observed in the nitrogen content.
+
+The effective molar mass is calculated from the atomic fractions $x_i$ and atomic masses $M_i$ according to:
+\begin{equation}
+	M_{\text{eff}} = \sum_i x_i M_i = x_{\text{Ti}} \cdot 47.867 + x_{\text{Al}} \cdot 26.982 + x_{\text{N}} \cdot 14.007
+\end{equation}
+where the atomic fractions sum to unity ($x_{\text{Ti}} + x_{\text{Al}} + x_{\text{N}} = 1$).
+
+\subsection{Scanning Electron Microscopy (SEM)}\label{sec:result_sem}
+
+Scanning electron microscopy was performed to examine the surface morphology of selected TiAl and TiAlN films. Figure~\ref{fig:sem_figures} shows representative images for films deposited under different conditions.\\
+
+
+\begin{figure}[h]
+	\centering
+	\subcaptionbox{Metallic film (0~Pa)\label{fig:sem_metallic}}{\includegraphics[width=0.48\textwidth]{Figures/results 2/251209_TiAlN10_01.png}}
+	\subcaptionbox{Macroparticle detail\label{fig:sem_macro}}{\includegraphics[width=0.48\textwidth]{Figures/results 2/251209_TiAlN11_09.png}}
+	\subcaptionbox{Reactive film (0.3~Pa)\label{fig:sem_reactive}}{\includegraphics[width=0.48\textwidth]{Figures/results 2/251209_TiAlN13_05.png}}
+	\caption{SEM surface morphology of deposited films at 14~cm distance, 0.25~T magnetic field: (a) metallic TiAl film showing surface swelling features and scattered macroparticles (10,000$\times$, 1~$\mu$m scale), (b) higher magnification view of an individual macroparticle on a reactive TiAlN film (50,000$\times$, 200~nm scale), (c) reactive TiAlN film with characteristic splash patterns from macroparticle impacts (10,000$\times$, 1~$\mu$m scale).}
+	\label{fig:sem_figures}
+\end{figure}
+
+The metallic TiAl film [Fig.~\ref{fig:sem_figures}(a)] exhibits localized surface swelling features, likely resulting from stress relaxation induced by energetic ion bombardment ($E_{\text{tot}} \approx 60$~eV). Scattered macroparticles are visible as bright spots across the surface, consistent with typical cathodic arc deposition despite magnetic filtering.\\
+
+The high-magnification image [Fig.~\ref{fig:sem_figures}(b)] shows a direct comparison between secondary electron imaging (left, sensitive to topography) and backscattered electron imaging (right, sensitive to atomic number contrast) of the same macroparticle on a TiAlN film. The absence of compositional contrast in the BSE image confirms that the macroparticle has the same elemental composition as the surrounding film, indicating it originated from molten cathode material rather than external contamination.\\
+
+The reactive TiAlN film [Fig.~\ref{fig:sem_figures}(c)] macroparticle are present, but lower quantities than for the metallic case. The overall surface remains relatively smooth between defects, with no evidence of large-scale roughening or columnar grain boundaries at this magnification.\\
+
+
+These observations confirm that the magnetic macroparticle filter effectively reduces but does not completely eliminate macroparticle contamination, consistent with the filtered cathodic arc deposition process described in Section~\ref{chap:methods}.
 
 \section{Fluxes}\label{sec:flux}
