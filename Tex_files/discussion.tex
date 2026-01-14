@@ -25,17 +25,22 @@ Ion current also decreases with distance but more steeply than $1/r^2$ in reacti
 
 \subsection{Charge-Exchange Collisions and Neutral Formation}
 
-The dramatic pressure-dependent reduction in ion current (Figure~\ref{fig:distance_0.25T_mass/ion}b) occurs through charge-exchange collisions, in which fast metal ions transfer electrons to slow nitrogen molecules:
+The pressure dependence of ion current exhibits complex behavior at close distances (Figure~\ref{fig:pressure_0.25T_mass/ion}b). At 10~cm, the ion current initially increases from 0 to approximately 0.05~Pa before decreasing at higher pressures. This non-monotonic behavior reflects two competing mechanisms operating in different pressure regimes.
+
+At low nitrogen pressures (0--0.1~Pa), the initial increase may result from enhanced plasma generation at the cathode. Nitrogen incorporation into the cathode surface can alter spot dynamics, potentially increasing the erosion rate and metal ion production. Simultaneously, ion molecule reactions begin to produce nitrogen ions (N$^+$, N$_2^+$) that contribute to the total measured probe current.
+
+At higher pressures (above 0.1~Pa), charge exchange collisions dominate, reducing the metal ion contribution to the measured current:
 \begin{align}
 	\text{Ti}^{2+} + \text{N}_2 &\rightarrow \text{Ti}^{+} + \text{N}_2^{+} \\
 	\text{Ti}^{+} + \text{N}_2 &\rightarrow \text{Ti}^{0} + \text{N}_2^{+}
 \end{align}
 
-The resulting fast neutral metal atoms are invisible to the biased probe, leading to an apparent reduction in measured current even though the total metal flux remains substantial, as evidenced by QCM measurements (Figure~\ref{fig:distance_0.25T_mass/ion}a). The charge-exchange cross section increases with collision energy and is largest for highly ionized species \cite[Chap.~9.4]{cathodic_arcs}, explaining why the effect is most pronounced at short distances where metal ion energies are highest.
+The resulting fast neutral metal atoms are invisible to the biased probe, leading to apparent current reduction even though total metal flux (measured by QCM) remains substantial. The charge-exchange cross section increases with collision energy and is largest for highly ionized species \cite[Chap.~9.4]{cathodic_arcs}.\\
 
-ERMS measurements confirm this mechanism: mean charge states decrease from $\langle Q \rangle \approx 2.3$ (metallic) to $\langle Q \rangle \approx 1.4$ (0.3~Pa reactive), with the charge-state distribution shifting toward lower ionization levels (Figures~\ref{fig:ERMS_distance0Pa} and \ref{fig:ERMS_distance0.3Pa}). Potential energy decreases proportionally with charge state, while kinetic energy shows modest variations reflecting the competing effects of elastic scattering and cathode spot chemistry changes \cite{bendikt2012}.
+ERMS measurements confirm this mechanism: average mean charge states decrease from $\langle Q \rangle \approx 2.4$ (metallic) to $\langle Q \rangle \approx 1.6$ (0.3~Pa reactive), with the charge-state distribution shifting toward lower ionization levels (Figures~\ref{fig:ERMS_distance0Pa} and \ref{fig:ERMS_distance0.3Pa}). Potential energy decreases proportionally with charge state, while kinetic energy shows modest variations reflecting the competing effects of elastic scattering and cathode chemistry changes \cite{bendikt2012}.\\
 
-Additionally, nitrogen ions (N$^+$, N$_2^+$) contribute less current per particle than multiply charged metal ions because their charge states are predominantly 1+. A probe measuring 10~mA of Ti$^{2+}$ current corresponds to $3.2 \times 10^{16}$~ions$\cdot$s$^{-1}$, while the same 10~mA of N$^+$ represents $6.4 \times 10^{16}$~ions$\cdot$s$^{-1}$. This explains part of the apparent current reduction when nitrogen ions displace metal ions in the plasma composition.
+Additionally, nitrogen ions (N$^+$, N$_2^+$) contribute less current per particle than multiply charged metal ions because their charge states are predominantly 1+. A probe measuring 10~mA of Ti$^{2+}$ current corresponds to $3 \times 10^{16}$~ions$\cdot$s$^{-1}$, while the same 10~mA of N$^+$ represents $6 \times 10^{16}$~ions$\cdot$s$^{-1}$. This explains part of the apparent current reduction when nitrogen ions displace metal ions in the plasma composition.
+
 
 \subsection{Cathode Poisoning and Spot Transitions}
 
