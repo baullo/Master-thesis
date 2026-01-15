@@ -28,7 +28,7 @@ where $L = 0.02$~m is the solenoid length, $N = 5$ is the number of turns, $\mu_
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.85\textwidth]{"Figures/experimental methods/Pulse waveform"}
-	\caption{Example pulse waveforms showing the arc current (red) and EM-coil current (black) as functions of time. The orange dashed lines indicate the trigger timing: (a) EM-coil trigger at $t = -0.2$~ms, (b) arc trigger at $t = 0$~ms. The waveforms shown are pulses at 250~V EM-coil input voltage. Distance: 10~cm, pressure: 0~Pa, magnetic field: 0.25~T.}
+	\caption[[Pulse waveforms for arc and EM-coil]]{Example pulse waveforms showing the arc current (red) and EM-coil current (black) as functions of time. The orange dashed lines indicate the trigger timing: (a) EM-coil trigger at $t = -0.2$~ms, (b) arc trigger at $t = 0$~ms. The waveforms shown are pulses at 250~V EM-coil input voltage. Distance: 10~cm, pressure: 0~Pa, magnetic field: 0.25~T.}
 		\label{fig:pulse-waveform}
 \end{figure}
 
@@ -159,7 +159,7 @@ The vacuum chamber setup for cathodic arc plasma diagnostics and thin film depos
 \end{circuitikz}
 }%
 
-\caption{Schematic of the vacuum chamber setup for cathodic arc plasma diagnostics and thin film deposition. (a) Arc power supply, (b) EM-coil power supply, (c) Langmuir probe and QCM, (d) energy-resolving mass spectrometer (ERMS). The delay generator (a–d) synchronizes the arc power supply, EM-coil activation, and diagnostic tools.}
+\caption[[Vacuum chamber setup with diagnostics]]{Schematic of the vacuum chamber setup for cathodic arc plasma diagnostics and thin film deposition. (a) Arc power supply, (b) EM-coil power supply, (c) Langmuir probe and QCM, (d) energy-resolving mass spectrometer (ERMS). The delay generator (a–d) synchronizes the arc power supply, EM-coil activation, and diagnostic tools.}
 
 
 \label{fig:vacuumchamber}
@@ -182,7 +182,7 @@ electrical insulation from the aluminum mounting assembly
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=0.7\textwidth]{"Figures/experimental methods/langmuirprobe"}
-	\caption{In-house built ion collector probe wrapped in Kapton tape for electrical insulation from the aluminum assembly holder. The probe includes an attachment point for a screw terminal connector, enabling connection to the ion probe circuit.}
+	\caption[Ion collector probe construction]{In-house built ion collector probe wrapped in Kapton tape for electrical insulation from the aluminum assembly holder. The probe includes an attachment point for a screw terminal connector, enabling connection to the ion probe circuit.}
 	\label{fig:langmuirprobe}
 \end{figure}
 
@@ -239,7 +239,7 @@ characterization measurements (Section~\ref{sec:bias_characterization}).
 			
 		\end{circuitikz}
 	}%
-	\caption{Schematic of the ion-flux probe circuit. The $\SI{400}{\ohm}$ resistor converts ion current to voltage, while the $\SI{0.5}{\micro F}$ capacitor and $\SI{400}{\ohm}$ resistor form a high-pass filter with a $\SI{795}{Hz}$ cutoff.}
+	\caption[Ion probe circuit diagram]{Schematic of the ion-flux probe circuit. The $\SI{400}{\ohm}$ resistor converts ion current to voltage, while the $\SI{0.5}{\micro F}$ capacitor and $\SI{400}{\ohm}$ resistor form a high-pass filter with a $\SI{795}{Hz}$ cutoff.}
 	\label{fig:probe_circuit}
 \end{figure}
 
@@ -262,7 +262,7 @@ measurements. The bias supply line incorporates a 22~nF capacitor and
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.7\linewidth]{Figures/experimental methods/ion_probe_voltage}
-	\caption{Example voltage waveform measured across the 400~$\Omega$ resistor 
+	\caption[Voltage waveform across the shunt resistor]{Example voltage waveform measured across the 400~$\Omega$ resistor 
 		during a single arc pulse. The signal shows transients at pulse ignition 
 		(0~ms) and termination (1~ms), with gradual decay during the pulse due to 
 		the high-pass filter characteristics.}
@@ -291,7 +291,7 @@ A quartz crystal microbalance (QCM) was used to measure the deposited mass durin
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.7\linewidth]{Figures/experimental methods/QCM_head.png}
-    \caption{Sensor head of the INFICON Cool Drawer\texttrademark{} Quartz Crystal Microbalance (QCM) used for in-situ mass operation monitoring during cathodic arc sputtering. The assembly includes a water-cooled housing, a 14~mm diameter AT-cut quartz crystal (6~MHz), and electrode leads for connection to the SQM-160 controller. (Schematic adapted from INFICON STP file, available at \url{https://www.inficon.com/en/products/thin-film-technology/cool-drawer-single-sensor}).}
+    \caption[QCM sensor assembly]{Sensor head of the INFICON Cool Drawer\texttrademark{} Quartz Crystal Microbalance (QCM) used for in-situ mass operation monitoring during cathodic arc sputtering. The assembly includes a water-cooled housing, a 14~mm diameter AT-cut quartz crystal (6~MHz), and electrode leads for connection to the SQM-160 controller. (Schematic adapted from INFICON STP file, available at \url{https://www.inficon.com/en/products/thin-film-technology/cool-drawer-single-sensor}).}
     \label{fig:QCM_sensor_head}
 \end{figure}
 
@@ -348,7 +348,7 @@ To reduce interference from the arc's magnetic field, the ERMS was equipped with
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.9\linewidth]{"Figures/experimental methods/hiden eqp"}
-	\caption{ERMS, Hiden EQP HE 1000: (1) Sampling Orifice, (2) Electron Impact Ion Source, (3) Transfer Ion Optics, (4) Quadrupole Lens, (5) Energy Filter, (6) Decelerating Lens, (7) Quadrupole Mass Filter, (8) Detector, (9) Differential Pump Port \cite{hidenanalytical}}
+	\caption[ERMS schematic diagram]{ERMS, Hiden EQP HE 1000: (1) Sampling Orifice, (2) Electron Impact Ion Source, (3) Transfer Ion Optics, (4) Quadrupole Lens, (5) Energy Filter, (6) Decelerating Lens, (7) Quadrupole Mass Filter, (8) Detector, (9) Differential Pump Port \cite{hidenanalytical}}
 	\label{fig:hiden-eqp}
 \end{figure}
 
@@ -357,7 +357,7 @@ IEDFs were measured using a double-trigger acquisition scheme synchronized with 
 
 \begin{table}[h]
 	\centering
-	\caption{Mass-to-charge ratios measured for each ion species and charge state.}
+	\caption[Mass-to-charge ratios for ion species]{Mass-to-charge ratios measured for each ion species and charge state.}
 	\label{tab:mq_ratios}
 	\begin{tabular}{c|cccc|}
 		\cline{2-5}
@@ -417,7 +417,7 @@ Due to the small film thickness, out-of-plane diffraction techniques were used t
 \begin{figure}
 	\centering
 	\includegraphics[width=0.75\linewidth]{"Figures/experimental methods/xrd_in+outofplae"}
-	\caption{Schematic of out-of-plane diffraction geometries: symmetrical reflection (left) and asymmetrical reflection (right) for thin film analysis. Taken from \cite{mitsunaga2009}.}
+	\caption[Schematic of diffraction geometries for XRD]{Schematic of out-of-plane diffraction geometries: symmetrical reflection (left) and asymmetrical reflection (right) for thin film analysis. Taken from \cite{mitsunaga2009}.}
 	\label{fig:xrdinoutofplane}
 \end{figure}
 
@@ -446,7 +446,7 @@ where $\lambda$ is the X-ray wavelength and $\Delta\theta$ is the angular spacin
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\linewidth]{Figures/experimental methods/XRR SAMPLE.png}
-	\caption{Example XRR measurement and fit for a TiAlN thin film deposited on Si substrate. The oscillations (Kiessig fringes) arise from interference between reflections from the film surface and the film-substrate interface.}
+	\caption[Example XRR measurement and fit]{Example XRR measurement and fit for a TiAlN thin film deposited on Si substrate. The oscillations (Kiessig fringes) arise from interference between reflections from the film surface and the film-substrate interface.}
 	\label{fig:xrr_fit}
 \end{figure}
 
@@ -483,7 +483,7 @@ Representative SEM micrographs and analysis of surface features are presented in
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.6\linewidth]{Figures/experimental methods/SEM_chamber.jpg}
-	\caption{Interior view of the SEM sample chamber showing the sample holder stage and detector configuration used for imaging and EDX analysis.}
+	\caption[Interior view of the SEM sample chamber]{Interior view of the SEM sample chamber showing the sample holder stage and detector configuration used for imaging and EDX analysis.}
 	\label{fig:SEM_chamber}
 \end{figure}
 
