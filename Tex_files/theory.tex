@@ -4,7 +4,7 @@
 
 \subsection{Cathode Spot Plasma Generation}
 
-Cathodic arc plasmas form at microscopic emission centers, known as cathode spots, on an otherwise cold metal electrode under vacuum. Spot ignition occurs when the local cathode surface, through breakdown of adsorbates or field-enhanced thermionic emission, undergoes a rapid, explosive release of electrons and vaporized metal. During a single spot pulse, a few nanograms of the cathode material rapidly heat up, vaporize, and ionize, producing a dense, quasineutral plasma plume composed mostly of metal ions and electrons. The peak spot current densities reach \(10^{10}\)--\(10^{12}\)\,A\,m\(^{-2}\), far above steady-state thermionic or field emission limits. These microexplosions, termed ectons (explosive electron emission centers), were first described by Mesyats \cite{mesyats1995} and produce localized nanosecond-scale plasma bursts. The arc is sustained by repetitive ecton events occurring at or near the same location \cite[Chap.~3.3--3.4]{cathodic_arcs}.
+Cathodic arc plasmas form at microscopic emission centers, known as cathode spots, on an otherwise cold metal electrode under vacuum. Spot ignition occurs when the local cathode surface, through breakdown of adsorbates or field-enhanced thermionic emission, undergoes a rapid, explosive release of electrons and vaporized metal. During a single spot pulse, a few nanograms of the cathode material rapidly heat up, vaporize, and ionize, producing a dense, quasineutral plasma plume composed mostly of metal ions and electrons. The peak spot current densities reach \(10^{10}\)--\(10^{12}\)\,A\,m\(^{-2}\), far above steady-state thermionic or field emission limits. These microexplosions, termed ectons (explosive electron emission centers), were first described by Mesyats \cite{mesyats1995} and produce localized nanosecond-scale plasma bursts. The arc is sustained by repetitive ecton events occurring at or near the same location \cite[Chap.~3.3--3.4]{cathodic_arcs}.\\
 
 
 
@@ -12,7 +12,8 @@ Cathodic arc plasmas form at microscopic emission centers, known as cathode spot
 Key Characteristics of Spot-Generated Plasma:
 \begin{compactitem}
     \item High degree of ionization: >90 \% of the ejected metal atoms emerge as ions, a consequence of the extreme power density in the cathode spot \cite[Chap.~3.5]{cathodic_arcs}.
-    \item Multiply charged ions: the charge state distributions extend to \(Q=3\)–4 for refractory metals, such as Ti and Al, due to the high electron temperature and density in the spot plasma \cite[Chap.~3.5]{cathodic_arcs}.
+    \item Multiply charged ions: the charge state distributions extend to \(Q=3\)–4 for refractory metals, such as Ti and Al, due to the high electron temperature and density in the spot plasma \cite[Chap.~3.5]{cathodic_arcs}.\\
+    
 \end{compactitem}
 
 Spot ignition and quenching occur on timescales of 10--100\,ns, with each pulse ejecting a fully ionized burst of metal vapour. The sustained arc discharge thus consists of continuously overlapping microplasma pulses, producing a metal-rich, high-flux ion stream well-suited for energetic thin-film deposition.
@@ -24,12 +25,12 @@ Spot ignition and quenching occur on timescales of 10--100\,ns, with each pulse 
 		% Cathode block
 		\fill[gray!60] (-3,-1.1) rectangle (3,0);
 		\draw[thick] (-3,0) -- (3,0);
-		\node[below] at (-1.5,0) {Cathode};
+		\node[below] at (-2.25,-0.5) {Cathode};
 		
 		% Molten crater
 		\fill[orange!70] (-0.22,0) arc (180:360:0.22) -- cycle;
 		\fill[red!80] (-0.15,0) arc (180:360:0.15 and 0.1) -- (0.15,0) -- (0.05,0.15) -- (0,0.45) -- (-0.05,0.15) -- (-0.15,0) -- cycle;
-		\node[below right, font=\small] at (0.4,0) {Molten crater};
+		\node[below right, font=\small] at (0.3,0) {Molten crater};
 		
 		% Plasma plume (expanding cone)
 		\fill[blue!20, opacity=0.6] (0,0) -- (-1.5,3.5) -- (1.5,3.5) -- cycle;
@@ -55,7 +56,7 @@ Spot ignition and quenching occur on timescales of 10--100\,ns, with each pulse 
 		\draw[->, thick, orange!80] (0.5,0.3) -- (1.8,1.5);
 		\fill[orange!80] (1,1.2) circle (0.08);
 		\draw[->, thick, orange!80] (1,1.2) -- (2,3.2);
-		\node[orange!80, right, font=\small] at (2.0,1.0) {Macroparticles};
+		\node[orange!80, right, font=\small] at (1.25,0.75) {Macroparticles};
 		
 		% Current flow arrow
 		\draw[->, very thick] (-2.5,0.5) -- (-2.5,-0.3);
@@ -91,9 +92,9 @@ In the region near the cathode (within a few centimetres of the spot), plasma de
 \begin{equation}
 	n(r) = \frac{C\,I_{\rm arc}}{r^2}
 \end{equation}
-where \(I_{\rm arc}\) is the arc current, $r$ the distance, and $C$ a constant related to the ion erosion rate of the cathode material. This \(1/r^2\) scaling assumes free expansion, but deviations can occur due to magnetic fields, collisions, or reactive gases, which may alter the plasma trajectory or cause recombination \cite[Chap.~4.3; Eq.~4.3, p.~178]{cathodic_arcs}.
+where \(I_{\rm arc}\) is the arc current, $r$ the distance, and $C$ a constant related to the ion erosion rate of the cathode material. This \(1/r^2\) scaling assumes free expansion, but deviations can occur due to magnetic fields, collisions, or reactive gases, which may alter the plasma trajectory or cause recombination \cite[Chap.~4.3; Eq.~4.3, p.~178]{cathodic_arcs}.\\
 
-In cathodic arc discharges from titanium cathodes, whether pure Ti or Ti--Al compounds, ions generally carry an average charge state \(\langle Q\rangle \approx 2.1\)--2.2 at the source \cite[Chap.~4.1; App.~B.8]{cathodic_arcs}. This high degree of ionization reflects the extreme power density of the spot and follows the cohesive energy rule, which links \(\langle Q\rangle\) to the cohesive energy of the cathode material \cite[App.~B.8]{cathodic_arcs}.
+In cathodic arc discharges from titanium cathodes, whether pure Ti or Ti--Al compounds, ions generally carry an average charge state \(\langle Q\rangle \approx 2.1\)--2.2 at the source \cite[Chap.~4.1; App.~B.8]{cathodic_arcs}. This high degree of ionization reflects the extreme power density of the spot and follows the cohesive energy rule, which links \(\langle Q\rangle\) to the cohesive energy of the cathode material \cite[App.~B.8]{cathodic_arcs}.\\
 
 In the present work, a 90$^\circ$ curved magnetic filter guides the expanding plasma toward the substrate region while removing macroparticles. After passing through the filter, the plasma has evolved from its initial state at the cathode spot, having undergone expansion, potential collisions with background gas, and interaction with guiding magnetic fields. The properties of this filtered plasma in the substrate region determine the energy and flux delivered to the growing film, and are the focus of the following sections.
 
