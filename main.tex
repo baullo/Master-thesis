@@ -90,10 +90,10 @@ indention=0.5cm
 \begin{document}
 
 \input{Tex_files/titlepage.tex}
-\newpage
 \tableofcontents
 \listoffigures
-\listoftables
+\vspace{2cm}  % Adjust spacing as needed
+{\let\cleardoublepage\relax \let\clearpage\relax \listoftables}
 
 \input{Tex_files/introduction.tex}
 \input{Tex_files/theory.tex}

@@ -9,15 +9,15 @@ This chapter describes the experimental apparatus, diagnostic techniques, and da
 \subsection{Vacuum \& Gas Infrastructure}
 
 The vacuum chamber was evacuated using a two-stage pumping system consisting of a dry rotor vacuum pump (Leybold ECODRY+) for roughing and a cryogenic pump (Leybold COOLVAC) for the main pumping line, achieving a base pressure on the order of $1 \times 10^{-5}$~Pa with the cryopump fully open. To control the working pressure during reactive deposition, the cryopump gate valve was partially closed to position 345 (approximately 34.5\% open), which reduced the effective pumping speed and increased the base pressure to approximately $1 \times 10^{-4}$~Pa. This configuration allowed finer control of the nitrogen partial pressure.\\
-Nitrogen gas (N$_2$, 99.999\% purity) was introduced via a mass flow controller \textcolor{red}{(MKS [MODEL NUMBER]}), with chamber pressures monitored using a \textcolor{red}{[GAUGE MODEL]}. The nitrogen flow rate of 1 to 12.8 ccms leads to chamber pressure ranges between 0.025 and 0.3 Pa.
+Nitrogen gas (N$_2$, 99.999\% purity) was introduced via a mass flow controller (MKS IO Type B), with chamber pressures monitored using a Pfeiffer PKR 361. The nitrogen flow rate of 1 to 12.8 ccms leads to chamber pressure ranges between 0.025 and 0.3 Pa.\\
 
 Plasma was generated using a water-cooled cylindrical anode and a rod cathode with composition 75~wt.\% Ti; 25~wt.\% Al (corresponding to 62.8~at.\% Ti; 37.2~at.\% Al). The cathode had a diameter of 6.35~mm and length of 38.1~mm. The expanding plasma was guided through a 90$^\circ$ curved magnetic macroparticle filter connected in series with the arc power supply, which simultaneously powered both the arc and the filter coils.
 
 \subsection{Power Circuits and Arc Operation}
 
-The arc power supply \textcolor{red}{([MODEL])} operated in pulsed DC mode, delivering arc currents up to 450~A at pulse frequencies ranging from 0.2 to 5~Hz, with a typical pulse width of 1~ms. The arc current was monitored using a \textcolor{red}{[CURRENT PROBE MODEL]} connected to a Tektronix MSO64 oscilloscope. The cathode voltage relative to ground and anode voltage relative to ground were measured on additional channels to determine the burning voltage during the pulse.\\
+The arc power supply (Melec SPIK3000A) operated in pulsed DC mode, delivering arc currents up to 450~A at pulse frequencies ranging from 0.2 to 5~Hz, with a typical pulse width of 1~ms. The arc current was monitored using a Chauvin Arnoux MA200 connected to a Tektronix MSO64 oscilloscope. The cathode voltage relative to ground and anode voltage relative to ground were measured on additional channels to determine the burning voltage during the pulse.\\
 
-A coil wound around the cylindrical anode (EM-coil) was used to enhance the ion charge states leaving the source through magnetic confinement. This coil was connected to a separate pulsing unit ([MODEL]) capable of delivering currents up to 850~A. The EM-coil was triggered 200~$\mu$s before arc ignition to ensure the magnetic field reached steady-state conditions before plasma generation. The coil current was monitored using a \textcolor{red}{[CURRENT PROBE MODEL]}, and the pulse duration was offset with 200~$\mu$s to stabilize the magnetic field before and during the arc pulse.\\
+A coil wound around the cylindrical anode (EM-coil) was used to enhance the ion charge states leaving the source through magnetic confinement. This coil was connected to a separate pulsing unit ([MODEL]) capable of delivering currents up to 850~A. The EM-coil was triggered 200~$\mu$s before arc ignition to ensure the magnetic field reached steady-state conditions before plasma generation. The coil current was monitored using another Chauvin Arnoux MA200, and the pulse duration was offset with 200~$\mu$s to stabilize the magnetic field before and during the arc pulse.\\
 
 The magnetic field strength within the EM-coil solenoid was estimated using:
 \begin{equation}
@@ -42,7 +42,7 @@ A delay generator (Stanford Research Systems DG645) served as the master clock f
 \end{itemize}
 
 
-The oscilloscope was triggered on the \textcolor{red}{is it actually} falling edge of the cathode voltage (channel 1), which marks the onset of the arc pulse. Channels 1 and 2 of the oscilloscope measured the cathode-to-ground voltage and anode-to-ground voltage, respectively. Channels 3 and 4 recorded the arc current and EM-coil current via current probes. The ion current was recorded separately, more on that in Section~\ref{sec:langmuir_probe}.\\
+The oscilloscope was triggered on the rising edge of the cathode voltage (channel 1), which marks the onset of the arc pulse. Channels 1 and 2 of the oscilloscope measured the cathode-to-ground voltage and anode-to-ground voltage, respectively. Channels 3 and 4 recorded the arc current and EM-coil current via current probes. The ion current was recorded separately, more on that in Section~\ref{sec:langmuir_probe}.\\
 
 The ion current probe and quartz crystal microbalance (QCM) were not triggered by the delay generator. The ion probe signal was recorded directly by the oscilloscope (triggered on the cathode voltage), automatically synchronizing ion current measurements with the arc pulses. The QCM operated continuously, with frequency measurements recorded before and after each deposition run to determine the accumulated mass change over a fixed number of pulses.
 
@@ -396,7 +396,7 @@ Stylus profilometry was used to measure film thickness by mechanically tracing t
 
 In profilometry, a stylus with a small tip radius is dragged across the sample surface with a controlled force of 3~mg while its vertical displacement is monitored electromagnetically. The resulting trace provides a profile of the surface from which the step height (film thickness) with vertical resolution down to $\sim$ 1~nm can be extracted.\\
 
-%The Dektak stylus profilometer used in this study has a measurement range from 6.5~nm to 800~$\mu$m with repeatability of 0.4~nm. For thickness measurements, silicon substrates were partially masked with a marker line, which created a well-defined step edge during deposition. This marker line was subsequently removed with Isopropanol in a ultrasonic bath. Multiple scans across each step were performed to ensure reproducibility, and the average thickness was calculated from at least three different positions on each sample.\\
+The Bruker DektakXT stylus profilometer used in this study. For thickness measurements, silicon substrates were partially masked with a marker line, which created a well-defined step edge during deposition. This marker line was subsequently removed with Isopropanol in a ultrasonic bath. Multiple scans across each step were performed to ensure reproducibility, and the average thickness was calculated from at least three different positions on each sample.
 
 
 %One limitation of contact profilometry is the potential for stylus-induced damage on very soft films, though this was not a concern for the hard TiAlN coatings investigated here. The technique is complementary to XRR, with profilometry providing rapid, direct thickness measurements while XRR offers higher accuracy for very thin films and additional information on density and roughness \cite{windover1999}.
