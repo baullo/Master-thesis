@@ -19,7 +19,13 @@
 % GRAPHICS & FIGURES
 %==============================================================================
 \usepackage{graphicx}
-\usepackage{caption, subcaption}
+\usepackage[
+labelfont={bf,sf},  
+labelsep=period,
+justification=justified,
+indention=0.5cm
+]{caption}
+\usepackage{subcaption}
 \usepackage{float}
 \usepackage[dvipsnames, table]{xcolor}
 \usepackage{circuitikz}
@@ -84,6 +90,7 @@
 \begin{document}
 
 \input{Tex_files/titlepage.tex}
+\newpage
 \tableofcontents
 \listoffigures
 \listoftables

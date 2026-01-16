@@ -1,4 +1,4 @@
-\chapter{Discussion of Results}\label{chap:discussion}
+\chapter{Discussion of Results and Outlook}\label{chap:discussion}
 
 This chapter interprets the experimental findings presented in Chapter~\ref{chap:results} and connects them to the theoretical framework established in Chapter~\ref{chap:theory}. The discussion is organized around three central themes: plasma transport and composition, film growth mechanisms, and the correlation between plasma parameters and film properties. Measurement limitations and comparison with previous (V,Al)N work are addressed in the final sections.
 
@@ -60,13 +60,13 @@ The quantitative relationship between ion flux measurements and atomic flux calc
 
 \subsection{Energetic Condensation and Room-Temperature Crystallization}
 
-ERMS measurements confirm that total ion energies ($E_{\text{kin}} + E_{\text{pot}}$) remain above 30~eV across all experimental conditions (Figures~\ref{fig:ERMS_distance0Pa} and \ref{fig:ERMS_distance0.3Pa}), well above the threshold for subplantation-driven densification \cite[Chap.~8.1]{cathodic_arcs}. In metallic mode, total energies reach 60--80~eV, while in reactive mode they remain in the 30--50~eV range despite charge-exchange reduction of potential energy.\\
+ERMS measurements confirm that total ion energies ($E_{\text{kin}} + E_{\text{pot}}$) remain above 30~eV across all experimental conditions (Figures~\ref{fig:ERMS_distance0Pa} and \ref{fig:ERMS_distance0.3Pa}), well above the threshold for subplantation driven densification \cite[Chap.~8.1]{cathodic_arcs}. In metallic mode, total energies reach 60--80~eV, while in reactive mode they remain in the 30--50~eV range despite charge-exchange reduction of potential energy. \textcolor{red}{For the metallic case this high enegies can even lead to etching effects on the films. (maybe if we confirm it, else remove sentence)}\\
 
 This energetic condensation enables room temperature film growth through two mechanisms: (1) shallow implantation of ions below the surface, occupying interstitial sites and displacing near-surface atoms through knock-on collisions and (2) localized atomic-scale heating from kinetic and potential energy deposition, enhancing adatom mobility on nanosecond timescales without global substrate heating \cite[Chap.~8.2]{cathodic_arcs}.\\
 
 XRD results validate this mechanism. In metallic mode without nitrogen, films exhibit weak and broad diffraction (Figure~\ref{fig:xrd_stacked}, 0~Pa), consistent with limited crystallinity despite energetic ion bombardment. The low intensity and broad peak width suggest small crystallite size or incomplete crystallization, typical of vapor deposited alloys without substrate heating \cite{thornton1977}. The absence of the expected (101) reflection indicates either strong (002) texture or predominantly amorphous structure with small hexagonal domains.\\
 
-In reactive mode, nitrogen incorporation fundamentally alters film growth. The appearance of sharp cubic TiAlN peaks at 0.1~Pa and their continued sharpening at higher pressures reflects progressive crystallization driven by the chemical driving force for nitride formation (formation enthalpy approximately -200~kJ/mol for TiN and AlN \cite{paldey2003}) combined with energetic ion bombardment. The complete disappearance of the hexagonal TiAl peak indicates full conversion rather than phase coexistence.
+In reactive mode, nitrogen incorporation fundamentally alters film growth. The appearance of sharp cubic TiAlN peaks at 0.1~Pa and their continued sharpening at higher pressures reflects progressive crystallization driven by the chemical driving force for nitride formation combined with energetic ion bombardment. The complete disappearance of the hexagonal TiAl peak indicates full conversion rather than phase coexistence.
 
 \subsection{Composition and Stoichiometry}
 
@@ -74,4 +74,30 @@ EDX measurements show systematic deviations from cathode stoichiometry. In metal
 
 In reactive mode, the Ti:Al ratio shifts to 3.4:1, closer to the cathode composition. This suggests that nitrogen incorporation alters the emission process, possibly through cathode poisoning that reduces overall erosion rates and equalizes Ti/Al emission. The nitrogen saturation at 39~at.\% (0.2--0.3~Pa) is close to stoichiometric (Ti$_x$,Al$_{1-x}$)N (50~at.\% N), with the deficiency attributable to a multitude of factors.
 
+\subsection{Spatial Film Thickness Gradient}
+
+XRR measurements reveal a systematic 5--8.5~nm thickness difference between the QCM and ion current probe positions (Table~\ref{tab:xrr_results}), consistent with profilometry observations. This gradient arises primarily from the plasma transport through the curved macroparticle filter rather than the initial cathode spot emission. While the cathode spot generates plasma with a cosine-like angular distribution normal to the cathode surface \cite{boxman1992,cathodic_arcs}, the subsequent passage through the 90$^\circ$ magnetic filter fundamentally reshapes the spatial distribution of the plasma beam exiting toward the substrate region \cite{boxman1992,anders1999filter}.\\
+
+The magnetic filter acts as a plasma optical system, guiding electrons along curved magnetic field lines while ions follow electrostatically to maintain quasineutrality \cite{anders1999filter}. The plasma transport efficiency through curved filters depends sensitively on the magnetic field geometry, filter duct dimensions, and the charge-to-mass ratio of the plasma species \cite{boxman1996}. Different ion species and neutrals may follow slightly different trajectories through the filter, leading to spatial variations in composition and flux at the substrate plane. Additionally, collisions with background gas can alter ion trajectories within the filter, though this effect appears minimal here since the gradient remains consistent across all nitrogen pressures (0--0.3~Pa).\\
+
+At the experimental pressures employed, the mean free path for elastic collisions ($\lambda \sim 1$--10~cm) is comparable to or larger than the substrate dimensions, so gas-phase scattering between the filter exit and substrate produces some broadening but does not fundamentally alter the flux distribution established by the filter geometry. The pressure independence of the gradient confirms that filter geometry, not gas-phase collisions, dominates the spatial distribution.
+
+
+\subsection{Mass Density and Structure-Zone Model}
+
+XRR measurements show that nitrogen incorporation increases film density from 4.00~g/cm$^3$ (metallic) to 4.65--4.80~g/cm$^3$ (reactive), approaching the reference value of 4.8~g/cm$^3$ for cubic TiAlN. This 16--20\% density increase reflects two synergistic mechanisms operating in the Anders structure-zone model framework \cite{anders2010szm}.\\
+
+First, the chemical driving force for nitride formation (formation enthalpies approximately $-$200~kJ/mol for TiN and AlN \cite{paldey2003}) promotes thermodynamically stable cubic phases with high atomic packing density. The strong Ti-N and Al-N covalent bonds create a rigid framework that resists void formation during growth. Second, energetic ion bombardment (30--60~eV total energy from ERMS) provides sufficient energy for adatom relocation and defect annealing through subplantation and collision cascades \cite[Chap.~8.1--8.2]{cathodic_arcs}.\\
+
+The combination places the films in Zone~T or Zone~2 of the Anders model, characterized by dense, well-crystallized structures even without external substrate heating. In metallic mode, insufficient driving force for crystallization leaves the film in Zone~1 despite comparable ion energies, demonstrating that chemical bonding and ion bombardment act cooperatively rather than independently.\\
+
+The slight density reduction at 0.3~Pa (4.65~g/cm$^3$) compared to 0.1~Pa (4.80~g/cm$^3$) may indicate over-nitriding or formation of secondary phases. XRD shows the strongest cubic reflections at 0.1~Pa, supporting the interpretation that this pressure represents an optimal balance between nitrogen supply and film crystallization.
+
+\section{Correlation Between Plasma Parameters and Film Properties}
+
+
+\section{Comparison with (V,Al)N System and Limitations}
+
+
+\section{Outlook}
 

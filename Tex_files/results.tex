@@ -226,18 +226,20 @@ To compensate for the reduced deposition rate observed in reactive mode, the num
 
 \begin{table}[h]
 	\centering
-	\caption[Profilometry film thickness measurements]{Profilometry thickness measurements for the deposited films at the two positions where the QCM and Ion probe were before}
+	\caption[Profilometry film thickness measurements]{Profilometry thickness measurements for the deposited films at 14~cm and the two positions where the QCM and Ion probe were before}
 	\label{tab:profilometry_results}
-	\begin{tabularx}{\textwidth}{|c|c|c|c|X|X|}
-		\hline
-	Film ID & Distance (cm) & Pressure (Pa) & Pulses & Thickness QCM (nm) & Thickness Ion probe (nm) \\ \hline
-	8		& 14					& 	0	&	6000	 &   73             & 68 				     \\ \hline
-	9		& 14				 & 	0.3		&	6000	 &  42             & 35				 \\ \hline
-	10	&	14                     & 0       &  6000       & 65            & 57                \\ \hline
-	11	&	14                     & 0.3     &  8000      & 60              & 42                \\ \hline
-	13	&	14                     & 0.1     &  8000      & 59             & 41            		 \\ \hline
-	14	&	14                     & 0.2      & 8000      & 46             & 38                \\ \hline
-	\end{tabularx}	
+	\begin{tabular}{ccccc}
+		\toprule
+		Film ID & Pressure (Pa) & Pulses & \makecell{Thickness \\ QCM (nm)} & \makecell{Thickness \\ Ion probe (nm)} \\
+		\midrule
+		8  & 0.0 & 6000 & 73 & 68 \\
+		9  & 0.3 & 6000 & 42 & 35 \\
+		10 & 0.0 & 6000 & 65 & 57 \\
+		13 & 0.1 & 8000 & 59 & 41 \\
+		14 & 0.2 & 8000 & 46 & 38 \\
+		11 & 0.3 & 8000 & 60 & 42 \\
+		\bottomrule
+	\end{tabular}
 \end{table}
 
 The measured thicknesses show good agreement between QCM-derived values and profilometry, with differences on the order of 10~\%, which is within the combined measurement uncertainties of both techniques. Films deposited in metallic mode (films 8 and 10, 6000 pulses) show thicknesses of 57--68~nm by profilometry, while films deposited in reactive mode show lower values despite the increased pulse count to 8000. This reduction reflects the lower mass deposition rate in reactive mode observed in Figure~\ref{fig:pressure_0.25T_mass/ion}a, which is not fully compensated by the increased pulse count.\\
@@ -246,7 +248,6 @@ Several competing effects influence the thickness trends. Films 8 and 10 (metall
 
 An apparent inconsistency emerges when comparing films 9 (0.3~Pa, 6000 pulses, 35~nm) and 11 (0.3~Pa, 8000 pulses, 42~nm). The thickness increase from 35 to 42~nm represents only a 20~\% gain for a 33~\% increase in pulses, suggesting either non-linear deposition behavior or position-dependent variations. Additionally, Figure~\ref{fig:pressure_0.25T_mass/ion}a shows that at 14~cm, the mass flux should remain relatively constant across the pressure range (0--0.3~Pa), yet film 9 shows substantially lower thickness than predicted by this trend.\\
 
-\textcolor{red}{[NOTE: Add discussion of apparent inconsistency at 14~cm between Figure~\ref{fig:pressure_0.25T_mass/ion}a trend (constant mass flux vs pressure) and observed film thicknesses. Potential explanations: spatial gradients between QCM/substrate positions, pulse-to-pulse variability (Table~4.1).]}
 
 
 \subsection{X-ray Diffraction (XRD)}
@@ -259,9 +260,6 @@ X-ray diffraction measurements were performed to characterize the crystallograph
 	\caption[XRD patterns for varying nitrogen pressure]{Grazing incidence XRD patterns for Ti--Al and Ti--Al--N films deposited at different nitrogen pressures. Films were deposited at 14~cm distance with 0.25~T magnetic field. The intense peaks between 52$^\circ$ and 57$^\circ$ originate from the Si substrate. Vertical dashed lines indicate reference positions for cubic (Ti$_{0.65}$Al$_{0.35}$)N (111), (200), and (220) reflections at 37.0$^\circ$, 43.0$^\circ$, and 62.5$^\circ$ respectively (ICDD PDF 04-017-5094), as well as hexagonal Ti$_{0.7}$Al$_{0.3}$ (002) at 38.8$^\circ$ (ICDD PDF 04-004-9157).}
 	\label{fig:xrd_stacked}
 \end{figure}
-
-
-\subsubsection{Phase Identification}
 
 The diffraction patterns reveal a clear transition from metallic to nitride phases with increasing nitrogen pressure:
 
@@ -276,10 +274,43 @@ Introduction of nitrogen fundamentally alters the film structure. At 0.1~Pa N$_2
 
 As the nitrogen pressure increases to 0.2~Pa and 0.3~Pa, all three nitride reflection peaks sharpen and their positions align more closely with reference values. The (200) peak at 43$^\circ$ becomes the most prominent reflection, matching the highest relative intensity in the reference pattern (I/I$_{\text{max}} = 1000$) \cite{ICDD_TiAlN}.\\
 
-Peak positions at 0.2~Pa and 0.3~Pa agree closely with reference values. Small deviations at 0.1~Pa correlate with the lower nitrogen content measured by EDX (33~at.\% vs 39~at.\%). The reference cubic nitride exhibits a lattice parameter of $a = 4.202$~\AA\ and a calculated density of 4.8~g\,cm$^{-3}$ \cite{ICDD_TiAlN}, which will be compared with the film densities determined by XRR (Section~\ref{sec:XRR}).\\
+Peak positions at 0.2~Pa and 0.3~Pa agree closely with reference values. Small deviations at 0.1~Pa correlate with the lower nitrogen content measured by EDX (33~at.\% vs 39~at.\%). The reference cubic nitride exhibits a lattice parameter of $a = 4.202$~\AA\ and a calculated density of 4.8~g\,cm$^{-3}$ \cite{ICDD_TiAlN}, which will be compared with the film densities determined by XRR (Section~\ref{sec:results_XRR}).\\
 
 
-\subsection{XRR}\label{sec:results_xrr}
+\subsection{X-ray Reflectometry (XRR)}\label{sec:results_XRR}
+
+X-ray reflectometry measurements were performed to determine film thickness and mass density for selected samples. Table~\ref{tab:xrr_results} presents measurements at both substrate positions (QCM and ion current probe locations) for films 10, 11, 13, and 14. These measurements provide independent verification of the profilometry results and additionally yield quantitative mass density values.
+
+
+\begin{table}[h]
+	\centering
+	\caption[XRR derived thickness]{XRR derived thickness and mass density values for films at QCM and ion current positions (samples 10, 11, 13 and 14)}
+	\label{tab:xrr_results}
+	\begin{tabular}{cccc}
+		\toprule
+		\multirow{2}{*}{Pressure (Pa)} & \multicolumn{2}{c}{Thickness (nm)} & \multirow{2}{*}{\makecell{Mass density \\ (g/cm$^3$)}} \\
+		\cmidrule(lr){2-3}
+		& QCM & Ion current & \\
+		\midrule
+		0.0 & 63 & 58 & 4.00 \\
+		0.1 & 46.5 & 38 & 4.80 / 4.75 \\
+		0.2 & 42 & 34.5 & 4.80 / 4.75 \\
+		0.3 & 45.5 & 39 & 4.65 \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\paragraph{Thickness Gradient}
+
+A systematic thickness gradient is observed between the two substrate positions, with the ion current location consistently showing 5--8.5~nm lower thickness compared to the QCM position. This corresponds to a reduction of 8--18\%, with film 13 exhibiting the most pronounced gradient at 8.5~nm (18\%). This spatial non-uniformity is consistent with the profilometry measurements presented in Table~\ref{tab:profilometry_results}, where thickness differences of 5--18~nm between the two positions were observed across all samples.\\
+
+The XRR thickness values are on average a bit small than the ones measured with profilometry, with differences typically within 10\%. This agreement validates both measurement techniques and confirms that the observed gradient is a real spatial variation in the amount of deposited particles at each measurement device and can therefore be accounted and corrected for.\\
+
+\paragraph{Mass Density Evolution}
+
+The introduction of nitrogen substantially increases the film mass density from 4.00~g/cm$^3$ in metallic mode to 4.65--4.80~g/cm$^3$ in reactive mode. This density increase reflects the transition from a loosely packed metallic TiAl structure to a dense cubic TiAlN nitride phase. The measured densities in reactive mode closely approach the reference value of 4.8~g/cm$^3$ for stoichiometric cubic TiAlN \cite{ICDD_TiAlN}, indicating nearly complete densification and crystallization.\\
+
+
 
 
 
@@ -310,10 +341,10 @@ The results in Table~\ref{tab:edx} reveal several key trends:
 
 \textbf{Metallic mode (0~Pa):} In vacuum deposition, the film composition shows a Ti:Al ratio of approximately 79:21, compared to the cathode composition (62.8~at.\% Ti; 37.2~at.\% Al). The effective molar mass is 43.5~g$\cdot$mol$^{-1}$, between pure aluminum (27.0~g$\cdot$mol$^{-1}$) and pure titanium (47.9~g$\cdot$mol$^{-1}$).
 
-\textbf{Reactive mode (0.1--0.3~Pa N$_2$):} Nitrogen incorporation reaches approximately 33~at.\% at 0.1~Pa and saturates near 39~at.\% above 0.2~Pa. The final composition at 0.3~Pa is Ti$_{0.47}$Al$_{0.14}$N$_{0.39}$, close to the reference material composition used for XRD analysis \cite{ICDD_TiAlN}. The Ti:Al ratio shifts from approximately 3.75:1 in metallic mode to approximately 3.4:1 in reactive mode.
+\textbf{Reactive mode (0.1--0.3~Pa N$_2$):} Nitrogen incorporation reaches approximately 33~at.\% at 0.1~Pa and saturates near 39~at.\% above 0.2~Pa. The final composition at 0.3~Pa is Ti$_{0.47}$Al$_{0.14}$N$_{0.39}$, close to the reference material composition used for XRD analysis \cite{ICDD_TiAlN}. The Ti:Al ratio shifts from approximately 3.75:1 in metallic mode to approximately 3.4:1 in reactive mode.\\
 
 
-\textbf{Effective molar mass trends:} The effective molar mass decreases from 43.5~g$\cdot$mol$^{-1}$ (metallic mode) to approximately 32~g$\cdot$mol$^{-1}$ (reactive mode), a reduction of approximately 25\%. The molar mass saturates above 0.2~Pa at $M_{\text{eff}} \approx 31.8$~g$\cdot$mol$^{-1}$, consistent with the compositional saturation observed in nitrogen content.
+\textbf{Effective molar mass trends:} The effective molar mass decreases from 43.5~g$\cdot$mol$^{-1}$ (metallic mode) to approximately 32~g$\cdot$mol$^{-1}$ (reactive mode), a reduction of approximately 25\%. The molar mass saturates above 0.2~Pa at $M_{\text{eff}} \approx 31.8$~g$\cdot$mol$^{-1}$, consistent with the compositional saturation observed in nitrogen content.\\
 
 The effective molar mass is calculated from the atomic fractions $x_i$ and atomic masses $M_i$ according to:
 \begin{equation}

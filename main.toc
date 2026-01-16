@@ -9,7 +9,7 @@
 \contentsline {subsection}{\numberline {2.1.2}Pulsed vs. Continuous Arc Operation}{13}{subsection.2.1.2}%
 \contentsline {subsection}{\numberline {2.1.3}Plasma Expansion and Macroparticle Filtering}{14}{subsection.2.1.3}%
 \contentsline {section}{\numberline {2.2}Ion Energies and Flux in the Substrate Region}{14}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Ion Energies: Origins and Implications}{14}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.1}Ion Energies: Origins and Implications}{15}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Effect of Distance on Ion Properties}{15}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}Effect of External Magnetic Fields}{16}{subsection.2.2.3}%
 \contentsline {subsection}{\numberline {2.2.4}Ion Flux}{16}{subsection.2.2.4}%
@@ -18,8 +18,8 @@
 \contentsline {subsection}{\numberline {2.3.2}Activated Nitrogen Species}{17}{subsection.2.3.2}%
 \contentsline {section}{\numberline {2.4}Plasma--Surface Interactions and Film Growth}{18}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Energetic Condensation and Subplantation}{18}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Structure-Zone Models}{18}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}TiAlN Crystal Structures}{19}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.2}Structure-Zone Models}{19}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}TiAlN Crystal Structures}{20}{subsection.2.4.3}%
 \contentsline {chapter}{\numberline {3}Experimental Methodology}{21}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Experimental Setup}{21}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Vacuum \& Gas Infrastructure}{21}{subsection.3.1.1}%
@@ -50,47 +50,53 @@
 \contentsline {subsection}{\numberline {4.2.2}Pressure Dependence}{45}{subsection.4.2.2}%
 \contentsline {section}{\numberline {4.3}Thin Film Characterization}{47}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Profilometry}{47}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}X-ray Diffraction (XRD)}{49}{subsection.4.3.2}%
-\contentsline {subsubsection}{Phase Identification}{49}{section*.31}%
-\contentsline {paragraph}{Metallic mode (0~Pa N$_2$):}{49}{section*.32}%
-\contentsline {paragraph}{Reactive mode (0.1--0.3~Pa N$_2$):}{49}{section*.33}%
-\contentsline {subsection}{\numberline {4.3.3}XRR}{50}{subsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.3.4}Energy dispersive X-ray spectroscopy (EDX)}{50}{subsection.4.3.4}%
-\contentsline {subsection}{\numberline {4.3.5}Scanning Electron Microscopy (SEM)}{51}{subsection.4.3.5}%
-\contentsline {section}{\numberline {4.4}Particle Flux Calculations}{52}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Calculation Methods}{52}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Flux Measurements at 14~cm Distance}{53}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Observations on Flux Magnitudes}{54}{subsection.4.4.3}%
-\contentsline {chapter}{\numberline {5}Discussion of Results}{55}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Plasma Transport and Magnetic Field Effects}{55}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Magnetic Mirror Effect at Low Fields}{55}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Spatial Expansion and 1/r$^2$ Scaling}{56}{subsection.5.1.2}%
-\contentsline {section}{\numberline {5.2}Reactive Mode Plasma Chemistry}{56}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Charge-Exchange Collisions and Neutral Formation}{56}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Cathode Poisoning and Spot Transitions}{57}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}Activated Nitrogen Species}{58}{subsection.5.2.3}%
-\contentsline {section}{\numberline {5.3}Film Growth Mechanisms and Microstructure}{58}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Energetic Condensation and Room-Temperature Crystallization}{58}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Composition and Stoichiometry}{59}{subsection.5.3.2}%
-\contentsline {chapter}{\numberline {6}final words or smt like thanks everyone}{60}{chapter.6}%
-\contentsline {chapter}{\numberline {A}Experimental Methods supplementary}{64}{appendix.1.A}%
-\contentsline {section}{\numberline {A.1}Longer QCM depositions}{64}{section.1.A.1}%
-\contentsline {section}{\numberline {A.2}Holder Assembly Design}{64}{section.1.A.2}%
-\contentsline {section}{\numberline {A.3}Data Processing Workflow}{65}{section.1.A.3}%
-\contentsline {subsection}{\numberline {A.3.1}Data Organization and Logbook System}{65}{subsection.1.A.3.1}%
-\contentsline {subsection}{\numberline {A.3.2}Ion Current Data Processing}{66}{subsection.1.A.3.2}%
-\contentsline {subsection}{\numberline {A.3.3}ERMS Data Processing}{66}{subsection.1.A.3.3}%
-\contentsline {subsection}{\numberline {A.3.4}QCM Data Processing}{67}{subsection.1.A.3.4}%
-\contentsline {section}{\numberline {A.4}Uncertainty Analysis}{67}{section.1.A.4}%
-\contentsline {subsection}{\numberline {A.4.1}ERMS Measurements}{67}{subsection.1.A.4.1}%
-\contentsline {subsection}{\numberline {A.4.2}Ion Probe Measurements}{68}{subsection.1.A.4.2}%
-\contentsline {subsection}{\numberline {A.4.3}QCM Measurements}{69}{subsection.1.A.4.3}%
-\contentsline {subsection}{\numberline {A.4.4}Error Propagation in Derived Quantities}{70}{subsection.1.A.4.4}%
-\contentsline {chapter}{\numberline {B}Langmuir Probe Bias Voltage Characterization}{72}{appendix.1.B}%
-\contentsline {section}{\numberline {B.1}Validation of Langmuir Probe Operation}{72}{section.1.B.1}%
-\contentsline {section}{\numberline {B.2}Analysis of the Ion Saturation Curve}{73}{section.1.B.2}%
-\contentsline {section}{\numberline {B.3}Selection of Operating Bias Voltage}{74}{section.1.B.3}%
-\contentsline {section}{\numberline {B.4}Ion Current Variation over Different Pulses}{74}{section.1.B.4}%
-\contentsline {chapter}{\numberline {C}Additional Plots}{76}{appendix.1.C}%
-\contentsline {chapter}{\numberline {D}Python Code and Data Overview}{78}{appendix.1.D}%
-\contentsline {section}{\numberline {D.1}Data Availability}{78}{section.1.D.1}%
+\contentsline {subsection}{\numberline {4.3.2}X-ray Diffraction (XRD)}{48}{subsection.4.3.2}%
+\contentsline {paragraph}{Metallic mode (0~Pa N$_2$):}{49}{section*.31}%
+\contentsline {paragraph}{Reactive mode (0.1--0.3~Pa N$_2$):}{49}{section*.32}%
+\contentsline {subsection}{\numberline {4.3.3}X-ray Reflectometry (XRR)}{50}{subsection.4.3.3}%
+\contentsline {paragraph}{Thickness Gradient}{50}{section*.34}%
+\contentsline {paragraph}{Mass Density Evolution}{51}{section*.35}%
+\contentsline {subsection}{\numberline {4.3.4}Energy dispersive X-ray spectroscopy (EDX)}{51}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}Scanning Electron Microscopy (SEM)}{52}{subsection.4.3.5}%
+\contentsline {section}{\numberline {4.4}Particle Flux Calculations}{53}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Calculation Methods}{53}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Flux Measurements at 14~cm Distance}{54}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Observations on Flux Magnitudes}{55}{subsection.4.4.3}%
+\contentsline {chapter}{\numberline {5}Discussion of Results and Outlook}{56}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Plasma Transport and Magnetic Field Effects}{56}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Magnetic Mirror Effect at Low Fields}{56}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Spatial Expansion and 1/r$^2$ Scaling}{57}{subsection.5.1.2}%
+\contentsline {section}{\numberline {5.2}Reactive Mode Plasma Chemistry}{57}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Charge-Exchange Collisions and Neutral Formation}{57}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Cathode Poisoning and Spot Transitions}{58}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Activated Nitrogen Species}{59}{subsection.5.2.3}%
+\contentsline {section}{\numberline {5.3}Film Growth Mechanisms and Microstructure}{59}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Energetic Condensation and Room-Temperature Crystallization}{59}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Composition and Stoichiometry}{60}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Spatial Film Thickness Gradient}{60}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.3.4}Mass Density and Structure-Zone Model}{61}{subsection.5.3.4}%
+\contentsline {section}{\numberline {5.4}Correlation Between Plasma Parameters and Film Properties}{62}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Comparison with (V,Al)N System and Limitations}{62}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Outlook}{62}{section.5.6}%
+\contentsline {chapter}{\numberline {6}final words or smt like thanks everyone}{63}{chapter.6}%
+\contentsline {chapter}{\numberline {A}Experimental Methods supplementary}{68}{appendix.1.A}%
+\contentsline {section}{\numberline {A.1}Longer QCM depositions}{68}{section.1.A.1}%
+\contentsline {section}{\numberline {A.2}Holder Assembly Design}{68}{section.1.A.2}%
+\contentsline {section}{\numberline {A.3}Data Processing Workflow}{69}{section.1.A.3}%
+\contentsline {subsection}{\numberline {A.3.1}Data Organization and Logbook System}{69}{subsection.1.A.3.1}%
+\contentsline {subsection}{\numberline {A.3.2}Ion Current Data Processing}{70}{subsection.1.A.3.2}%
+\contentsline {subsection}{\numberline {A.3.3}ERMS Data Processing}{70}{subsection.1.A.3.3}%
+\contentsline {subsection}{\numberline {A.3.4}QCM Data Processing}{71}{subsection.1.A.3.4}%
+\contentsline {section}{\numberline {A.4}Uncertainty Analysis}{71}{section.1.A.4}%
+\contentsline {subsection}{\numberline {A.4.1}ERMS Measurements}{71}{subsection.1.A.4.1}%
+\contentsline {subsection}{\numberline {A.4.2}Ion Probe Measurements}{72}{subsection.1.A.4.2}%
+\contentsline {subsection}{\numberline {A.4.3}QCM Measurements}{73}{subsection.1.A.4.3}%
+\contentsline {subsection}{\numberline {A.4.4}Error Propagation in Derived Quantities}{74}{subsection.1.A.4.4}%
+\contentsline {chapter}{\numberline {B}Langmuir Probe Bias Voltage Characterization}{76}{appendix.1.B}%
+\contentsline {section}{\numberline {B.1}Validation of Langmuir Probe Operation}{76}{section.1.B.1}%
+\contentsline {section}{\numberline {B.2}Analysis of the Ion Saturation Curve}{77}{section.1.B.2}%
+\contentsline {section}{\numberline {B.3}Selection of Operating Bias Voltage}{78}{section.1.B.3}%
+\contentsline {section}{\numberline {B.4}Ion Current Variation over Different Pulses}{78}{section.1.B.4}%
+\contentsline {chapter}{\numberline {C}Additional Plots}{80}{appendix.1.C}%
+\contentsline {chapter}{\numberline {D}Python Code and Data Overview}{82}{appendix.1.D}%
+\contentsline {section}{\numberline {D.1}Data Availability}{82}{section.1.D.1}%
