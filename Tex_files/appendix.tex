@@ -295,12 +295,12 @@ In all other measurements, the oscilloscope averaged the voltage signal over mul
 \end{verbatim}
 All raw data files, processed datasets, and analysis scripts are archived and available upon request. The main Python scripts used for data processing include:
 \begin{itemize}[noitemsep]
-	\item \texttt{process\_ion\_probe.py}: Ion current waveform analysis and averaging
-	\item \texttt{process\_erms.py}: ERMS data integration, mass transmission correction, and energy extraction
-	\item \texttt{process\_qcm.py}: QCM frequency analysis and mass calculation
-	\item \texttt{compile\_dataset.py}: Unified dataset generation from logbook and raw data files
+	\item \texttt{ion current and mass csv generator.py}: Ion current waveform analysis and qcm mass inclusion
+	\item \texttt{Massspec maybe final.py}: ERMS data integration, mass transmission correction, and energy extraction
+	\item \texttt{XRD plotting.py}: plotting of stacked XRD plots from .txt files
+	\item \texttt{Data sets created and used for the Thesis}
 \end{itemize}
-
+\textcolor{red}{dunno if i will modify the csv merger script and add it since it is too specific maybe}
 \begin{table}[htbp]
 	\centering
 	\caption[Complete overview of experimental measurements]{Complete overview of experimental measurements. All distance/field/pressure combinations not explicitly listed were measured with ion current probe and QCM only. In total: 252 Ion+QCM measurements, 17 ERMS measurements, 4 deposited films}
