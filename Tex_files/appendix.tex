@@ -98,7 +98,9 @@ Energy-resolved mass spectrometry data were evaluated with a Python script that 
 	\label{fig:ERMS-appendix}
 \end{figure}
 
-The processed results were visualized and exported to CSV files for correlation with ion probe and QCM measurements.
+\textcolor{red}{add another for N/N2 and for Al to show what the y are like in additional plots }
+
+The processed results were visualized and exported to CSV files for correlation with ion probe and QCM measurements. Further example plot like \ref{fig:ERMS-appendix} can be found in \ref{sec:additional plots}
 
 \subsection{QCM Data Processing}
 
@@ -259,16 +261,18 @@ To analyze the pulse-to-pulse variation, approximately 30 single pulses were rec
 
 \begin{table}[h]
 	\centering
-	\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|}
-		\hline
-		\textbf{EM-coil field (T)} & \textbf{Mean $I_{\text{ion}}$ (mA)} & \textbf{Std (mA)} & \textbf{Std (\%)} & \textbf{Range (mA)} & \textbf{\# Pulses} \\ \hline
-		0.00 & 1.931 & 0.266 & 13.8 & [1.13, 2.26] & 30 \\ \hline
-		0.05 & 1.622 & 0.602 & 37.1 & [1.16, 4.85] & 32 \\ \hline
-		0.10 & 4.279 & 0.542 & 12.7 & [2.72, 4.88] & 31 \\ \hline
-		0.15 & 6.323 & 0.414 & 6.6 & [4.99, 6.92] & 27 \\ \hline
-		0.20 & 7.996 & 0.399 & 5.0 & [7.26, 8.78] & 22 \\ \hline
-		0.25 & 9.460 & 0.363 & 3.8 & [8.61, 10.02] & 30 \\ \hline
-	\end{tabularx}
+	\begin{tabular}{ccccc}
+		\toprule
+		\textbf{EM-coil field (T)} & \textbf{Mean $I_{\text{ion}}$ (mA)}  & \textbf{Std (\%)} & \textbf{Range (mA)} & \textbf{\# Pulses} \\ 
+		\midrule
+		0.00 & 1.931  & 13.8 & [1.13, 2.26] & 30 \\ 
+		0.05 & 1.622  & 37.1 & [1.16, 4.85] & 32 \\ 
+		0.10 & 4.279  & 12.7 & [2.72, 4.88] & 31 \\ 
+		0.15 & 6.323  & 6.6 & [4.99, 6.92] & 27 \\ 
+		0.20 & 7.996  & 5.0 & [7.26, 8.78] & 22 \\
+		0.25 & 9.460  & 3.8 & [8.61, 10.02] & 30 \\ 
+		\bottomrule
+	\end{tabular}
 	\caption[Summary of pulse measurement statistics]{Summary of pulse measurement statistics for varying magnetic field strengths. Note: The 0.05~T data includes variability from unstable arc behavior at this field strength.}
 	\label{tab:pulse_measurements_appendix}
 \end{table}
@@ -276,7 +280,7 @@ To analyze the pulse-to-pulse variation, approximately 30 single pulses were rec
 In all other measurements, the oscilloscope averaged the voltage signal over multiple pulses to improve signal-to-noise ratio. Therefore, the error reported in subsequent sections primarily reflects variations in ion current within individual pulses, rather than differences between distinct pulses.
 
 
-\chapter{Additional Plots}
+\chapter{Additional Plots}\label{sec:additional plots}
 
 \begin{figure}[h]
 	\centering
@@ -301,11 +305,27 @@ In all other measurements, the oscilloscope averaged the voltage signal over mul
 	\label{fig:distance_0T_mass/ion}
 \end{figure}
 
-
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\linewidth]{Figures/appendix/MagField_ChargeState_correlation.png}
+	\caption[Magnetic field correlation with charge state]{Mean charge state as a function of magnetic field strength for Ti and Al ions under representative conditions: (a) 10 cm distance in metallic mode (0 Pa), (b) 10 cm distance in reactive mode (0.3 Pa), and (c) 14 cm distance in reactive mode (0.1 Pa). The systematic increase in charge states with magnetic field strength occurs across all conditions, demonstrating the inherent coupling between magnetic confinement and ion charge states. This coupling prevents independent control of ion flux and potential energy, as discussed in Section~\ref{chap:discussion}.}
+	\label{fig:magfield_vs_chargestate}
+\end{figure}
 
 
 \chapter{Python Code and Data Overview}\label{appendix:code}
 
+\section{Data Availability}
+\begin{verbatim}
+	use \href{URL}{link text} to generate the links below
+\end{verbatim}
+All raw data files, processed datasets, and analysis scripts are archived and available upon request. The main Python scripts used for data processing include:
+\begin{itemize}[noitemsep]
+	\item \texttt{process\_ion\_probe.py}: Ion current waveform analysis and averaging
+	\item \texttt{process\_erms.py}: ERMS data integration, mass transmission correction, and energy extraction
+	\item \texttt{process\_qcm.py}: QCM frequency analysis and mass calculation
+	\item \texttt{compile\_dataset.py}: Unified dataset generation from logbook and raw data files
+\end{itemize}
 
 \begin{table}[htbp]
 	\centering
@@ -323,36 +343,36 @@ In all other measurements, the oscilloscope averaged the voltage signal over mul
 		\multicolumn{7}{l}{\textit{\textbf{Systematic parameter scan:}}} \\
 		\makecell[l]{12, 16, 18} & \makecell[c]{0, 0.05, 0.1,\\0.15, 0.2, 0.25} & \makecell[c]{0, 0.025, 0.05, 0.075,\\0.1, 0.2, 0.3} & \checkmark & -- & -- & -- \\
 		\midrule
-		\multicolumn{7}{l}{\textit{\textbf{Distance 10 cm — standard conditions:}}} \\
+		\multicolumn{7}{l}{\textit{\textbf{Distance 10 cm --- standard conditions:}}} \\
 		10 & \makecell[c]{0.05, 0.1,\\0.2} & all pressures$^{\dagger}$ & \checkmark & -- & -- & -- \\
 		10 & 0 & 0.025, 0.05, 0.075, 0.2 & \checkmark & -- & -- & -- \\
 		10 & 0.15 & 0.025, 0.05, 0.075, 0.2 & \checkmark & -- & -- & -- \\
 		10 & 0.25 & 0.025, 0.05, 0.075 & \checkmark & -- & -- & -- \\
 		\midrule
-		\multicolumn{7}{l}{\textit{\textbf{Distance 10 cm — with mass spectrometry:}}} \\
+		\multicolumn{7}{l}{\textit{\textbf{Distance 10 cm --- with mass spectrometry:}}} \\
 		10 & 0, 0.15 & 0, 0.1, 0.3 & \checkmark & \checkmark & -- & --\\
 		10 & 0.25 & 0 & \checkmark & \checkmark & \checkmark & 003 \\
 		10 & 0.25 & 0.1 & \checkmark & \checkmark & \checkmark & 004 \\
 		10 & 0.25 & 0.2 & \checkmark & \checkmark & -- & -- \\
 		10 & 0.25 & 0.3 & \checkmark & \checkmark & \checkmark & 002 \\
 		\midrule
-		\multicolumn{7}{l}{\textit{\textbf{Distance 14 cm — standard conditions:}}} \\
+		\multicolumn{7}{l}{\textit{\textbf{Distance 14 cm --- standard conditions:}}} \\
 		14 & 0, 0.05, 0.1, 0.2 & all pressures$^{\dagger}$ & \checkmark & -- & -- & -- \\
 		14 & 0.15 & \makecell[c]{0, 0.025, 0.05,\\0.075, 0.2, 0.3} & \checkmark & -- & -- & -- \\
 		14 & 0.25 & 0.025, 0.05, 0.075, 0.2 & \checkmark & -- & -- & -- \\
 		\midrule
-		\multicolumn{7}{l}{\textit{\textbf{Distance 14 cm — with mass spectrometry:}}} \\
+		\multicolumn{7}{l}{\textit{\textbf{Distance 14 cm --- with mass spectrometry:}}} \\
 		14 & 0.15 & 0.1 & \checkmark & \checkmark & -- & -- \\
-		14 & 0.25 & 0 & \checkmark & \checkmark & \checkmark & 010 \\
-		14 & 0.25 & 0.1 & \checkmark & \checkmark & \checkmark & 013 \\
+		14 & 0.25 & 0 & \checkmark & \checkmark & \checkmark & 008/010 \\
+		14 & 0.25 & 0.1 & \checkmark & \checkmark & \checkmark & 011/013 \\
 		14 & 0.25 & 0.2 & \checkmark & \checkmark & \checkmark & 014 \\
-		14 & 0.25 & 0.3 & \checkmark & \checkmark & \checkmark & 012 \\
+		14 & 0.25 & 0.3 & \checkmark & \checkmark & \checkmark & 009/011 \\
 		\midrule
-		\multicolumn{7}{l}{\textit{\textbf{Distance 20 cm — standard conditions:}}} \\
+		\multicolumn{7}{l}{\textit{\textbf{Distance 20 cm --- standard conditions:}}} \\
 		20 & \makecell[c]{0, 0.05, 0.1,\\0.15, 0.2} & all pressures$^{\dagger}$ & \checkmark & -- & -- & -- \\
 		20 & 0.25 & 0.025, 0.05, 0.075, 0.1, 0.2 & \checkmark & -- & -- & -- \\
 		\midrule
-		\multicolumn{7}{l}{\textit{\textbf{Distance 20 cm — with mass spectrometry:}}} \\
+		\multicolumn{7}{l}{\textit{\textbf{Distance 20 cm --- with mass spectrometry:}}} \\
 		20 & 0.25 & 0, 0.3 & \checkmark & \checkmark & -- & -- \\
 		\bottomrule
 		\multicolumn{7}{l}{\footnotesize $^{\dagger}$all pressures = 0, 0.025, 0.05, 0.075, 0.1, 0.2, 0.3~Pa} \\
@@ -363,12 +383,3 @@ In all other measurements, the oscilloscope averaged the voltage signal over mul
 	}
 \end{table}
 
-\section{Data Availability}
-
-All raw data files, processed datasets, and analysis scripts are archived and available upon request. The main Python scripts used for data processing include:
-\begin{itemize}[noitemsep]
-	\item \texttt{process\_ion\_probe.py}: Ion current waveform analysis and averaging
-	\item \texttt{process\_erms.py}: ERMS data integration, mass transmission correction, and energy extraction
-	\item \texttt{process\_qcm.py}: QCM frequency analysis and mass calculation
-	\item \texttt{compile\_dataset.py}: Unified dataset generation from logbook and raw data files
-\end{itemize}

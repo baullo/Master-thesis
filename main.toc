@@ -8,7 +8,7 @@
 \contentsline {subsection}{\numberline {2.1.1}Cathode Spot Plasma Generation}{12}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}Pulsed vs. Continuous Arc Operation}{13}{subsection.2.1.2}%
 \contentsline {subsection}{\numberline {2.1.3}Plasma Expansion and Macroparticle Filtering}{14}{subsection.2.1.3}%
-\contentsline {section}{\numberline {2.2}Ion Energies and Flux in the Substrate Region}{14}{section.2.2}%
+\contentsline {section}{\numberline {2.2}Ion Energies and Flux in the Substrate Region}{15}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Ion Energies: Origins and Implications}{15}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Effect of Distance on Ion Properties}{15}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}Effect of External Magnetic Fields}{16}{subsection.2.2.3}%
@@ -19,7 +19,7 @@
 \contentsline {section}{\numberline {2.4}Plasma--Surface Interactions and Film Growth}{18}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Energetic Condensation and Subplantation}{18}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}Structure-Zone Models}{19}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}TiAlN Crystal Structures}{20}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.3}TiAlN Crystal Structures}{19}{subsection.2.4.3}%
 \contentsline {chapter}{\numberline {3}Experimental Methodology}{21}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Experimental Setup}{21}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Vacuum \& Gas Infrastructure}{21}{subsection.3.1.1}%
@@ -59,25 +59,16 @@
 \contentsline {subsection}{\numberline {4.3.4}Energy dispersive X-ray spectroscopy (EDX)}{51}{subsection.4.3.4}%
 \contentsline {subsection}{\numberline {4.3.5}Scanning Electron Microscopy (SEM)}{52}{subsection.4.3.5}%
 \contentsline {section}{\numberline {4.4}Particle Flux Calculations}{53}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Calculation Methods}{53}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.1}Calculation Methods}{54}{subsection.4.4.1}%
 \contentsline {subsection}{\numberline {4.4.2}Flux Measurements at 14~cm Distance}{54}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Observations on Flux Magnitudes}{55}{subsection.4.4.3}%
 \contentsline {chapter}{\numberline {5}Discussion of Results and Outlook}{56}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Plasma Transport and Magnetic Field Effects}{56}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Magnetic Mirror Effect at Low Fields}{56}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Spatial Expansion and 1/r$^2$ Scaling}{57}{subsection.5.1.2}%
 \contentsline {section}{\numberline {5.2}Reactive Mode Plasma Chemistry}{57}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Charge-Exchange Collisions and Neutral Formation}{57}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Cathode Poisoning and Spot Transitions}{58}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}Activated Nitrogen Species}{59}{subsection.5.2.3}%
-\contentsline {section}{\numberline {5.3}Film Growth Mechanisms and Microstructure}{59}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Energetic Condensation and Room-Temperature Crystallization}{59}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Composition and Stoichiometry}{60}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {5.3.3}Spatial Film Thickness Gradient}{60}{subsection.5.3.3}%
-\contentsline {subsection}{\numberline {5.3.4}Mass Density and Structure-Zone Model}{61}{subsection.5.3.4}%
-\contentsline {section}{\numberline {5.4}Correlation Between Plasma Parameters and Film Properties}{62}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Comparison with (V,Al)N System and Limitations}{62}{section.5.5}%
-\contentsline {section}{\numberline {5.6}Outlook}{62}{section.5.6}%
+\contentsline {subsection}{\numberline {5.2.1}Activated Nitrogen Species}{57}{subsection.5.2.1}%
+\contentsline {section}{\numberline {5.3}Film Growth Mechanisms and Microstructure}{58}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Quantitative Plasma-Film Correlations}{59}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Unresolved Flux Measurement Discrepancy}{60}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Outlook}{60}{section.5.6}%
 \contentsline {chapter}{\numberline {6}Acknowledgments}{63}{chapter.6}%
 \contentsline {chapter}{\numberline {A}Experimental Methods supplementary}{69}{appendix.1.A}%
 \contentsline {section}{\numberline {A.1}Longer QCM depositions}{69}{section.1.A.1}%

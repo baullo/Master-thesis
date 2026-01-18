@@ -50,7 +50,7 @@ In the absence of reactive gas, plasma expansion and deposition dynamics are gov
 
 As shown in Figure~\ref{fig:metallic_mass/ion}, both mass deposition rate and ion current increase with applied magnetic field. The enhancement is most pronounced at the shortest distance (10~cm), where the magnetic field can effectively guide ions before significant radial expansion occurs. At 20~cm, the plasma has already expanded substantially, reducing the relative impact of magnetic confinement on the collected flux.
 
-A notable anomaly appears at 0.05~T, where both quantities drop below their zero-field values before recovering and increasing at higher fields (0.1~T and above). Similar behavior is observed across all experimental conditions involving increasing magnetic field strength.
+A surprising anomaly appears at 0.05~T, where both quantities drop below their zero-field values before recovering and increasing at higher fields (0.1~T and above). Similar behavior is observed across all experimental conditions involving increasing magnetic field strength.
 
 \subsection{Distance as a variable}\label{subsec:distance}
 
@@ -155,7 +155,7 @@ Figures~\ref{fig:ERMS_distance0Pa} and \ref{fig:ERMS_distance0.3Pa} present mean
 In metallic mode (Figure~\ref{fig:ERMS_distance0Pa}), titanium ions exhibit $\langle Q \rangle \approx 2.6$ and aluminum ions $\langle Q \rangle \approx 2.0$ across all distances. These charge states reflect the high electron temperatures ($T_e \approx 5$--10~eV) characteristic of cathode spot plasmas. The mean charge states remain remarkably constant with distance, varying by less than 10\% between 10 and 20~cm, indicating that recombination is negligible during the transit time through this region on the order of $\sim$100~$\mu$s scale.\\
 
 
-Potential energies scale directly with charge state, with Ti showing $E_{\rm pot} \approx 38$~eV and Al $E_{\rm pot} \approx 26$~eV, remaining nearly constant across the measurement range. Kinetic energies are in the range of 20--30~eV for both species, with a slight decreasing trend with distance due to minor collisional thermalization. Importantly, total ion energies ($E_{\rm kin} + E_{\rm pot}$) exceed 40~eV at all distances, well above the $\approx$30~eV threshold for subplantation-driven densification \cite[Chap.~8.1]{cathodic_arcs}. This confirms that energetic condensation should remains accessible across the entire 10--20~cm range without substrate heating.\\
+Potential energies scale directly with charge state, with Ti showing $E_{\rm pot} \approx 38$~eV and Al $E_{\rm pot} \approx 26$~eV, remaining nearly constant across the measurement range. Kinetic energies are in the range of 20--30~eV for both species, with a slight decreasing trend with distance due to minor collisional thermalization. Importantly, total ion energies ($E_{\rm kin} + E_{\rm pot}$) exceed 40~eV at all distances, well above the $\approx$ 30~eV threshold for subplantation-driven densification \cite[Chap.~8.1]{cathodic_arcs}. This confirms that energetic condensation should remains accessible across the entire 10--20~cm range without substrate heating.\\
 
 \begin{figure}[h]
 	\centering
@@ -169,7 +169,7 @@ Introducing nitrogen at 0.3~Pa substantially alters the plasma composition (Figu
 	\text{Ti}^{3+} + \text{N}_2 \rightarrow \text{Ti}^{2+} + \text{N}_2^{+} \quad \text{(or lower charge states)}
 \end{equation*}
 
-Potential energies decrease proportionally with the reduced charge states, falling from $\approx$35--40~eV (metallic) to $\approx$20--30~eV in reactive mode. Kinetic energies show a slight increase in reactive mode. Despite these changes, total ion energies remain in the range of 30~eV at 10~cm and 35~eV at 20~cm. At the 14~cm deposition distance, energies are approximately 25--35~eV.\\
+Potential energies decrease proportionally with the reduced charge states, falling from $\approx$ 35--40~eV (metallic) to $\approx$ 20--30~eV in reactive mode. Kinetic energies show a slight increase in reactive mode. Despite these changes, total ion energies remain in the range of 30~eV at 10~cm and 35~eV at 20~cm. At the 14~cm deposition distance, energies are approximately 25--35~eV.\\
 
 \subsection{Pressure Dependence}\label{subsec:erms_pressure}
 
@@ -276,6 +276,7 @@ As the nitrogen pressure increases to 0.2~Pa and 0.3~Pa, all three nitride refle
 
 Peak positions at 0.2~Pa and 0.3~Pa agree closely with reference values. Small deviations at 0.1~Pa correlate with the lower nitrogen content measured by EDX (33~at.\% vs 39~at.\%). The reference cubic nitride exhibits a lattice parameter of $a = 4.202$~\AA\ and a calculated density of 4.8~g\,cm$^{-3}$ \cite{ICDD_TiAlN}, which will be compared with the film densities determined by XRR (Section~\ref{sec:results_XRR}).\\
 
+The sharp, well-defined (111), (200), and (220) reflections in all nitride films indicate crystalline growth in Zone T or Zone 1 of Anders' structure zone model \cite{anders2010szm}, where ion energies of 30--50~eV (measured by ERMS, Section~\ref{sec:erms_results}) enable room-temperature crystallization through energetic condensation.
 
 \subsection{X-ray Reflectometry (XRR)}\label{sec:results_XRR}
 
@@ -284,18 +285,18 @@ X-ray reflectometry measurements were performed to determine film thickness and 
 
 \begin{table}[h]
 	\centering
-	\caption[XRR derived thickness]{XRR derived thickness and mass density values for films at QCM and ion current positions (samples 10, 11, 13 and 14)}
+	\caption[XRR derived thickness]{XRR derived thickness and mass density values for films at QCM and ion current positions}
 	\label{tab:xrr_results}
-	\begin{tabular}{cccc}
+	\begin{tabular}{ccccc}
 		\toprule
-		\multirow{2}{*}{Pressure (Pa)} & \multicolumn{2}{c}{Thickness (nm)} & \multirow{2}{*}{\makecell{Mass density \\ (g/cm$^3$)}} \\
-		\cmidrule(lr){2-3}
-		& QCM & Ion current & \\
+		\multirow{2}{*}{Film ID} & \multirow{2}{*}{Pressure (Pa)} & \multicolumn{2}{c}{Thickness (nm)} & \multirow{2}{*}{\makecell{Mass density \\ (g/cm$^3$)}} \\
+		\cmidrule(lr){3-4}
+		&  & QCM & Ion current & \\
 		\midrule
-		0.0 & 63 & 58 & 4.00 \\
-		0.1 & 46.5 & 38 & 4.80 / 4.75 \\
-		0.2 & 42 & 34.5 & 4.80 / 4.75 \\
-		0.3 & 45.5 & 39 & 4.65 \\
+		10 & 0.0 & 63 & 58 & 4.00 \\
+		13 & 0.1 & 46.5 & 38 & 4.80 / 4.75 \\
+		14 & 0.2 & 42 & 34.5 & 4.80 / 4.75 \\
+		11 & 0.3 & 45.5 & 39 & 4.65 \\
 		\bottomrule
 	\end{tabular}
 \end{table}
@@ -415,19 +416,6 @@ The ion flux remains relatively constant at $(0.7$--$1.0) \times 10^{17}$~ions$\
 
 The atomic flux shows non-monotonic pressure dependence, increasing from $2.6 \times 10^{17}$~atoms$\cdot$cm$^{-2}$$\cdot$s$^{-1}$ in metallic mode to a maximum of $4.0 \times 10^{17}$~atoms$\cdot$cm$^{-2}$$\cdot$s$^{-1}$ at 0.2~Pa, before decreasing slightly to $3.3 \times 10^{17}$~atoms$\cdot$cm$^{-2}$$\cdot$s$^{-1}$ at 0.3~Pa.
 
-\subsection{Observations on Flux Magnitudes}
 
-The atomic flux is systematically higher than the ion flux by factors of 3--4 across all pressure conditions. In metallic mode (0~Pa), where film composition is purely Ti and Al without nitrogen, the atomic flux is approximately 3.7 times larger than the ion flux. This ratio increases to approximately 4 in reactive mode.\\
-
-Several factors may contribute to this discrepancy:
-\begin{itemize}
-	%\item Spatial gradients between the probe and QCM measurement positions (Section~\ref{sec:holder_assembly_figure})
-	%\item Uncertainties in mean charge state determination from ERMS peak integration
-	\item The QCM to flux conversion using $M_{\text{eff}}$ of the resulting film instead of the plasma
-	\item Systematic errors in probe collection or measurement resistance values
-	%\item Time-averaging differences between continuous QCM measurements and pulsed probe measurements
-\end{itemize}
-
-The origin of the flux magnitude difference requires further investigation. The relative trends (pressure independence of ion flux, non-monotonic behavior of atomic flux) are considered robust, while the absolute magnitudes carry larger systematic uncertainties. Detailed analysis of this discrepancy is deferred to future work.
 
 

@@ -6,15 +6,7 @@
 
 Cathodic arc plasmas form at microscopic emission centers, known as cathode spots, on an otherwise cold metal electrode under vacuum. Spot ignition occurs when the local cathode surface, through breakdown of adsorbates or field-enhanced thermionic emission, undergoes a rapid, explosive release of electrons and vaporized metal. During a single spot pulse, a few nanograms of the cathode material rapidly heat up, vaporize, and ionize, producing a dense, quasineutral plasma plume composed mostly of metal ions and electrons. The peak spot current densities reach \(10^{10}\)--\(10^{12}\)\,A\,m\(^{-2}\), far above steady-state thermionic or field emission limits. These microexplosions, termed ectons (explosive electron emission centers), were first described by Mesyats \cite{mesyats1995} and produce localized nanosecond-scale plasma bursts. The arc is sustained by repetitive ecton events occurring at or near the same location \cite[Chap.~3.3--3.4]{cathodic_arcs}.\\
 
-
-
-
-Key Characteristics of Spot-Generated Plasma:
-\begin{compactitem}
-    \item High degree of ionization: >90 \% of the ejected metal atoms emerge as ions, a consequence of the extreme power density in the cathode spot \cite[Chap.~3.5]{cathodic_arcs}.
-    \item Multiply charged ions: the charge state distributions extend to \(Q=3\)–4 for refractory metals, such as Ti and Al, due to the high electron temperature and density in the spot plasma \cite[Chap.~3.5]{cathodic_arcs}.\\
-    
-\end{compactitem}
+The spot-generated plasma exhibits two defining characteristics. First, the extreme power density at the cathode spot produces a high degree of ionization, with more than 90\% of the ejected metal atoms emerging as ions \cite[Chap.~3.5]{cathodic_arcs}. Second, the high electron temperature and density in the spot plasma generate multiply charged ions, with charge state distributions extending to $Q = 3$--4 for refractory metals such as Ti and Al \cite[Chap.~3.5]{cathodic_arcs}.\\
 
 Spot ignition and quenching occur on timescales of 10--100\,ns, with each pulse ejecting a fully ionized burst of metal vapour. The sustained arc discharge thus consists of continuously overlapping microplasma pulses, producing a metal-rich, high-flux ion stream well-suited for energetic thin-film deposition.
 
@@ -72,9 +64,11 @@ Spot ignition and quenching occur on timescales of 10--100\,ns, with each pulse 
 		\draw[->, thick, blue!60] (0.9,2.8) -- (1.2,3.5);
 		
 	\end{tikzpicture}
-	\caption[Schematic of cathode spot operation]{Schematic of cathode spot operation. The arc current $I_{\rm arc}$ concentrates at a microscopic spot (1--10\,\textmu m diameter), creating a molten crater from which a plasma plume of metal ions, electrons and macroparticles expand. Adapted from \cite{juttner2001}}.
+	\caption[Schematic of cathode spot operation]{Schematic of cathode spot operation. The arc current $I_{\rm arc}$ concentrates at a microscopic spot (1--10\,\textmu m), creating a molten crater from which a plasma plume of metal ions, electrons and macroparticles expand. Adapted from \cite{juttner2001}}.
 	\label{fig:cathode_spot}
 \end{figure}
+
+While the cathode spot mechanism remains fundamentally similar in both continuous and pulsed operation, the temporal modulation of the arc current produces distinct plasma dynamics that affect film growth.
 
 \subsection{Pulsed vs. Continuous Arc Operation}
 
@@ -141,7 +135,7 @@ These values, measured near the cathode spot, serve as reference for understandi
 
 As ions travel from the cathode through the filter and toward the substrate, their properties evolve due to geometric expansion and potential collisions. The ion flux decreases with the square of the distance due to the expanding plasma front. Additionally, collisions with background gas (if present) can reduce ion kinetic energies and alter charge state distributions through charge-exchange reactions.\\
 
-In vacuum (metallic mode), the ion energy distributions remain relatively narrow and well-defined. At increased distances, the plasma density decreases but the relative composition and charge states are largely preserved. However, the ion flux at the substrate position becomes a critical parameter, as it determines the rate at which energy is delivered to the growing film. Understanding how distance affects the ion flux therefore provides insight into the spatial uniformity of the deposition process and allows optimization of substrate positioning.
+In vacuum (metallic mode), the ion energy distributions remain relatively narrow and well-defined. At increased distances, the plasma density decreases but the relative composition and charge states are largely preserved, therefore the ion flux at the substrate position becomes an important parameter, as it determines the rate at which energy is delivered to the growing film. Understanding how distance affects the ion flux therefore provides insight into the spatial uniformity of the deposition process and allows optimization of substrate positioning.
 
 \subsection{Effect of External Magnetic Fields}
 
@@ -165,7 +159,7 @@ The ion flux $\Gamma$ represents the number of ions arriving per unit area per u
 \end{equation}
 where $e$ is the elementary charge and $\langle Q \rangle$ the average ion charge state. This relationship is central to correlating time-averaged ion flux with deposited mass.
 
-In vacuum cathodic arcs, the burning voltage remains nearly constant at 20--25\,V for arc currents up to 1\,kA, so the plasma generation rate and thus $\Gamma$ increases approximately linearly with $I_{\rm arc}$ \cite[Chap.~6.5]{cathodic_arcs}. However, the absolute ion flux at the substrate depends not only on the arc current but also on the distance from the source and the presence of magnetic fields or reactive gases. These factors determine the fraction of generated plasma that reaches the substrate and the composition of that plasma. The transition from metallic to reactive operation introduces additional complexity, as discussed in the following section.
+In vacuum cathodic arcs, the burning voltage remains nearly constant at 30--35\,V for arc currents up to 850\,A, so the plasma generation rate and thus $\Gamma$ increases approximately linearly with $I_{\rm arc}$ \cite[Chap.~6.5]{cathodic_arcs}. The absolute ion flux at the substrate depends not only on the arc current but also on the distance from the source and the presence of magnetic fields or reactive gases. These factors determine the fraction of generated plasma that reaches the substrate and the composition of that plasma. The transition from metallic to reactive operation introduces additional complexity, as discussed in the following section.
 
 \section{Reactive Mode and Nitrogen Activation}
 
@@ -207,7 +201,7 @@ The relationship between ion flux and film growth rate is dependent on
 \begin{equation}
 	R = \frac{m_{\rm ion}\,\Gamma\,S}{\rho_{\rm film}},
 \end{equation}
-where $m_{\rm ion}$ is the average ion mass, $\Gamma$ the ion flux, $S$ the sticking coefficient, and $\rho_{\rm film}$ the film density. The sticking coefficient $S$ represents the probability that an arriving ion incorporates into the growing film rather than being reflected or resputtered; for metal ions at moderate energies (below the resputter threshold of approximately 100--200\,eV), $S \approx 1$. However, the film density $\rho_{\rm film}$ itself depends on the ion energy and flux, as higher energies promote densification through subplantation. This interdependence between flux, energy, and resulting film structure motivates the systematic study of these parameters, which is the focus of this work.
+where $m_{\rm ion}$ is the average ion mass, $\Gamma$ the ion flux, $S$ the sticking coefficient, and $\rho_{\rm film}$ the film density. The sticking coefficient $S$ represents the probability that an arriving ion incorporates into the growing film rather than being reflected or resputtered; for metal ions at moderate energies $S \approx 1$ (below the resputter threshold of approximately 100--200\,eV). In contrast the film density $\rho_{\rm film}$ itself depends on the ion energy and flux, as higher energies promote densification through subplantation. This interdependence between flux, energy, and resulting film structure motivates the systematic study of these parameters, which is the focus of this work.
 
 
 

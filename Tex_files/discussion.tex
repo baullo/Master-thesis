@@ -1,103 +1,94 @@
 \chapter{Discussion of Results and Outlook}\label{chap:discussion}
+This chapter interprets the experimental findings presented in Chapter~\ref{chap:results} and connects them to the theoretical framework established in Chapter~\ref{chap:theory}. The discussion is organized around three central themes: plasma transport and composition, film growth mechanisms, and the unresolved flux measurement discrepancy.\\
 
-This chapter interprets the experimental findings presented in Chapter~\ref{chap:results} and connects them to the theoretical framework established in Chapter~\ref{chap:theory}. The discussion is organized around three central themes: plasma transport and composition, film growth mechanisms, and the correlation between plasma parameters and film properties. Measurement limitations and comparison with previous (V,Al)N work are addressed in the final sections.
 
 \section{Plasma Transport and Magnetic Field Effects}
+The anomalous decrease in both mass deposition rate and ion current at 0.05~T magnetic field (Figure~\ref{fig:metallic_mass/ion}) reflects a magnetic mirror effect at the entrance of the EM-coil, where plasma transitions from the weak fringing field ($\sim$0.01~T) outside into the stronger field (0.05~T) inside. Electrons with sufficient perpendicular velocity components are reflected, creating a localized space-charge layer that temporarily retards ion flow \cite{cathodic_arcs}. At higher fields (0.1~T and above), the beneficial effects of plasma compression and enhanced ionization overcome this mirror loss, restoring monotonic increase. This effect persists across all distances and pressures, indicating it is a fundamental feature of the plasma-coil interaction.\\
 
-\subsection{Magnetic Mirror Effect at Low Fields}
+In metallic mode, mass deposition rate follows approximate $1/r^2$ dependence (Figure~\ref{fig:distance_0.25T_mass/ion}a), consistent with free plasma expansion. Ion current decreases more steeply in reactive mode due to charge-exchange neutralization. The magnetic field enhancement increases both mass flux and ion current by factors of 5--8 from zero field to 0.25~T (Figure~\ref{fig:mag_field_14cm_mass/ion}), demonstrating effective plasma confinement despite the inherent coupling between flux and ion charge states.\\
 
-The anomalous decrease in both mass deposition rate and ion current at 0.05~T magnetic field (Figure~\ref{fig:metallic_mass/ion}) reflects a magnetic mirror effect at the entrance of the EM-coil. When plasma transitions from the weak fringing field ($\sim$0.01~T) outside the coil into the stronger field (0.05~T) inside, conservation of the magnetic moment $\mu = mv_\perp^2 / 2B$ causes electrons with significant perpendicular velocity components to be reflected \cite{magnetic_mirror}. The reflection condition is met when:
-\begin{equation}
-	\frac{v_\perp^2}{v_\parallel^2} > \frac{B_{\text{max}} - B_{\text{min}}}{B_{\text{min}}}
-\end{equation}
-
-For the transition from 0.01~T to 0.05~T, electrons with pitch angles greater than approximately 60$^\circ$ are reflected, creating a localized space-charge layer that retards ion flow. This temporarily reduces both ion flux and deposition rate despite the nominally increased magnetic confinement. At higher fields (0.1~T and above), the beneficial effects of plasma compression and enhanced ionization \cite{decoupling_kalanov_2025} overcome this mirror loss, restoring the monotonic increase expected from magnetic confinement.
-
-The persistence of this effect across all distances and pressures indicates it is a fundamental feature of the plasma-coil interaction rather than a transient or distance-dependent phenomenon. Future system optimization could minimize this loss by tapering the magnetic field profile at the coil entrance, reducing the field gradient that drives electron reflection.
-
-\subsection{Spatial Expansion and 1/r$^2$ Scaling}
-
-In metallic mode, mass deposition rate follows approximate $1/r^2$ dependence (Figure~\ref{fig:distance_0.25T_mass/ion}a), consistent with free expansion of a quasineutral plasma from a point source \cite[Chap.~4.3]{cathodic_arcs}. The 20~cm flux is approximately 25--30\% of the 10~cm value, close to the geometric factor $(10/20)^2 = 0.25$. Small deviations from perfect $1/r^2$ scaling arise from the finite source size (cathode diameter 6.35~mm) and magnetic field effects that partially collimate the plasma plume.
-
-Ion current also decreases with distance but more steeply than $1/r^2$ in reactive mode, reflecting the additional effects of charge-exchange neutralization. The spatial profiles of mass deposition rate and ion current progressively diverge as nitrogen pressure increases, indicating that charge-exchanged neutral metal atoms follow ballistic trajectories while ions can be guided by residual magnetic fields from the filter coils.
 
 \section{Reactive Mode Plasma Chemistry}
 
-\subsection{Charge-Exchange Collisions and Neutral Formation}
+The pressure dependence of ion current exhibits complex behavior at 10~cm (Figure~\ref{fig:pressure_0.25T_mass/ion}b), with an initial increase from 0 to $\sim$0.05~Pa before decreasing at higher pressures. At low nitrogen pressures (0--0.1~Pa), enhanced plasma generation at the cathode from altered spot dynamics and nitrogen ion production contribute to increased measured current. At higher pressures (above 0.1~Pa), charge-exchange collisions dominate:
 
-The pressure dependence of ion current exhibits complex behavior at close distances (Figure~\ref{fig:pressure_0.25T_mass/ion}b). At 10~cm, the ion current initially increases from 0 to approximately 0.05~Pa before decreasing at higher pressures. This non-monotonic behavior reflects two competing mechanisms operating in different pressure regimes.
+\begin{equation}
+	\text{Ti}^{2+} + \text{N}_2 \rightarrow \text{Ti}^{+} + \text{N}_2^{+}
+\end{equation}
+\begin{equation}
+	\text{Ti}^{+} + \text{N}_2 \rightarrow \text{Ti}^{0} + \text{N}_2^{+}
+\end{equation}
 
-At low nitrogen pressures (0--0.1~Pa), the initial increase may result from enhanced plasma generation at the cathode. Nitrogen incorporation into the cathode surface can alter spot dynamics, potentially increasing the erosion rate and metal ion production. Simultaneously, ion molecule reactions begin to produce nitrogen ions (N$^+$, N$_2^+$) that contribute to the total measured probe current.
-
-At higher pressures (above 0.1~Pa), charge exchange collisions dominate, reducing the metal ion contribution to the measured current:
-\begin{align}
-	\text{Ti}^{2+} + \text{N}_2 &\rightarrow \text{Ti}^{+} + \text{N}_2^{+} \\
-	\text{Ti}^{+} + \text{N}_2 &\rightarrow \text{Ti}^{0} + \text{N}_2^{+}
-\end{align}
-
-The resulting fast neutral metal atoms are invisible to the biased probe, leading to apparent current reduction even though total metal flux (measured by QCM) remains substantial. The charge-exchange cross section increases with collision energy and is largest for highly ionized species \cite[Chap.~9.4]{cathodic_arcs}.\\
-
-ERMS measurements confirm this mechanism: average mean charge states decrease from $\langle Q \rangle \approx 2.4$ (metallic) to $\langle Q \rangle \approx 1.6$ (0.3~Pa reactive), with the charge-state distribution shifting toward lower ionization levels (Figures~\ref{fig:ERMS_distance0Pa} and \ref{fig:ERMS_distance0.3Pa}). Potential energy decreases proportionally with charge state, while kinetic energy shows modest variations reflecting the competing effects of elastic scattering and cathode chemistry changes \cite{bendikt2012}.\\
-
-Additionally, nitrogen ions (N$^+$, N$_2^+$) contribute less current per particle than multiply charged metal ions because their charge states are predominantly 1+. A probe measuring 10~mA of Ti$^{2+}$ current corresponds to $3 \times 10^{16}$~ions$\cdot$s$^{-1}$, while the same 10~mA of N$^+$ represents $6 \times 10^{16}$~ions$\cdot$s$^{-1}$. This explains part of the apparent current reduction when nitrogen ions displace metal ions in the plasma composition.
+ERMS measurements confirm this mechanism: mean charge states decrease from $\langle Q \rangle \approx 2.4$ (metallic) to $\approx 1.6$ (0.3~Pa reactive), with charge-state distributions shifting toward lower ionization levels (Figures~\ref{fig:ERMS_10cm_pressure}--\ref{fig:ERMS_14cm_pressure}). Potential energy decreases proportionally, while kinetic energy shows modest variations reflecting competing effects of elastic scattering and cathode chemistry changes.\\
 
 
-\subsection{Cathode Poisoning and Spot Transitions}
+The non-monotonic pressure dependence of mass deposition rate at 10~cm (Figure~\ref{fig:pressure_0.25T_mass/ion}a), with maximum near 0.05--0.1~Pa, reflects competing effects of reactive film growth versus cathode poisoning and collisional deflection. At 14~cm and 20~cm, pressure independence indicates the plasma has undergone extensive equilibration, with collisional mean free paths ($\sim$1--10~cm at 0.1--0.3~Pa) comparable to transit distances.\\
 
-The non-monotonic pressure dependence of mass deposition rate at 10~cm (Figure~\ref{fig:pressure_0.25T_mass/ion}a), with a maximum near 0.05--0.1~Pa, reflects competing effects of cathode poisoning and reactive film growth. At low nitrogen pressures, the cathode surface remains predominantly metallic (type-2 spots), with nitrogen adsorbing on the growing film rather than the cathode \cite[Chap.~9.2--9.3]{cathodic_arcs}. This enhances deposition through compound formation without significantly reducing the metal emission rate.\\
-
-As pressure increases beyond 0.1~Pa, a compound layer (TiN or mixed TiAlN) forms on the cathode surface, transitioning to type-1 (poisoned) spots. Type-1 spots have lower erosion rates and altered emission characteristics, reducing the total material flux. Simultaneously, collisional deflection becomes significant: nitrogen molecules scatter metal ions through momentum transfer, broadening the spatial distribution and reducing flux at the measurement position \cite{boxman1995}.\\
-
-At 14~cm and 20~cm, the pressure independence of both mass deposition rate and ion current (within uncertainties) indicates that the plasma has already undergone extensive scattering and equilibration. Collisional mean free paths at 0.1--0.3~Pa are on the order of centimeters, so multiple collisions occur during transit to these distances. Further pressure increases produce no additional deflection because the plasma is already thermalized and broadly distributed.
 
 \subsection{Activated Nitrogen Species}
 
 EDX measurements (Table~\ref{tab:edx}) show substantial nitrogen incorporation in reactive mode films (33--39~at.\%), while ERMS detects only modest N$^+$/N$_2^+$ signals (10--28~at.\%) compared to metal ions. This imbalance suggests that nitrogen arrives predominantly through neutral channels: either ground-state N$_2$, vibrationally/electronically excited N$_2$*, or atomic nitrogen radicals N* produced by dissociative electron impact in the cathode spot plasma \cite{bendikt2012}.\\
 
-The quantitative relationship between ion flux measurements and atomic flux calculations (Figure~\ref{fig:flux_vs_pressure}) shows systematic differences that require further investigation. Potential contributions include calibration uncertainties in the flux conversion factors and time averaging effects between pulsed and continuous measurements.
+The quantitative relationship between ion flux measurements and atomic flux calculations (Figure~\ref{fig:flux_vs_pressure}) shows systematic differences that require further investigation. Potential contributions include calibration uncertainties in the flux conversion factors and time averaging effects between pulsed and continuous measurements.\\
+
 
 \section{Film Growth Mechanisms and Microstructure}
 
-\subsection{Energetic Condensation and Room-Temperature Crystallization}
-
-ERMS measurements confirm that total ion energies ($E_{\text{kin}} + E_{\text{pot}}$) remain above 30~eV across all experimental conditions (Figures~\ref{fig:ERMS_distance0Pa} and \ref{fig:ERMS_distance0.3Pa}), well above the threshold for subplantation driven densification \cite[Chap.~8.1]{cathodic_arcs}. In metallic mode, total energies reach 60--80~eV, while in reactive mode they remain in the 30--50~eV range despite charge-exchange reduction of potential energy. \textcolor{red}{For the metallic case this high enegies can even lead to etching effects on the films. (maybe if we confirm it, else remove sentence)}\\
-
-This energetic condensation enables room temperature film growth through two mechanisms: (1) shallow implantation of ions below the surface, occupying interstitial sites and displacing near-surface atoms through knock-on collisions and (2) localized atomic-scale heating from kinetic and potential energy deposition, enhancing adatom mobility on nanosecond timescales without global substrate heating \cite[Chap.~8.2]{cathodic_arcs}.\\
-
-XRD results validate this mechanism. In metallic mode without nitrogen, films exhibit weak and broad diffraction (Figure~\ref{fig:xrd_stacked}, 0~Pa), consistent with limited crystallinity despite energetic ion bombardment. The low intensity and broad peak width suggest small crystallite size or incomplete crystallization, typical of vapor deposited alloys without substrate heating \cite{thornton1977}. The absence of the expected (101) reflection indicates either strong (002) texture or predominantly amorphous structure with small hexagonal domains.\\
-
-In reactive mode, nitrogen incorporation fundamentally alters film growth. The appearance of sharp cubic TiAlN peaks at 0.1~Pa and their continued sharpening at higher pressures reflects progressive crystallization driven by the chemical driving force for nitride formation combined with energetic ion bombardment. The complete disappearance of the hexagonal TiAl peak indicates full conversion rather than phase coexistence.
-
-\subsection{Composition and Stoichiometry}
-
-EDX measurements show systematic deviations from cathode stoichiometry. In metallic mode, the Ti:Al ratio shifts from 62.8:37.2 (cathode) to 79:21 (film). This deviation likely arises from: (1) Different erosion rates: titanium's higher melting point (1668°C vs 660°C) and cohesive energy may lead to preferential aluminum emission from the explosive cathode spots. (2) Ionization efficiencies: aluminum's lower ionization potentials (5.99 eV for Al$^{1+}$ vs 6.83 eV for Ti$^{1+}$) could favor Al ionization, but charge state distributions show Ti$^{2+}$ is more abundant than Al$^{2+}$, suggesting ionization is not the primary factor. (3) Transport through the macroparticle filter: multiply charged ions with higher m/Q ratios experience stronger magnetic deflection, potentially causing differential transmission.\\
-
-In reactive mode, the Ti:Al ratio shifts to 3.4:1, closer to the cathode composition. This suggests that nitrogen incorporation alters the emission process, possibly through cathode poisoning that reduces overall erosion rates and equalizes Ti/Al emission. The nitrogen saturation at 39~at.\% (0.2--0.3~Pa) is close to stoichiometric (Ti$_x$,Al$_{1-x}$)N (50~at.\% N), with the deficiency attributable to a multitude of factors.
-
-\subsection{Spatial Film Thickness Gradient}
-
-XRR measurements reveal a systematic 5--8.5~nm thickness difference between the QCM and ion current probe positions (Table~\ref{tab:xrr_results}), consistent with profilometry observations. This gradient arises primarily from the plasma transport through the curved macroparticle filter rather than the initial cathode spot emission. While the cathode spot generates plasma with a cosine-like angular distribution normal to the cathode surface \cite{boxman1992,cathodic_arcs}, the subsequent passage through the 90$^\circ$ magnetic filter fundamentally reshapes the spatial distribution of the plasma beam exiting toward the substrate region \cite{boxman1992,anders1999filter}.\\
-
-The magnetic filter acts as a plasma optical system, guiding electrons along curved magnetic field lines while ions follow electrostatically to maintain quasineutrality \cite{anders1999filter}. The plasma transport efficiency through curved filters depends sensitively on the magnetic field geometry, filter duct dimensions, and the charge-to-mass ratio of the plasma species \cite{boxman1996}. Different ion species and neutrals may follow slightly different trajectories through the filter, leading to spatial variations in composition and flux at the substrate plane. Additionally, collisions with background gas can alter ion trajectories within the filter, though this effect appears minimal here since the gradient remains consistent across all nitrogen pressures (0--0.3~Pa).\\
-
-At the experimental pressures employed, the mean free path for elastic collisions ($\lambda \sim 1$--10~cm) is comparable to or larger than the substrate dimensions, so gas-phase scattering between the filter exit and substrate produces some broadening but does not fundamentally alter the flux distribution established by the filter geometry. The pressure independence of the gradient confirms that filter geometry, not gas-phase collisions, dominates the spatial distribution.
+ERMS measurements confirm total ion energies (E$_{\text{kin}}$ + E$_{\text{pot}}$) remain above 30~eV across all conditions (Figures~\ref{fig:ERMS_10cm_pressure}--\ref{fig:ERMS_14cm_pressure}), exceeding the threshold for subplantation-driven densification \cite{cathodic_arcs}. In metallic mode, total energies reach 60--80~eV; in reactive mode, 30--50~eV despite charge-exchange reduction. This energetic condensation enables room-temperature crystallization through shallow ion implantation and localized atomic-scale heating.\\
 
 
-\subsection{Mass Density and Structure-Zone Model}
+XRD results demonstrate that nitrogen incorporation is aiding for room-temperature crystallization. The metallic TiAl film (0~Pa) exhibits only weak hexagonal reflections despite receiving higher ion energies (50--60~eV from ERMS), indicating that energetic bombardment alone cannot produce well-crystallized films in this system. In contrast, all reactive mode films (0.1--0.3~Pa nitrogen) develop sharp cubic TiAlN (111) and (200) reflections even with lower ion energies (30--50~eV). This demonstrates that nitride formation provides the thermodynamic driving force ($\Delta H_f \approx -200$~kJ$\cdot$mol$^{-1}$ for TiN/AlN) necessary for crystallization, which ion bombardment alone cannot supply. Both chemical driving force and sufficient ion energy (>30~eV) are required for dense, crystalline growth at room temperature.
 
-XRR measurements show that nitrogen incorporation increases film density from 4.00~g/cm$^3$ (metallic) to 4.65--4.80~g/cm$^3$ (reactive), approaching the reference value of 4.8~g/cm$^3$ for cubic TiAlN. This 16--20\% density increase reflects two synergistic mechanisms operating in the Anders structure-zone model framework \cite{anders2010szm}.\\
-
-First, the chemical driving force for nitride formation (formation enthalpies approximately $-$200~kJ/mol for TiN and AlN \cite{paldey2003}) promotes thermodynamically stable cubic phases with high atomic packing density. The strong Ti-N and Al-N covalent bonds create a rigid framework that resists void formation during growth. Second, energetic ion bombardment (30--60~eV total energy from ERMS) provides sufficient energy for adatom relocation and defect annealing through subplantation and collision cascades \cite[Chap.~8.1--8.2]{cathodic_arcs}.\\
-
-The combination places the films in Zone~T or Zone~2 of the Anders model, characterized by dense, well-crystallized structures even without external substrate heating. In metallic mode, insufficient driving force for crystallization leaves the film in Zone~1 despite comparable ion energies, demonstrating that chemical bonding and ion bombardment act cooperatively rather than independently.\\
-
-The slight density reduction at 0.3~Pa (4.65~g/cm$^3$) compared to 0.1~Pa (4.80~g/cm$^3$) may indicate over-nitriding or formation of secondary phases. XRD shows the strongest cubic reflections at 0.1~Pa, supporting the interpretation that this pressure represents an optimal balance between nitrogen supply and film crystallization.
-
-\section{Correlation Between Plasma Parameters and Film Properties}
+XRR measurements show nitrogen incorporation raises film density from 4.00~g$\cdot$cm$^{-3}$ (metallic) to 4.65--4.80~g$\cdot$cm$^{-3}$ (reactive), approaching the cubic TiAlN reference value of 4.8~g$\cdot$cm$^{-3}$ (Table~\ref{tab:xrr_results}). This 16--20\% increase reflects both the transition to the dense cubic phase and energetic ion bombardment promoting atomic rearrangement. The slight density reduction at 0.3~Pa (4.65~g$\cdot$cm$^{-3}$) compared to 0.1--0.2~Pa (4.80~g$\cdot$cm$^{-3}$) correlates with reduced XRD intensities, suggesting over-nitriding or secondary phase formation.\\
 
 
-\section{Comparison with (V,Al)N System and Limitations}
+EDX measurements show systematic deviations from cathode stoichiometry (Table~\ref{tab:edx}). In metallic mode, the Ti:Al ratio shifts from 62.8:37.2 (cathode) to 79:21 (film), likely arising from differential erosion rates, ionization efficiencies, or transport through the magnetic filter. In reactive mode, the ratio shifts to $\sim$3.4:1, closer to cathode composition. Nitrogen saturation at 39~at.\% (0.2--0.3~Pa) approaches stoichiometric (Ti,Al)N (50~at.\% N), with the deficiency attributable to incomplete nitridation or measurement uncertainty.\\
+
+
+XRR and profilometry reveal 5--8.5~nm thickness gradients between measurement positions (Tables~\ref{tab:profilometry_results}--\ref{tab:xrr_results}), attributable to plasma transport through the curved magnetic filter. The 90$^{\circ}$ filter acts as a plasma optical system, guiding electrons along field lines while ions follow electrostatically. Different species and neutrals follow slightly different trajectories, creating spatial variations in flux and composition. The pressure independence of this gradient confirms filter geometry, not gas-phase collisions, dominates the spatial distribution.\\
+
+
+\section{Quantitative Plasma-Film Correlations}
+
+All reactive mode films (0.1--0.3~Pa) crystallize in cubic TiAlN despite room-temperature deposition, while the metallic film shows only weak hexagonal TiAl crystallinity despite receiving higher ion energies (60--80~eV vs 30--50~eV). This demonstrates that ion energy alone is insufficient and that the chemical driving force for nitride formation ($\Delta H_f \approx -200$~kJ$\cdot$mol$^{-1}$) is essential for room-temperature crystallization.\\
+
+
+Film density increases systematically with nitrogen incorporation: from 4.00~g$\cdot$cm$^{-3}$ (metallic) to 4.80~g$\cdot$cm$^{-3}$ (0.1--0.2~Pa reactive), reaching 97--100\% of the bulk cubic TiAlN reference value. The slight density reduction at 0.3~Pa (4.65~g$\cdot$cm$^{-3}$) correlates with reduced XRD peak intensities, suggesting incipient over-nitriding.\\
+
+
+XRD intensities are strongest at 0.1~Pa (33~at.\% N) rather than at higher nitrogen contents (38--39~at.\%). This correlates with the kinetic energy maximum near 0.1~Pa (Figure~\ref{fig:ERMS_14cm_pressure}): this pressure balances energetic bombardment (total energies 40--50~eV) with sufficient chemical driving force. At 0.2--0.3~Pa, collisional thermalization reduces ion energies to 30--40~eV while nitrogen saturates, slightly degrading crystallinity despite higher incorporation.\\
+
+
+The magnetic field enhancement (factors of 3--8) provides sufficient flux for practical deposition rates (0.04--0.06~nm$\cdot$s$^{-1}$) while maintaining optimal ion energies. Although magnetic field coupling prevents independent control of flux and energy, nitrogen pressure provides an alternative pathway: increasing from 0 to 0.3~Pa reduces metal ion charge states by 35--40\% while ion flux remains approximately constant (Figure~\ref{fig:flux_vs_pressure}), effectively tuning potential energy independently of flux.\\
+
+
+This work validates the room-temperature crystallization framework established for (V,Al)N \cite{unutulmazsoy,decoupling_kalanov_2025} for the industrially relevant TiAlN system. Both systems exhibit flux enhancement with magnetic field, charge state reduction with nitrogen, and crystallization above 30~eV. System-specific differences (Ti achieving higher charge states than V, different compositional shifts) reflect material-dependent chemistry but confirm the general applicability of energetic condensation to transition metal nitrides.\\
+
+
+\section{Unresolved Flux Measurement Discrepancy}
+
+The ion flux measured by the Langmuir probe is systematically lower than the atomic flux from QCM measurements by a factor of 3.7 in metallic mode and approximately 4 in reactive mode (Figure~\ref{fig:flux_vs_pressure}). At 14~cm with 0.25~T, $\Gamma_{\text{ion}} = 0.7 \times 10^{17}$~ions$\cdot$cm$^{-2}$$\cdot$s$^{-1}$ and $\Phi_{\text{total}} = 2.6 \times 10^{17}$~atoms$\cdot$cm$^{-2}$$\cdot$s$^{-1}$, giving a ratio of 0.27 instead of the expected $>0.9$ for highly ionized cathodic arc plasmas \cite{cathodic_arcs}.\\
+
+
+Systematic checks ruled out spatial positioning effects (corrected using thickness gradients from Tables~\ref{tab:profilometry_results}--\ref{tab:xrr_results}), charge state uncertainty (10--15\% error cannot explain factor of 4), QCM molar mass errors (EDX uncertainty $\sim$3\%), probe geometry effects (Debye length $\ll$ probe radius), and measurement electronics calibration. No single identified source accounts for the discrepancy.\\
+
+
+Three possibilities remain: (1) unknown systematic error in one diagnostic, (2) breakdown of measurement assumptions when applied to filtered cathodic arc plasmas, or (3) substantial neutral atom flux even in metallic mode, contrary to theory.\\
+
+
+Despite this limitation, the relative trends are robust: both diagnostics show flux increases with magnetic field, decreases with distance ($\sim 1/r^2$), and exhibits pressure-dependent behavior. The film characterization results: room-temperature crystallization, densities of 4.65--4.80~g$\cdot$cm$^{-3}$, and ERMS ion energies of 30--80~eV are unaffected by the flux measurement issue. The central conclusion that energetic condensation enables room-temperature TiAlN crystallization remains valid.\\
+
 
 
 \section{Outlook}
 
+
+This thesis set out to systematically characterize ion flux and energy delivery in TiAlN cathodic arc deposition with the goal of decoupling these parameters. While the magnetic field coupling between flux and charge states could not be broken, the work successfully demonstrated room-temperature crystallization, quantified flux enhancements up to 8$\times$, and identified a critical measurement gap: the inability to distinguish ionic from neutral contributions to the deposited flux. The systematic offset between ion and atomic flux measurements, present even in metallic mode where theory predicts full ionization, indicates fundamental limitations in the current diagnostic approach. Addressing this gap represents the most important next step for advancing understanding of cathodic arc processes.\\
+
+A practical approach to separating ionic and neutral flux contributions would involve biasing the QCM itself. By applying a negative bias voltage to the QCM crystal, ions could be repelled while neutrals continue to deposit, enabling direct measurement of the neutral flux. Comparing biased and unbiased QCM measurements under identical plasma conditions would quantify the ion-to-neutral arrival ratio without requiring ERMS charge state determinations. However, this approach faces practical challenges: with ion energies reaching 50--80 eV in metallic mode, bias voltages of several hundred volts would be required to effectively repel all ions, potentially causing electrical breakdown or damage to the QCM crystal and electronics. Complementary optical emission spectroscopy synchronized with arc pulses offers a more feasible alternative, identifying excited neutral species (N$_2^*$, N*, Ti*, Al*) through characteristic emission lines and providing independent validation of the ionization degree. Together with improved spatial mapping to account for flux gradients, these diagnostics would enable more reliable mass balance accounting and clarify the origin of the observed flux discrepancies.\\
+
+%The metallic mode films showed signs of possible damage under profilometry examination, suggesting that the higher ion energies in vacuum (60--80 eV total from ERMS) may exceed an optimal range for TiAlN. While energies of 30--60 eV promote densification and crystallization, excessive bombardment could induce etching effects or lattice damage. Systematic investigation of this upper energy limit would require varying substrate bias to increase kinetic energy beyond the natural plasma values, then correlating with film density and surface morphology. Identifying both the lower threshold for densification (already established near 30 eV) and an upper damage threshold would complete the energy-property relationship for TiAlN and enable precise process window definition.\\
+
+The combination of QCM, ion probe, and ERMS measurements demonstrated in this work generates rich datasets spanning magnetic field, pressure, distance, and time-resolved plasma parameters. However, interpreting these coupled multidimensional data remains challenging. Computational modeling offers a pathway to predictive process control that extends beyond empirical parameter optimization. Particle-in-cell simulations of plasma transport through the curved magnetic filter could predict spatial flux distributions and explain observed thickness gradients, while molecular dynamics simulations of energetic ion impacts on growing TiAlN surfaces would reveal atomic-scale mechanisms of subplantation and densification. By training models on the experimental datasets collected here, one could develop predictive frameworks that interpolate between measured conditions and extrapolate to unexplored parameter spaces. Compiling flux, energy, and film property correlations into accessible databases would enable rapid process optimization for specific coating requirements. Translating diagnostic techniques into real-time in-line monitors would enable closed-loop feedback control, with automated magnetic field or nitrogen flow adjustments maintaining target plasma conditions and improving industrial coating reproducibility.\\
+
+The broader challenge is that cathodic arc deposition of multi-element plasmas remains fundamentally underexplored. While single-element systems (Ti, Al, Cr) are relatively well-characterized, the introduction of a second metallic element creates complex interactions: differential evaporation rates from the cathode, species-dependent charge-exchange cross sections, composition-dependent nitride formation kinetics, and preferential resputtering during energetic bombardment. These coupled processes mean that changing a single parameter (magnetic field, pressure, cathode composition) produces non-obvious cascading effects throughout the plasma chemistry and film growth. This work for TiAl cathodes represents one point in a vast multi-dimensional space, and extrapolating to other compositions requires either exhaustive experimental mapping or validated predictive models. The path forward combines enhanced diagnostic capabilities to close current measurement gaps with advanced modeling to transform empirical data into predictive understanding. Specifically, optical emission spectroscopy offers a promising route to characterize neutral species through characteristic emission lines, enabling quantification of the ionization degree and neutral flux contributions that remain unmeasured in this work. Combined with computational modeling of plasma transport and film growth, such measurements would enable complete mass balance accounting and predictive process control, elevating cathodic arc deposition from a mature but empirically optimized technology to a predictively controlled process for rational design of coating systems with tailored properties.
