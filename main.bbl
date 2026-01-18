@@ -1005,218 +1005,6 @@
       \field{title}{Aluminum Titanium Nitride, Ti$_{0.65}$Al$_{0.35}$N}
       \field{year}{2013}
     \endentry
-    \entry{magnetic_mirror}{article}{}{}
-      \name{author}{4}{}{%
-        {{hash=a6629c6cd2f6515618898f9215d821c7}{%
-           family={Fernández},
-           familyi={F\bibinitperiod},
-           given={Luis},
-           giveni={L\bibinitperiod}}}%
-        {{hash=0d6bead0d349dec950c15696e41b51f5}{%
-           family={Torres},
-           familyi={T\bibinitperiod},
-           given={José},
-           giveni={J\bibinitperiod}}}%
-        {{hash=3edd34201805bb80f04c7aa0d1f44771}{%
-           family={Gómez},
-           familyi={G\bibinitperiod},
-           given={Octavio},
-           giveni={O\bibinitperiod}}}%
-        {{hash=d4480d7d00c634c2ba7115634e2721f7}{%
-           family={Tirado\bibnamedelima Bueno},
-           familyi={T\bibinitperiod\bibinitdelim B\bibinitperiod},
-           given={Eduardo},
-           giveni={E\bibinitperiod}}}%
-      }
-      \strng{namehash}{5a26d14e84c254d2627a9e146cc5e213}
-      \strng{fullhash}{7ffb7b350d2771e7d98ad2c90bd107da}
-      \strng{fullhashraw}{7ffb7b350d2771e7d98ad2c90bd107da}
-      \strng{bibnamehash}{5a26d14e84c254d2627a9e146cc5e213}
-      \strng{authorbibnamehash}{5a26d14e84c254d2627a9e146cc5e213}
-      \strng{authornamehash}{5a26d14e84c254d2627a9e146cc5e213}
-      \strng{authorfullhash}{7ffb7b350d2771e7d98ad2c90bd107da}
-      \strng{authorfullhashraw}{7ffb7b350d2771e7d98ad2c90bd107da}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Revista Mexicana de Física E}
-      \field{month}{07}
-      \field{title}{Charged particle reflection in a magnetic mirror}
-      \field{volume}{21}
-      \field{year}{2024}
-      \verb{doi}
-      \verb 10.31349/RevMexFisE.21.020211
-      \endverb
-    \endentry
-    \entry{boxman1995}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=e202fbbf92cd2d1c983f8da30a48bf76}{%
-           family={Boxman},
-           familyi={B\bibinitperiod},
-           given={R.\bibnamedelimi L.},
-           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-        {{hash=8fb6d772ae75a0996e67525b92420875}{%
-           family={Goldsmith},
-           familyi={G\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=a30bf90e34714c98e36535cb0c727418}{%
-           family={Sanders},
-           familyi={S\bibinitperiod},
-           given={D.\bibnamedelimi M.},
-           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-      }
-      \strng{namehash}{d6c71609db31ee6039e7fe34b4a0e88d}
-      \strng{fullhash}{d6c71609db31ee6039e7fe34b4a0e88d}
-      \strng{fullhashraw}{d6c71609db31ee6039e7fe34b4a0e88d}
-      \strng{bibnamehash}{d6c71609db31ee6039e7fe34b4a0e88d}
-      \strng{authorbibnamehash}{d6c71609db31ee6039e7fe34b4a0e88d}
-      \strng{authornamehash}{d6c71609db31ee6039e7fe34b4a0e88d}
-      \strng{authorfullhash}{d6c71609db31ee6039e7fe34b4a0e88d}
-      \strng{authorfullhashraw}{d6c71609db31ee6039e7fe34b4a0e88d}
-      \field{extraname}{1}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Transactions on Plasma Science}
-      \field{number}{6}
-      \field{title}{Cathodic arc plasmas and their applications}
-      \field{volume}{23}
-      \field{year}{1995}
-      \field{pages}{939\bibrangedash 956}
-      \range{pages}{18}
-      \verb{doi}
-      \verb 10.1109/27.475210
-      \endverb
-    \endentry
-    \entry{boxman1992}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=e202fbbf92cd2d1c983f8da30a48bf76}{%
-           family={Boxman},
-           familyi={B\bibinitperiod},
-           given={R.\bibnamedelimi L.},
-           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-        {{hash=8fb6d772ae75a0996e67525b92420875}{%
-           family={Goldsmith},
-           familyi={G\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{b1dde0ed24fedc960964b5fb407448c5}
-      \strng{fullhash}{b1dde0ed24fedc960964b5fb407448c5}
-      \strng{fullhashraw}{b1dde0ed24fedc960964b5fb407448c5}
-      \strng{bibnamehash}{b1dde0ed24fedc960964b5fb407448c5}
-      \strng{authorbibnamehash}{b1dde0ed24fedc960964b5fb407448c5}
-      \strng{authornamehash}{b1dde0ed24fedc960964b5fb407448c5}
-      \strng{authorfullhash}{b1dde0ed24fedc960964b5fb407448c5}
-      \strng{authorfullhashraw}{b1dde0ed24fedc960964b5fb407448c5}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Surface and Coatings Technology}
-      \field{title}{Macroparticle contamination in cathodic arc coatings: Generation, transport and control}
-      \field{volume}{52}
-      \field{year}{1992}
-      \field{pages}{39\bibrangedash 50}
-      \range{pages}{12}
-      \verb{doi}
-      \verb 10.1016/0257-8972(92)90369-L
-      \endverb
-    \endentry
-    \entry{anders1999filter}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=e668bdeba74e882981b263cb90e09e62}{%
-           family={Anders},
-           familyi={A\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{e668bdeba74e882981b263cb90e09e62}
-      \strng{fullhash}{e668bdeba74e882981b263cb90e09e62}
-      \strng{fullhashraw}{e668bdeba74e882981b263cb90e09e62}
-      \strng{bibnamehash}{e668bdeba74e882981b263cb90e09e62}
-      \strng{authorbibnamehash}{e668bdeba74e882981b263cb90e09e62}
-      \strng{authornamehash}{e668bdeba74e882981b263cb90e09e62}
-      \strng{authorfullhash}{e668bdeba74e882981b263cb90e09e62}
-      \strng{authorfullhashraw}{e668bdeba74e882981b263cb90e09e62}
-      \field{extraname}{3}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Surface and Coatings Technology}
-      \field{title}{Approaches to rid cathodic arc plasmas of macro- and nanoparticles: a review}
-      \field{volume}{120--121}
-      \field{year}{1999}
-      \field{pages}{319\bibrangedash 330}
-      \range{pages}{12}
-      \verb{doi}
-      \verb 10.1016/S0257-8972(99)00460-0
-      \endverb
-    \endentry
-    \entry{boxman1996}{article}{}{}
-      \name{author}{7}{}{%
-        {{hash=e202fbbf92cd2d1c983f8da30a48bf76}{%
-           family={Boxman},
-           familyi={B\bibinitperiod},
-           given={R.\bibnamedelimi L.},
-           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-        {{hash=8853e833c0d765a76c8925074dcb728c}{%
-           family={Zhitomirsky},
-           familyi={Z\bibinitperiod},
-           given={V.},
-           giveni={V\bibinitperiod}}}%
-        {{hash=75d4a9b5acf3ebf3f32441ceb0d5487e}{%
-           family={Alterkop},
-           familyi={A\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod}}}%
-        {{hash=10ab31f27ae6f2fb128585f19180fa59}{%
-           family={Gidalevich},
-           familyi={G\bibinitperiod},
-           given={E.},
-           giveni={E\bibinitperiod}}}%
-        {{hash=eba0889e5a1543a8f5b3daa1797dd887}{%
-           family={Beilis},
-           familyi={B\bibinitperiod},
-           given={I.},
-           giveni={I\bibinitperiod}}}%
-        {{hash=595c2a722a25f75ec9186c5c7123da8c}{%
-           family={Keidar},
-           familyi={K\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=8fb6d772ae75a0996e67525b92420875}{%
-           family={Goldsmith},
-           familyi={G\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{7b8a710c70cddc9a23f3e2150ad9fe5f}
-      \strng{fullhash}{a98611a8ea84663d40343a27629ab180}
-      \strng{fullhashraw}{a98611a8ea84663d40343a27629ab180}
-      \strng{bibnamehash}{7b8a710c70cddc9a23f3e2150ad9fe5f}
-      \strng{authorbibnamehash}{7b8a710c70cddc9a23f3e2150ad9fe5f}
-      \strng{authornamehash}{7b8a710c70cddc9a23f3e2150ad9fe5f}
-      \strng{authorfullhash}{a98611a8ea84663d40343a27629ab180}
-      \strng{authorfullhashraw}{a98611a8ea84663d40343a27629ab180}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Surface and Coatings Technology}
-      \field{title}{Recent progress in filtered vacuum arc deposition}
-      \field{volume}{86--87}
-      \field{year}{1996}
-      \field{pages}{243\bibrangedash 253}
-      \range{pages}{11}
-      \verb{doi}
-      \verb 10.1016/S0257-8972(96)03023-4
-      \endverb
-    \endentry
     \entry{Miller1968}{article}{}{}
       \name{author}{2}{}{%
         {{hash=56111ef74ef8258c79e4f0e6e8b25631}{%
@@ -1238,8 +1026,8 @@
       \strng{authornamehash}{5bcc974f5c0a6cded7a8f4bf22f4a922}
       \strng{authorfullhash}{5bcc974f5c0a6cded7a8f4bf22f4a922}
       \strng{authorfullhashraw}{5bcc974f5c0a6cded7a8f4bf22f4a922}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Applied Physics}
@@ -1274,8 +1062,8 @@
       \strng{authornamehash}{416bcf4dfa70cf62bfd4a835153e48b0}
       \strng{authorfullhash}{416bcf4dfa70cf62bfd4a835153e48b0}
       \strng{authorfullhashraw}{416bcf4dfa70cf62bfd4a835153e48b0}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Applied Physics}
@@ -1296,8 +1084,8 @@
       \list{organization}{1}{%
         {INFICON}%
       }
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labeltitlesource}{title}
       \field{note}{PN 074-511-P1E}
       \field{title}{SQM-160 Multi-Film Rate/Thickness Monitor Operating Manual}
@@ -1308,85 +1096,6 @@
       \verb{url}
       \verb https://www.inficon.com
       \endverb
-    \endentry
-    \entry{basic_massspec}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=e202fbbf92cd2d1c983f8da30a48bf76}{%
-           family={Boxman},
-           familyi={B\bibinitperiod},
-           given={R.\bibnamedelimi L.},
-           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-        {{hash=8fb6d772ae75a0996e67525b92420875}{%
-           family={Goldsmith},
-           familyi={G\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=a30bf90e34714c98e36535cb0c727418}{%
-           family={Sanders},
-           familyi={S\bibinitperiod},
-           given={D.\bibnamedelimi M.},
-           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-      }
-      \strng{namehash}{d6c71609db31ee6039e7fe34b4a0e88d}
-      \strng{fullhash}{d6c71609db31ee6039e7fe34b4a0e88d}
-      \strng{fullhashraw}{d6c71609db31ee6039e7fe34b4a0e88d}
-      \strng{bibnamehash}{d6c71609db31ee6039e7fe34b4a0e88d}
-      \strng{authorbibnamehash}{d6c71609db31ee6039e7fe34b4a0e88d}
-      \strng{authornamehash}{d6c71609db31ee6039e7fe34b4a0e88d}
-      \strng{authorfullhash}{d6c71609db31ee6039e7fe34b4a0e88d}
-      \strng{authorfullhashraw}{d6c71609db31ee6039e7fe34b4a0e88d}
-      \field{extraname}{2}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Transactions on Plasma Science}
-      \field{note}{Includes quantitative plasma diagnostics where standard deviation is used to characterize measurement scatter and reproducibility of arc plasma parameters.}
-      \field{number}{6}
-      \field{title}{Cathodic arc plasmas and their applications}
-      \field{volume}{23}
-      \field{year}{1995}
-      \field{pages}{939\bibrangedash 956}
-      \range{pages}{18}
-      \verb{doi}
-      \verb 10.1109/27.475210
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1109/27.475210
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1109/27.475210
-      \endverb
-    \endentry
-    \entry{taylor1997}{book}{}{}
-      \name{author}{1}{}{%
-        {{hash=13cd2b5c9128bffc38d1f40b64e3f67c}{%
-           family={Taylor},
-           familyi={T\bibinitperiod},
-           given={John\bibnamedelima R.},
-           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Sausalito, CA}%
-      }
-      \list{publisher}{1}{%
-        {University Science Books}%
-      }
-      \strng{namehash}{13cd2b5c9128bffc38d1f40b64e3f67c}
-      \strng{fullhash}{13cd2b5c9128bffc38d1f40b64e3f67c}
-      \strng{fullhashraw}{13cd2b5c9128bffc38d1f40b64e3f67c}
-      \strng{bibnamehash}{13cd2b5c9128bffc38d1f40b64e3f67c}
-      \strng{authorbibnamehash}{13cd2b5c9128bffc38d1f40b64e3f67c}
-      \strng{authornamehash}{13cd2b5c9128bffc38d1f40b64e3f67c}
-      \strng{authorfullhash}{13cd2b5c9128bffc38d1f40b64e3f67c}
-      \strng{authorfullhashraw}{13cd2b5c9128bffc38d1f40b64e3f67c}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{2nd}
-      \field{title}{An Introduction to Error Analysis: The Study of Uncertainties in Physical Measurements}
-      \field{year}{1997}
     \endentry
   \enddatalist
 \endrefsection

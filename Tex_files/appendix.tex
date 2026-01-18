@@ -108,20 +108,19 @@ QCM frequency measurements were recorded before and after each set of pulses. Th
 
 \section{Uncertainty Analysis}\label{appendix:uncertainty}
 
-This section provides detailed uncertainty analysis for each diagnostic technique, including sources of systematic and random errors, and error propagation through derived quantities.
+This section documents the uncertainty analysis for measurements reported in this work. Uncertainties were determined from three primary sources: instrument specifications, statistical variations in repeated measurements, and propagation through derived quantities.
 
-\subsection{ERMS Measurements}
+\subsection{Primary Measurements}
 
-The non-stationary nature of cathode spots in cathodic arcs leads to significant fluctuations in ion flux and charge composition from pulse to pulse \cite{cathodic_arcs}. For ERMS measurements, the standard deviation $\sigma_E$ characterizes the pulse-to-pulse variability and is displayed as error bars in energy distribution plots. This statistical approach is well-documented in mass spectrometry literature \cite{basic_massspec}.\\
+\subsubsection{QCM Mass Measurements}
 
-The ERMS requires optimization of electrode voltages to ensure stable ion transmission through the analyzer. This tuning process was performed using the cathodic arc plasma itself and optimized for N$_2^{+}$ ions at their peak energy.\\
+The QCM frequency measurements have a manufacturer-specified resolution that translates to a mass uncertainty of approximately $\pm 5.64 \times 10^{-10}$ g per measurement. This corresponds to a relative uncertainty of approximately 0.1\% for typical deposited masses. This instrumental precision is negligible compared to other uncertainty sources in this work.\\
 
-The detection efficiency varies with $M/Q$ due to the transmission characteristics of the quadrupole mass filter and the detector response. Mass transmission correction factors were applied to account for these effects. The uncertainty in these correction factors is estimated at $\pm$10\%. The energy analyzer has a finite resolution $\Delta E/E \approx 2\%$ \cite{hiden_eqp_manual}, which limits the ability to resolve closely spaced peaks in the energy distribution but does not significantly affect the determination of mean energies.
+The number of pulses (64 in most cases) was controlled digitally and has negligible counting uncertainty. The active crystal area (0.504 cm$^2$) is specified by the manufacturer due to the hole size in the QCM block with a diameter of 8~mm.
 
+\subsubsection{Ion Current Measurements}
 
-\subsection{Ion Probe Measurements}
-
-For ion current probe measurements, the standard deviation of the time-averaged current over the pulse duration characterizes the within-pulse variability. This variability can be attributed to fluctuations in plasma potential at pulse ignition and termination, charge-exchange reactions between ions and background neutral gas, and variations in arc current due to cathode spot dynamics. Figure~\ref{fig:ion_current_waveform_appendix} shows an example ion current waveform with typical within-pulse variations.
+Ion current measurements exhibited significant variability due to the non-stationary nature of cathodic arc plasmas. The standard deviation of time-averaged current within individual pulses ranged from 33\% to 68\% of the mean value (relative uncertainty), with a mean of 45\% across all conditions measured.\\
 
 \begin{figure}[h]
 	\centering
@@ -130,79 +129,54 @@ For ion current probe measurements, the standard deviation of the time-averaged 
 	\label{fig:ion_current_waveform_appendix}
 \end{figure}
 
-Pulse-to-pulse variability is examined in Section~\ref{sec:errorbar}. For most measurements, ion current waveforms were averaged over multiple pulses (typically 64 pulses) using the oscilloscope's averaging function to reduce noise. The reported uncertainty in these cases reflects within-pulse variability rather than pulse-to-pulse differences.
+This large variability arises from cathode spot motion and splitting or extinction events, plasma potential fluctuations during pulse ignition and termination, and charge-exchange collisions with background gas that depend on pressure. The oscilloscope (Tektronix MSO64) has a specified voltage measurement accuracy of less than 1\%, which is negligible compared to the plasma variability. Error bars on ion current measurements represent the within-pulse standard deviation and characterize the inherent variability of the arc discharge under nominally constant operating conditions.
 
-The ion collection area depends on the sheath thickness, which varies with bias voltage and plasma density. For a cylindrical probe of radius $r_p = 2.5$~mm biased at $V_b = -80$~V in a plasma with electron temperature $T_e \approx 5$~eV, the Debye length is estimated as:
+\subsubsection{ERMS Measurements}
+
+Mean charge states determined from energy-resolved mass spectrometry (Equation~\ref{eq:mean_charge_state}) have uncertainties ranging from 14\% to 24\% (relative), with a mean of 20\%. These uncertainties arise from statistical variations in ion energy distributions, mass transmission correction factors (estimated at $\pm 10\%$), and the energy analyzer resolution of $\Delta E/E \approx 2\%$ per manufacturer specification.\\
+
+The reported charge state uncertainties propagate from the standard deviations of the measured energy distribution functions for each charge state, weighted by their respective ion currents.
+
+\subsection{Derived Quantities}
+
+
+Ion flux (calculated from ion current and mean charge state) has significantly larger uncertainties. For ion flux $\Phi_i = I_{\text{ion}}/(Q \cdot e \cdot A)$, the relative uncertainty is
+%
 \begin{equation}
-	\lambda_D = \sqrt{\frac{\epsilon_0 k_B T_e}{e^2 n_e}} \approx 10^{-5}~\text{m}
+	\frac{\sigma_{\Phi_i}}{\Phi_i} = \sqrt{\left(\frac{\sigma_I}{I}\right)^2 + \left(\frac{\sigma_Q}{Q}\right)^2},
 \end{equation}
-assuming $n_e \approx 10^{17}$~m$^{-3}$. Since $r_p \gg \lambda_D$, sheath expansion effects are negligible and the geometric probe area ($A = 0.196$~cm$^2$) is appropriate. Energetic ions striking the probe surface can induce secondary electron emission, which would reduce the measured ion current. For Cu surfaces bombarded by Ti and Al ions at energies of 30--80~eV, the secondary electron yield is typically $< 0.1$ \cite[Chap.~8.2]{cathodic_arcs}. The $-80$~V bias is sufficient to suppress these secondary electrons, so this effect is considered negligible.
+%
+where uncertainties were propagated using standard error propagation for uncorrelated variables. This quantity is dominated by the ion current uncertainty (33--68\%) and charge state uncertainty (14--24\%), resulting in combined uncertainties of 36--72\% depending on conditions.\\
 
-The probe collection area (diameter 5~mm) is smaller than the QCM active area (diameter 7.5~mm), and both are positioned as close as possible to each other. However, radial plasma density gradients inherent to expanding cathodic arc plasmas \cite[Chap.~6.2]{cathodic_arcs} mean that the probe and QCM sample slightly different regions of the plasma. This effect is most significant at close distances (10~cm) and is discussed in the main text.
+Atomic flux was calculated by converting mass flux to atomic flux using the effective molar mass (determined from film composition measured by ex-situ EDX analysis) and Avogadro's number. Since composition uncertainties were not formally characterized, the reported atomic flux values do not include propagated uncertainties.
 
-\subsection{QCM Measurements}
+\subsection{Uncertainties Not Quantified}
 
-The INFICON SQM-160 controller has a frequency measurement uncertainty of $\Delta f = 0.03$~Hz according to manufacturer specifications \cite{SQM160_manual}. Using the Sauerbrey equation (Equation~\ref{eq:sauerbrey}), this corresponds to a mass uncertainty:
-\begin{equation}
-	\sigma_m = \frac{N_{\text{AT}} \rho_q \pi r^2}{F_q^2} \cdot \Delta f = 18.8146023 \times 10^{-9} \times 0.03 = 5.6 \times 10^{-10}~\text{g}
-\end{equation}
-For typical deposited masses in the range 100--1500~ng, this represents a relative uncertainty of 0.04--0.6\%, which is negligible compared to other sources of uncertainty.
+Several systematic uncertainty sources were not explicitly quantified in this work. Spatial plasma uniformity across the measurement area is estimated to contribute less than 10\% based on probe size relative to plasma diameter. Long-term calibration drift is expected to be less than 5\% as all measurements were completed within 3 months. Temperature effects on QCM sensitivity are minimal since chamber temperature remained stable within $\pm 2$~$^\circ$C and the QCM temperature coefficient is less than 0.1\% per degree. Geometric alignment uncertainties in probe positioning of $\pm 2$ cm correspond to less than 25\% flux variation at typical distances.\\
 
-The QCM is water-cooled to minimize temperature variations, which would cause frequency drift unrelated to mass deposition. The cooling water temperature was maintained at 20$\pm$1~$^\circ$C. Frequency measurements were recorded immediately before and after each deposition run (total time $<$ 1~minute) to minimize drift effects. The Sauerbrey equation assumes uniform mass loading across the entire crystal surface. In practice, the deposition profile depends on the plasma expansion geometry. The QCM controller applies no tooling factor correction ($T_F = 1.00$), which is appropriate for directional deposition from a distant source.
+These effects are expected to be small compared to the dominant uncertainty sources identified above but were not independently characterized.
 
-For TiAlN films with density $\rho_f \approx 4.5$~g\,cm$^{-3}$ deposited on quartz with $\rho_q = 2.649$~g\,cm$^{-3}$, small deviations from linearity are expected at larger mass loadings. However, all measurements were performed in the linear regime ($\Delta F \ll 0.05 F_q$), so Z-match corrections were not required (see Section~\ref{long_qcm}).
+\subsection{Summary}
 
-\subsection{Error Propagation in Derived Quantities}
+Table~\ref{tab:uncertainty_summary} summarizes the typical uncertainties for key measured and derived quantities. All error bars in figures represent these uncertainties unless otherwise noted. The large uncertainties in ion-based measurements reflect the intrinsic variability of cathodic arc plasmas rather than instrumental limitations.
 
-The ion flux $\Gamma_{\text{ion}}$ (ions\,cm$^{-2}$\,s$^{-1}$) is calculated from the ion current density measured by the Langmuir probe:
-\begin{equation}
-	\Gamma_{\text{ion}} = \frac{J_i}{e \langle Q \rangle} = \frac{V_{\text{measured}}}{e \langle Q \rangle A_{\text{probe}} R}
-	\label{eq:ion_flux_appendix}
-\end{equation}
-
-The primary sources of uncertainty are: ion current measurement ($\sigma_{V}/V \approx 5$--15\%), mean charge state determination ($\sigma_{\langle Q \rangle}/\langle Q \rangle \approx 5$--10\%), probe area ($\sigma_A/A \approx 1\%$), and measurement resistor ($\sigma_R/R \approx 0.5\%$). Assuming independent uncertainties, the standard Gaussian error propagation formula gives \cite{taylor1997}:
-\begin{equation}
-	\left(\frac{\sigma_{\Gamma_{\text{ion}}}}{\Gamma_{\text{ion}}}\right)^2 = \left(\frac{\sigma_V}{V}\right)^2 + \left(\frac{\sigma_{\langle Q \rangle}}{\langle Q \rangle}\right)^2 + \left(\frac{\sigma_A}{A}\right)^2 + \left(\frac{\sigma_R}{R}\right)^2
-	\label{eq:ion_flux_error}
-\end{equation}
-The dominant contributions are from the current measurement and charge state determination, giving a total relative uncertainty of approximately 7--18\% depending on measurement conditions.
-
-The total deposited flux $\Phi_{\text{total}}$ (atoms\,cm$^{-2}$\,pulse$^{-1}$) is derived from QCM measurements:
-\begin{equation}
-	\Phi_{\text{total}} = \frac{\Delta m \cdot N_A}{A_{\text{QCM}} \cdot N_{\text{pulses}} \cdot M_{\text{eff}}}
-	\label{eq:total_flux_appendix}
-\end{equation}
-
-The primary sources of uncertainty are:
-\begin{itemize}[noitemsep]
-	\item \textbf{Mass measurement} ($\sigma_m/m \approx 0.5\%$): For typical deposited masses of 100--1500~ng over 64 pulses, the frequency shift ranges from 1--50~Hz. With the instrument uncertainty of $\Delta f = 0.03$~Hz \cite{SQM160_manual}, this gives a relative uncertainty of 0.06--3\%. However, temperature drift and baseline fluctuations typically add an additional 0.3--0.5\%, giving a combined uncertainty of approximately 0.5\% for most measurements. This is supported by repeated measurements at identical conditions showing mass reproducibility within 0.4--0.6\%.
-	
-	\item \textbf{QCM area} ($\sigma_{A_{\text{QCM}}}/A_{\text{QCM}} \approx 1\%$): The active crystal area is defined by the electrode diameter (7.5~mm). Manufacturer specifications for AT-cut crystals indicate electrode diameter tolerances of $\pm$0.05~mm \cite{SQM160_manual}, corresponding to 0.5\% uncertainty in diameter or approximately 1.2\% in area.
-	
-	\item \textbf{Effective molar mass} ($M_{\text{eff}}$): The effective molar mass depends on film composition determined by EDX. For metallic films (no nitrogen), the Ti:Al ratio was measured by EDX as approximately 4:1 (80~at.\% Ti, 20~at.\% Al), giving $M_{\text{eff}} = 46.2$~g\,mol$^{-1}$. This differs from the cathode composition (62.8~at.\% Ti, 37.2~at.\% Al, $M_{\text{eff}} = 44.2$~g\,mol$^{-1}$) due to differences in ionization efficiency and transport through the magnetic filter \cite{cathodic_arcs}. For reactive films, nitrogen content from EDX is added to determine $M_{\text{eff}}$ for the TiAlN compound.
-	
-	EDX quantification typically achieves 2--3\% relative accuracy for major elements (>10~at.\%) and 5--10\% for minor elements under optimal conditions \cite{goldstein2017}. However, quantitative uncertainty estimates (error bars) were not provided by the EDX analysis software for this work. Therefore, the uncertainty in $M_{\text{eff}}$ is not included in the error propagation calculations below, and the total flux uncertainties represent lower bounds. Given the exploratory nature of the measurements and the measurement variability from other sources, this simplified approach is considered adequate.
-\end{itemize}
-
-The error propagation for total deposited flux, excluding the unmeasured composition uncertainty, is:
-\begin{equation}
-	\left(\frac{\sigma_{\Phi_{\text{total}}}}{\Phi_{\text{total}}}\right)^2 = \left(\frac{\sigma_m}{m}\right)^2 + \left(\frac{\sigma_{A_{\text{QCM}}}}{A_{\text{QCM}}}\right)^2 \approx (0.005)^2 + (0.01)^2
-	\label{eq:total_flux_error}
-\end{equation}
-yielding a total relative uncertainty of approximately 1.1\%. This represents a lower bound on the true uncertainty, as it does not include the contribution from composition measurement uncertainty (typically 2--5\% based on literature values for EDX). The actual uncertainty in $\Phi_{\text{total}}$ is likely in the range of 2--6\%, but cannot be precisely quantified without EDX uncertainty data.
-
-
-
-The ratio $\Gamma_{\text{ion}}/\Phi_{\text{total}}$ provides insight into the fraction of deposited material arriving as ions versus neutrals, which is particularly important for distinguishing between metallic and reactive deposition modes. The relative uncertainty in this ratio, excluding composition uncertainty, is:
-\begin{equation}
-	\left(\frac{\sigma_{\text{ratio}}}{\text{ratio}}\right)^2 = \left(\frac{\sigma_{\Gamma_{\text{ion}}}}{\Gamma_{\text{ion}}}\right)^2 + \left(\frac{\sigma_{\Phi_{\text{total}}}}{\Phi_{\text{total}}}\right)^2 
-	\label{eq:ratio_error}
-\end{equation}
-giving a total uncertainty of approximately 35--44\%, completely dominated by the ion flux measurement. The total deposited flux contributes negligibly to the overall uncertainty (<0.3\% additional uncertainty). 
-
-This large uncertainty in the ion-to-total flux ratio is unavoidable given the fluctuating nature of cathodic arc plasmas. 
-
-
+\begin{table}[h]
+	\centering
+	\caption[Summary of measurement uncertainties]{Summary of measurement uncertainties}
+	\label{tab:uncertainty_summary}
+	\begin{tabular}{lcc}
+		\toprule
+		\textbf{Quantity} & \textbf{Relative Uncertainty} & \textbf{Dominant Source} \\
+		\midrule
+		QCM mass & 0.1\% & Instrument precision \\
+		Ion current & 33--68\% (mean: 45\%) & Plasma variability \\
+		Mean charge state & 14--24\% (mean: 20\%) & Energy distribution width \\
+		Mass flux & 0.1\% & QCM precision \\
+		Ion flux & 36--72\% & Ion current + charge state \\
+		Atomic flux  & Not reported & Composition error not characterized \\
+		\bottomrule
+	\end{tabular}
+\end{table}
 
 \chapter{Langmuir Probe Bias Voltage Characterization}\label{sec:bias_characterization}
 

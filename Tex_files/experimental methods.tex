@@ -28,7 +28,7 @@ where $L = 0.02$~m is the solenoid length, $N = 5$ is the number of turns, $\mu_
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.85\textwidth]{"Figures/experimental methods/Pulse waveform"}
+	\includegraphics[width=0.85\textwidth]{"Figures/experimental methods/Pulse waveform"}	
 	\caption[Pulse waveforms for arc and EM-coil]{Example pulse waveforms showing the arc current (red) and EM-coil current (black) as functions of time. The orange dashed lines indicate the trigger timing: (a) EM-coil trigger at $t = -0.2$~ms, (b) arc trigger at $t = 0$~ms. The waveforms shown are pulses at 250~V EM-coil input voltage. Distance: 10~cm, pressure: 0~Pa, magnetic field: 0.25~T.}
 		\label{fig:pulse-waveform}
 \end{figure}
@@ -57,108 +57,104 @@ The vacuum chamber setup for cathodic arc plasma diagnostics and thin film depos
 \centering
 \resizebox{1\textwidth}{!}{%
 \begin{circuitikz}
-\tikzstyle{every node}=[font=\Large]
-\draw  (4,10) ellipse (0.25cm and 1.5cm);
-\draw [ rotate around={-12:(4.25,10)}] (4.25,10) ellipse (0.25cm and 1.5cm);
-\draw [ rotate around={-25:(4.5,10)}] (4.5,10) ellipse (0.25cm and 1.5cm);
-\draw [ rotate around={-56:(5.25,9.25)}] (5.25,9.25) ellipse (0.25cm and 1.5cm);
-\draw [ rotate around={-37:(4.75,9.75)}] (4.75,9.75) ellipse (0.25cm and 1.5cm);
-\draw [ rotate around={-69:(5.5,9)}] (5.5,9) ellipse (0.25cm and 1.5cm);
-\draw [ rotate around={-88:(5.5,8.5)}] (5.5,8.5) ellipse (0.25cm and 1.5cm);
-\draw [ rotate around={-44:(5,9.5)}] (5,9.5) ellipse (0.25cm and 1.5cm);
-\draw [ color={rgb,255:red,224; green,27; blue,36} ] (5.5,7.75) ellipse (1cm and 0.25cm);
-\draw [short] (7,8.5) -- (7,6.25);
-\draw [short] (4,11.5) -- (4,12.75);
-\draw [short] (4,12.75) -- (11,12.75);
-\draw [short] (5.5,5.25) -- (5.5,4.25);
-\draw [ fill={rgb,255:red,222; green,221; blue,218} , line width=1pt ] (5,6.5) rectangle (6,5.5);
-\draw [ color={rgb,255:red,224; green,27; blue,36}, short] (11,6.75) -- (5.75,6.75);
-\draw [ color={rgb,255:red,224; green,27; blue,36}, short] (11.5,8) -- (5.75,8);
-\draw [ fill={rgb,255:red,119; green,118; blue,123} ] (5.25,4.75) rectangle (5.75,6.75);
-\node [font=\LARGE] at (4.75,5.25) {};
-\draw [short] (7,6.25) -- (6,6.25);
-\draw [ color={rgb,255:red,224; green,27; blue,36} ] (5.5,7) ellipse (1cm and 0.25cm);
-\draw [ color={rgb,255:red,224; green,27; blue,36} ] (5.5,7.25) ellipse (1cm and 0.25cm);
-\draw [ color={rgb,255:red,224; green,27; blue,36} ] (5.5,7.5) ellipse (1cm and 0.25cm);
-\draw [line width=1.5pt, short] (5,6.5) -- (5,7.75);
-\draw [line width=1.5pt, short] (6,6.5) -- (6,7.75);
-\draw [ fill={rgb,255:red,246; green,245; blue,244} ] (-9,7.25) rectangle  node {\Large Ion probe circuit} (-3.75,6);
-\draw [ fill={rgb,255:red,246; green,245; blue,244} ] (-5.75,5.5) rectangle  node {\Large QCM} (-3.25,3.75);
-\node [font=\LARGE] at (-1.5,11.5) {};
-\node [font=\Large] at (-1.5,12) {};
-\node [font=\normalsize] at (-0.75,11.5) {};
-\draw [ fill={rgb,255:red,246; green,245; blue,244} ] (10.25,14.75) rectangle  node {\Large Arc PSU} (15.25,13);
-\draw [ fill={rgb,255:red,246; green,245; blue,244} ] (10.25,6) rectangle  node {\Large EM-coil PSU} (15.25,4.25);
-\draw [ color={rgb,255:red,224; green,27; blue,36}, short] (11.5,8) -- (11.5,6);
-\draw [ color={rgb,255:red,224; green,27; blue,36}, short] (11,6.75) -- (11,6);
-\draw (14.75,6) to[short, -o] (14.75,7) ;
-\draw (14.75,13) to[short, -o] (14.75,12) ;
-\draw (-7.25,6) to[short, -o] (-7.25,5) ;
-\draw [ fill={rgb,255:red,246; green,245; blue,244} ] (-9,3.25) rectangle  node {\Large Oscilloscope} (-3.25,0);
-\draw  (10,8) ellipse (0.25cm and 0.5cm);
-\draw  (7.75,12.75) ellipse (0.25cm and 0.5cm);
-\draw [short] (10,8.5) -- (10,9);
-\draw [short] (7.75,13.25) -- (7.75,13.75);
-\draw (7.75,13.75) to[short, -o] (7.75,14) ;
-\draw (10,9) to[short, -o] (10,9.25) ;
-\draw [ color={rgb,255:red,129; green,61; blue,156}, line width=1pt, ->, >=Stealth, dashed] (13,10.75) -- (11.5,10.75);
-\draw [ color={rgb,255:red,129; green,61; blue,156}, line width=1pt, ->, >=Stealth, dashed] (13,11.5) -- (10.25,12.5);
-\node [font=\large, color={rgb,255:red,229; green,165; blue,10}] at (14,11.75) {};
-\node [font=\Large, color={rgb,255:red,129; green,61; blue,156}] at (13.5,11.5) {(1)};
-\node [font=\Large, color={rgb,255:red,129; green,61; blue,156}] at (13.5,10.75) {(2)};
-\node [font=\Large, color={rgb,255:red,229; green,165; blue,10}] at (7.25,14) {(3)};
-\node [font=\Large, color={rgb,255:red,229; green,165; blue,10}] at (10,9.75) {(4)};
-\node [font=\Large, color={rgb,255:red,224; green,27; blue,36}] at (14.75,11.5) {(a)};
-\node [font=\Large, color={rgb,255:red,224; green,27; blue,36}] at (14.75,7.5) {(b)};
-\node [font=\Large, color={rgb,255:red,224; green,27; blue,36}] at (-7.25,4.5) {(c)};
-\node [font=\Large, color={rgb,255:red,224; green,27; blue,36}] at (-9.75,10.25) {(d)};
-\draw (-8.5,10.25) to[short, -o] (-9.25,10.25) ;
-\draw [ color={rgb,255:red,129; green,61; blue,156}, ->, >=Stealth, dashed] (-3.25,2.75) -- (-1.5,2.75);
-\draw [ color={rgb,255:red,129; green,61; blue,156}, ->, >=Stealth, dashed] (-3.25,2) -- (-1.5,2);
-\draw (-3.25,1.25) to[short, -o] (-1.75,1.25) ;
-\draw (-3.25,0.5) to[short, -o] (-1.75,0.5) ;
-\node [font=\Large, color={rgb,255:red,129; green,61; blue,156}] at (-1,2.75) {(1)};
-\node [font=\Large, color={rgb,255:red,129; green,61; blue,156}] at (-1,2) {(2)};
-\node [font=\Large, color={rgb,255:red,229; green,165; blue,10}] at (-1,1.25) {(3)};
-\node [font=\Large, color={rgb,255:red,229; green,165; blue,10}] at (-1,0.5) {(4)};
-\draw (-9,1) to (-9.25,1) node[ground]{};
-\draw (-5.75,4.25) to (-6.5,4.25) node[ground]{};
-\draw (-9,6.75) to (-9.5,6.75) node[ground]{};
-\draw (10.25,5.25) to (9.5,5.25) node[ground]{};
-\draw (10.25,14) to (9.5,14) node[ground]{};
-\draw (-7.5,9.5) to (-7.5,9.25) node[ground]{};
-\draw [ line width=0.5pt ] (-3.5,9) rectangle (-2.5,8);
-\draw [line width=0.7pt, <->, >=Stealth] (-1.5,9.25) -- (3.5,9.25);
-\draw [ color={rgb,255:red,51; green,209; blue,122}, line width=2pt, ->, >=Stealth] (5.5,6.75) .. controls (5.5,9.75) and (5.25,10.5) .. (-0.5,10.5) ;
-\node [font=\Large, color={rgb,255:red,46; green,194; blue,126}] at (2,10.75) {Plasma};
-\draw [ fill={rgb,255:red,246; green,245; blue,244} ] (9.5,3.25) rectangle  node {\Large Delay generator} (15.25,0);
-\draw (9.5,2.75) to[short, -o] (8.25,2.75) ;
-\draw (9.5,2) to[short, -o] (8.25,2) ;
-\draw (9.5,1.25) to[short, -o] (8.25,1.25) ;
-\draw (9.5,0.5) to[short, -o] (8.25,0.5) ;
-\node [font=\Large, color={rgb,255:red,224; green,27; blue,36}] at (7.5,2.75) {(a)};
-\node [font=\Large, color={rgb,255:red,224; green,27; blue,36}] at (7.5,2) {(b)};
-\node [font=\Large, color={rgb,255:red,224; green,27; blue,36}] at (7.5,1.25) {(c)};
-\node [font=\Large, color={rgb,255:red,224; green,27; blue,36}] at (7.5,0.5) {(d)};
-\draw [ color={rgb,255:red,224; green,27; blue,36}, line width=0.7pt, <->, >=Stealth] (-2.25,10.5) -- (-2.25,8);
-\draw [ color={rgb,255:red,224; green,27; blue,36}, line width=0.7pt, dashed] (-2.25,7.75) -- (-4.5,7.75);
-\draw [ color={rgb,255:red,224; green,27; blue,36}, line width=0.7pt, dashed] (-4.5,10.75) -- (-2.25,10.75);
-\draw  (-6.5,10.5) rectangle (-2.5,10.25);
-\draw [ fill={rgb,255:red,246; green,245; blue,244} ] (-8.5,11.25) rectangle  node {\Large ERMS} (-6.25,9.5);
-\draw [ rotate around={-75:(5.5,8.75)}] (5.5,8.75) ellipse (0.25cm and 1.5cm);
-\draw [short] (11,12.75) -- (11,13);
-\draw [short] (11.25,13) -- (11.25,10.75);
-\draw [short] (11.25,10.75) -- (8.5,10.75);
-\draw [short] (8.5,10.75) -- (8.5,4.25);
-\draw [short] (8.5,4.25) -- (5.5,4.25);
-\draw [short] (-3.25,6.75) -- (-3.75,6.75);
-\draw [short] (-2.75,8) -- (-2.75,4.75);
-\draw [short] (-3.25,4.75) -- (-2.75,4.75);
-\draw [line width=0.7pt, short] (-7.75,6) -- (-7.75,3.25);
-\node [font=\Large] at (1,8.75) {Distance variation};
-\draw [short] (-3.25,6.75) -- (-3.25,8);
+	\tikzstyle{every node}=[font=\Large]
+	\draw  (4,10) ellipse (0.25cm and 1.5cm);
+	\draw [ rotate around={-12:(4.25,10)}] (4.25,10) ellipse (0.25cm and 1.5cm);
+	\draw [ rotate around={-25:(4.5,10)}] (4.5,10) ellipse (0.25cm and 1.5cm);
+	\draw [ rotate around={-56:(5.25,9.25)}] (5.25,9.25) ellipse (0.25cm and 1.5cm);
+	\draw [ rotate around={-37:(4.75,9.75)}] (4.75,9.75) ellipse (0.25cm and 1.5cm);
+	\draw [ rotate around={-69:(5.5,9)}] (5.5,9) ellipse (0.25cm and 1.5cm);
+	\draw [ rotate around={-88:(5.5,8.5)}] (5.5,8.5) ellipse (0.25cm and 1.5cm);
+	\draw [ rotate around={-44:(5,9.5)}] (5,9.5) ellipse (0.25cm and 1.5cm);
+	\draw [ color={rgb,255:red,224; green,27; blue,36} ] (5.5,7.75) ellipse (1cm and 0.25cm);
+	\draw [short] (7,8.5) -- (7,6.25);
+	\draw [short] (4,11.5) -- (4,12.75);
+	\draw [short] (4,12.75) -- (11,12.75);
+	\draw [short] (5.5,5.25) -- (5.5,4.25);
+	\draw [ fill={rgb,255:red,222; green,221; blue,218} , line width=1pt ] (5,6.5) rectangle (6,5.5);
+	\draw [ color={rgb,255:red,224; green,27; blue,36}, short] (11,6.75) -- (5.75,6.75);
+	\draw [ color={rgb,255:red,224; green,27; blue,36}, short] (11.5,8) -- (5.75,8);
+	\draw [ fill={rgb,255:red,119; green,118; blue,123} ] (5.25,4.75) rectangle (5.75,6.75);
+	\draw [short] (7,6.25) -- (6,6.25);
+	\draw [ color={rgb,255:red,224; green,27; blue,36} ] (5.5,7) ellipse (1cm and 0.25cm);
+	\draw [ color={rgb,255:red,224; green,27; blue,36} ] (5.5,7.25) ellipse (1cm and 0.25cm);
+	\draw [ color={rgb,255:red,224; green,27; blue,36} ] (5.5,7.5) ellipse (1cm and 0.25cm);
+	\draw [line width=1.5pt, short] (5,6.5) -- (5,7.75);
+	\draw [line width=1.5pt, short] (6,6.5) -- (6,7.75);
+	\draw [ fill={rgb,255:red,246; green,245; blue,244} ] (-9,7.25) rectangle  node {\Large Ion probe circuit} (-3.75,6);
+	\draw [ fill={rgb,255:red,246; green,245; blue,244} ] (-1.25,5.5) rectangle  node {\Large QCM} (-3.75,3.75);
+	\draw [ fill={rgb,255:red,246; green,245; blue,244} ] (10.25,14.75) rectangle  node {\Large Arc PSU} (15.25,13);
+	\draw [ fill={rgb,255:red,246; green,245; blue,244} ] (10.25,6) rectangle  node {\Large EM-coil PSU} (15.25,4.25);
+	\draw [ color={rgb,255:red,224; green,27; blue,36}, short] (11.5,8) -- (11.5,6);
+	\draw [ color={rgb,255:red,224; green,27; blue,36}, short] (11,6.75) -- (11,6);
+	\draw (14.75,6) to[short, -o] (14.75,7) ;
+	\draw (14.75,13) to[short, -o] (14.75,12) ;
+	\draw (-7,6) to[short, -o] (-7,5) ;
+	\draw [ fill={rgb,255:red,246; green,245; blue,244} ] (-9,3.25) rectangle  node {\Large Oscilloscope} (-3.25,0);
+	\draw  (10,8) ellipse (0.25cm and 0.5cm);
+	\draw  (7.75,12.75) ellipse (0.25cm and 0.5cm);
+	\draw [short] (10,8.5) -- (10,9);
+	\draw [short] (7.75,13.25) -- (7.75,13.75);
+	\draw (7.75,13.75) to[short, -o] (7.75,14) ;
+	\draw (10,9) to[short, -o] (10,9.25) ;
+	\draw [ color={rgb,255:red,129; green,61; blue,156}, line width=1pt, ->, >=Stealth, dashed] (13,10.75) -- (11.5,10.75);
+	\draw [ color={rgb,255:red,129; green,61; blue,156}, line width=1pt, ->, >=Stealth, dashed] (13,11.5) -- (10.25,12.5);
+	\node [font=\large, color={rgb,255:red,229; green,165; blue,10}] at (14,11.75) {};
+	\node [font=\Large, color={rgb,255:red,129; green,61; blue,156}] at (13.5,11.5) {(1)};
+	\node [font=\Large, color={rgb,255:red,129; green,61; blue,156}] at (13.5,10.75) {(2)};
+	\node [font=\Large, color={rgb,255:red,229; green,165; blue,10}] at (7.25,14) {(3)};
+	\node [font=\Large, color={rgb,255:red,229; green,165; blue,10}] at (10,9.75) {(4)};
+	\node [font=\Large, color={rgb,255:red,224; green,27; blue,36}] at (14.75,11.5) {(a)};
+	\node [font=\Large, color={rgb,255:red,224; green,27; blue,36}] at (14.75,7.5) {(b)};
+	\node [font=\Large, color={rgb,255:red,224; green,27; blue,36}] at (-7,4.5) {(c)};
+	\node [font=\Large, color={rgb,255:red,224; green,27; blue,36}] at (-7.5,12.5) {(d)};
+	\draw (-7.5,11.25) to[short, -o] (-7.5,12) ;
+	\draw [ color={rgb,255:red,129; green,61; blue,156}, ->, >=Stealth, dashed] (-3.25,2.75) -- (-1.5,2.75);
+	\draw [ color={rgb,255:red,129; green,61; blue,156}, ->, >=Stealth, dashed] (-3.25,2) -- (-1.5,2);
+	\draw (-3.25,1.25) to[short, -o] (-1.75,1.25) ;
+	\draw (-3.25,0.5) to[short, -o] (-1.75,0.5) ;
+	\node [font=\Large, color={rgb,255:red,129; green,61; blue,156}] at (-1,2.75) {(1)};
+	\node [font=\Large, color={rgb,255:red,129; green,61; blue,156}] at (-1,2) {(2)};
+	\node [font=\Large, color={rgb,255:red,229; green,165; blue,10}] at (-1,1.25) {(3)};
+	\node [font=\Large, color={rgb,255:red,229; green,165; blue,10}] at (-1,0.5) {(4)};
+	\node [font=\Large] at (-3.25,11.5) {Substrate position};
+	\draw (-1.25,4.5) to (-0.75,4.5) node[ground]{};
+	\draw (-6,6) to (-6,5.75) node[ground]{};
+	\draw (10.25,5.25) to (9.5,5.25) node[ground]{};
+	\draw (10.25,14) to (9.5,14) node[ground]{};
+	\draw (-7.5,9.5) to (-7.5,9.25) node[ground]{};
+	\draw [ line width=0.5pt ] (-3.5,9) rectangle (-2.5,8);
+	\draw [line width=0.7pt, <->, >=Stealth] (-1.5,9.25) -- (3.5,9.25);
+	\draw [ color={rgb,255:red,51; green,209; blue,122}, line width=2pt, ->, >=Stealth] (5.5,6.75) .. controls (5.5,9.75) and (5.25,10.5) .. (-0.5,10.5) ;
+	\node [font=\Large, color={rgb,255:red,46; green,194; blue,126}] at (2,10.75) {Plasma};
+	\draw [ fill={rgb,255:red,246; green,245; blue,244} ] (9.5,3.25) rectangle  node {\Large Delay generator} (15.25,0);
+	\draw (9.5,2.75) to[short, -o] (8.25,2.75) ;
+	\draw (9.5,2) to[short, -o] (8.25,2) ;
+	\draw (9.5,1.25) to[short, -o] (8.25,1.25) ;
+	\draw (9.5,0.5) to[short, -o] (8.25,0.5) ;
+	\node [font=\Large, color={rgb,255:red,224; green,27; blue,36}] at (7.5,2.75) {(a)};
+	\node [font=\Large, color={rgb,255:red,224; green,27; blue,36}] at (7.5,2) {(b)};
+	\node [font=\Large, color={rgb,255:red,224; green,27; blue,36}] at (7.5,1.25) {(c)};
+	\node [font=\Large, color={rgb,255:red,224; green,27; blue,36}] at (7.5,0.5) {(d)};
+	\draw [ color={rgb,255:red,224; green,27; blue,36}, line width=0.7pt, <->, >=Stealth] (-2.25,10.5) -- (-2.25,8);
+	\draw [ color={rgb,255:red,224; green,27; blue,36}, line width=0.7pt, dashed] (-2.25,7.75) -- (-4.5,7.75);
+	\draw [ color={rgb,255:red,224; green,27; blue,36}, line width=0.7pt, dashed] (-4.5,10.75) -- (-2.25,10.75);
+	\draw  (-6.5,10.5) rectangle (-2.5,10.25);
+	\draw [ fill={rgb,255:red,246; green,245; blue,244} ] (-9,11.25) rectangle  node {\Large ERMS} (-6.25,9.5);
+	\draw [ rotate around={-75:(5.5,8.75)}] (5.5,8.75) ellipse (0.25cm and 1.5cm);
+	\draw [short] (11,12.75) -- (11,13);
+	\draw [short] (11.25,13) -- (11.25,10.75);
+	\draw [short] (11.25,10.75) -- (8.5,10.75);
+	\draw [short] (8.5,10.75) -- (8.5,4.25);
+	\draw [short] (8.5,4.25) -- (5.5,4.25);
+	\draw [short] (-3.25,6.75) -- (-3.75,6.75);
+	\draw [short] (-2.75,8) -- (-2.75,5.5);
+	\draw [line width=0.7pt, short] (-7.75,6) -- (-7.75,3.25);
+	\node [font=\Large] at (1,8.75) {Distance variation};
+	\draw [short] (-3.25,6.75) -- (-3.25,8);
 \end{circuitikz}
 }%
+
 
 \caption[Vacuum chamber setup with diagnostics]{Schematic of the vacuum chamber setup for cathodic arc plasma diagnostics and thin film deposition. (a) Arc power supply, (b) EM-coil power supply, (c) Langmuir probe and QCM, (d) energy-resolving mass spectrometer (ERMS). The delay generator (a–d) synchronizes the arc power supply, EM-coil activation, and diagnostic tools.}
 
@@ -499,7 +495,7 @@ Prior to analysis, samples were cleaned ultrasonically in isopropanol to remove 
 
 The primary elements analyzed were titanium (Ti), aluminum (Al), and nitrogen (N). Oxygen (O) and silicon (Si) were also monitored to assess surface oxidation and to detect any contribution from the Si substrate. The measured film compositions are used to calculate the effective molar mass $M_{\text{eff}}$ required for determining total deposited flux from QCM measurements (Section~\ref{sec:QMS}). Compositional results and representative EDX spectra are presented in Section~\ref{sec:EDX_results}.
 
-\section{Calculation of Ion Flux and Total Deposited Flux}
+\section{Calculation of Ion Flux and Total Deposited Flux}\label{sec:flux_calculations}
 The plasma diagnostic measurements described in Section~\ref{sec:langmuir_probe}--\ref{sec:QMS} provide electrical currents, deposited masses, and ion energy distributions. To quantify the actual particle arrival rates and relate these to film growth, these raw measurements must be converted to particle fluxes. This section describes the calculation procedures that combine multiple diagnostic techniques to derive ion flux and total deposited flux.
 
 

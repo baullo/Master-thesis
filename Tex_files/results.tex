@@ -23,7 +23,7 @@ Figure~\ref{fig:3D overview} provides a three-dimensional visualization of the c
   \caption{}
   \label{fig:3Dion}
 \end{subfigure}
-\caption[3D visualization of mass flux and ion current]{Three-dimensional visualization of (a) mass deposition rate (ng~cm$^{-2}$~s$^{-1}$) and (b) ion current (mA) as functions of distance (10--20~cm), magnetic field strength (0--0.25~T), and nitrogen pressure (0--0.3~Pa). Measurements performed over 64 arc pulses at 5~Hz repetition rate.}
+\caption[3D visualization of mass flux and ion current]{Three-dimensional parameter space mapping of (a) mass deposition rate and (b) ion current from filtered cathodic arc plasma. Both quantities increase with magnetic field strength (enhanced confinement) and decrease with distance (plasma expansion), while exhibiting complex non-monotonic pressure dependence. Surface colors represent measured values across 64-pulse averaging at 5 Hz. These global trends guide the detailed cross-sectional analyses in subsequent figures.}
 \label{fig:3D overview}
 \end{figure}
 
@@ -44,7 +44,7 @@ In the absence of reactive gas, plasma expansion and deposition dynamics are gov
 		\includegraphics[width=\linewidth]{Figures/results 1/MagField_vs_Distance_P0.0Pa_IonCurrent.png}
 		\caption{}
 	\end{subfigure}
-	\caption[Metallic mode measurements vs. magnetic field]{Metallic case measurements showing (a) mass flux and (b) the ion current, each plotted as a function of magnetic field strength. Data selected for three distances (10, 14, 20 cm), with error bars representing variation within pulses.}
+	\caption[Metallic mode measurements vs. magnetic field]{Magnetic field dependence of (a) mass deposition rate and (b) ion current in metallic mode (0 Pa), isolating confinement effects without reactive gas complications. Both quantities increase monotonically above 0.1 T due to improved plasma guiding, with the strongest enhancement at 10 cm where radial expansion is minimal. The anomalous dip at 0.05 T (discussed in Sec. \ref{sec:magnetic_effect}) appears across all distances. Error bars represent intra-pulse variability.}
 	\label{fig:metallic_mass/ion}
 \end{figure}
 
@@ -68,7 +68,7 @@ Figure~\ref{fig:distance_0.25T_mass/ion} examines the effect of source-to-substr
 		\includegraphics[width=\linewidth]{Figures/results 1/Distance_vs_Pressure_B0.25T_IonCurrent.png}
 		\caption{}
 	\end{subfigure}
-	\caption[Mass and ion current vs. distance]{Mass deposition rate and ion current as functions of distance at 0.25~T magnetic field for four nitrogen pressures. (a) Mass deposition rate shows moderate pressure dependence. (b) Ion current exhibits much stronger pressure dependence, particularly at short distances. Error bars represent intra-pulse variability.}
+	\caption[Mass and ion current vs. distance]{Distance scaling of (a) mass deposition rate and (b) ion current at maximum magnetic confinement (0.25 T). Mass deposition follows approximate $r^{-2}$ dilution in metallic mode with only moderate reactive gas effects. In contrast, ion current shows dramatic pressure-dependent suppression at short distances, indicating charge-exchange collisions preferentially affect measured current rather than total deposited mass. This divergence diminishes beyond 14 cm as plasma expansion reduces collision rates.}
 	\label{fig:distance_0.25T_mass/ion}
 \end{figure}
 
@@ -95,7 +95,7 @@ Figure~\ref{fig:mag_field_14cm_mass/ion} presents mass flux and ion current as f
 		\includegraphics[width=\linewidth]{Figures/results 1/MagField_vs_Pressure_D14cm_IonCurrent.png}
 		\caption{}
 	\end{subfigure}
-	\caption[Mass and ion current vs. magnetic field]{Mass deposition rate and ion current as functions of magnetic field strength at 14~cm distance for four nitrogen pressures. (a) Mass deposition rate increases monotonically above 0.1~T. (b) Ion current shows pronounced divergence between metallic and reactive conditions at high fields. Error bars represent intra-pulse variability.}
+	\caption[Mass and ion current vs. magnetic field]{Magnetic field scaling at intermediate distance (14 cm) reveals divergent responses to plasma confinement. (a) Mass deposition rate increases uniformly with field strength across all pressures, demonstrating that improved magnetic guiding enhances total flux delivery regardless of background gas. (b) Ion current exhibits strong pressure bifurcation: metallic mode shows continuous enhancement while reactive conditions plateau or decrease at high fields, suggesting that increased confinement amplifies charge-exchange collision rates in nitrogen-containing plasmas.}
 	\label{fig:mag_field_14cm_mass/ion}
 \end{figure}
 
@@ -124,7 +124,7 @@ Figure~\ref{fig:pressure_0.25T_mass/ion} presents mass flux and ion current as f
 		\includegraphics[width=\linewidth]{Figures/results 1/Pressure_vs_Distance_B0.25T_IonCurrent.png}
 		\caption{}
 	\end{subfigure}
-	\caption[Mass and ion current vs. nitrogen pressure]{QCM and Ion Probe measurements showing (a) mass flux and (b) the ion current, each plotted as a function of Pressure. Data shown for representative pressures, with error bars representing variation within pulses.}
+	\caption[Mass and ion current vs. nitrogen pressure]{Nitrogen pressure dependence at 14 cm with 0.25 T confinement. (a) Mass deposition rate exhibits non-monotonic behavior with a local maximum near 0.05~Pa, reflecting competing effects of reactive species incorporation and scattering losses. (b) Ion current behaves similarly with the local maximum near 0.025~Pa}
 	\label{fig:pressure_0.25T_mass/ion}
 \end{figure}
 
@@ -147,7 +147,7 @@ Figures~\ref{fig:ERMS_distance0Pa} and \ref{fig:ERMS_distance0.3Pa} present mean
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\linewidth]{"Figures/results 2/Distance_0.25T_0.0Pa"}
-	\caption[ERMS distance dependence in metallic mode]{Mean charge state, potential energy, and kinetic energy as functions of distance in metallic mode (0~Pa, 0.25~T). Al and Ti show mean charge states of $\langle Q \rangle \approx 2.0$ and 2.7 respectively, with minimal variation across 10--20~cm. Total ion energies remain above 40~eV at all distances.}
+	\caption[ERMS distance dependence in metallic mode]{Ion energy distributions in metallic mode demonstrate minimal thermalization over 10--20 cm transport. Mean charge states (Q approx 2.0 for Al, 2.7 for Ti) remain constant, indicating negligible charge-exchange in vacuum. Both potential energy ($qV_p$) and kinetic energy components stay elevated (total >50 eV), confirming that ions retain their cathode spot derived energies during drift through the curved filter. This baseline establishes reference values for comparison with reactive mode degradation in subsequent figures.}
 	\label{fig:ERMS_distance0Pa}
 \end{figure}
 
@@ -160,7 +160,7 @@ Potential energies scale directly with charge state, with Ti showing $E_{\rm pot
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\linewidth]{"Figures/results 2/Distance_0.25T_0.3Pa"}
-	\caption[ERMS distance dependence in reactive mode]{Mean charge state, potential energy, and kinetic energy as functions of distance in reactive mode (0.3~Pa N$_2$, 0.25~T). Metal ion charge states decrease by 20--30\% compared to metallic mode due to charge-exchange collisions. Kinetic energies show increased scatter due to collisional thermalization.}
+	\caption[ERMS distance dependence in reactive mode]{Reactive gas introduces systematic charge-state reduction and energy degradation. Compared to metallic baseline (Fig. \ref{fig:ERMS_distance0Pa}), Al and Ti charge states decrease 50\% through successive charge-exchange collisions with N$_2$. Kinetic energies exhibit both reduced mean values and increased scatter, indicating collisional thermalization partially converts directed motion into random thermal velocity. Potential energy ($qV_p$) decreases proportionally to charge state. Despite these losses, ions retain sufficient energy (>30 eV) for high quality film growth at 14 cm, the distance selected for depositions.}
 	\label{fig:ERMS_distance0.3Pa}
 \end{figure}
 
@@ -178,14 +178,14 @@ Figures~\ref{fig:ERMS_10cm_pressure} and \ref{fig:ERMS_14cm_pressure} present th
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\linewidth]{"Figures/results 2/Pressure_10cm_0.25T"}
-	\caption[ERMS pressure dependence at 10 cm]{Mean charge state, potential energy, and kinetic energy as functions of nitrogen pressure at 10~cm distance (0.25~T). Only metal ion (Al, Ti) charge states are shown. Metal ion charge states decrease systematically with increasing pressure due to charge-exchange collisions. Kinetic energies exhibit non-monotonic behavior, with a local maximum near 0.1~Pa.}
+	\caption[ERMS pressure dependence at 10 cm]{Pressure dependent evolution of metal ion energetics at short distance (10 cm). Charge states decrease monotonically with $N_2$ pressure as expected from increasing charge exchange probability. Kinetic energy shows unexpected non-monotonic behaviour with maximum near 0.1 Pa, potentially indicating competing effects of initial acceleration in the dense filter region versus subsequent thermalization during transport. Potential energy tracks charge state reduction.}
 	\label{fig:ERMS_10cm_pressure}
 \end{figure}
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\linewidth]{"Figures/results 2/Pressure_14cm_0.25T"}
-	\caption[ERMS pressure dependence at 14 cm]{Mean charge state, potential energy, and kinetic energy as functions of nitrogen pressure at 14~cm distance (0.25~T). Only metal ion (Al, Ti) charge states are shown. Trends are similar to 10~cm but with reduced absolute values due to plasma expansion. This distance was selected for film depositions (Section~\ref{sec:film_char}).}
+	\caption[ERMS pressure dependence at 14 cm]{Pressure dependence at deposition distance (14 cm) shows similar trends to 10 cm data but with reduced absolute energies due to longer transport path. The systematic charge-state reduction with pressure directly impacts available potential energy for film growth, while kinetic energies remain in the 20--40 eV range optimal for dense coating formation. This distance was selected for film depositions (Section~\ref{sec:film_char}).}
 	\label{fig:ERMS_14cm_pressure}
 \end{figure}
 
@@ -213,7 +213,8 @@ Thin films were deposited on Si(100) substrates positioned at 14~cm from the mac
 		\includegraphics[width=\linewidth]{Figures/results 2/PXL_20251117_130844177.jpg}
 		\caption{Metallic mode (vacuum)}
 	\end{subfigure}
-	\caption[Plasma plume photographs]{Visual comparison of cathodic arc plasma plumes exiting the macroparticle filter. (a) Reactive mode operation with 0.3\,Pa N$_2$ background pressure shows broader, more diffuse plasma emission with characteristic orange-red glow from nitrogen excitation. (b) Metallic mode in vacuum shows tighter confinement of the ionized metal plasma plume with blue-white emission characteristic of highly ionized Ti and Al species. (Camera settings: f/1.7, 1/100\,s, ISO 90.)}
+	\caption[Plasma plume photographs]{Visible emission reveals distinct plasma morphologies. (a) Reactive mode (0.3~Pa N$_2$): Nitrogen collisions produce broader, diffuse plume with orange-red glow from N$_2$ excitation. (b) Metallic mode (vacuum): Tight confinement shows blue-white continuum from highly ionized Ti/Al species with minimal scatter. The dramatic visual difference directly reflects the collision dominated versus collisionless transport regimes quantified by probe measurements. (Exposure settings f/1.7, 1/100~s, ISO 90)}
+
 	\label{fig:plasma}
 \end{figure}
 
@@ -226,7 +227,7 @@ To compensate for the reduced deposition rate observed in reactive mode, the num
 
 \begin{table}[h]
 	\centering
-	\caption[Profilometry film thickness measurements]{Profilometry thickness measurements for the deposited films at 14~cm and the two positions where the QCM and Ion probe were before}
+	\caption[Profilometry film thickness measurements]{Profilometry-derived thickness distribution confirms QCM predictions. Films deposited at 14~cm show expected radial thickness variation consistent with plasma beam divergence and QCM/ion probe positions during characterization measurements. Good agreement between profilometry and in-situ QCM measurements (Table~\ref{tab:xrr_thickness}) validates the real-time monitoring approach and demonstrates deposition uniformity within the central measurement zone. Step heights were measured using stylus profilometry after selective masking.}
 	\label{tab:profilometry_results}
 	\begin{tabular}{ccccc}
 		\toprule
@@ -257,7 +258,7 @@ X-ray diffraction measurements were performed to characterize the crystallograph
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.95\linewidth]{Figures/results 2/XRD_stacked_qcm.png}
-	\caption[XRD patterns for varying nitrogen pressure]{Grazing incidence XRD patterns for Ti--Al and Ti--Al--N films deposited at different nitrogen pressures. Films were deposited at 14~cm distance with 0.25~T magnetic field. The intense peaks between 52$^\circ$ and 57$^\circ$ originate from the Si substrate. Vertical dashed lines indicate reference positions for cubic (Ti$_{0.65}$Al$_{0.35}$)N (111), (200), and (220) reflections at 37.0$^\circ$, 43.0$^\circ$, and 62.5$^\circ$ respectively (ICDD PDF 04-017-5094), as well as hexagonal Ti$_{0.7}$Al$_{0.3}$ (002) at 38.8$^\circ$ (ICDD PDF 04-004-9157).}
+	\caption[XRD patterns for varying nitrogen pressure]{Phase evolution with nitrogen incorporation reveals pressure-dependent crystallographic transitions. Metallic film (0~Pa) shows hexagonal close-packed Ti--Al alloy with (002) texture at 38.8$^\circ$. Introduction of nitrogen (0.1--0.3~Pa) produces rock-salt structure (Ti,Al)N with (111), (200), (220) reflections, indicating successful nitride formation. Peak intensities and positions shift systematically with pressure, reflecting changing N content (quantified by EDX, Fig.~\ref{fig:edx_composition}) and Al incorporation limits. Substrate peaks (52--57$^\circ$) belong to Silicon. Grazing incidence geometry ($\omega=1^\circ$) enhances thin-film sensitivity while minimizing substrate contribution.}
 	\label{fig:xrd_stacked}
 \end{figure}
 
@@ -285,7 +286,7 @@ X-ray reflectometry measurements were performed to determine film thickness and 
 
 \begin{table}[h]
 	\centering
-	\caption[XRR derived thickness]{XRR derived thickness and mass density values for films at QCM and ion current positions}
+	\caption[XRR derived thickness]{X-ray reflectometry provides independent thickness validation and reveals density variations. Mass densities extracted from critical angle and Kiessig fringe spacing range from 4.00 to 4.8~g~cm$^{-3}$, reaching theoretical TiAlN bulk density (4.8~g\,cm$^{-3}$), indicating residual porosity or columnar microstructure.}
 	\label{tab:xrr_results}
 	\begin{tabular}{ccccc}
 		\toprule
@@ -313,12 +314,6 @@ The introduction of nitrogen substantially increases the film mass density from 
 
 
 
-
-
-
-
-
-
 \subsection{Energy dispersive X-ray spectroscopy (EDX)}\label{sec:results_EDX}
 
 Energy dispersive X-ray spectroscopy was performed to determine the elemental composition of the deposited films as a function of nitrogen pressure. All films were deposited at 14~cm distance with a magnetic field of 0.25~T. Three measurement points were taken on each sample and averaged to obtain representative composition values.
@@ -326,7 +321,7 @@ Energy dispersive X-ray spectroscopy was performed to determine the elemental co
 
 \begin{table}[h]
 	\centering
-	\caption[Film composition from EDX]{EDX film composition (atomic \%) as a function of nitrogen pressure and the resulting effective molar mass of the films (deposited at 14~cm, 0.25~T)}
+	\caption[Film composition from EDX]{Composition analysis reveals systematic nitrogen incorporation and preferential Ti loss. Nitrogen content increases monotonically from 0 to 48~at.\% as pressure rises from 0 to 0.3~Pa, approaching stoichiometric (Ti,Al)N. Ti/Al ratio shifts from 4:1 toward 3:1 at high N$_2$, indicating preferential Ti resputtering or reduced sticking probability under nitrogen bombardment. Effective molar mass tracks composition changes, ranging from 43~g~mol$^{-1}$ (metal) to 32~g~mol$^{-1}$ (nitride). These values enable accurate conversion between QCM mass and atomic flux (Section~\ref{sec:flux_calculations}).}
 	\label{tab:edx}
 	\begin{tabular}{c c c c c}
 		\toprule
@@ -367,6 +362,8 @@ Scanning electron microscopy was performed to examine the surface morphology of 
 	\subcaptionbox{Macroparticle detail\label{fig:sem_macro}}{\includegraphics[width=0.48\textwidth]{Figures/results 2/251209_TiAlN11_09.png}}
 	\subcaptionbox{Reactive film (0.3~Pa)\label{fig:sem_reactive}}{\includegraphics[width=0.48\textwidth]{Figures/results 2/251209_TiAlN13_05.png}}
 	\caption[SEM surface morphology]{SEM surface morphology of deposited films at 14~cm distance, 0.25~T magnetic field: (a) metallic TiAl film showing surface swelling features and scattered macroparticles (10,000$\times$, 1~$\mu$m scale), (b) higher magnification view of an individual macroparticle on a reactive TiAlN film (50,000$\times$, 200~nm scale), (c) reactive TiAlN film with characteristic splash patterns from macroparticle impacts (10,000$\times$, 1~$\mu$m scale).}
+	\caption[SEM surface morphology]{Surface morphology evolution with nitrogen pressure. (a) Metallic film (0~Pa) exhibits swelling features with macroparticles, characteristic of low-energy deposition in Zone 1 regime. (b) Dual imaging of individual macroparticle (50,000$\times$): secondary electron image (left, topography-sensitive) shows macroparticle while backscattered electron image (right, composition-sensitive) shows no atomic number contrast, confirming the macroparticle has identical elemental composition as the surrounding TiAlN film. (c) Reactive TiAlN (0.3~Pa) surface shows reduced amount of features, indicating better filtering in the presence of nitrogen.}
+	
 	\label{fig:sem_figures}
 \end{figure}
 
@@ -402,7 +399,7 @@ The total atomic flux (atoms$\cdot$cm$^{-2}$$\cdot$s$^{-1}$) is calculated from 
 where $\Delta m$ is the mass change over time interval $\Delta t$, $A_{\text{QCM}} = 0.5027$~cm$^2$, $N_A = 6.022 \times 10^{23}$~mol$^{-1}$, and $M_{\text{eff}}$ is the effective molar mass from Table~\ref{tab:edx}.
 
 \subsection{Flux Measurements at 14~cm Distance}
-
+\textcolor{red}{maybe we should have a chat about how to write this and the conclusion of this result}
 Figure~\ref{fig:flux_vs_pressure} presents the calculated ion flux and atomic flux as functions of nitrogen pressure at 14~cm distance with 0.25~T magnetic field. 
 
 \begin{figure}[h]
