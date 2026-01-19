@@ -11,8 +11,8 @@
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Voltage waveform across the shunt resistor}}{26}{figure.caption.13}%
 \contentsline {figure}{\numberline {3.6}{\ignorespaces QCM sensor assembly}}{27}{figure.caption.14}%
 \contentsline {figure}{\numberline {3.7}{\ignorespaces ERMS schematic diagram}}{29}{figure.caption.15}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Schematic of diffraction geometries for XRD}}{31}{figure.caption.17}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Example XRR measurement and fit}}{32}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Schematic of diffraction geometries for XRD}}{32}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Example XRR measurement and fit}}{33}{figure.caption.18}%
 \contentsline {figure}{\numberline {3.10}{\ignorespaces Interior view of the SEM sample chamber}}{34}{figure.caption.19}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces 3D visualization of mass flux and ion current}}{38}{figure.caption.20}%
@@ -21,25 +21,25 @@
 \contentsline {figure}{\numberline {4.4}{\ignorespaces Mass and ion current vs. magnetic field}}{41}{figure.caption.23}%
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Mass and ion current vs. nitrogen pressure}}{42}{figure.caption.24}%
 \contentsline {figure}{\numberline {4.6}{\ignorespaces ERMS distance dependence in metallic mode}}{44}{figure.caption.25}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces ERMS distance dependence in reactive mode}}{45}{figure.caption.26}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces ERMS pressure dependence at 10 cm}}{46}{figure.caption.27}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces ERMS pressure dependence at 14 cm}}{47}{figure.caption.28}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Plasma plume photographs}}{48}{figure.caption.29}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces ERMS distance dependence in reactive mode}}{44}{figure.caption.26}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces ERMS pressure dependence at 10 cm}}{45}{figure.caption.27}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces ERMS pressure dependence at 14 cm}}{46}{figure.caption.28}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Plasma plume photographs}}{47}{figure.caption.29}%
 \contentsline {figure}{\numberline {4.11}{\ignorespaces XRD patterns for varying nitrogen pressure}}{49}{figure.caption.31}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces SEM surface morphology}}{55}{figure.caption.38}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces SEM surface morphology}}{55}{figure.caption.38}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Ion and atomic flux vs. pressure}}{56}{figure.caption.39}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces SEM surface morphology}}{53}{figure.caption.38}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Ion and atomic flux vs. pressure}}{55}{figure.caption.39}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Holder Assembly for plasma diagnostics}}{70}{figure.caption.41}%
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Charge-state-resolved ion energy distribution functions for Ti}}{72}{figure.caption.42}%
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Example ion current waveform showing variability within a pulse}}{73}{figure.caption.45}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Holder Assembly for plasma diagnostics}}{67}{figure.caption.42}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Charge-state-resolved ion energy distribution functions for Ti}}{69}{figure.caption.43}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Charge-state-resolved ion energy distribution functions for Al}}{69}{figure.caption.44}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Example ion current waveform showing variability within a pulse}}{71}{figure.caption.47}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Langmuir probe biasing tests}}{77}{figure.caption.48}%
-\contentsline {figure}{\numberline {B.2}{\ignorespaces Pulse to pulse variation of mean ion current}}{78}{figure.caption.49}%
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Langmuir probe biasing tests}}{74}{figure.caption.50}%
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Pulse to pulse variation of mean ion current}}{75}{figure.caption.51}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Pulse waveform at 100 V input}}{80}{figure.caption.51}%
-\contentsline {figure}{\numberline {C.2}{\ignorespaces Additional distance measurements}}{81}{figure.caption.52}%
-\contentsline {figure}{\numberline {C.3}{\ignorespaces Magnetic field correlation with charge state}}{81}{figure.caption.53}%
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Pulse waveform at 100 V input}}{77}{figure.caption.53}%
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Additional distance measurements}}{78}{figure.caption.54}%
+\contentsline {figure}{\numberline {C.3}{\ignorespaces Magnetic field correlation with charge state}}{78}{figure.caption.55}%
 \addvspace {10\p@ }

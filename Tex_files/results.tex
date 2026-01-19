@@ -144,7 +144,7 @@ Energy-resolved mass spectrometry (ERMS) measurements were performed to characte
 
 Figures~\ref{fig:ERMS_distance0Pa} and \ref{fig:ERMS_distance0.3Pa} present mean charge states, potential energies, and kinetic energies as functions of distance for metallic mode (0~Pa) and reactive mode (0.3~Pa N$_2$), respectively.
 
-\begin{figure}[h]
+\begin{figure}[h!]
 	\centering
 	\includegraphics[width=\linewidth]{"Figures/results 2/Distance_0.25T_0.0Pa"}
 	\caption[ERMS distance dependence in metallic mode]{Ion energy distributions in metallic mode demonstrate minimal thermalization over 10--20 cm transport. Mean charge states (Q approx 2.0 for Al, 2.7 for Ti) remain constant, indicating negligible charge-exchange in vacuum. Both potential energy ($qV_p$) and kinetic energy components stay elevated (total >50 eV), confirming that ions retain their cathode spot derived energies during drift through the curved filter. This baseline establishes reference values for comparison with reactive mode degradation in subsequent figures.}
@@ -157,7 +157,7 @@ In metallic mode (Figure~\ref{fig:ERMS_distance0Pa}), titanium ions exhibit $\la
 
 Potential energies scale directly with charge state, with Ti showing $E_{\rm pot} \approx 38$~eV and Al $E_{\rm pot} \approx 26$~eV, remaining nearly constant across the measurement range. Kinetic energies are in the range of 20--30~eV for both species, with a slight decreasing trend with distance due to minor collisional thermalization. Importantly, total ion energies ($E_{\rm kin} + E_{\rm pot}$) exceed 40~eV at all distances, well above the $\approx$ 30~eV threshold for subplantation-driven densification \cite[Chap.~8.1]{cathodic_arcs}. This confirms that energetic condensation should remains accessible across the entire 10--20~cm range without substrate heating.\\
 
-\begin{figure}[h]
+\begin{figure}[h!]
 	\centering
 	\includegraphics[width=\linewidth]{"Figures/results 2/Distance_0.25T_0.3Pa"}
 	\caption[ERMS distance dependence in reactive mode]{Reactive gas introduces systematic charge-state reduction and energy degradation. Compared to metallic baseline (Fig. \ref{fig:ERMS_distance0Pa}), Al and Ti charge states decrease 50\% through successive charge-exchange collisions with N$_2$. Kinetic energies exhibit both reduced mean values and increased scatter, indicating collisional thermalization partially converts directed motion into random thermal velocity. Potential energy ($qV_p$) decreases proportionally to charge state. Despite these losses, ions retain sufficient energy (>30 eV) for high quality film growth at 14 cm, the distance selected for depositions.}
@@ -175,14 +175,14 @@ Potential energies decrease proportionally with the reduced charge states, falli
 
 Figures~\ref{fig:ERMS_10cm_pressure} and \ref{fig:ERMS_14cm_pressure} present the pressure dependence of charge states and ion energies at 10~cm and 14~cm, respectively. The 14~cm measurements are emphasized as this distance was selected for film depositions.
 
-\begin{figure}[h]
+\begin{figure}[h!]
 	\centering
 	\includegraphics[width=\linewidth]{"Figures/results 2/Pressure_10cm_0.25T"}
 	\caption[ERMS pressure dependence at 10 cm]{Pressure dependent evolution of metal ion energetics at short distance (10 cm). Charge states decrease monotonically with $N_2$ pressure as expected from increasing charge exchange probability. Kinetic energy shows unexpected non-monotonic behaviour with maximum near 0.1 Pa, potentially indicating competing effects of initial acceleration in the dense filter region versus subsequent thermalization during transport. Potential energy tracks charge state reduction.}
 	\label{fig:ERMS_10cm_pressure}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[h!]
 	\centering
 	\includegraphics[width=\linewidth]{"Figures/results 2/Pressure_14cm_0.25T"}
 	\caption[ERMS pressure dependence at 14 cm]{Pressure dependence at deposition distance (14 cm) shows similar trends to 10 cm data but with reduced absolute energies due to longer transport path. The systematic charge-state reduction with pressure directly impacts available potential energy for film growth, while kinetic energies remain in the 20--40 eV range optimal for dense coating formation. This distance was selected for film depositions (Section~\ref{sec:film_char}).}
@@ -227,7 +227,7 @@ To compensate for the reduced deposition rate observed in reactive mode, the num
 
 \begin{table}[h]
 	\centering
-	\caption[Profilometry film thickness measurements]{Profilometry-derived thickness distribution confirms QCM predictions. Films deposited at 14~cm show expected radial thickness variation consistent with plasma beam divergence and QCM/ion probe positions during characterization measurements. Good agreement between profilometry and in-situ QCM measurements (Table~\ref{tab:xrr_thickness}) validates the real-time monitoring approach and demonstrates deposition uniformity within the central measurement zone. Step heights were measured using stylus profilometry after selective masking.}
+	\caption[Profilometry film thickness measurements]{Profilometry-derived thickness distribution confirms QCM predictions. Films deposited at 14~cm show expected radial thickness variation consistent with plasma beam divergence and QCM/ion probe positions during characterization measurements. Good agreement between profilometry and in-situ QCM measurements (Table~\ref{tab:xrr_results}) validates the real-time monitoring approach and demonstrates deposition uniformity within the central measurement zone. Step heights were measured using stylus profilometry after selective masking.}
 	\label{tab:profilometry_results}
 	\begin{tabular}{ccccc}
 		\toprule
@@ -356,12 +356,11 @@ where the atomic fractions sum to unity ($x_{\text{Ti}} + x_{\text{Al}} + x_{\te
 Scanning electron microscopy was performed to examine the surface morphology of selected TiAl and TiAlN films. Figure~\ref{fig:sem_figures} shows representative images for films deposited under different conditions.\\
 
 
-\begin{figure}[h]
+\begin{figure}[h!]
 	\centering
 	\subcaptionbox{Metallic film (0~Pa)\label{fig:sem_metallic}}{\includegraphics[width=0.48\textwidth]{Figures/results 2/251209_TiAlN10_01.png}}
 	\subcaptionbox{Macroparticle detail\label{fig:sem_macro}}{\includegraphics[width=0.48\textwidth]{Figures/results 2/251209_TiAlN11_09.png}}
 	\subcaptionbox{Reactive film (0.3~Pa)\label{fig:sem_reactive}}{\includegraphics[width=0.48\textwidth]{Figures/results 2/251209_TiAlN13_05.png}}
-	\caption[SEM surface morphology]{SEM surface morphology of deposited films at 14~cm distance, 0.25~T magnetic field: (a) metallic TiAl film showing surface swelling features and scattered macroparticles (10,000$\times$, 1~$\mu$m scale), (b) higher magnification view of an individual macroparticle on a reactive TiAlN film (50,000$\times$, 200~nm scale), (c) reactive TiAlN film with characteristic splash patterns from macroparticle impacts (10,000$\times$, 1~$\mu$m scale).}
 	\caption[SEM surface morphology]{Surface morphology evolution with nitrogen pressure. (a) Metallic film (0~Pa) exhibits swelling features with macroparticles, characteristic of low-energy deposition in Zone 1 regime. (b) Dual imaging of individual macroparticle (50,000$\times$): secondary electron image (left, topography-sensitive) shows macroparticle while backscattered electron image (right, composition-sensitive) shows no atomic number contrast, confirming the macroparticle has identical elemental composition as the surrounding TiAlN film. (c) Reactive TiAlN (0.3~Pa) surface shows reduced amount of features, indicating better filtering in the presence of nitrogen.}
 	
 	\label{fig:sem_figures}
@@ -396,23 +395,21 @@ The total atomic flux (atoms$\cdot$cm$^{-2}$$\cdot$s$^{-1}$) is calculated from 
 \begin{equation}
 	\Phi_{\text{total}} = \frac{\Delta m \cdot N_A}{A_{\text{QCM}} \cdot \Delta t \cdot M_{\text{eff}}}
 \end{equation}
-where $\Delta m$ is the mass change over time interval $\Delta t$, $A_{\text{QCM}} = 0.5027$~cm$^2$, $N_A = 6.022 \times 10^{23}$~mol$^{-1}$, and $M_{\text{eff}}$ is the effective molar mass from Table~\ref{tab:edx}.
-
+where $\Delta m$ is the mass change over time interval $\Delta t$, $A_{\text{QCM}} = 1.54$~cm$^2$, $N_A = 6.022 \times 10^{23}$~mol$^{-1}$, and $M_{\text{eff}}$ is the effective molar mass from Table~\ref{tab:edx}.
+\newpage
 \subsection{Flux Measurements at 14~cm Distance}
-\textcolor{red}{maybe we should have a chat about how to write this and the conclusion of this result}
 Figure~\ref{fig:flux_vs_pressure} presents the calculated ion flux and atomic flux as functions of nitrogen pressure at 14~cm distance with 0.25~T magnetic field. 
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.95\linewidth]{Figures/results 2/FLUX_Pressure_14cm_0.25T.png}
-	\caption[Ion and atomic flux vs. pressure]{Ion flux and atomic flux as functions of nitrogen pressure at 14~cm distance with 0.25~T magnetic field. Ion flux (blue, left axis) remains approximately constant at $(0.7$--$1.0) \times 10^{17}$~ions$\cdot$cm$^{-2}$$\cdot$s$^{-1}$ across the pressure range. Atomic flux (orange, right axis) exhibits non-monotonic pressure dependence with a maximum near 0.2~Pa. Error bars on ion flux represent combined uncertainties from probe current and ERMS charge-state measurements.}
+	\caption[Ion and atomic flux vs. pressure]{Ion flux and atomic flux as functions of nitrogen pressure at 14~cm distance with 0.25~T magnetic field. Ion flux (blue, left axis) increases from $(0.7 \pm 0.25) \times 10^{17}$ in metallic mode to $(1.0 \pm 0.4) \times 10^{17}$~ions$\cdot$cm$^{-2}$$\cdot$s$^{-1}$ at 0.2~Pa, consistent with the ion current behavior. Atomic flux (orange, right axis) exhibits non-monotonic pressure dependence with a maximum of $(1.15 \pm 0.05) \times 10^{17}$~atoms$\cdot$cm$^{-2}$$\cdot$s$^{-1}$ near 0.2~Pa. Error bars on ion flux represent combined variation ion flux within a pulse from probe current measurements and ERMS charge-state determination.}
 	\label{fig:flux_vs_pressure}
 \end{figure}
 
-The ion flux remains relatively constant at $(0.7$--$1.0) \times 10^{17}$~ions$\cdot$cm$^{-2}$$\cdot$s$^{-1}$ across the measured pressure range, with large error bars ($\pm 30$--$50\%$) reflecting the combined uncertainties from probe current measurements and ERMS charge-state determination. The pressure independence is consistent with the ion current behavior observed in Figure~\ref{fig:pressure_0.25T_mass/ion}b at 14~cm distance.\\
 
-The atomic flux shows non-monotonic pressure dependence, increasing from $2.6 \times 10^{17}$~atoms$\cdot$cm$^{-2}$$\cdot$s$^{-1}$ in metallic mode to a maximum of $4.0 \times 10^{17}$~atoms$\cdot$cm$^{-2}$$\cdot$s$^{-1}$ at 0.2~Pa, before decreasing slightly to $3.3 \times 10^{17}$~atoms$\cdot$cm$^{-2}$$\cdot$s$^{-1}$ at 0.3~Pa.
+The ion flux shows a increase with nitrogen pressure, from $(0.7 \pm 0.2) \times 10^{17}$~ions$\cdot$cm$^{-2}$$\cdot$s$^{-1}$ in metallic mode to $(1.0 \pm 0.4) \times 10^{17}$~ions$\cdot$cm$^{-2}$$\cdot$s$^{-1}$ at 0.2~Pa before decreasing slightly to $(1.0 \pm 0.4) \times 10^{17}$~ions$\cdot$cm$^{-2}$$\cdot$s$^{-1}$ at 0.3~Pa. The large error bars ($\pm 30$--$50\%$) reflect combined variation ion flux within a pulse from the ion current probe measurements and ERMS charge-state determination. The overall trend mirrors the ion current behavior observed in Figure~\ref{fig:pressure_0.25T_mass/ion}b, where current initially increases from 0 to 0.1~Pa due to additional nitrogen ion production before saturating at higher pressures.\\
 
-
+The atomic flux exhibits clear non-monotonic pressure dependence, increasing from $0.75 \times 10^{17}$~atoms$\cdot$cm$^{-2}$$\cdot$s$^{-1}$ in metallic mode to a maximum of $1.15 \times 10^{17}$~atoms$\cdot$cm$^{-2}$$\cdot$s$^{-1}$ at 0.2~Pa (a 53\% increase), before decreasing to $0.95 \times 10^{17}$~atoms$\cdot$cm$^{-2}$$\cdot$s$^{-1}$ at 0.3~Pa.\\
 
 

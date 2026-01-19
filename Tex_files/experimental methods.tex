@@ -1,14 +1,14 @@
 % !TeX root = main.tex
 \chapter{Experimental Methodology}\label{chap:methods}
 
-This chapter describes the experimental apparatus, diagnostic techniques, and data processing methods used to investigate the correlation between ion flux and mass deposition rate in pulsed filtered cathodic arc deposition of Ti--Al--N thin films. The approach combines three complementary diagnostics: a Langmuir probe for ion current measurements, a quartz crystal microbalance (QCM) for real-time mass deposition monitoring, and an energy-resolving mass spectrometer (ERMS) for charge-state-resolved ion energy distributions.
+This chapter describes the experimental apparatus, diagnostic techniques, and data processing methods used to investigate the correlation between ion flux and mass deposition rate in pulsed filtered cathodic arc deposition of Ti--Al--N thin films. The approach combines three complementary in-situ diagnostics: a Langmuir probe for ion current measurements, a quartz crystal microbalance (QCM) for real-time mass deposition monitoring, and an energy-resolving mass spectrometer (ERMS) for charge-state-resolved ion energy distributions.
 
 
 \section{Experimental  Setup}
 
 \subsection{Vacuum \& Gas Infrastructure}
 
-The vacuum chamber was evacuated using a two-stage pumping system consisting of a dry rotor vacuum pump (Leybold ECODRY+) for roughing and a cryogenic pump (Leybold COOLVAC) for the main pumping line, achieving a base pressure on the order of $1 \times 10^{-5}$~Pa with the cryopump fully open. To control the working pressure during reactive deposition, the cryopump gate valve was partially closed to position 345 (approximately 34.5\% open), which reduced the effective pumping speed and increased the base pressure to approximately $1 \times 10^{-4}$~Pa. This configuration allowed finer control of the nitrogen partial pressure.\\
+The vacuum chamber was evacuated using a two-stage pumping system consisting of a dry rotor vacuum pump (Leybold ECODRY+) for roughing and a cryogenic pump (Leybold COOLVAC) for the main pumping line, achieving a base pressure on the order of $1 \times 10^{-5}$~Pa with the cryopump fully open. To control the working pressure during reactive deposition, the cryopump gate valve was partially closed to position 345 (approximately 34.5\% open), which reduced the effective pumping speed and increased the base pressure to approximately $1 \times 10^{-4}$~Pa. This configuration allowed for the nitrogen pressures.\\
 
 Nitrogen gas (N$_2$, 99.999\% purity) was introduced via a mass flow controller (MKS IO Type B), with chamber pressures monitored using a Pfeiffer PKR 361. The nitrogen flow rate of 1 to 12.8 ccms leads to chamber pressure ranges between 0.025 and 0.3 Pa.\\
 
@@ -18,7 +18,7 @@ Plasma was generated using a water-cooled cylindrical anode and a rod cathode wi
 
 The arc power supply (Melec SPIK3000A) operated in pulsed DC mode, delivering arc currents up to 450~A at pulse frequencies ranging from 0.2 to 5~Hz, with a typical pulse width of 1~ms. The arc current was monitored using a Chauvin Arnoux MA200 connected to a Tektronix MSO64 oscilloscope. The cathode voltage relative to ground and anode voltage relative to ground were measured on additional channels to determine the burning voltage during the pulse.\\
 
-A coil wound around the cylindrical anode (EM-coil) was used to enhance the ion charge states leaving the source through magnetic confinement. This coil was connected to a separate pulsing unit ([MODEL]) capable of delivering currents up to 850~A. The EM-coil was triggered 200~$\mu$s before arc ignition to ensure the magnetic field reached steady-state conditions before plasma generation. The coil current was monitored using another Chauvin Arnoux MA200, and the pulse duration was offset with 200~$\mu$s to stabilize the magnetic field before and during the arc pulse.\\
+A coil wound around the cylindrical anode (EM-coil) was used to enhance the ion charge states leaving the source through magnetic confinement. This coil was connected to a separate pulsing unit (Melec SPIK3000A) capable of delivering currents up to 850~A. The EM-coil was triggered 200~$\mu$s before arc ignition to ensure the magnetic field reached stable conditions before plasma generation. The coil current was monitored using another Chauvin Arnoux MA200, with a typical pulse width of 1.5~ms.\\
 
 The magnetic field strength within the EM-coil solenoid was estimated using:
 \begin{equation}
@@ -33,7 +33,7 @@ where $L = 0.02$~m is the solenoid length, $N = 5$ is the number of turns, $\mu_
 		\label{fig:pulse-waveform}
 \end{figure}
 
-\subsection{Diagnostic Positioning and Synchronization}
+\subsection{Diagnostic Positioning and Synchronization}\label{sec:synchronistation and diagnostics}
 
 A delay generator (Stanford Research Systems DG645) served as the master clock for the experimental system, providing precisely timed trigger signals to:
 \begin{itemize}[noitemsep]
@@ -45,11 +45,11 @@ A delay generator (Stanford Research Systems DG645) served as the master clock f
 
 The oscilloscope was triggered on the rising edge of the cathode voltage (channel 1), which marks the onset of the arc pulse. Channels 1 and 2 of the oscilloscope measured the cathode-to-ground voltage and anode-to-ground voltage, respectively. Channels 3 and 4 recorded the arc current and EM-coil current via current probes. The ion current was recorded separately, more on that in Section~\ref{sec:langmuir_probe}.\\
 
-The ion current probe and quartz crystal microbalance (QCM) were not triggered by the delay generator. The ion probe signal was recorded directly by the oscilloscope (triggered on the cathode voltage), automatically synchronizing ion current measurements with the arc pulses. The QCM operated continuously, with frequency measurements recorded before and after each deposition run to determine the accumulated mass change over a fixed number of pulses.
+The ion current probe and quartz crystal microbalance (QCM) were not triggered by the delay generator. The ion probe signal was recorded directly by the oscilloscope (triggered on the cathode voltage), automatically synchronizing ion current measurements with the arc pulses. The QCM operated continuously, with frequency measurements recorded before and after each sputtering run to determine the accumulated mass change over a fixed number of pulses. The BNC cable connector was detached during sputtering, this was done to protect the sensitive components in the oscillator from the highly energetic plasma.\\
 
-For in situ plasma diagnostics, the Langmuir probe and QCM were mounted on a custom movable assembly positioned at distances ranging from 10 to 20~cm from the macroparticle filter exit. The energy-resolving mass spectrometer (ERMS) was mounted on a separate linear feedthrough, allowing independent adjustment of its axial position (distance from the filter exit) for spatial characterization of the plasma. Film depositions were performed using silicon substrates (Si (100)) mounted on a third movable holder, also positioned at controlled distances from the filter exit.\\
+For in situ plasma diagnostics, the Langmuir probe and QCM were mounted on a custom movable assembly positioned at distances ranging from 10 to 20~cm from the macroparticle filter exit. The energy-resolving mass spectrometer (ERMS) was mounted on a separate linear feedthrough allowing independent adjustment of its position (distance from the filter exit) for spatial characterization of the plasma. Film depositions were performed using silicon substrates mounted on a third movable holder, also positioned at controlled distances from the filter exit.\\
 
-The vacuum chamber setup for cathodic arc plasma diagnostics and thin film deposition is shown in Figure~\ref{fig:vacuumchamber}. The green arrow illustrates the trajectory of the plasma plume as it expands from the cathode, passes through the 90$^\circ$ macroparticle filter, and reaches the diagnostics and substrate region. This experimental configuration enabled systematic investigation of plasma properties and film growth as functions of distance, magnetic field strength, and nitrogen pressure, as detailed in the following sections.
+The vacuum chamber setup for cathodic arc plasma diagnostics and thin film deposition is shown in Figure~\ref{fig:vacuumchamber}. The green arrow illustrates the trajectory of the plasma plume as it expands from the cathode, passes through the 90$^\circ$ macroparticle filter, and reaches the diagnostics and substrate positions. This experimental configuration enabled systematic investigation of plasma properties and film growth as functions of distance, magnetic field strength, and nitrogen pressure, as detailed in the following sections.
 
 
 
@@ -82,7 +82,7 @@ The vacuum chamber setup for cathodic arc plasma diagnostics and thin film depos
 	\draw [line width=1.5pt, short] (5,6.5) -- (5,7.75);
 	\draw [line width=1.5pt, short] (6,6.5) -- (6,7.75);
 	\draw [ fill={rgb,255:red,246; green,245; blue,244} ] (-9,7.25) rectangle  node {\Large Ion probe circuit} (-3.75,6);
-	\draw [ fill={rgb,255:red,246; green,245; blue,244} ] (-1.25,5.5) rectangle  node {\Large QCM} (-3.75,3.75);
+	\draw [ fill={rgb,255:red,246; green,245; blue,244} ] (-1.25,5.5) rectangle  node {\Large QCM} (-3.75,4);
 	\draw [ fill={rgb,255:red,246; green,245; blue,244} ] (10.25,14.75) rectangle  node {\Large Arc PSU} (15.25,13);
 	\draw [ fill={rgb,255:red,246; green,245; blue,244} ] (10.25,6) rectangle  node {\Large EM-coil PSU} (15.25,4.25);
 	\draw [ color={rgb,255:red,224; green,27; blue,36}, short] (11.5,8) -- (11.5,6);
@@ -155,10 +155,7 @@ The vacuum chamber setup for cathodic arc plasma diagnostics and thin film depos
 \end{circuitikz}
 }%
 
-
-\caption[Vacuum chamber setup with diagnostics]{Schematic of the vacuum chamber setup for cathodic arc plasma diagnostics and thin film deposition. (a) Arc power supply, (b) EM-coil power supply, (c) Langmuir probe and QCM, (d) energy-resolving mass spectrometer (ERMS). The delay generator (a–d) synchronizes the arc power supply, EM-coil activation, and diagnostic tools.}
-
-
+\caption[Vacuum chamber setup with diagnostics]{Schematic of the vacuum chamber setup for cathodic arc plasma diagnostics and thin film deposition with the plasma trajectory through the EM-coil and the macroparticle filter shown in green. At the substrate position the ERMS could be pulled back allowing for the substrate holder or a custom holder assembly integrated the ion current probe and QCM \ref{fig:holder_assembly} to be placed. The delay generator synchronizes both PSUs, the ERMS (when used) and the biasing power supply for the ion current probe, and the oscilloscope records all the data as described in Sec.\ref{sec:synchronistation and diagnostics}.}
 \label{fig:vacuumchamber}
 \end{figure}
 
@@ -173,7 +170,8 @@ rod machined to form a cylindrical collection surface with a nail-head geometry.
 This design prevented short circuits between the probe and the grounded mount 
 due to metallic deposition. The probe body was wrapped in Kapton tape for 
 electrical insulation from the aluminum mounting assembly 
-(Figure~\ref{fig:holder_assembly}).
+(Figure~\ref{fig:holder_assembly}).\\
+
 
 
 \begin{figure}[h!]
@@ -188,7 +186,7 @@ electrical insulation from the aluminum mounting assembly
 To ensure full ion collection and suppress electron current, the probe was 
 negatively biased at $V_b = -80$~V to operate in the ion saturation 
 regime~\cite{chen1984introduction}, as determined through bias voltage 
-characterization measurements (Section~\ref{sec:bias_characterization}).
+characterization measurements (Appendix~\ref{sec:bias_characterization}).
 
 
 
@@ -247,7 +245,8 @@ resistor. This RC configuration forms a high-pass filter with cutoff frequency:
 
 \begin{equation}
 	f_c = \frac{1}{2\pi RC} = \frac{1}{2\pi \cdot 400\,\Omega \cdot 0.5 \times 10^{-6}\,\text{F}} \approx 795\,\text{Hz}
-\end{equation}
+\end{equation}\\
+
 
 The high-pass filter blocks DC offsets while passing the pulsed ion current 
 signal. The RC time constant $\tau = 200~\mu$s is much shorter than the 2~s 
@@ -277,7 +276,7 @@ Figure~\ref{fig:ion_current_waveform} shows an example waveform of 64 pulses ave
 \begin{equation}
 	J_i = \frac{V_{\text{measured}}}{A \cdot R}
 \end{equation}
-where $A = 0.1963$~cm$^2$ is the probe collection area and $R = 400~\Omega$. 
+where $A = 0.196$~cm$^2$ is the probe collection area and $R = 400~\Omega$. 
 
 
 \subsection{Quartz Crystal Microbalance}\label{section:QCM}
@@ -300,7 +299,7 @@ The measurement principle follows the Sauerbrey equation \cite{Sauerbrey_1959}, 
 	= 18.8146023 \times 10^{-9}\,\frac{\text{g}}{\text{Hz}} \cdot \Delta F
 \end{equation}
 
-Here $\rho_q = 2.649$~g\,cm$^{-3}$ is the quartz density, $r = 0.375$~cm is the radius of the exposed crystal area, $N_{\text{AT}} = 166\,100$~Hz\,cm is the frequency constant of the AT-cut quartz, $F_q = 6$~MHz is the uncoated resonance frequency, and $\Delta F$ is the measured frequency shift.\\
+Here $\rho_q = 2.649$~g\,cm$^{-3}$ is the quartz density, $r = 0.7$~cm is the radius of the crystal area, $N_{\text{AT}} = 166\,100$~Hz\,cm is the frequency constant of the AT-cut quartz, $F_q = 6$~MHz is the uncoated resonance frequency, and $\Delta F$ is the measured frequency shift.\\
 
 The Sauerbrey relation is accurate as long as $\Delta F \lesssim 0.05 F_q$ (approximately 0.3~MHz for a 6~MHz crystal), for more details on the correction above this limit look in Appendix \ref{long_qcm}. 
 In the present experiments, the observed frequency shifts ranged from approximately 1~Hz to 50~Hz over 64 pulses. These shifts are well above the SQM-160 resolution of approximately 0.03~Hz at 6~MHz, yet orders of magnitude below the Sauerbrey breakdown limit. The Sauerbrey approximation was therefore fully sufficient for all measurements in this work.\\
@@ -311,7 +310,7 @@ In the present experiments, the observed frequency shifts ranged from approximat
 To enable direct comparison between ion current and deposited mass, the Langmuir probe and QCM were mounted on the same movable aluminum assembly. The probe was positioned through a precision-milled pass-through hole, while the QCM was secured in a dedicated cutout and fixed via screws (see Appendix~\ref{sec:holder_assembly_figure} for assembly details). This configuration ensured rigid mechanical alignment between the two diagnostics throughout all measurements.
 
 
-The probe collection area ($A_{\text{probe}} = 0.196$~cm$^2$, diameter 5~mm) was smaller than but contained within the QCM active area ($A_{\text{QCM}} = 0.442$~cm$^2$, diameter 7.5~mm). Both diagnostics were positioned as close as possible to each other to minimize spatial gradients between measurement locations. This design is meant to mitigate radial plasma density gradients inherent to expanding cathodic arc plasmas \cite[Chap.~6.2]{cathodic_arcs}, though even with close proximity, gradients cannot be completely eliminated and remained evident in the experimental results.
+The probe collection area ($A_{\text{probe}} = 0.196$~cm$^2$, diameter 5~mm) was smaller than but contained within the QCM active area ($A_{\text{QCM}} = 1.54$~cm$^2$, diameter 14~mm). Both diagnostics were positioned as close as possible to each other to minimize spatial gradients between measurement locations. This design is meant to mitigate radial plasma density gradients inherent to expanding cathodic arc plasmas \cite[Chap.~6.2]{cathodic_arcs}, though even with close proximity, gradients cannot be completely eliminated and remained evident in the experimental results.
 
 
 
@@ -493,7 +492,7 @@ EDX measurements were performed using a silicon drift detector (SDD) integrated 
 
 Prior to analysis, samples were cleaned ultrasonically in isopropanol to remove loose particles. However, organic solvent residues and hydrocarbon contamination from the vacuum system can lead to carbon deposition under electron beam irradiation \cite{goldstein2017,reimer1998}. A small carbon peak was therefore typically observed in EDX spectra and was excluded from compositional quantification of the TiAlN films. Multiple area measurements were taken on each sample to verify that all surface features, including any macroparticles or morphological structures, had the same metal-nitride composition as the underlying thin film and to identify potential impurities beyond the surface carbon layer.
 
-The primary elements analyzed were titanium (Ti), aluminum (Al), and nitrogen (N). Oxygen (O) and silicon (Si) were also monitored to assess surface oxidation and to detect any contribution from the Si substrate. The measured film compositions are used to calculate the effective molar mass $M_{\text{eff}}$ required for determining total deposited flux from QCM measurements (Section~\ref{sec:QMS}). Compositional results and representative EDX spectra are presented in Section~\ref{sec:EDX_results}.
+The primary elements analyzed were titanium (Ti), aluminum (Al), and nitrogen (N). Oxygen (O) and silicon (Si) were also monitored to assess surface oxidation and to detect any contribution from the Si substrate. The measured film compositions are used to calculate the effective molar mass $M_{\text{eff}}$ required for determining total deposited flux from QCM measurements (Section~\ref{sec:QMS}). Compositional results and representative EDX spectra are presented in Section~\ref{sec:results_EDX}.
 
 \section{Calculation of Ion Flux and Total Deposited Flux}\label{sec:flux_calculations}
 The plasma diagnostic measurements described in Section~\ref{sec:langmuir_probe}--\ref{sec:QMS} provide electrical currents, deposited masses, and ion energy distributions. To quantify the actual particle arrival rates and relate these to film growth, these raw measurements must be converted to particle fluxes. This section describes the calculation procedures that combine multiple diagnostic techniques to derive ion flux and total deposited flux.
@@ -517,7 +516,7 @@ The total deposited flux $\Phi_{\text{total}}$ (atoms\,cm$^{-2}$\,s$^{-1}$) quan
 	\label{eq:total_flux}
 \end{equation}
 
-where $\Delta m$ is the mass change measured by QCM over time interval $\Delta t$, $A_{\text{QCM}} = 0.5027$~cm$^2$ is the active crystal area (8~mm diameter), $N_A = 6.022 \times 10^{23}$~mol$^{-1}$ is Avogadro's constant, and $M_{\text{eff}}$ is the effective molar mass calculated from film composition:
+where $\Delta m$ is the mass change measured by QCM over time interval $\Delta t$, $A_{\text{QCM}} = 1.54$~cm$^2$ is the active crystal area (8~mm diameter), $N_A = 6.022 \times 10^{23}$~mol$^{-1}$ is Avogadro's constant, and $M_{\text{eff}}$ is the effective molar mass calculated from film composition:
 
 \begin{equation}
 	M_{\text{eff}} = \sum_i x_i M_i = x_{\text{Ti}} \cdot 47.867 + x_{\text{Al}} \cdot 26.982 + x_{\text{N}} \cdot 14.007

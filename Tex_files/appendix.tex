@@ -97,10 +97,13 @@ Energy-resolved mass spectrometry data were evaluated with a Python script that 
 	\caption[Charge-state-resolved ion energy distribution functions for Ti]{Charge-state-resolved ion energy distribution functions for Ti$^+$ through Ti$^{4+}$ measured at 14~cm distance with 0.25~T magnetic field and 0.1~Pa N$_2$ pressure. Mean kinetic energies and standard deviations are shown in the legend.}
 	\label{fig:ERMS-appendix}
 \end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{Figures/appendix/14cm-0.25t-n-0.1pa_Al}
+	\caption[Charge-state-resolved ion energy distribution functions for Al]{Charge-state-resolved ion energy distribution functions for Al$^+$ through Al$^{3+}$ measured at 14~cm distance with 0.25~T magnetic field and 0.1~Pa N$_2$ pressure. Mean kinetic energies and standard deviations are shown in the legend.}
+\end{figure}
 
-\textcolor{red}{add another for N/N2 and for Al to show what the y are like in additional plots }
-
-The processed results were visualized and exported to CSV files for correlation with ion probe and QCM measurements. Further example plot like \ref{fig:ERMS-appendix} can be found in \ref{sec:additional plots}
+The processed results were visualized and exported to CSV files for correlation with ion probe and QCM measurements.
 
 \subsection{QCM Data Processing}
 
@@ -290,15 +293,13 @@ In all other measurements, the oscilloscope averaged the voltage signal over mul
 \chapter{Python Code and Data Overview}\label{appendix:code}
 
 \section{Data Availability}
-\begin{verbatim}
-	use \href{URL}{link text} to generate the links below
-\end{verbatim}
+
 All raw data files, processed datasets, and analysis scripts are archived and available upon request. The main Python scripts used for data processing include:
 \begin{itemize}[noitemsep]
-	\item \texttt{ion current and mass csv generator.py}: Ion current waveform analysis and qcm mass inclusion
-	\item \texttt{Massspec maybe final.py}: ERMS data integration, mass transmission correction, and energy extraction
-	\item \texttt{XRD plotting.py}: plotting of stacked XRD plots from .txt files
-	\item \texttt{Data sets created and used for the Thesis}
+	\item \href{https://github.com/baullo/Junk_Paul-Masterthesis-Code/blob/main/ion%20current%20and%20mass%20csv%20generator.py}{Ion current and mass csv generator.py}: Ion current waveform analysis (mean and std) and qcm mass inclusion if provided.
+	\item \href{https://github.com/baullo/Junk_Paul-Masterthesis-Code/blob/main/Massspec%20final.py}{Massspec final.py}: ERMS data integration, mass transmission correction and energy states, mean charge states and potential aswell as kinetic energy extraction.
+	\item \href{https://github.com/baullo/Junk_Paul-Masterthesis-Code/blob/main/xrd_plot_stacked.py}{XRD plot stacked.py}: plotting of stacked XRD plots from .txt files
+	\item {Data sets created and used for the Thesis}
 \end{itemize}
 \textcolor{red}{dunno if i will modify the csv merger script and add it since it is too specific maybe}
 \begin{table}[htbp]
