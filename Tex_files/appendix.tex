@@ -1,5 +1,5 @@
 % !TeX root = main.tex
-\chapter{Experimental Methods supplementary}
+\chapter{Appendix: Experimental Methods supplementary}
 \section{Longer QCM depositions}\label{long_qcm}
 For larger mass loadings of the QCM, the linear approximation fails and the Z-match\texttrademark\ technique is used. This method, introduced by Lu and Lewis in 1972 on the basis of Miller and Bolef’s theoretical treatment \cite{Miller1968,Lu1972}, incorporates the acoustic properties of both the quartz and the deposited film via the acoustic impedance ratio  
 
@@ -34,7 +34,7 @@ The integrated holder assembly (Figure~\ref{fig:holder_assembly}) enabled simult
 	]{
 		\includegraphics[width=0.8\linewidth]{Figures/experimental methods/mounting assembly thingy.png}
 	}{Figures/experimental methods/fun try out(1).u3d}
-	\caption[Holder Assembly for plasma diagnostics]{Holder Assembly for In-Situ Plasma Diagnostics: Integrated QCMs and Langmuir Ion Collector Probe (interactive 3D model; static preview shown in non-Adobe viewers).}
+	\caption[Holder Assembly for plasma diagnostics]{Holder Assembly for In-Situ Plasma Diagnostics: Integrated QCMs and Ion Collector Probe (interactive 3D model; static preview shown in non-Adobe viewers).}
 	\label{fig:holder_assembly}
 \end{figure}
 
@@ -181,35 +181,33 @@ Table~\ref{tab:uncertainty_summary} summarizes the typical uncertainties for key
 	\end{tabular}
 \end{table}
 
-\chapter{Langmuir Probe Bias Voltage Characterization}\label{sec:bias_characterization}
+\newpage
 
-Before plasma diagnostics were performed, the functionality of the custom-built Langmuir probe was verified by characterizing the voltage-current relationship and determining the appropriate negative bias voltage for ion saturation measurements. The goal was to ensure that the probe operates in a regime where the collected current is dominated by ions, excluding contributions from electrons.
+\section{Langmuir Probe Bias Voltage Characterization}\label{sec:bias_characterization}
 
-\section{Validation of Langmuir Probe Operation}
+Before plasma investigations were performed, the functionality of the custom-built Ion current probe was verified by characterizing the voltage-current relationship and determining the appropriate negative bias voltage value for ion saturation range. The goal was to ensure that the probe operates in a regime where the collected current is dominated by ions, excluding the contributions from electrons.\\
 
-The bias voltage tests were performed without nitrogen in the chamber, at a fixed distance of 10~cm from the macroparticle filter, and with an EM-coil strength of 0.25~T. 
+The bias voltage measurements were performed without nitrogen in the chamber, at a fixed distance of 10~cm away from the filter, and with an EM-coil strength of 0.25~T. \\
 
 The relationship between the collected current $I$ and the bias voltage $V$ was analyzed using the modified Langmuir equation \cite{chen1984introduction}:
 \begin{align}\label{eq:langmuir_appendix}
 	I = I_{\text{sat}} \left( 1 - e^{\frac{-V}{V_0}}\right) + m \cdot V
 \end{align}
-where $I_{\text{sat}}$ is the saturation current and $V_0$ is a characteristic voltage. The term $m$ accounts for plasma sheath expansion and collisional effects at higher bias voltages.
+where $I_{\text{sat}}$ is the saturation current and $V_0$ is a characteristic voltage. The term $m$ accounts for plasma sheath expansion and collisional effects at higher bias voltages.\\
 
 Figure~\ref{fig:bias_current_appendix} displays the measured ion current as a function of bias voltage. The blue data points represent the experimental results, while the green line shows the I-V fit to Equation~\ref{eq:langmuir_appendix}.
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.9\linewidth]{Figures/results 1/bias_current_voltage_Saturation_thesis_version.png}
-	\caption[Langmuir probe biasing tests]{Measured ion current vs. bias voltage for the Langmuir probe, showing I-V fit $I=6.17(1-e^{-V/1.8})+0.023V$. Conditions: no nitrogen, 10~cm from the macroparticle filter, 0.25~T EM-coil strength.}
+	\caption[Ion current probe biasing tests]{Measured ion current vs. bias voltage, showing I-V fit $I=6.17(1-e^{-V/1.8})+0.023V$. Process conditions: no gas, 10~cm away from the macroparticle filter, 0.25~T EM-coil strength.}
 	\label{fig:bias_current_appendix}
 \end{figure}
 
-\section{Analysis of the Ion Saturation Curve}
-
-As the bias voltage increases, the sheath around the probe grows. At higher voltages, the sheath becomes non-planar, and the probe begins to attract ions not only from directly in front but also from the sides, leading to a non-saturating component in the collected current. This is a common effect seen in small probes. Additionally, collisions within the sheath or presheath region can modify the ion trajectory, resulting in a small linear increase in the collected current with voltage. The linear term $m \cdot V$ in Equation~\ref{eq:langmuir_appendix} accounts for these effects and ensures the model accurately describes the probe's behavior across the full range of applied voltages \cite[Chap.~7]{chen1984introduction}.
+As the bias voltage increases, the sheath around the probe grows. At higher voltages, the sheath becomes non-planar, and the probe begins to attract ions not only from directly in front but also from the sides, leading to a non-saturating component in the collected current. This is a common effect seen in small probes. Additionally, collisions within the sheath or presheath region can modify the ion trajectory, resulting in a small linear increase in the collected current with voltage. The linear term $m \cdot V$ in Equation~\ref{eq:langmuir_appendix} accounts for these effects and ensures the model accurately describes the probe's behavior across the full range of applied voltages \cite[Chap.~7]{chen1984introduction}.\\
 
 The experimental data were fitted to Equation~\ref{eq:langmuir_appendix} using a nonlinear least-squares method in Python, yielding the following parameters:
-\[ I_{\text{sat}} = 6.17 \, \text{mA}, \hspace{2cm} V_0 = 1.8 \, \text{V}, \hspace{2cm} m = 0.023. \]
+\[ I_{\text{sat}} = 6.17 \, \text{mA}, \hspace{2cm} V_0 = 1.8 \, \text{V}, \hspace{2cm} m = 0.023. \]\\
 
 The bias voltage test results (Figure~\ref{fig:bias_current_appendix}) show two distinct regimes:
 
@@ -221,22 +219,20 @@ The bias voltage test results (Figure~\ref{fig:bias_current_appendix}) show two 
 	Beyond approximately 40~V, the current plateaus, indicating that the probe has entered the ion saturation regime. At this point, the negative bias effectively repels all electrons, and the collected current is dominated by ions. However, the current increases slightly with voltage, which is captured by the linear correction term $m = 0.023$ in the modified Langmuir equation.
 \end{enumerate}
 
-\section{Selection of Operating Bias Voltage}
-
 A bias voltage of $-80$~V was selected for subsequent measurements to ensure the probe operates well within the ion saturation regime. While the curve begins to saturate around 40~V, choosing a higher voltage provides confidence that the probe is fully repelling electrons and measuring ion flux reliably.
 
-\section{Ion Current Variation over Different Pulses}\label{sec:errorbar}
+\section{Ion current variation over Different Pulses}\label{sec:errorbar}
 
 To analyze the pulse-to-pulse variation, approximately 30 single pulses were recorded for each magnetic field strength. The average ion current of each pulse was calculated over the 0--1~ms pulse interval. The final mean and standard deviation were then determined by combining these averages, allowing for an assessment of the differences between pulses. 
 
-\begin{figure}[h]
+\begin{figure}[h!]
 	\centering
 	\includegraphics[width=0.75\textwidth]{"Figures/results 1/pulse_variability_plot_mean"}
 	\caption[Pulse to pulse variation of mean ion current]{Pulse to pulse variation in mean ion current at varying magnetic fields (0.1~Pa N$_2$, 10~cm distance)}
 	\label{fig:pulsevariabilityplotmean}
 \end{figure}
 
-\begin{table}[h]
+\begin{table}[h!]
 	\centering
 	\begin{tabular}{ccccc}
 		\toprule
@@ -253,11 +249,11 @@ To analyze the pulse-to-pulse variation, approximately 30 single pulses were rec
 	\caption[Summary of pulse measurement statistics]{Summary of pulse measurement statistics for varying magnetic field strengths. Note: The 0.05~T data includes variability from unstable arc behavior at this field strength.}
 	\label{tab:pulse_measurements_appendix}
 \end{table}
-
+\newpage
 In all other measurements, the oscilloscope averaged the voltage signal over multiple pulses to improve signal-to-noise ratio. Therefore, the error reported in subsequent sections primarily reflects variations in ion current within individual pulses, rather than differences between distinct pulses.
 
 
-\chapter{Additional Plots}\label{sec:additional plots}
+\chapter{Appendix: Supplementary material}\label{sec:additional plots}
 
 \begin{figure}[h]
 	\centering
@@ -289,10 +285,9 @@ In all other measurements, the oscilloscope averaged the voltage signal over mul
 	\label{fig:magfield_vs_chargestate}
 \end{figure}
 
+\newpage
 
-\chapter{Python Code and Data Overview}\label{appendix:code}
-
-\section{Data Availability}
+\section{Data Availability}\label{appendix:code}
 
 All raw data files, processed datasets, and analysis scripts are archived and available upon request. The main Python scripts used for data processing include:
 \begin{itemize}[noitemsep]

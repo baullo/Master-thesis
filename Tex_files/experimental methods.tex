@@ -6,13 +6,13 @@ This chapter describes the experimental apparatus, diagnostic techniques, and da
 
 \section{Experimental  Setup}
 
-\subsection{Vacuum \& Gas Infrastructure}
+\subsection{Vacuum \& Gas Control}
 
 The vacuum chamber was evacuated using a two-stage pumping system consisting of a dry rotor vacuum pump (Leybold ECODRY+) for roughing and a cryogenic pump (Leybold COOLVAC) for the main pumping line, achieving a base pressure on the order of $1 \times 10^{-5}$~Pa with the cryopump fully open. To control the working pressure during reactive deposition, the cryopump gate valve was partially closed to position 345 (approximately 34.5\% open), which reduced the effective pumping speed and increased the base pressure to approximately $1 \times 10^{-4}$~Pa. This configuration allowed for the nitrogen pressures.\\
 
 Nitrogen gas (N$_2$, 99.999\% purity) was introduced via a mass flow controller (MKS IO Type B), with chamber pressures monitored using a Pfeiffer PKR 361. The nitrogen flow rate of 1 to 12.8 ccms leads to chamber pressure ranges between 0.025 and 0.3 Pa.\\
 
-Plasma was generated using a water-cooled cylindrical anode and a rod cathode with composition 75~wt.\% Ti; 25~wt.\% Al (corresponding to 62.8~at.\% Ti; 37.2~at.\% Al). The cathode had a diameter of 6.35~mm and length of 38.1~mm. The expanding plasma was guided through a 90$^\circ$ curved magnetic macroparticle filter connected in series with the arc power supply, which simultaneously powered both the arc and the filter coils.
+Plasma was generated using a water-cooled cylindrical anode and a rod cathode with composition 75~wt.\% Ti; 25~wt.\% Al (corresponding to 62.8~at.\% Ti; 37.2~at.\% Al). The cathode had a diameter of 6.35~mm and length of 38.1~mm. The expanding plasma was guided through a 90$^\circ$ curved magnetic macroparticle filter connected in series with the arc source.
 
 \subsection{Power Circuits and Arc Operation}
 
@@ -49,7 +49,7 @@ The ion current probe and quartz crystal microbalance (QCM) were not triggered b
 
 For in situ plasma diagnostics, the Langmuir probe and QCM were mounted on a custom movable assembly positioned at distances ranging from 10 to 20~cm from the macroparticle filter exit. The energy-resolving mass spectrometer (ERMS) was mounted on a separate linear feedthrough allowing independent adjustment of its position (distance from the filter exit) for spatial characterization of the plasma. Film depositions were performed using silicon substrates mounted on a third movable holder, also positioned at controlled distances from the filter exit.\\
 
-The vacuum chamber setup for cathodic arc plasma diagnostics and thin film deposition is shown in Figure~\ref{fig:vacuumchamber}. The green arrow illustrates the trajectory of the plasma plume as it expands from the cathode, passes through the 90$^\circ$ macroparticle filter, and reaches the diagnostics and substrate positions. This experimental configuration enabled systematic investigation of plasma properties and film growth as functions of distance, magnetic field strength, and nitrogen pressure, as detailed in the following sections.
+The vacuum chamber setup for cathodic arc plasma diagnostics and thin film deposition is shown in Figure~\ref{fig:vacuumchamber}. The green arrow illustrates the trajectory of the plasma plume as it expands from the cathode, passes through the 90$^\circ$ macroparticle filter, and reaches the target. This experimental configuration enabled systematic investigation of plasma properties and film growth as functions of distance, magnetic field strength, and nitrogen pressure, as detailed in the following sections.
 
 
 
@@ -155,14 +155,14 @@ The vacuum chamber setup for cathodic arc plasma diagnostics and thin film depos
 \end{circuitikz}
 }%
 
-\caption[Vacuum chamber setup with diagnostics]{Schematic of the vacuum chamber setup for cathodic arc plasma diagnostics and thin film deposition with the plasma trajectory through the EM-coil and the macroparticle filter shown in green. At the substrate position the ERMS could be pulled back allowing for the substrate holder or a custom holder assembly integrated the ion current probe and QCM \ref{fig:holder_assembly} to be placed. The delay generator synchronizes both PSUs, the ERMS (when used) and the biasing power supply for the ion current probe, and the oscilloscope records all the data as described in Sec.\ref{sec:synchronistation and diagnostics}.}
+\caption[Vacuum chamber setup with diagnostics]{Schematic of the vacuum chamber setup for cathodic arc plasma diagnostics and thin film deposition with the plasma trajectory through the EM-coil and the macroparticle filter shown in green. At the substrate position the ERMS could be pulled back allowing for the substrate holder or a custom holder assembly integrated the ion current probe and QCM \ref{fig:holder_assembly} to be placed. The delay generator synchronizes both PSUs, the ERMS (when used) and the biasing for the ion current probe, and the oscilloscope records all the data as described in Sec.\ref{sec:synchronistation and diagnostics}.}
 \label{fig:vacuumchamber}
 \end{figure}
 
 
 \section{Plasma Diagnostics}
 
-\subsection{Ion Current Probe (Langmuir Probe)}\label{sec:langmuir_probe}
+\subsection{Ion Current Probe}\label{sec:langmuir_probe}
 
 An in-house-built ion collector probe was designed to measure the ion current 
 density in ion saturation mode. The probe consisted of a 5~mm diameter copper 
@@ -276,7 +276,7 @@ Figure~\ref{fig:ion_current_waveform} shows an example waveform of 64 pulses ave
 \begin{equation}
 	J_i = \frac{V_{\text{measured}}}{A \cdot R}
 \end{equation}
-where $A = 0.196$~cm$^2$ is the probe collection area and $R = 400~\Omega$. 
+where $A = 0.196$~cm$^2$ is the probe collection area and $R = 400~\Omega$ (uncertainties discussed in Appendix~\ref{appendix:uncertainty}).
 
 
 \subsection{Quartz Crystal Microbalance}\label{section:QCM}
@@ -301,7 +301,7 @@ The measurement principle follows the Sauerbrey equation \cite{Sauerbrey_1959}, 
 
 Here $\rho_q = 2.649$~g\,cm$^{-3}$ is the quartz density, $r = 0.7$~cm is the radius of the crystal area, $N_{\text{AT}} = 166\,100$~Hz\,cm is the frequency constant of the AT-cut quartz, $F_q = 6$~MHz is the uncoated resonance frequency, and $\Delta F$ is the measured frequency shift.\\
 
-The Sauerbrey relation is accurate as long as $\Delta F \lesssim 0.05 F_q$ (approximately 0.3~MHz for a 6~MHz crystal), for more details on the correction above this limit look in Appendix \ref{long_qcm}. 
+The Sauerbrey relation is accurate as long as $\Delta F \lesssim 0.05 F_q$ (approximately 0.3~MHz for a 6~MHz crystal), for more details on the correction above this limit look in Appendix \ref{long_qcm} and for uncertainties in Appendix~\ref{appendix:uncertainty}. 
 In the present experiments, the observed frequency shifts ranged from approximately 1~Hz to 50~Hz over 64 pulses. These shifts are well above the SQM-160 resolution of approximately 0.03~Hz at 6~MHz, yet orders of magnitude below the Sauerbrey breakdown limit. The Sauerbrey approximation was therefore fully sufficient for all measurements in this work.\\
 
 
@@ -348,7 +348,7 @@ To reduce interference from the arc's magnetic field, the ERMS was equipped with
 	\label{fig:hiden-eqp}
 \end{figure}
 
-IEDFs were measured using a double-trigger acquisition scheme synchronized with the arc pulses (1~ms duration, 5~Hz repetition rate). For each $M/Q$ value, two 20~ms acquisition windows were recorded, activated 10~ms before the onset of the pulse. The combined 40~ms of data for each point were averaged to obtain the final IEDF. Measurements were performed for charge states $1^+$, $2^+$, and $3^+$ of aluminum ions, and for charge states $1^+$, $2^+$, $3^+$, and $4^+$ of titanium ions. For nitrogen ion species (N and N$_2$), only the $1^+$ ionization level was measured. This was achieved by scanning $V_{\text{ENERGY}}$ while fixing the quadrupole mass filter to the corresponding $M/Q$ values (Table~\ref{tab:mq_ratios}).
+IEDFs were measured using a double-trigger acquisition scheme synchronized with the arc pulses (1~ms duration, 5~Hz repetition rate). For each $M/Q$ value, two 20~ms acquisition windows were recorded, initiated 10~ms before the onset of the pulse. The combined 40~ms of data for each point were averaged to obtain the final IEDF. Measurements were performed for charge states $1^+$, $2^+$, and $3^+$ of aluminum ions, and for charge states $1^+$, $2^+$, $3^+$, and $4^+$ of titanium ions. For nitrogen ion species (N and N$_2$), only the $1^+$ ionization level was measured. This was achieved by scanning $V_{\text{ENERGY}}$ while fixing the quadrupole mass filter to the corresponding $M/Q$ values (Table~\ref{tab:mq_ratios}).
 
 
 \begin{table}[h]
@@ -366,7 +366,7 @@ IEDFs were measured using a double-trigger acquisition scheme synchronized with 
 	\end{tabular}
 \end{table}
 
-To derive ion energy distributions for different charge states, the measured $E/Q$ distributions were multiplied by the corresponding charge state number $Q$. This approach accounts for the charge-dependent scaling of ion energies and enables calculation of mean charge states $\langle Q \rangle$ and the energies for each species, as detailed in Section~\ref{sec:error_propagation}.
+To derive ion energy distributions for different charge states, the measured $E/Q$ distributions were multiplied by the corresponding charge state number $Q$. This approach accounts for the charge-dependent scaling of ion energies and enables calculation of mean charge states $\langle Q \rangle$ and the energies for each species, as detailed in Section~\ref{appendix:uncertainty}.
 
 %The \(m/q\) range was calibrated using N\(_2^+\) as reference ions, with typical operating parameters set to \(U_0 = \SI{100}{V}\), \(U_{\text{DC}} = \SI{5}{V}\), and \(\omega/2\pi = \SI{1.2}{MHz}\). Under these settings, the system provided a mass resolution of \(\Delta m/m \approx 0.5\) (FWHM) for ions in the \(\SI{0}{--}\SI{150}{eV}\) energy range \cite{hiden_eqp_manual}. The energy resolution was adjusted to \(\Delta E/E \approx 0.02\) by tuning \(V_{\text{PLATES}}\) and optimizing the alignment of the orifice and detector.
 %%%
