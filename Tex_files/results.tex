@@ -48,9 +48,9 @@ In the absence of reactive gas, plasma expansion and deposition dynamics are gov
 	\label{fig:metallic_mass/ion}
 \end{figure}
 
-As shown in Figure~\ref{fig:metallic_mass/ion}, both mass deposition rate and ion current increase with applied magnetic field. The enhancement is most pronounced at the shortest distance (10~cm), where the magnetic field can effectively guide ions before significant radial expansion occurs. At 20~cm, the plasma has already expanded substantially, reducing the relative impact of magnetic confinement on the collected flux.
+As shown in Figure~\ref{fig:metallic_mass/ion}, both mass deposition rate and ion current increase with applied magnetic field. The enhancement is most pronounced at the shortest distance (10~cm), where the magnetic field can effectively guide ions before significant radial expansion occurs. At 20~cm, the plasma has already expanded substantially, reducing the relative impact of magnetic confinement on the collected flux.\\
 
-A surprising anomaly appears at 0.05~T, where both quantities drop below their zero-field values before recovering and increasing at higher fields (0.1~T and above). Similar behavior is observed across all experimental conditions involving increasing magnetic field strength.
+A surprising anomaly appears at 0.05~T, where both quantities drop below their zero-field values before recovering and increasing at higher fields (0.1~T and above). Similar behavior is observed across all experimental conditions involving increasing magnetic field strength, more on that in section \ref{sec:magnetic_effect}.
 
 \subsection{Distance as a variable}\label{subsec:distance}
 
@@ -142,7 +142,13 @@ Energy-resolved mass spectrometry (ERMS) measurements were performed to characte
 
 \subsection{Distance Dependence}\label{subsec:erms_distance}
 
-Figures~\ref{fig:ERMS_distance0Pa} and \ref{fig:ERMS_distance0.3Pa} present mean charge states, potential energies, and kinetic energies as functions of distance for metallic mode (0~Pa) and reactive mode (0.3~Pa N$_2$), respectively.
+Figures~\ref{fig:ERMS_distance0Pa} and \ref{fig:ERMS_distance0.3Pa} present mean charge states, potential energies, and kinetic energies as functions of distance for metallic mode (0~Pa) and reactive mode (0.3~Pa N$_2$), respectively.\\
+
+
+In metallic mode (Figure~\ref{fig:ERMS_distance0Pa}), titanium ions exhibit $\langle Q \rangle \approx 2.6$ and aluminum ions $\langle Q \rangle \approx 2.0$ across all distances. These charge states reflect the high electron temperatures ($T_e \approx 5$--10~eV) characteristic of cathode spot plasmas. The mean charge states remain remarkably constant with distance, varying by less than 10\% between 10 and 20~cm, indicating that recombination is negligible during the transit time through this region on the order of $\sim$100~$\mu$s scale.\\
+
+
+Potential energies scale directly with charge state, with Ti showing $E_{\rm pot} \approx 38$~eV and Al $E_{\rm pot} \approx 26$~eV, remaining nearly constant across the measurement range. Kinetic energies are in the range of 20--30~eV for both species, with a slight decreasing trend with distance due to minor collisional thermalization. Importantly, total ion energies ($E_{\rm kin} + E_{\rm pot}$) exceed 40~eV at all distances, well above the $\approx$ 30~eV threshold for subplantation-driven densification \cite{lifshitz1990subplantation}. This confirms that energetic condensation should remains accessible across the entire 10--20~cm range without substrate heating.
 
 \begin{figure}[h!]
 	\centering
@@ -150,19 +156,13 @@ Figures~\ref{fig:ERMS_distance0Pa} and \ref{fig:ERMS_distance0.3Pa} present mean
 	\caption[ERMS distance dependence in metallic mode]{Ion energy distributions in metallic mode demonstrate minimal thermalization over 10--20 cm transport. Mean charge states (Q approx 2.0 for Al, 2.7 for Ti) remain constant, indicating negligible charge-exchange in vacuum. Both potential energy ($qV_p$) and kinetic energy components stay elevated (total >50 eV), confirming that ions retain their cathode spot derived energies during drift through the curved filter. This baseline establishes reference values for comparison with reactive mode degradation in subsequent figures.}
 	\label{fig:ERMS_distance0Pa}
 \end{figure}
-
-
-In metallic mode (Figure~\ref{fig:ERMS_distance0Pa}), titanium ions exhibit $\langle Q \rangle \approx 2.6$ and aluminum ions $\langle Q \rangle \approx 2.0$ across all distances. These charge states reflect the high electron temperatures ($T_e \approx 5$--10~eV) characteristic of cathode spot plasmas. The mean charge states remain remarkably constant with distance, varying by less than 10\% between 10 and 20~cm, indicating that recombination is negligible during the transit time through this region on the order of $\sim$100~$\mu$s scale.\\
-
-
-Potential energies scale directly with charge state, with Ti showing $E_{\rm pot} \approx 38$~eV and Al $E_{\rm pot} \approx 26$~eV, remaining nearly constant across the measurement range. Kinetic energies are in the range of 20--30~eV for both species, with a slight decreasing trend with distance due to minor collisional thermalization. Importantly, total ion energies ($E_{\rm kin} + E_{\rm pot}$) exceed 40~eV at all distances, well above the $\approx$ 30~eV threshold for subplantation-driven densification \cite{lifshitz1990subplantation}. This confirms that energetic condensation should remains accessible across the entire 10--20~cm range without substrate heating.\\
-
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\linewidth]{"Figures/results 2/Distance_0.25T_0.3Pa"}
 	\caption[ERMS distance dependence in reactive mode]{Reactive gas introduces systematic charge-state reduction and energy degradation. Compared to metallic baseline (Fig. \ref{fig:ERMS_distance0Pa}), Al and Ti charge states decrease 50\% through successive charge-exchange collisions with N$_2$. Kinetic energies exhibit both reduced mean values and increased scatter, indicating collisional thermalization partially converts directed motion into random thermal velocity. Potential energy ($qV_p$) decreases proportionally to charge state. Despite these losses, ions retain sufficient energy (>30 eV) for high quality film growth at 14 cm, the distance selected for depositions.}
 	\label{fig:ERMS_distance0.3Pa}
 \end{figure}
+
 
 Introducing nitrogen at 0.3~Pa substantially alters the plasma composition (Figure~\ref{fig:ERMS_distance0.3Pa}). Metal ion charge states decrease by up to 50\%, coinciding with charge-exchange conditions where multiply charged metal ions interact with nitrogen molecules \cite{bendikt2012}:
 \begin{equation*}

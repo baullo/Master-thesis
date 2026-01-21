@@ -310,7 +310,7 @@ In the present experiments, the observed frequency shifts ranged from approximat
 To enable direct comparison between ion current and deposited mass, the Langmuir probe and QCM were mounted on the same movable aluminum assembly. The probe was positioned through a precision-milled pass-through hole, while the QCM was secured in a dedicated cutout and fixed via screws (see Appendix~\ref{sec:holder_assembly_figure} for assembly details). This configuration ensured rigid mechanical alignment between the two diagnostics throughout all measurements.
 
 
-The probe collection area ($A_{\text{probe}} = 0.196$~cm$^2$, diameter 5~mm) was smaller than but contained within the QCM active area ($A_{\text{QCM}} = 1.54$~cm$^2$, diameter 14~mm). Both diagnostics were positioned as close as possible to each other to minimize spatial gradients between measurement locations. This design is meant to mitigate radial plasma density gradients inherent to expanding cathodic arc plasmas \cite[Chap.~6.2]{cathodic_arcs}, though even with close proximity, gradients cannot be completely eliminated and remained evident in the experimental results.
+The probe collection area ($A_{\text{probe}} = 0.196$~cm$^2$, diameter 5~mm) was smaller than but contained within the QCM crystal area ($A_{\text{QCM}} = 1.54$~cm$^2$, diameter 14~mm). Both diagnostics were positioned as close as possible to each other to minimize spatial gradients between measurement locations. This design is meant to mitigate radial plasma density gradients inherent to expanding cathodic arc plasmas \cite[Chap.~6.2]{cathodic_arcs}, though even with close proximity, gradients cannot be completely eliminated and remained evident in the experimental results.
 
 
 
@@ -380,7 +380,7 @@ To derive ion energy distributions for different charge states, the measured $E/
 
 \section{Thin Film Deposition and Characterization}\label{sec:film_characterization}
 
-Thin films were deposited on silicon substrates mounted on a movable substrate holder positioned at controlled distances from the macroparticle filter exit. Prior to deposition, the 2x2 substrates were cut into four pieces and cleaned with compressed nitrogen gas. For thickness measurements, a masking technique was employed: a marker line was drawn near the edge of each substrate before deposition, creating a well-defined step edge. After deposition, this marker was removed by ultrasonic cleaning in isopropanol, leaving a sharp boundary between the coated and uncoated regions for profilometry analysis.\\
+Thin films were deposited on silicon substrates mounted on a movable substrate holder positioned at controlled distances from the macroparticle filter exit. Prior to deposition, the 2x2~cm substrates were cut into four pieces and cleaned with compressed nitrogen gas. For thickness measurements, a masking technique was employed: a marker line was drawn near the edge of each substrate before deposition, creating a well-defined step edge. After deposition, this marker was removed by ultrasonic cleaning in isopropanol, leaving a sharp boundary between the coated and uncoated regions for profilometry analysis.\\
 
 The deposition parameters (distance, magnetic field strength, nitrogen pressure) were selected to match a subset of the plasma diagnostic measurements, enabling direct correlation between plasma properties and film characteristics. All depositions were performed with 6000--8000 pulses at 5~Hz repetition rate (1~ms pulse duration) to ensure sufficient film thickness for ex situ characterization. The substrate holder was not heated, allowing the investigation of room-temperature film growth under energetic ion bombardment conditions characteristic of cathodic arc deposition.
 
@@ -410,7 +410,7 @@ Due to the small film thickness, out-of-plane diffraction techniques were used t
 	\item \textbf{Asymmetrical reflection (thin-film method):} The incident beam is fixed at a small grazing angle $\alpha$, while the detector scans in $2\theta$. This reduces the X-ray penetration depth from tens of micrometers to a few micrometers, greatly enhancing sensitivity to thin films \cite{mitsunaga2009}.
 \end{itemize}
 
-\begin{figure}
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=0.75\linewidth]{"Figures/experimental methods/xrd_in+outofplae"}
 	\caption[Schematic of diffraction geometries for XRD]{Schematic of out-of-plane diffraction geometries: symmetrical reflection (left) and asymmetrical reflection (right) for thin film analysis. Taken from \cite{mitsunaga2009}.}
@@ -465,7 +465,7 @@ The measured reflectivity curves were analyzed using the Parratt recursive forma
 
 Scanning electron microscopy (SEM) was employed to characterize the surface morphology and microstructure of the deposited films. SEM uses a focused electron beam to scan the sample surface, generating secondary electrons (SE) and backscattered electrons (BSE) that provide information about surface topography and compositional contrast, respectively \cite{goldstein2017,reimer1998}.\\
 
-SEM imaging was performed using a \textcolor{red}{[MODEL - Zeiss Gemini/Sigma]} field emission scanning electron microscope equipped with an in-lens detector for high-resolution secondary electron imaging. Samples were imaged at an accelerating voltage of 15~kV with magnifications ranging from 30,000$\times$ to 100,000$\times$. The conductive TiAlN films required no additional coating preparation. \\
+SEM imaging was performed using a Zeiss Ultra 55 field emission scanning electron microscope equipped with an in-lens detector for high-resolution secondary electron imaging. Samples were imaged at an accelerating voltage of 15~kV with magnifications ranging from 30,000$\times$ to 100,000$\times$. The conductive TiAlN films required no additional coating preparation. \\
 
 The primary objectives of SEM characterization were to:
 \begin{itemize}[noitemsep]
@@ -488,11 +488,13 @@ Representative SEM micrographs and analysis of surface features are presented in
 
 Energy-dispersive X-ray spectroscopy (EDX) relies on the ionization of inner-shell electrons by the incident electron beam. When an inner-shell electron is ejected, an electron from a higher energy level fills the vacancy, releasing energy in the form of a characteristic X-ray. The energy of this X-ray is unique to each element, allowing identification and quantification of the sample composition. The intensity of the characteristic X-ray peaks is proportional to the concentration of each element, enabling quantitative analysis through comparison with standards or standardless quantification algorithms \cite{goldstein2017}.\\
 
-EDX measurements were performed using a silicon drift detector (SDD) integrated with the SEM system, operating at an accelerating voltage of 10~kV. To minimize substrate contribution from the thin films, samples were tilted to 55° relative to the electron beam increasing the effective path length by $\approx$ 1.74.
+EDX measurements were performed using a silicon drift detector (SDD) integrated with the SEM system, operating at an accelerating voltage of 10~kV. To minimize substrate contribution from the thin films, samples were tilted to 55° relative to the electron beam increasing the effective path length by $\approx$ 1.74.\\
 
-Prior to analysis, samples were cleaned ultrasonically in isopropanol to remove loose particles. However, organic solvent residues and hydrocarbon contamination from the vacuum system can lead to carbon deposition under electron beam irradiation \cite{goldstein2017,reimer1998}. A small carbon peak was therefore typically observed in EDX spectra and was excluded from compositional quantification of the TiAlN films. Multiple area measurements were taken on each sample to verify that all surface features, including any macroparticles or morphological structures, had the same metal-nitride composition as the underlying thin film and to identify potential impurities beyond the surface carbon layer.
 
-The primary elements analyzed were titanium (Ti), aluminum (Al), and nitrogen (N). Oxygen (O) and silicon (Si) were also monitored to assess surface oxidation and to detect any contribution from the Si substrate. The measured film compositions are used to calculate the effective molar mass $M_{\text{eff}}$ required for determining total deposited flux from QCM measurements (Section~\ref{sec:QMS}). Compositional results and representative EDX spectra are presented in Section~\ref{sec:results_EDX}.
+Prior to analysis, samples were cleaned ultrasonically in isopropanol to remove loose particles. However, organic solvent residues and hydrocarbon contamination from the vacuum system can lead to carbon deposition under electron beam irradiation \cite{goldstein2017,reimer1998}. A small carbon peak was therefore typically observed in EDX spectra and was excluded from compositional quantification of the TiAlN films. Multiple area measurements were taken on each sample to verify that all surface features, including any macroparticles or morphological structures, had the same metal-nitride composition as the underlying thin film and to identify potential impurities beyond the surface carbon layer.\\
+
+\newpage
+The primary elements analyzed were titanium (Ti), aluminum (Al), and nitrogen (N). Oxygen (O), silicon (Si) and carbon (C) were also monitored to assess surface oxidation, contribution from the Si substrate and contamination from Isopropanol during the ultrasonic bath cleaning steps. The measured film compositions are used to calculate the effective molar mass $M_{\text{eff}}$ required for determining total deposited flux from QCM measurements (Section~\ref{sec:QMS}). Compositional results and representative EDX spectra are presented in Section~\ref{sec:results_EDX}.
 
 \section{Calculation of Ion Flux and Total Deposited Flux}\label{sec:flux_calculations}
 The plasma diagnostic measurements described in Section~\ref{sec:langmuir_probe}--\ref{sec:QMS} provide electrical currents, deposited masses, and ion energy distributions. To quantify the actual particle arrival rates and relate these to film growth, these raw measurements must be converted to particle fluxes. This section describes the calculation procedures that combine multiple diagnostic techniques to derive ion flux and total deposited flux.
@@ -509,6 +511,7 @@ The ion flux $\Gamma_{\text{ion}}$ (ions\,cm$^{-2}$\,s$^{-1}$) represents the nu
 
 where $\langle Q \rangle$ is the average charge state determined from ERMS measurements (Section~\ref{sec:QMS}), $e = 1.602 \times 10^{-19}$~C is the elementary charge, $A_{\text{probe}} = 0.196$~cm$^2$ is the probe collection area, and $R = 400$~$\Omega$ is the measurement resistor. This combination of probe and mass spectrometer data accounts for the multiply charged nature of the cathodic arc plasma and enables accurate determination of the particle flux from the electrical current measurement.
 
+\newpage
 \subsection{Total Deposited Flux from QCM and Film Characterization}
 The total deposited flux $\Phi_{\text{total}}$ (atoms\,cm$^{-2}$\,s$^{-1}$) quantifies the arrival rate of all species contributing to film growth, including both ions and neutrals. It is calculated from QCM mass measurements (Section~\ref{section:QCM}) combined with film composition from EDX (Section~\ref{sec:EDX}):
 \begin{equation}
@@ -516,14 +519,14 @@ The total deposited flux $\Phi_{\text{total}}$ (atoms\,cm$^{-2}$\,s$^{-1}$) quan
 	\label{eq:total_flux}
 \end{equation}
 
-where $\Delta m$ is the mass change measured by QCM over time interval $\Delta t$, $A_{\text{QCM}} = 1.54$~cm$^2$ is the active crystal area (8~mm diameter), $N_A = 6.022 \times 10^{23}$~mol$^{-1}$ is Avogadro's constant, and $M_{\text{eff}}$ is the effective molar mass calculated from film composition:
+where $\Delta m$ is the mass change measured by QCM over time interval $\Delta t$, $A_{\text{QCM}} = 1.54$~cm$^2$ is the crystal area (14~mm diameter), $N_A = 6.022 \times 10^{23}$~mol$^{-1}$ is Avogadro's constant, and $M_{\text{eff}}$ is the effective molar mass calculated from film composition:
 
 \begin{equation}
 	M_{\text{eff}} = \sum_i x_i M_i = x_{\text{Ti}} \cdot 47.867 + x_{\text{Al}} \cdot 26.982 + x_{\text{N}} \cdot 14.007
 	\label{eq:meff}
 \end{equation}
 
-where $x_i$ are the atomic fractions from EDX measurements (Table~\ref{tab:edx}) and $M_i$ are the atomic masses.
+where $x_i$ are the atomic fractions from EDX measurements (Table~\ref{tab:edx}) and $M_i$ are the atomic masses.\\
 
 The effective molar mass varies significantly between metallic and reactive mode: $M_{\text{eff}} \approx 43.5$~g$\cdot$mol$^{-1}$ for Ti--Al films versus $M_{\text{eff}} \approx 31.8$--33.2~g$\cdot$mol$^{-1}$ for TiAlN films. This ~25\% reduction reflects the incorporation of light nitrogen atoms (14.0~g$\cdot$mol$^{-1}$) displacing heavier metal atoms.
 
