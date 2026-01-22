@@ -1,91 +1,91 @@
 \babel@toc {english}{}\relax 
 \contentsline {chapter}{\numberline {1}Introduction and Literature Review}{9}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Motivation}{9}{section.1.1}%
-\contentsline {section}{\numberline {1.2}State of the Art}{10}{section.1.2}%
+\contentsline {section}{\numberline {1.2}State of the art}{10}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Objectives}{11}{section.1.3}%
 \contentsline {chapter}{\numberline {2}Theoretical Background}{12}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Plasma Generation and Composition}{12}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Cathode Spot Plasma Generation}{12}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Pulsed vs. Continuous Arc Operation}{13}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Plasma Expansion and Macroparticle Filtering}{14}{subsection.2.1.3}%
-\contentsline {section}{\numberline {2.2}Ion Energies and Flux in the Substrate Region}{15}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Ion Energies: Origins and Implications}{15}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Effect of Distance on Ion Properties}{16}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Effect of External Magnetic Fields}{16}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Ion Flux}{16}{subsection.2.2.4}%
-\contentsline {section}{\numberline {2.3}Reactive Mode and Nitrogen Activation}{17}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Transition from Metallic to Reactive Mode}{17}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Activated Nitrogen Species}{17}{subsection.2.3.2}%
-\contentsline {section}{\numberline {2.4}Plasma--Surface Interactions and Film Growth}{18}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Energetic Condensation and Subplantation}{18}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Structure-Zone Models}{19}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}TiAlN Crystal Structures}{19}{subsection.2.4.3}%
-\contentsline {chapter}{\numberline {3}Experimental Methodology}{21}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Experimental Setup}{21}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Vacuum \& Gas Control}{21}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Power Circuits and Arc Operation}{22}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Diagnostic Positioning and Synchronization}{22}{subsection.3.1.3}%
-\contentsline {section}{\numberline {3.2}Plasma Diagnostics}{24}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Ion Current Probe}{24}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Quartz Crystal Microbalance}{26}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Simultaneous Ion Probe and QCM Measurements}{27}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Energy-Resolving Mass Spectrometer (ERMS)}{28}{subsection.3.2.4}%
-\contentsline {section}{\numberline {3.3}Thin Film Deposition and Characterization}{30}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Profilometry}{30}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}X-ray Diffraction (XRD)}{31}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}X-ray Reflectometry (XRR)}{32}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Scanning Electron Microscopy (SEM)}{33}{subsection.3.3.4}%
-\contentsline {subsection}{\numberline {3.3.5}Energy-Dispersive X-ray Spectroscopy (EDX)}{34}{subsection.3.3.5}%
-\contentsline {section}{\numberline {3.4}Calculation of Ion Flux and Total Deposited Flux}{35}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Ion Flux from Probe and ERMS Measurements}{35}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Total Deposited Flux from QCM and Film Characterization}{36}{subsection.3.4.2}%
-\contentsline {chapter}{\numberline {4}Results}{37}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Mass Deposition Rate and Ion Current Measurements}{37}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Metallic Case (No Nitrogen)}{39}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Distance as a variable}{40}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Magnetic Field as a variable}{41}{subsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.1.4}Nitrogen pressure as a variable}{42}{subsection.4.1.4}%
-\contentsline {section}{\numberline {4.2}Energy-Resolved Mass Spectrometry Results}{43}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Distance Dependence}{43}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Pressure Dependence}{45}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}Thin Film Characterization}{47}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Profilometry}{47}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}X-ray Diffraction (XRD)}{49}{subsection.4.3.2}%
-\contentsline {paragraph}{Metallic mode (0~Pa N$_2$):}{49}{section*.32}%
-\contentsline {paragraph}{Reactive mode (0.1--0.3~Pa N$_2$):}{49}{section*.33}%
-\contentsline {subsection}{\numberline {4.3.3}X-ray Reflectometry (XRR)}{50}{subsection.4.3.3}%
-\contentsline {paragraph}{Thickness Gradient}{50}{section*.35}%
-\contentsline {paragraph}{Mass Density Evolution}{51}{section*.36}%
-\contentsline {subsection}{\numberline {4.3.4}Energy dispersive X-ray spectroscopy (EDX)}{51}{subsection.4.3.4}%
-\contentsline {subsection}{\numberline {4.3.5}Scanning Electron Microscopy (SEM)}{52}{subsection.4.3.5}%
-\contentsline {section}{\numberline {4.4}Particle Flux Calculations}{54}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Calculation Methods}{54}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Flux Measurements at 14~cm Distance}{55}{subsection.4.4.2}%
-\contentsline {chapter}{\numberline {5}Discussion of Results and Outlook}{56}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Plasma Transport and Magnetic Field Effects}{56}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Reactive Mode Plasma Chemistry}{57}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Activated Nitrogen Species}{57}{subsection.5.2.1}%
-\contentsline {section}{\numberline {5.3}Film Growth Mechanisms and Microstructure}{58}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Quantitative Plasma-Film Correlations}{59}{subsection.5.3.1}%
-\contentsline {section}{\numberline {5.4}Outlook}{60}{section.5.4}%
-\contentsline {chapter}{\numberline {6}Acknowledgments}{62}{chapter.6}%
-\contentsline {chapter}{\numberline {A}Appendix: Experimental Methods supplementary}{66}{appendix.1.A}%
-\contentsline {section}{\numberline {A.1}Longer QCM depositions}{66}{section.1.A.1}%
-\contentsline {section}{\numberline {A.2}Holder Assembly Design}{66}{section.1.A.2}%
-\contentsline {section}{\numberline {A.3}Data Processing Workflow}{67}{section.1.A.3}%
-\contentsline {subsection}{\numberline {A.3.1}Data Organization and Logbook System}{67}{subsection.1.A.3.1}%
-\contentsline {subsection}{\numberline {A.3.2}Ion Current Data Processing}{69}{subsection.1.A.3.2}%
-\contentsline {subsection}{\numberline {A.3.3}QCM Data Processing}{69}{subsection.1.A.3.3}%
-\contentsline {subsection}{\numberline {A.3.4}ERMS Data Processing}{69}{subsection.1.A.3.4}%
-\contentsline {section}{\numberline {A.4}Uncertainty Analysis}{70}{section.1.A.4}%
-\contentsline {subsection}{\numberline {A.4.1}Primary Measurements}{70}{subsection.1.A.4.1}%
-\contentsline {subsubsection}{QCM Mass Measurements}{70}{section*.45}%
-\contentsline {subsubsection}{Ion Current Measurements}{70}{section*.46}%
-\contentsline {subsubsection}{ERMS Measurements}{71}{section*.48}%
-\contentsline {subsection}{\numberline {A.4.2}Derived Quantities}{71}{subsection.1.A.4.2}%
-\contentsline {subsection}{\numberline {A.4.3}Uncertainties Not Quantified}{72}{subsection.1.A.4.3}%
-\contentsline {subsection}{\numberline {A.4.4}Summary}{72}{subsection.1.A.4.4}%
-\contentsline {section}{\numberline {A.5}Langmuir Probe Bias Voltage Characterization}{73}{section.1.A.5}%
-\contentsline {section}{\numberline {A.6}Ion current variation over Different Pulses}{74}{section.1.A.6}%
-\contentsline {chapter}{\numberline {B}Appendix: Supplementary material}{76}{appendix.1.B}%
-\contentsline {section}{\numberline {B.1}Data Availability}{77}{section.1.B.1}%
+\contentsline {section}{\numberline {2.1}Plasma generation and composition}{12}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Cathode spot plasma generation}{12}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Pulsed vs. continuous arc operation}{13}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Plasma expansion and macroparticle filtering}{14}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}Ion energies and flux in the substrate region}{15}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Ion energies: origins and implications}{15}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Effect of distance on ion properties}{16}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Effect of external magnetic fields}{16}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Ion flux}{17}{subsection.2.2.4}%
+\contentsline {section}{\numberline {2.3}Reactive mode and nitrogen activation}{17}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Transition from metallic to reactive mode}{17}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Activated nitrogen species}{18}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}Plasma--surface interactions and film growth}{18}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Energetic condensation and subplantation}{18}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Structure-zone models}{19}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}TiAlN crystal structures}{20}{subsection.2.4.3}%
+\contentsline {chapter}{\numberline {3}Experimental Methodology}{22}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Experimental setup}{22}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Vacuum \& gas control}{22}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Power circuits and arc operation}{23}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Diagnostic positioning and synchronization}{24}{subsection.3.1.3}%
+\contentsline {section}{\numberline {3.2}Plasma diagnostics}{26}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Ion current probe}{26}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Quartz crystal microbalance}{27}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Simultaneous ion probe and QCM measurements}{29}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Energy-resolving mass spectrometer (ERMS)}{29}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}Thin film deposition and characterization}{31}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Profilometry}{31}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}X-ray diffraction (XRD)}{32}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}X-ray reflectometry (XRR)}{33}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Scanning electron microscopy (SEM)}{34}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}Energy-dispersive X-ray spectroscopy (EDX)}{35}{subsection.3.3.5}%
+\contentsline {section}{\numberline {3.4}Calculation of ion flux and total deposited flux}{36}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Ion flux from probe and ERMS measurements}{36}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Total deposited flux from QCM and film characterization}{37}{subsection.3.4.2}%
+\contentsline {chapter}{\numberline {4}Results}{38}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Mass deposition rate and ion current measurements}{38}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Metallic case (no nitrogen)}{40}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Distance as a variable}{41}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Magnetic field as a variable}{42}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}Nitrogen pressure as a variable}{43}{subsection.4.1.4}%
+\contentsline {section}{\numberline {4.2}Energy-resolved mass spectrometry results}{44}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Distance dependence}{44}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Pressure dependence}{46}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Thin film characterization}{48}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Profilometry}{48}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}X-ray diffraction (XRD)}{49}{subsection.4.3.2}%
+\contentsline {paragraph}{Metallic mode (0~Pa N$_2$):}{50}{section*.32}%
+\contentsline {paragraph}{Reactive mode (0.1--0.3~Pa N$_2$):}{50}{section*.33}%
+\contentsline {subsection}{\numberline {4.3.3}X-ray reflectometry (XRR)}{51}{subsection.4.3.3}%
+\contentsline {paragraph}{Thickness gradient}{51}{section*.35}%
+\contentsline {paragraph}{Mass density evolution}{52}{section*.36}%
+\contentsline {subsection}{\numberline {4.3.4}Energy dispersive X-ray spectroscopy (EDX)}{52}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}Scanning electron microscopy (SEM)}{53}{subsection.4.3.5}%
+\contentsline {section}{\numberline {4.4}Particle flux calculations}{54}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Calculation methods}{54}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Flux measurements at 14~cm distance}{55}{subsection.4.4.2}%
+\contentsline {chapter}{\numberline {5}Discussion of Results and Outlook}{57}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Plasma transport and magnetic field effects}{57}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Reactive mode plasma chemistry}{58}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Activated nitrogen species}{58}{subsection.5.2.1}%
+\contentsline {section}{\numberline {5.3}Film growth mechanisms and microstructure}{59}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Quantitative plasma-film correlations}{60}{subsection.5.3.1}%
+\contentsline {section}{\numberline {5.4}Outlook}{61}{section.5.4}%
+\contentsline {chapter}{\numberline {6}Acknowledgments}{63}{chapter.6}%
+\contentsline {chapter}{\numberline {A}Appendix: Experimental Methods supplementary}{67}{appendix.1.A}%
+\contentsline {section}{\numberline {A.1}Longer QCM depositions}{67}{section.1.A.1}%
+\contentsline {section}{\numberline {A.2}Holder assembly design}{67}{section.1.A.2}%
+\contentsline {section}{\numberline {A.3}Data processing workflow}{68}{section.1.A.3}%
+\contentsline {subsection}{\numberline {A.3.1}Data organization and logbook system}{68}{subsection.1.A.3.1}%
+\contentsline {subsection}{\numberline {A.3.2}Ion current data processing}{68}{subsection.1.A.3.2}%
+\contentsline {subsection}{\numberline {A.3.3}QCM data processing}{70}{subsection.1.A.3.3}%
+\contentsline {subsection}{\numberline {A.3.4}ERMS data processing}{70}{subsection.1.A.3.4}%
+\contentsline {section}{\numberline {A.4}Uncertainty analysis}{71}{section.1.A.4}%
+\contentsline {subsection}{\numberline {A.4.1}Primary measurements}{71}{subsection.1.A.4.1}%
+\contentsline {subsubsection}{QCM mass measurements}{71}{section*.45}%
+\contentsline {subsubsection}{Ion current measurements}{71}{section*.46}%
+\contentsline {subsubsection}{ERMS measurements}{72}{section*.48}%
+\contentsline {subsection}{\numberline {A.4.2}Derived quantities}{72}{subsection.1.A.4.2}%
+\contentsline {subsection}{\numberline {A.4.3}Uncertainties not quantified}{73}{subsection.1.A.4.3}%
+\contentsline {subsection}{\numberline {A.4.4}Summary}{73}{subsection.1.A.4.4}%
+\contentsline {section}{\numberline {A.5}Langmuir probe bias voltage characterization}{74}{section.1.A.5}%
+\contentsline {section}{\numberline {A.6}Ion current variation over different pulses}{75}{section.1.A.6}%
+\contentsline {chapter}{\numberline {B}Appendix: supplementary material}{77}{appendix.1.B}%
+\contentsline {section}{\numberline {B.1}Data availability}{78}{section.1.B.1}%

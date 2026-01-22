@@ -15,7 +15,7 @@ with $d$ and $\mu$ denoting the density and shear modulus of quartz ($q$) and fi
 
 which compensates for the acoustic mismatch and extends the validity of thickness determination up to $\sim 0.4 F_q$.\\ 
 
-\section{Holder Assembly Design}
+\section{Holder assembly design}
 \label{sec:holder_assembly_figure}
 
 The integrated holder assembly (Figure~\ref{fig:holder_assembly}) enabled simultaneous QCM and ion probe measurements with minimal spatial separation. The aluminum mount positioned both diagnostics as close as practicable to bring the flux and plasma conditions as close as possible between measurement locations.
@@ -34,16 +34,16 @@ The integrated holder assembly (Figure~\ref{fig:holder_assembly}) enabled simult
 	]{
 		\includegraphics[width=0.8\linewidth]{Figures/experimental methods/mounting assembly thingy.png}
 	}{Figures/experimental methods/fun try out(1).u3d}
-	\caption[Holder Assembly for plasma diagnostics]{Holder Assembly for In-Situ Plasma Diagnostics: Integrated QCMs and Ion Collector Probe (interactive 3D model; static preview shown in non-Adobe viewers).}
+	\caption[Holder assembly for plasma diagnostics]{Holder assembly for In-Situ plasma Diagnostics: Integrated QCMs and Ion Collector Probe (interactive 3D model; static preview shown in non-Adobe viewers).}
 	\label{fig:holder_assembly}
 \end{figure}
 
-\section{Data Processing Workflow}\label{appendix:data_workflow}\label{appendix:data_processing}
+\section{Data processing workflow}\label{appendix:data_workflow}\label{appendix:data_processing}
 
 Experimental data were processed using custom Python scripts to ensure consistency and reproducibility across all measurements. This section describes the data handling procedures and processing workflows used throughout this work.
 
 
-\subsection{Data Organization and Logbook System}
+\subsection{Data organization and logbook system}
 
 A central Excel logbook served as the reference for all measurements, with each measurement identified by a unique suffix and linked to its corresponding data files. The logbook recorded:
 \begin{itemize}[noitemsep]
@@ -71,7 +71,7 @@ Associated oscilloscope waveforms were stored as CSV files for ion current analy
 \end{figure}
 
 
-\subsection{Ion Current Data Processing}
+\subsection{Ion current data processing}
 
 Ion current waveforms were recorded using a Tektronix MSO64 oscilloscope. For each measurement condition, multiple pulses were recorded and processed as follows:
 
@@ -82,12 +82,12 @@ Ion current waveforms were recorded using a Tektronix MSO64 oscilloscope. For ea
 
 The Python script automatically matched logbook entries to oscilloscope CSV files and compiled all parameters into CSV files for analysis.
 
-\subsection{QCM Data Processing}
+\subsection{QCM data processing}
 
 QCM frequency measurements were recorded before and after each set of pulses. The deposited mass was calculated using the Sauerbrey equation (Equation~\ref{eq:sauerbrey}). The mass deposition rate was obtained by dividing by the number of pulses and the crystal area.
 
 
-\subsection{ERMS Data Processing}
+\subsection{ERMS data processing}
 
 Energy-resolved mass spectrometry data were evaluated with a Python script that performed the following operations:
 
@@ -112,19 +112,19 @@ Energy-resolved mass spectrometry data were evaluated with a Python script that 
 
 The processed results were exported to CSV files for correlation with ion probe and QCM measurements and additionally plotted to show the ion energy distribution functions such as figure \ref{fig:ERMS-appendix} for an titanium and aluminum ions.
 
-\section{Uncertainty Analysis}\label{appendix:uncertainty}
+\section{Uncertainty analysis}\label{appendix:uncertainty}
 
 This section documents the uncertainty analysis for measurements reported in this work. Uncertainties were determined from three primary sources: instrument specifications, statistical variations in repeated measurements, and propagation through derived quantities.
 
-\subsection{Primary Measurements}
+\subsection{Primary measurements}
 
-\subsubsection{QCM Mass Measurements}
+\subsubsection{QCM mass measurements}
 
 The QCM frequency measurements have a manufacturer-specified resolution that translates to a mass uncertainty of approximately $\pm 5.64 \times 10^{-10}$ g per measurement. This corresponds to a relative uncertainty of approximately 0.1\% for typical deposited masses. This instrumental precision is negligible compared to other uncertainty sources in this work.\\
 
 The number of pulses (64 in most cases) was controlled digitally and has negligible counting uncertainty. The crystal area (1.54 cm$^2$) is specified by the manufacturer.
 
-\subsubsection{Ion Current Measurements}
+\subsubsection{Ion current measurements}
 
 Ion current measurements exhibited significant variability due to the non-stationary nature of cathodic arc plasmas. The standard deviation of time-averaged current within individual pulses ranged from 33\% to 68\% of the mean value (relative uncertainty), with a mean of 45\% across all conditions measured.\\
 
@@ -137,13 +137,13 @@ Ion current measurements exhibited significant variability due to the non-statio
 
 This large variability arises from cathode spot motion and splitting or extinction events, plasma potential fluctuations during pulse ignition and termination, and charge-exchange collisions with background gas that depend on pressure. The oscilloscope (Tektronix MSO64) has a specified voltage measurement accuracy of less than 1\%, which is negligible compared to the plasma variability. Error bars on ion current measurements represent the within-pulse standard deviation and characterize the inherent variability of the arc discharge under nominally constant operating conditions.
 
-\subsubsection{ERMS Measurements}
+\subsubsection{ERMS measurements}
 
 Mean charge states determined from energy-resolved mass spectrometry (Equation~\ref{eq:mean_charge_state}) have uncertainties ranging from 14\% to 24\% (relative), with a mean of 20\%. These uncertainties arise from statistical variations in ion energy distributions, mass transmission correction factors (estimated at $\pm 10\%$), and the energy analyzer resolution of $\Delta E/E \approx 2\%$ per manufacturer specification.\\
 
 The reported charge state uncertainties propagate from the standard deviations of the measured energy distribution functions for each charge state, weighted by their respective ion currents.
 
-\subsection{Derived Quantities}
+\subsection{Derived quantities}
 
 
 Ion flux (calculated from ion current and mean charge state) has significantly larger uncertainties. For ion flux $\Phi_i = I_{\text{ion}}/(Q \cdot e \cdot A)$, the relative uncertainty is
@@ -156,7 +156,7 @@ where uncertainties were propagated using standard error propagation for uncorre
 
 Atomic flux was calculated by converting mass flux to atomic flux using the effective molar mass (determined from film composition measured by ex-situ EDX analysis) and Avogadro's number. Since composition uncertainties were not formally characterized, the reported atomic flux values do not include propagated uncertainties.
 
-\subsection{Uncertainties Not Quantified}
+\subsection{Uncertainties not quantified}
 
 Several systematic uncertainty sources were not explicitly quantified in this work. Spatial plasma uniformity across the measurement area is estimated to contribute less than 10\% based on probe size relative to plasma diameter. Long-term calibration drift is expected to be less than 5\% as all measurements were completed within 3 months. Temperature effects on QCM sensitivity are minimal since chamber temperature remained stable within $\pm 2$~$^\circ$C and the QCM temperature coefficient is less than 0.1\% per degree. Geometric alignment uncertainties in probe positioning of $\pm 2$ cm correspond to less than 25\% flux variation at typical distances.\\
 
@@ -186,7 +186,7 @@ Table~\ref{tab:uncertainty_summary} summarizes the typical uncertainties for key
 
 \newpage
 
-\section{Langmuir Probe Bias Voltage Characterization}\label{sec:bias_characterization}
+\section{Langmuir probe bias voltage characterization}\label{sec:bias_characterization}
 
 Before plasma investigations were performed, the functionality of the custom-built ion current probe was verified by characterizing its voltage-current relationship and determining the appropriate operating voltage within the ion saturation regime. This characterization ensures that the probe operates in a regime where the collected current is dominated by ions while effectively repelling electrons.\\
 
@@ -230,7 +230,7 @@ The voltage-current characteristic exhibits two distinct regimes:
 
 Based on this characterization, a bias voltage of $-80$ V was selected for all subsequent plasma measurements. This voltage lies well within the ion saturation regime, ensuring complete electron repulsion.
 
-\section{Ion current variation over Different Pulses}\label{sec:errorbar}
+\section{Ion current variation over different pulses}\label{sec:errorbar}
 
 To analyze the pulse-to-pulse variation, approximately 30 single pulses were recorded for each magnetic field strength. The average ion current of each pulse was calculated over the 0--1~ms pulse interval. The final mean and standard deviation were then determined by combining these averages, allowing for an assessment of the differences between pulses. 
 
@@ -262,7 +262,7 @@ To analyze the pulse-to-pulse variation, approximately 30 single pulses were rec
 In all other measurements, the oscilloscope averaged the voltage signal over multiple pulses to improve signal-to-noise ratio. Therefore, the error reported in subsequent sections primarily reflects variations in ion current within individual pulses, rather than differences between distinct pulses.
 
 
-\chapter{Appendix: Supplementary material}\label{sec:additional plots}
+\chapter{Appendix: supplementary material}\label{sec:additional plots}
 
 \begin{figure}[h]
 	\centering
@@ -296,7 +296,7 @@ In all other measurements, the oscilloscope averaged the voltage signal over mul
 
 \newpage
 
-\section{Data Availability}\label{appendix:code}
+\section{Data availability}\label{appendix:code}
 
 All raw data files, processed datasets, and analysis scripts are archived and available upon request. The main Python scripts used for data processing include:
 \begin{itemize}[noitemsep]
