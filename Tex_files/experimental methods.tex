@@ -369,8 +369,48 @@ IEDFs were measured using a double-trigger acquisition scheme synchronized with 
 	\end{tabular}
 \end{table}
 
+\subsubsection{Energy Conversion and Mass Transmission Correction}
 
-To derive ion energy distributions for different charge states, the measured $E/Q$ distributions were multiplied by the corresponding charge state number $Q$. This approach accounts for the charge-dependent scaling of ion energies and enables calculation of mean charge states $\langle Q \rangle$ and the energies for each species.
+The ERMS system measures energy-per-charge ($E/Q$) distributions for each mass-to-charge ratio ($M/Q$). To derive ion energy distributions for different charge states, the measured $E/Q$ distributions are converted to actual ion energies by multiplication with the corresponding charge state number $Q$:
+\begin{equation}
+	E = Q \cdot (E/Q)
+	\label{eq:energy_conversion}
+\end{equation}
+
+This conversion accounts for the charge-dependent scaling of ion energies and is necessary because the electrostatic energy analyzer resolves ion energy per unit charge, not total ion energy \cite{dawson_quadrupole_1997,hiden_eqp_manual}.\\
+
+A critical aspect of quantitative mass spectrometry is accounting for the mass-dependent transmission efficiency of the quadrupole mass filter and detector assembly. The transmission function $T(M/Q)$ varies with mass-to-charge ratio due to the quadrupole's RF/DC field configuration and detector efficiency \cite{march_quadrupole_1989,bendikt2012}. Correction factors were determined through calibration measurements and applied to the raw ion signal intensities $I_{\text{raw}}$ to obtain corrected intensities:
+\begin{equation}
+	I_{\text{corrected}}(M/Q) = \frac{I_{\text{raw}}(M/Q)}{T(M/Q)}
+	\label{eq:mass_transmission}
+\end{equation}
+
+Without this correction, lighter ions (particularly Al$^{+}$) would be systematically underestimated relative to heavier ions (Ti$^{4+}$), leading to errors in charge state distributions and composition analysis. The mass transmission function was validated by comparison with known plasma compositions from the cathode stoichiometry.\\
+
+From the corrected ion signals, statistical parameters are extracted for each charge state and species: mean ion energy $\langle E \rangle$, standard deviation $\sigma_E$ characterizing the energy spread, and peak energy $E_{\text{peak}}$ \cite{cathodic_arcs}. 
+
+\subsubsection{Kinetic and Potential Energy Determination}
+
+The measured ion energies represent the kinetic energy of the ions. For each element, the mean kinetic energy is calculated as a weighted average over all charge states:
+\begin{equation}
+	\langle E_{\text{kin}} \rangle = \frac{\sum_Q I_Q \cdot \langle E \rangle_Q}{\sum_Q I_Q}
+	\label{eq:mean_kinetic_energy}
+\end{equation}
+where $I_Q$ is the integrated ion current for charge state $Q$ (after mass transmission correction) and $\langle E \rangle_Q$ is the mean energy measured for that charge state.\\
+
+The potential energy associated with each charge state is calculated from the cohesive energy and ionization potentials of the cathode material, following the methodology of Kalanov et al. \cite{decoupling_kalanov_2025}:
+\begin{equation}
+	E_{\text{pot},Q} = E_{\text{coh}} + C \sum_{i=1}^{Q} E_{\text{ion},i}
+	\label{eq:potential_energy}
+\end{equation}
+where $E_{\text{coh}}$ is the cohesive energy (4.85~eV for Ti, 3.39~eV for Al), $E_{\text{ion},i}$ are the successive ionization energies, and $C$ is a factor that accounts for the fraction of ionization energy deposited in the solid, with the remainder lost through radiation and Auger electron emission. Following Kalanov et al., $C = 0.8$ is used, representing the energy fraction contributing to atomic-scale heating during film growth. The mean potential energy for each element is then:
+\begin{equation}
+	\langle E_{\text{pot}} \rangle = \frac{\sum_Q I_Q \cdot E_{\text{pot},Q}}{\sum_Q I_Q}
+	\label{eq:mean_potential_energy}
+\end{equation}
+
+These kinetic and potential energy components are calculated separately, with total ion energy $E_tot = E_kin + E_pot$ used in the analysis of film growth mechanisms (Chapter~\ref{chap:discussion}). Implementation details of the data processing workflow are provided in Appendix~\ref{appendix:data_workflow}.
+
 
 %The \(m/q\) range was calibrated using N\(_2^+\) as reference ions, with typical operating parameters set to \(U_0 = \SI{100}{V}\), \(U_{\text{DC}} = \SI{5}{V}\), and \(\omega/2\pi = \SI{1.2}{MHz}\). Under these settings, the system provided a mass resolution of \(\Delta m/m \approx 0.5\) (FWHM) for ions in the \(\SI{0}{--}\SI{150}{eV}\) energy range \cite{hiden_eqp_manual}. The energy resolution was adjusted to \(\Delta E/E \approx 0.02\) by tuning \(V_{\text{PLATES}}\) and optimizing the alignment of the orifice and detector.
 %%%
@@ -512,6 +552,14 @@ The ion flux $\Gamma_{\text{ion}}$ (ions\,cm$^{-2}$\,s$^{-1}$) represents the nu
 
 
 where $\langle Q \rangle$ is the average charge state determined from ERMS measurements (Section~\ref{sec:QMS}), $e = 1.602 \times 10^{-19}$~C is the elementary charge, $A_{\text{probe}} = 0.196$~cm$^2$ is the probe collection area, and $R = 400$~$\Omega$ is the measurement resistor. This combination of probe and mass spectrometer data accounts for the multiply charged nature of the cathodic arc plasma and enables quantitative determination of the particle flux from the electrical current measurement.
+
+\begin{equation}
+	\langle Q \rangle = \frac{\sum_Q Q \cdot I_Q}{\sum_Q I_Q}
+	\label{eq:mean_charge_state}	
+\end{equation}
+where $I_Q$ is the integrated ion current for charge state $Q$ after applying the mass transmission correction (Equation~\ref{eq:mass_transmission}) \cite{RN6,unutulmazsoy}. This combination of probe and mass spectrometer data accounts for the multiply charged nature of the cathodic arc plasma and enables accurate determination of the particle flux from the electrical current measurement.
+
+
 
 \subsection{Total deposited flux from QCM and film characterization}
 The total deposited flux $\Phi_{\text{total}}$ (atoms\,cm$^{-2}$\,s$^{-1}$) quantifies the arrival rate of all species contributing to film growth, including both ions and neutrals. It is calculated from QCM mass measurements (Section~\ref{section:QCM}) combined with film composition from EDX (Section~\ref{sec:EDX}):

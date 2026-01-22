@@ -716,8 +716,8 @@
       \strng{authornamehash}{5915416668e2007abc350f3f5c241d1a}
       \strng{authorfullhash}{5915416668e2007abc350f3f5c241d1a}
       \strng{authorfullhashraw}{5915416668e2007abc350f3f5c241d1a}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-1-901019-01-4}
@@ -833,8 +833,8 @@
       \strng{authornamehash}{340c1aba3001fbdbf5ee1a80d3585d78}
       \strng{authorfullhash}{340c1aba3001fbdbf5ee1a80d3585d78}
       \strng{authorfullhashraw}{340c1aba3001fbdbf5ee1a80d3585d78}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The Rigaku Journal}
@@ -861,8 +861,8 @@
       \strng{authornamehash}{cde05632b13c7094faba9a89042c6834}
       \strng{authorfullhash}{cde05632b13c7094faba9a89042c6834}
       \strng{authorfullhashraw}{cde05632b13c7094faba9a89042c6834}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The Rigaku Journal}
@@ -1028,6 +1028,41 @@
       \verb 10.1007/978-3-540-38967-5
       \endverb
     \endentry
+    \entry{RN6}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=1de48bd1e68897629002b7f7ad2e0ec4}{%
+           family={Franz},
+           familyi={F\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=e48d2c8c1a56ee049bd498a16c24b344}{%
+           family={Polcik},
+           familyi={P\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=a4b1e4facf3bdb78db2e6cdb779f4968}{%
+           family={Anders},
+           familyi={A\bibinitperiod},
+           given={André},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{eb4681055caf72f5c27229cca2890262}
+      \strng{fullhash}{eb4681055caf72f5c27229cca2890262}
+      \strng{fullhashraw}{eb4681055caf72f5c27229cca2890262}
+      \strng{bibnamehash}{eb4681055caf72f5c27229cca2890262}
+      \strng{authorbibnamehash}{eb4681055caf72f5c27229cca2890262}
+      \strng{authornamehash}{eb4681055caf72f5c27229cca2890262}
+      \strng{authorfullhash}{eb4681055caf72f5c27229cca2890262}
+      \strng{authorfullhashraw}{eb4681055caf72f5c27229cca2890262}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Plasma Science (manuscript number: TPS6186. R1)}
+      \field{title}{Ion Charge State Distributions of Al and Cr in Cathodic Arc Plasmas from Composite Cathodes in Vacuum, Argon, Nitrogen, and Oxygen}
+      \field{type}{Journal Article}
+      \field{year}{2013}
+    \endentry
     \entry{ICDD_TiAlN}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=7f6b3961c7afb83c57a140fa99541a81}{%
@@ -1072,8 +1107,8 @@
       \strng{authornamehash}{5bcc974f5c0a6cded7a8f4bf22f4a922}
       \strng{authorfullhash}{5bcc974f5c0a6cded7a8f4bf22f4a922}
       \strng{authorfullhashraw}{5bcc974f5c0a6cded7a8f4bf22f4a922}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Applied Physics}
@@ -1108,8 +1143,8 @@
       \strng{authornamehash}{416bcf4dfa70cf62bfd4a835153e48b0}
       \strng{authorfullhash}{416bcf4dfa70cf62bfd4a835153e48b0}
       \strng{authorfullhashraw}{416bcf4dfa70cf62bfd4a835153e48b0}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Applied Physics}

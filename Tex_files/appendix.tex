@@ -89,28 +89,35 @@ QCM frequency measurements were recorded before and after each set of pulses. Th
 
 \subsection{ERMS data processing}
 
-Energy-resolved mass spectrometry data were evaluated with a Python script that performed the following operations:
+The ERMS data processing was implemented in Python and performed the following operations on the raw spectral data. The underlying measurement principles and correction methodologies are described in Section~\ref{sec:QMS}, while this section focuses on the computational implementation.
 
 \begin{enumerate}
-	\item \textbf{Spectral integration}: Raw energy distribution functions (EDFs) for each $M/Q$ value were averaged over the two measurement window of 20 ms.
+	\item \textbf{Spectral integration}: Raw energy distribution functions (EDFs) for each $M/Q$ value were averaged over two measurement windows of 20 ms duration each. This averaging improves signal-to-noise ratio while maintaining synchronization with the pulsed arc operation (1 ms pulse duration, 5 Hz repetition rate).
 	
-	\item \textbf{Mass transmission correction}: Applied correction factors to account for mass-dependent detection efficiency of the quadrupole mass filter and detector.
+	\item \textbf{Mass transmission correction}: Correction factors $T(M/Q)$ were applied to the raw ion signal intensities according to Equation~\ref{eq:mass_transmission}. The correction function accounts for the mass-dependent detection efficiency of the quadrupole mass filter, which systematically affects lighter ions (Al) differently than heavier ions (Ti). The transmission function was determined through calibration measurements and validated against the known cathode stoichiometry (Ti$_{0.75}$Al$_{0.25}$).
 	
-	\item \textbf{Energy extraction}: For each ion species ($Q = 1^+, 2^+, 3^+, 4^+$), the measured $E/Q$ distributions were multiplied by $Q$ to obtain energy distributions in eV.
+	\item \textbf{Energy conversion}: The ERMS measures energy-per-charge ($E/Q$) distributions. For multiply charged ions, the measured $E/Q$ values were multiplied by the charge state $Q$ to obtain the actual ion energy in eV (Equation~\ref{eq:energy_conversion}). This conversion was performed for charge states $Q = 1^+, 2^+, 3^+$ (Al) and $Q = 1^+, 2^+, 3^+, 4^+$ (Ti).
 	
-	\item \textbf{Statistical parameters}: Mean ion energy $\langle E \rangle$, standard deviation $\sigma_E$, and peak energy $E_{\text{peak}}$ were extracted for each charge state and species.
+	\item \textbf{Statistical extraction}: For each charge-state-resolved energy distribution, the following statistical parameters were calculated:
+	\begin{itemize}[noitemsep]
+		\item Mean ion energy $\langle E \rangle$ - weighted average over the distribution
+		\item Standard deviation $\sigma_E$ - characterizing the energy spread
+		\item Peak energy $E_{\text{peak}}$ - the most probable energy (distribution maximum)
+	\end{itemize}
+	The mean ion energy represents the kinetic energy of ions in that charge state.
 	
-	\item \textbf{Charge state analysis}: Mean charge state $\langle Q \rangle$ was calculated as a weighted average:
+	\item \textbf{Mean charge state calculation}: The mean charge state $\langle Q \rangle$ for each element was calculated as a weighted average over all detected charge states using Equation~\ref{eq:mean_charge_state}. This parameter is essential for converting the ion current measurements to particle flux (Section~\ref{sec:flux_calculations}).
+	
+	\item \textbf{Potential energy calculation}: The potential energy $E_{\text{pot}}$ for each charge state was calculated separately from the cohesive energy and ionization potentials of the cathode material, following Kalanov et al. \cite{decoupling_kalanov_2025}:
 	\begin{equation}
-		\langle Q \rangle = \frac{\sum_Q Q \cdot I_Q}{\sum_Q I_Q}
-		\label{eq:mean_charge_state}
+		E_{\text{pot}}(Q) = E_{\text{coh}} + C \sum_{i=1}^{Q} E_{\text{ion},i}
 	\end{equation}
-	where $I_Q$ is the integrated ion current for charge state $Q$.
+	where $E_{\text{coh}}$ is the cohesive energy (4.85 eV for Ti, 3.39 eV for Al), $E_{\text{ion},i}$ are the successive ionization energies, and $C = 0.6$ is a factor accounting for the fraction of ionization energy deposited in the solid. The mean potential energy was then calculated as a weighted average over charge states.
 	
-	\item \textbf{Energy decomposition}: Total ion energy was separated into kinetic and potential components following the procedure described in \cite{decoupling_kalanov_2025}.
+	\item \textbf{Energy analysis output}: The kinetic energy (measured) and potential energy (calculated) for each element were exported along with their standard deviations. These independent energy components enable investigation of their respective effects on film structure and properties.
 \end{enumerate}
 
-The processed results were exported to CSV files for correlation with ion probe and QCM measurements and additionally plotted to show the ion energy distribution functions such as figure \ref{fig:ERMS-appendix} for an titanium and aluminum ions.
+The processed results were exported to CSV files containing: pattern identification, mean charge states, mean kinetic energies, mean potential energies, and charge-state-resolved energies for each element. These data were correlated with ion probe and QCM measurements for comprehensive flux and energy analysis. Example charge-state-resolved ion energy distribution functions for titanium and aluminum ions are shown in Figures~\ref{fig:ERMS-appendix} and the following figure, measured at 14~cm distance with 0.25~T magnetic field and 0.1~Pa N$_2$ pressure.
 
 \section{Uncertainty analysis}\label{appendix:uncertainty}
 
@@ -139,9 +146,12 @@ This large variability arises from cathode spot motion and splitting or extincti
 
 \subsubsection{ERMS measurements}
 
-Mean charge states determined from energy-resolved mass spectrometry (Equation~\ref{eq:mean_charge_state}) have uncertainties ranging from 14\% to 24\% (relative), with a mean of 20\%. These uncertainties arise from statistical variations in ion energy distributions, mass transmission correction factors (estimated at $\pm 10\%$), and the energy analyzer resolution of $\Delta E/E \approx 2\%$ per manufacturer specification.\\
+Mean charge states determined from energy-resolved mass spectrometry (Equation~\ref{eq:mean_charge_state}) have uncertainties ranging from 14\% to 24\% (relative), with a mean of 20\%. This value is calculated as the weighted standard deviation of the charge state distribution:
+\begin{equation}
+	\sigma_Q = \sqrt{\sum_Q w_Q (Q - \langle Q \rangle)^2}
+\end{equation}
+where $w_Q = I_Q / \sum I_Q$ are the normalized signal intensities after mass transmission correction. This represents the spread of the charge state distribution and is used in error propagation for flux calculations.
 
-The reported charge state uncertainties propagate from the standard deviations of the measured energy distribution functions for each charge state, weighted by their respective ion currents.
 
 \subsection{Derived quantities}
 
@@ -176,7 +186,7 @@ Table~\ref{tab:uncertainty_summary} summarizes the typical uncertainties for key
 		\midrule
 		QCM mass & 0.1\% & Instrument precision \\
 		Ion current & 33--68\% (mean: 45\%) & Plasma variability \\
-		Mean charge state & 14--24\% (mean: 20\%) & Energy distribution width \\
+		Mean charge state & 14--24\% (mean: 20\%) & Charge state spread \\
 		Mass flux & 0.1\% & QCM precision \\
 		Ion flux & 36--72\% & Ion current + charge state \\
 		Atomic flux  & Not reported & Composition error not characterized \\
