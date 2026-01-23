@@ -92,9 +92,6 @@ indention=0.5cm
 
 \input{Tex_files/titlepage.tex}
 \tableofcontents
-\listoffigures
-\vspace{2cm}  % Adjust spacing as needed
-{\let\cleardoublepage\relax \let\clearpage\relax \listoftables}
 
 \input{Tex_files/introduction.tex}
 \input{Tex_files/theory.tex}
@@ -104,6 +101,10 @@ indention=0.5cm
 \input{Tex_files/final_words.tex}
 
 \printbibliography
+
+\listoffigures
+\vspace{2cm}  % Adjust spacing as needed
+{\let\cleardoublepage\relax \let\clearpage\relax \listoftables}
 
 \begin{appendices}
 	\input{Tex_files/appendix.tex}
