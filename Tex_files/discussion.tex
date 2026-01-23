@@ -1,34 +1,23 @@
 \chapter{Discussion of Results and Outlook}\label{chap:discussion}
-This chapter interprets the experimental findings presented in Chapter~\ref{chap:results} and connects them to the theoretical framework established in Chapter~\ref{chap:theory}. The discussion is organized around three central themes: plasma transport and composition, film growth mechanisms, and the unresolved flux measurement discrepancy.\\
+This chapter interprets the experimental findings presented in Chapter~\ref{chap:results} and connects them to the theoretical framework established in Chapter~\ref{chap:theory}. The discussion is organized around two central themes: plasma transport and composition, film growth mechanisms.\\
 
 
 \section{Plasma transport and magnetic field effects}\label{sec:magnetic_effect}
 The anomalous decrease in both mass deposition rate and ion current at 0.05~T magnetic field (Figure~\ref{fig:metallic_mass/ion}) reflects a magnetic mirror effect at the entrance of the EM-coil, where plasma transitions from the weak fringing field ($\sim$0.01~T) outside into the stronger field (0.05~T) inside. Electrons with sufficient perpendicular velocity components are reflected, creating a localized space-charge layer that temporarily retards ion flow \cite{cathodic_arcs}. At higher fields (0.1~T and above), the beneficial effects of plasma compression and enhanced ionization overcome this mirror loss, restoring monotonic increase. This effect persists across all distances and pressures, indicating it is a fundamental feature of the plasma-coil interaction.\\
 
-In metallic mode, mass deposition rate follows approximate $1/r^2$ dependence (Figure~\ref{fig:distance_0.25T_mass/ion}a), consistent with free plasma expansion. Ion current decreases more steeply in reactive mode due to charge-exchange neutralization. The magnetic field enhancement increases both mass flux and ion current by factors of 5--8 from zero field to 0.25~T (Figure~\ref{fig:mag_field_14cm_mass/ion}), demonstrating effective plasma confinement despite the inherent coupling between flux and ion charge states.
+In metallic mode, mass deposition rate follows approximate $1/r^2$ dependence (Figure~\ref{fig:distance_0.25T_mass/ion}a), consistent with free plasma expansion. Ion current decreases more steeply in reactive mode due to charge-exchange neutralization. The magnetic field enhancement increases both mass flux and ion current by factors of 5--8 from zero field to 0.25~T (Figure~\ref{fig:mag_field_14cm_mass/ion}), demonstrating effective plasma enhancement.
 
 
 \section{Reactive mode plasma chemistry}
 
-The pressure dependence of ion current exhibits complex behavior at 10~cm (Figure~\ref{fig:pressure_0.25T_mass/ion}b), with an initial increase from 0 to $\sim$0.05~Pa before decreasing at higher pressures. At low nitrogen pressures (0--0.1~Pa), enhanced plasma generation at the cathode from altered spot dynamics and nitrogen ion production contribute to increased measured current. At higher pressures (above 0.1~Pa), charge-exchange collisions dominate:
-\begin{equation}
-	\text{Ti}^{3+} + \text{N}_2 \rightarrow \text{Ti}^{2+} + \text{N}_2^{+}
-\end{equation}
-\begin{equation}
-	\text{Al}^{2+} + \text{N}_2 \rightarrow \text{Al}^{+} + \text{N}_2^{+}
-\end{equation}
-
-ERMS measurements confirm this mechanism: mean charge states decrease from $\langle Q \rangle \approx 2.4$ (metallic) to $\approx 1.6$ (0.3~Pa reactive), with charge-state distributions shifting toward lower ionization levels (Figures~\ref{fig:ERMS_10cm_pressure}--\ref{fig:ERMS_14cm_pressure}). Potential energy decreases proportionally, while kinetic energy shows modest variations reflecting competing effects of elastic scattering and cathode chemistry changes.\\
+The pressure dependence of mass flux exhibits complex behavior at 10~cm (Figure~\ref{fig:pressure_0.25T_mass/ion}b), with an initial decrease from 0 to 0.05~Pa before decreasing at higher pressures. At low nitrogen pressures (0--0.1~Pa), enhanced plasma generation at the cathode from altered spot dynamics and nitrogen ion production contribute to increased measured mass flux. The same cannot be said for the the ion current, which is gradually decreasing with increasing nitrogen pressure. This is due to the many reactions possible with the background gas, reduction of the metallic species can lead to ionization, dissociation and excitations.\\
 
 
-The non-monotonic pressure dependence of mass deposition rate at 10~cm (Figure~\ref{fig:pressure_0.25T_mass/ion}a), with maximum near 0.05--0.1~Pa, reflects competing effects of reactive film growth versus cathode poisoning and collisional deflection. At 14~cm and 20~cm, pressure independence indicates the plasma has undergone extensive equilibration, with collisional mean free paths ($\sim$1--10~cm at 0.1--0.3~Pa) comparable to transit distances.
-
+ERMS measurements confirm this mechanism: mean charge states decrease from $\langle Q \rangle \approx 2.4$ (metallic) to $\approx 1.6$ (0.3~Pa reactive), with charge-state distributions shifting toward lower ionization levels (Figures~\ref{fig:ERMS_10cm_pressure}--\ref{fig:ERMS_14cm_pressure}).\\
 
 \subsection{Activated nitrogen species}
 
-EDX measurements (Table~\ref{tab:edx}) show substantial nitrogen incorporation in reactive mode films (33--39~at.\%), while ERMS detects only modest N$^+$/N$_2^+$ signals (10--28~at.\%) compared to metal ions. This imbalance suggests that nitrogen arrives predominantly through neutral channels: either ground-state N$_2$, vibrationally/electronically excited N$_2$*, or atomic nitrogen radicals N* produced by dissociative electron impact in the cathode spot plasma \cite{bendikt2012}.\\
-
-The quantitative relationship between ion flux measurements and atomic flux calculations (Figure~\ref{fig:flux_vs_pressure}) shows systematic differences that require further investigation. Potential contributions include calibration uncertainties in the flux conversion factors and time averaging effects between pulsed and continuous measurements.\\
+EDX measurements (Table~\ref{tab:edx}) show substantial nitrogen incorporation in reactive mode films (33--39~at.\%), while ERMS detects only modest N$^+$/N$_2^+$ signals (10--28~at.\%) compared to metal ions. The imbalance suggests that nitrogen has some excited species but since ERMS estimates the nitrogen contents via the overall species counts, therefore the imbalance can only be used as a hint towards activated nitrogen.\\
 
 
 \section{Film growth mechanisms and microstructure}
@@ -55,15 +44,15 @@ The comprehensive characterization across plasma diagnostics and film properties
 	\centering
 	\caption{Plasma parameters and film properties correlation at 14~cm, 0.25~T}
 	\label{tab:plasma_film_correlation}
-	\begin{tabular}{c c c c c c c}
+	\begin{tabular}{c c c c c c}
 		\toprule
-		Pressure & Ion Flux & Atomic Flux & $\langle Q \rangle$ & E$_{\text{tot}}$ & Density & XRD Quality \\ 
-		(Pa) & ($10^{17}$ cm$^{-2}$s$^{-1}$) & ($10^{17}$ cm$^{-2}$s$^{-1}$) & & (eV) & (g cm$^{-3}$) & \\ 
+		Pressure & Ion Flux & Atomic Flux & $\langle Q \rangle$  & Density & XRD Quality \\ 
+		(Pa) & ($10^{17}$ cm$^{-2}$s$^{-1}$) & ($10^{17}$ cm$^{-2}$s$^{-1}$) &  & (g cm$^{-3}$) & \\ 
 		\midrule
-		0.0 & 0.7 & 0.75 & 2.4 & 50--70 & 4.00 & weak hex \\ 
-		0.1 & 0.95 & 1.0 & 2.0 & 30--60 & 4.80 & strong cubic \\ 
-		0.2 & 1.05 & 1.15 & 1.8 & 30--40 & 4.80 & strong cubic \\ 
-		0.3 & 1.0 & 0.95 & 1.6 & 20--35 & 4.65 & strong cubic \\ 
+		0.0 & 0.7 & 0.75 & 2.4  & 4.00 & weak hex \\ 
+		0.1 & 0.95 & 1.0 & 2.0  & 4.80 & strong cubic \\ 
+		0.2 & 1.05 & 1.15 & 1.8  & 4.80 & strong cubic \\ 
+		0.3 & 1.0 & 0.95 & 1.6  & 4.65 & strong cubic \\ 
 		\bottomrule
 	\end{tabular}
 \end{table}

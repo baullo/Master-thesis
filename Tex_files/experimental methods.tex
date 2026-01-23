@@ -308,7 +308,7 @@ In the present experiments, the observed frequency shifts ranged from approximat
 
 \subsection{Simultaneous ion probe and QCM measurements}
 
-To enable direct comparison between ion current and deposited mass, the Langmuir probe and QCM were mounted on the same movable aluminum assembly. The probe was positioned through a precision-milled pass-through hole, while the QCM was secured in a dedicated cutout and fixed via screws (see Appendix~\ref{sec:holder_assembly_figure} for assembly details). This configuration ensured rigid mechanical alignment between the two diagnostics throughout all measurements.
+To enable direct comparison between ion current and deposited mass, the Langmuir probe and QCM were mounted on the same movable aluminum assembly. The probe was positioned through a precision-milled pass-through hole, while the QCM was secured in a dedicated cutout and fixed via screws (see Appendix~\ref{sec:holder_assembly_figure} for assembly details). This configuration ensured rigid mechanical alignment between the two diagnostics throughout all measurements.\\
 
 
 The probe collection area ($A_{\text{probe}} = 0.196$~cm$^2$, diameter 5~mm) was smaller than but contained within the QCM crystal area ($A_{\text{QCM}} = 1.54$~cm$^2$, diameter 14~mm). Both diagnostics were positioned as close as possible to each other to minimize spatial gradients between measurement locations. This design is meant to mitigate radial plasma density gradients inherent to expanding cathodic arc plasmas \cite[Chap.~6.2]{cathodic_arcs}, though even with close proximity, gradients cannot be completely eliminated and remained evident in the experimental results.
@@ -377,17 +377,16 @@ The ERMS system measures energy-per-charge ($E/Q$) distributions for each mass-t
 	\label{eq:energy_conversion}
 \end{equation}
 
-This conversion accounts for the charge-dependent scaling of ion energies and is necessary because the electrostatic energy analyzer resolves ion energy per unit charge, not total ion energy \cite{dawson_quadrupole_1997,hiden_eqp_manual}.\\
+This conversion accounts for the charge-dependent scaling of ion energies and is necessary because the electrostatic energy analyzer resolves ion energy per unit charge, not total ion energy \cite{hiden_eqp_manual, dawson_quadrupole_1997}.\\
 
-A critical aspect of quantitative mass spectrometry is accounting for the mass-dependent transmission efficiency of the quadrupole mass filter and detector assembly. The transmission function $T(M/Q)$ varies with mass-to-charge ratio due to the quadrupole's RF/DC field configuration and detector efficiency \cite{march_quadrupole_1989,bendikt2012}. Correction factors were determined through calibration measurements and applied to the raw ion signal intensities $I_{\text{raw}}$ to obtain corrected intensities:
+A critical aspect of quantitative mass spectrometry is accounting for the mass-dependent transmission efficiency of the quadrupole mass filter and detector assembly. The transmission function $T(M/Q)$ varies with mass-to-charge ratio due to the quadrupole's RF/DC field configuration and detector efficiency \cite{bendikt2012,march_quadrupole_1989}. Correction factors were determined through calibration measurements and applied to the raw ion signal intensities $I_{\text{raw}}$ to obtain corrected intensities:
+
 \begin{equation}
 	I_{\text{corrected}}(M/Q) = \frac{I_{\text{raw}}(M/Q)}{T(M/Q)}
 	\label{eq:mass_transmission}
 \end{equation}
 
-Without this correction, lighter ions (particularly Al$^{+}$) would be systematically underestimated relative to heavier ions (Ti$^{4+}$), leading to errors in charge state distributions and composition analysis. The mass transmission function was validated by comparison with known plasma compositions from the cathode stoichiometry.\\
-
-From the corrected ion signals, statistical parameters are extracted for each charge state and species: mean ion energy $\langle E \rangle$, standard deviation $\sigma_E$ characterizing the energy spread, and peak energy $E_{\text{peak}}$ \cite{cathodic_arcs}. 
+Without this correction, lighter ions would be systematically underestimated relative to heavier ions, leading to errors in charge state distributions and composition analysis. From the corrected ion signals, statistical parameters are extracted for each charge state and species: mean ion energy $\langle E \rangle$, standard deviation $\sigma_E$ characterizing the energy spread, and peak energy $E_{\text{peak}}$ \cite{cathodic_arcs}. 
 
 \subsubsection{Kinetic and Potential Energy Determination}
 
@@ -396,20 +395,24 @@ The measured ion energies represent the kinetic energy of the ions. For each ele
 	\langle E_{\text{kin}} \rangle = \frac{\sum_Q I_Q \cdot \langle E \rangle_Q}{\sum_Q I_Q}
 	\label{eq:mean_kinetic_energy}
 \end{equation}
+
 where $I_Q$ is the integrated ion current for charge state $Q$ (after mass transmission correction) and $\langle E \rangle_Q$ is the mean energy measured for that charge state.\\
 
 The potential energy associated with each charge state is calculated from the cohesive energy and ionization potentials of the cathode material, following the methodology of Kalanov et al. \cite{decoupling_kalanov_2025}:
+
 \begin{equation}
 	E_{\text{pot},Q} = E_{\text{coh}} + C \sum_{i=1}^{Q} E_{\text{ion},i}
 	\label{eq:potential_energy}
 \end{equation}
+
 where $E_{\text{coh}}$ is the cohesive energy (4.85~eV for Ti, 3.39~eV for Al), $E_{\text{ion},i}$ are the successive ionization energies, and $C$ is a factor that accounts for the fraction of ionization energy deposited in the solid, with the remainder lost through radiation and Auger electron emission. Following Kalanov et al., $C = 0.8$ is used, representing the energy fraction contributing to atomic-scale heating during film growth. The mean potential energy for each element is then:
+
 \begin{equation}
 	\langle E_{\text{pot}} \rangle = \frac{\sum_Q I_Q \cdot E_{\text{pot},Q}}{\sum_Q I_Q}
 	\label{eq:mean_potential_energy}
 \end{equation}
 
-These kinetic and potential energy components are calculated separately, with total ion energy $E_tot = E_kin + E_pot$ used in the analysis of film growth mechanisms (Chapter~\ref{chap:discussion}). Implementation details of the data processing workflow are provided in Appendix~\ref{appendix:data_workflow}.
+These kinetic and potential energy components are calculated separately, with total ion energy $E_{tot} = E_{kin} + E_{pot}$ used in the analysis of film growth mechanisms (Chapter~\ref{chap:discussion}). Implementation details of the data processing workflow are provided in Appendix~\ref{appendix:data_workflow}.
 
 
 %The \(m/q\) range was calibrated using N\(_2^+\) as reference ions, with typical operating parameters set to \(U_0 = \SI{100}{V}\), \(U_{\text{DC}} = \SI{5}{V}\), and \(\omega/2\pi = \SI{1.2}{MHz}\). Under these settings, the system provided a mass resolution of \(\Delta m/m \approx 0.5\) (FWHM) for ions in the \(\SI{0}{--}\SI{150}{eV}\) energy range \cite{hiden_eqp_manual}. The energy resolution was adjusted to \(\Delta E/E \approx 0.02\) by tuning \(V_{\text{PLATES}}\) and optimizing the alignment of the orifice and detector.

@@ -65,8 +65,8 @@
 \contentsline {section}{\numberline {5.1}Plasma transport and magnetic field effects}{57}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Reactive mode plasma chemistry}{58}{section.5.2}%
 \contentsline {subsection}{\numberline {5.2.1}Activated nitrogen species}{58}{subsection.5.2.1}%
-\contentsline {section}{\numberline {5.3}Film growth mechanisms and microstructure}{59}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Quantitative plasma-film correlations}{60}{subsection.5.3.1}%
+\contentsline {section}{\numberline {5.3}Film growth mechanisms and microstructure}{58}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Quantitative plasma-film correlations}{59}{subsection.5.3.1}%
 \contentsline {section}{\numberline {5.4}Outlook}{61}{section.5.4}%
 \contentsline {chapter}{\numberline {6}Acknowledgments}{63}{chapter.6}%
 \contentsline {chapter}{\numberline {A}Appendix: Experimental Methods supplementary}{67}{appendix.1.A}%
