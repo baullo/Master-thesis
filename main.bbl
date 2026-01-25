@@ -515,8 +515,8 @@
       \strng{authornamehash}{4615ebb2f57af975197987eb38f0b20d}
       \strng{authorfullhash}{4615ebb2f57af975197987eb38f0b20d}
       \strng{authorfullhashraw}{4615ebb2f57af975197987eb38f0b20d}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Annual Review of Materials Science}
@@ -546,8 +546,8 @@
       \strng{authorfullhash}{a4b1e4facf3bdb78db2e6cdb779f4968}
       \strng{authorfullhashraw}{a4b1e4facf3bdb78db2e6cdb779f4968}
       \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Thin Solid Films}
@@ -682,8 +682,8 @@
       \list{organization}{1}{%
         {Hiden Analytical}%
       }
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labeltitlesource}{title}
       \field{title}{EQP Technical Manual: Energy-Resolving Quadrupole Mass Spectrometer}
       \field{year}{2024}
@@ -802,8 +802,8 @@
       \strng{authornamehash}{eb68fe52534149d2a2d4602de6c3d73e}
       \strng{authorfullhash}{eb68fe52534149d2a2d4602de6c3d73e}
       \strng{authorfullhashraw}{eb68fe52534149d2a2d4602de6c3d73e}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Wear}
@@ -920,8 +920,8 @@
       \strng{authornamehash}{e973073a26887dad5a61d2c8e3ef3bb2}
       \strng{authorfullhash}{e973073a26887dad5a61d2c8e3ef3bb2}
       \strng{authorfullhashraw}{e973073a26887dad5a61d2c8e3ef3bb2}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Physical Review}
@@ -982,8 +982,8 @@
       \strng{authornamehash}{0a7ec5233dcd189777865d8c3971ea13}
       \strng{authorfullhash}{a8840ff00f158595cd14670818e6af11}
       \strng{authorfullhashraw}{a8840ff00f158595cd14670818e6af11}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{4th}
@@ -1015,8 +1015,8 @@
       \strng{authornamehash}{98c6de20c3e8e748c73897b01fda0956}
       \strng{authorfullhash}{98c6de20c3e8e748c73897b01fda0956}
       \strng{authorfullhashraw}{98c6de20c3e8e748c73897b01fda0956}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{2nd}
@@ -1077,7 +1077,6 @@
       \strng{authornamehash}{7f6b3961c7afb83c57a140fa99541a81}
       \strng{authorfullhash}{7f6b3961c7afb83c57a140fa99541a81}
       \strng{authorfullhashraw}{7f6b3961c7afb83c57a140fa99541a81}
-      \field{extraname}{1}
       \field{sortinit}{7}
       \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
@@ -1086,30 +1085,6 @@
       \field{note}{Crystal structure data: Space group Fm$\bar{3}$m (225), $a = 4.202(9)$~Å, calculated density 4.885~g/cm$^3$. Based on X-ray absorption study by Gago et al., J. Appl. Phys. 105 (2009)}
       \field{title}{Aluminum Titanium Nitride, Ti$_{0.65}$Al$_{0.35}$N}
       \field{year}{2013}
-    \endentry
-    \entry{ICDD_TiAl}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=7f6b3961c7afb83c57a140fa99541a81}{%
-           family={{International Centre for Diffraction Data}},
-           familyi={I\bibinitperiod}}}%
-      }
-      \strng{namehash}{7f6b3961c7afb83c57a140fa99541a81}
-      \strng{fullhash}{7f6b3961c7afb83c57a140fa99541a81}
-      \strng{fullhashraw}{7f6b3961c7afb83c57a140fa99541a81}
-      \strng{bibnamehash}{7f6b3961c7afb83c57a140fa99541a81}
-      \strng{authorbibnamehash}{7f6b3961c7afb83c57a140fa99541a81}
-      \strng{authornamehash}{7f6b3961c7afb83c57a140fa99541a81}
-      \strng{authorfullhash}{7f6b3961c7afb83c57a140fa99541a81}
-      \strng{authorfullhashraw}{7f6b3961c7afb83c57a140fa99541a81}
-      \field{extraname}{2}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{PDF Card No. 04-004-9157}
-      \field{note}{Space group P6$_3$/mmc (194), $a = 2.89$~Å, $c = 4.638$~Å. Based on Clark et al., J. Inst. Met. 91 (1962) 197}
-      \field{title}{Aluminum Titanium, Ti$_{0.7}$Al$_{0.3}$}
-      \field{year}{2005}
     \endentry
     \entry{Bilek1996FilterTransport}{article}{}{}
       \name{author}{3}{}{%

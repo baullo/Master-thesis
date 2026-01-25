@@ -2385,13 +2385,14 @@
     <bcf:citekey order="10" intorder="1">unutulmazsoy</bcf:citekey>
     <bcf:citekey order="11" intorder="1">decoupling_kalanov_2025</bcf:citekey>
     <bcf:citekey order="12" intorder="1">karimi_aghda_2023</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">mesyats1995</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">cathodic_arcs</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">unutulmazsoy</bcf:citekey>
+    <bcf:citekey order="13" intorder="2">decoupling_kalanov_2025</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">mesyats1995</bcf:citekey>
     <bcf:citekey order="15" intorder="1">cathodic_arcs</bcf:citekey>
     <bcf:citekey order="16" intorder="1">cathodic_arcs</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">juttner2001</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">cathodic_arcs</bcf:citekey>
     <bcf:citekey order="18" intorder="1">juttner2001</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">cathodic_arcs</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">juttner2001</bcf:citekey>
     <bcf:citekey order="20" intorder="1">cathodic_arcs</bcf:citekey>
     <bcf:citekey order="21" intorder="1">cathodic_arcs</bcf:citekey>
     <bcf:citekey order="22" intorder="1">cathodic_arcs</bcf:citekey>
@@ -2409,68 +2410,69 @@
     <bcf:citekey order="33" intorder="1">cathodic_arcs</bcf:citekey>
     <bcf:citekey order="34" intorder="1">cathodic_arcs</bcf:citekey>
     <bcf:citekey order="35" intorder="1">lifshitz1990subplantation</bcf:citekey>
-    <bcf:citekey order="35" intorder="2">cathodic_arcs</bcf:citekey>
     <bcf:citekey order="36" intorder="1">cathodic_arcs</bcf:citekey>
     <bcf:citekey order="37" intorder="1">cathodic_arcs</bcf:citekey>
-    <bcf:citekey order="38" intorder="1">thornton1977</bcf:citekey>
-    <bcf:citekey order="39" intorder="1">anders2010szm</bcf:citekey>
-    <bcf:citekey order="40" intorder="1">cathodic_arcs</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">mayrhofer2006</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">cathodic_arcs</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">thornton1977</bcf:citekey>
     <bcf:citekey order="41" intorder="1">anders2010szm</bcf:citekey>
-    <bcf:citekey order="42" intorder="1">anders2010szm</bcf:citekey>
-    <bcf:citekey order="43" intorder="1">paldey2003</bcf:citekey>
-    <bcf:citekey order="44" intorder="1">mayrhofer2006</bcf:citekey>
-    <bcf:citekey order="45" intorder="1">rachbauer2011</bcf:citekey>
-    <bcf:citekey order="46" intorder="1">chen1984introduction</bcf:citekey>
-    <bcf:citekey order="47" intorder="1">Sauerbrey_1959</bcf:citekey>
-    <bcf:citekey order="48" intorder="1">cathodic_arcs</bcf:citekey>
-    <bcf:citekey order="49" intorder="1">hiden_eqp_manual</bcf:citekey>
-    <bcf:citekey order="50" intorder="1">dawson_quadrupole_1997</bcf:citekey>
-    <bcf:citekey order="51" intorder="1">dawson_quadrupole_1997</bcf:citekey>
-    <bcf:citekey order="51" intorder="2">march_quadrupole_1989</bcf:citekey>
-    <bcf:citekey order="52" intorder="1">RN5</bcf:citekey>
-    <bcf:citekey order="53" intorder="1">hidenanalytical</bcf:citekey>
-    <bcf:citekey order="54" intorder="1">hidenanalytical</bcf:citekey>
-    <bcf:citekey order="55" intorder="1">hiden_eqp_manual</bcf:citekey>
-    <bcf:citekey order="55" intorder="2">dawson_quadrupole_1997</bcf:citekey>
-    <bcf:citekey order="56" intorder="1">bendikt2012</bcf:citekey>
-    <bcf:citekey order="56" intorder="2">march_quadrupole_1989</bcf:citekey>
-    <bcf:citekey order="57" intorder="1">cathodic_arcs</bcf:citekey>
-    <bcf:citekey order="58" intorder="1">decoupling_kalanov_2025</bcf:citekey>
-    <bcf:citekey order="59" intorder="1">poon1995</bcf:citekey>
-    <bcf:citekey order="60" intorder="1">mitsunaga2009</bcf:citekey>
-    <bcf:citekey order="61" intorder="1">mitsunaga2009</bcf:citekey>
+    <bcf:citekey order="42" intorder="1">cathodic_arcs</bcf:citekey>
+    <bcf:citekey order="43" intorder="1">anders2010szm</bcf:citekey>
+    <bcf:citekey order="44" intorder="1">anders2010szm</bcf:citekey>
+    <bcf:citekey order="45" intorder="1">paldey2003</bcf:citekey>
+    <bcf:citekey order="46" intorder="1">mayrhofer2006</bcf:citekey>
+    <bcf:citekey order="47" intorder="1">rachbauer2011</bcf:citekey>
+    <bcf:citekey order="48" intorder="1">chen1984introduction</bcf:citekey>
+    <bcf:citekey order="49" intorder="1">Sauerbrey_1959</bcf:citekey>
+    <bcf:citekey order="50" intorder="1">cathodic_arcs</bcf:citekey>
+    <bcf:citekey order="51" intorder="1">hiden_eqp_manual</bcf:citekey>
+    <bcf:citekey order="52" intorder="1">dawson_quadrupole_1997</bcf:citekey>
+    <bcf:citekey order="53" intorder="1">dawson_quadrupole_1997</bcf:citekey>
+    <bcf:citekey order="53" intorder="2">march_quadrupole_1989</bcf:citekey>
+    <bcf:citekey order="54" intorder="1">RN5</bcf:citekey>
+    <bcf:citekey order="55" intorder="1">hidenanalytical</bcf:citekey>
+    <bcf:citekey order="56" intorder="1">hidenanalytical</bcf:citekey>
+    <bcf:citekey order="57" intorder="1">hiden_eqp_manual</bcf:citekey>
+    <bcf:citekey order="57" intorder="2">dawson_quadrupole_1997</bcf:citekey>
+    <bcf:citekey order="58" intorder="1">bendikt2012</bcf:citekey>
+    <bcf:citekey order="58" intorder="2">march_quadrupole_1989</bcf:citekey>
+    <bcf:citekey order="59" intorder="1">cathodic_arcs</bcf:citekey>
+    <bcf:citekey order="60" intorder="1">decoupling_kalanov_2025</bcf:citekey>
+    <bcf:citekey order="61" intorder="1">poon1995</bcf:citekey>
     <bcf:citekey order="62" intorder="1">mitsunaga2009</bcf:citekey>
     <bcf:citekey order="63" intorder="1">mitsunaga2009</bcf:citekey>
-    <bcf:citekey order="64" intorder="1">yasaka2010</bcf:citekey>
-    <bcf:citekey order="65" intorder="1">yasaka2010</bcf:citekey>
-    <bcf:citekey order="66" intorder="1">kiessig1931</bcf:citekey>
+    <bcf:citekey order="64" intorder="1">mitsunaga2009</bcf:citekey>
+    <bcf:citekey order="65" intorder="1">mitsunaga2009</bcf:citekey>
+    <bcf:citekey order="66" intorder="1">yasaka2010</bcf:citekey>
     <bcf:citekey order="67" intorder="1">yasaka2010</bcf:citekey>
-    <bcf:citekey order="68" intorder="1">parratt1954</bcf:citekey>
-    <bcf:citekey order="69" intorder="1">goldstein2017</bcf:citekey>
-    <bcf:citekey order="69" intorder="2">reimer1998</bcf:citekey>
-    <bcf:citekey order="70" intorder="1">goldstein2017</bcf:citekey>
+    <bcf:citekey order="68" intorder="1">kiessig1931</bcf:citekey>
+    <bcf:citekey order="69" intorder="1">yasaka2010</bcf:citekey>
+    <bcf:citekey order="70" intorder="1">parratt1954</bcf:citekey>
     <bcf:citekey order="71" intorder="1">goldstein2017</bcf:citekey>
     <bcf:citekey order="71" intorder="2">reimer1998</bcf:citekey>
-    <bcf:citekey order="72" intorder="1">RN6</bcf:citekey>
-    <bcf:citekey order="72" intorder="2">unutulmazsoy</bcf:citekey>
-    <bcf:citekey order="73" intorder="1">cathodic_arcs</bcf:citekey>
-    <bcf:citekey order="74" intorder="1">cathodic_arcs</bcf:citekey>
-    <bcf:citekey order="75" intorder="1">lifshitz1990subplantation</bcf:citekey>
-    <bcf:citekey order="76" intorder="1">bendikt2012</bcf:citekey>
-    <bcf:citekey order="77" intorder="1">ICDD_TiAlN</bcf:citekey>
-    <bcf:citekey order="78" intorder="1">anders2010szm</bcf:citekey>
+    <bcf:citekey order="72" intorder="1">goldstein2017</bcf:citekey>
+    <bcf:citekey order="73" intorder="1">goldstein2017</bcf:citekey>
+    <bcf:citekey order="73" intorder="2">reimer1998</bcf:citekey>
+    <bcf:citekey order="74" intorder="1">RN6</bcf:citekey>
+    <bcf:citekey order="74" intorder="2">unutulmazsoy</bcf:citekey>
+    <bcf:citekey order="75" intorder="1">cathodic_arcs</bcf:citekey>
+    <bcf:citekey order="76" intorder="1">cathodic_arcs</bcf:citekey>
+    <bcf:citekey order="77" intorder="1">lifshitz1990subplantation</bcf:citekey>
+    <bcf:citekey order="78" intorder="1">bendikt2012</bcf:citekey>
     <bcf:citekey order="79" intorder="1">ICDD_TiAlN</bcf:citekey>
-    <bcf:citekey order="80" intorder="1">ICDD_TiAlN</bcf:citekey>
+    <bcf:citekey order="80" intorder="1">anders2010szm</bcf:citekey>
     <bcf:citekey order="81" intorder="1">ICDD_TiAlN</bcf:citekey>
-    <bcf:citekey order="82" intorder="1">Bilek1996FilterTransport</bcf:citekey>
-    <bcf:citekey order="83" intorder="1">cathodic_arcs</bcf:citekey>
-    <bcf:citekey order="84" intorder="1">Mahieu2008Sticking</bcf:citekey>
-    <bcf:citekey order="85" intorder="1">Miller1968</bcf:citekey>
-    <bcf:citekey order="85" intorder="2">Lu1972</bcf:citekey>
-    <bcf:citekey order="86" intorder="1">SQM160_manual</bcf:citekey>
-    <bcf:citekey order="87" intorder="1">decoupling_kalanov_2025</bcf:citekey>
-    <bcf:citekey order="88" intorder="1">chen1984introduction</bcf:citekey>
-    <bcf:citekey order="89" intorder="1">chen1984introduction</bcf:citekey>
+    <bcf:citekey order="82" intorder="1">ICDD_TiAlN</bcf:citekey>
+    <bcf:citekey order="83" intorder="1">ICDD_TiAlN</bcf:citekey>
+    <bcf:citekey order="84" intorder="1">Bilek1996FilterTransport</bcf:citekey>
+    <bcf:citekey order="85" intorder="1">cathodic_arcs</bcf:citekey>
+    <bcf:citekey order="86" intorder="1">Mahieu2008Sticking</bcf:citekey>
+    <bcf:citekey order="87" intorder="1">Miller1968</bcf:citekey>
+    <bcf:citekey order="87" intorder="2">Lu1972</bcf:citekey>
+    <bcf:citekey order="88" intorder="1">SQM160_manual</bcf:citekey>
+    <bcf:citekey order="89" intorder="1">decoupling_kalanov_2025</bcf:citekey>
+    <bcf:citekey order="90" intorder="1">chen1984introduction</bcf:citekey>
+    <bcf:citekey order="91" intorder="1">chen1984introduction</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

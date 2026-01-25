@@ -1,19 +1,19 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'main.blg'
-[66] biber:342> INFO - === Fri Jan 23, 2026, 17:53:18
-[78] Biber.pm:421> INFO - Reading 'main.bcf'
-[141] Biber.pm:1002> INFO - Found 35 citekeys in bib section 0
-[150] Biber.pm:4487> INFO - Processing section 0
-[157] Biber.pm:4678> INFO - Looking for bibtex file 'references.bib' for section 0
-[158] bibtex.pm:1713> INFO - LaTeX decoding ...
-[194] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
-[418] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[418] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[418] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[418] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[434] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[444] bbl.pm:779> INFO - Output to main.bbl
-[444] Biber.pm:132> WARN - legacy month field 'Apr' in entry 'Sauerbrey_1959' is not an integer - this will probably not sort properly.
-[444] Biber.pm:132> WARN - ISBN '978-1-901019-01-4' in entry 'dawson_quadrupole_1997' is invalid - run biber with '--validate_datamodel' for details.
-[444] Biber.pm:132> WARN - ISBN '978-0-471-85841-0' in entry 'march_quadrupole_1989' is invalid - run biber with '--validate_datamodel' for details.
-[445] Biber.pm:134> INFO - WARNINGS: 3
+[71] biber:342> INFO - === Sun Jan 25, 2026, 18:48:21
+[86] Biber.pm:421> INFO - Reading 'main.bcf'
+[155] Biber.pm:1002> INFO - Found 34 citekeys in bib section 0
+[165] Biber.pm:4487> INFO - Processing section 0
+[173] Biber.pm:4678> INFO - Looking for bibtex file 'references.bib' for section 0
+[175] bibtex.pm:1713> INFO - LaTeX decoding ...
+[213] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[468] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[468] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[468] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[468] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[488] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[502] bbl.pm:779> INFO - Output to main.bbl
+[502] Biber.pm:132> WARN - legacy month field 'Apr' in entry 'Sauerbrey_1959' is not an integer - this will probably not sort properly.
+[502] Biber.pm:132> WARN - ISBN '978-1-901019-01-4' in entry 'dawson_quadrupole_1997' is invalid - run biber with '--validate_datamodel' for details.
+[502] Biber.pm:132> WARN - ISBN '978-0-471-85841-0' in entry 'march_quadrupole_1989' is invalid - run biber with '--validate_datamodel' for details.
+[502] Biber.pm:134> INFO - WARNINGS: 3
