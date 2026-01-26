@@ -28,45 +28,48 @@
 \contentsline {section}{\numberline {3.2}Plasma diagnostics}{24}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Ion current probe}{24}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Quartz crystal microbalance}{25}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Simultaneous ion probe and QCM measurements}{27}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.3}Simultaneous ion probe and QCM measurements}{26}{subsection.3.2.3}%
 \contentsline {subsection}{\numberline {3.2.4}Energy-resolving mass spectrometer (ERMS)}{27}{subsection.3.2.4}%
 \contentsline {subsubsection}{Energy Conversion and Mass Transmission Correction}{29}{section*.15}%
-\contentsline {subsubsection}{Kinetic and Potential Energy Determination}{30}{section*.16}%
-\contentsline {section}{\numberline {3.3}Thin film deposition and characterization}{30}{section.3.3}%
+\contentsline {subsubsection}{Mean Charge State and Energy Calculations}{29}{section*.16}%
+\contentsline {paragraph}{Mean charge state:}{30}{section*.17}%
+\contentsline {paragraph}{Mean kinetic energy:}{30}{section*.18}%
+\contentsline {paragraph}{Mean potential energy:}{30}{section*.19}%
+\contentsline {section}{\numberline {3.3}Thin film deposition and characterization}{31}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Profilometry}{31}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}X-ray diffraction (XRD)}{31}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}X-ray reflectometry (XRR)}{32}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.2}X-ray diffraction (XRD)}{32}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}X-ray reflectivity (XRR)}{33}{subsection.3.3.3}%
 \contentsline {subsection}{\numberline {3.3.4}Scanning electron microscopy (SEM)}{34}{subsection.3.3.4}%
-\contentsline {subsection}{\numberline {3.3.5}Energy-dispersive X-ray spectroscopy (EDX)}{34}{subsection.3.3.5}%
-\contentsline {section}{\numberline {3.4}Calculation of ion flux and total deposited flux}{35}{section.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}Energy-dispersive X-ray spectroscopy (EDX)}{35}{subsection.3.3.5}%
+\contentsline {section}{\numberline {3.4}Calculation of ion flux and total deposited flux}{36}{section.3.4}%
 \contentsline {subsection}{\numberline {3.4.1}Ion flux from probe and ERMS measurements}{36}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Total deposited flux from QCM and film characterization}{36}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.2}Total deposited flux from QCM and film characterization}{37}{subsection.3.4.2}%
 \contentsline {chapter}{\numberline {4}Results}{38}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Mass deposition rate and ion current measurements}{38}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Metallic case}{40}{subsection.4.1.1}%
 \contentsline {subsection}{\numberline {4.1.2}Measurements as a function of distance}{41}{subsection.4.1.2}%
 \contentsline {subsection}{\numberline {4.1.3}Measurements as a function of magnetic field}{42}{subsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.1.4}Measurements as a function of nitrogen pressure}{43}{subsection.4.1.4}%
-\contentsline {section}{\numberline {4.2}Energy-resolved mass spectrometry results}{44}{section.4.2}%
+\contentsline {subsection}{\numberline {4.1.4}Measurements as a function of nitrogen pressure}{42}{subsection.4.1.4}%
+\contentsline {section}{\numberline {4.2}Energy-resolved mass spectrometry results}{43}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Measurements as a function of distance}{44}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Measurements as a function of pressure}{46}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.2}Measurements as a function of pressure}{45}{subsection.4.2.2}%
 \contentsline {section}{\numberline {4.3}Thin film analysis}{47}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Profilometry}{48}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.1}Profilometry}{47}{subsection.4.3.1}%
 \contentsline {subsection}{\numberline {4.3.2}X-ray diffraction (XRD)}{48}{subsection.4.3.2}%
-\contentsline {paragraph}{Metallic mode (0~Pa N$_2$):}{48}{section*.32}%
-\contentsline {paragraph}{Reactive mode (0.1--0.3~Pa N$_2$):}{49}{section*.33}%
-\contentsline {subsection}{\numberline {4.3.3}X-ray reflectometry (XRR)}{50}{subsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.3.4}Energy dispersive X-ray spectroscopy (EDX)}{51}{subsection.4.3.4}%
-\contentsline {subsection}{\numberline {4.3.5}Scanning electron microscopy (SEM)}{52}{subsection.4.3.5}%
+\contentsline {paragraph}{Metallic mode (0~Pa N$_2$):}{49}{section*.35}%
+\contentsline {paragraph}{Reactive mode (0.1--0.3~Pa N$_2$):}{49}{section*.36}%
+\contentsline {subsection}{\numberline {4.3.3}X-ray reflectometry (XRR)}{49}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Energy dispersive X-ray spectroscopy (EDX)}{50}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}Scanning electron microscopy (SEM)}{51}{subsection.4.3.5}%
 \contentsline {section}{\numberline {4.4}Particle flux calculations}{53}{section.4.4}%
 \contentsline {subsection}{\numberline {4.4.1}Calculation methods}{53}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Flux measurements at 14~cm distance}{54}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.2}Flux calculations for 14~cm distance studies}{53}{subsection.4.4.2}%
 \contentsline {chapter}{\numberline {5}Discussion and Summary}{55}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Film Growth and Microstructure}{55}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Plasma transport and magnetic field effects}{56}{section.5.2}%
 \contentsline {section}{\numberline {5.3}Reactive mode plasma chemistry}{56}{section.5.3}%
 \contentsline {subsection}{\numberline {5.3.1}Activated nitrogen species}{57}{subsection.5.3.1}%
-\contentsline {section}{\numberline {5.4}Summary}{58}{section.5.4}%
+\contentsline {section}{\numberline {5.4}Summary and Conclusions}{58}{section.5.4}%
 \contentsline {section}{\numberline {5.5}Outlook}{58}{section.5.5}%
 \contentsline {chapter}{\numberline {6}Acknowledgments}{59}{chapter.6}%
 \contentsline {chapter}{\numberline {A}Appendix: Experimental Methods supplementary}{66}{appendix.1.A}%
@@ -79,9 +82,9 @@
 \contentsline {subsection}{\numberline {A.3.4}ERMS data processing}{69}{subsection.1.A.3.4}%
 \contentsline {section}{\numberline {A.4}Uncertainty analysis}{70}{section.1.A.4}%
 \contentsline {subsection}{\numberline {A.4.1}Primary measurements}{71}{subsection.1.A.4.1}%
-\contentsline {subsubsection}{QCM mass measurements}{71}{section*.45}%
-\contentsline {subsubsection}{Ion current measurements}{71}{section*.46}%
-\contentsline {subsubsection}{ERMS measurements}{72}{section*.48}%
+\contentsline {subsubsection}{QCM mass measurements}{71}{section*.48}%
+\contentsline {subsubsection}{Ion current measurements}{71}{section*.49}%
+\contentsline {subsubsection}{ERMS measurements}{72}{section*.51}%
 \contentsline {subsection}{\numberline {A.4.2}Derived quantities}{72}{subsection.1.A.4.2}%
 \contentsline {subsection}{\numberline {A.4.3}Uncertainties not quantified}{72}{subsection.1.A.4.3}%
 \contentsline {subsection}{\numberline {A.4.4}Summary}{73}{subsection.1.A.4.4}%

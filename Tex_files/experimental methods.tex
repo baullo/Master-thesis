@@ -1,35 +1,35 @@
 % !TeX root = main.tex
 \chapter{Experimental Methodology}\label{chap:methods}
 
-This chapter describes the experimental apparatus, diagnostic techniques, and data processing methods used to investigate the correlation between ion flux and mass deposition rate in pulsed filtered cathodic arc deposition of Ti--Al--N thin films. The approach combines three complementary in-situ diagnostics: a Langmuir probe for ion current measurements, a quartz crystal microbalance (QCM) for real-time mass deposition monitoring, and an energy-resolving mass spectrometer (ERMS) for charge-state-resolved ion energy distributions.
+This chapter describes the experimental apparatus, diagnostic techniques, and data processing methods used to investigate the correlation between ion flux and mass deposition rate in pulsed filtered cathodic arc deposition of Ti--Al--N thin films. The approach combines three complementary in-situ diagnostics: a Langmuir probe for ion current measurements, a quartz crystal microbalance (QCM) for real-time mass deposition monitoring, and an energy-resolving mass spectrometer (ERMS) for charge-state-resolved ion energy distributions.\\
 
+Plasma was generated using a water-cooled cylindrical anode and a rod cathode with composition 75~wt.\% Ti; 25~wt.\% Al (corresponding to 62.8~at.\% Ti; 37.2~at.\% Al). The cathode had a diameter of 6.35~mm and length of 38.1~mm. The expanding plasma was guided through a 90$^\circ$ curved magnetic macroparticle filter connected in series with the arc source.
 
 \section{Experimental  setup}
 
 \subsection{Vacuum \& gas control}
 
-The vacuum chamber was evacuated using a two-stage pumping system consisting of a dry rotor vacuum pump (Leybold ECODRY+) for roughing and a cryogenic pump (Leybold COOLVAC) for the main pumping line, achieving a base pressure on the order of $1 \times 10^{-5}$~Pa with the cryopump fully open. To control the working pressure during reactive deposition, the cryopump gate valve was partially closed to position 345 (approximately 34.5\% open), which reduced the effective pumping speed and increased the base pressure to approximately $1 \times 10^{-4}$~Pa. This configuration allowed for the nitrogen pressures.\\
+The vacuum chamber was evacuated using a two-stage pumping system consisting of a dry rotor vacuum pump (Leybold ECODRY+) for roughing and a cryogenic pump (Leybold COOLVAC) for the main pumping line, achieving a base pressure on the order of $1 \times 10^{-5}$~Pa with the cryopump fully open. To control the working pressure during reactive deposition, the cryopump gate valve was partially closed to position 345 (approximately 34.5\% open), which reduced the effective pumping speed and increased the base pressure to approximately $1 \times 10^{-4}$~Pa.\\
 
 Nitrogen gas (N$_2$, 99.999\% purity) was introduced via a mass flow controller (MKS IO Type B), with chamber pressures monitored using a Pfeiffer PKR 361. The nitrogen flow rate of 1 to 12.8~sccm (standard cubic centimeters per minute) leads to nitrogen partial pressures between 0.025 and 0.3 Pa.\\
 
-Plasma was generated using a water-cooled cylindrical anode and a rod cathode with composition 75~wt.\% Ti; 25~wt.\% Al (corresponding to 62.8~at.\% Ti; 37.2~at.\% Al). The cathode had a diameter of 6.35~mm and length of 38.1~mm. The expanding plasma was guided through a 90$^\circ$ curved magnetic macroparticle filter connected in series with the arc source.
 
 \subsection{Power circuits and arc operation}
 
-The arc power supply (Melec SPIK3000A) operated in pulsed DC mode, delivering arc currents up to 450~A at pulse frequencies ranging from 0.2 to 5~Hz, with a typical pulse width of 1~ms. The arc current was monitored using a Chauvin Arnoux MA200 connected to a Tektronix MSO64 oscilloscope. The cathode voltage relative to ground and anode voltage relative to ground were measured on additional channels to determine the burning voltage during the pulse.\\
+The arc power supply (Melec SPIK3000A) operated in pulsed DC mode, delivering arc currents up to 450~A at pulse frequencies ranging from 0.2 to 5~Hz, with a typical pulse width of 1~ms. The arc current was monitored using a Chauvin Arnoux MA200 connected to a Tektronix MSO64 oscilloscope. The cathode voltage relative to ground and anode voltage were measured on additional channels to determine the burning voltage during the pulse.\\
 
-A coil wound around the cylindrical anode (EM-coil) was used to enhance the ion charge states leaving the source through magnetic confinement (see Section~\ref{sec:magnetic_fields}). This coil was connected to a separate pulsing unit (Melec SPIK3000A) capable of delivering currents up to 850~A. The EM-coil was triggered 200~$\mu$s before arc ignition to ensure the magnetic field reached stable conditions before plasma generation. The coil current was monitored using another Chauvin Arnoux MA200, with a typical pulse width of 1.5~ms.\\
+A coil wound around the cylindrical anode (EM-coil) was used to minimize the losses of the ion charge states leaving the source through magnetic confinement (see Section~\ref{sec:magnetic_fields}). This coil was connected to a separate pulsing unit (Melec SPIK3000A) capable of delivering currents up to 850~A. The EM-coil was triggered 200~$\mu$s before arc ignition to ensure the magnetic field reached stable conditions before plasma generation. The coil current was monitored using another Chauvin Arnoux MA200, with a typical pulse width of 1.5~ms.\\
 
 The magnetic field strength within the EM-coil solenoid was estimated using:
 \begin{equation}
 	B = \frac{\mu_0 N I}{L}
 \end{equation}
-where $L = 0.02$~m is the solenoid length, $N = 5$ is the number of turns, $\mu_0 = 1.256 \times 10^{-6}$~$\frac{\text{T\,m}}{\text{A}}$ is the vacuum permeability, and $I$ is the peak coil current. The peak current was determined from oscilloscope measurements at the beginning of the pulse, as this represents the maximum field strength before resistive losses cause the current to decay. The current waveform drops within a pulse due to the design of the pulsing unit in the power supplies. Figure~\ref{fig:pulse-waveform} shows example current waveforms for both the arc and EM-coil for a 250~V input to the coil power supply. An additional example for 100~V input is provided in Appendix~\ref{fig:pulse-waveform-appendix}.
+where $L = 0.02$~m is the solenoid length, $N = 5$ is the number of turns, $\mu_0 = 1.256 \times 10^{-6}$~$\frac{\text{T\,m}}{\text{A}}$ is the vacuum permeability, and $I$ is the peak coil current. The peak current was determined from oscilloscope measurements at the beginning of the pulse, as this represents the maximum field strength before resistive losses cause the current to decay. The current waveform drops within a pulse due to the design of the pulsing unit in the power supplies. Figure~\ref{fig:pulse-waveform} shows exemplary current waveforms for both the arc and EM-coil for a 250~V input to the coil power supply. An additional example for 100~V input is provided in Appendix~\ref{fig:pulse-waveform-appendix}.
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.85\textwidth]{"Figures/experimental methods/Pulse waveform"}	
-	\caption[Pulse waveforms for arc and EM-coil]{Example pulse waveforms showing the arc current (red) and EM-coil current (black) as functions of time. The orange dashed lines indicate the trigger timing: (a) EM-coil trigger at $t = -0.2$~ms, (b) arc trigger at $t = 0$~ms. The waveforms shown are pulses at 250~V EM-coil input voltage. Distance: 10~cm, pressure: 0~Pa, magnetic field: 0.25~T.}
+	\caption[Pulse waveforms for arc and EM-coil]{Example pulse waveforms showing the arc current (red) and EM-coil current (black) as a functions of time. The orange dashed lines indicate the trigger timing: (a) EM-coil trigger at $t = -0.2$~ms, (b) arc trigger at $t = 0$~ms. The waveforms shown here are pulses at 250~V EM-coil input voltage. Distance: 10~cm, pressure: 0~Pa of N$_2$, magnetic field: 0.25~T.}
 		\label{fig:pulse-waveform}
 \end{figure}
 
@@ -156,7 +156,7 @@ For in situ plasma diagnostics, the Langmuir probe and QCM were mounted on a cus
 \end{circuitikz}
 }%
 
-\caption[Vacuum chamber setup with diagnostics]{Schematic of the vacuum chamber setup for cathodic arc plasma diagnostics and thin film deposition with the plasma trajectory through the EM-coil and the macroparticle filter shown in green. At the substrate position the ERMS could be pulled back allowing for the substrate holder or a custom holder assembly integrated the ion current probe and QCM \ref{fig:holder_assembly} to be placed. The delay generator synchronizes both PSUs, the ERMS (when used) and the biasing for the ion current probe, and the oscilloscope records all the data as described in Sec.\ref{sec:synchronistation and diagnostics}.}
+\caption[Vacuum chamber setup with diagnostics]{Schematic of the vacuum chamber setup for cathodic arc plasma diagnostics and thin film deposition with the plasma originating from the cathode (dark grey) and a trajectory through the EM-coil and the macroparticle filter shown in green. At the substrate position the ERMS could be pulled back, allowing either the substrate holder or a custom holder assembly integrating the ion current probe and QCM (Fig.~\ref{fig:holder_assembly}) to be placed into the plasma trajectory (red double sided arrow). The delay generator synchronizes both PSUs, the ERMS (when used) and the biasing for the ion current probe, and the oscilloscope records all the data as described in Sec.\ref{sec:synchronistation and diagnostics}.}
 \label{fig:vacuumchamber}
 \end{figure}
 
@@ -165,12 +165,7 @@ For in situ plasma diagnostics, the Langmuir probe and QCM were mounted on a cus
 
 \subsection{Ion current probe}\label{sec:langmuir_probe}
 
-An in-house-built ion collector probe was designed to measure the ion current 
-density in ion saturation mode. The probe consisted of a 5~mm diameter copper 
-rod machined to form a cylindrical collection surface with a nail-head geometry. 
-This design prevented short circuits between the probe and the grounded mount 
-due to metallic deposition. The probe body was wrapped in Kapton tape for 
-electrical insulation from the aluminum mounting assembly 
+An in-house-built ion collector probe was designed to measure the ion current density in ion saturation mode. The probe was a 5~mm diameter copper rod machined into a nail-head shape. This design prevented short circuits between the probe and the grounded mount due to metallic deposition. The probe body was wrapped in Kapton tape for electrical insulation from the aluminum mounting assembly 
 (Figure~\ref{fig:holder_assembly}).\\
 
 
@@ -281,14 +276,14 @@ where $A = 0.196$~cm$^2$ is the probe collection area and $R = 400~\Omega$.
 
 
 \subsection{Quartz crystal microbalance}\label{section:QCM}
-A quartz crystal microbalance (QCM) was used to measure the deposited mass during pulsed cathodic arc operation. The system consisted of an INFICON Cool Drawer\texttrademark\  with a single sensor in standard orientation, water-cooled to ensure thermal stability. A 14~mm diameter, 6~MHz AT-cut quartz crystal was operated with an SQM-160 controller for electronic readout.\\
+A quartz crystal microbalance (QCM) was used to measure the deposited mass during pulsed cathodic arc operation. The system consisted of an INFICON Cool Drawer\texttrademark\  with a single sensor in standard orientation and water cooled to ensure thermal stability. A 14~mm diameter, 6~MHz AT-cut quartz crystal was operated with an SQM-160 controller for electronic readout.\\
 
 
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.7\linewidth]{Figures/experimental methods/QCM_head.png}
-    \caption[QCM sensor assembly]{Sensor head of the INFICON Cool Drawer\texttrademark{} Quartz Crystal Microbalance (QCM) used for in-situ mass operation monitoring during cathodic arc sputtering. The assembly includes a water-cooled housing, a 14~mm diameter AT-cut quartz crystal (6~MHz), and electrode leads for connection to the SQM-160 controller. (Schematic adapted from INFICON STP file, available at \url{https://www.inficon.com/en/products/thin-film-technology/cool-drawer-single-sensor}).}
+    \caption[QCM sensor assembly]{Sensor head of the INFICON Cool Drawer\texttrademark{} Quartz Crystal Microbalance (QCM) used for in-situ mass operation monitoring during cathodic arc sputtering. The assembly includes a water-cooled housing, a 14~mm diameter AT-cut quartz crystal (6~MHz), and electrode leads for connection to the SQM-160 controller. (Schematic is adapted from INFICON STP file, available at \url{https://www.inficon.com/en/products/thin-film-technology/cool-drawer-single-sensor}).}
     \label{fig:QCM_sensor_head}
 \end{figure}
 
@@ -302,7 +297,7 @@ The measurement principle follows the Sauerbrey equation \cite{Sauerbrey_1959}, 
 
 Here $\rho_q = 2.649$~g\,cm$^{-3}$ is the quartz density, $r = 0.7$~cm is the radius of the crystal area, $N_{\text{AT}} = 166\,100$~Hz\,cm is the frequency constant of the AT-cut quartz, $F_q = 6$~MHz is the uncoated resonance frequency, and $\Delta F$ is the measured frequency shift.\\
 
-The Sauerbrey relation is accurate as long as $\Delta F \lesssim 0.05 F_q$ (approximately 0.3~MHz for a 6~MHz crystal), for more details on the correction above this limit look in Appendix \ref{long_qcm}. 
+The Sauerbrey relation is accurate as long as $\Delta F \lesssim 0.05 F_q$ (approximately 0.3~MHz for a 6~MHz crystal), details on the correction above this limit is given in Appendix \ref{long_qcm}. 
 In the present experiments, the observed frequency shifts ranged from approximately 1~Hz to 50~Hz over 64 pulses. These shifts are well above the SQM-160 resolution of approximately 0.03~Hz at 6~MHz, yet orders of magnitude below the Sauerbrey breakdown limit. The Sauerbrey approximation was therefore fully sufficient for all measurements in this work.\\
 
 
@@ -388,31 +383,48 @@ A critical aspect of quantitative mass spectrometry is accounting for the mass-d
 
 Without this correction, lighter ions would be systematically underestimated relative to heavier ions, leading to errors in charge state distributions and composition analysis. From the corrected ion signals, statistical parameters are extracted for each charge state and species: mean ion energy $\langle E \rangle$, standard deviation $\sigma_E$ characterizing the energy spread, and peak energy $E_{\text{peak}}$ \cite{cathodic_arcs}. 
 
-\subsubsection{Kinetic and Potential Energy Determination}
+\subsubsection{Mean Charge State and Energy Calculations}
 
-The measured ion energies represent the kinetic energy of the ions. For each element, the mean kinetic energy is calculated as a weighted average over all charge states:
+
+The measured ion energies represent the kinetic energy of the ions. For each element, three key quantities are calculated from the charge-state-resolved measurements: mean charge state, mean kinetic energy, and mean potential energy.
+
+\paragraph{Mean charge state:} The mean charge state is calculated as a weighted average over all detected charge states:
+\begin{equation}
+	\langle Q \rangle = \frac{\sum_Q Q \cdot I_Q}{\sum_Q I_Q}
+	\label{eq:mean_charge_state_erms}
+\end{equation}
+where $Q$ ranges over the detected charge states (1, 2, 3 for Al; 1, 2, 3, 4 for Ti) and $I_Q$ is the integrated ion current for charge state $Q$ after mass transmission correction. This is implemented by summing the IEDF over energy for each charge state to obtain:
+\begin{equation}
+	I_Q = \int \text{IEDF}(E,Q) \, dE
+\end{equation}
+then calculating the weighted average using the normalized weights $w_Q = I_Q / \sum I_Q$.
+
+\paragraph{Mean kinetic energy:} For each element, the mean kinetic energy is calculated as a weighted average over all charge states:
 \begin{equation}
 	\langle E_{\text{kin}} \rangle = \frac{\sum_Q I_Q \cdot \langle E \rangle_Q}{\sum_Q I_Q}
 	\label{eq:mean_kinetic_energy}
 \end{equation}
+where $\langle E \rangle_Q$ is the mean energy measured for charge state $Q$, calculated as:
+\begin{align}
+	\langle E \rangle_Q = \frac{ \int E \cdot \text{IEDF}(E,Q)\, dE}{\int \text{IEDF}(E,Q)\, dE}
+\end{align}
+This double-weighted approach first averages over the energy distribution within each charge state, then averages across charge states weighted by their relative abundances.
 
-where $I_Q$ is the integrated ion current for charge state $Q$ (after mass transmission correction) and $\langle E \rangle_Q$ is the mean energy measured for that charge state.\\
-
-The potential energy associated with each charge state is calculated from the cohesive energy and ionization potentials of the cathode material, following the methodology of Kalanov et al. \cite{decoupling_kalanov_2025}:
-
+\paragraph{Mean potential energy:} The potential energy associated with each charge state is calculated from the cohesive energy and ionization potentials of the cathode material, following the methodology of Kalanov et al. \cite{decoupling_kalanov_2025}:
 \begin{equation}
 	E_{\text{pot},Q} = E_{\text{coh}} + C \sum_{i=1}^{Q} E_{\text{ion},i}
 	\label{eq:potential_energy}
 \end{equation}
-
-where $E_{\text{coh}}$ is the cohesive energy (4.85~eV for Ti, 3.39~eV for Al), $E_{\text{ion},i}$ are the successive ionization energies, and $C$ is a factor that accounts for the fraction of ionization energy deposited in the solid, with the remainder lost through radiation and Auger electron emission. Following Kalanov et al., $C = 0.8$ is used, representing the energy fraction contributing to atomic-scale heating during film growth. The mean potential energy for each element is then:
-
+where $E_{\text{coh}}$ is the cohesive energy (4.85~eV for Ti, 3.39~eV for Al), $E_{\text{ion},i}$ are the successive ionization energies, and $C$ is a factor that accounts for the fraction of ionization energy deposited in the solid, with the remainder lost through radiation and Auger electron emission. Following Kalanov et al., $C = 0.8$ is used, representing the energy fraction contributing to atomic-scale heating during film growth. The mean potential energy for each element is then calculated as a weighted average over charge states:
 \begin{equation}
 	\langle E_{\text{pot}} \rangle = \frac{\sum_Q I_Q \cdot E_{\text{pot},Q}}{\sum_Q I_Q}
 	\label{eq:mean_potential_energy}
 \end{equation}
+using the same weights $w_Q = I_Q / \sum I_Q$ as for the charge state and kinetic energy calculations.\\
 
-These kinetic and potential energy components are calculated separately, with total ion energy $E_{tot} = E_{kin} + E_{pot}$ used in the analysis of film growth mechanisms (Chapter~\ref{chap:discussion}). Implementation details of the data processing workflow are provided in Appendix~\ref{appendix:data_workflow}.
+
+These three quantities are interdependent through the charge state distribution: changes in $\langle Q \rangle$ directly affect $\langle E_{\text{pot}} \rangle$ while $\langle E_{\text{kin}} \rangle$ depends on the energy distribution of each charge state present. The total ion energy $E_{\text{tot}} = E_{\text{kin}} + E_{\text{pot}}$ is used in the analysis of film growth mechanisms (Chapter~\ref{chap:discussion}). Implementation details of the data processing workflow are provided in Appendix~\ref{appendix:data_workflow}.
+
 
 
 %The \(m/q\) range was calibrated using N\(_2^+\) as reference ions, with typical operating parameters set to \(U_0 = \SI{100}{V}\), \(U_{\text{DC}} = \SI{5}{V}\), and \(\omega/2\pi = \SI{1.2}{MHz}\). Under these settings, the system provided a mass resolution of \(\Delta m/m \approx 0.5\) (FWHM) for ions in the \(\SI{0}{--}\SI{150}{eV}\) energy range \cite{hiden_eqp_manual}. The energy resolution was adjusted to \(\Delta E/E \approx 0.02\) by tuning \(V_{\text{PLATES}}\) and optimizing the alignment of the orifice and detector.
@@ -427,19 +439,20 @@ These kinetic and potential energy components are calculated separately, with to
 
 \section{Thin film deposition and characterization}\label{sec:film_characterization}
 
-Thin films were deposited on Si (100) substrates mounted on a movable substrate holder positioned at controlled distances from the macroparticle filter exit. Prior to deposition, the 2x2~cm substrates were cut into four pieces and cleaned with compressed nitrogen gas. For thickness measurements, a masking technique was employed: a marker line was drawn near the edge of each substrate before deposition, creating a well-defined step edge. After deposition, this marker was removed by ultrasonic cleaning in isopropanol, leaving a sharp boundary between the coated and uncoated regions for profilometry analysis.\\
+Thin films were deposited on Si (100) substrates mounted on a movable substrate holder positioned at controlled distances from the macroparticle filter exit. Prior to deposition, the 2x2~cm substrates were cut into four pieces and cleaned with compressed nitrogen gas. For thickness measurements, a masking technique was employed: a marker line was drawn near the edge of each substrate before deposition, creating a well-defined step edge. After deposition, this marker was removed by ultrasonic cleaning in isopropanol, leaving a sharp boundary between the coated and uncoated regions for profilometry.\\
 
-The deposition parameters (distance, magnetic field strength, nitrogen pressure) were selected to match a subset of the plasma diagnostic measurements, enabling direct correlation between plasma properties and film characteristics. All depositions were performed with 6000--8000 pulses at 5~Hz repetition rate (1~ms pulse duration) to ensure sufficient film thickness for ex situ characterization. The substrate holder was not heated, allowing the investigation of room-temperature film growth under energetic ion bombardment conditions characteristic of cathodic arc deposition.
+The deposition parameters (distance, magnetic field strength, nitrogen pressure) were selected to match a subset of the plasma diagnostic measurements, enabling direct correlation between plasma properties and film characteristics. All depositions were performed with 6000--8000 pulses at 5~Hz repetition rate (1~ms pulse duration) to ensure sufficient film thickness for ex situ characterization. The substrate holder was not heated, allowing the investigation of room-temperature film growth under energetic ion bombardment conditions.
 
 
 
 \subsection{Profilometry}\label{sec:profil}
 
-Stylus profilometry was used to measure film thickness by mechanically tracing the surface topography using a diamond-tipped stylus. The technique provides direct measurement of step heights between masked and deposited regions, making it particularly useful for verifying film thickness values obtained by QCM \cite{poon1995}.\\
+Stylus profilometry was used to measure film thickness by mechanically tracing the surface topography using a diamond-tipped stylus. The technique provides direct measurement of step heights between masked and deposited regions \cite{poon1995}, making it particularly useful for verifying film thickness values obtained by QCM.\\
 
 In profilometry, a stylus with a small tip radius is dragged across the sample surface with a controlled force of 3~mg while its vertical displacement is monitored electromagnetically. The resulting trace provides a profile of the surface from which the step height (film thickness) with vertical resolution down to $\sim$ 1~nm can be extracted.\\
 
-The Bruker DektakXT stylus profilometer used in this study. For thickness measurements, silicon substrates were partially masked with a marker line, which created a well-defined step edge during deposition. This marker line was subsequently removed with Isopropanol in a ultrasonic bath. Multiple scans across each step were performed to ensure reproducibility, and the average thickness was calculated from at least three different positions on each sample.
+The Bruker DektakXT stylus profilometer was used in this study. Multiple scans across each step were performed to ensure reproducibility, and the average thickness was calculated from at least three different positions on each sample.
+
 
 
 %One limitation of contact profilometry is the potential for stylus-induced damage on very soft films, though this was not a concern for the hard TiAlN coatings investigated here. The technique is complementary to XRR, with profilometry providing rapid, direct thickness measurements while XRR offers higher accuracy for very thin films and additional information on density and roughness \cite{windover1999}.
@@ -447,7 +460,7 @@ The Bruker DektakXT stylus profilometer used in this study. For thickness measur
 
 \subsection{X-ray diffraction (XRD)}\label{sec:XRD}
 
-X-ray diffraction (XRD) was employed to analyze the crystallographic structure of the thin films deposited during the experiments. XRD is a non-destructive technique that provides detailed information about the crystalline phases present in the material, as well as their lattice parameters, crystallite size, and strain.\\
+X-ray diffraction (XRD) was employed to analyze the crystallographic structure of the deposited thin films. XRD is a non-destructive technique that provides detailed information about the crystalline phases present in the material, as well as their lattice parameters, crystallite size, and strain.\\
 
 Due to the small film thickness, out-of-plane diffraction techniques were used to enhance the film signal relative to the substrate. Two measurement geometries are employed \cite{mitsunaga2009}:
 
@@ -464,7 +477,7 @@ Due to the small film thickness, out-of-plane diffraction techniques were used t
 	\label{fig:xrdinoutofplane}
 \end{figure}
 
-The XRD measurements were performed using a Rigaku Ultima IV system equipped with a non monochromatic $Cu_{\alpha}$ source. The crystallographic structure was determined by analyzing the diffraction patterns. The Bragg equation was used to identify the crystalline phases:
+The XRD measurements were performed using a Rigaku Ultima IV system equipped with a non monochromatic Cu$_{\alpha}$ source. The crystallographic structure was determined by analyzing the diffraction patterns. The Bragg equation used to identify the crystalline phases:
 \begin{equation}
 	2d \sin(\theta) = n\lambda,
 \end{equation}
@@ -472,7 +485,7 @@ where $d$ is the spacing between atomic planes, $\theta$ is the diffraction angl
 
 
 
-\subsection{X-ray reflectometry (XRR)}\label{sec:XRR}
+\subsection{X-ray reflectivity (XRR)}\label{sec:XRR}
 
 X-ray reflectometry (XRR) is a non-destructive technique used to determine film thickness, density, and surface or interface roughness by measuring the intensity of X-rays reflected at grazing incidence angles (0.01--5°) \cite{yasaka2010}.
 
@@ -504,7 +517,7 @@ The XRR technique provides three key parameters \cite{yasaka2010}:
 
 %The XRR measurements were performed using a \textcolor{red}{model name} diffractometer equipped with a Cu $K_\alpha$ X-ray source ($\lambda = 1.5406$~Å). Sample alignment was performed using the total reflection phenomenon to ensure proper angular positioning. Scans were performed in $2\theta/\theta$ geometry from \textcolor{red}{add range, e.g., 0.2° to 6°} with a step size of \textcolor{red}{add step size, e.g., 0.01°} and a scan speed of \textcolor{red}{add speed, e.g., 0.5°/min}.
 
-The measured reflectivity curves were fitted using GlobalFit software, which implements the Parratt recursive formalism \cite{parratt1954} to account for multiple reflections at each interface. Film thickness, density, and roughness parameters were refined by fitting the calculated reflectivity curve to the experimental data. Initial thickness estimates from Profilometry measurements (Section~\ref{sec:profilometry}) were used as starting values for the fitting procedure. XRR is particularly suited for verifying thicknesses and characterizing film density and surface quality for the deposited TiAl/TiAlN films.
+The measurements were performed using a Rigaku Ultima IV and the measured reflectivity curves were fitted using GlobalFit software, which implements the Parratt recursive formalism \cite{parratt1954} to account for multiple reflections at each interface. Film thickness, density, and roughness parameters were refined by fitting the calculated reflectivity curve to the experimental data. Initial thickness estimates from Profilometry measurements (Section~\ref{sec:profilometry}) were used as starting values for the fitting procedure. XRR is particularly suited for verifying thicknesses and characterizing film density and surface roughness for the deposited TiAl and TiAlN films.
 
 
 
@@ -517,7 +530,6 @@ SEM imaging was performed using a Zeiss Ultra 55 field emission scanning electro
 The primary objectives of SEM characterization were to:
 \begin{itemize}[noitemsep]
 	\item Examine surface morphology and the presence of any macroparticles typical of cathodic arc deposition
-	\item Assess film uniformity across the substrate
 	\item Identify microstructural features resulting from different deposition conditions\\
 \end{itemize}
 
@@ -526,7 +538,7 @@ Representative SEM micrographs and analysis of surface features are presented in
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.6\linewidth]{Figures/experimental methods/SEM_chamber.jpg}
-	\caption[Interior view of the SEM sample chamber]{Interior view of the SEM sample chamber showing the sample holder stage and detector configuration used for imaging and EDX analysis.}
+	\caption[Interior view of the SEM sample chamber]{Interior view as seen by the internal camera of the SEM system during measurements. The chamber with the sample holder stage and detector configuration used for imaging and EDX analysis.}
 	\label{fig:SEM_chamber}
 \end{figure}
 
@@ -537,12 +549,12 @@ Energy-dispersive X-ray spectroscopy (EDX) relies on the ionization of inner-she
 
 EDX measurements were performed using a silicon drift detector (SDD) integrated with the SEM system, operating at an accelerating voltage of 10~kV. To minimize substrate contribution from the thin films, samples were tilted to 55° relative to the electron beam increasing the effective path length by $\approx$ 1.74.\\
 
-Prior to analysis, samples were cleaned ultrasonically in isopropanol to remove loose particles. While profilometry provides straightforward thickness measurements of the deposited films (see Section~\ref{sec:profilometry}), EDX analysis requires careful consideration of potential contamination sources. Organic solvent residues and hydrocarbon contamination from the vacuum system can lead to carbon deposition under electron beam irradiation \cite{goldstein2017,reimer1998}. A small carbon peak was therefore typically observed in EDX spectra and was excluded from compositional quantification of the TiAlN films. Multiple area measurements were taken on each sample to verify that all surface features, including any macroparticles or morphological structures, had the same metal-nitride composition as the underlying thin film and to identify potential impurities beyond the surface carbon layer.\\
+Prior to analysis, samples were cleaned ultrasonically in isopropanol to remove loose particles. Organic solvent residues and hydrocarbon contamination from the vacuum system can lead to carbon deposition under electron beam irradiation \cite{goldstein2017,reimer1998}. A small carbon peak was therefore typically observed in EDX spectra and was excluded from compositional quantification of the TiAlN films. Multiple area measurements were taken on each sample to verify that all surface features, including any macroparticles or morphological structures, had the same metal-nitride composition as the underlying thin film and to identify potential impurities beyond the surface carbon layer.\\
 
-The primary elements analyzed were titanium (Ti), aluminum (Al), and nitrogen (N). Oxygen (O), silicon (Si) and carbon (C) were also monitored to assess surface oxidation, contribution from the Si substrate and contamination from Isopropanol during the ultrasonic bath cleaning steps. The measured film compositions are used to calculate the effective molar mass $M_{\text{eff}}$ required for determining total deposited flux from QCM measurements (Section~\ref{sec:QMS}). Compositional results and representative EDX spectra are presented in Section~\ref{sec:results_EDX}.
+The primary elements analyzed were titanium (Ti), aluminum (Al), and nitrogen (N). Oxygen (O), silicon (Si) and carbon (C) were also monitored to assess surface oxidation, contribution from the Si substrate and contamination from isopropanol during the ultrasonic bath cleaning steps. The measured film compositions are used to calculate the effective molar mass $M_{\text{eff}}$ required for determining total deposited flux from QCM measurements (Section~\ref{sec:QMS}). Compositional results and representative EDX spectra are presented in Section~\ref{sec:results_EDX}.
 
 \section{Calculation of ion flux and total deposited flux}\label{sec:flux_calculations}
-The plasma diagnostic measurements described in Section~\ref{sec:langmuir_probe}--\ref{sec:QMS} provide electrical currents, deposited masses, and ion energy distributions. To quantify the actual particle arrival rates and relate these to film growth, these raw measurements must be converted to particle fluxes through the conversion factors and procedures described below. Uncertainty estimates for the calculated fluxes, accounting for instrument uncertainties and measurement statistics, are provided in Appendix~\ref{appendix:uncertainty}.
+The plasma diagnostic measurements described in Section~\ref{sec:langmuir_probe}--\ref{sec:QMS} provide ion current, mass flux, and ion energy distributions. To quantify the actual particle arrival rates and relate these to the film, these raw measurements must be converted to particle fluxes (ions, neutrals and activated nitrogen) through the conversion factors and procedures described below. Uncertainty estimates for the calculated fluxes, accounting for instrument uncertainties and measurement statistics, are provided in Appendix~\ref{appendix:uncertainty}.
 
 
 \subsection{Ion flux from probe and ERMS measurements}
@@ -554,7 +566,7 @@ The ion flux $\Gamma_{\text{ion}}$ (ions\,cm$^{-2}$\,s$^{-1}$) represents the nu
 \end{equation}
 
 
-where $\langle Q \rangle$ is the average charge state determined from ERMS measurements (Section~\ref{sec:QMS}), $e = 1.602 \times 10^{-19}$~C is the elementary charge, $A_{\text{probe}} = 0.196$~cm$^2$ is the probe collection area, and $R = 400$~$\Omega$ is the measurement resistor. This combination of probe and mass spectrometer data accounts for the multiply charged nature of the cathodic arc plasma and enables quantitative determination of the particle flux from the electrical current measurement.
+where $\langle Q \rangle$ is the average charge state determined from ERMS measurements and when available the ratios from EDX measurements, $e = 1.602 \times 10^{-19}$~C is the elementary charge, $A_{\text{probe}} = 0.196$~cm$^2$ is the probe collection area, and $R = 400$~$\Omega$ is the measurement resistor. This combination of probe and mass spectrometer data accounts for the multiply charged nature of the cathodic arc plasma and enables quantitative determination of the particle flux from the electrical current measurement.
 
 \begin{equation}
 	\langle Q \rangle = \frac{\sum_Q Q \cdot I_Q}{\sum_Q I_Q}
@@ -581,77 +593,4 @@ where $\Delta m$ is the mass change measured by QCM over time interval $\Delta t
 where $x_i$ are the atomic fractions from EDX measurements (Table~\ref{tab:edx}) and $M_i$ are the atomic masses.\\
 
 The effective molar mass varies significantly between metallic and reactive mode: $M_{\text{eff}} \approx 43.5$~g$\cdot$mol$^{-1}$ for Ti--Al films versus $M_{\text{eff}} \approx 31.8$--33.2~g$\cdot$mol$^{-1}$ for TiAlN films. This ~25\% reduction reflects the incorporation of light nitrogen atoms (14.0~g$\cdot$mol$^{-1}$) displacing heavier metal atoms.
-
-
-
-
-%below is old data processing
-
-\iffalse
-
-\section{Data Processing}
-
-Experimental data were processed using custom Python scripts to ensure consistency and reproducibility. A central Excel logbook served as the reference for all measurements, each identified by a unique suffix and linked to its corresponding data files. The logbook recorded experimental parameters such as date, distance, pressures, MFC flow rate, cryopump position, power supply settings, and pulse characteristics, as well as initial and final QCM frequencies for deposited mass determination. Associated oscilloscope waveforms were stored as CSV files for ion current analysis.\\
-
-
-A Python script automated data handling by matching logbook entries to raw data, averaging ion current waveforms over multiple pulses to reduce noise when possible, and compiling all parameters into a unified dataset. This ensured uniform processing and efficient preparation for subsequent analysis.\\
-
-
-QMS data were evaluated with a separate Python script that integrated raw spectra, applied mass transmission corrections to account for detection biases, and extracted parameters such as mean ion energy, charge state distribution, and potential and kinetic energy components for each species (different ionization levels of the four atoms measured). The processed results were visualized and exported into a structured CSV file for detailed examination of the ion energy distributions.
-
-
-
-\section{Error Handling}
-\subsection{Mass Spectrometry Measurements}
-
-In mass spectrometry measurements, particularly in the context of cathodic arc processes, the standard deviation is crucial for characterizing data variability. The non-stationary nature of cathode spots in cathodic arcs leads to significant fluctuations in ion flux and charge composition from pulse to pulse \cite{cathodic_arcs}. Calibrating mass spectrometry measurements can be challenging due to these fluctuations, as random errors at each standard point used to determine the calibration curve can lead to a distribution of values for the same observed response for the unknown \cite{massspec_err}. As a result, achieving optimal calibration in such conditions may not be straightforward, and the accuracy of the calibration could be affected.
-
-In this study, while efforts were made to calibrate the mass spectrometer accurately, the inherent difficulties associated with the calibration process in cathodic arc environments suggest that the calibration might not have been optimal. To account for this potential source of error, the impact of truncating the measurement artifact (e.g., signal noise or background interference) at different points was evaluated, and its effect on the data was analyzed in detail. This analysis will be further discussed in Section \ref{massspec_results}.
-
-As detailed in Appendix \ref{appendix:code}, the standard deviation of energy measurements is calculated using the \verb|calculate_energy_stats| function, providing both average energy and standard deviation. This statistical approach offers a visual representation of measurement variability through error bars. The use of standard deviation in mass spectrometry is well-documented in scientific literature. For instance, standard deviation is commonly used to represent uncertainties in measurements and to describe the scatter among measured data points \cite{basic_massspec}. This statistical approach is crucial for characterizing data variability and ensuring the accuracy of the measurements.
-
-\subsection{QCM and Ion Current Probe Measurements}\label{sec:ion/qcm_error}
-
-For the ion current probe measurements, the standard deviation of the averaged measurements is calculated to characterize the variability in the data. This variability within a pulse can be attributed to several factors: the fluctuations in the plasma potential at the beginning of the pulse, charge exchange reactions between ions and neutrals and variations in the arc current and pulse parameters. These factors can cause fluctuations in the ion current during the pulse, leading to the observed variability \cite{evolution_pulse}. This kind of instability within the pulse will be henceforth shown with the help of error bars.
-
-However, certain sources of error specific to the ion probe must be considered. The design of the ion probe can influence the measurements due to sheath effects, where the sheath around the probe can expand based on the probe's size and the biasing applied \cite[Appendix A.2]{cathodic_arcs}. Additionally, secondary electron emissions from the probe surface can affect the ion current measurements \cite[Chap. 8.2]{cathodic_arcs}. These emissions can be caused by interactions between the ions and the probe surface leading to inaccuracies in the measurements. As stated before, each pulse varies in terms of energies and amount of particles; these variations are investigated briefly in Sec.~\ref{sec:errorbar}, but cannot be considered for every data point.
-
-The QCM measurements are subject to inaccuracies in terms of the error in the resonance frequency measurements, which is based on the manufacturer's specifications. The given measurement inaccuracy is $\Delta f = 0.03$~Hz, which will be taken for error propagation \cite{SQM160_manual}. Additionally, the relative position of the QCM sensor with respect to the ion flux affects the accuracy of the measurements especially at close distances.
-
-\subsection{Error Propagation Analysis}\label{sec:error_propagation}
-
-To properly characterize the uncertainties in the derived quantities, a comprehensive error propagation analysis was performed. The primary measured quantities with associated uncertainties are: the ion current $I_{\text{ion}}$ with standard deviation $\sigma_{I}$, the deposited mass $m$ measured by QCM with uncertainty $\sigma_m$, and the mean charge state $\bar{Q}$ with standard deviation $\sigma_Q$ determined from mass spectrometry measurements. These independent measurements are combined to calculate particle fluxes, necessitating careful propagation of uncertainties through the calculation chain.
-
-\subsubsection{Ion Flux from Current Measurements}
-The ion flux in mass units $\Phi_{\text{ion}}$ (in $\mu$g/cm$^2$/s) is calculated from the measured ion current according to:
-\begin{equation}
-	\Phi_{\text{ion}} = \frac{I_{\text{ion}}}{A \cdot \bar{Q} \cdot e}
-	\label{eq:ion_flux_mass}
-\end{equation}
-where $e$ is the elementary charge, $A$ is the collection area of the ion probe and $\bar{Q}$ is the mean charge state.\\
-
-
-For error propagation, considering the independent uncertainties in $I_{\text{ion}}$, $\bar{Q}$, the standard Gaussian error propagation formula gives \cite{taylor1997}:
-\begin{equation}
-	\left(\frac{\sigma_{\Phi_{\text{ion}}}}{\Phi_{\text{ion}}}\right)^2 = \left(\frac{\sigma_I}{I_{\text{ion}}}\right)^2 + \left(\frac{\sigma_Q}{\bar{Q}}\right)^2
-\end{equation}
-
-This shows that the relative uncertainties add in quadrature, which is typical for multiplicative error propagation.
-
-\subsubsection{Atomic Flux from QCM Measurements}
-The atomic flux $\Phi_{\text{atom}}$ (in atoms/cm$^2$/s) is determined from the mass flux measured by the QCM:
-\begin{equation}
-	\Phi_{\text{atom}} = \frac{\Phi_{\text{mass}} \cdot N_A}{M_{\text{eff}}}
-	\label{eq:atomic_flux}
-\end{equation}
-where $\Phi_{\text{mass}} = m/(A_{\text{QCM}} \cdot t)$ is the mass flux and $N_A = 6.022 \times 10^{23}$~mol$^{-1}$ is Avogadro's constant. Following the same approach: \textcolor{red}{this depends what kind of data i get from EDX, else just standard error}
-\begin{equation}
-	\left(\frac{\sigma_{\Phi_{\text{atom}}}}{\Phi_{\text{atom}}}\right)^2 = \left(\frac{\sigma_m}{m}\right)^2 + \left(\frac{\sigma_{M_{\text{eff}}}}{M_{\text{eff}}}\right)^2
-	\label{eq:rel_error_atomic_flux}
-\end{equation}
-
-The QCM mass uncertainty $\sigma_m$ is calculated from the frequency measurement uncertainty $\Delta f = 0.03$~Hz using the Sauerbrey relation.
-
-
-\fi
 
