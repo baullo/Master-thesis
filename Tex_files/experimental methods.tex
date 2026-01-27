@@ -5,7 +5,7 @@ This chapter describes the experimental apparatus, diagnostic techniques, and da
 
 Plasma was generated using a water-cooled cylindrical anode and a rod cathode with composition 75~wt.\% Ti; 25~wt.\% Al (corresponding to 62.8~at.\% Ti; 37.2~at.\% Al). The cathode had a diameter of 6.35~mm and length of 38.1~mm. The expanding plasma was guided through a 90$^\circ$ curved magnetic macroparticle filter connected in series with the arc source.
 
-\section{Experimental  setup}
+\section{Experimental setup}
 
 \subsection{Vacuum \& gas control}
 
@@ -18,7 +18,7 @@ Nitrogen gas (N$_2$, 99.999\% purity) was introduced via a mass flow controller 
 
 The arc power supply (Melec SPIK3000A) operated in pulsed DC mode, delivering arc currents up to 450~A at pulse frequencies ranging from 0.2 to 5~Hz, with a typical pulse width of 1~ms. The arc current was monitored using a Chauvin Arnoux MA200 connected to a Tektronix MSO64 oscilloscope. The cathode voltage relative to ground and anode voltage were measured on additional channels to determine the burning voltage during the pulse.\\
 
-A coil wound around the cylindrical anode (EM-coil) was used to minimize the losses of the ion charge states leaving the source through magnetic confinement (see Section~\ref{sec:magnetic_fields}). This coil was connected to a separate pulsing unit (Melec SPIK3000A) capable of delivering currents up to 850~A. The EM-coil was triggered 200~$\mu$s before arc ignition to ensure the magnetic field reached stable conditions before plasma generation. The coil current was monitored using another Chauvin Arnoux MA200, with a typical pulse width of 1.5~ms.\\
+A coil wound around the cylindrical anode (EM-coil) was used to minimize charge states losses leaving the source through magnetic confinement (see Section~\ref{sec:magnetic_fields}). This coil was connected to a separate pulsing unit (Melec SPIK3000A) capable of delivering currents up to 850~A. The EM-coil was triggered 200~$\mu$s before arc ignition to ensure the magnetic field reached stable conditions before plasma generation. The coil current was monitored using another Chauvin Arnoux MA200, with a typical pulse width of 1.5~ms.\\
 
 The magnetic field strength within the EM-coil solenoid was estimated using:
 \begin{equation}
@@ -29,7 +29,7 @@ where $L = 0.02$~m is the solenoid length, $N = 5$ is the number of turns, $\mu_
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.85\textwidth]{"Figures/experimental methods/Pulse waveform"}	
-	\caption[Pulse waveforms for arc and EM-coil]{Example pulse waveforms showing the arc current (red) and EM-coil current (black) as a functions of time. The orange dashed lines indicate the trigger timing: (a) EM-coil trigger at $t = -0.2$~ms, (b) arc trigger at $t = 0$~ms. The waveforms shown here are pulses at 250~V EM-coil input voltage. Distance: 10~cm, pressure: 0~Pa of N$_2$, magnetic field: 0.25~T.}
+	\caption[Pulse waveforms for arc and EM-coil]{Example pulse waveforms showing the arc current (red) and EM-coil current (black) as a function of time. The orange dashed lines indicate the trigger timing: (a) EM-coil trigger at $t = -0.2$~ms, (b) arc trigger at $t = 0$~ms. The waveforms shown here are pulses at 250~V EM-coil input voltage. Distance: 10~cm, pressure: 0~Pa of N$_2$, magnetic field: 0.25~T.}
 		\label{fig:pulse-waveform}
 \end{figure}
 
@@ -43,12 +43,12 @@ A delay generator (Stanford Research Systems DG645) served as the master clock f
 \end{itemize}
 
 
-The oscilloscope was triggered on the rising edge of the cathode voltage (channel 1), which marks the onset of the arc pulse. Channels 1 and 2 of the oscilloscope measured the cathode-to-ground voltage and anode-to-ground voltage, respectively. Channels 3 and 4 recorded the arc current and EM-coil current via current probes. The ion current was recorded separately, more on that in Section~\ref{sec:langmuir_probe}.\\
+The oscilloscope was triggered on the rising edge of the cathode voltage (channel 1), which marks the onset of the arc pulse. Channels 1 and 2 of the oscilloscope measured the cathode-to-ground voltage and anode-to-ground voltage, respectively. Channels 3 and 4 recorded the arc current and EM-coil current via current probes. The ion current was recorded separately, as discussed in Section~\ref{sec:langmuir_probe}.\\
 
 The vacuum chamber setup for cathodic arc plasma diagnostics and thin film deposition is shown in Figure~\ref{fig:vacuumchamber}. The green arrow illustrates the trajectory of the plasma plume as it expands from the cathode, passes through the 90$^\circ$ macroparticle filter, and reaches the target. This experimental configuration enabled systematic investigation of plasma properties and film growth as functions of distance, magnetic field strength, and nitrogen pressure, as detailed in the following sections.\\
 
 
-The ion current probe and quartz crystal microbalance (QCM) were not triggered by the delay generator. The ion probe signal was recorded directly by the oscilloscope (triggered on the cathode voltage), automatically synchronizing ion current measurements with the arc pulses. The QCM operated continuously, with frequency measurements recorded before and after each sputtering run to determine the accumulated mass change over a fixed number of pulses. The BNC cable connector was detached during sputtering, this was done to protect the sensitive components in the oscillator from the highly energetic plasma.\\
+The ion current probe and quartz crystal microbalance (QCM) were not triggered by the delay generator. The ion probe signal was recorded directly by the oscilloscope (triggered on the cathode voltage), automatically synchronizing ion current measurements with the arc pulses. The QCM operated continuously, with frequency measurements recorded before and after each sputtering run to determine the accumulated mass change over a fixed number of pulses. The BNC cable connector was detached during sputtering. This was done to protect the sensitive components in the oscillator from the highly energetic plasma.\\
 
 For in situ plasma diagnostics, the Langmuir probe and QCM were mounted on a custom movable assembly positioned at distances ranging from 10 to 20~cm from the macroparticle filter exit. The energy-resolving mass spectrometer (ERMS) was mounted on a separate linear feedthrough allowing independent adjustment of its position (distance from the filter exit) for spatial characterization of the plasma. Film depositions were performed using silicon substrates mounted on a third movable holder, also positioned at controlled distances from the filter exit.
 
@@ -592,5 +592,6 @@ where $\Delta m$ is the mass change measured by QCM over time interval $\Delta t
 
 where $x_i$ are the atomic fractions from EDX measurements (Table~\ref{tab:edx}) and $M_i$ are the atomic masses.\\
 
-The effective molar mass varies significantly between metallic and reactive mode: $M_{\text{eff}} \approx 43.5$~g$\cdot$mol$^{-1}$ for Ti--Al films versus $M_{\text{eff}} \approx 31.8$--33.2~g$\cdot$mol$^{-1}$ for TiAlN films. This ~25\% reduction reflects the incorporation of light nitrogen atoms (14.0~g$\cdot$mol$^{-1}$) displacing heavier metal atoms.
+The effective molar mass of the metallic films is $M_{\text{eff}} \approx 43.5$~g$\cdot$mol$^{-1}$ and for the nitride films: $M_{\text{eff}} = 31.8$--33.2~g$\cdot$mol$^{-1}$. ERDA measurements can improve the accuracy of the composition and account for potential impurities in the film \cite{unutulmazsoy}.
+
 

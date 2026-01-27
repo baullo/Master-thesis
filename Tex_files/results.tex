@@ -13,24 +13,22 @@ Figure~\ref{fig:3D overview} provides a three-dimensional visualization of the c
 \begin{figure}[H]
 \centering
 \begin{subfigure}[b]{\textwidth}
-  \includegraphics[width=1\linewidth]{Figures/results 1/3Dmass.png}
-  \caption{}
+  \includegraphics[width=\linewidth]{Figures/results 1/3Dmass.png}
   \label{fig:3Dmass} 
 \end{subfigure}
 
 \begin{subfigure}[b]{\textwidth}
-  \includegraphics[width=1\linewidth]{Figures/results 1/3Dion.png}
-  \caption{}
+  \includegraphics[width=\linewidth]{Figures/results 1/3Dion.png}
   \label{fig:3Dion}
 \end{subfigure}
-\caption[3D visualization of mass flux and ion current]{Three-dimensional visualization of (a) mass deposition rate and (b) ion current as functions of magnetic field strength, source-to-substrate distance, and nitrogen pressure. Each data point represents an average over 64 pulses at 5 Hz repetition rate, normalized to a single pulse. Surface colors indicate the magnitude of the nitrogen pressure.}
+\caption[3D visualization of mass flux and ion current]{Three-dimensional visualization of (a) mass flux and (b) ion current as functions of distance (cm), magnetic field strength (T) and nitrogen pressure. Each data point represents an average over 64 pulses at 5 Hz repetition rate, normalized to a single pulse. Surface colors indicate the magnitude of the nitrogen pressure.}
 \label{fig:3D overview}
 \end{figure}
 
 To systematically dissect these multidimensional trends, the following subsections examine cross-sections through the parameter space. We begin with the metallic case (no nitrogen, Section~\ref{subsec:metallic}) to characterize the plasma behaviour without the reactive gas. The sections~\ref{subsec:distance}--\ref{subsec:nitrogen_pressure} then investigate the individual effects of distance, magnetic field, and nitrogen pressure by varying each parameter with the others constant. The parameter combinations analyzed in detail---distances of 10, 14, and 20~cm; magnetic fields of 0, 0.15, and 0.25~T; and nitrogen pressures of 0.1 and 0.3~Pa---were selected because they correspond to conditions used for energy-resolved mass spectrometry (ERMS) measurements and thin film deposition, enabling direct correlation between plasma diagnostics and film properties in later sections.
 
 \subsection{Metallic case}\label{subsec:metallic}
-In the absence of reactive gas, plasma expansion and deposition dynamics are governed solely by geometric spreading and magnetic enhancement of plasma. Figure~\ref{fig:metallic_mass/ion} presents mass deposition rate and ion current as functions of magnetic field strength for three representative distances.
+In the absence of reactive gas, plasma expansion and deposition dynamics are governed solely by geometric spreading and magnetic enhancement of the plasma. Figure~\ref{fig:metallic_mass/ion} presents mass deposition rate and ion current as functions of magnetic field strength for three representative distances.
 
 \begin{figure}[h]
 	\centering
@@ -44,7 +42,7 @@ In the absence of reactive gas, plasma expansion and deposition dynamics are gov
 		\includegraphics[width=\linewidth]{Figures/results 1/MagField_vs_Distance_P0.0Pa_IonCurrent.png}
 		\caption{}
 	\end{subfigure}
-	\caption[Metallic mode measurements vs. magnetic field]{Magnetic field dependence of (a) mass deposition rate and (b) ion current in metallic mode (0 Pa). Both quantities increase monotonically above 0.1 T due to improved plasma guiding, with the strongest enhancement at 10 cm where radial expansion is minimal. The anomalous dip at 0.05 T (discussed in Sec. \ref{sec:magnetic_effect}) appears across all distances. Error bars in (a) represent the measurement inaccuracy and in (b) intra-pulse variability.}
+	\caption[Metallic mode measurements vs. magnetic field]{Magnetic field dependence of (a) mass flux and (b) ion current in metallic mode (0 Pa). Both quantities increase monotonically above 0.1 T due to improved plasma guiding, with the strongest enhancement at 10 cm where radial expansion is minimal. The anomalous dip at 0.05 T (discussed in Sec. \ref{sec:magnetic_effect}) appears across all distances. Error bars in (a) represent the measurement inaccuracy and in (b) intra-pulse variability.}
 	\label{fig:metallic_mass/ion}
 \end{figure}
 
@@ -68,7 +66,7 @@ Figure~\ref{fig:distance_0.25T_mass/ion} reveals the effect of source-to-substra
 		\includegraphics[width=\linewidth]{Figures/results 1/Distance_vs_Pressure_B0.25T_IonCurrent.png}
 		\caption{}
 	\end{subfigure}
-	\caption[Mass and ion current vs. distance]{Distance from the filter exit dependence of (a) mass deposition rate and (b) ion current at 0.25 T magnetic field strength, measured at nitrogen pressures of 0, 0.1, 0.2, and 0.3 Pa.}
+	\caption[Mass and ion current vs. distance]{Distance from the filter exit dependence of (a) mass flux and (b) ion current at 0.25 T magnetic field strength, measured at nitrogen pressures of 0, 0.1, 0.2, and 0.3 Pa.}
 	\label{fig:distance_0.25T_mass/ion}
 \end{figure}
 
@@ -81,7 +79,7 @@ Additional measurements at constant magnetic field (0~T) and varying distance sh
 
 \subsection{Measurements as a function of magnetic field}\label{subsec:mag_field}
 
-Figure~\ref{fig:mag_field_14cm_mass/ion} presents mass flux and ion current as a function of magnetic field strength at a fixed intermediate distance (14~cm) for the pressures as in the precious measurements (metallic, 0.1, 0.2, and 0.3~Pa).
+Figure~\ref{fig:mag_field_14cm_mass/ion} presents mass flux and ion current as a function of magnetic field strength at a fixed intermediate distance (14~cm) for the pressures as in the previous measurements (metallic, 0.1, 0.2, and 0.3~Pa).
 
 \begin{figure}[ht]
 	\centering
@@ -95,7 +93,7 @@ Figure~\ref{fig:mag_field_14cm_mass/ion} presents mass flux and ion current as a
 		\includegraphics[width=\linewidth]{Figures/results 1/MagField_vs_Pressure_D14cm_IonCurrent.png}
 		\caption{}
 	\end{subfigure}
-	\caption[Mass and ion current vs. magnetic field]{(a) Mass deposition rate and (b) ion current as functions of magnetic field strength (from 0 to 0.25 T) at 14 cm distance, shown for metallic mode (0 Pa) and reactive mode (0.1, 0.2, 0.3 Pa nitrogen pressure).}
+	\caption[Mass and ion current vs. magnetic field]{(a) Mass flux and (b) ion current as functions of magnetic field strength (from 0 to 0.25 T) at 14 cm distance, shown for metallic mode (0 Pa) and reactive mode (0.1, 0.2, 0.3 Pa nitrogen pressure).}
 	\label{fig:mag_field_14cm_mass/ion}
 \end{figure}
 
@@ -120,7 +118,7 @@ Figure~\ref{fig:pressure_0.25T_mass/ion} presents mass flux and ion current as f
 		\includegraphics[width=\linewidth]{Figures/results 1/Pressure_vs_Distance_B0.25T_IonCurrent.png}
 		\caption{}
 	\end{subfigure}
-	\caption[Mass and ion current vs. nitrogen pressure]{(a) Mass deposition rate and (b) ion current as functions of nitrogen pressure (0--0.3~Pa) at a magnetic field strength of 0.25~T, shown for the distances 10, 14 and 20~cm.}
+	\caption[Mass and ion current vs. nitrogen pressure]{(a) Mass flux and (b) ion current as functions of nitrogen pressure (0--0.3~Pa) at a magnetic field strength of 0.25~T, shown for the distances 10, 14 and 20~cm.}
 	\label{fig:pressure_0.25T_mass/ion}
 \end{figure}
 
@@ -227,7 +225,7 @@ In reactive conditions, the deposition rate was decreased compared to metallic m
 		10 & 0.0 & 6000  & 65 & 57 \\
 		13 & 0.1 & 8000  & 59 & 41 \\
 		14 & 0.2 & 8000  & 46 & 38 \\
-		9  & 0.3 & 6000  & 42 & 35 \\
+		11  & 0.3 & 8000  & 42 & 35 \\
 		\bottomrule
 	\end{tabular}
 \end{table}
@@ -382,8 +380,10 @@ Figure~\ref{fig:flux_vs_pressure} presents the calculated ion flux and total flu
 \end{figure}
 
 
-The ion flux shows an increase with the added nitrogen pressure, from $(0.7 \pm 0.2) \times 10^{17}$~ions$\cdot$cm$^{-2}$$\cdot$s$^{-1}$ in metallic mode to $(1.0 \pm 0.3) \times 10^{17}$~ions$\cdot$cm$^{-2}$$\cdot$s$^{-1}$ at 0.1~Pa, remaining relatively constant at higher pressures. The error bars ($\pm 30$--$40\%$) reflect combined uncertainties from ion flux variation within a pulse from the ion current probe measurements and ERMS charge-state determination \ref{tab:uncertainty_summary}. The overall trend mirrors the ion current behavior observed in Figure~\ref{fig:pressure_0.25T_mass/ion}b, where current initially increases from 0 to 0.1~Pa due to additional nitrogen ion production before saturating at higher pressures. The reduction in total flux relative to ion flux at higher reactive gas pressures may be partially explained by reduced sticking coefficients under these conditions.\\
 
-The total flux exhibits clear non-monotonic pressure dependence, increasing from $0.75 \times 10^{17}$~atoms$\cdot$cm$^{-2}$$\cdot$s$^{-1}$ in metallic mode to a maximum of $1.15 \times 10^{17}$~atoms$\cdot$cm$^{-2}$$\cdot$s$^{-1}$ at 0.2~Pa (a 53\% increase), before decreasing to $0.95 \times 10^{17}$~atoms$\cdot$cm$^{-2}$$\cdot$s$^{-1}$ at 0.3~Pa.\\
+The ion flux increases monotonically with nitrogen pressure, rising from $(0.65 \pm 0.2) \times 10^{17}$~atoms$\cdot$cm$^{-2}$$\cdot$s$^{-1}$ in metallic mode (0~Pa) to $(0.8 \pm 0.3) \times 10^{17}$~atoms$\cdot$cm$^{-2}$$\cdot$s$^{-1}$ at 0.1~Pa, and reaching $(0.95 \pm 0.35) \times 10^{17}$~atoms$\cdot$cm$^{-2}$$\cdot$s$^{-1}$ at 0.2~Pa before remaining approximately constant at 0.3~Pa. The large error bars (36--72\% relative uncertainty, see Table~\ref{tab:uncertainty_summary}) arise from the combined uncertainties in ion current measurements and ERMS charge-state determination, both dominated by the intrinsic variability of cathodic arc plasmas rather than instrumental limitations. This trend mirrors the ion current behavior shown in Figure~\ref{fig:pressure_0.25T_mass/ion}b, where the initial increase from 0 to 0.1~Pa results from additional nitrogen ion production before the flux saturates at higher pressures.\\
+
+
+In contrast, the total flux exhibits clear non-monotonic pressure dependence, increasing from $0.75 \times 10^{17}$~atoms$\cdot$cm$^{-2}$$\cdot$s$^{-1}$ in metallic mode to a maximum of $1.15 \times 10^{17}$~atoms$\cdot$cm$^{-2}$$\cdot$s$^{-1}$ at 0.2~Pa, before decreasing to $0.95 \times 10^{17}$~atoms$\cdot$cm$^{-2}$$\cdot$s$^{-1}$ at 0.3~Pa. The QCM-based total flux measurements have uncertainties of approximately 1\% (dominated by mass measurement precision), which are smaller than the symbol size in the figure and therefore not visible.
 
 

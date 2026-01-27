@@ -1,5 +1,5 @@
 % !TeX root = main.tex
-\chapter{Appendix: Experimental Methods supplementary}
+\chapter{Experimental Methods supplementary}
 \section{Longer QCM depositions}\label{long_qcm}
 For larger mass loadings of the QCM, the linear approximation fails and the Z-match\texttrademark\ technique is used. This method, introduced by Lu and Lewis in 1972 on the basis of Miller and Bolef’s theoretical treatment \cite{Miller1968,Lu1972}, incorporates the acoustic properties of both the quartz and the deposited film via the acoustic impedance ratio  
 
@@ -184,11 +184,11 @@ Table~\ref{tab:uncertainty_summary} summarizes the typical uncertainties for key
 		\toprule
 		\textbf{Quantity} & \textbf{Relative Uncertainty} & \textbf{Dominant Source} \\
 		\midrule
-		QCM mass & 0.1\% & Instrument precision \\
-		Ion current & 33--68\% (mean: 45\%) & Plasma variability \\
-		Mean charge state & 14--24\% (mean: 20\%) & Charge state spread \\
-		Mass flux & 0.1\% & QCM precision \\
-		Ion flux & 36--72\% & Ion current + charge state \\
+		QCM mass & 0.01\% & Instrument precision \\
+		Ion current & 33--68\%  & Plasma variability \\
+		Mean charge state & 14--24\%  & Charge state spread \\
+		Mass flux & 0.01\% & QCM precision \\
+		Ion flux & 40--70\% & Ion current + charge state \\
 		Atomic flux  & Not reported & Composition error not characterized \\
 		\bottomrule
 	\end{tabular}
@@ -272,16 +272,16 @@ To analyze the pulse-to-pulse variation, approximately 30 single pulses were rec
 In all other measurements, the oscilloscope averaged the voltage signal over multiple pulses to improve signal-to-noise ratio. Therefore, the error reported in subsequent sections primarily reflects variations in ion current within individual pulses, rather than differences between distinct pulses.
 
 
-\chapter{Appendix: supplementary material}\label{sec:additional plots}
+\chapter{Supplementary material}\label{sec:additional plots}
 
-\begin{figure}[h]
+\begin{figure}[ht]
 	\centering
 	\includegraphics[width=\textwidth]{"Figures/appendix/Pulse waveform appendix (0.1T)"}
 	\caption[Pulse waveform at 100 V input]{Additional Pulse waveform with the triggering timings (a) and (b) for the Arc-PSU and the EM-coil PSU marked with the orange dashed line for 100V input}
 	\label{fig:pulse-waveform-appendix}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[h!]
 	\centering
 	\begin{subfigure}{.5\textwidth}
 		\centering
@@ -293,14 +293,14 @@ In all other measurements, the oscilloscope averaged the voltage signal over mul
 		\includegraphics[width=\linewidth]{Figures/appendix/Distance_vs_Pressure_B0.00T_IonCurrent.png}
 		\caption{}
 	\end{subfigure}
-	\caption[Additional distance measurements]{Additional plot for Section \ref{subsec:distance}. QCM and Ion Probe measurements showing (a) the deposited mass after 64 pulses and (b) the ion current averaged over a single pulse, each plotted as a function of distance. Data shown for representative pressures, with error bars representing variation within pulses.}
+	\caption[Additional distance measurements]{Additional plot for Section \ref{subsec:distance}. Distance from the filter exit dependence of (a) mass flux and (b) ion current  at 0~T magnetic field strength, measured at nitrogen pressures of 0, 0.1, 0.2 and 0.3~Pa}
 	\label{fig:distance_0T_mass/ion}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[h!]
 	\centering
 	\includegraphics[width=\linewidth]{Figures/appendix/MagField_ChargeState_correlation.png}
-	\caption[Magnetic field correlation with charge state]{Mean charge state as a function of magnetic field strength for Ti and Al ions under representative conditions: (a) 10 cm distance in metallic mode (0 Pa), (b) 10 cm distance in reactive mode (0.3 Pa), and (c) 14 cm distance in reactive mode (0.1 Pa). The systematic increase in charge states with magnetic field strength occurs across all conditions, demonstrating the inherent coupling between magnetic confinement and ion charge states. This coupling prevents independent control of ion flux and potential energy, as discussed in Section~\ref{chap:discussion}.}
+	\caption[Magnetic field correlation with charge state]{Mean charge state as a function of magnetic field strength for Ti and Al ions under representative conditions: (a) 10 cm distance in metallic mode (0 Pa), (b) 10 cm distance in reactive mode (0.3 Pa), and (c) 14 cm distance in reactive mode (0.1 Pa).}
 	\label{fig:magfield_vs_chargestate}
 \end{figure}
 
@@ -313,9 +313,10 @@ All raw data files, processed datasets, and analysis scripts are archived and av
 	\item \href{https://github.com/baullo/Junk_Paul-Masterthesis-Code/blob/main/ion%20current%20and%20mass%20csv%20generator.py}{Ion current and mass csv generator.py}: Ion current waveform analysis (mean and std) and qcm mass inclusion if provided.
 	\item \href{https://github.com/baullo/Junk_Paul-Masterthesis-Code/blob/main/Massspec%20final.py}{Massspec final.py}: ERMS data integration, mass transmission correction and energy states, mean charge states and potential aswell as kinetic energy extraction.
 	\item \href{https://github.com/baullo/Junk_Paul-Masterthesis-Code/blob/main/xrd_plot_stacked.py}{XRD plot stacked.py}: plotting of stacked XRD plots from .txt files
-	\item {Data sets created and used for the Thesis}
+	\item \href{https://github.com/baullo/Junk_Paul-Masterthesis-Code/tree/main/spreadsheets}{Data sets} created and used for the Thesis
 \end{itemize}
-\textcolor{red}{dunno if i will modify the csv merger script and add it since it is too specific maybe}
+
+
 \begin{table}[htbp]
 	\centering
 	\caption[Complete overview of experimental measurements]{Complete overview of experimental measurements. All distance/field/pressure combinations not explicitly listed were measured with ion current probe and QCM only. In total: 252 Ion+QCM measurements, 17 ERMS measurements, 4 deposited films}
