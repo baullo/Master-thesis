@@ -1,13 +1,13 @@
 % !TeX root = main.tex
 \chapter{Results}\label{chap:results}
 
-\section{Mass deposition rate and ion current measurements}
+\section{Mass flux and ion current measurements}
 
-To systematically characterize the plasma dynamics and deposition behavior, measurements were simultaneously conducted using a quartz crystal microbalance (QCM) for mass deposition rate and a biased ion collector probe for ion current density. 
+To systematically characterize the plasma dynamics and deposition behavior, measurements were simultaneously conducted using a quartz crystal microbalance (QCM) for mass flux and a biased ion collector probe for ion current density. 
 
-The experimental parameter space spanned three variables: distance from the macroparticle filter (from 10 to 20~cm), applied magnetic field strength (from 0 to 0.25~T), and nitrogen background pressure (from 0 to 0.3~Pa), with all permutations measured as listed in Table~\ref{tab:comprehensive_measurements}. At this stage, the raw quantities mass deposition rate (in ng~cm$^{-2}$~s$^{-1}$) and ion current (in mA) are shown to establish trends before flux calculations in Section~\ref{sec:flux_calculations}.
+The experimental parameter space spanned three variables: distance from the macroparticle filter (from 10 to 20~cm), applied magnetic field strength (from 0 to 0.25~T), and nitrogen background pressure (from 0 to 0.3~Pa), with all permutations measured as listed in Table~\ref{tab:comprehensive_measurements}. At this stage, the raw quantities mass flux (in ng~cm$^{-2}$~s$^{-1}$) and ion current (in mA) are shown to establish trends before flux calculations in Section~\ref{sec:flux_calculations}.
 
-Figure~\ref{fig:3D overview} provides a three-dimensional visualization of the complete dataset, illustrating how mass deposition rate and ion current vary simultaneously with all three control parameters. Several global trends are immediately apparent: both quantities decrease with increasing distance due to plasma expansion, increase with applied magnetic field due to enhanced plasma. The dependence on nitrogen pressure is more complex and demands detailed investigation.
+Figure~\ref{fig:3D overview} provides a three-dimensional visualization of the complete dataset, illustrating how mass flux and ion current vary simultaneously with all three control parameters. Several global trends are immediately apparent: both quantities decrease with increasing distance due to plasma expansion, increase with applied magnetic field due to enhanced plasma. The dependence on nitrogen pressure is more complex and demands detailed investigation.
 
 
 \begin{figure}[H]
@@ -28,7 +28,7 @@ Figure~\ref{fig:3D overview} provides a three-dimensional visualization of the c
 To systematically dissect these multidimensional trends, the following subsections examine cross-sections through the parameter space. We begin with the metallic case (no nitrogen, Section~\ref{subsec:metallic}) to characterize the plasma behaviour without the reactive gas. The sections~\ref{subsec:distance}--\ref{subsec:nitrogen_pressure} then investigate the individual effects of distance, magnetic field, and nitrogen pressure by varying each parameter with the others constant. The parameter combinations analyzed in detail---distances of 10, 14, and 20~cm; magnetic fields of 0, 0.15, and 0.25~T; and nitrogen pressures of 0.1 and 0.3~Pa---were selected because they correspond to conditions used for energy-resolved mass spectrometry (ERMS) measurements and thin film deposition, enabling direct correlation between plasma diagnostics and film properties in later sections.
 
 \subsection{Metallic case}\label{subsec:metallic}
-In the absence of reactive gas, plasma expansion and deposition dynamics are governed solely by geometric spreading and magnetic enhancement of the plasma. Figure~\ref{fig:metallic_mass/ion} presents mass deposition rate and ion current as functions of magnetic field strength for three representative distances.
+In the absence of reactive gas, plasma expansion and deposition dynamics are governed solely by geometric spreading and magnetic enhancement of the plasma. Figure~\ref{fig:metallic_mass/ion} presents mass flux and ion current as functions of magnetic field strength for three representative distances.
 
 \begin{figure}[h]
 	\centering
@@ -46,7 +46,7 @@ In the absence of reactive gas, plasma expansion and deposition dynamics are gov
 	\label{fig:metallic_mass/ion}
 \end{figure}
 
-As shown in Figure~\ref{fig:metallic_mass/ion}, both mass deposition rate and ion current increase with applied magnetic field. The enhancement is most pronounced at the shortest distance (10~cm), where the magnetic field can effectively guide ions before significant radial expansion occurs. At 20~cm, the plasma has already expanded substantially, reducing the relative impact of magnetic enhancement on the collected flux.\\
+As shown in Figure~\ref{fig:metallic_mass/ion}, both mass flux and ion current increase with applied magnetic field. The enhancement is most pronounced at the shortest distance (10~cm), where the magnetic field can effectively guide ions before significant radial expansion occurs. At 20~cm, the plasma has already expanded substantially, reducing the relative impact of magnetic enhancement on the collected flux.\\
 
 A surprising anomaly appears at 0.05~T, where both quantities drop below their zero-field values before recovering and increasing at higher fields (0.1~T and above). Similar behavior is observed across all experimental conditions involving increasing magnetic field strength, details of this are discussed in section \ref{sec:magnetic_effect}.
 
@@ -71,9 +71,9 @@ Figure~\ref{fig:distance_0.25T_mass/ion} reveals the effect of source-to-substra
 \end{figure}
 
 
-Both mass deposition rate and ion current decrease with distance, reflecting plasma expansion and the corresponding decrease in plasma density. In metallic mode (0~Pa), mass deposition rate follows an approximate $1/r^2$ dependence expected for free plasma expansion \cite[Chap.~4.3]{cathodic_arcs}, with 20~cm values approximately 25--30\% of those measured at 10~cm.\\
+Both mass flux and ion current decrease with distance, reflecting plasma expansion and the corresponding decrease in plasma density. In metallic mode (0~Pa), mass flux follows an approximate $1/r^2$ dependence expected for free plasma expansion \cite[Chap.~4.3]{cathodic_arcs}, with 20~cm values approximately 25--30\% of those measured at 10~cm.\\
 
-Ion current exhibits a more pronounced pressure dependence than mass deposition rate. When nitrogen is introduced, the measured current drops steeply, while the QCM mass deposition rate shows more modest changes. The contrast between the two measurements is most pronounced at short distances and diminishes at 14--20~cm.\\
+Ion current exhibits a more pronounced pressure dependence than mass flux. When nitrogen is introduced, the measured current drops steeply, while the QCM mass flux shows more modest changes. The contrast between the two measurements is most pronounced at short distances and diminishes at 14--20~cm.\\
 
 Additional measurements at constant magnetic field (0~T) and varying distance show similar trends and are presented in Appendix~\ref{fig:distance_0T_mass/ion}.
 
@@ -125,9 +125,9 @@ Figure~\ref{fig:pressure_0.25T_mass/ion} presents mass flux and ion current as f
 At 10~cm, the mass flux exhibits non-monotonic pressure dependence, with a local maximum near 0.05--0.075~Pa before decreasing at higher pressures. The ion current shows substantial scatter across the low pressure ranges suggests that it may be an artifact from the experimental setup. A general decreasing trend is evident despite the scattering.\\
 
 
-At 14~cm and 20~cm, both mass deposition rate and ion current become largely independent of nitrogen pressure. Within experimental uncertainty, both quantities remain similar across the 0--0.3~Pa range with the same but weaker scattering at low pressures.\\
+At 14~cm and 20~cm, both mass flux and ion current become largely independent of nitrogen pressure. Within experimental uncertainty, both quantities remain similar across the 0--0.3~Pa range with the same but weaker scattering at low pressures.\\
 
-The measurements presented in this section establish the general trends in mass deposition rate and ion current across the experimental parameter space. The apparent trends of increased magnetic field leading to higher mass fluxes and ion currents, larger distances leading to lower mass fluxes and ion currents and a maximum mass flux near the nitrogen pressure of 0.05~Pa. However, these raw quantities do not directly reveal the underlying plasma composition. To address total and ionic fluxes, energy-resolved mass spectrometry was performed under selected conditions to characterize the ion energy distributions and mean charge states, as presented in the following section.
+The measurements presented in this section establish the general trends in mass flux and ion current across the experimental parameter space. The apparent trends of increased magnetic field leading to higher mass fluxes and ion currents, larger distances leading to lower mass fluxes and ion currents and a maximum mass flux near the nitrogen pressure of 0.05~Pa. However, these raw quantities do not directly reveal the underlying plasma composition. To address total and ionic fluxes, energy-resolved mass spectrometry was performed under selected conditions to characterize the ion energy distributions and mean charge states, as presented in the following section.
 
 
 \section{Energy-resolved mass spectrometry results}\label{sec:erms_results}
@@ -348,7 +348,7 @@ These observations confirm that the magnetic macroparticle filter effectively re
 \newpage
 \section{Particle flux calculations}\label{sec:flux}
 
-The ion current and mass deposition rate measurements contain quantities that must be converted to particle fluxes using charge-state data from ERMS (Section~\ref{sec:erms_results}) and chemical composition data obtained from EDX (Section~\ref{sec:results_EDX}). This section presents the derived ion flux $\Gamma_{\text{ion}}$ and total flux $\Phi_{\text{total}}$ for the 14~cm distances studies.
+The ion current and mass flux measurements contain quantities that must be converted to particle fluxes using charge-state data from ERMS (Section~\ref{sec:erms_results}) and chemical composition data obtained from EDX (Section~\ref{sec:results_EDX}). This section presents the derived ion flux $\Gamma_{\text{ion}}$ and total flux $\Phi_{\text{total}}$ for the 14~cm distances studies.
 
 
 \subsection{Calculation methods}
